@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-04-14T05:00:00Z",
+  "season": {
+    "id": "s1",
+    "name": "Season 1",
+    "start_date": "2026-04-08",
+    "end_date": null
+  },
+  "pokemon_usage": [],
+  "tier_list": null,
+  "rank_distribution": null,
+  "sources": [],
+  "_note": "Placeholder file. Real data will be populated by the scraper."
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Champions Battle Meta API</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 2rem 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 { color: #e3350d; margin-bottom: 0.5rem; }
+    h2 { color: #2a75bb; margin-top: 2rem; }
+    a { color: #2a75bb; }
+    pre { 
+      background: #f5f5f5; 
+      padding: 1rem; 
+      border-radius: 8px; 
+      overflow-x: auto;
+      font-size: 0.9rem;
+    }
+    code { 
+      background: #f0f0f0; 
+      padding: 0.2rem 0.4rem; 
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    pre code { background: none; padding: 0; }
+    .endpoint { 
+      background: #e8f4f8; 
+      padding: 0.75rem 1rem; 
+      border-radius: 6px; 
+      margin: 0.75rem 0;
+      font-family: monospace;
+    }
+    .endpoint strong { color: #0366d6; }
+    .status { 
+      background: #d4edda; 
+      border: 1px solid #c3e6cb;
+      padding: 0.75rem 1rem; 
+      border-radius: 6px; 
+      margin: 1rem 0;
+    }
+    .status.pending {
+      background: #fff3cd;
+      border-color: #ffc107;
+    }
+    hr { border: none; border-top: 1px solid #eee; margin: 2rem 0; }
+    footer { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>🏆 Pokémon Champions Battle Meta API</h1>
+  <p>Competitive battle metadata for Pokémon Champions, updated daily at 2 AM UTC.</p>
+  
+  <div class="status pending">
+    <strong>⏳ Status:</strong> Awaiting first scrape. Data will be available after the next scheduled run.
+  </div>
+
+  <h2>Endpoints</h2>
+  
+  <div class="endpoint">
+    <strong>GET</strong> <a href="./battle_meta.json">battle_meta.json</a>
+  </div>
+  <p>Full competitive metadata including Pokémon usage stats, top moves, items, abilities, teammates, and tier lists.</p>
+  
+  <h2>Per-Pokémon Data</h2>
+  <div class="endpoint">
+    <strong>GET</strong> <code>pokemon/{dex_id}.json</code>
+  </div>
+  <p>Individual Pokémon competitive data by National Dex ID.</p>
+  <p>Examples: <code>pokemon/445.json</code> (Garchomp), <code>pokemon/448.json</code> (Lucario)</p>
+
+  <h2>Schema</h2>
+  <pre><code>{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-04-14T02:00:00Z",
+  "season": { "id": "s1", "name": "Season 1", ... },
+  "pokemon_usage": [
+    {
+      "rank": 1,
+      "dex_id": 445,
+      "name": "Garchomp",
+      "usage_rate": 0.342,
+      "win_rate": 0.528,
+      "top_moves": [...],
+      "top_items": [...],
+      "top_teammates": [...]
+    }
+  ],
+  "tier_list": { "S": [...], "A": [...], ... },
+  "sources": [...]
+}</code></pre>
+
+  <h2>Usage</h2>
+  <pre><code>// Fetch and use in your app
+fetch('https://eurekaffeine.github.io/pokemon-champions-scraper/battle_meta.json')
+  .then(res => res.json())
+  .then(data => {
+    console.log(`${data.pokemon_usage.length} Pokémon loaded`);
+    console.log('Top Pokémon:', data.pokemon_usage[0].name);
+  });</code></pre>
+
+  <h2>Caching</h2>
+  <p>Data is updated daily. Use <code>If-Modified-Since</code> or <code>ETag</code> headers for efficient caching:</p>
+  <pre><code>fetch(url, {
+  headers: { 'If-Modified-Since': lastModified }
+}).then(res => {
+  if (res.status === 304) return cachedData; // Not modified
+  return res.json();
+});</code></pre>
+
+  <hr>
+  <footer>
+    <p>
+      Powered by <a href="https://github.com/eurekaffeine/pokemon-champions-scraper">pokemon-champions-scraper</a> 
+      · Data sourced from <a href="https://pikalytics.com">Pikalytics</a> and <a href="https://op.gg">OP.GG</a>
+    </p>
+  </footer>
+</body>
+</html>
