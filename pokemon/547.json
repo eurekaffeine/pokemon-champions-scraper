@@ -6,10 +6,132 @@
     "usage_rank": 7,
     "usage_rate": 0.2027,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Tailwind",
+        "usage": 0.98611
+      },
+      {
+        "name": "Moonblast",
+        "usage": 0.94841
+      },
+      {
+        "name": "Encore",
+        "usage": 0.75
+      },
+      {
+        "name": "Protect",
+        "usage": 0.44048000000000004
+      },
+      {
+        "name": "Sunny Day",
+        "usage": 0.29960000000000003
+      },
+      {
+        "name": "Fake Tears",
+        "usage": 0.13294
+      },
+      {
+        "name": "Taunt",
+        "usage": 0.12103
+      },
+      {
+        "name": "Light Screen",
+        "usage": 0.06349
+      },
+      {
+        "name": "Helping Hand",
+        "usage": 0.061509999999999995
+      },
+      {
+        "name": "Energy Ball",
+        "usage": 0.05159
+      }
+    ],
+    "items": [
+      {
+        "name": "Focus Sash",
+        "usage": 0.74405
+      },
+      {
+        "name": "Mental Herb",
+        "usage": 0.10119
+      },
+      {
+        "name": "Occa Berry",
+        "usage": 0.03571
+      },
+      {
+        "name": "Leftovers",
+        "usage": 0.029759999999999998
+      },
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.02183
+      },
+      {
+        "name": "Bright Powder",
+        "usage": 0.01786
+      },
+      {
+        "name": "Fairy Feather",
+        "usage": 0.01587
+      },
+      {
+        "name": "Kebia Berry",
+        "usage": 0.00992
+      },
+      {
+        "name": "White Herb",
+        "usage": 0.0059499999999999996
+      },
+      {
+        "name": "Covert Cloak",
+        "usage": 0.0039700000000000004
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Prankster",
+        "usage": 0.99603
+      },
+      {
+        "name": "Chlorophyll",
+        "usage": 0.0039700000000000004
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.5674600000000001
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.48810000000000003
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.48016
+      },
+      {
+        "dex_id": 6,
+        "name": "Charizard",
+        "usage": 0.42857
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.24603000000000003
+      },
+      {
+        "dex_id": 981,
+        "name": "Farigiraf",
+        "usage": 0.17857
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

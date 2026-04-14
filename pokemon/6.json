@@ -6,10 +6,128 @@
     "usage_rank": 9,
     "usage_rate": 0.1765,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Protect",
+        "usage": 0.97494
+      },
+      {
+        "name": "Heat Wave",
+        "usage": 0.90888
+      },
+      {
+        "name": "Solar Beam",
+        "usage": 0.7836
+      },
+      {
+        "name": "Weather Ball",
+        "usage": 0.43052
+      },
+      {
+        "name": "Overheat",
+        "usage": 0.28018
+      },
+      {
+        "name": "Air Slash",
+        "usage": 0.24146
+      },
+      {
+        "name": "Flare Blitz",
+        "usage": 0.05239
+      },
+      {
+        "name": "Flamethrower",
+        "usage": 0.04784
+      },
+      {
+        "name": "Scorching Sands",
+        "usage": 0.03872
+      },
+      {
+        "name": "Dragon Dance",
+        "usage": 0.03872
+      }
+    ],
+    "items": [
+      {
+        "name": "Charizardite Y",
+        "usage": 0.9384999999999999
+      },
+      {
+        "name": "Charizardite X",
+        "usage": 0.04784
+      },
+      {
+        "name": "Charcoal",
+        "usage": 0.00456
+      },
+      {
+        "name": "Choice Scarf",
+        "usage": 0.00228
+      },
+      {
+        "name": "Charti Berry",
+        "usage": 0.00228
+      },
+      {
+        "name": "Life Orb",
+        "usage": 0.00228
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.00228
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Blaze",
+        "usage": 0.42369
+      },
+      {
+        "name": "Solar Power",
+        "usage": 0.41458
+      },
+      {
+        "name": "Drought",
+        "usage": 0.14123
+      },
+      {
+        "name": "Tough Claws",
+        "usage": 0.020499999999999997
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.70843
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.63554
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.58087
+      },
+      {
+        "dex_id": 547,
+        "name": "Whimsicott",
+        "usage": 0.49203
+      },
+      {
+        "dex_id": 3,
+        "name": "Venusaur",
+        "usage": 0.43735999999999997
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.26196
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

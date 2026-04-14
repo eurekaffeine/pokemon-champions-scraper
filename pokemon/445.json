@@ -6,10 +6,136 @@
     "usage_rank": 3,
     "usage_rate": 0.37189999999999995,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Earthquake",
+        "usage": 0.8875700000000001
+      },
+      {
+        "name": "Dragon Claw",
+        "usage": 0.8583799999999999
+      },
+      {
+        "name": "Rock Slide",
+        "usage": 0.72108
+      },
+      {
+        "name": "Protect",
+        "usage": 0.67135
+      },
+      {
+        "name": "Stomping Tantrum",
+        "usage": 0.51459
+      },
+      {
+        "name": "Swords Dance",
+        "usage": 0.07135
+      },
+      {
+        "name": "Stone Edge",
+        "usage": 0.05946
+      },
+      {
+        "name": "Bulldoze",
+        "usage": 0.04108
+      },
+      {
+        "name": "Iron Head",
+        "usage": 0.038919999999999996
+      },
+      {
+        "name": "Poison Jab",
+        "usage": 0.03676
+      }
+    ],
+    "items": [
+      {
+        "name": "Choice Scarf",
+        "usage": 0.30378
+      },
+      {
+        "name": "White Herb",
+        "usage": 0.16757000000000002
+      },
+      {
+        "name": "Soft Sand",
+        "usage": 0.12541
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.1027
+      },
+      {
+        "name": "Yache Berry",
+        "usage": 0.06162
+      },
+      {
+        "name": "Garchompite",
+        "usage": 0.03784
+      },
+      {
+        "name": "Haban Berry",
+        "usage": 0.03676
+      },
+      {
+        "name": "Bright Powder",
+        "usage": 0.03568
+      },
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.02703
+      },
+      {
+        "name": "Focus Sash",
+        "usage": 0.02162
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Rough Skin",
+        "usage": 0.89189
+      },
+      {
+        "name": "Sand Veil",
+        "usage": 0.10378
+      },
+      {
+        "name": "Sand Force",
+        "usage": 0.00432
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.54054
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.48216000000000003
+      },
+      {
+        "dex_id": 6,
+        "name": "Charizard",
+        "usage": 0.33622
+      },
+      {
+        "dex_id": 479,
+        "name": "Rotom-Wash",
+        "usage": 0.27784
+      },
+      {
+        "dex_id": 547,
+        "name": "Whimsicott",
+        "usage": 0.26594999999999996
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.23135000000000003
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

@@ -6,10 +6,136 @@
     "usage_rank": 10,
     "usage_rate": 0.1661,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Hurricane",
+        "usage": 0.9733700000000001
+      },
+      {
+        "name": "Weather Ball",
+        "usage": 0.88378
+      },
+      {
+        "name": "Tailwind",
+        "usage": 0.77482
+      },
+      {
+        "name": "Protect",
+        "usage": 0.65375
+      },
+      {
+        "name": "Wide Guard",
+        "usage": 0.34383
+      },
+      {
+        "name": "Muddy Water",
+        "usage": 0.11137999999999999
+      },
+      {
+        "name": "Icy Wind",
+        "usage": 0.0799
+      },
+      {
+        "name": "U-turn",
+        "usage": 0.05085
+      },
+      {
+        "name": "Helping Hand",
+        "usage": 0.038740000000000004
+      },
+      {
+        "name": "Hydro Pump",
+        "usage": 0.03632
+      }
+    ],
+    "items": [
+      {
+        "name": "Focus Sash",
+        "usage": 0.76755
+      },
+      {
+        "name": "Choice Scarf",
+        "usage": 0.0799
+      },
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.05327
+      },
+      {
+        "name": "Leftovers",
+        "usage": 0.026629999999999997
+      },
+      {
+        "name": "Sharp Beak",
+        "usage": 0.01695
+      },
+      {
+        "name": "Wacan Berry",
+        "usage": 0.012110000000000001
+      },
+      {
+        "name": "Quick Claw",
+        "usage": 0.009689999999999999
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.009689999999999999
+      },
+      {
+        "name": "Mystic Water",
+        "usage": 0.009689999999999999
+      },
+      {
+        "name": "Mental Herb",
+        "usage": 0.00484
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Drizzle",
+        "usage": 0.99031
+      },
+      {
+        "name": "Keen Eye",
+        "usage": 0.00726
+      },
+      {
+        "name": "Rain Dish",
+        "usage": 0.00242
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.61259
+      },
+      {
+        "dex_id": 1018,
+        "name": "Archaludon",
+        "usage": 0.5569
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.53027
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.523
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.39709000000000005
+      },
+      {
+        "dex_id": 149,
+        "name": "Dragonite",
+        "usage": 0.36077
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

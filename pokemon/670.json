@@ -6,10 +6,112 @@
     "usage_rank": 8,
     "usage_rate": 0.1769,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Protect",
+        "usage": 0.9863599999999999
+      },
+      {
+        "name": "Calm Mind",
+        "usage": 0.8977299999999999
+      },
+      {
+        "name": "Moonblast",
+        "usage": 0.81136
+      },
+      {
+        "name": "Dazzling Gleam",
+        "usage": 0.79318
+      },
+      {
+        "name": "Draining Kiss",
+        "usage": 0.31364000000000003
+      },
+      {
+        "name": "Light of Ruin",
+        "usage": 0.11135999999999999
+      },
+      {
+        "name": "Psychic",
+        "usage": 0.02955
+      },
+      {
+        "name": "Giga Drain",
+        "usage": 0.02045
+      },
+      {
+        "name": "Pollen Puff",
+        "usage": 0.00909
+      },
+      {
+        "name": "Petal Dance",
+        "usage": 0.0068200000000000005
+      }
+    ],
+    "items": [
+      {
+        "name": "Floettite",
+        "usage": 0.9886400000000001
+      },
+      {
+        "name": "Choice Scarf",
+        "usage": 0.00909
+      },
+      {
+        "name": "floettite",
+        "usage": 0.00227
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Flower Veil",
+        "usage": 0.81364
+      },
+      {
+        "name": "Fairy Aura",
+        "usage": 0.17727
+      },
+      {
+        "name": "Regenerator",
+        "usage": 0.0068200000000000005
+      },
+      {
+        "name": "Symbiosis",
+        "usage": 0.00227
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.73409
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.5522699999999999
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.45682
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.44091
+      },
+      {
+        "dex_id": 142,
+        "name": "Aerodactyl",
+        "usage": 0.30455
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.24773
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

@@ -6,10 +6,136 @@
     "usage_rank": 1,
     "usage_rate": 0.5557,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Fake Out",
+        "usage": 0.9891500000000001
+      },
+      {
+        "name": "Parting Shot",
+        "usage": 0.96527
+      },
+      {
+        "name": "Flare Blitz",
+        "usage": 0.85384
+      },
+      {
+        "name": "Throat Chop",
+        "usage": 0.44067
+      },
+      {
+        "name": "Darkest Lariat",
+        "usage": 0.38205
+      },
+      {
+        "name": "Protect",
+        "usage": 0.13965
+      },
+      {
+        "name": "Will-O-Wisp",
+        "usage": 0.06078
+      },
+      {
+        "name": "Taunt",
+        "usage": 0.04341999999999999
+      },
+      {
+        "name": "Helping Hand",
+        "usage": 0.03618
+      },
+      {
+        "name": "Snarl",
+        "usage": 0.02894
+      }
+    ],
+    "items": [
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.5564399999999999
+      },
+      {
+        "name": "Chople Berry",
+        "usage": 0.15991
+      },
+      {
+        "name": "Shuca Berry",
+        "usage": 0.12735
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.0492
+      },
+      {
+        "name": "Leftovers",
+        "usage": 0.03835
+      },
+      {
+        "name": "Passho Berry",
+        "usage": 0.02388
+      },
+      {
+        "name": "White Herb",
+        "usage": 0.00724
+      },
+      {
+        "name": "Black Glasses",
+        "usage": 0.00651
+      },
+      {
+        "name": "Quick Claw",
+        "usage": 0.00651
+      },
+      {
+        "name": "Bright Powder",
+        "usage": 0.00434
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "usage": 0.98336
+      },
+      {
+        "name": "Blaze",
+        "usage": 0.01592
+      },
+      {
+        "name": "Intimidaci",
+        "usage": 0.0007199999999999999
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.4081
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.39000999999999997
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.36179
+      },
+      {
+        "dex_id": 670,
+        "name": "Floette",
+        "usage": 0.23372
+      },
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.21056
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.20984000000000003
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

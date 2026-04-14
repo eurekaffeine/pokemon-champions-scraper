@@ -6,10 +6,136 @@
     "usage_rank": 6,
     "usage_rate": 0.2207,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Last Respects",
+        "usage": 0.9763200000000001
+      },
+      {
+        "name": "Wave Crash",
+        "usage": 0.93989
+      },
+      {
+        "name": "Aqua Jet",
+        "usage": 0.85792
+      },
+      {
+        "name": "Flip Turn",
+        "usage": 0.75046
+      },
+      {
+        "name": "Protect",
+        "usage": 0.28597
+      },
+      {
+        "name": "Liquidation",
+        "usage": 0.045540000000000004
+      },
+      {
+        "name": "Icy Wind",
+        "usage": 0.03643
+      },
+      {
+        "name": "Phantom Force",
+        "usage": 0.016390000000000002
+      },
+      {
+        "name": "Shadow Ball",
+        "usage": 0.016390000000000002
+      },
+      {
+        "name": "Psychic Fangs",
+        "usage": 0.01275
+      }
+    ],
+    "items": [
+      {
+        "name": "Choice Scarf",
+        "usage": 0.65756
+      },
+      {
+        "name": "Mystic Water",
+        "usage": 0.26958
+      },
+      {
+        "name": "Focus Sash",
+        "usage": 0.02732
+      },
+      {
+        "name": "White Herb",
+        "usage": 0.01093
+      },
+      {
+        "name": "Spell Tag",
+        "usage": 0.00729
+      },
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.00729
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.0054600000000000004
+      },
+      {
+        "name": "Life Orb",
+        "usage": 0.00364
+      },
+      {
+        "name": "Colbur Berry",
+        "usage": 0.00364
+      },
+      {
+        "name": "Leftovers",
+        "usage": 0.00364
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Adaptability",
+        "usage": 0.6776000000000001
+      },
+      {
+        "name": "Swift Swim",
+        "usage": 0.32058
+      },
+      {
+        "name": "Adapdability",
+        "usage": 0.00182
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.53005
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.52277
+      },
+      {
+        "dex_id": 279,
+        "name": "Pelipper",
+        "usage": 0.46084
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.35883000000000004
+      },
+      {
+        "dex_id": 1018,
+        "name": "Archaludon",
+        "usage": 0.32787
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.30419
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

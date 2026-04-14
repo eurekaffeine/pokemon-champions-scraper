@@ -6,10 +6,140 @@
     "usage_rank": 5,
     "usage_rate": 0.2742,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Sucker Punch",
+        "usage": 0.9985299999999999
+      },
+      {
+        "name": "Protect",
+        "usage": 0.93988
+      },
+      {
+        "name": "Kowtow Cleave",
+        "usage": 0.88563
+      },
+      {
+        "name": "Iron Head",
+        "usage": 0.54692
+      },
+      {
+        "name": "Swords Dance",
+        "usage": 0.42375
+      },
+      {
+        "name": "Low Kick",
+        "usage": 0.16862
+      },
+      {
+        "name": "Assurance",
+        "usage": 0.01906
+      },
+      {
+        "name": "Brick Break",
+        "usage": 0.01026
+      },
+      {
+        "name": "Shadow Claw",
+        "usage": 0.00293
+      },
+      {
+        "name": "Iron Defense",
+        "usage": 0.00293
+      }
+    ],
+    "items": [
+      {
+        "name": "Black Glasses",
+        "usage": 0.6202300000000001
+      },
+      {
+        "name": "Chople Berry",
+        "usage": 0.27859
+      },
+      {
+        "name": "Dread Plate",
+        "usage": 0.01613
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.01613
+      },
+      {
+        "name": "Leftovers",
+        "usage": 0.01466
+      },
+      {
+        "name": "Focus Sash",
+        "usage": 0.0132
+      },
+      {
+        "name": "Occa Berry",
+        "usage": 0.00733
+      },
+      {
+        "name": "Black Belt",
+        "usage": 0.005869999999999999
+      },
+      {
+        "name": "Shuca Berry",
+        "usage": 0.0044
+      },
+      {
+        "name": "Shell Bell",
+        "usage": 0.00293
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Defiant",
+        "usage": 0.9853400000000001
+      },
+      {
+        "name": "Supreme Overlord",
+        "usage": 0.01173
+      },
+      {
+        "name": "Pressure",
+        "usage": 0.00147
+      },
+      {
+        "name": "DefiantLevel",
+        "usage": 0.00147
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.59971
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.42522
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.34164
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.31378
+      },
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.24486999999999998
+      },
+      {
+        "dex_id": 478,
+        "name": "Froslass",
+        "usage": 0.19501000000000002
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

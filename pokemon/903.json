@@ -6,10 +6,136 @@
     "usage_rank": 2,
     "usage_rate": 0.4572,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Close Combat",
+        "usage": 0.9964799999999999
+      },
+      {
+        "name": "Dire Claw",
+        "usage": 0.98153
+      },
+      {
+        "name": "Fake Out",
+        "usage": 0.86544
+      },
+      {
+        "name": "Protect",
+        "usage": 0.7475799999999999
+      },
+      {
+        "name": "Coaching",
+        "usage": 0.20756
+      },
+      {
+        "name": "Rock Tomb",
+        "usage": 0.07828
+      },
+      {
+        "name": "Throat Chop",
+        "usage": 0.03782
+      },
+      {
+        "name": "Rock Slide",
+        "usage": 0.028140000000000002
+      },
+      {
+        "name": "Taunt",
+        "usage": 0.012310000000000001
+      },
+      {
+        "name": "Gunk Shot",
+        "usage": 0.00967
+      }
+    ],
+    "items": [
+      {
+        "name": "White Herb",
+        "usage": 0.70449
+      },
+      {
+        "name": "Focus Sash",
+        "usage": 0.26472999999999997
+      },
+      {
+        "name": "Mental Herb",
+        "usage": 0.01935
+      },
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.0035199999999999997
+      },
+      {
+        "name": "Choice Scarf",
+        "usage": 0.0017599999999999998
+      },
+      {
+        "name": "Black Belt",
+        "usage": 0.0017599999999999998
+      },
+      {
+        "name": "Oran Berry",
+        "usage": 0.0008799999999999999
+      },
+      {
+        "name": "Silk Scarf",
+        "usage": 0.0008799999999999999
+      },
+      {
+        "name": "Lum Berry",
+        "usage": 0.0008799999999999999
+      },
+      {
+        "name": "Poison Barb",
+        "usage": 0.0008799999999999999
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Unburden",
+        "usage": 0.9015000000000001
+      },
+      {
+        "name": "Poison Touch",
+        "usage": 0.06772
+      },
+      {
+        "name": "Pressure",
+        "usage": 0.03078
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.47405
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.39226
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.35972000000000004
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.34125
+      },
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.25242000000000003
+      },
+      {
+        "dex_id": 6,
+        "name": "Charizard",
+        "usage": 0.22427
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

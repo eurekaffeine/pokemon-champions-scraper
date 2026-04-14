@@ -6,10 +6,132 @@
     "usage_rank": 4,
     "usage_rate": 0.35950000000000004,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "name": "Matcha Gotcha",
+        "usage": 0.99664
+      },
+      {
+        "name": "Rage Powder",
+        "usage": 0.97092
+      },
+      {
+        "name": "Trick Room",
+        "usage": 0.6554800000000001
+      },
+      {
+        "name": "Life Dew",
+        "usage": 0.52349
+      },
+      {
+        "name": "Strength Sap",
+        "usage": 0.33445
+      },
+      {
+        "name": "Protect",
+        "usage": 0.32103000000000004
+      },
+      {
+        "name": "Shadow Ball",
+        "usage": 0.12864
+      },
+      {
+        "name": "Imprison",
+        "usage": 0.02461
+      },
+      {
+        "name": "Calm Mind",
+        "usage": 0.01119
+      },
+      {
+        "name": "Scald",
+        "usage": 0.010069999999999999
+      }
+    ],
+    "items": [
+      {
+        "name": "Sitrus Berry",
+        "usage": 0.55928
+      },
+      {
+        "name": "Leftovers",
+        "usage": 0.16107
+      },
+      {
+        "name": "Occa Berry",
+        "usage": 0.07271
+      },
+      {
+        "name": "Mental Herb",
+        "usage": 0.066
+      },
+      {
+        "name": "Colbur Berry",
+        "usage": 0.03356
+      },
+      {
+        "name": "Bright Powder",
+        "usage": 0.02125
+      },
+      {
+        "name": "Kasib Berry",
+        "usage": 0.02013
+      },
+      {
+        "name": "Coba Berry",
+        "usage": 0.01902
+      },
+      {
+        "name": "Focus Sash",
+        "usage": 0.01678
+      },
+      {
+        "name": "Quick Claw",
+        "usage": 0.01119
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Hospitality",
+        "usage": 0.99105
+      },
+      {
+        "name": "Heatproof",
+        "usage": 0.00895
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.63087
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.434
+      },
+      {
+        "dex_id": 670,
+        "name": "Floette",
+        "usage": 0.27181
+      },
+      {
+        "dex_id": 248,
+        "name": "Tyranitar",
+        "usage": 0.2651
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.26063
+      },
+      {
+        "dex_id": 279,
+        "name": "Pelipper",
+        "usage": 0.24497
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }
