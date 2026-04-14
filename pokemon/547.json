@@ -4,132 +4,159 @@
   "form": null,
   "competitive": {
     "usage_rank": 7,
-    "usage_rate": 0.2027,
+    "usage_rate": 0.2006,
     "win_rate": null,
     "moves": [
       {
+        "id": 366,
         "name": "Tailwind",
-        "usage": 0.98611
+        "usage": 0.98756
       },
       {
+        "id": 585,
         "name": "Moonblast",
-        "usage": 0.94841
+        "usage": 0.95179
       },
       {
+        "id": 227,
         "name": "Encore",
-        "usage": 0.75
+        "usage": 0.73872
       },
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.44048000000000004
+        "usage": 0.44945999999999997
       },
       {
+        "id": 241,
         "name": "Sunny Day",
-        "usage": 0.29960000000000003
+        "usage": 0.31415
       },
       {
+        "id": 313,
         "name": "Fake Tears",
-        "usage": 0.13294
+        "usage": 0.1182
       },
       {
+        "id": 269,
         "name": "Taunt",
-        "usage": 0.12103
+        "usage": 0.10731
       },
       {
-        "name": "Light Screen",
-        "usage": 0.06349
-      },
-      {
+        "id": 270,
         "name": "Helping Hand",
-        "usage": 0.061509999999999995
+        "usage": 0.06998
       },
       {
+        "id": 113,
+        "name": "Light Screen",
+        "usage": 0.05443
+      },
+      {
+        "id": 412,
         "name": "Energy Ball",
-        "usage": 0.05159
+        "usage": 0.048209999999999996
       }
     ],
     "items": [
       {
+        "id": 252,
         "name": "Focus Sash",
-        "usage": 0.74405
+        "usage": 0.72784
       },
       {
+        "id": 196,
         "name": "Mental Herb",
-        "usage": 0.10119
+        "usage": 0.10886
       },
       {
+        "id": 161,
         "name": "Occa Berry",
-        "usage": 0.03571
+        "usage": 0.03421
       },
       {
+        "id": 211,
         "name": "Leftovers",
-        "usage": 0.029759999999999998
+        "usage": 0.02955
       },
       {
+        "id": 135,
         "name": "Sitrus Berry",
-        "usage": 0.02183
+        "usage": 0.02177
       },
       {
-        "name": "Bright Powder",
-        "usage": 0.01786
-      },
-      {
+        "id": 2105,
         "name": "Fairy Feather",
-        "usage": 0.01587
+        "usage": 0.01711
       },
       {
+        "id": 190,
+        "name": "Bright Powder",
+        "usage": 0.01711
+      },
+      {
+        "id": 167,
         "name": "Kebia Berry",
-        "usage": 0.00992
+        "usage": 0.01089
       },
       {
-        "name": "White Herb",
-        "usage": 0.0059499999999999996
-      },
-      {
+        "id": 1701,
         "name": "Covert Cloak",
-        "usage": 0.0039700000000000004
+        "usage": 0.0077800000000000005
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.0077800000000000005
       }
     ],
     "abilities": [
       {
+        "id": 158,
         "name": "Prankster",
-        "usage": 0.99603
+        "usage": 0.99378
       },
       {
+        "id": 34,
         "name": "Chlorophyll",
-        "usage": 0.0039700000000000004
+        "usage": 0.0046700000000000005
+      },
+      {
+        "id": 151,
+        "name": "Infiltrator",
+        "usage": 0.00156
       }
     ],
     "teammates": [
       {
         "dex_id": 727,
         "name": "Incineroar",
-        "usage": 0.5674600000000001
+        "usage": 0.56765
       },
       {
         "dex_id": 445,
         "name": "Garchomp",
-        "usage": 0.48810000000000003
+        "usage": 0.48678
       },
       {
         "dex_id": 903,
         "name": "Sneasler",
-        "usage": 0.48016
+        "usage": 0.45100999999999997
       },
       {
         "dex_id": 6,
         "name": "Charizard",
-        "usage": 0.42857
+        "usage": 0.4339
       },
       {
         "dex_id": 983,
         "name": "Kingambit",
-        "usage": 0.24603000000000003
+        "usage": 0.22394999999999998
       },
       {
         "dex_id": 981,
         "name": "Farigiraf",
-        "usage": 0.17857
+        "usage": 0.16952
       }
     ],
     "tera_types": [],

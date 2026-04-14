@@ -4,132 +4,154 @@
   "form": null,
   "competitive": {
     "usage_rank": 4,
-    "usage_rate": 0.35950000000000004,
+    "usage_rate": 0.34619999999999995,
     "win_rate": null,
     "moves": [
       {
+        "id": 902,
         "name": "Matcha Gotcha",
-        "usage": 0.99664
+        "usage": 0.99369
       },
       {
+        "id": 476,
         "name": "Rage Powder",
-        "usage": 0.97092
+        "usage": 0.97207
       },
       {
+        "id": 433,
         "name": "Trick Room",
-        "usage": 0.6554800000000001
+        "usage": 0.66306
       },
       {
+        "id": 791,
         "name": "Life Dew",
-        "usage": 0.52349
+        "usage": 0.53063
       },
       {
+        "id": 668,
         "name": "Strength Sap",
-        "usage": 0.33445
+        "usage": 0.31982
       },
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.32103000000000004
+        "usage": 0.31892
       },
       {
+        "id": 247,
         "name": "Shadow Ball",
-        "usage": 0.12864
+        "usage": 0.13243
       },
       {
+        "id": 286,
         "name": "Imprison",
-        "usage": 0.02461
+        "usage": 0.02162
       },
       {
+        "id": 347,
         "name": "Calm Mind",
-        "usage": 0.01119
+        "usage": 0.01171
       },
       {
+        "id": 503,
         "name": "Scald",
-        "usage": 0.010069999999999999
+        "usage": 0.01081
       }
     ],
     "items": [
       {
+        "id": 135,
         "name": "Sitrus Berry",
-        "usage": 0.55928
+        "usage": 0.57477
       },
       {
+        "id": 211,
         "name": "Leftovers",
-        "usage": 0.16107
+        "usage": 0.15495
       },
       {
+        "id": 161,
         "name": "Occa Berry",
-        "usage": 0.07271
+        "usage": 0.06847
       },
       {
+        "id": 196,
         "name": "Mental Herb",
-        "usage": 0.066
+        "usage": 0.06126
       },
       {
+        "id": 175,
         "name": "Colbur Berry",
-        "usage": 0.03356
+        "usage": 0.03243
       },
       {
-        "name": "Bright Powder",
-        "usage": 0.02125
-      },
-      {
-        "name": "Kasib Berry",
-        "usage": 0.02013
-      },
-      {
+        "id": 169,
         "name": "Coba Berry",
-        "usage": 0.01902
+        "usage": 0.02162
       },
       {
+        "id": 173,
+        "name": "Kasib Berry",
+        "usage": 0.01892
+      },
+      {
+        "id": 190,
+        "name": "Bright Powder",
+        "usage": 0.01892
+      },
+      {
+        "id": 252,
         "name": "Focus Sash",
-        "usage": 0.01678
+        "usage": 0.01712
       },
       {
+        "id": 194,
         "name": "Quick Claw",
-        "usage": 0.01119
+        "usage": 0.01081
       }
     ],
     "abilities": [
       {
+        "id": 299,
         "name": "Hospitality",
-        "usage": 0.99105
+        "usage": 0.98919
       },
       {
+        "id": 85,
         "name": "Heatproof",
-        "usage": 0.00895
+        "usage": 0.01081
       }
     ],
     "teammates": [
       {
         "dex_id": 727,
         "name": "Incineroar",
-        "usage": 0.63087
+        "usage": 0.61892
       },
       {
         "dex_id": 903,
         "name": "Sneasler",
-        "usage": 0.434
+        "usage": 0.43333
       },
       {
         "dex_id": 670,
         "name": "Floette",
-        "usage": 0.27181
+        "usage": 0.26937
       },
       {
         "dex_id": 248,
         "name": "Tyranitar",
-        "usage": 0.2651
+        "usage": 0.26847
       },
       {
         "dex_id": 983,
         "name": "Kingambit",
-        "usage": 0.26063
+        "usage": 0.25135
       },
       {
         "dex_id": 279,
         "name": "Pelipper",
-        "usage": 0.24497
+        "usage": 0.23152999999999999
       }
     ],
     "tera_types": [],

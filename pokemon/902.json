@@ -4,136 +4,164 @@
   "form": null,
   "competitive": {
     "usage_rank": 6,
-    "usage_rate": 0.2207,
+    "usage_rate": 0.22149999999999997,
     "win_rate": null,
     "moves": [
       {
+        "id": 854,
         "name": "Last Respects",
-        "usage": 0.9763200000000001
+        "usage": 0.9760599999999999
       },
       {
+        "id": 834,
         "name": "Wave Crash",
-        "usage": 0.93989
+        "usage": 0.9422499999999999
       },
       {
+        "id": 453,
         "name": "Aqua Jet",
-        "usage": 0.85792
+        "usage": 0.8633799999999999
       },
       {
+        "id": 812,
         "name": "Flip Turn",
-        "usage": 0.75046
+        "usage": 0.7408499999999999
       },
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.28597
+        "usage": 0.28309999999999996
       },
       {
+        "id": 710,
         "name": "Liquidation",
-        "usage": 0.045540000000000004
+        "usage": 0.04507
       },
       {
+        "id": 196,
         "name": "Icy Wind",
-        "usage": 0.03643
+        "usage": 0.0338
       },
       {
+        "id": 423,
+        "name": "Ice Fang",
+        "usage": 0.0169
+      },
+      {
+        "id": 566,
         "name": "Phantom Force",
-        "usage": 0.016390000000000002
+        "usage": 0.015489999999999999
       },
       {
+        "id": 247,
         "name": "Shadow Ball",
-        "usage": 0.016390000000000002
-      },
-      {
-        "name": "Psychic Fangs",
-        "usage": 0.01275
+        "usage": 0.015489999999999999
       }
     ],
     "items": [
       {
+        "id": 264,
         "name": "Choice Scarf",
-        "usage": 0.65756
+        "usage": 0.6549299999999999
       },
       {
+        "id": 220,
         "name": "Mystic Water",
-        "usage": 0.26958
+        "usage": 0.27324000000000004
       },
       {
+        "id": 252,
         "name": "Focus Sash",
-        "usage": 0.02732
+        "usage": 0.02817
       },
       {
+        "id": 191,
         "name": "White Herb",
-        "usage": 0.01093
+        "usage": 0.00986
       },
       {
-        "name": "Spell Tag",
-        "usage": 0.00729
-      },
-      {
+        "id": 135,
         "name": "Sitrus Berry",
-        "usage": 0.00729
+        "usage": 0.007039999999999999
       },
       {
+        "id": 224,
+        "name": "Spell Tag",
+        "usage": 0.00563
+      },
+      {
+        "id": 134,
         "name": "Lum Berry",
-        "usage": 0.0054600000000000004
+        "usage": 0.00563
       },
       {
-        "name": "Life Orb",
-        "usage": 0.00364
-      },
-      {
-        "name": "Colbur Berry",
-        "usage": 0.00364
-      },
-      {
+        "id": 211,
         "name": "Leftovers",
-        "usage": 0.00364
+        "usage": 0.00423
+      },
+      {
+        "id": 247,
+        "name": "Life Orb",
+        "usage": 0.0028199999999999996
+      },
+      {
+        "id": 175,
+        "name": "Colbur Berry",
+        "usage": 0.0028199999999999996
       }
     ],
     "abilities": [
       {
+        "id": 91,
         "name": "Adaptability",
-        "usage": 0.6776000000000001
+        "usage": 0.6831
       },
       {
+        "id": 33,
         "name": "Swift Swim",
-        "usage": 0.32058
+        "usage": 0.31408
       },
       {
+        "id": 0,
         "name": "Adapdability",
-        "usage": 0.00182
+        "usage": 0.0014099999999999998
+      },
+      {
+        "id": 0,
+        "name": "swift Swin",
+        "usage": 0.0014099999999999998
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
-        "usage": 0.53005
-      },
-      {
         "dex_id": 903,
         "name": "Sneasler",
-        "usage": 0.52277
+        "usage": 0.52535
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.51268
       },
       {
         "dex_id": 279,
         "name": "Pelipper",
-        "usage": 0.46084
-      },
-      {
-        "dex_id": 1013,
-        "name": "Sinistcha",
-        "usage": 0.35883000000000004
+        "usage": 0.4507
       },
       {
         "dex_id": 1018,
         "name": "Archaludon",
-        "usage": 0.32787
+        "usage": 0.34366
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.34225
       },
       {
         "dex_id": 983,
         "name": "Kingambit",
-        "usage": 0.30419
+        "usage": 0.30845
       }
     ],
     "tera_types": [],

@@ -3,113 +3,130 @@
   "name": "Floette",
   "form": null,
   "competitive": {
-    "usage_rank": 8,
-    "usage_rate": 0.1769,
+    "usage_rank": 9,
+    "usage_rate": 0.1778,
     "win_rate": null,
     "moves": [
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.9863599999999999
+        "usage": 0.9859600000000001
       },
       {
+        "id": 347,
         "name": "Calm Mind",
-        "usage": 0.8977299999999999
+        "usage": 0.89649
       },
       {
-        "name": "Moonblast",
-        "usage": 0.81136
-      },
-      {
+        "id": 605,
         "name": "Dazzling Gleam",
-        "usage": 0.79318
+        "usage": 0.8245600000000001
       },
       {
+        "id": 585,
+        "name": "Moonblast",
+        "usage": 0.80526
+      },
+      {
+        "id": 577,
         "name": "Draining Kiss",
-        "usage": 0.31364000000000003
+        "usage": 0.29297999999999996
       },
       {
+        "id": 617,
         "name": "Light of Ruin",
-        "usage": 0.11135999999999999
+        "usage": 0.11404
       },
       {
+        "id": 94,
         "name": "Psychic",
-        "usage": 0.02955
+        "usage": 0.029820000000000003
       },
       {
+        "id": 202,
         "name": "Giga Drain",
-        "usage": 0.02045
+        "usage": 0.019299999999999998
       },
       {
+        "id": 676,
         "name": "Pollen Puff",
-        "usage": 0.00909
+        "usage": 0.007019999999999999
       },
       {
+        "id": 80,
         "name": "Petal Dance",
-        "usage": 0.0068200000000000005
+        "usage": 0.007019999999999999
       }
     ],
     "items": [
       {
+        "id": 2579,
         "name": "Floettite",
-        "usage": 0.9886400000000001
+        "usage": 0.98772
       },
       {
+        "id": 264,
         "name": "Choice Scarf",
-        "usage": 0.00909
+        "usage": 0.01053
       },
       {
+        "id": 2579,
         "name": "floettite",
-        "usage": 0.00227
+        "usage": 0.0017499999999999998
       }
     ],
     "abilities": [
       {
+        "id": 166,
         "name": "Flower Veil",
-        "usage": 0.81364
+        "usage": 0.79298
       },
       {
+        "id": 187,
         "name": "Fairy Aura",
-        "usage": 0.17727
+        "usage": 0.19649
       },
       {
+        "id": 144,
         "name": "Regenerator",
-        "usage": 0.0068200000000000005
+        "usage": 0.00526
       },
       {
+        "id": 180,
         "name": "Symbiosis",
-        "usage": 0.00227
+        "usage": 0.00526
       }
     ],
     "teammates": [
       {
         "dex_id": 727,
         "name": "Incineroar",
-        "usage": 0.73409
+        "usage": 0.70175
       },
       {
         "dex_id": 1013,
         "name": "Sinistcha",
-        "usage": 0.5522699999999999
-      },
-      {
-        "dex_id": 445,
-        "name": "Garchomp",
-        "usage": 0.45682
+        "usage": 0.52456
       },
       {
         "dex_id": 903,
         "name": "Sneasler",
-        "usage": 0.44091
+        "usage": 0.45614
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.45263
       },
       {
         "dex_id": 142,
         "name": "Aerodactyl",
-        "usage": 0.30455
+        "usage": 0.32104999999999995
       },
       {
         "dex_id": 983,
         "name": "Kingambit",
-        "usage": 0.24773
+        "usage": 0.25789
       }
     ],
     "tera_types": [],

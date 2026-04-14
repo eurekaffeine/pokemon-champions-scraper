@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T05:23:46.313620Z",
+  "updated_at": "2026-04-14T10:12:12.625220Z",
   "season": {
     "id": "s1",
     "name": "Season 1",
@@ -13,136 +13,159 @@
       "dex_id": 727,
       "name": "Incineroar",
       "form": null,
-      "usage_rate": 0.5557,
+      "usage_rate": 0.5437,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 252,
           "name": "Fake Out",
-          "usage": 0.9891500000000001
+          "usage": 0.9902500000000001
         },
         {
+          "id": 575,
           "name": "Parting Shot",
-          "usage": 0.96527
+          "usage": 0.96041
         },
         {
+          "id": 394,
           "name": "Flare Blitz",
-          "usage": 0.85384
+          "usage": 0.8537
         },
         {
+          "id": 675,
           "name": "Throat Chop",
-          "usage": 0.44067
+          "usage": 0.43431
         },
         {
+          "id": 663,
           "name": "Darkest Lariat",
-          "usage": 0.38205
+          "usage": 0.38669
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.13965
+          "usage": 0.13941
         },
         {
+          "id": 261,
           "name": "Will-O-Wisp",
-          "usage": 0.06078
+          "usage": 0.06139
         },
         {
+          "id": 269,
           "name": "Taunt",
-          "usage": 0.04341999999999999
+          "usage": 0.04188
         },
         {
+          "id": 270,
           "name": "Helping Hand",
-          "usage": 0.03618
+          "usage": 0.04016
         },
         {
+          "id": 555,
           "name": "Snarl",
-          "usage": 0.02894
+          "usage": 0.028690000000000004
         }
       ],
       "top_items": [
         {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.5564399999999999
+          "usage": 0.56168
         },
         {
+          "id": 166,
           "name": "Chople Berry",
-          "usage": 0.15991
+          "usage": 0.15491
         },
         {
+          "id": 168,
           "name": "Shuca Berry",
-          "usage": 0.12735
+          "usage": 0.12622
         },
         {
+          "id": 134,
           "name": "Lum Berry",
-          "usage": 0.0492
+          "usage": 0.04877
         },
         {
+          "id": 211,
           "name": "Leftovers",
-          "usage": 0.03835
+          "usage": 0.039009999999999996
         },
         {
+          "id": 162,
           "name": "Passho Berry",
-          "usage": 0.02388
+          "usage": 0.021230000000000002
         },
         {
+          "id": 191,
           "name": "White Herb",
-          "usage": 0.00724
+          "usage": 0.00975
         },
         {
+          "id": 217,
           "name": "Black Glasses",
-          "usage": 0.00651
+          "usage": 0.00688
         },
         {
+          "id": 194,
           "name": "Quick Claw",
-          "usage": 0.00651
+          "usage": 0.00631
         },
         {
-          "name": "Bright Powder",
-          "usage": 0.00434
+          "id": 226,
+          "name": "Charcoal",
+          "usage": 0.0051600000000000005
         }
       ],
       "top_abilities": [
         {
+          "id": 22,
           "name": "Intimidate",
-          "usage": 0.98336
+          "usage": 0.9816400000000001
         },
         {
+          "id": 66,
           "name": "Blaze",
-          "usage": 0.01592
+          "usage": 0.01779
         },
         {
+          "id": 0,
           "name": "Intimidaci",
-          "usage": 0.0007199999999999999
+          "usage": 0.00057
         }
       ],
       "top_teammates": [
         {
           "dex_id": 1013,
           "name": "Sinistcha",
-          "usage": 0.4081
+          "usage": 0.39415
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.39000999999999997
+          "usage": 0.3821
         },
         {
           "dex_id": 445,
           "name": "Garchomp",
-          "usage": 0.36179
+          "usage": 0.36374
         },
         {
           "dex_id": 670,
           "name": "Floette",
-          "usage": 0.23372
+          "usage": 0.22949000000000003
         },
         {
-          "dex_id": 902,
-          "name": "Basculegion",
-          "usage": 0.21056
+          "dex_id": 6,
+          "name": "Charizard",
+          "usage": 0.21112999999999998
         },
         {
-          "dex_id": 983,
-          "name": "Kingambit",
-          "usage": 0.20984000000000003
+          "dex_id": 547,
+          "name": "Whimsicott",
+          "usage": 0.20940999999999999
         }
       ],
       "top_tera_types": [],
@@ -153,136 +176,159 @@
       "dex_id": 903,
       "name": "Sneasler",
       "form": null,
-      "usage_rate": 0.4572,
+      "usage_rate": 0.45130000000000003,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 370,
           "name": "Close Combat",
-          "usage": 0.9964799999999999
+          "usage": 0.99654
         },
         {
+          "id": 827,
           "name": "Dire Claw",
-          "usage": 0.98153
+          "usage": 0.9799599999999999
         },
         {
+          "id": 252,
           "name": "Fake Out",
-          "usage": 0.86544
+          "usage": 0.87422
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.7475799999999999
+          "usage": 0.74914
         },
         {
+          "id": 811,
           "name": "Coaching",
-          "usage": 0.20756
+          "usage": 0.19143000000000002
         },
         {
+          "id": 317,
           "name": "Rock Tomb",
-          "usage": 0.07828
+          "usage": 0.07256
         },
         {
+          "id": 675,
           "name": "Throat Chop",
-          "usage": 0.03782
+          "usage": 0.03594
         },
         {
+          "id": 157,
           "name": "Rock Slide",
-          "usage": 0.028140000000000002
+          "usage": 0.02903
         },
         {
+          "id": 269,
           "name": "Taunt",
-          "usage": 0.012310000000000001
+          "usage": 0.01175
         },
         {
+          "id": 441,
           "name": "Gunk Shot",
-          "usage": 0.00967
+          "usage": 0.01106
         }
       ],
       "top_items": [
         {
+          "id": 191,
           "name": "White Herb",
-          "usage": 0.70449
+          "usage": 0.7056
         },
         {
+          "id": 252,
           "name": "Focus Sash",
-          "usage": 0.26472999999999997
+          "usage": 0.26054
         },
         {
+          "id": 196,
           "name": "Mental Herb",
-          "usage": 0.01935
+          "usage": 0.02073
         },
         {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.0035199999999999997
+          "usage": 0.00415
         },
         {
+          "id": 264,
           "name": "Choice Scarf",
-          "usage": 0.0017599999999999998
+          "usage": 0.0013800000000000002
         },
         {
+          "id": 218,
           "name": "Black Belt",
-          "usage": 0.0017599999999999998
+          "usage": 0.0013800000000000002
         },
         {
+          "id": 132,
           "name": "Oran Berry",
-          "usage": 0.0008799999999999999
+          "usage": 0.0006900000000000001
         },
         {
+          "id": 228,
           "name": "Silk Scarf",
-          "usage": 0.0008799999999999999
+          "usage": 0.0006900000000000001
         },
         {
+          "id": 134,
           "name": "Lum Berry",
-          "usage": 0.0008799999999999999
+          "usage": 0.0006900000000000001
         },
         {
+          "id": 222,
           "name": "Poison Barb",
-          "usage": 0.0008799999999999999
+          "usage": 0.0006900000000000001
         }
       ],
       "top_abilities": [
         {
+          "id": 84,
           "name": "Unburden",
-          "usage": 0.9015000000000001
+          "usage": 0.8991
         },
         {
+          "id": 143,
           "name": "Poison Touch",
-          "usage": 0.06772
+          "usage": 0.07118000000000001
         },
         {
+          "id": 46,
           "name": "Pressure",
-          "usage": 0.03078
+          "usage": 0.02972
         }
       ],
       "top_teammates": [
         {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.47405
+          "usage": 0.46026000000000006
         },
         {
           "dex_id": 445,
           "name": "Garchomp",
-          "usage": 0.39226
+          "usage": 0.39046
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.35972000000000004
+          "usage": 0.36075
         },
         {
           "dex_id": 1013,
           "name": "Sinistcha",
-          "usage": 0.34125
+          "usage": 0.33241
         },
         {
           "dex_id": 902,
           "name": "Basculegion",
-          "usage": 0.25242000000000003
+          "usage": 0.25777
         },
         {
           "dex_id": 6,
           "name": "Charizard",
-          "usage": 0.22427
+          "usage": 0.21631
         }
       ],
       "top_tera_types": [],
@@ -293,136 +339,159 @@
       "dex_id": 445,
       "name": "Garchomp",
       "form": null,
-      "usage_rate": 0.37189999999999995,
+      "usage_rate": 0.3715,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 89,
           "name": "Earthquake",
-          "usage": 0.8875700000000001
+          "usage": 0.88665
         },
         {
+          "id": 337,
           "name": "Dragon Claw",
-          "usage": 0.8583799999999999
+          "usage": 0.85139
         },
         {
+          "id": 157,
           "name": "Rock Slide",
-          "usage": 0.72108
+          "usage": 0.7220799999999999
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.67135
+          "usage": 0.67338
         },
         {
+          "id": 707,
           "name": "Stomping Tantrum",
-          "usage": 0.51459
+          "usage": 0.5046200000000001
         },
         {
+          "id": 14,
           "name": "Swords Dance",
-          "usage": 0.07135
+          "usage": 0.06717
         },
         {
+          "id": 444,
           "name": "Stone Edge",
-          "usage": 0.05946
+          "usage": 0.06213
         },
         {
-          "name": "Bulldoze",
-          "usage": 0.04108
-        },
-        {
+          "id": 442,
           "name": "Iron Head",
-          "usage": 0.038919999999999996
+          "usage": 0.04534
         },
         {
+          "id": 398,
           "name": "Poison Jab",
-          "usage": 0.03676
+          "usage": 0.041139999999999996
+        },
+        {
+          "id": 523,
+          "name": "Bulldoze",
+          "usage": 0.03778
         }
       ],
       "top_items": [
         {
+          "id": 264,
           "name": "Choice Scarf",
-          "usage": 0.30378
+          "usage": 0.29639
         },
         {
+          "id": 191,
           "name": "White Herb",
-          "usage": 0.16757000000000002
+          "usage": 0.16876999999999998
         },
         {
+          "id": 214,
           "name": "Soft Sand",
-          "usage": 0.12541
+          "usage": 0.13266
         },
         {
+          "id": 134,
           "name": "Lum Berry",
-          "usage": 0.1027
+          "usage": 0.09908
         },
         {
+          "id": 165,
           "name": "Yache Berry",
-          "usage": 0.06162
+          "usage": 0.056260000000000004
         },
         {
-          "name": "Garchompite",
-          "usage": 0.03784
-        },
-        {
+          "id": 174,
           "name": "Haban Berry",
-          "usage": 0.03676
+          "usage": 0.03862
         },
         {
+          "id": 722,
+          "name": "Garchompite",
+          "usage": 0.03526
+        },
+        {
+          "id": 190,
           "name": "Bright Powder",
-          "usage": 0.03568
+          "usage": 0.03359
         },
         {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.02703
+          "usage": 0.03107
         },
         {
+          "id": 252,
           "name": "Focus Sash",
-          "usage": 0.02162
+          "usage": 0.02519
         }
       ],
       "top_abilities": [
         {
+          "id": 24,
           "name": "Rough Skin",
-          "usage": 0.89189
+          "usage": 0.88413
         },
         {
+          "id": 8,
           "name": "Sand Veil",
-          "usage": 0.10378
+          "usage": 0.11083
         },
         {
+          "id": 159,
           "name": "Sand Force",
-          "usage": 0.00432
+          "usage": 0.00504
         }
       ],
       "top_teammates": [
         {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.54054
+          "usage": 0.53233
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.48216000000000003
+          "usage": 0.47439
         },
         {
           "dex_id": 6,
           "name": "Charizard",
-          "usage": 0.33622
+          "usage": 0.34257
         },
         {
-          "dex_id": 479,
+          "dex_id": 0,
           "name": "Rotom-Wash",
-          "usage": 0.27784
+          "usage": 0.27288
         },
         {
           "dex_id": 547,
           "name": "Whimsicott",
-          "usage": 0.26594999999999996
+          "usage": 0.26280000000000003
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.23135000000000003
+          "usage": 0.2267
         }
       ],
       "top_tera_types": [],
@@ -433,132 +502,154 @@
       "dex_id": 1013,
       "name": "Sinistcha",
       "form": null,
-      "usage_rate": 0.35950000000000004,
+      "usage_rate": 0.34619999999999995,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 902,
           "name": "Matcha Gotcha",
-          "usage": 0.99664
+          "usage": 0.99369
         },
         {
+          "id": 476,
           "name": "Rage Powder",
-          "usage": 0.97092
+          "usage": 0.97207
         },
         {
+          "id": 433,
           "name": "Trick Room",
-          "usage": 0.6554800000000001
+          "usage": 0.66306
         },
         {
+          "id": 791,
           "name": "Life Dew",
-          "usage": 0.52349
+          "usage": 0.53063
         },
         {
+          "id": 668,
           "name": "Strength Sap",
-          "usage": 0.33445
+          "usage": 0.31982
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.32103000000000004
+          "usage": 0.31892
         },
         {
+          "id": 247,
           "name": "Shadow Ball",
-          "usage": 0.12864
+          "usage": 0.13243
         },
         {
+          "id": 286,
           "name": "Imprison",
-          "usage": 0.02461
+          "usage": 0.02162
         },
         {
+          "id": 347,
           "name": "Calm Mind",
-          "usage": 0.01119
+          "usage": 0.01171
         },
         {
+          "id": 503,
           "name": "Scald",
-          "usage": 0.010069999999999999
+          "usage": 0.01081
         }
       ],
       "top_items": [
         {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.55928
+          "usage": 0.57477
         },
         {
+          "id": 211,
           "name": "Leftovers",
-          "usage": 0.16107
+          "usage": 0.15495
         },
         {
+          "id": 161,
           "name": "Occa Berry",
-          "usage": 0.07271
+          "usage": 0.06847
         },
         {
+          "id": 196,
           "name": "Mental Herb",
-          "usage": 0.066
+          "usage": 0.06126
         },
         {
+          "id": 175,
           "name": "Colbur Berry",
-          "usage": 0.03356
+          "usage": 0.03243
         },
         {
-          "name": "Bright Powder",
-          "usage": 0.02125
-        },
-        {
-          "name": "Kasib Berry",
-          "usage": 0.02013
-        },
-        {
+          "id": 169,
           "name": "Coba Berry",
-          "usage": 0.01902
+          "usage": 0.02162
         },
         {
+          "id": 173,
+          "name": "Kasib Berry",
+          "usage": 0.01892
+        },
+        {
+          "id": 190,
+          "name": "Bright Powder",
+          "usage": 0.01892
+        },
+        {
+          "id": 252,
           "name": "Focus Sash",
-          "usage": 0.01678
+          "usage": 0.01712
         },
         {
+          "id": 194,
           "name": "Quick Claw",
-          "usage": 0.01119
+          "usage": 0.01081
         }
       ],
       "top_abilities": [
         {
+          "id": 299,
           "name": "Hospitality",
-          "usage": 0.99105
+          "usage": 0.98919
         },
         {
+          "id": 85,
           "name": "Heatproof",
-          "usage": 0.00895
+          "usage": 0.01081
         }
       ],
       "top_teammates": [
         {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.63087
+          "usage": 0.61892
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.434
+          "usage": 0.43333
         },
         {
           "dex_id": 670,
           "name": "Floette",
-          "usage": 0.27181
+          "usage": 0.26937
         },
         {
           "dex_id": 248,
           "name": "Tyranitar",
-          "usage": 0.2651
+          "usage": 0.26847
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.26063
+          "usage": 0.25135
         },
         {
           "dex_id": 279,
           "name": "Pelipper",
-          "usage": 0.24497
+          "usage": 0.23152999999999999
         }
       ],
       "top_tera_types": [],
@@ -569,140 +660,164 @@
       "dex_id": 983,
       "name": "Kingambit",
       "form": null,
-      "usage_rate": 0.2742,
+      "usage_rate": 0.2701,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 389,
           "name": "Sucker Punch",
-          "usage": 0.9985299999999999
+          "usage": 0.9976900000000001
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.93988
+          "usage": 0.9388
         },
         {
+          "id": 869,
           "name": "Kowtow Cleave",
-          "usage": 0.88563
+          "usage": 0.8879900000000001
         },
         {
+          "id": 442,
           "name": "Iron Head",
-          "usage": 0.54692
+          "usage": 0.55658
         },
         {
+          "id": 14,
           "name": "Swords Dance",
-          "usage": 0.42375
+          "usage": 0.41223999999999994
         },
         {
+          "id": 67,
           "name": "Low Kick",
-          "usage": 0.16862
+          "usage": 0.16628
         },
         {
+          "id": 372,
           "name": "Assurance",
-          "usage": 0.01906
+          "usage": 0.020790000000000003
         },
         {
+          "id": 280,
           "name": "Brick Break",
-          "usage": 0.01026
+          "usage": 0.00924
         },
         {
-          "name": "Shadow Claw",
-          "usage": 0.00293
-        },
-        {
+          "id": 334,
           "name": "Iron Defense",
-          "usage": 0.00293
+          "usage": 0.0034599999999999995
+        },
+        {
+          "id": 421,
+          "name": "Shadow Claw",
+          "usage": 0.00231
         }
       ],
       "top_items": [
         {
+          "id": 217,
           "name": "Black Glasses",
-          "usage": 0.6202300000000001
+          "usage": 0.63741
         },
         {
+          "id": 166,
           "name": "Chople Berry",
-          "usage": 0.27859
+          "usage": 0.27136
         },
         {
-          "name": "Dread Plate",
-          "usage": 0.01613
-        },
-        {
-          "name": "Lum Berry",
-          "usage": 0.01613
-        },
-        {
-          "name": "Leftovers",
-          "usage": 0.01466
-        },
-        {
+          "id": 252,
           "name": "Focus Sash",
-          "usage": 0.0132
+          "usage": 0.013859999999999999
         },
         {
+          "id": 134,
+          "name": "Lum Berry",
+          "usage": 0.013859999999999999
+        },
+        {
+          "id": 289,
+          "name": "Dread Plate",
+          "usage": 0.0127
+        },
+        {
+          "id": 211,
+          "name": "Leftovers",
+          "usage": 0.01155
+        },
+        {
+          "id": 161,
           "name": "Occa Berry",
-          "usage": 0.00733
+          "usage": 0.00577
         },
         {
+          "id": 218,
           "name": "Black Belt",
-          "usage": 0.005869999999999999
+          "usage": 0.00577
         },
         {
+          "id": 168,
           "name": "Shuca Berry",
-          "usage": 0.0044
+          "usage": 0.00462
         },
         {
-          "name": "Shell Bell",
-          "usage": 0.00293
+          "id": 0,
+          "name": "King",
+          "usage": 0.0034599999999999995
         }
       ],
       "top_abilities": [
         {
+          "id": 128,
           "name": "Defiant",
-          "usage": 0.9853400000000001
+          "usage": 0.9815200000000001
         },
         {
+          "id": 293,
           "name": "Supreme Overlord",
-          "usage": 0.01173
+          "usage": 0.01617
         },
         {
+          "id": 46,
           "name": "Pressure",
-          "usage": 0.00147
+          "usage": 0.00115
         },
         {
+          "id": 0,
           "name": "DefiantLevel",
-          "usage": 0.00147
+          "usage": 0.00115
         }
       ],
       "top_teammates": [
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.59971
+          "usage": 0.60277
         },
         {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.42522
+          "usage": 0.41917000000000004
         },
         {
           "dex_id": 1013,
           "name": "Sinistcha",
-          "usage": 0.34164
+          "usage": 0.32217
         },
         {
           "dex_id": 445,
           "name": "Garchomp",
-          "usage": 0.31378
+          "usage": 0.31178
         },
         {
           "dex_id": 902,
           "name": "Basculegion",
-          "usage": 0.24486999999999998
+          "usage": 0.25289
         },
         {
           "dex_id": 478,
           "name": "Froslass",
-          "usage": 0.19501000000000002
+          "usage": 0.19746
         }
       ],
       "top_tera_types": [],
@@ -713,136 +828,164 @@
       "dex_id": 902,
       "name": "Basculegion",
       "form": null,
-      "usage_rate": 0.2207,
+      "usage_rate": 0.22149999999999997,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 854,
           "name": "Last Respects",
-          "usage": 0.9763200000000001
+          "usage": 0.9760599999999999
         },
         {
+          "id": 834,
           "name": "Wave Crash",
-          "usage": 0.93989
+          "usage": 0.9422499999999999
         },
         {
+          "id": 453,
           "name": "Aqua Jet",
-          "usage": 0.85792
+          "usage": 0.8633799999999999
         },
         {
+          "id": 812,
           "name": "Flip Turn",
-          "usage": 0.75046
+          "usage": 0.7408499999999999
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.28597
+          "usage": 0.28309999999999996
         },
         {
+          "id": 710,
           "name": "Liquidation",
-          "usage": 0.045540000000000004
+          "usage": 0.04507
         },
         {
+          "id": 196,
           "name": "Icy Wind",
-          "usage": 0.03643
+          "usage": 0.0338
         },
         {
+          "id": 423,
+          "name": "Ice Fang",
+          "usage": 0.0169
+        },
+        {
+          "id": 566,
           "name": "Phantom Force",
-          "usage": 0.016390000000000002
+          "usage": 0.015489999999999999
         },
         {
+          "id": 247,
           "name": "Shadow Ball",
-          "usage": 0.016390000000000002
-        },
-        {
-          "name": "Psychic Fangs",
-          "usage": 0.01275
+          "usage": 0.015489999999999999
         }
       ],
       "top_items": [
         {
+          "id": 264,
           "name": "Choice Scarf",
-          "usage": 0.65756
+          "usage": 0.6549299999999999
         },
         {
+          "id": 220,
           "name": "Mystic Water",
-          "usage": 0.26958
+          "usage": 0.27324000000000004
         },
         {
+          "id": 252,
           "name": "Focus Sash",
-          "usage": 0.02732
+          "usage": 0.02817
         },
         {
+          "id": 191,
           "name": "White Herb",
-          "usage": 0.01093
+          "usage": 0.00986
         },
         {
-          "name": "Spell Tag",
-          "usage": 0.00729
-        },
-        {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.00729
+          "usage": 0.007039999999999999
         },
         {
+          "id": 224,
+          "name": "Spell Tag",
+          "usage": 0.00563
+        },
+        {
+          "id": 134,
           "name": "Lum Berry",
-          "usage": 0.0054600000000000004
+          "usage": 0.00563
         },
         {
-          "name": "Life Orb",
-          "usage": 0.00364
-        },
-        {
-          "name": "Colbur Berry",
-          "usage": 0.00364
-        },
-        {
+          "id": 211,
           "name": "Leftovers",
-          "usage": 0.00364
+          "usage": 0.00423
+        },
+        {
+          "id": 247,
+          "name": "Life Orb",
+          "usage": 0.0028199999999999996
+        },
+        {
+          "id": 175,
+          "name": "Colbur Berry",
+          "usage": 0.0028199999999999996
         }
       ],
       "top_abilities": [
         {
+          "id": 91,
           "name": "Adaptability",
-          "usage": 0.6776000000000001
+          "usage": 0.6831
         },
         {
+          "id": 33,
           "name": "Swift Swim",
-          "usage": 0.32058
+          "usage": 0.31408
         },
         {
+          "id": 0,
           "name": "Adapdability",
-          "usage": 0.00182
+          "usage": 0.0014099999999999998
+        },
+        {
+          "id": 0,
+          "name": "swift Swin",
+          "usage": 0.0014099999999999998
         }
       ],
       "top_teammates": [
         {
-          "dex_id": 727,
-          "name": "Incineroar",
-          "usage": 0.53005
-        },
-        {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.52277
+          "usage": 0.52535
+        },
+        {
+          "dex_id": 727,
+          "name": "Incineroar",
+          "usage": 0.51268
         },
         {
           "dex_id": 279,
           "name": "Pelipper",
-          "usage": 0.46084
-        },
-        {
-          "dex_id": 1013,
-          "name": "Sinistcha",
-          "usage": 0.35883000000000004
+          "usage": 0.4507
         },
         {
           "dex_id": 1018,
           "name": "Archaludon",
-          "usage": 0.32787
+          "usage": 0.34366
+        },
+        {
+          "dex_id": 1013,
+          "name": "Sinistcha",
+          "usage": 0.34225
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.30419
+          "usage": 0.30845
         }
       ],
       "top_tera_types": [],
@@ -853,132 +996,159 @@
       "dex_id": 547,
       "name": "Whimsicott",
       "form": null,
-      "usage_rate": 0.2027,
+      "usage_rate": 0.2006,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 366,
           "name": "Tailwind",
-          "usage": 0.98611
+          "usage": 0.98756
         },
         {
+          "id": 585,
           "name": "Moonblast",
-          "usage": 0.94841
+          "usage": 0.95179
         },
         {
+          "id": 227,
           "name": "Encore",
-          "usage": 0.75
+          "usage": 0.73872
         },
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.44048000000000004
+          "usage": 0.44945999999999997
         },
         {
+          "id": 241,
           "name": "Sunny Day",
-          "usage": 0.29960000000000003
+          "usage": 0.31415
         },
         {
+          "id": 313,
           "name": "Fake Tears",
-          "usage": 0.13294
+          "usage": 0.1182
         },
         {
+          "id": 269,
           "name": "Taunt",
-          "usage": 0.12103
+          "usage": 0.10731
         },
         {
-          "name": "Light Screen",
-          "usage": 0.06349
-        },
-        {
+          "id": 270,
           "name": "Helping Hand",
-          "usage": 0.061509999999999995
+          "usage": 0.06998
         },
         {
+          "id": 113,
+          "name": "Light Screen",
+          "usage": 0.05443
+        },
+        {
+          "id": 412,
           "name": "Energy Ball",
-          "usage": 0.05159
+          "usage": 0.048209999999999996
         }
       ],
       "top_items": [
         {
+          "id": 252,
           "name": "Focus Sash",
-          "usage": 0.74405
+          "usage": 0.72784
         },
         {
+          "id": 196,
           "name": "Mental Herb",
-          "usage": 0.10119
+          "usage": 0.10886
         },
         {
+          "id": 161,
           "name": "Occa Berry",
-          "usage": 0.03571
+          "usage": 0.03421
         },
         {
+          "id": 211,
           "name": "Leftovers",
-          "usage": 0.029759999999999998
+          "usage": 0.02955
         },
         {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.02183
+          "usage": 0.02177
         },
         {
-          "name": "Bright Powder",
-          "usage": 0.01786
-        },
-        {
+          "id": 2105,
           "name": "Fairy Feather",
-          "usage": 0.01587
+          "usage": 0.01711
         },
         {
+          "id": 190,
+          "name": "Bright Powder",
+          "usage": 0.01711
+        },
+        {
+          "id": 167,
           "name": "Kebia Berry",
-          "usage": 0.00992
+          "usage": 0.01089
         },
         {
-          "name": "White Herb",
-          "usage": 0.0059499999999999996
-        },
-        {
+          "id": 1701,
           "name": "Covert Cloak",
-          "usage": 0.0039700000000000004
+          "usage": 0.0077800000000000005
+        },
+        {
+          "id": 191,
+          "name": "White Herb",
+          "usage": 0.0077800000000000005
         }
       ],
       "top_abilities": [
         {
+          "id": 158,
           "name": "Prankster",
-          "usage": 0.99603
+          "usage": 0.99378
         },
         {
+          "id": 34,
           "name": "Chlorophyll",
-          "usage": 0.0039700000000000004
+          "usage": 0.0046700000000000005
+        },
+        {
+          "id": 151,
+          "name": "Infiltrator",
+          "usage": 0.00156
         }
       ],
       "top_teammates": [
         {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.5674600000000001
+          "usage": 0.56765
         },
         {
           "dex_id": 445,
           "name": "Garchomp",
-          "usage": 0.48810000000000003
+          "usage": 0.48678
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.48016
+          "usage": 0.45100999999999997
         },
         {
           "dex_id": 6,
           "name": "Charizard",
-          "usage": 0.42857
+          "usage": 0.4339
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.24603000000000003
+          "usage": 0.22394999999999998
         },
         {
           "dex_id": 981,
           "name": "Farigiraf",
-          "usage": 0.17857
+          "usage": 0.16952
         }
       ],
       "top_tera_types": [],
@@ -986,115 +1156,152 @@
     },
     {
       "rank": 8,
-      "dex_id": 670,
-      "name": "Floette",
+      "dex_id": 6,
+      "name": "Charizard",
       "form": null,
-      "usage_rate": 0.1769,
+      "usage_rate": 0.17809999999999998,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.9863599999999999
+          "usage": 0.9737300000000001
         },
         {
-          "name": "Calm Mind",
-          "usage": 0.8977299999999999
+          "id": 257,
+          "name": "Heat Wave",
+          "usage": 0.90718
         },
         {
-          "name": "Moonblast",
-          "usage": 0.81136
+          "id": 76,
+          "name": "Solar Beam",
+          "usage": 0.79159
         },
         {
-          "name": "Dazzling Gleam",
-          "usage": 0.79318
+          "id": 311,
+          "name": "Weather Ball",
+          "usage": 0.43783
         },
         {
-          "name": "Draining Kiss",
-          "usage": 0.31364000000000003
+          "id": 315,
+          "name": "Overheat",
+          "usage": 0.25919000000000003
         },
         {
-          "name": "Light of Ruin",
-          "usage": 0.11135999999999999
+          "id": 403,
+          "name": "Air Slash",
+          "usage": 0.23117000000000001
         },
         {
-          "name": "Psychic",
-          "usage": 0.02955
+          "id": 394,
+          "name": "Flare Blitz",
+          "usage": 0.054290000000000005
         },
         {
-          "name": "Giga Drain",
-          "usage": 0.02045
+          "id": 53,
+          "name": "Flamethrower",
+          "usage": 0.04729
         },
         {
-          "name": "Pollen Puff",
-          "usage": 0.00909
+          "id": 406,
+          "name": "Dragon Pulse",
+          "usage": 0.042030000000000005
         },
         {
-          "name": "Petal Dance",
-          "usage": 0.0068200000000000005
+          "id": 349,
+          "name": "Dragon Dance",
+          "usage": 0.03853
         }
       ],
       "top_items": [
         {
-          "name": "Floettite",
-          "usage": 0.9886400000000001
+          "id": 717,
+          "name": "Charizardite Y",
+          "usage": 0.93695
         },
         {
+          "id": 699,
+          "name": "Charizardite X",
+          "usage": 0.050789999999999995
+        },
+        {
+          "id": 226,
+          "name": "Charcoal",
+          "usage": 0.00525
+        },
+        {
+          "id": 264,
           "name": "Choice Scarf",
-          "usage": 0.00909
+          "usage": 0.0017499999999999998
         },
         {
-          "name": "floettite",
-          "usage": 0.00227
+          "id": 172,
+          "name": "Charti Berry",
+          "usage": 0.0017499999999999998
+        },
+        {
+          "id": 247,
+          "name": "Life Orb",
+          "usage": 0.0017499999999999998
+        },
+        {
+          "id": 134,
+          "name": "Lum Berry",
+          "usage": 0.0017499999999999998
         }
       ],
       "top_abilities": [
         {
-          "name": "Flower Veil",
-          "usage": 0.81364
+          "id": 94,
+          "name": "Solar Power",
+          "usage": 0.42031999999999997
         },
         {
-          "name": "Fairy Aura",
-          "usage": 0.17727
+          "id": 66,
+          "name": "Blaze",
+          "usage": 0.40454999999999997
         },
         {
-          "name": "Regenerator",
-          "usage": 0.0068200000000000005
+          "id": 70,
+          "name": "Drought",
+          "usage": 0.15587
         },
         {
-          "name": "Symbiosis",
-          "usage": 0.00227
+          "id": 181,
+          "name": "Tough Claws",
+          "usage": 0.01926
         }
       ],
       "top_teammates": [
         {
-          "dex_id": 727,
-          "name": "Incineroar",
-          "usage": 0.73409
-        },
-        {
-          "dex_id": 1013,
-          "name": "Sinistcha",
-          "usage": 0.5522699999999999
-        },
-        {
           "dex_id": 445,
           "name": "Garchomp",
-          "usage": 0.45682
+          "usage": 0.71454
+        },
+        {
+          "dex_id": 727,
+          "name": "Incineroar",
+          "usage": 0.6444799999999999
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.44091
+          "usage": 0.54816
         },
         {
-          "dex_id": 142,
-          "name": "Aerodactyl",
-          "usage": 0.30455
+          "dex_id": 547,
+          "name": "Whimsicott",
+          "usage": 0.48862
+        },
+        {
+          "dex_id": 3,
+          "name": "Venusaur",
+          "usage": 0.44834
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.24773
+          "usage": 0.24518
         }
       ],
       "top_tera_types": [],
@@ -1102,131 +1309,132 @@
     },
     {
       "rank": 9,
-      "dex_id": 6,
-      "name": "Charizard",
+      "dex_id": 670,
+      "name": "Floette",
       "form": null,
-      "usage_rate": 0.1765,
+      "usage_rate": 0.1778,
       "win_rate": null,
       "top_moves": [
         {
+          "id": 182,
           "name": "Protect",
-          "usage": 0.97494
+          "usage": 0.9859600000000001
         },
         {
-          "name": "Heat Wave",
-          "usage": 0.90888
+          "id": 347,
+          "name": "Calm Mind",
+          "usage": 0.89649
         },
         {
-          "name": "Solar Beam",
-          "usage": 0.7836
+          "id": 605,
+          "name": "Dazzling Gleam",
+          "usage": 0.8245600000000001
         },
         {
-          "name": "Weather Ball",
-          "usage": 0.43052
+          "id": 585,
+          "name": "Moonblast",
+          "usage": 0.80526
         },
         {
-          "name": "Overheat",
-          "usage": 0.28018
+          "id": 577,
+          "name": "Draining Kiss",
+          "usage": 0.29297999999999996
         },
         {
-          "name": "Air Slash",
-          "usage": 0.24146
+          "id": 617,
+          "name": "Light of Ruin",
+          "usage": 0.11404
         },
         {
-          "name": "Flare Blitz",
-          "usage": 0.05239
+          "id": 94,
+          "name": "Psychic",
+          "usage": 0.029820000000000003
         },
         {
-          "name": "Flamethrower",
-          "usage": 0.04784
+          "id": 202,
+          "name": "Giga Drain",
+          "usage": 0.019299999999999998
         },
         {
-          "name": "Scorching Sands",
-          "usage": 0.03872
+          "id": 676,
+          "name": "Pollen Puff",
+          "usage": 0.007019999999999999
         },
         {
-          "name": "Dragon Dance",
-          "usage": 0.03872
+          "id": 80,
+          "name": "Petal Dance",
+          "usage": 0.007019999999999999
         }
       ],
       "top_items": [
         {
-          "name": "Charizardite Y",
-          "usage": 0.9384999999999999
+          "id": 2579,
+          "name": "Floettite",
+          "usage": 0.98772
         },
         {
-          "name": "Charizardite X",
-          "usage": 0.04784
-        },
-        {
-          "name": "Charcoal",
-          "usage": 0.00456
-        },
-        {
+          "id": 264,
           "name": "Choice Scarf",
-          "usage": 0.00228
+          "usage": 0.01053
         },
         {
-          "name": "Charti Berry",
-          "usage": 0.00228
-        },
-        {
-          "name": "Life Orb",
-          "usage": 0.00228
-        },
-        {
-          "name": "Lum Berry",
-          "usage": 0.00228
+          "id": 2579,
+          "name": "floettite",
+          "usage": 0.0017499999999999998
         }
       ],
       "top_abilities": [
         {
-          "name": "Blaze",
-          "usage": 0.42369
+          "id": 166,
+          "name": "Flower Veil",
+          "usage": 0.79298
         },
         {
-          "name": "Solar Power",
-          "usage": 0.41458
+          "id": 187,
+          "name": "Fairy Aura",
+          "usage": 0.19649
         },
         {
-          "name": "Drought",
-          "usage": 0.14123
+          "id": 144,
+          "name": "Regenerator",
+          "usage": 0.00526
         },
         {
-          "name": "Tough Claws",
-          "usage": 0.020499999999999997
+          "id": 180,
+          "name": "Symbiosis",
+          "usage": 0.00526
         }
       ],
       "top_teammates": [
         {
-          "dex_id": 445,
-          "name": "Garchomp",
-          "usage": 0.70843
-        },
-        {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.63554
+          "usage": 0.70175
+        },
+        {
+          "dex_id": 1013,
+          "name": "Sinistcha",
+          "usage": 0.52456
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.58087
+          "usage": 0.45614
         },
         {
-          "dex_id": 547,
-          "name": "Whimsicott",
-          "usage": 0.49203
+          "dex_id": 445,
+          "name": "Garchomp",
+          "usage": 0.45263
         },
         {
-          "dex_id": 3,
-          "name": "Venusaur",
-          "usage": 0.43735999999999997
+          "dex_id": 142,
+          "name": "Aerodactyl",
+          "usage": 0.32104999999999995
         },
         {
           "dex_id": 983,
           "name": "Kingambit",
-          "usage": 0.26196
+          "usage": 0.25789
         }
       ],
       "top_tera_types": [],
@@ -1234,139 +1442,152 @@
     },
     {
       "rank": 10,
-      "dex_id": 279,
-      "name": "Pelipper",
+      "dex_id": 0,
+      "name": "Rotom-Wash",
       "form": null,
-      "usage_rate": 0.1661,
+      "usage_rate": 0.1603,
       "win_rate": null,
       "top_moves": [
         {
-          "name": "Hurricane",
-          "usage": 0.9733700000000001
-        },
-        {
-          "name": "Weather Ball",
-          "usage": 0.88378
-        },
-        {
-          "name": "Tailwind",
-          "usage": 0.77482
-        },
-        {
-          "name": "Protect",
-          "usage": 0.65375
-        },
-        {
-          "name": "Wide Guard",
-          "usage": 0.34383
-        },
-        {
-          "name": "Muddy Water",
-          "usage": 0.11137999999999999
-        },
-        {
-          "name": "Icy Wind",
-          "usage": 0.0799
-        },
-        {
-          "name": "U-turn",
-          "usage": 0.05085
-        },
-        {
-          "name": "Helping Hand",
-          "usage": 0.038740000000000004
-        },
-        {
+          "id": 56,
           "name": "Hydro Pump",
-          "usage": 0.03632
+          "usage": 0.98249
+        },
+        {
+          "id": 85,
+          "name": "Thunderbolt",
+          "usage": 0.7295699999999999
+        },
+        {
+          "id": 182,
+          "name": "Protect",
+          "usage": 0.59144
+        },
+        {
+          "id": 261,
+          "name": "Will-O-Wisp",
+          "usage": 0.54864
+        },
+        {
+          "id": 521,
+          "name": "Volt Switch",
+          "usage": 0.53502
+        },
+        {
+          "id": 527,
+          "name": "Electroweb",
+          "usage": 0.21206
+        },
+        {
+          "id": 271,
+          "name": "Trick",
+          "usage": 0.08949
+        },
+        {
+          "id": 270,
+          "name": "Helping Hand",
+          "usage": 0.08170999999999999
+        },
+        {
+          "id": 435,
+          "name": "Discharge",
+          "usage": 0.06809
+        },
+        {
+          "id": 598,
+          "name": "Eerie Impulse",
+          "usage": 0.03307
         }
       ],
       "top_items": [
         {
-          "name": "Focus Sash",
-          "usage": 0.76755
-        },
-        {
-          "name": "Choice Scarf",
-          "usage": 0.0799
-        },
-        {
+          "id": 135,
           "name": "Sitrus Berry",
-          "usage": 0.05327
+          "usage": 0.39494
         },
         {
+          "id": 211,
           "name": "Leftovers",
-          "usage": 0.026629999999999997
+          "usage": 0.27626
         },
         {
-          "name": "Sharp Beak",
-          "usage": 0.01695
+          "id": 264,
+          "name": "Choice Scarf",
+          "usage": 0.22374
         },
         {
-          "name": "Wacan Berry",
-          "usage": 0.012110000000000001
+          "id": 219,
+          "name": "Magnet",
+          "usage": 0.03891
         },
         {
+          "id": 164,
+          "name": "Rindo Berry",
+          "usage": 0.019459999999999998
+        },
+        {
+          "id": 194,
           "name": "Quick Claw",
-          "usage": 0.009689999999999999
+          "usage": 0.017509999999999998
         },
         {
+          "id": 134,
           "name": "Lum Berry",
-          "usage": 0.009689999999999999
+          "usage": 0.0077800000000000005
         },
         {
+          "id": 127,
+          "name": "Chesto Berry",
+          "usage": 0.00584
+        },
+        {
+          "id": 274,
+          "name": "Choice Specs",
+          "usage": 0.0038900000000000002
+        },
+        {
+          "id": 220,
           "name": "Mystic Water",
-          "usage": 0.009689999999999999
-        },
-        {
-          "name": "Mental Herb",
-          "usage": 0.00484
+          "usage": 0.0038900000000000002
         }
       ],
       "top_abilities": [
         {
-          "name": "Drizzle",
-          "usage": 0.99031
-        },
-        {
-          "name": "Keen Eye",
-          "usage": 0.00726
-        },
-        {
-          "name": "Rain Dish",
-          "usage": 0.00242
+          "id": 26,
+          "name": "Levitate",
+          "usage": 1.0
         }
       ],
       "top_teammates": [
         {
-          "dex_id": 902,
-          "name": "Basculegion",
-          "usage": 0.61259
-        },
-        {
-          "dex_id": 1018,
-          "name": "Archaludon",
-          "usage": 0.5569
-        },
-        {
-          "dex_id": 1013,
-          "name": "Sinistcha",
-          "usage": 0.53027
+          "dex_id": 445,
+          "name": "Garchomp",
+          "usage": 0.6323
         },
         {
           "dex_id": 727,
           "name": "Incineroar",
-          "usage": 0.523
+          "usage": 0.52335
         },
         {
           "dex_id": 903,
           "name": "Sneasler",
-          "usage": 0.39709000000000005
+          "usage": 0.44942
         },
         {
-          "dex_id": 149,
-          "name": "Dragonite",
-          "usage": 0.36077
+          "dex_id": 1013,
+          "name": "Sinistcha",
+          "usage": 0.29377
+        },
+        {
+          "dex_id": 248,
+          "name": "Tyranitar",
+          "usage": 0.26265
+        },
+        {
+          "dex_id": 670,
+          "name": "Floette",
+          "usage": 0.23152
         }
       ],
       "top_tera_types": [],
@@ -1379,7 +1600,7 @@
     {
       "name": "Pikalytics",
       "url": "https://www.pikalytics.com",
-      "scraped_at": "2026-04-14T05:23:46.312806Z"
+      "scraped_at": "2026-04-14T10:12:12.624439Z"
     }
   ]
 }

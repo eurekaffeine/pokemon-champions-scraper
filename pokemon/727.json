@@ -4,136 +4,159 @@
   "form": null,
   "competitive": {
     "usage_rank": 1,
-    "usage_rate": 0.5557,
+    "usage_rate": 0.5437,
     "win_rate": null,
     "moves": [
       {
+        "id": 252,
         "name": "Fake Out",
-        "usage": 0.9891500000000001
+        "usage": 0.9902500000000001
       },
       {
+        "id": 575,
         "name": "Parting Shot",
-        "usage": 0.96527
+        "usage": 0.96041
       },
       {
+        "id": 394,
         "name": "Flare Blitz",
-        "usage": 0.85384
+        "usage": 0.8537
       },
       {
+        "id": 675,
         "name": "Throat Chop",
-        "usage": 0.44067
+        "usage": 0.43431
       },
       {
+        "id": 663,
         "name": "Darkest Lariat",
-        "usage": 0.38205
+        "usage": 0.38669
       },
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.13965
+        "usage": 0.13941
       },
       {
+        "id": 261,
         "name": "Will-O-Wisp",
-        "usage": 0.06078
+        "usage": 0.06139
       },
       {
+        "id": 269,
         "name": "Taunt",
-        "usage": 0.04341999999999999
+        "usage": 0.04188
       },
       {
+        "id": 270,
         "name": "Helping Hand",
-        "usage": 0.03618
+        "usage": 0.04016
       },
       {
+        "id": 555,
         "name": "Snarl",
-        "usage": 0.02894
+        "usage": 0.028690000000000004
       }
     ],
     "items": [
       {
+        "id": 135,
         "name": "Sitrus Berry",
-        "usage": 0.5564399999999999
+        "usage": 0.56168
       },
       {
+        "id": 166,
         "name": "Chople Berry",
-        "usage": 0.15991
+        "usage": 0.15491
       },
       {
+        "id": 168,
         "name": "Shuca Berry",
-        "usage": 0.12735
+        "usage": 0.12622
       },
       {
+        "id": 134,
         "name": "Lum Berry",
-        "usage": 0.0492
+        "usage": 0.04877
       },
       {
+        "id": 211,
         "name": "Leftovers",
-        "usage": 0.03835
+        "usage": 0.039009999999999996
       },
       {
+        "id": 162,
         "name": "Passho Berry",
-        "usage": 0.02388
+        "usage": 0.021230000000000002
       },
       {
+        "id": 191,
         "name": "White Herb",
-        "usage": 0.00724
+        "usage": 0.00975
       },
       {
+        "id": 217,
         "name": "Black Glasses",
-        "usage": 0.00651
+        "usage": 0.00688
       },
       {
+        "id": 194,
         "name": "Quick Claw",
-        "usage": 0.00651
+        "usage": 0.00631
       },
       {
-        "name": "Bright Powder",
-        "usage": 0.00434
+        "id": 226,
+        "name": "Charcoal",
+        "usage": 0.0051600000000000005
       }
     ],
     "abilities": [
       {
+        "id": 22,
         "name": "Intimidate",
-        "usage": 0.98336
+        "usage": 0.9816400000000001
       },
       {
+        "id": 66,
         "name": "Blaze",
-        "usage": 0.01592
+        "usage": 0.01779
       },
       {
+        "id": 0,
         "name": "Intimidaci",
-        "usage": 0.0007199999999999999
+        "usage": 0.00057
       }
     ],
     "teammates": [
       {
         "dex_id": 1013,
         "name": "Sinistcha",
-        "usage": 0.4081
+        "usage": 0.39415
       },
       {
         "dex_id": 903,
         "name": "Sneasler",
-        "usage": 0.39000999999999997
+        "usage": 0.3821
       },
       {
         "dex_id": 445,
         "name": "Garchomp",
-        "usage": 0.36179
+        "usage": 0.36374
       },
       {
         "dex_id": 670,
         "name": "Floette",
-        "usage": 0.23372
+        "usage": 0.22949000000000003
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
-        "usage": 0.21056
+        "dex_id": 6,
+        "name": "Charizard",
+        "usage": 0.21112999999999998
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
-        "usage": 0.20984000000000003
+        "dex_id": 547,
+        "name": "Whimsicott",
+        "usage": 0.20940999999999999
       }
     ],
     "tera_types": [],

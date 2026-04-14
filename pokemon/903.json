@@ -4,136 +4,159 @@
   "form": null,
   "competitive": {
     "usage_rank": 2,
-    "usage_rate": 0.4572,
+    "usage_rate": 0.45130000000000003,
     "win_rate": null,
     "moves": [
       {
+        "id": 370,
         "name": "Close Combat",
-        "usage": 0.9964799999999999
+        "usage": 0.99654
       },
       {
+        "id": 827,
         "name": "Dire Claw",
-        "usage": 0.98153
+        "usage": 0.9799599999999999
       },
       {
+        "id": 252,
         "name": "Fake Out",
-        "usage": 0.86544
+        "usage": 0.87422
       },
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.7475799999999999
+        "usage": 0.74914
       },
       {
+        "id": 811,
         "name": "Coaching",
-        "usage": 0.20756
+        "usage": 0.19143000000000002
       },
       {
+        "id": 317,
         "name": "Rock Tomb",
-        "usage": 0.07828
+        "usage": 0.07256
       },
       {
+        "id": 675,
         "name": "Throat Chop",
-        "usage": 0.03782
+        "usage": 0.03594
       },
       {
+        "id": 157,
         "name": "Rock Slide",
-        "usage": 0.028140000000000002
+        "usage": 0.02903
       },
       {
+        "id": 269,
         "name": "Taunt",
-        "usage": 0.012310000000000001
+        "usage": 0.01175
       },
       {
+        "id": 441,
         "name": "Gunk Shot",
-        "usage": 0.00967
+        "usage": 0.01106
       }
     ],
     "items": [
       {
+        "id": 191,
         "name": "White Herb",
-        "usage": 0.70449
+        "usage": 0.7056
       },
       {
+        "id": 252,
         "name": "Focus Sash",
-        "usage": 0.26472999999999997
+        "usage": 0.26054
       },
       {
+        "id": 196,
         "name": "Mental Herb",
-        "usage": 0.01935
+        "usage": 0.02073
       },
       {
+        "id": 135,
         "name": "Sitrus Berry",
-        "usage": 0.0035199999999999997
+        "usage": 0.00415
       },
       {
+        "id": 264,
         "name": "Choice Scarf",
-        "usage": 0.0017599999999999998
+        "usage": 0.0013800000000000002
       },
       {
+        "id": 218,
         "name": "Black Belt",
-        "usage": 0.0017599999999999998
+        "usage": 0.0013800000000000002
       },
       {
+        "id": 132,
         "name": "Oran Berry",
-        "usage": 0.0008799999999999999
+        "usage": 0.0006900000000000001
       },
       {
+        "id": 228,
         "name": "Silk Scarf",
-        "usage": 0.0008799999999999999
+        "usage": 0.0006900000000000001
       },
       {
+        "id": 134,
         "name": "Lum Berry",
-        "usage": 0.0008799999999999999
+        "usage": 0.0006900000000000001
       },
       {
+        "id": 222,
         "name": "Poison Barb",
-        "usage": 0.0008799999999999999
+        "usage": 0.0006900000000000001
       }
     ],
     "abilities": [
       {
+        "id": 84,
         "name": "Unburden",
-        "usage": 0.9015000000000001
+        "usage": 0.8991
       },
       {
+        "id": 143,
         "name": "Poison Touch",
-        "usage": 0.06772
+        "usage": 0.07118000000000001
       },
       {
+        "id": 46,
         "name": "Pressure",
-        "usage": 0.03078
+        "usage": 0.02972
       }
     ],
     "teammates": [
       {
         "dex_id": 727,
         "name": "Incineroar",
-        "usage": 0.47405
+        "usage": 0.46026000000000006
       },
       {
         "dex_id": 445,
         "name": "Garchomp",
-        "usage": 0.39226
+        "usage": 0.39046
       },
       {
         "dex_id": 983,
         "name": "Kingambit",
-        "usage": 0.35972000000000004
+        "usage": 0.36075
       },
       {
         "dex_id": 1013,
         "name": "Sinistcha",
-        "usage": 0.34125
+        "usage": 0.33241
       },
       {
         "dex_id": 902,
         "name": "Basculegion",
-        "usage": 0.25242000000000003
+        "usage": 0.25777
       },
       {
         "dex_id": 6,
         "name": "Charizard",
-        "usage": 0.22427
+        "usage": 0.21631
       }
     ],
     "tera_types": [],

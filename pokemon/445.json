@@ -4,136 +4,159 @@
   "form": null,
   "competitive": {
     "usage_rank": 3,
-    "usage_rate": 0.37189999999999995,
+    "usage_rate": 0.3715,
     "win_rate": null,
     "moves": [
       {
+        "id": 89,
         "name": "Earthquake",
-        "usage": 0.8875700000000001
+        "usage": 0.88665
       },
       {
+        "id": 337,
         "name": "Dragon Claw",
-        "usage": 0.8583799999999999
+        "usage": 0.85139
       },
       {
+        "id": 157,
         "name": "Rock Slide",
-        "usage": 0.72108
+        "usage": 0.7220799999999999
       },
       {
+        "id": 182,
         "name": "Protect",
-        "usage": 0.67135
+        "usage": 0.67338
       },
       {
+        "id": 707,
         "name": "Stomping Tantrum",
-        "usage": 0.51459
+        "usage": 0.5046200000000001
       },
       {
+        "id": 14,
         "name": "Swords Dance",
-        "usage": 0.07135
+        "usage": 0.06717
       },
       {
+        "id": 444,
         "name": "Stone Edge",
-        "usage": 0.05946
+        "usage": 0.06213
       },
       {
-        "name": "Bulldoze",
-        "usage": 0.04108
-      },
-      {
+        "id": 442,
         "name": "Iron Head",
-        "usage": 0.038919999999999996
+        "usage": 0.04534
       },
       {
+        "id": 398,
         "name": "Poison Jab",
-        "usage": 0.03676
+        "usage": 0.041139999999999996
+      },
+      {
+        "id": 523,
+        "name": "Bulldoze",
+        "usage": 0.03778
       }
     ],
     "items": [
       {
+        "id": 264,
         "name": "Choice Scarf",
-        "usage": 0.30378
+        "usage": 0.29639
       },
       {
+        "id": 191,
         "name": "White Herb",
-        "usage": 0.16757000000000002
+        "usage": 0.16876999999999998
       },
       {
+        "id": 214,
         "name": "Soft Sand",
-        "usage": 0.12541
+        "usage": 0.13266
       },
       {
+        "id": 134,
         "name": "Lum Berry",
-        "usage": 0.1027
+        "usage": 0.09908
       },
       {
+        "id": 165,
         "name": "Yache Berry",
-        "usage": 0.06162
+        "usage": 0.056260000000000004
       },
       {
-        "name": "Garchompite",
-        "usage": 0.03784
-      },
-      {
+        "id": 174,
         "name": "Haban Berry",
-        "usage": 0.03676
+        "usage": 0.03862
       },
       {
+        "id": 722,
+        "name": "Garchompite",
+        "usage": 0.03526
+      },
+      {
+        "id": 190,
         "name": "Bright Powder",
-        "usage": 0.03568
+        "usage": 0.03359
       },
       {
+        "id": 135,
         "name": "Sitrus Berry",
-        "usage": 0.02703
+        "usage": 0.03107
       },
       {
+        "id": 252,
         "name": "Focus Sash",
-        "usage": 0.02162
+        "usage": 0.02519
       }
     ],
     "abilities": [
       {
+        "id": 24,
         "name": "Rough Skin",
-        "usage": 0.89189
+        "usage": 0.88413
       },
       {
+        "id": 8,
         "name": "Sand Veil",
-        "usage": 0.10378
+        "usage": 0.11083
       },
       {
+        "id": 159,
         "name": "Sand Force",
-        "usage": 0.00432
+        "usage": 0.00504
       }
     ],
     "teammates": [
       {
         "dex_id": 727,
         "name": "Incineroar",
-        "usage": 0.54054
+        "usage": 0.53233
       },
       {
         "dex_id": 903,
         "name": "Sneasler",
-        "usage": 0.48216000000000003
+        "usage": 0.47439
       },
       {
         "dex_id": 6,
         "name": "Charizard",
-        "usage": 0.33622
+        "usage": 0.34257
       },
       {
-        "dex_id": 479,
+        "dex_id": 0,
         "name": "Rotom-Wash",
-        "usage": 0.27784
+        "usage": 0.27288
       },
       {
         "dex_id": 547,
         "name": "Whimsicott",
-        "usage": 0.26594999999999996
+        "usage": 0.26280000000000003
       },
       {
         "dex_id": 983,
         "name": "Kingambit",
-        "usage": 0.23135000000000003
+        "usage": 0.2267
       }
     ],
     "tera_types": [],
