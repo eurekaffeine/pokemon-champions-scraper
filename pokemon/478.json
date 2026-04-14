@@ -1,0 +1,130 @@
+{
+  "dex_id": 478,
+  "name": "Froslass",
+  "form": null,
+  "competitive": {
+    "usage_rank": 20,
+    "usage_rate": 0.0973,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 59,
+        "name": "Blizzard",
+        "usage": 0.9903799999999999
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.94872
+      },
+      {
+        "id": 247,
+        "name": "Shadow Ball",
+        "usage": 0.9455100000000001
+      },
+      {
+        "id": 694,
+        "name": "Aurora Veil",
+        "usage": 0.83654
+      },
+      {
+        "id": 269,
+        "name": "Taunt",
+        "usage": 0.04808
+      },
+      {
+        "id": 417,
+        "name": "Nasty Plot",
+        "usage": 0.04808
+      },
+      {
+        "id": 85,
+        "name": "Thunderbolt",
+        "usage": 0.04808
+      },
+      {
+        "id": 196,
+        "name": "Icy Wind",
+        "usage": 0.03526
+      },
+      {
+        "id": 194,
+        "name": "Destiny Bond",
+        "usage": 0.028849999999999997
+      },
+      {
+        "id": 261,
+        "name": "Will-O-Wisp",
+        "usage": 0.01282
+      }
+    ],
+    "items": [
+      {
+        "id": 2566,
+        "name": "Froslassite",
+        "usage": 0.9903799999999999
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.00641
+      },
+      {
+        "id": 197,
+        "name": "Choice Band",
+        "usage": 0.00321
+      }
+    ],
+    "abilities": [
+      {
+        "id": 130,
+        "name": "Cursed Body",
+        "usage": 0.50641
+      },
+      {
+        "id": 81,
+        "name": "Snow Cloak",
+        "usage": 0.30449000000000004
+      },
+      {
+        "id": 117,
+        "name": "Snow Warning",
+        "usage": 0.1891
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.625
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.54808
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.35577
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.33013
+      },
+      {
+        "dex_id": 0,
+        "name": "Arcanine-Hisui",
+        "usage": 0.26282
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.24678999999999998
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

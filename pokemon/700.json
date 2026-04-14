@@ -1,0 +1,160 @@
+{
+  "dex_id": 700,
+  "name": "Sylveon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 39,
+    "usage_rate": 0.034300000000000004,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 304,
+        "name": "Hyper Voice",
+        "usage": 0.99091
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.7090900000000001
+      },
+      {
+        "id": 98,
+        "name": "Quick Attack",
+        "usage": 0.40909
+      },
+      {
+        "id": 63,
+        "name": "Hyper Beam",
+        "usage": 0.30909
+      },
+      {
+        "id": 247,
+        "name": "Shadow Ball",
+        "usage": 0.22727
+      },
+      {
+        "id": 347,
+        "name": "Calm Mind",
+        "usage": 0.22727
+      },
+      {
+        "id": 281,
+        "name": "Yawn",
+        "usage": 0.20909
+      },
+      {
+        "id": 585,
+        "name": "Moonblast",
+        "usage": 0.19091000000000002
+      },
+      {
+        "id": 595,
+        "name": "Mystical Fire",
+        "usage": 0.17273
+      },
+      {
+        "id": 270,
+        "name": "Helping Hand",
+        "usage": 0.16364
+      }
+    ],
+    "items": [
+      {
+        "id": 2105,
+        "name": "Fairy Feather",
+        "usage": 0.66364
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.10909
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.06364
+      },
+      {
+        "id": 264,
+        "name": "Choice Scarf",
+        "usage": 0.04545
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.04545
+      },
+      {
+        "id": 194,
+        "name": "Quick Claw",
+        "usage": 0.03636
+      },
+      {
+        "id": 167,
+        "name": "Kebia Berry",
+        "usage": 0.00909
+      },
+      {
+        "id": 230,
+        "name": "Shell Bell",
+        "usage": 0.00909
+      },
+      {
+        "id": 228,
+        "name": "Silk Scarf",
+        "usage": 0.00909
+      },
+      {
+        "id": 0,
+        "name": "Ribbon Dash - fairy feather",
+        "usage": 0.00909
+      }
+    ],
+    "abilities": [
+      {
+        "id": 182,
+        "name": "Pixilate",
+        "usage": 0.93636
+      },
+      {
+        "id": 56,
+        "name": "Cute Charm",
+        "usage": 0.06364
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.40909
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.32726999999999995
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.23636
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.22727
+      },
+      {
+        "dex_id": 248,
+        "name": "Tyranitar",
+        "usage": 0.21818
+      },
+      {
+        "dex_id": 981,
+        "name": "Farigiraf",
+        "usage": 0.16364
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

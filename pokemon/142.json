@@ -1,0 +1,170 @@
+{
+  "dex_id": 142,
+  "name": "Aerodactyl",
+  "form": null,
+  "competitive": {
+    "usage_rank": 17,
+    "usage_rate": 0.1101,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 157,
+        "name": "Rock Slide",
+        "usage": 0.9915
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.9461799999999999
+      },
+      {
+        "id": 814,
+        "name": "Dual Wingbeat",
+        "usage": 0.93768
+      },
+      {
+        "id": 366,
+        "name": "Tailwind",
+        "usage": 0.88669
+      },
+      {
+        "id": 469,
+        "name": "Wide Guard",
+        "usage": 0.08215
+      },
+      {
+        "id": 442,
+        "name": "Iron Head",
+        "usage": 0.02833
+      },
+      {
+        "id": 89,
+        "name": "Earthquake",
+        "usage": 0.02266
+      },
+      {
+        "id": 423,
+        "name": "Ice Fang",
+        "usage": 0.02266
+      },
+      {
+        "id": 242,
+        "name": "Crunch",
+        "usage": 0.014159999999999999
+      },
+      {
+        "id": 444,
+        "name": "Stone Edge",
+        "usage": 0.0085
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.69122
+      },
+      {
+        "id": 711,
+        "name": "Aerodactylite",
+        "usage": 0.23229
+      },
+      {
+        "id": 134,
+        "name": "Lum Berry",
+        "usage": 0.03116
+      },
+      {
+        "id": 0,
+        "name": "King",
+        "usage": 0.014159999999999999
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.00567
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.00567
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.00567
+      },
+      {
+        "id": 221,
+        "name": "Sharp Beak",
+        "usage": 0.00567
+      },
+      {
+        "id": 190,
+        "name": "Bright Powder",
+        "usage": 0.0028299999999999996
+      },
+      {
+        "id": 264,
+        "name": "Choice Scarf",
+        "usage": 0.0028299999999999996
+      }
+    ],
+    "abilities": [
+      {
+        "id": 127,
+        "name": "Unnerve",
+        "usage": 0.8526900000000001
+      },
+      {
+        "id": 46,
+        "name": "Pressure",
+        "usage": 0.07082
+      },
+      {
+        "id": 181,
+        "name": "Tough Claws",
+        "usage": 0.05382
+      },
+      {
+        "id": 69,
+        "name": "Rock Head",
+        "usage": 0.02266
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.5864
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.57224
+      },
+      {
+        "dex_id": 670,
+        "name": "Floette",
+        "usage": 0.51841
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.51558
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.35977
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.32011
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

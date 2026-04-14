@@ -1,0 +1,155 @@
+{
+  "dex_id": 637,
+  "name": "Volcarona",
+  "form": null,
+  "competitive": {
+    "usage_rank": 44,
+    "usage_rate": 0.025,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.5875
+      },
+      {
+        "id": 476,
+        "name": "Rage Powder",
+        "usage": 0.575
+      },
+      {
+        "id": 257,
+        "name": "Heat Wave",
+        "usage": 0.4875
+      },
+      {
+        "id": 483,
+        "name": "Quiver Dance",
+        "usage": 0.425
+      },
+      {
+        "id": 366,
+        "name": "Tailwind",
+        "usage": 0.4
+      },
+      {
+        "id": 202,
+        "name": "Giga Drain",
+        "usage": 0.3125
+      },
+      {
+        "id": 522,
+        "name": "Struggle Bug",
+        "usage": 0.25
+      },
+      {
+        "id": 552,
+        "name": "Fiery Dance",
+        "usage": 0.25
+      },
+      {
+        "id": 315,
+        "name": "Overheat",
+        "usage": 0.225
+      },
+      {
+        "id": 405,
+        "name": "Bug Buzz",
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.3375
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.3125
+      },
+      {
+        "id": 172,
+        "name": "Charti Berry",
+        "usage": 0.1125
+      },
+      {
+        "id": 162,
+        "name": "Passho Berry",
+        "usage": 0.0875
+      },
+      {
+        "id": 134,
+        "name": "Lum Berry",
+        "usage": 0.025
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.025
+      },
+      {
+        "id": 169,
+        "name": "Coba Berry",
+        "usage": 0.025
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.025
+      },
+      {
+        "id": 230,
+        "name": "Shell Bell",
+        "usage": 0.0125
+      },
+      {
+        "id": 226,
+        "name": "Charcoal",
+        "usage": 0.0125
+      }
+    ],
+    "abilities": [
+      {
+        "id": 49,
+        "name": "Flame Body",
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.3625
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.3375
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.275
+      },
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.25
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.25
+      },
+      {
+        "dex_id": 248,
+        "name": "Tyranitar",
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

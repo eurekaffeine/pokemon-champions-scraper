@@ -1,0 +1,155 @@
+{
+  "dex_id": 635,
+  "name": "Hydreigon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 47,
+    "usage_rate": 0.0231,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 399,
+        "name": "Dark Pulse",
+        "usage": 0.8783799999999999
+      },
+      {
+        "id": 434,
+        "name": "Draco Meteor",
+        "usage": 0.85135
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.43243000000000004
+      },
+      {
+        "id": 414,
+        "name": "Earth Power",
+        "usage": 0.31081
+      },
+      {
+        "id": 366,
+        "name": "Tailwind",
+        "usage": 0.28378
+      },
+      {
+        "id": 555,
+        "name": "Snarl",
+        "usage": 0.25676
+      },
+      {
+        "id": 53,
+        "name": "Flamethrower",
+        "usage": 0.16216
+      },
+      {
+        "id": 257,
+        "name": "Heat Wave",
+        "usage": 0.14865
+      },
+      {
+        "id": 116,
+        "name": "Focus Energy",
+        "usage": 0.12162
+      },
+      {
+        "id": 430,
+        "name": "Flash Cannon",
+        "usage": 0.10811
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "name": "Choice Scarf",
+        "usage": 0.28378
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.12162
+      },
+      {
+        "id": 209,
+        "name": "Scope Lens",
+        "usage": 0.12162
+      },
+      {
+        "id": 166,
+        "name": "Chople Berry",
+        "usage": 0.08108
+      },
+      {
+        "id": 217,
+        "name": "Black Glasses",
+        "usage": 0.06756999999999999
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.05405
+      },
+      {
+        "id": 194,
+        "name": "Quick Claw",
+        "usage": 0.05405
+      },
+      {
+        "id": 134,
+        "name": "Lum Berry",
+        "usage": 0.05405
+      },
+      {
+        "id": 723,
+        "name": "Roseli Berry",
+        "usage": 0.04054
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.04054
+      }
+    ],
+    "abilities": [
+      {
+        "id": 26,
+        "name": "Levitate",
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.43243000000000004
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.27027
+      },
+      {
+        "dex_id": 6,
+        "name": "Charizard",
+        "usage": 0.22973
+      },
+      {
+        "dex_id": 547,
+        "name": "Whimsicott",
+        "usage": 0.2027
+      },
+      {
+        "dex_id": 700,
+        "name": "Sylveon",
+        "usage": 0.16216
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.16216
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

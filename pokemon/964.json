@@ -1,0 +1,135 @@
+{
+  "dex_id": 964,
+  "name": "Palafin",
+  "form": null,
+  "competitive": {
+    "usage_rank": 29,
+    "usage_rate": 0.057699999999999994,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 857,
+        "name": "Jet Punch",
+        "usage": 0.97297
+      },
+      {
+        "id": 834,
+        "name": "Wave Crash",
+        "usage": 0.92973
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.7513500000000001
+      },
+      {
+        "id": 370,
+        "name": "Close Combat",
+        "usage": 0.55676
+      },
+      {
+        "id": 812,
+        "name": "Flip Turn",
+        "usage": 0.41622
+      },
+      {
+        "id": 8,
+        "name": "Ice Punch",
+        "usage": 0.09189
+      },
+      {
+        "id": 339,
+        "name": "Bulk Up",
+        "usage": 0.07027
+      },
+      {
+        "id": 114,
+        "name": "Haze",
+        "usage": 0.06486
+      },
+      {
+        "id": 409,
+        "name": "Drain Punch",
+        "usage": 0.05405
+      },
+      {
+        "id": 269,
+        "name": "Taunt",
+        "usage": 0.01081
+      }
+    ],
+    "items": [
+      {
+        "id": 220,
+        "name": "Mystic Water",
+        "usage": 0.7729699999999999
+      },
+      {
+        "id": 264,
+        "name": "Choice Scarf",
+        "usage": 0.11351000000000001
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.05946
+      },
+      {
+        "id": 134,
+        "name": "Lum Berry",
+        "usage": 0.03784
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.01081
+      },
+      {
+        "id": 0,
+        "name": "Mystery Berry",
+        "usage": 0.005410000000000001
+      }
+    ],
+    "abilities": [
+      {
+        "id": 278,
+        "name": "Zero to Hero",
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.61622
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.47027
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.26486
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.26486
+      },
+      {
+        "dex_id": 94,
+        "name": "Gengar",
+        "usage": 0.24324
+      },
+      {
+        "dex_id": 279,
+        "name": "Pelipper",
+        "usage": 0.23243
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "dex_id": 121,
+  "name": "Starmie",
+  "form": null,
+  "competitive": {
+    "usage_rank": 45,
+    "usage_rate": 0.024,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 710,
+        "name": "Liquidation",
+        "usage": 0.93506
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.85714
+      },
+      {
+        "id": 453,
+        "name": "Aqua Jet",
+        "usage": 0.53247
+      },
+      {
+        "id": 427,
+        "name": "Psycho Cut",
+        "usage": 0.50649
+      },
+      {
+        "id": 428,
+        "name": "Zen Headbutt",
+        "usage": 0.36363999999999996
+      },
+      {
+        "id": 861,
+        "name": "Ice Spinner",
+        "usage": 0.32468
+      },
+      {
+        "id": 164,
+        "name": "Substitute",
+        "usage": 0.14286
+      },
+      {
+        "id": 812,
+        "name": "Flip Turn",
+        "usage": 0.11688000000000001
+      },
+      {
+        "id": 285,
+        "name": "Skill Swap",
+        "usage": 0.05195
+      },
+      {
+        "id": 127,
+        "name": "Waterfall",
+        "usage": 0.05195
+      }
+    ],
+    "items": [
+      {
+        "id": 2561,
+        "name": "Starminite",
+        "usage": 0.9740300000000001
+      },
+      {
+        "id": 0,
+        "name": "Starmite",
+        "usage": 0.02597
+      }
+    ],
+    "abilities": [
+      {
+        "id": 30,
+        "name": "Natural Cure",
+        "usage": 0.7662300000000001
+      },
+      {
+        "id": 35,
+        "name": "Illuminate",
+        "usage": 0.09090999999999999
+      },
+      {
+        "id": 148,
+        "name": "Analytic",
+        "usage": 0.06494
+      },
+      {
+        "id": 37,
+        "name": "Huge Power",
+        "usage": 0.06494
+      },
+      {
+        "id": 74,
+        "name": "Pure Power",
+        "usage": 0.01299
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.75325
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.61039
+      },
+      {
+        "dex_id": 279,
+        "name": "Pelipper",
+        "usage": 0.58442
+      },
+      {
+        "dex_id": 983,
+        "name": "Kingambit",
+        "usage": 0.53247
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.35064999999999996
+      },
+      {
+        "dex_id": 149,
+        "name": "Dragonite",
+        "usage": 0.2987
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

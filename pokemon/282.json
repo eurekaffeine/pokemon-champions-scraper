@@ -1,0 +1,170 @@
+{
+  "dex_id": 282,
+  "name": "Gardevoir",
+  "form": null,
+  "competitive": {
+    "usage_rank": 23,
+    "usage_rate": 0.0764,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.6693899999999999
+      },
+      {
+        "id": 304,
+        "name": "Hyper Voice",
+        "usage": 0.63673
+      },
+      {
+        "id": 94,
+        "name": "Psychic",
+        "usage": 0.53878
+      },
+      {
+        "id": 585,
+        "name": "Moonblast",
+        "usage": 0.44898000000000005
+      },
+      {
+        "id": 473,
+        "name": "Psyshock",
+        "usage": 0.36327
+      },
+      {
+        "id": 433,
+        "name": "Trick Room",
+        "usage": 0.31837
+      },
+      {
+        "id": 605,
+        "name": "Dazzling Gleam",
+        "usage": 0.29388000000000003
+      },
+      {
+        "id": 396,
+        "name": "Aura Sphere",
+        "usage": 0.13878000000000001
+      },
+      {
+        "id": 347,
+        "name": "Calm Mind",
+        "usage": 0.13878000000000001
+      },
+      {
+        "id": 196,
+        "name": "Icy Wind",
+        "usage": 0.12653
+      }
+    ],
+    "items": [
+      {
+        "id": 696,
+        "name": "Gardevoirite",
+        "usage": 0.65714
+      },
+      {
+        "id": 264,
+        "name": "Choice Scarf",
+        "usage": 0.29388000000000003
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.01633
+      },
+      {
+        "id": 2105,
+        "name": "Fairy Feather",
+        "usage": 0.008159999999999999
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.008159999999999999
+      },
+      {
+        "id": 0,
+        "name": "Pa",
+        "usage": 0.004079999999999999
+      },
+      {
+        "id": 207,
+        "name": "Focus Band",
+        "usage": 0.004079999999999999
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.004079999999999999
+      },
+      {
+        "id": 190,
+        "name": "Bright Powder",
+        "usage": 0.004079999999999999
+      }
+    ],
+    "abilities": [
+      {
+        "id": 140,
+        "name": "Telepathy",
+        "usage": 0.43265
+      },
+      {
+        "id": 36,
+        "name": "Trace",
+        "usage": 0.37143
+      },
+      {
+        "id": 182,
+        "name": "Pixilate",
+        "usage": 0.10204
+      },
+      {
+        "id": 28,
+        "name": "Synchronize",
+        "usage": 0.0898
+      },
+      {
+        "id": 0,
+        "name": "Sincron",
+        "usage": 0.004079999999999999
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.60816
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.58367
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.31837
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.29388000000000003
+      },
+      {
+        "dex_id": 6,
+        "name": "Charizard",
+        "usage": 0.27347
+      },
+      {
+        "dex_id": 350,
+        "name": "Milotic",
+        "usage": 0.26531
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "dex_id": 212,
+  "name": "Scizor",
+  "form": null,
+  "competitive": {
+    "usage_rank": 46,
+    "usage_rate": 0.023399999999999997,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 418,
+        "name": "Bullet Punch",
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.92
+      },
+      {
+        "id": 450,
+        "name": "Bug Bite",
+        "usage": 0.6266700000000001
+      },
+      {
+        "id": 14,
+        "name": "Swords Dance",
+        "usage": 0.56
+      },
+      {
+        "id": 370,
+        "name": "Close Combat",
+        "usage": 0.36
+      },
+      {
+        "id": 814,
+        "name": "Dual Wingbeat",
+        "usage": 0.17332999999999998
+      },
+      {
+        "id": 369,
+        "name": "U-turn",
+        "usage": 0.13333
+      },
+      {
+        "id": 282,
+        "name": "Knock Off",
+        "usage": 0.06667
+      },
+      {
+        "id": 164,
+        "name": "Substitute",
+        "usage": 0.02667
+      },
+      {
+        "id": 404,
+        "name": "X-Scissor",
+        "usage": 0.02667
+      }
+    ],
+    "items": [
+      {
+        "id": 709,
+        "name": "Scizorite",
+        "usage": 0.72
+      },
+      {
+        "id": 210,
+        "name": "Metal Coat",
+        "usage": 0.13333
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.05333
+      },
+      {
+        "id": 190,
+        "name": "Bright Powder",
+        "usage": 0.02667
+      },
+      {
+        "id": 161,
+        "name": "Occa Berry",
+        "usage": 0.02667
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.01333
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.01333
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.01333
+      }
+    ],
+    "abilities": [
+      {
+        "id": 101,
+        "name": "Technician",
+        "usage": 0.98667
+      },
+      {
+        "id": 135,
+        "name": "Light Metal",
+        "usage": 0.01333
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.57333
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.42667
+      },
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.38667
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.37333
+      },
+      {
+        "dex_id": 279,
+        "name": "Pelipper",
+        "usage": 0.33332999999999996
+      },
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.17332999999999998
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

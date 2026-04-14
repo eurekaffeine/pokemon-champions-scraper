@@ -1,0 +1,155 @@
+{
+  "dex_id": 681,
+  "name": "Aegislash",
+  "form": null,
+  "competitive": {
+    "usage_rank": 36,
+    "usage_rate": 0.0424,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 0,
+        "name": "King's Shield",
+        "usage": 0.94853
+      },
+      {
+        "id": 442,
+        "name": "Iron Head",
+        "usage": 0.58824
+      },
+      {
+        "id": 425,
+        "name": "Shadow Sneak",
+        "usage": 0.46324
+      },
+      {
+        "id": 247,
+        "name": "Shadow Ball",
+        "usage": 0.42646999999999996
+      },
+      {
+        "id": 809,
+        "name": "Poltergeist",
+        "usage": 0.42646999999999996
+      },
+      {
+        "id": 430,
+        "name": "Flash Cannon",
+        "usage": 0.33824
+      },
+      {
+        "id": 469,
+        "name": "Wide Guard",
+        "usage": 0.29412
+      },
+      {
+        "id": 533,
+        "name": "Sacred Sword",
+        "usage": 0.21324
+      },
+      {
+        "id": 164,
+        "name": "Substitute",
+        "usage": 0.05882
+      },
+      {
+        "id": 370,
+        "name": "Close Combat",
+        "usage": 0.04412
+      }
+    ],
+    "items": [
+      {
+        "id": 224,
+        "name": "Spell Tag",
+        "usage": 0.44853000000000004
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.27205999999999997
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.07353
+      },
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.05147
+      },
+      {
+        "id": 191,
+        "name": "White Herb",
+        "usage": 0.03676
+      },
+      {
+        "id": 173,
+        "name": "Kasib Berry",
+        "usage": 0.02206
+      },
+      {
+        "id": 161,
+        "name": "Occa Berry",
+        "usage": 0.01471
+      },
+      {
+        "id": 175,
+        "name": "Colbur Berry",
+        "usage": 0.01471
+      },
+      {
+        "id": 210,
+        "name": "Metal Coat",
+        "usage": 0.01471
+      },
+      {
+        "id": 134,
+        "name": "Lum Berry",
+        "usage": 0.01471
+      }
+    ],
+    "abilities": [
+      {
+        "id": 176,
+        "name": "Stance Change",
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 445,
+        "name": "Garchomp",
+        "usage": 0.56618
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.43382
+      },
+      {
+        "dex_id": 670,
+        "name": "Floette",
+        "usage": 0.33824
+      },
+      {
+        "dex_id": 0,
+        "name": "Rotom-Wash",
+        "usage": 0.32353000000000004
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.31617999999999996
+      },
+      {
+        "dex_id": 663,
+        "name": "Talonflame",
+        "usage": 0.26471
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "dex_id": 279,
+  "name": "Pelipper",
+  "form": null,
+  "competitive": {
+    "usage_rank": 11,
+    "usage_rate": 0.16,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 542,
+        "name": "Hurricane",
+        "usage": 0.97271
+      },
+      {
+        "id": 311,
+        "name": "Weather Ball",
+        "usage": 0.8694
+      },
+      {
+        "id": 366,
+        "name": "Tailwind",
+        "usage": 0.76803
+      },
+      {
+        "id": 182,
+        "name": "Protect",
+        "usage": 0.64912
+      },
+      {
+        "id": 469,
+        "name": "Wide Guard",
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 330,
+        "name": "Muddy Water",
+        "usage": 0.12281
+      },
+      {
+        "id": 196,
+        "name": "Icy Wind",
+        "usage": 0.08381999999999999
+      },
+      {
+        "id": 369,
+        "name": "U-turn",
+        "usage": 0.06433
+      },
+      {
+        "id": 270,
+        "name": "Helping Hand",
+        "usage": 0.035089999999999996
+      },
+      {
+        "id": 56,
+        "name": "Hydro Pump",
+        "usage": 0.03314
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "name": "Focus Sash",
+        "usage": 0.7504900000000001
+      },
+      {
+        "id": 264,
+        "name": "Choice Scarf",
+        "usage": 0.08967
+      },
+      {
+        "id": 135,
+        "name": "Sitrus Berry",
+        "usage": 0.05653
+      },
+      {
+        "id": 211,
+        "name": "Leftovers",
+        "usage": 0.02924
+      },
+      {
+        "id": 221,
+        "name": "Sharp Beak",
+        "usage": 0.01559
+      },
+      {
+        "id": 194,
+        "name": "Quick Claw",
+        "usage": 0.01365
+      },
+      {
+        "id": 163,
+        "name": "Wacan Berry",
+        "usage": 0.011699999999999999
+      },
+      {
+        "id": 220,
+        "name": "Mystic Water",
+        "usage": 0.00975
+      },
+      {
+        "id": 134,
+        "name": "Lum Berry",
+        "usage": 0.0078000000000000005
+      },
+      {
+        "id": 196,
+        "name": "Mental Herb",
+        "usage": 0.0039000000000000003
+      }
+    ],
+    "abilities": [
+      {
+        "id": 2,
+        "name": "Drizzle",
+        "usage": 0.9863500000000001
+      },
+      {
+        "id": 51,
+        "name": "Keen Eye",
+        "usage": 0.00975
+      },
+      {
+        "id": 44,
+        "name": "Rain Dish",
+        "usage": 0.0039000000000000003
+      }
+    ],
+    "teammates": [
+      {
+        "dex_id": 902,
+        "name": "Basculegion",
+        "usage": 0.62378
+      },
+      {
+        "dex_id": 1018,
+        "name": "Archaludon",
+        "usage": 0.5770000000000001
+      },
+      {
+        "dex_id": 727,
+        "name": "Incineroar",
+        "usage": 0.5107200000000001
+      },
+      {
+        "dex_id": 1013,
+        "name": "Sinistcha",
+        "usage": 0.50097
+      },
+      {
+        "dex_id": 903,
+        "name": "Sneasler",
+        "usage": 0.40156
+      },
+      {
+        "dex_id": 149,
+        "name": "Dragonite",
+        "usage": 0.36646999999999996
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}
