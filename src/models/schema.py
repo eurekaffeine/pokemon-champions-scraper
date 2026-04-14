@@ -8,29 +8,25 @@ from pydantic import BaseModel, Field
 
 class MoveUsage(BaseModel):
     """Usage statistics for a move."""
-    id: int = Field(0, ge=0, description="Move ID (0 if unknown)")
-    name: str
+    id: int = Field(..., ge=0, description="Move ID")
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
 
 class ItemUsage(BaseModel):
     """Usage statistics for an item."""
-    id: int = Field(0, ge=0, description="Item ID (0 if unknown)")
-    name: str
+    id: int = Field(..., ge=0, description="Item ID")
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
 
 class AbilityUsage(BaseModel):
     """Usage statistics for an ability."""
-    id: int = Field(0, ge=0, description="Ability ID (0 if unknown)")
-    name: str
+    id: int = Field(..., ge=0, description="Ability ID")
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
 
 class TeammateUsage(BaseModel):
     """Usage statistics for a teammate Pokémon."""
-    dex_id: int = Field(0, ge=0, description="National Pokédex ID (0 if unknown)")
-    name: str
+    id: int = Field(..., ge=0, description="National Pokédex ID")
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
 

@@ -98,11 +98,12 @@ class PikalyticsScraper(BaseScraper):
                 move_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(move_pattern, moves_section)[:10]:
                     move_name = match[0].strip()
-                    moves.append(MoveUsage(
-                        id=resolve_move_id(move_name),
-                        name=move_name,
-                        usage=float(match[1]) / 100,
-                    ))
+                    move_id = resolve_move_id(move_name)
+                    if move_id > 0:  # Only include if we can resolve the ID
+                        moves.append(MoveUsage(
+                            id=move_id,
+                            usage=float(match[1]) / 100,
+                        ))
 
             # Parse Common Items section
             items_section = self._extract_section(markdown, "Common Items")
@@ -110,11 +111,12 @@ class PikalyticsScraper(BaseScraper):
                 item_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(item_pattern, items_section)[:10]:
                     item_name = match[0].strip()
-                    items.append(ItemUsage(
-                        id=resolve_item_id(item_name),
-                        name=item_name,
-                        usage=float(match[1]) / 100,
-                    ))
+                    item_id = resolve_item_id(item_name)
+                    if item_id > 0:  # Only include if we can resolve the ID
+                        items.append(ItemUsage(
+                            id=item_id,
+                            usage=float(match[1]) / 100,
+                        ))
 
             # Parse Common Abilities section
             abilities_section = self._extract_section(markdown, "Common Abilities")
@@ -122,11 +124,12 @@ class PikalyticsScraper(BaseScraper):
                 ability_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(ability_pattern, abilities_section)[:5]:
                     ability_name = match[0].strip()
-                    abilities.append(AbilityUsage(
-                        id=resolve_ability_id(ability_name),
-                        name=ability_name,
-                        usage=float(match[1]) / 100,
-                    ))
+                    ability_id = resolve_ability_id(ability_name)
+                    if ability_id > 0:  # Only include if we can resolve the ID
+                        abilities.append(AbilityUsage(
+                            id=ability_id,
+                            usage=float(match[1]) / 100,
+                        ))
 
             # Parse Common Teammates section
             teammates_section = self._extract_section(markdown, "Common Teammates")
@@ -134,11 +137,12 @@ class PikalyticsScraper(BaseScraper):
                 teammate_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(teammate_pattern, teammates_section)[:6]:
                     teammate_name = match[0].strip()
-                    teammates.append(TeammateUsage(
-                        dex_id=self._get_dex_id(teammate_name),
-                        name=teammate_name,
-                        usage=float(match[1]) / 100,
-                    ))
+                    teammate_id = self._get_dex_id(teammate_name)
+                    if teammate_id > 0:  # Only include if we can resolve the ID
+                        teammates.append(TeammateUsage(
+                            id=teammate_id,
+                            usage=float(match[1]) / 100,
+                        ))
 
             return PokemonUsage(
                 rank=0,  # Will be set from rankings
