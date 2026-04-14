@@ -46,7 +46,7 @@ class EVSpread(BaseModel):
 
 class PokemonUsage(BaseModel):
     """Usage statistics for a single Pokémon in competitive play."""
-    rank: int = Field(..., ge=1, description="Usage rank")
+    rank: int = Field(0, ge=0, description="Usage rank (0 if not set)")
     dex_id: int = Field(0, ge=0, description="National Pokédex ID (0 if unknown)")
     name: str
     form: Optional[str] = Field(None, description="Form variant, e.g., 'Mega', 'Alola'")
