@@ -9,153 +9,120 @@
     "moves": [
       {
         "id": 127,
-        "name": "Waterfall",
         "usage": 0.99286
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.7
       },
       {
         "id": 269,
-        "name": "Taunt",
         "usage": 0.52857
       },
       {
         "id": 86,
-        "name": "Thunder Wave",
         "usage": 0.48571
       },
       {
         "id": 349,
-        "name": "Dragon Dance",
         "usage": 0.32143
       },
       {
         "id": 423,
-        "name": "Ice Fang",
         "usage": 0.24286000000000002
       },
       {
         "id": 242,
-        "name": "Crunch",
         "usage": 0.24286000000000002
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.11429
       },
       {
         "id": 89,
-        "name": "Earthquake",
         "usage": 0.09286
       },
       {
         "id": 196,
-        "name": "Icy Wind",
         "usage": 0.042859999999999995
       }
     ],
     "items": [
       {
         "id": 715,
-        "name": "Gyaradosite",
         "usage": 0.26428999999999997
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.21428999999999998
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.17143
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.16429
       },
       {
         "id": 163,
-        "name": "Wacan Berry",
         "usage": 0.05714
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.03571
       },
       {
         "id": 220,
-        "name": "Mystic Water",
         "usage": 0.02857
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.021429999999999998
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.01429
-      },
-      {
-        "id": 0,
-        "name": "King",
-        "usage": 0.00714
       }
     ],
     "abilities": [
       {
         "id": 22,
-        "name": "Intimidate",
         "usage": 0.95714
       },
       {
         "id": 104,
-        "name": "Mold Breaker",
         "usage": 0.021429999999999998
       },
       {
         "id": 153,
-        "name": "Moxie",
         "usage": 0.021429999999999998
       }
     ],
     "teammates": [
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.48571
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.39286
       },
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.36429
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.32143
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.22857
       },
       {
-        "dex_id": 530,
-        "name": "Excadrill",
+        "id": 530,
         "usage": 0.22143000000000002
       }
     ],

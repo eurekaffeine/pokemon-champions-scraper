@@ -9,118 +9,96 @@
     "moves": [
       {
         "id": 252,
-        "name": "Fake Out",
         "usage": 0.8979600000000001
       },
       {
         "id": 38,
-        "name": "Double-Edge",
         "usage": 0.73469
       },
       {
         "id": 389,
-        "name": "Sucker Punch",
         "usage": 0.72449
       },
       {
         "id": 409,
-        "name": "Drain Punch",
         "usage": 0.60204
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.28571
       },
       {
         "id": 67,
-        "name": "Low Kick",
         "usage": 0.22449000000000002
       },
       {
         "id": 34,
-        "name": "Body Slam",
         "usage": 0.20408
       },
       {
         "id": 44,
-        "name": "Bite",
         "usage": 0.07143
       },
       {
         "id": 242,
-        "name": "Crunch",
         "usage": 0.06122
       },
       {
         "id": 8,
-        "name": "Ice Punch",
         "usage": 0.040819999999999995
       }
     ],
     "items": [
       {
         "id": 714,
-        "name": "Kangaskhanite",
         "usage": 0.9898
       },
       {
         "id": 224,
-        "name": "Spell Tag",
         "usage": 0.0102
       }
     ],
     "abilities": [
       {
         "id": 113,
-        "name": "Scrappy",
         "usage": 0.77551
       },
       {
         "id": 185,
-        "name": "Parental Bond",
         "usage": 0.10204
       },
       {
         "id": 39,
-        "name": "Inner Focus",
         "usage": 0.09183999999999999
       },
       {
         "id": 48,
-        "name": "Early Bird",
         "usage": 0.03061
       }
     ],
     "teammates": [
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.55102
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.37755000000000005
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.36735
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.36735
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.2551
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.22449000000000002
       }
     ],

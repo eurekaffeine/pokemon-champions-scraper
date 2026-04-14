@@ -9,149 +9,117 @@
     "moves": [
       {
         "id": 157,
-        "name": "Rock Slide",
         "usage": 0.96768
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.79192
       },
       {
         "id": 282,
-        "name": "Knock Off",
         "usage": 0.73333
       },
       {
         "id": 67,
-        "name": "Low Kick",
         "usage": 0.6101
       },
       {
         "id": 8,
-        "name": "Ice Punch",
         "usage": 0.14949
       },
       {
         "id": 242,
-        "name": "Crunch",
         "usage": 0.14747
       },
       {
         "id": 349,
-        "name": "Dragon Dance",
         "usage": 0.14141
       },
       {
         "id": 444,
-        "name": "Stone Edge",
         "usage": 0.09899
       },
       {
         "id": 89,
-        "name": "Earthquake",
         "usage": 0.07273
       },
       {
         "id": 667,
-        "name": "High Horsepower",
         "usage": 0.04646
       }
     ],
     "items": [
       {
         "id": 708,
-        "name": "Tyranitarite",
         "usage": 0.64242
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.15152
       },
       {
         "id": 166,
-        "name": "Chople Berry",
         "usage": 0.08889
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.02626
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.02222
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.01616
       },
       {
         "id": 168,
-        "name": "Shuca Berry",
         "usage": 0.01414
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.0101
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.00808
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.00808
       }
     ],
     "abilities": [
       {
         "id": 45,
-        "name": "Sand Stream",
         "usage": 0.9959600000000001
       },
       {
         "id": 127,
-        "name": "Unnerve",
         "usage": 0.00404
       }
     ],
     "teammates": [
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.60202
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.51515
       },
       {
-        "dex_id": 530,
-        "name": "Excadrill",
+        "id": 530,
         "usage": 0.47879
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.28889
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.28485
-      },
-      {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.27273
       }
     ],
     "tera_types": [],

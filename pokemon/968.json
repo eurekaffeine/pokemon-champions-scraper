@@ -9,114 +9,89 @@
     "moves": [
       {
         "id": 776,
-        "name": "Body Press",
         "usage": 0.96296
       },
       {
         "id": 880,
-        "name": "Shed Tail",
         "usage": 0.8703700000000001
       },
       {
         "id": 484,
-        "name": "Heavy Slam",
         "usage": 0.83333
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.64815
       },
       {
         "id": 334,
-        "name": "Iron Defense",
         "usage": 0.48148
       },
       {
         "id": 442,
-        "name": "Iron Head",
         "usage": 0.11111
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.05556
       },
       {
         "id": 479,
-        "name": "Smack Down",
         "usage": 0.018520000000000002
       },
       {
         "id": 89,
-        "name": "Earthquake",
         "usage": 0.018520000000000002
       }
     ],
     "items": [
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.8148099999999999
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.11111
       },
       {
         "id": 161,
-        "name": "Occa Berry",
         "usage": 0.037040000000000003
       },
       {
         "id": 166,
-        "name": "Chople Berry",
         "usage": 0.018520000000000002
       },
       {
         "id": 218,
-        "name": "Black Belt",
         "usage": 0.018520000000000002
       }
     ],
     "abilities": [
       {
         "id": 297,
-        "name": "Earth Eater",
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.72222
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.37037
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.31481000000000003
       },
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.25926
       },
       {
-        "dex_id": 478,
-        "name": "Froslass",
+        "id": 478,
         "usage": 0.24074
-      },
-      {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.22222
       }
     ],
     "tera_types": [],

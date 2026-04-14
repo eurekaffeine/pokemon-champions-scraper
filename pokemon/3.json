@@ -9,153 +9,124 @@
     "moves": [
       {
         "id": 188,
-        "name": "Sludge Bomb",
         "usage": 0.95726
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.8661
       },
       {
         "id": 79,
-        "name": "Sleep Powder",
         "usage": 0.75214
       },
       {
         "id": 437,
-        "name": "Leaf Storm",
         "usage": 0.41595
       },
       {
         "id": 412,
-        "name": "Energy Ball",
         "usage": 0.25356
       },
       {
         "id": 414,
-        "name": "Earth Power",
         "usage": 0.24786000000000002
       },
       {
         "id": 202,
-        "name": "Giga Drain",
         "usage": 0.17664000000000002
       },
       {
         "id": 73,
-        "name": "Leech Seed",
         "usage": 0.13675
       },
       {
         "id": 76,
-        "name": "Solar Beam",
         "usage": 0.06838
       },
       {
         "id": 311,
-        "name": "Weather Ball",
         "usage": 0.05128
       }
     ],
     "items": [
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.56695
       },
       {
         "id": 698,
-        "name": "Venusaurite",
         "usage": 0.21652000000000002
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.045579999999999996
       },
       {
         "id": 216,
-        "name": "Miracle Seed",
         "usage": 0.03989
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.03134
       },
       {
         "id": 161,
-        "name": "Occa Berry",
         "usage": 0.02564
       },
       {
         "id": 222,
-        "name": "Poison Barb",
         "usage": 0.01994
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.011399999999999999
       },
       {
         "id": 169,
-        "name": "Coba Berry",
         "usage": 0.011399999999999999
       },
       {
         "id": 196,
-        "name": "Mental Herb",
         "usage": 0.005699999999999999
       }
     ],
     "abilities": [
       {
         "id": 34,
-        "name": "Chlorophyll",
         "usage": 0.9230800000000001
       },
       {
         "id": 65,
-        "name": "Overgrow",
         "usage": 0.045579999999999996
       },
       {
         "id": 47,
-        "name": "Thick Fat",
         "usage": 0.03134
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.7663800000000001
       },
       {
-        "dex_id": 6,
-        "name": "Charizard",
+        "id": 6,
         "usage": 0.72934
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.6153799999999999
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.4188
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.24501
       },
       {
-        "dex_id": 350,
-        "name": "Milotic",
+        "id": 350,
         "usage": 0.19373
       }
     ],

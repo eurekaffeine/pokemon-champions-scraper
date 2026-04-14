@@ -9,153 +9,124 @@
     "moves": [
       {
         "id": 266,
-        "name": "Follow Me",
         "usage": 0.9862099999999999
       },
       {
         "id": 585,
-        "name": "Moonblast",
         "usage": 0.89655
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.8620699999999999
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.57931
       },
       {
         "id": 791,
-        "name": "Life Dew",
         "usage": 0.16552
       },
       {
         "id": 86,
-        "name": "Thunder Wave",
         "usage": 0.15862
       },
       {
         "id": 196,
-        "name": "Icy Wind",
         "usage": 0.09655
       },
       {
         "id": 605,
-        "name": "Dazzling Gleam",
         "usage": 0.04828
       },
       {
         "id": 227,
-        "name": "Encore",
         "usage": 0.04138
       },
       {
         "id": 236,
-        "name": "Moonlight",
         "usage": 0.02759
       }
     ],
     "items": [
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.5931000000000001
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.14483000000000001
       },
       {
         "id": 2559,
-        "name": "Clefablite",
         "usage": 0.11034000000000001
       },
       {
         "id": 167,
-        "name": "Kebia Berry",
         "usage": 0.02759
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.02759
       },
       {
         "id": 196,
-        "name": "Mental Herb",
         "usage": 0.02069
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.02069
       },
       {
         "id": 176,
-        "name": "Babiri Berry",
         "usage": 0.01379
       },
       {
         "id": 175,
-        "name": "Colbur Berry",
         "usage": 0.01379
       },
       {
         "id": 127,
-        "name": "Chesto Berry",
         "usage": 0.0069
       }
     ],
     "abilities": [
       {
         "id": 109,
-        "name": "Unaware",
         "usage": 0.8069
       },
       {
         "id": 98,
-        "name": "Magic Guard",
         "usage": 0.14483000000000001
       },
       {
         "id": 56,
-        "name": "Cute Charm",
         "usage": 0.04828
       }
     ],
     "teammates": [
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.55862
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.53793
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.37241
       },
       {
-        "dex_id": 655,
-        "name": "Delphox",
+        "id": 655,
         "usage": 0.33793
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.30345
       },
       {
-        "dex_id": 149,
-        "name": "Dragonite",
+        "id": 149,
         "usage": 0.24138
       }
     ],

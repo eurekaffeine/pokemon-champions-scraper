@@ -9,158 +9,120 @@
     "moves": [
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.98104
       },
       {
         "id": 691,
-        "name": "Clanging Scales",
         "usage": 0.8673000000000001
       },
       {
         "id": 775,
-        "name": "Clangorous Soul",
         "usage": 0.78199
       },
       {
         "id": 396,
-        "name": "Aura Sphere",
         "usage": 0.78199
       },
       {
         "id": 53,
-        "name": "Flamethrower",
         "usage": 0.13744
       },
       {
         "id": 776,
-        "name": "Body Press",
         "usage": 0.13269999999999998
       },
       {
         "id": 334,
-        "name": "Iron Defense",
         "usage": 0.13269999999999998
       },
       {
         "id": 434,
-        "name": "Draco Meteor",
         "usage": 0.09005
       },
       {
         "id": 410,
-        "name": "Vacuum Wave",
         "usage": 0.042649999999999993
       },
       {
         "id": 430,
-        "name": "Flash Cannon",
         "usage": 0.023700000000000002
       }
     ],
     "items": [
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.6966800000000001
       },
       {
         "id": 227,
-        "name": "Dragon Fang",
         "usage": 0.20379000000000003
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.03318
       },
       {
         "id": 174,
-        "name": "Haban Berry",
         "usage": 0.018959999999999998
       },
       {
         "id": 723,
-        "name": "Roseli Berry",
         "usage": 0.01422
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.009479999999999999
       },
       {
         "id": 218,
-        "name": "Black Belt",
         "usage": 0.009479999999999999
       },
       {
-        "id": 0,
-        "name": "Leftover",
-        "usage": 0.004739999999999999
-      },
-      {
         "id": 230,
-        "name": "Shell Bell",
         "usage": 0.004739999999999999
       },
       {
         "id": 169,
-        "name": "Coba Berry",
         "usage": 0.004739999999999999
       }
     ],
     "abilities": [
       {
         "id": 43,
-        "name": "Soundproof",
         "usage": 0.48815
       },
       {
         "id": 142,
-        "name": "Overcoat",
         "usage": 0.43601999999999996
       },
       {
         "id": 171,
-        "name": "Bulletproof",
         "usage": 0.07109
-      },
-      {
-        "id": 0,
-        "name": "bulletproff",
-        "usage": 0.004739999999999999
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.7345999999999999
       },
       {
-        "dex_id": 94,
-        "name": "Gengar",
+        "id": 94,
         "usage": 0.54028
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.5213300000000001
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.41706000000000004
       },
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.31754
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.19905
       }
     ],

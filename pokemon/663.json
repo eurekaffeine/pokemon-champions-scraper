@@ -9,148 +9,104 @@
     "moves": [
       {
         "id": 366,
-        "name": "Tailwind",
         "usage": 0.9906100000000001
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.6807500000000001
       },
       {
         "id": 394,
-        "name": "Flare Blitz",
         "usage": 0.67606
       },
       {
         "id": 413,
-        "name": "Brave Bird",
         "usage": 0.49765
       },
       {
         "id": 261,
-        "name": "Will-O-Wisp",
         "usage": 0.28169
       },
       {
         "id": 814,
-        "name": "Dual Wingbeat",
         "usage": 0.23944
       },
       {
         "id": 512,
-        "name": "Acrobatics",
         "usage": 0.21126999999999999
       },
       {
         "id": 269,
-        "name": "Taunt",
         "usage": 0.11737
       },
       {
         "id": 501,
-        "name": "Quick Guard",
         "usage": 0.06103
       },
       {
         "id": 918,
-        "name": "Upper Hand",
         "usage": 0.05164
       }
     ],
     "items": [
       {
         "id": 221,
-        "name": "Sharp Beak",
         "usage": 0.43192
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.17370999999999998
       },
       {
-        "id": 0,
-        "name": "No Item",
-        "usage": 0.06573000000000001
-      },
-      {
         "id": 172,
-        "name": "Charti Berry",
         "usage": 0.037559999999999996
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.02817
       },
       {
         "id": 226,
-        "name": "Charcoal",
-        "usage": 0.02817
-      },
-      {
-        "id": 0,
-        "name": "None",
         "usage": 0.02817
       },
       {
         "id": 190,
-        "name": "Bright Powder",
-        "usage": 0.02347
-      },
-      {
-        "id": 0,
-        "name": "none",
         "usage": 0.02347
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.014079999999999999
       }
     ],
     "abilities": [
       {
         "id": 177,
-        "name": "Gale Wings",
         "usage": 0.9577500000000001
       },
       {
         "id": 49,
-        "name": "Flame Body",
         "usage": 0.042249999999999996
       }
     ],
     "teammates": [
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.70423
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.38498
       },
       {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.31455
-      },
-      {
-        "dex_id": 670,
-        "name": "Floette",
+        "id": 670,
         "usage": 0.30986
       },
       {
-        "dex_id": 925,
-        "name": "Maushold",
+        "id": 925,
         "usage": 0.25822
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.19249
       }
     ],

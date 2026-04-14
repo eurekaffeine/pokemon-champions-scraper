@@ -9,158 +9,120 @@
     "moves": [
       {
         "id": 389,
-        "name": "Sucker Punch",
         "usage": 0.9976900000000001
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.9388
       },
       {
         "id": 869,
-        "name": "Kowtow Cleave",
         "usage": 0.8879900000000001
       },
       {
         "id": 442,
-        "name": "Iron Head",
         "usage": 0.55658
       },
       {
         "id": 14,
-        "name": "Swords Dance",
         "usage": 0.41223999999999994
       },
       {
         "id": 67,
-        "name": "Low Kick",
         "usage": 0.16628
       },
       {
         "id": 372,
-        "name": "Assurance",
         "usage": 0.020790000000000003
       },
       {
         "id": 280,
-        "name": "Brick Break",
         "usage": 0.00924
       },
       {
         "id": 334,
-        "name": "Iron Defense",
         "usage": 0.0034599999999999995
       },
       {
         "id": 421,
-        "name": "Shadow Claw",
         "usage": 0.00231
       }
     ],
     "items": [
       {
         "id": 217,
-        "name": "Black Glasses",
         "usage": 0.63741
       },
       {
         "id": 166,
-        "name": "Chople Berry",
         "usage": 0.27136
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.013859999999999999
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.013859999999999999
       },
       {
         "id": 289,
-        "name": "Dread Plate",
         "usage": 0.0127
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.01155
       },
       {
         "id": 161,
-        "name": "Occa Berry",
         "usage": 0.00577
       },
       {
         "id": 218,
-        "name": "Black Belt",
         "usage": 0.00577
       },
       {
         "id": 168,
-        "name": "Shuca Berry",
         "usage": 0.00462
-      },
-      {
-        "id": 0,
-        "name": "King",
-        "usage": 0.0034599999999999995
       }
     ],
     "abilities": [
       {
         "id": 128,
-        "name": "Defiant",
         "usage": 0.9815200000000001
       },
       {
         "id": 293,
-        "name": "Supreme Overlord",
         "usage": 0.01617
       },
       {
         "id": 46,
-        "name": "Pressure",
-        "usage": 0.00115
-      },
-      {
-        "id": 0,
-        "name": "DefiantLevel",
         "usage": 0.00115
       }
     ],
     "teammates": [
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.60277
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.41917000000000004
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.32217
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.31178
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.25289
       },
       {
-        "dex_id": 478,
-        "name": "Froslass",
+        "id": 478,
         "usage": 0.19746
       }
     ],

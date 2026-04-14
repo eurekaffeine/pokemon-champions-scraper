@@ -9,153 +9,120 @@
     "moves": [
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.6727299999999999
       },
       {
         "id": 370,
-        "name": "Close Combat",
         "usage": 0.54545
       },
       {
         "id": 418,
-        "name": "Bullet Punch",
         "usage": 0.47273000000000004
       },
       {
         "id": 430,
-        "name": "Flash Cannon",
         "usage": 0.41818
       },
       {
         "id": 396,
-        "name": "Aura Sphere",
         "usage": 0.4
       },
       {
         "id": 309,
-        "name": "Meteor Mash",
         "usage": 0.23636
       },
       {
         "id": 410,
-        "name": "Vacuum Wave",
         "usage": 0.21818
       },
       {
         "id": 417,
-        "name": "Nasty Plot",
         "usage": 0.18181999999999998
       },
       {
         "id": 245,
-        "name": "Extreme Speed",
         "usage": 0.14545
       },
       {
         "id": 14,
-        "name": "Swords Dance",
         "usage": 0.12727
       }
     ],
     "items": [
       {
         "id": 712,
-        "name": "Lucarionite",
         "usage": 0.7090900000000001
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.03636
       },
       {
         "id": 218,
-        "name": "Black Belt",
         "usage": 0.03636
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.03636
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.03636
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.03636
       },
       {
         "id": 2641,
-        "name": "Lucarionite Z",
         "usage": 0.01818
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.01818
       },
       {
         "id": 223,
-        "name": "Never-Melt Ice",
         "usage": 0.01818
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.01818
       }
     ],
     "abilities": [
       {
         "id": 39,
-        "name": "Inner Focus",
         "usage": 0.9090900000000001
       },
       {
         "id": 80,
-        "name": "Steadfast",
         "usage": 0.07273
       },
       {
         "id": 91,
-        "name": "Adaptability",
         "usage": 0.01818
       }
     ],
     "teammates": [
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.45455
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.41818
       },
       {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.30909
-      },
-      {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.23636
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.18181999999999998
       },
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.18181999999999998
       }
     ],

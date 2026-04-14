@@ -9,153 +9,124 @@
     "moves": [
       {
         "id": 905,
-        "name": "Electro Shot",
         "usage": 0.96098
       },
       {
         "id": 430,
-        "name": "Flash Cannon",
         "usage": 0.89756
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.7317100000000001
       },
       {
         "id": 434,
-        "name": "Draco Meteor",
         "usage": 0.57561
       },
       {
         "id": 406,
-        "name": "Dragon Pulse",
         "usage": 0.32439
       },
       {
         "id": 396,
-        "name": "Aura Sphere",
         "usage": 0.22683
       },
       {
         "id": 555,
-        "name": "Snarl",
         "usage": 0.11220000000000001
       },
       {
         "id": 85,
-        "name": "Thunderbolt",
         "usage": 0.03659
       },
       {
         "id": 776,
-        "name": "Body Press",
         "usage": 0.01951
       },
       {
         "id": 796,
-        "name": "Steel Beam",
         "usage": 0.017070000000000002
       }
     ],
     "items": [
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.50488
       },
       {
         "id": 219,
-        "name": "Magnet",
         "usage": 0.14634
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.10488
       },
       {
         "id": 166,
-        "name": "Chople Berry",
         "usage": 0.06341000000000001
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.046340000000000006
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.02683
       },
       {
         "id": 168,
-        "name": "Shuca Berry",
         "usage": 0.021949999999999997
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.017070000000000002
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.012199999999999999
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.00976
       }
     ],
     "abilities": [
       {
         "id": 192,
-        "name": "Stamina",
         "usage": 0.7365900000000001
       },
       {
         "id": 5,
-        "name": "Sturdy",
         "usage": 0.21951
       },
       {
         "id": 242,
-        "name": "Stalwart",
         "usage": 0.043899999999999995
       }
     ],
     "teammates": [
       {
-        "dex_id": 279,
-        "name": "Pelipper",
+        "id": 279,
         "usage": 0.72195
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.59512
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.51707
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.42195
       },
       {
-        "dex_id": 149,
-        "name": "Dragonite",
+        "id": 149,
         "usage": 0.37073
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.32439
       }
     ],

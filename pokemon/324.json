@@ -9,138 +9,104 @@
     "moves": [
       {
         "id": 284,
-        "name": "Eruption",
         "usage": 0.95513
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.95513
       },
       {
         "id": 257,
-        "name": "Heat Wave",
         "usage": 0.58333
       },
       {
         "id": 414,
-        "name": "Earth Power",
         "usage": 0.5384599999999999
       },
       {
         "id": 311,
-        "name": "Weather Ball",
         "usage": 0.41026
       },
       {
         "id": 315,
-        "name": "Overheat",
         "usage": 0.11538
       },
       {
         "id": 76,
-        "name": "Solar Beam",
         "usage": 0.10897
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.10256
       },
       {
         "id": 53,
-        "name": "Flamethrower",
         "usage": 0.08333
       },
       {
         "id": 281,
-        "name": "Yawn",
         "usage": 0.04487
       }
     ],
     "items": [
       {
         "id": 226,
-        "name": "Charcoal",
         "usage": 0.91026
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.02564
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.01923
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.01282
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.01282
       },
       {
-        "id": 0,
-        "name": "King",
-        "usage": 0.00641
-      },
-      {
         "id": 191,
-        "name": "White Herb",
-        "usage": 0.00641
-      },
-      {
-        "id": 0,
-        "name": "Quentona - charcoal",
         "usage": 0.00641
       }
     ],
     "abilities": [
       {
         "id": 70,
-        "name": "Drought",
         "usage": 0.9871800000000001
       },
       {
         "id": 73,
-        "name": "White Smoke",
         "usage": 0.01282
       }
     ],
     "teammates": [
       {
-        "dex_id": 981,
-        "name": "Farigiraf",
+        "id": 981,
         "usage": 0.69231
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.60256
       },
       {
-        "dex_id": 3,
-        "name": "Venusaur",
+        "id": 3,
         "usage": 0.35897
       },
       {
-        "dex_id": 623,
-        "name": "Golurk",
+        "id": 623,
         "usage": 0.32692
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.24359000000000003
       },
       {
-        "dex_id": 6,
-        "name": "Charizard",
+        "id": 6,
         "usage": 0.21795
       }
     ],

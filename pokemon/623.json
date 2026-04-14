@@ -9,113 +9,92 @@
     "moves": [
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.90244
       },
       {
         "id": 809,
-        "name": "Poltergeist",
         "usage": 0.7439
       },
       {
         "id": 838,
-        "name": "Headlong Rush",
         "usage": 0.71951
       },
       {
         "id": 8,
-        "name": "Ice Punch",
         "usage": 0.46341
       },
       {
         "id": 409,
-        "name": "Drain Punch",
         "usage": 0.17073
       },
       {
         "id": 89,
-        "name": "Earthquake",
         "usage": 0.14634
       },
       {
         "id": 667,
-        "name": "High Horsepower",
         "usage": 0.12195
       },
       {
         "id": 157,
-        "name": "Rock Slide",
         "usage": 0.10976000000000001
       },
       {
         "id": 444,
-        "name": "Stone Edge",
         "usage": 0.08537
       },
       {
         "id": 282,
-        "name": "Knock Off",
         "usage": 0.08537
       }
     ],
     "items": [
       {
         "id": 2642,
-        "name": "Golurkite",
         "usage": 0.9756100000000001
       },
       {
         "id": 218,
-        "name": "Black Belt",
         "usage": 0.024390000000000002
       }
     ],
     "abilities": [
       {
         "id": 89,
-        "name": "Iron Fist",
         "usage": 0.7317100000000001
       },
       {
         "id": 99,
-        "name": "No Guard",
         "usage": 0.23171
       },
       {
         "id": 260,
-        "name": "Unseen Fist",
         "usage": 0.03659
       }
     ],
     "teammates": [
       {
-        "dex_id": 981,
-        "name": "Farigiraf",
+        "id": 981,
         "usage": 0.7439
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.68293
       },
       {
-        "dex_id": 324,
-        "name": "Torkoal",
+        "id": 324,
         "usage": 0.62195
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.36585
       },
       {
-        "dex_id": 3,
-        "name": "Venusaur",
+        "id": 3,
         "usage": 0.31707
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.28049
       }
     ],

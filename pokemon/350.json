@@ -9,153 +9,120 @@
     "moves": [
       {
         "id": 503,
-        "name": "Scald",
         "usage": 0.89259
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.85926
       },
       {
         "id": 58,
-        "name": "Ice Beam",
         "usage": 0.54074
       },
       {
         "id": 196,
-        "name": "Icy Wind",
         "usage": 0.53333
       },
       {
         "id": 105,
-        "name": "Recover",
         "usage": 0.45555999999999996
       },
       {
         "id": 791,
-        "name": "Life Dew",
         "usage": 0.18889
       },
       {
         "id": 330,
-        "name": "Muddy Water",
         "usage": 0.13704
       },
       {
         "id": 489,
-        "name": "Coil",
         "usage": 0.07778
       },
       {
         "id": 95,
-        "name": "Hypnosis",
         "usage": 0.07778
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.07778
       }
     ],
     "items": [
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.75556
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.12963
       },
       {
         "id": 220,
-        "name": "Mystic Water",
         "usage": 0.03333
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.03333
       },
       {
         "id": 163,
-        "name": "Wacan Berry",
         "usage": 0.018520000000000002
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.00741
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.00741
       },
       {
         "id": 164,
-        "name": "Rindo Berry",
         "usage": 0.00741
       },
       {
-        "id": 0,
-        "name": "mistic water",
-        "usage": 0.0037
-      },
-      {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.0037
       }
     ],
     "abilities": [
       {
         "id": 172,
-        "name": "Competitive",
         "usage": 0.96296
       },
       {
         "id": 63,
-        "name": "Marvel Scale",
         "usage": 0.03333
       },
       {
         "id": 56,
-        "name": "Cute Charm",
         "usage": 0.0037
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.52963
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.5
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.37406999999999996
       },
       {
-        "dex_id": 6,
-        "name": "Charizard",
+        "id": 6,
         "usage": 0.36667
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.3037
       },
       {
-        "dex_id": 3,
-        "name": "Venusaur",
+        "id": 3,
         "usage": 0.25184999999999996
       }
     ],

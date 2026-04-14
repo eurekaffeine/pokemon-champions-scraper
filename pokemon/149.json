@@ -9,148 +9,116 @@
     "moves": [
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.80822
       },
       {
         "id": 542,
-        "name": "Hurricane",
         "usage": 0.52283
       },
       {
         "id": 434,
-        "name": "Draco Meteor",
         "usage": 0.42922
       },
       {
         "id": 245,
-        "name": "Extreme Speed",
         "usage": 0.38584
       },
       {
         "id": 366,
-        "name": "Tailwind",
         "usage": 0.34247
       },
       {
         "id": 406,
-        "name": "Dragon Pulse",
         "usage": 0.22830999999999999
       },
       {
         "id": 799,
-        "name": "Scale Shot",
         "usage": 0.18492999999999998
       },
       {
         "id": 87,
-        "name": "Thunder",
         "usage": 0.17808
       },
       {
         "id": 58,
-        "name": "Ice Beam",
         "usage": 0.11644
       },
       {
         "id": 337,
-        "name": "Dragon Claw",
         "usage": 0.07078000000000001
       }
     ],
     "items": [
       {
         "id": 2562,
-        "name": "Dragoninite",
         "usage": 0.6484000000000001
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.13927
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.04566
       },
       {
         "id": 228,
-        "name": "Silk Scarf",
         "usage": 0.029679999999999998
       },
       {
         "id": 227,
-        "name": "Dragon Fang",
         "usage": 0.029679999999999998
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.0137
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.0137
       },
       {
-        "id": 0,
-        "name": "Dragonitite",
-        "usage": 0.009130000000000001
-      },
-      {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.009130000000000001
       },
       {
         "id": 165,
-        "name": "Yache Berry",
         "usage": 0.009130000000000001
       }
     ],
     "abilities": [
       {
         "id": 136,
-        "name": "Multiscale",
         "usage": 0.7237399999999999
       },
       {
         "id": 39,
-        "name": "Inner Focus",
         "usage": 0.27626
       }
     ],
     "teammates": [
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.52968
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.46347
       },
       {
-        "dex_id": 279,
-        "name": "Pelipper",
+        "id": 279,
         "usage": 0.42922
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.37671
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.37443
       },
       {
-        "dex_id": 1018,
-        "name": "Archaludon",
+        "id": 1018,
         "usage": 0.34703
       }
     ],

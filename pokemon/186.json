@@ -9,148 +9,120 @@
     "moves": [
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.92547
       },
       {
         "id": 311,
-        "name": "Weather Ball",
         "usage": 0.8323
       },
       {
         "id": 195,
-        "name": "Perish Song",
         "usage": 0.63354
       },
       {
         "id": 227,
-        "name": "Encore",
         "usage": 0.45963
       },
       {
         "id": 330,
-        "name": "Muddy Water",
         "usage": 0.27949999999999997
       },
       {
         "id": 196,
-        "name": "Icy Wind",
         "usage": 0.27949999999999997
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.21117999999999998
       },
       {
         "id": 58,
-        "name": "Ice Beam",
         "usage": 0.21117999999999998
       },
       {
         "id": 414,
-        "name": "Earth Power",
         "usage": 0.062110000000000005
       },
       {
         "id": 240,
-        "name": "Rain Dance",
         "usage": 0.031059999999999997
       }
     ],
     "items": [
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.50311
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.27329000000000003
       },
       {
         "id": 220,
-        "name": "Mystic Water",
         "usage": 0.1118
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.03727
       },
       {
         "id": 196,
-        "name": "Mental Herb",
         "usage": 0.02484
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.01242
       },
       {
         "id": 163,
-        "name": "Wacan Berry",
         "usage": 0.01242
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.00621
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.00621
       },
       {
         "id": 164,
-        "name": "Rindo Berry",
         "usage": 0.00621
       }
     ],
     "abilities": [
       {
         "id": 2,
-        "name": "Drizzle",
         "usage": 0.95652
       },
       {
         "id": 11,
-        "name": "Water Absorb",
         "usage": 0.04348
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.67081
       },
       {
-        "dex_id": 94,
-        "name": "Gengar",
+        "id": 94,
         "usage": 0.63354
       },
       {
-        "dex_id": 1018,
-        "name": "Archaludon",
+        "id": 1018,
         "usage": 0.40373
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.38509
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.29814
       },
       {
-        "dex_id": 149,
-        "name": "Dragonite",
+        "id": 149,
         "usage": 0.27949999999999997
       }
     ],

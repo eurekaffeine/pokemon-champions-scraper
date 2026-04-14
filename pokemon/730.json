@@ -9,148 +9,120 @@
     "moves": [
       {
         "id": 304,
-        "name": "Hyper Voice",
         "usage": 0.97409
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.95337
       },
       {
         "id": 585,
-        "name": "Moonblast",
         "usage": 0.94301
       },
       {
         "id": 347,
-        "name": "Calm Mind",
         "usage": 0.41451
       },
       {
         "id": 605,
-        "name": "Dazzling Gleam",
         "usage": 0.10363
       },
       {
         "id": 114,
-        "name": "Haze",
         "usage": 0.10363
       },
       {
         "id": 196,
-        "name": "Icy Wind",
         "usage": 0.09326000000000001
       },
       {
         "id": 58,
-        "name": "Ice Beam",
         "usage": 0.06736
       },
       {
         "id": 311,
-        "name": "Weather Ball",
         "usage": 0.06218
       },
       {
         "id": 453,
-        "name": "Aqua Jet",
         "usage": 0.025910000000000002
       }
     ],
     "items": [
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.3886
       },
       {
         "id": 220,
-        "name": "Mystic Water",
         "usage": 0.27979
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.16579999999999998
       },
       {
         "id": 2105,
-        "name": "Fairy Feather",
         "usage": 0.06218
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.03627
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.02073
       },
       {
         "id": 167,
-        "name": "Kebia Berry",
         "usage": 0.01554
       },
       {
         "id": 690,
-        "name": "Safety Goggles",
         "usage": 0.005180000000000001
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.005180000000000001
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.005180000000000001
       }
     ],
     "abilities": [
       {
         "id": 204,
-        "name": "Liquid Voice",
         "usage": 0.9637300000000001
       },
       {
         "id": 67,
-        "name": "Torrent",
         "usage": 0.03627
       }
     ],
     "teammates": [
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.49741
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.48705
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.3886
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.3057
       },
       {
-        "dex_id": 478,
-        "name": "Froslass",
+        "id": 478,
         "usage": 0.3057
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.29534
       }
     ],

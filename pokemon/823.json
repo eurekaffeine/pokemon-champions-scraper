@@ -9,154 +9,121 @@
     "moves": [
       {
         "id": 413,
-        "name": "Brave Bird",
         "usage": 0.79167
       },
       {
         "id": 366,
-        "name": "Tailwind",
         "usage": 0.5875
       },
       {
         "id": 776,
-        "name": "Body Press",
         "usage": 0.56667
       },
       {
         "id": 355,
-        "name": "Roost",
         "usage": 0.52917
       },
       {
         "id": 339,
-        "name": "Bulk Up",
         "usage": 0.47082999999999997
       },
       {
         "id": 442,
-        "name": "Iron Head",
         "usage": 0.4375
       },
       {
         "id": 334,
-        "name": "Iron Defense",
         "usage": 0.24167000000000002
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.225
       },
       {
         "id": 269,
-        "name": "Taunt",
         "usage": 0.029169999999999998
       },
       {
         "id": 369,
-        "name": "U-turn",
         "usage": 0.02083
       }
     ],
     "items": [
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.75417
       },
       {
         "id": 161,
-        "name": "Occa Berry",
         "usage": 0.075
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.07083
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.04167
       },
       {
         "id": 221,
-        "name": "Sharp Beak",
         "usage": 0.01667
       },
       {
         "id": 196,
-        "name": "Mental Herb",
         "usage": 0.0125
       },
       {
         "id": 210,
-        "name": "Metal Coat",
         "usage": 0.008329999999999999
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.008329999999999999
       },
       {
         "id": 207,
-        "name": "Focus Band",
         "usage": 0.00417
       },
       {
         "id": 218,
-        "name": "Black Belt",
         "usage": 0.00417
       }
     ],
     "abilities": [
       {
         "id": 240,
-        "name": "Mirror Armor",
         "usage": 0.92083
       },
       {
         "id": 46,
-        "name": "Pressure",
         "usage": 0.04583
       },
       {
         "id": 127,
-        "name": "Unnerve",
         "usage": 0.03333
       }
     ],
     "teammates": [
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.50417
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.475
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.46667000000000003
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.4625
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.3375
-      },
-      {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.325
       }
     ],
     "tera_types": [],

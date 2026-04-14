@@ -9,153 +9,120 @@
     "moves": [
       {
         "id": 252,
-        "name": "Fake Out",
         "usage": 0.9902500000000001
       },
       {
         "id": 575,
-        "name": "Parting Shot",
         "usage": 0.96041
       },
       {
         "id": 394,
-        "name": "Flare Blitz",
         "usage": 0.8537
       },
       {
         "id": 675,
-        "name": "Throat Chop",
         "usage": 0.43431
       },
       {
         "id": 663,
-        "name": "Darkest Lariat",
         "usage": 0.38669
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.13941
       },
       {
         "id": 261,
-        "name": "Will-O-Wisp",
         "usage": 0.06139
       },
       {
         "id": 269,
-        "name": "Taunt",
         "usage": 0.04188
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.04016
       },
       {
         "id": 555,
-        "name": "Snarl",
         "usage": 0.028690000000000004
       }
     ],
     "items": [
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.56168
       },
       {
         "id": 166,
-        "name": "Chople Berry",
         "usage": 0.15491
       },
       {
         "id": 168,
-        "name": "Shuca Berry",
         "usage": 0.12622
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.04877
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.039009999999999996
       },
       {
         "id": 162,
-        "name": "Passho Berry",
         "usage": 0.021230000000000002
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.00975
       },
       {
         "id": 217,
-        "name": "Black Glasses",
         "usage": 0.00688
       },
       {
         "id": 194,
-        "name": "Quick Claw",
         "usage": 0.00631
       },
       {
         "id": 226,
-        "name": "Charcoal",
         "usage": 0.0051600000000000005
       }
     ],
     "abilities": [
       {
         "id": 22,
-        "name": "Intimidate",
         "usage": 0.9816400000000001
       },
       {
         "id": 66,
-        "name": "Blaze",
         "usage": 0.01779
-      },
-      {
-        "id": 0,
-        "name": "Intimidaci",
-        "usage": 0.00057
       }
     ],
     "teammates": [
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.39415
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.3821
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.36374
       },
       {
-        "dex_id": 670,
-        "name": "Floette",
+        "id": 670,
         "usage": 0.22949000000000003
       },
       {
-        "dex_id": 6,
-        "name": "Charizard",
+        "id": 6,
         "usage": 0.21112999999999998
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.20940999999999999
       }
     ],

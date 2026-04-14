@@ -9,113 +9,92 @@
     "moves": [
       {
         "id": 257,
-        "name": "Heat Wave",
         "usage": 0.9840399999999999
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.97872
       },
       {
         "id": 94,
-        "name": "Psychic",
         "usage": 0.8883
       },
       {
         "id": 164,
-        "name": "Substitute",
         "usage": 0.38298000000000004
       },
       {
         "id": 227,
-        "name": "Encore",
         "usage": 0.17553000000000002
       },
       {
         "id": 417,
-        "name": "Nasty Plot",
         "usage": 0.15957000000000002
       },
       {
         "id": 473,
-        "name": "Psyshock",
         "usage": 0.08510999999999999
       },
       {
         "id": 605,
-        "name": "Dazzling Gleam",
         "usage": 0.05851
       },
       {
         "id": 347,
-        "name": "Calm Mind",
         "usage": 0.05851
       },
       {
         "id": 411,
-        "name": "Focus Blast",
         "usage": 0.05319
       }
     ],
     "items": [
       {
         "id": 2576,
-        "name": "Delphoxite",
         "usage": 0.99468
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.00532
       }
     ],
     "abilities": [
       {
         "id": 66,
-        "name": "Blaze",
         "usage": 0.65957
       },
       {
         "id": 26,
-        "name": "Levitate",
         "usage": 0.30319
       },
       {
         "id": 170,
-        "name": "Magician",
         "usage": 0.03723
       }
     ],
     "teammates": [
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.62234
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.60638
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.42021000000000003
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.2766
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.26596
       },
       {
-        "dex_id": 670,
-        "name": "Floette",
+        "id": 670,
         "usage": 0.26596
       }
     ],

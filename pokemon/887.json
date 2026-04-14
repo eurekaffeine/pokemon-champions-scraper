@@ -9,153 +9,124 @@
     "moves": [
       {
         "id": 751,
-        "name": "Dragon Darts",
         "usage": 0.625
       },
       {
         "id": 566,
-        "name": "Phantom Force",
         "usage": 0.58594
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.55469
       },
       {
         "id": 247,
-        "name": "Shadow Ball",
         "usage": 0.33594
       },
       {
         "id": 369,
-        "name": "U-turn",
         "usage": 0.32813000000000003
       },
       {
         "id": 434,
-        "name": "Draco Meteor",
         "usage": 0.29688
       },
       {
         "id": 261,
-        "name": "Will-O-Wisp",
         "usage": 0.25781
       },
       {
         "id": 706,
-        "name": "Psychic Fangs",
         "usage": 0.16405999999999998
       },
       {
         "id": 200,
-        "name": "Outrage",
         "usage": 0.13281
       },
       {
         "id": 389,
-        "name": "Sucker Punch",
         "usage": 0.10156000000000001
       }
     ],
     "items": [
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.28125
       },
       {
         "id": 227,
-        "name": "Dragon Fang",
         "usage": 0.25
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.08593999999999999
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.07812999999999999
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.0625
       },
       {
         "id": 224,
-        "name": "Spell Tag",
         "usage": 0.05469
       },
       {
         "id": 173,
-        "name": "Kasib Berry",
         "usage": 0.039060000000000004
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.02344
       },
       {
         "id": 207,
-        "name": "Focus Band",
         "usage": 0.02344
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.015629999999999998
       }
     ],
     "abilities": [
       {
         "id": 29,
-        "name": "Clear Body",
         "usage": 0.7734399999999999
       },
       {
         "id": 151,
-        "name": "Infiltrator",
         "usage": 0.21875
       },
       {
         "id": 130,
-        "name": "Cursed Body",
         "usage": 0.00781
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.44531
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.41406
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.26563
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.22655999999999998
       },
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.21875
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.21875
       }
     ],

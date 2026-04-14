@@ -9,153 +9,116 @@
     "moves": [
       {
         "id": 442,
-        "name": "Iron Head",
         "usage": 0.92549
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.91373
       },
       {
         "id": 667,
-        "name": "High Horsepower",
         "usage": 0.6862699999999999
       },
       {
         "id": 157,
-        "name": "Rock Slide",
         "usage": 0.6627500000000001
       },
       {
         "id": 89,
-        "name": "Earthquake",
         "usage": 0.57255
       },
       {
         "id": 14,
-        "name": "Swords Dance",
         "usage": 0.07843
       },
       {
         "id": 529,
-        "name": "Drill Run",
         "usage": 0.03137
       },
       {
         "id": 32,
-        "name": "Horn Drill",
         "usage": 0.019610000000000002
       },
       {
         "id": 90,
-        "name": "Fissure",
         "usage": 0.01569
       },
       {
         "id": 707,
-        "name": "Stomping Tantrum",
         "usage": 0.01569
       }
     ],
     "items": [
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.7882399999999999
       },
       {
         "id": 2570,
-        "name": "Excadrite",
         "usage": 0.06275
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.05098
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.03137
       },
       {
         "id": 214,
-        "name": "Soft Sand",
         "usage": 0.023530000000000002
       },
       {
         "id": 194,
-        "name": "Quick Claw",
-        "usage": 0.00784
-      },
-      {
-        "id": 0,
-        "name": "King",
         "usage": 0.00784
       },
       {
         "id": 168,
-        "name": "Shuca Berry",
         "usage": 0.00784
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.00392
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.00392
       }
     ],
     "abilities": [
       {
         "id": 146,
-        "name": "Sand Rush",
         "usage": 0.9098
       },
       {
         "id": 104,
-        "name": "Mold Breaker",
         "usage": 0.054900000000000004
       },
       {
         "id": 159,
-        "name": "Sand Force",
         "usage": 0.03529
       }
     ],
     "teammates": [
       {
-        "dex_id": 248,
-        "name": "Tyranitar",
+        "id": 248,
         "usage": 0.9294100000000001
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.60392
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.52941
       },
       {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.3098
-      },
-      {
-        "dex_id": 823,
-        "name": "Corviknight",
+        "id": 823,
         "usage": 0.25098
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.22745
       }
     ],

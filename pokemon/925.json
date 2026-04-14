@@ -9,153 +9,116 @@
     "moves": [
       {
         "id": 266,
-        "name": "Follow Me",
         "usage": 0.97059
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.89118
       },
       {
         "id": 162,
-        "name": "Super Fang",
         "usage": 0.76765
       },
       {
         "id": 269,
-        "name": "Taunt",
         "usage": 0.44706
       },
       {
         "id": 270,
-        "name": "Helping Hand",
         "usage": 0.26765
       },
       {
         "id": 227,
-        "name": "Encore",
         "usage": 0.19412
       },
       {
         "id": 860,
-        "name": "Population Bomb",
         "usage": 0.17941
       },
       {
         "id": 364,
-        "name": "Feint",
         "usage": 0.09706
       },
       {
         "id": 240,
-        "name": "Rain Dance",
         "usage": 0.023530000000000002
       },
       {
         "id": 251,
-        "name": "Beat Up",
         "usage": 0.02059
       }
     ],
     "items": [
       {
         "id": 166,
-        "name": "Chople Berry",
         "usage": 0.39118
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.27941
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.11471
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.052939999999999994
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.03235
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.023530000000000002
       },
       {
         "id": 196,
-        "name": "Mental Herb",
         "usage": 0.023530000000000002
       },
       {
-        "id": 0,
-        "name": "King",
-        "usage": 0.02059
-      },
-      {
         "id": 228,
-        "name": "Silk Scarf",
         "usage": 0.02059
-      },
-      {
-        "id": 0,
-        "name": "King's Rock",
-        "usage": 0.00882
       }
     ],
     "abilities": [
       {
         "id": 132,
-        "name": "Friend Guard",
         "usage": 0.9411799999999999
       },
       {
         "id": 101,
-        "name": "Technician",
         "usage": 0.05588
       },
       {
         "id": 167,
-        "name": "Cheek Pouch",
         "usage": 0.00294
       }
     ],
     "teammates": [
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.50588
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.43823999999999996
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.37941
       },
       {
-        "dex_id": 670,
-        "name": "Floette",
+        "id": 670,
         "usage": 0.37353000000000003
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.20294
       },
       {
-        "dex_id": 6,
-        "name": "Charizard",
+        "id": 6,
         "usage": 0.2
       }
     ],

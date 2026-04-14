@@ -9,143 +9,116 @@
     "moves": [
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.9737300000000001
       },
       {
         "id": 257,
-        "name": "Heat Wave",
         "usage": 0.90718
       },
       {
         "id": 76,
-        "name": "Solar Beam",
         "usage": 0.79159
       },
       {
         "id": 311,
-        "name": "Weather Ball",
         "usage": 0.43783
       },
       {
         "id": 315,
-        "name": "Overheat",
         "usage": 0.25919000000000003
       },
       {
         "id": 403,
-        "name": "Air Slash",
         "usage": 0.23117000000000001
       },
       {
         "id": 394,
-        "name": "Flare Blitz",
         "usage": 0.054290000000000005
       },
       {
         "id": 53,
-        "name": "Flamethrower",
         "usage": 0.04729
       },
       {
         "id": 406,
-        "name": "Dragon Pulse",
         "usage": 0.042030000000000005
       },
       {
         "id": 349,
-        "name": "Dragon Dance",
         "usage": 0.03853
       }
     ],
     "items": [
       {
         "id": 717,
-        "name": "Charizardite Y",
         "usage": 0.93695
       },
       {
         "id": 699,
-        "name": "Charizardite X",
         "usage": 0.050789999999999995
       },
       {
         "id": 226,
-        "name": "Charcoal",
         "usage": 0.00525
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.0017499999999999998
       },
       {
         "id": 172,
-        "name": "Charti Berry",
         "usage": 0.0017499999999999998
       },
       {
         "id": 247,
-        "name": "Life Orb",
         "usage": 0.0017499999999999998
       },
       {
         "id": 134,
-        "name": "Lum Berry",
         "usage": 0.0017499999999999998
       }
     ],
     "abilities": [
       {
         "id": 94,
-        "name": "Solar Power",
         "usage": 0.42031999999999997
       },
       {
         "id": 66,
-        "name": "Blaze",
         "usage": 0.40454999999999997
       },
       {
         "id": 70,
-        "name": "Drought",
         "usage": 0.15587
       },
       {
         "id": 181,
-        "name": "Tough Claws",
         "usage": 0.01926
       }
     ],
     "teammates": [
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.71454
       },
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.6444799999999999
       },
       {
-        "dex_id": 903,
-        "name": "Sneasler",
+        "id": 903,
         "usage": 0.54816
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.48862
       },
       {
-        "dex_id": 3,
-        "name": "Venusaur",
+        "id": 3,
         "usage": 0.44834
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.24518
       }
     ],

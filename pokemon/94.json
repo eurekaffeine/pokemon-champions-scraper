@@ -9,133 +9,108 @@
     "moves": [
       {
         "id": 247,
-        "name": "Shadow Ball",
         "usage": 0.94911
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.9465600000000001
       },
       {
         "id": 188,
-        "name": "Sludge Bomb",
         "usage": 0.57252
       },
       {
         "id": 195,
-        "name": "Perish Song",
         "usage": 0.5139900000000001
       },
       {
         "id": 50,
-        "name": "Disable",
         "usage": 0.26209
       },
       {
         "id": 164,
-        "name": "Substitute",
         "usage": 0.23919
       },
       {
         "id": 196,
-        "name": "Icy Wind",
         "usage": 0.16794
       },
       {
         "id": 482,
-        "name": "Sludge Wave",
         "usage": 0.06107
       },
       {
         "id": 261,
-        "name": "Will-O-Wisp",
         "usage": 0.0458
       },
       {
         "id": 605,
-        "name": "Dazzling Gleam",
         "usage": 0.03562
       }
     ],
     "items": [
       {
         "id": 695,
-        "name": "Gengarite",
         "usage": 0.93384
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.04835
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.00509
       },
       {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.00509
       },
       {
         "id": 190,
-        "name": "Bright Powder",
         "usage": 0.00254
       },
       {
         "id": 191,
-        "name": "White Herb",
         "usage": 0.00254
       },
       {
         "id": 230,
-        "name": "Shell Bell",
         "usage": 0.00254
       }
     ],
     "abilities": [
       {
         "id": 130,
-        "name": "Cursed Body",
         "usage": 0.7888
       },
       {
         "id": 23,
-        "name": "Shadow Tag",
         "usage": 0.2112
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.73028
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.33079000000000003
       },
       {
-        "dex_id": 784,
-        "name": "Kommo-O",
+        "id": 784,
         "usage": 0.29008
       },
       {
-        "dex_id": 983,
-        "name": "Kingambit",
+        "id": 983,
         "usage": 0.26972
       },
       {
-        "dex_id": 186,
-        "name": "Politoed",
+        "id": 186,
         "usage": 0.25954
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.25954
       }
     ],

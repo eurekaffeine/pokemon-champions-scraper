@@ -9,144 +9,109 @@
     "moves": [
       {
         "id": 408,
-        "name": "Power Gem",
         "usage": 0.9568300000000001
       },
       {
         "id": 596,
-        "name": "Spiky Shield",
         "usage": 0.86331
       },
       {
         "id": 414,
-        "name": "Earth Power",
         "usage": 0.85612
       },
       {
         "id": 188,
-        "name": "Sludge Bomb",
         "usage": 0.84892
       },
       {
         "id": 482,
-        "name": "Sludge Wave",
         "usage": 0.15108
       },
       {
         "id": 182,
-        "name": "Protect",
         "usage": 0.10791
       },
       {
         "id": 866,
-        "name": "Mortal Spin",
         "usage": 0.07914
       },
       {
         "id": 412,
-        "name": "Energy Ball",
         "usage": 0.02878
       },
       {
         "id": 605,
-        "name": "Dazzling Gleam",
         "usage": 0.02158
       },
       {
         "id": 446,
-        "name": "Stealth Rock",
         "usage": 0.02158
       }
     ],
     "items": [
       {
         "id": 2650,
-        "name": "Glimmoranite",
         "usage": 0.82014
       },
       {
         "id": 252,
-        "name": "Focus Sash",
         "usage": 0.11510999999999999
       },
       {
-        "id": 0,
-        "name": "Glimmorite",
-        "usage": 0.02158
-      },
-      {
         "id": 135,
-        "name": "Sitrus Berry",
         "usage": 0.01439
       },
       {
         "id": 211,
-        "name": "Leftovers",
         "usage": 0.01439
       },
       {
         "id": 264,
-        "name": "Choice Scarf",
         "usage": 0.007189999999999999
       },
       {
         "id": 168,
-        "name": "Shuca Berry",
         "usage": 0.007189999999999999
       }
     ],
     "abilities": [
       {
         "id": 295,
-        "name": "Toxic Debris",
         "usage": 0.8776999999999999
       },
       {
         "id": 91,
-        "name": "Adaptability",
         "usage": 0.08632999999999999
       },
       {
         "id": 212,
-        "name": "Corrosion",
         "usage": 0.02878
       },
       {
         "id": 26,
-        "name": "Levitate",
         "usage": 0.007189999999999999
       }
     ],
     "teammates": [
       {
-        "dex_id": 727,
-        "name": "Incineroar",
+        "id": 727,
         "usage": 0.43884999999999996
       },
       {
-        "dex_id": 547,
-        "name": "Whimsicott",
+        "id": 547,
         "usage": 0.32374
       },
       {
-        "dex_id": 1013,
-        "name": "Sinistcha",
+        "id": 1013,
         "usage": 0.2518
       },
       {
-        "dex_id": 902,
-        "name": "Basculegion",
+        "id": 902,
         "usage": 0.2518
       },
       {
-        "dex_id": 445,
-        "name": "Garchomp",
+        "id": 445,
         "usage": 0.2518
-      },
-      {
-        "dex_id": 0,
-        "name": "Rotom-Wash",
-        "usage": 0.20862999999999998
       }
     ],
     "tera_types": [],
