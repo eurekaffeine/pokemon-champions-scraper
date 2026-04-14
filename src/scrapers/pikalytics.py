@@ -1,5 +1,5 @@
 # src/scrapers/pikalytics.py
-"""Pikalytics scraper for Pokémon Champions competitive data."""
+"""Pikalytics scraper for Pokémon Champions competitive data using their AI API."""
 
 import logging
 import re
@@ -19,32 +19,33 @@ from src.models.schema import (
 
 logger = logging.getLogger(__name__)
 
-# Mapping of Pokémon names to National Dex IDs (partial, expand as needed)
+# Complete dex ID mapping (extend as needed)
 POKEMON_DEX_IDS = {
     "bulbasaur": 1, "ivysaur": 2, "venusaur": 3, "charmander": 4, "charmeleon": 5,
-    "charizard": 6, "squirtle": 7, "wartortle": 8, "blastoise": 9, "pikachu": 25,
-    "raichu": 26, "mewtwo": 150, "mew": 151, "chikorita": 152, "cyndaquil": 155,
-    "totodile": 158, "tyranitar": 248, "lugia": 249, "ho-oh": 250,
-    "treecko": 252, "torchic": 255, "mudkip": 258, "gardevoir": 282,
-    "salamence": 373, "metagross": 376, "latias": 380, "latios": 381,
-    "kyogre": 382, "groudon": 383, "rayquaza": 384,
-    "turtwig": 387, "chimchar": 390, "piplup": 393, "garchomp": 445,
-    "lucario": 448, "abomasnow": 460, "dialga": 483, "palkia": 484, "giratina": 487,
-    "snivy": 495, "tepig": 498, "oshawott": 501, "amoonguss": 591,
-    "landorus": 645, "kyurem": 646,
-    "chespin": 650, "fennekin": 653, "froakie": 656, "greninja": 658,
-    "aegislash": 681,
-    "rowlet": 722, "litten": 725, "popplio": 728, "mimikyu": 778,
-    "grookey": 810, "scorbunny": 813, "sobble": 816, "rillaboom": 812,
-    "cinderace": 815, "inteleon": 818, "urshifu": 892, "calyrex": 898,
-    "flutter-mane": 987, "iron-hands": 992, "gholdengo": 1000,
-    "miraidon": 1008, "koraidon": 1007,
-    # Add more as needed - in production, use a complete dex mapping file
+    "charizard": 6, "squirtle": 7, "wartortle": 8, "blastoise": 9, "caterpie": 10,
+    "pikachu": 25, "raichu": 26, "clefable": 35, "ninetales": 38, "ninetales-alola": 38,
+    "gengar": 94, "starmie": 121, "gyarados": 130, "aerodactyl": 142,
+    "dragonite": 149, "mewtwo": 150, "mew": 151,
+    "meganium": 154, "typhlosion": 157, "typhlosion-hisui": 157,
+    "politoed": 186, "kingambit": 983, "sneasler": 903,
+    "tyranitar": 248, "pelipper": 279, "gardevoir": 282, "maushold": 925,
+    "torkoal": 324, "milotic": 350, "salamence": 373, "metagross": 376,
+    "garchomp": 445, "lucario": 448, "rotom-wash": 479, "rotom-heat": 479,
+    "excadrill": 530, "whimsicott": 547, "basculegion": 902, "amoonguss": 591,
+    "volcarona": 637, "hydreigon": 635, "kangaskhan": 115,
+    "greninja": 658, "talonflame": 663, "aegislash": 681, "sylveon": 700,
+    "dragapult": 887, "incineroar": 727, "primarina": 730, "mimikyu": 778,
+    "kommo-o": 784, "palafin": 964, "farigiraf": 981, "corviknight": 823,
+    "sinistcha": 1013, "archaludon": 1018, "froslass": 478, "scizor": 212,
+    "floette": 670, "delphox": 655, "glimmora": 970, "arcanine-hisui": 59,
+    "orthworm": 968, "scovillain": 952, "golurk": 623,
+    "rillaboom": 812, "cinderace": 815, "inteleon": 818,
+    "urshifu": 892, "calyrex": 898,
 }
 
 
 class PikalyticsScraper(BaseScraper):
-    """Scraper for Pikalytics Pokémon Champions data."""
+    """Scraper for Pikalytics Pokémon Champions data using the AI markdown API."""
 
     @property
     def name(self) -> str:
@@ -52,7 +53,7 @@ class PikalyticsScraper(BaseScraper):
 
     @property
     def base_url(self) -> str:
-        return "https://pikalytics.com"
+        return "https://www.pikalytics.com"
 
     def _get_dex_id(self, name: str) -> int:
         """Get National Dex ID for a Pokémon name."""
@@ -60,78 +61,32 @@ class PikalyticsScraper(BaseScraper):
         return POKEMON_DEX_IDS.get(normalized, 0)
 
     async def scrape_rankings(self, limit: int = 50) -> list[PokemonUsage]:
-        """Scrape main Champions rankings page."""
-        url = f"{self.base_url}/pokedex/champions"
+        """Scrape main Champions rankings page using AI markdown API."""
+        url = f"{self.base_url}/ai/pokedex/championstournaments"
         logger.info(f"Scraping rankings from {url}")
 
         try:
-            html = await self._fetch(url)
-            soup = self._parse_html(html)
-            
+            markdown = await self._fetch(url)
             rankings = []
-            rank = 1
             
-            # Pikalytics uses a pokemon list with usage percentages
-            # Look for common patterns in their HTML structure
-            pokemon_entries = soup.select(".pokemon-entry, .pokedex-pokemon, [data-pokemon], .pokemon-row")
+            # Parse the markdown table
+            # Format: | Rank | Pokemon | Usage % | Web Page | AI Data |
+            # Example: | 1 | **Incineroar** | 55.57% | [View](...) | [AI](...) |
             
-            if not pokemon_entries:
-                # Fallback: try table rows
-                pokemon_entries = soup.select("table tr[data-pokemon], .usage-pokemon")
+            table_pattern = r'\|\s*(\d+)\s*\|\s*\*\*([^*]+)\*\*\s*\|\s*([\d.]+)%'
+            matches = re.findall(table_pattern, markdown)
             
-            if not pokemon_entries:
-                # Another fallback: look for any links to pokemon pages
-                pokemon_links = soup.select("a[href*='/pokedex/champions/']")
-                for link in pokemon_links[:limit]:
-                    href = link.get("href", "")
-                    match = re.search(r"/pokedex/champions/([^/]+)", href)
-                    if match:
-                        name = match.group(1).replace("-", " ").title()
-                        # Try to extract usage from nearby text
-                        parent = link.find_parent()
-                        usage_text = parent.get_text() if parent else ""
-                        usage_match = re.search(r"([\d.]+)\s*%", usage_text)
-                        usage_rate = float(usage_match.group(1)) / 100 if usage_match else 0.0
-                        
-                        rankings.append(PokemonUsage(
-                            rank=rank,
-                            dex_id=self._get_dex_id(name),
-                            name=name,
-                            usage_rate=usage_rate,
-                        ))
-                        rank += 1
-                        
-                        if rank > limit:
-                            break
-            else:
-                for entry in pokemon_entries[:limit]:
-                    try:
-                        # Extract name
-                        name_elem = entry.select_one(".pokemon-name, .name, [data-name]")
-                        if name_elem:
-                            name = name_elem.get_text(strip=True)
-                        else:
-                            name = entry.get("data-pokemon", entry.get_text(strip=True).split()[0])
-                        
-                        # Extract usage rate
-                        usage_elem = entry.select_one(".usage, .percentage, [data-usage]")
-                        if usage_elem:
-                            usage_rate = self._parse_percentage(usage_elem.get_text())
-                        else:
-                            usage_rate = 0.0
-                        
-                        if name:
-                            rankings.append(PokemonUsage(
-                                rank=rank,
-                                dex_id=self._get_dex_id(name),
-                                name=name.title(),
-                                usage_rate=usage_rate,
-                            ))
-                            rank += 1
-                    except Exception as e:
-                        logger.warning(f"Failed to parse entry: {e}")
-                        continue
-
+            for rank_str, name, usage_str in matches[:limit]:
+                rank = int(rank_str)
+                usage_rate = float(usage_str) / 100
+                
+                rankings.append(PokemonUsage(
+                    rank=rank,
+                    dex_id=self._get_dex_id(name),
+                    name=name.strip(),
+                    usage_rate=usage_rate,
+                ))
+            
             logger.info(f"Scraped {len(rankings)} Pokémon from rankings")
             return rankings
 
@@ -140,125 +95,81 @@ class PikalyticsScraper(BaseScraper):
             raise ParseError(f"Failed to parse rankings page: {e}") from e
 
     async def scrape_pokemon_detail(self, name: str) -> Optional[PokemonUsage]:
-        """Scrape detailed stats for a single Pokémon."""
-        normalized_name = self._normalize_pokemon_name(name)
-        url = f"{self.base_url}/pokedex/champions/{normalized_name}"
+        """Scrape detailed stats for a single Pokémon using AI markdown API."""
+        # Handle special name formats
+        url_name = name.replace(" ", "-")
+        url = f"{self.base_url}/ai/pokedex/championstournaments/{url_name}"
         logger.info(f"Scraping details for {name} from {url}")
 
         try:
-            html = await self._fetch(url)
-            soup = self._parse_html(html)
+            markdown = await self._fetch(url)
 
-            # Initialize data containers
             moves = []
             items = []
             abilities = []
             teammates = []
-            tera_types = []
-            spreads = []
-            win_rate = None
 
-            # Scrape moves section
-            moves_section = soup.select_one(".moves-section, [data-section='moves'], #moves")
+            # Parse Common Moves section
+            # Format: - **Move Name**: 98.915%
+            moves_section = self._extract_section(markdown, "Common Moves")
             if moves_section:
-                move_rows = moves_section.select(".move-row, tr, .item")
-                for row in move_rows[:4]:  # Top 4 moves
-                    move_name = row.select_one(".move-name, .name, td:first-child")
-                    move_usage = row.select_one(".usage, .percentage, td:last-child")
-                    if move_name:
-                        moves.append(MoveUsage(
-                            name=move_name.get_text(strip=True),
-                            usage=self._parse_percentage(move_usage.get_text() if move_usage else "0%"),
-                        ))
+                move_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
+                for match in re.findall(move_pattern, moves_section)[:10]:
+                    moves.append(MoveUsage(
+                        name=match[0].strip(),
+                        usage=float(match[1]) / 100,
+                    ))
 
-            # Scrape items section
-            items_section = soup.select_one(".items-section, [data-section='items'], #items")
+            # Parse Common Items section
+            items_section = self._extract_section(markdown, "Common Items")
             if items_section:
-                item_rows = items_section.select(".item-row, tr, .item")
-                for row in item_rows[:4]:
-                    item_name = row.select_one(".item-name, .name, td:first-child")
-                    item_usage = row.select_one(".usage, .percentage, td:last-child")
-                    if item_name:
-                        items.append(ItemUsage(
-                            name=item_name.get_text(strip=True),
-                            usage=self._parse_percentage(item_usage.get_text() if item_usage else "0%"),
-                        ))
+                item_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
+                for match in re.findall(item_pattern, items_section)[:10]:
+                    items.append(ItemUsage(
+                        name=match[0].strip(),
+                        usage=float(match[1]) / 100,
+                    ))
 
-            # Scrape abilities section
-            abilities_section = soup.select_one(".abilities-section, [data-section='abilities'], #abilities")
+            # Parse Common Abilities section
+            abilities_section = self._extract_section(markdown, "Common Abilities")
             if abilities_section:
-                ability_rows = abilities_section.select(".ability-row, tr, .item")
-                for row in ability_rows[:3]:
-                    ability_name = row.select_one(".ability-name, .name, td:first-child")
-                    ability_usage = row.select_one(".usage, .percentage, td:last-child")
-                    if ability_name:
-                        abilities.append(AbilityUsage(
-                            name=ability_name.get_text(strip=True),
-                            usage=self._parse_percentage(ability_usage.get_text() if ability_usage else "0%"),
-                        ))
+                ability_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
+                for match in re.findall(ability_pattern, abilities_section)[:5]:
+                    abilities.append(AbilityUsage(
+                        name=match[0].strip(),
+                        usage=float(match[1]) / 100,
+                    ))
 
-            # Scrape teammates section
-            teammates_section = soup.select_one(".teammates-section, [data-section='teammates'], #teammates")
+            # Parse Common Teammates section
+            teammates_section = self._extract_section(markdown, "Common Teammates")
             if teammates_section:
-                teammate_rows = teammates_section.select(".teammate-row, tr, .pokemon-entry, a[href*='pokedex']")
-                for row in teammate_rows[:6]:
-                    teammate_name_elem = row.select_one(".pokemon-name, .name") or row
-                    teammate_name = teammate_name_elem.get_text(strip=True)
-                    teammate_usage_elem = row.select_one(".usage, .percentage")
-                    if teammate_name:
-                        teammates.append(TeammateUsage(
-                            dex_id=self._get_dex_id(teammate_name),
-                            name=teammate_name.title(),
-                            usage=self._parse_percentage(teammate_usage_elem.get_text() if teammate_usage_elem else "0%"),
-                        ))
-
-            # Scrape tera types section
-            tera_section = soup.select_one(".tera-section, [data-section='tera'], #tera")
-            if tera_section:
-                tera_rows = tera_section.select(".tera-row, tr, .item")
-                for row in tera_rows[:4]:
-                    tera_type_elem = row.select_one(".type-name, .name, td:first-child")
-                    tera_usage_elem = row.select_one(".usage, .percentage, td:last-child")
-                    if tera_type_elem:
-                        tera_types.append(TeraTypeUsage(
-                            type=tera_type_elem.get_text(strip=True),
-                            usage=self._parse_percentage(tera_usage_elem.get_text() if tera_usage_elem else "0%"),
-                        ))
-
-            # Scrape EV spreads section
-            spreads_section = soup.select_one(".spreads-section, [data-section='spreads'], #spreads")
-            if spreads_section:
-                spread_rows = spreads_section.select(".spread-row, tr")
-                for row in spread_rows[:4]:
-                    nature_elem = row.select_one(".nature")
-                    evs_elem = row.select_one(".evs, .spread")
-                    usage_elem = row.select_one(".usage, .percentage")
-                    if nature_elem and evs_elem:
-                        spreads.append(EVSpread(
-                            nature=nature_elem.get_text(strip=True),
-                            evs=evs_elem.get_text(strip=True),
-                            usage=self._parse_percentage(usage_elem.get_text() if usage_elem else "0%"),
-                        ))
-
-            # Try to get win rate
-            win_rate_elem = soup.select_one(".win-rate, [data-winrate], .winrate")
-            if win_rate_elem:
-                win_rate = self._parse_percentage(win_rate_elem.get_text())
+                teammate_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
+                for match in re.findall(teammate_pattern, teammates_section)[:6]:
+                    teammate_name = match[0].strip()
+                    teammates.append(TeammateUsage(
+                        dex_id=self._get_dex_id(teammate_name),
+                        name=teammate_name,
+                        usage=float(match[1]) / 100,
+                    ))
 
             return PokemonUsage(
                 rank=0,  # Will be set from rankings
                 dex_id=self._get_dex_id(name),
-                name=name.title(),
+                name=name,
                 usage_rate=0.0,  # Will be set from rankings
-                win_rate=win_rate,
                 top_moves=moves,
                 top_items=items,
                 top_abilities=abilities,
                 top_teammates=teammates,
-                top_tera_types=tera_types,
-                top_spreads=spreads,
             )
 
         except Exception as e:
             logger.warning(f"Failed to scrape details for {name}: {e}")
             return None
+
+    def _extract_section(self, markdown: str, section_name: str) -> Optional[str]:
+        """Extract a section from markdown by header name."""
+        # Match ## Section Name followed by content until next ## or end
+        pattern = rf'## {re.escape(section_name)}\s*\n(.*?)(?=\n## |\Z)'
+        match = re.search(pattern, markdown, re.DOTALL)
+        return match.group(1) if match else None
