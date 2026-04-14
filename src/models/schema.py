@@ -8,18 +8,21 @@ from pydantic import BaseModel, Field
 
 class MoveUsage(BaseModel):
     """Usage statistics for a move."""
+    id: int = Field(0, ge=0, description="Move ID (0 if unknown)")
     name: str
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
 
 class ItemUsage(BaseModel):
     """Usage statistics for an item."""
+    id: int = Field(0, ge=0, description="Item ID (0 if unknown)")
     name: str
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
 
 class AbilityUsage(BaseModel):
     """Usage statistics for an ability."""
+    id: int = Field(0, ge=0, description="Ability ID (0 if unknown)")
     name: str
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
@@ -39,6 +42,7 @@ class TeraTypeUsage(BaseModel):
 
 class EVSpread(BaseModel):
     """EV spread and nature usage."""
+    nature_id: int = Field(0, ge=0, description="Nature ID (0 if unknown)")
     nature: str
     evs: str = Field(..., description="EV spread string, e.g., '252 Atk / 4 Def / 252 Spe'")
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")

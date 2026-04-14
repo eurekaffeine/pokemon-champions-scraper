@@ -16,32 +16,14 @@ from src.models.schema import (
     TeraTypeUsage,
     EVSpread,
 )
+from src.name_resolver import (
+    resolve_move_id,
+    resolve_ability_id,
+    resolve_item_id,
+    resolve_pokemon_id,
+)
 
 logger = logging.getLogger(__name__)
-
-# Complete dex ID mapping (extend as needed)
-POKEMON_DEX_IDS = {
-    "bulbasaur": 1, "ivysaur": 2, "venusaur": 3, "charmander": 4, "charmeleon": 5,
-    "charizard": 6, "squirtle": 7, "wartortle": 8, "blastoise": 9, "caterpie": 10,
-    "pikachu": 25, "raichu": 26, "clefable": 35, "ninetales": 38, "ninetales-alola": 38,
-    "gengar": 94, "starmie": 121, "gyarados": 130, "aerodactyl": 142,
-    "dragonite": 149, "mewtwo": 150, "mew": 151,
-    "meganium": 154, "typhlosion": 157, "typhlosion-hisui": 157,
-    "politoed": 186, "kingambit": 983, "sneasler": 903,
-    "tyranitar": 248, "pelipper": 279, "gardevoir": 282, "maushold": 925,
-    "torkoal": 324, "milotic": 350, "salamence": 373, "metagross": 376,
-    "garchomp": 445, "lucario": 448, "rotom-wash": 479, "rotom-heat": 479,
-    "excadrill": 530, "whimsicott": 547, "basculegion": 902, "amoonguss": 591,
-    "volcarona": 637, "hydreigon": 635, "kangaskhan": 115,
-    "greninja": 658, "talonflame": 663, "aegislash": 681, "sylveon": 700,
-    "dragapult": 887, "incineroar": 727, "primarina": 730, "mimikyu": 778,
-    "kommo-o": 784, "palafin": 964, "farigiraf": 981, "corviknight": 823,
-    "sinistcha": 1013, "archaludon": 1018, "froslass": 478, "scizor": 212,
-    "floette": 670, "delphox": 655, "glimmora": 970, "arcanine-hisui": 59,
-    "orthworm": 968, "scovillain": 952, "golurk": 623,
-    "rillaboom": 812, "cinderace": 815, "inteleon": 818,
-    "urshifu": 892, "calyrex": 898,
-}
 
 
 class PikalyticsScraper(BaseScraper):
@@ -56,9 +38,8 @@ class PikalyticsScraper(BaseScraper):
         return "https://www.pikalytics.com"
 
     def _get_dex_id(self, name: str) -> int:
-        """Get National Dex ID for a Pokémon name."""
-        normalized = self._normalize_pokemon_name(name)
-        return POKEMON_DEX_IDS.get(normalized, 0)
+        """Get National Dex ID for a Pokémon name using the name resolver."""
+        return resolve_pokemon_id(name)
 
     async def scrape_rankings(self, limit: int = 50) -> list[PokemonUsage]:
         """Scrape main Champions rankings page using AI markdown API."""
@@ -79,11 +60,12 @@ class PikalyticsScraper(BaseScraper):
             for rank_str, name, usage_str in matches[:limit]:
                 rank = int(rank_str)
                 usage_rate = float(usage_str) / 100
+                name_clean = name.strip()
                 
                 rankings.append(PokemonUsage(
                     rank=rank,
-                    dex_id=self._get_dex_id(name),
-                    name=name.strip(),
+                    dex_id=self._get_dex_id(name_clean),
+                    name=name_clean,
                     usage_rate=usage_rate,
                 ))
             
@@ -115,8 +97,10 @@ class PikalyticsScraper(BaseScraper):
             if moves_section:
                 move_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(move_pattern, moves_section)[:10]:
+                    move_name = match[0].strip()
                     moves.append(MoveUsage(
-                        name=match[0].strip(),
+                        id=resolve_move_id(move_name),
+                        name=move_name,
                         usage=float(match[1]) / 100,
                     ))
 
@@ -125,8 +109,10 @@ class PikalyticsScraper(BaseScraper):
             if items_section:
                 item_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(item_pattern, items_section)[:10]:
+                    item_name = match[0].strip()
                     items.append(ItemUsage(
-                        name=match[0].strip(),
+                        id=resolve_item_id(item_name),
+                        name=item_name,
                         usage=float(match[1]) / 100,
                     ))
 
@@ -135,8 +121,10 @@ class PikalyticsScraper(BaseScraper):
             if abilities_section:
                 ability_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
                 for match in re.findall(ability_pattern, abilities_section)[:5]:
+                    ability_name = match[0].strip()
                     abilities.append(AbilityUsage(
-                        name=match[0].strip(),
+                        id=resolve_ability_id(ability_name),
+                        name=ability_name,
                         usage=float(match[1]) / 100,
                     ))
 

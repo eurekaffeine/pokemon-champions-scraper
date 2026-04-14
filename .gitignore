@@ -49,3 +49,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Private assets - do not commit if cloned locally
+Pokedex-Assets/
