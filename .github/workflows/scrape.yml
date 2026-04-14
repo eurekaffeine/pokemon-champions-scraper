@@ -1,0 +1,227 @@
+# .github/workflows/scrape.yml
+# Daily scraper workflow - fetches competitive Pokémon data and deploys to GitHub Pages
+
+name: Scrape and Deploy
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Number of Pokémon to scrape'
+        required: false
+        default: '100'
+      notify:
+        description: 'Send Telegram notification on completion'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: scrape-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    outputs:
+      scraped_count: ${{ steps.run-scraper.outputs.count }}
+      status: ${{ steps.run-scraper.outputs.status }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        id: run-scraper
+        run: |
+          set +e
+          LIMIT=${{ github.event.inputs.limit || '100' }}
+          
+          echo "Running scraper with limit=${LIMIT}..."
+          python -m src.main scrape --limit ${LIMIT} --output output 2>&1 | tee scrape.log
+          
+          SCRAPE_EXIT_CODE=${PIPESTATUS[0]}
+          
+          if [ $SCRAPE_EXIT_CODE -eq 0 ]; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            
+            # Count Pokémon in output
+            if [ -f output/battle_meta.json ]; then
+              COUNT=$(python -c "import json; d=json.load(open('output/battle_meta.json')); print(len(d.get('pokemon_usage', [])))")
+              echo "count=${COUNT}" >> $GITHUB_OUTPUT
+            else
+              echo "count=0" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+            echo "count=0" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Upload scrape logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-logs
+          path: scrape.log
+          retention-days: 7
+
+      - name: Upload output artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: scrape-output
+          path: output/
+          retention-days: 7
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    if: needs.scrape.outputs.status == 'success'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download scrape output
+        uses: actions/download-artifact@v4
+        with:
+          name: scrape-output
+          path: output/
+
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p deploy
+          cp -r output/* deploy/
+          
+          # Ensure index.html exists
+          if [ ! -f deploy/index.html ]; then
+            echo "Creating default index.html..."
+            cat > deploy/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pokémon Champions Battle Meta API</title>
+            <style>
+              body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 1rem; }
+              h1 { color: #e3350d; }
+              a { color: #2a75bb; }
+              pre { background: #f5f5f5; padding: 1rem; border-radius: 8px; overflow-x: auto; }
+              .endpoint { background: #e8f4f8; padding: 0.5rem 1rem; border-radius: 4px; margin: 0.5rem 0; }
+            </style>
+          </head>
+          <body>
+            <h1>🏆 Pokémon Champions Battle Meta API</h1>
+            <p>Competitive battle metadata for Pokémon Champions, updated daily.</p>
+            
+            <h2>Endpoints</h2>
+            <div class="endpoint">
+              <strong>GET</strong> <a href="./battle_meta.json">battle_meta.json</a>
+            </div>
+            <p>Returns full competitive metadata including usage stats, moves, items, and tier lists.</p>
+            
+            <h2>Per-Pokémon Data</h2>
+            <div class="endpoint">
+              <strong>GET</strong> <code>pokemon/{dex_id}.json</code>
+            </div>
+            <p>Individual Pokémon competitive data. Example: <a href="./pokemon/445.json">pokemon/445.json</a> (Garchomp)</p>
+            
+            <h2>Usage</h2>
+            <pre><code>fetch('https://your-domain/battle_meta.json')
+            .then(r => r.json())
+            .then(data => console.log(data.pokemon_usage))</code></pre>
+            
+            <h2>Caching</h2>
+            <p>Data is updated daily at 2 AM UTC. Use <code>If-Modified-Since</code> headers for efficient caching.</p>
+            
+            <hr>
+            <p><small>Powered by <a href="https://github.com/user/pokemon-champions-scraper">pokemon-champions-scraper</a></small></p>
+          </body>
+          </html>
+          EOF
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: gh-pages
+          commit_message: 'chore: update battle meta data (${{ needs.scrape.outputs.scraped_count }} Pokémon)'
+          enable_jekyll: false
+          force_orphan: false
+
+  notify:
+    needs: [scrape, deploy]
+    runs-on: ubuntu-latest
+    if: always() && (github.event.inputs.notify == 'true' || needs.scrape.outputs.status == 'failed')
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          pip install httpx
+
+      - name: Send notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SCRAPE_STATUS: ${{ needs.scrape.outputs.status }}
+          SCRAPED_COUNT: ${{ needs.scrape.outputs.scraped_count }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram credentials not configured, skipping notification"
+            exit 0
+          fi
+          
+          python -c "
+          import os
+          from src.notify import send_telegram_notification
+          
+          status = os.environ['SCRAPE_STATUS']
+          count = os.environ.get('SCRAPED_COUNT', '0')
+          
+          if status == 'success':
+              message = f'✅ Pokémon Champions scrape complete!\n📊 {count} Pokémon updated'
+          else:
+              message = '❌ Pokémon Champions scrape failed!\nCheck workflow logs for details.'
+          
+          send_telegram_notification(
+              message=message,
+              chat_id=os.environ['TELEGRAM_CHAT_ID'],
+              bot_token=os.environ['TELEGRAM_BOT_TOKEN']
+          )
+          "
