@@ -26,7 +26,7 @@ class AbilityUsage(BaseModel):
 
 class TeammateUsage(BaseModel):
     """Usage statistics for a teammate Pokémon."""
-    dex_id: int = Field(..., ge=1, description="National Pokédex ID")
+    dex_id: int = Field(0, ge=0, description="National Pokédex ID (0 if unknown)")
     name: str
     usage: float = Field(..., ge=0, le=1, description="Usage rate (0-1)")
 
