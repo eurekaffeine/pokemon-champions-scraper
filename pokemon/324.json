@@ -1,0 +1,16 @@
+{
+  "dex_id": 324,
+  "name": "Torkoal",
+  "form": null,
+  "competitive": {
+    "usage_rank": 31,
+    "usage_rate": 0.0462,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 727,
+  "name": "Incineroar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 1,
+    "usage_rate": 0.5557,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

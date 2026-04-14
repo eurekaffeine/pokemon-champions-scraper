@@ -1,0 +1,16 @@
+{
+  "dex_id": 1013,
+  "name": "Sinistcha",
+  "form": null,
+  "competitive": {
+    "usage_rank": 4,
+    "usage_rate": 0.35950000000000004,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

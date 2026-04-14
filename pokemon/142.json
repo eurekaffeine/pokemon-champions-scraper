@@ -1,0 +1,16 @@
+{
+  "dex_id": 142,
+  "name": "Aerodactyl",
+  "form": null,
+  "competitive": {
+    "usage_rank": 19,
+    "usage_rate": 0.10490000000000001,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

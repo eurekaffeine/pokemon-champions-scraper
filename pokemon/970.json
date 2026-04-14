@@ -1,0 +1,16 @@
+{
+  "dex_id": 970,
+  "name": "Glimmora",
+  "form": null,
+  "competitive": {
+    "usage_rank": 35,
+    "usage_rate": 0.042199999999999994,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

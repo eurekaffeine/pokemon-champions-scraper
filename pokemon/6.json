@@ -1,0 +1,16 @@
+{
+  "dex_id": 6,
+  "name": "Charizard",
+  "form": null,
+  "competitive": {
+    "usage_rank": 9,
+    "usage_rate": 0.1765,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 212,
+  "name": "Scizor",
+  "form": null,
+  "competitive": {
+    "usage_rank": 47,
+    "usage_rate": 0.020499999999999997,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 35,
+  "name": "Clefable",
+  "form": null,
+  "competitive": {
+    "usage_rank": 32,
+    "usage_rate": 0.0454,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

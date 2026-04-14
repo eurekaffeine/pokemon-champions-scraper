@@ -1,0 +1,16 @@
+{
+  "dex_id": 121,
+  "name": "Starmie",
+  "form": null,
+  "competitive": {
+    "usage_rank": 42,
+    "usage_rate": 0.0253,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

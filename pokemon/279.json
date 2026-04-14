@@ -1,0 +1,16 @@
+{
+  "dex_id": 279,
+  "name": "Pelipper",
+  "form": null,
+  "competitive": {
+    "usage_rank": 10,
+    "usage_rate": 0.1661,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

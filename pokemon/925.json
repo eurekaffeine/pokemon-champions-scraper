@@ -1,0 +1,16 @@
+{
+  "dex_id": 925,
+  "name": "Maushold",
+  "form": null,
+  "competitive": {
+    "usage_rank": 18,
+    "usage_rate": 0.1066,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 94,
+  "name": "Gengar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 14,
+    "usage_rate": 0.1251,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

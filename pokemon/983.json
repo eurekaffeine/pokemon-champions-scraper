@@ -1,0 +1,16 @@
+{
+  "dex_id": 983,
+  "name": "Kingambit",
+  "form": null,
+  "competitive": {
+    "usage_rank": 5,
+    "usage_rate": 0.2742,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}
