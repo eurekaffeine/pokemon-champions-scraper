@@ -1,0 +1,95 @@
+# .github/workflows/validate.yml
+# PR validation workflow - validates schema on changes to scraper or output
+
+name: Validate Schema
+
+on:
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'output/**'
+      - 'requirements.txt'
+      - '.github/workflows/validate.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'output/**'
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate existing output files
+        run: |
+          if [ -f output/battle_meta.json ]; then
+            echo "Validating output/battle_meta.json..."
+            python -m src.main validate output/battle_meta.json
+          else
+            echo "No output/battle_meta.json found, skipping validation"
+          fi
+
+      - name: Type check with mypy (optional)
+        continue-on-error: true
+        run: |
+          pip install mypy types-PyYAML types-beautifulsoup4
+          mypy src/ --ignore-missing-imports || echo "Type check completed with warnings"
+
+      - name: Run tests
+        run: |
+          if [ -d tests ] && [ "$(ls -A tests)" ]; then
+            pip install pytest pytest-asyncio
+            pytest tests/ -v
+          else
+            echo "No tests found, skipping"
+          fi
+
+  dry-run:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Dry run scraper (limit 5)
+        run: |
+          echo "Running scraper with limit=5 for validation..."
+          python -m src.main scrape --limit 5 --output output-test --no-per-pokemon
+          
+          if [ -f output-test/battle_meta.json ]; then
+            echo "✓ Dry run successful"
+            python -m src.main validate output-test/battle_meta.json
+          else
+            echo "✗ Dry run failed - no output generated"
+            exit 1
+          fi
