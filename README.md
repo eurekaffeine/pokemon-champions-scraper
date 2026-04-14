@@ -1,27 +1,33 @@
 # Pokémon Champions Scraper
 
-Scrapes competitive battle metadata (usage stats, tier lists, rankings) from public sources and outputs structured JSON for [Pocket-Gallery](https://github.com/user/pocket-gallery) mobile apps.
+Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pikalytics](https://pikalytics.com) and outputs structured JSON for [Pocket-Gallery](https://github.com/user/pocket-gallery) mobile apps.
+
+## 🎯 Live API
+
+- **Landing Page:** https://eurekaffeine.github.io/pokemon-champions-scraper/
+- **Battle Meta:** https://eurekaffeine.github.io/pokemon-champions-scraper/battle_meta.json
+- **Per-Pokémon:** https://eurekaffeine.github.io/pokemon-champions-scraper/pokemon/{dex_id}.json
 
 ## Features
 
-- 📊 Scrapes Pikalytics, OP.GG, and Game8 for competitive data
-- 🔄 Daily automated updates via GitHub Actions (2 AM UTC)
+- 📊 Scrapes Pikalytics AI markdown API for competitive data
+- 🔄 Weekly automated updates via GitHub Actions (Mondays 2 AM UTC)
 - 📱 JSON output optimized for mobile app consumption
-- 🏆 Pokémon usage rates, moves, items, teammates, tier lists
+- 🏆 Pokémon usage rates, moves, items, abilities, teammates
 - 🔔 Optional Telegram notifications on scrape completion
 
 ## Quick Start
 
 ```bash
 # Clone
-git clone https://github.com/user/pokemon-champions-scraper.git
+git clone https://github.com/eurekaffeine/pokemon-champions-scraper.git
 cd pokemon-champions-scraper
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run scraper
-python -m src.main scrape --limit 100
+python -m src.main scrape --limit 50
 
 # Output in ./output/battle_meta.json
 ```
@@ -29,45 +35,94 @@ python -m src.main scrape --limit 100
 ## CLI Usage
 
 ```bash
-# Scrape with custom limit
+# Scrape from Pikalytics (default)
 python -m src.main scrape --limit 50
 
-# Scrape without per-Pokémon files
+# Scrape from multiple sources
+python -m src.main scrape --source all
+
+# Scrape without per-Pokémon detail files
 python -m src.main scrape --no-per-pokemon
 
-# Scrape with notification
+# Skip fetching per-Pokémon details (rankings only)
+python -m src.main scrape --no-details
+
+# Scrape with Telegram notification
 python -m src.main scrape --notify
+
+# Test a single scraper
+python -m src.main test-scraper --source pikalytics
 
 # Validate output
 python -m src.main validate output/battle_meta.json
-
-# Show version
-python -m src.main version
 ```
 
-## Output
+## Data Source
 
-See [PLAN.md](./PLAN.md) for full schema documentation.
+This scraper uses the **Pikalytics AI markdown API** (`/ai/pokedex/championstournaments`), which provides clean structured data for competitive Pokémon Champions tournaments.
+
+**Update Frequency:** Pikalytics updates data **monthly** (check the `Data Date` field). The scraper runs weekly to catch month rollovers.
+
+## Output Schema
+
+### battle_meta.json
 
 ```json
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T02:00:00Z",
+  "updated_at": "2026-04-14T05:23:00Z",
+  "season": {
+    "id": "s1",
+    "name": "Season 1",
+    "start_date": "2026-04-08"
+  },
   "pokemon_usage": [
     {
       "rank": 1,
-      "dex_id": 445,
-      "name": "Garchomp",
-      "usage_rate": 0.342,
-      "top_moves": [...]
+      "dex_id": 727,
+      "name": "Incineroar",
+      "usage_rate": 0.5557,
+      "top_moves": [
+        { "name": "Fake Out", "usage": 0.989 },
+        { "name": "Parting Shot", "usage": 0.965 }
+      ],
+      "top_items": [
+        { "name": "Sitrus Berry", "usage": 0.556 }
+      ],
+      "top_abilities": [
+        { "name": "Intimidate", "usage": 0.983 }
+      ],
+      "top_teammates": [
+        { "name": "Sinistcha", "usage": 0.408 }
+      ]
     }
+  ],
+  "sources": [
+    { "name": "Pikalytics", "url": "https://www.pikalytics.com", "scraped_at": "..." }
   ]
+}
+```
+
+### pokemon/{dex_id}.json
+
+```json
+{
+  "dex_id": 727,
+  "name": "Incineroar",
+  "competitive": {
+    "usage_rank": 1,
+    "usage_rate": 0.5557,
+    "moves": [...],
+    "items": [...],
+    "abilities": [...],
+    "teammates": [...]
+  }
 }
 ```
 
 ---
 
-## 📱 API Contract for Mobile Apps
+## 📱 Mobile App Integration
 
 ### Endpoints
 
@@ -76,180 +131,73 @@ See [PLAN.md](./PLAN.md) for full schema documentation.
 | `GET /battle_meta.json` | Full competitive metadata |
 | `GET /pokemon/{dex_id}.json` | Per-Pokémon competitive data |
 
-### Base URLs
+### Caching Strategy
 
-- **GitHub Pages:** `https://{user}.github.io/pokemon-champions-scraper/`
-- **CDN (if configured):** `https://your-cdn-domain.com/`
-
-### Response Format
-
-All responses are JSON with UTF-8 encoding.
-
-#### battle_meta.json
-
-```json
-{
-  "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T02:00:00Z",
-  "season": { "id": "s1", "name": "Season 1", ... },
-  "pokemon_usage": [...],
-  "tier_list": { "S": [...], "A": [...], ... },
-  "sources": [...]
-}
-```
-
-#### pokemon/{dex_id}.json
-
-```json
-{
-  "dex_id": 445,
-  "name": "Garchomp",
-  "competitive": {
-    "usage_rank": 1,
-    "usage_rate": 0.342,
-    "win_rate": 0.528,
-    "moves": [...],
-    "items": [...],
-    "spreads": [...]
-  }
-}
-```
-
-### Update Schedule
-
-Data is refreshed **daily at 2 AM UTC** via GitHub Actions.
-
----
-
-## 🚀 CDN & Caching Recommendations
-
-### For GitHub Pages
-
-GitHub Pages automatically serves with reasonable cache headers. For optimal mobile app performance:
-
-1. **Use conditional requests** — Send `If-Modified-Since` header with the last fetch timestamp
-2. **Cache locally** — Store JSON in app cache, refresh on 200, skip refresh on 304
-3. **Respect `updated_at`** — Check the field to know if data changed
-
-### For CDN Deployment (Cloudflare, Fastly, etc.)
-
-If hosting on a CDN, configure these cache headers:
-
-```
-Cache-Control: public, max-age=3600, stale-while-revalidate=86400
-ETag: "{hash-of-content}"
-Last-Modified: {updated_at-value}
-```
-
-**Recommended settings:**
-| Header | Value | Rationale |
-|--------|-------|-----------|
-| `max-age` | 3600 (1 hour) | Frequent enough for competitive meta |
-| `stale-while-revalidate` | 86400 (24 hours) | Serve stale while fetching fresh |
-| `ETag` | Content hash | Enable conditional requests |
-
-### Mobile App Caching Strategy
-
-#### Android (OkHttp)
+Data updates **weekly** (source is monthly). Use conditional requests:
 
 ```kotlin
-val client = OkHttpClient.Builder()
-    .cache(Cache(cacheDir, 10 * 1024 * 1024)) // 10 MB
-    .build()
-
+// Android (OkHttp)
 val request = Request.Builder()
     .url(BATTLE_META_URL)
     .header("If-Modified-Since", lastFetchTimestamp)
     .build()
-
-// Response 304 = use cache, 200 = new data
+// 304 = use cache, 200 = new data
 ```
-
-#### iOS (URLSession)
 
 ```swift
+// iOS (URLSession)
 let config = URLSessionConfiguration.default
 config.requestCachePolicy = .useProtocolCachePolicy
-
-let request = URLRequest(url: battleMetaURL)
-// URLSession handles If-Modified-Since automatically with caching
 ```
 
-#### HarmonyOS (ArkTS)
-
 ```typescript
+// HarmonyOS (ArkTS)
 import http from '@ohos.net.http';
-
-let httpRequest = http.createHttp();
 httpRequest.request(BATTLE_META_URL, {
-  header: { 'If-Modified-Since': lastFetchTimestamp },
-  readTimeout: 30000,
-  connectTimeout: 30000
+  header: { 'If-Modified-Since': lastFetchTimestamp }
 });
 ```
 
-### Versioning
+---
 
-The `schema_version` field uses semantic versioning:
+## GitHub Actions
 
-- **Patch (1.0.x):** Bug fixes, no breaking changes
-- **Minor (1.x.0):** New fields added, backward compatible
-- **Major (x.0.0):** Breaking changes, app update required
+### Workflows
 
-Apps should check `schema_version` and handle gracefully if unexpected.
+| Workflow | Schedule | Description |
+|----------|----------|-------------|
+| `scrape.yml` | **Mondays 2 AM UTC** | Scrape and deploy to gh-pages |
+| `validate.yml` | On PR | Validate schema, dry-run scrape |
+
+### Manual Trigger
+
+Go to **Actions → Scrape and Deploy → Run workflow** with options:
+- `limit`: Number of Pokémon (default: 100)
+- `notify`: Send Telegram notification (default: false)
+
+### Secrets (Optional)
+
+For Telegram notifications:
+- `TELEGRAM_BOT_TOKEN`: Bot token from @BotFather
+- `TELEGRAM_CHAT_ID`: Target chat ID
 
 ---
 
 ## Configuration
 
-Edit `config.yaml` to customize sources, rate limits, and output options.
-
 ```yaml
+# config.yaml
 scraper:
   user_agent: "PocketGallery-Scraper/1.0"
-  request_delay_ms: 1000
+  request_delay_ms: 1000  # Be polite
   max_retries: 3
   timeout_seconds: 30
 
-# Optional: Telegram notifications
-notify:
-  telegram_bot_token: "YOUR_BOT_TOKEN"  # or set TELEGRAM_BOT_TOKEN env var
-  telegram_chat_id: "YOUR_CHAT_ID"       # or set TELEGRAM_CHAT_ID env var
-```
-
-## GitHub Actions
-
-The scraper runs automatically via GitHub Actions:
-
-- **Daily scrape:** `.github/workflows/scrape.yml` — Runs at 2 AM UTC
-- **PR validation:** `.github/workflows/validate.yml` — Validates schema on PRs
-
-### Manual Trigger
-
-You can trigger a scrape manually from the Actions tab with custom parameters:
-- `limit`: Number of Pokémon to scrape (default: 100)
-- `notify`: Send Telegram notification (default: false)
-
-### Secrets Required
-
-For notifications, add these secrets to your repository:
-- `TELEGRAM_BOT_TOKEN`: Your Telegram bot token from @BotFather
-- `TELEGRAM_CHAT_ID`: The chat ID to send notifications to
-
----
-
-## Development
-
-```bash
-# Install dev dependencies
-pip install -r requirements.txt
-pip install pytest pytest-asyncio mypy
-
-# Run tests
-pytest tests/ -v
-
-# Type check
-mypy src/ --ignore-missing-imports
+sources:
+  pikalytics:
+    enabled: true
+  opgg:
+    enabled: false  # Optional secondary source
 ```
 
 ## License
