@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T05:19:48.012434Z",
+  "updated_at": "2026-04-14T05:21:35.450984Z",
   "season": {
     "id": "s1",
     "name": "Season 1",
@@ -147,146 +147,6 @@
       "top_teammates": [],
       "top_tera_types": [],
       "top_spreads": []
-    },
-    {
-      "rank": 11,
-      "dex_id": 479,
-      "name": "Rotom-Wash",
-      "form": null,
-      "usage_rate": 0.1616,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 12,
-      "dex_id": 248,
-      "name": "Tyranitar",
-      "form": null,
-      "usage_rate": 0.1528,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 13,
-      "dex_id": 149,
-      "name": "Dragonite",
-      "form": null,
-      "usage_rate": 0.1391,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 14,
-      "dex_id": 94,
-      "name": "Gengar",
-      "form": null,
-      "usage_rate": 0.1251,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 15,
-      "dex_id": 1018,
-      "name": "Archaludon",
-      "form": null,
-      "usage_rate": 0.12300000000000001,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 16,
-      "dex_id": 981,
-      "name": "Farigiraf",
-      "form": null,
-      "usage_rate": 0.11699999999999999,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 17,
-      "dex_id": 3,
-      "name": "Venusaur",
-      "form": null,
-      "usage_rate": 0.107,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 18,
-      "dex_id": 925,
-      "name": "Maushold",
-      "form": null,
-      "usage_rate": 0.1066,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 19,
-      "dex_id": 142,
-      "name": "Aerodactyl",
-      "form": null,
-      "usage_rate": 0.10490000000000001,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
-    },
-    {
-      "rank": 20,
-      "dex_id": 478,
-      "name": "Froslass",
-      "form": null,
-      "usage_rate": 0.0949,
-      "win_rate": null,
-      "top_moves": [],
-      "top_items": [],
-      "top_abilities": [],
-      "top_teammates": [],
-      "top_tera_types": [],
-      "top_spreads": []
     }
   ],
   "tier_list": null,
@@ -295,7 +155,7 @@
     {
       "name": "Pikalytics",
       "url": "https://www.pikalytics.com",
-      "scraped_at": "2026-04-14T05:19:48.011714Z"
+      "scraped_at": "2026-04-14T05:21:35.450169Z"
     }
   ]
 }
