@@ -1,0 +1,26 @@
+# Scraper configuration
+scraper:
+  user_agent: "PocketGallery-Scraper/1.0 (+https://github.com/user/pocket-gallery)"
+  request_delay_ms: 1000  # Be polite - 1 second between requests
+  max_retries: 3
+  timeout_seconds: 30
+
+sources:
+  pikalytics:
+    enabled: true
+    base_url: "https://pikalytics.com/pokedex/champions"
+  opgg:
+    enabled: false  # TODO: implement
+    base_url: "https://op.gg/pokemon-champions"
+  game8:
+    enabled: false  # Manual tier lists, less useful
+    base_url: "https://game8.co/games/Pokemon-Champions"
+
+output:
+  format: json
+  directory: ./output
+  per_pokemon_files: true
+  compress: false  # gzip for large files
+
+schedule:
+  cron: "0 2 * * *"  # Daily at 2 AM UTC
