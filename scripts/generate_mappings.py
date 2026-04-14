@@ -6,6 +6,11 @@ This script reads from the PRIVATE Pokedex-Assets repo and generates
 a public-safe mapping file (English name → numeric ID only).
 
 Usage:
+    # Option 1: Use .env file
+    echo "POKEDEX_ASSETS_PATH=~/Code/Pokedex-Assets" > .env
+    python scripts/generate_mappings.py
+
+    # Option 2: Use CLI argument
     python scripts/generate_mappings.py --assets ~/Code/Pokedex-Assets
 
 Output:
@@ -20,6 +25,13 @@ import json
 import os
 import re
 from pathlib import Path
+
+# Load .env if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # python-dotenv not installed, use CLI args or env vars directly
 
 
 def normalize_name(name: str) -> str:
@@ -115,13 +127,23 @@ def generate_mappings(assets_path: Path) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description='Generate name-to-ID mappings from Pokedex-Assets')
-    parser.add_argument('--assets', type=str, required=True,
-                        help='Path to Pokedex-Assets directory')
+    parser.add_argument('--assets', type=str, default=None,
+                        help='Path to Pokedex-Assets directory (or set POKEDEX_ASSETS_PATH env var)')
     parser.add_argument('--output', type=str, default='src/data/name_mappings.json',
                         help='Output path for mappings JSON')
     args = parser.parse_args()
     
-    assets_path = Path(args.assets).expanduser()
+    # Resolve assets path: CLI arg > env var > error
+    assets_path_str = args.assets or os.environ.get('POKEDEX_ASSETS_PATH')
+    if not assets_path_str:
+        print("Error: Pokedex-Assets path not specified.")
+        print("Either:")
+        print("  1. Create .env file with: POKEDEX_ASSETS_PATH=~/Code/Pokedex-Assets")
+        print("  2. Set environment variable: export POKEDEX_ASSETS_PATH=~/Code/Pokedex-Assets")
+        print("  3. Use CLI argument: --assets ~/Code/Pokedex-Assets")
+        return 1
+    
+    assets_path = Path(assets_path_str).expanduser()
     if not assets_path.exists():
         print(f"Error: Pokedex-Assets not found at {assets_path}")
         return 1
