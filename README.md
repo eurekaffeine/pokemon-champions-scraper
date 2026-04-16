@@ -1,6 +1,6 @@
 # Pokémon Champions Scraper
 
-Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pikalytics](https://pikalytics.com) and outputs structured JSON for [Pocket-Gallery](https://github.com/user/pocket-gallery) mobile apps.
+Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pikalytics](https://pikalytics.com) and outputs structured JSON for [Pocket-Gallery](https://github.com/eurekaffeine/Pocket-Gallery) mobile apps.
 
 ## 🎯 Live API
 
@@ -10,11 +10,22 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 
 ## Features
 
-- 📊 Scrapes Pikalytics AI markdown API for competitive data
+- 📊 **187 Pokémon** scraped from Pikalytics (full meta coverage)
 - 🔄 Weekly automated updates via GitHub Actions (Mondays 2 AM UTC)
 - 📱 JSON output optimized for mobile app consumption
-- 🏆 Pokémon usage rates, moves, items, abilities, teammates
+- 🏆 Complete competitive data: moves, items, abilities, teammates
 - 🔔 Optional Telegram notifications on scrape completion
+- 🆔 ID-only format (no hardcoded names) for easy localization
+
+## Data Coverage
+
+| Data Type | Count | Source |
+|-----------|-------|--------|
+| Pokémon | 187 | List API |
+| Moves per Pokémon | ~10 | AI Markdown |
+| Items per Pokémon | ~10 | AI Markdown |
+| Abilities per Pokémon | 3-5 | AI Markdown |
+| Teammates per Pokémon | 6-12 | List API |
 
 ## Quick Start
 
@@ -26,8 +37,8 @@ cd pokemon-champions-scraper
 # Install dependencies
 pip install -r requirements.txt
 
-# Run scraper
-python -m src.main scrape --limit 50
+# Run scraper (default: 200 Pokémon)
+python -m src.main scrape --limit 200
 
 # Output in ./output/battle_meta.json
 ```
@@ -35,11 +46,8 @@ python -m src.main scrape --limit 50
 ## CLI Usage
 
 ```bash
-# Scrape from Pikalytics (default)
-python -m src.main scrape --limit 50
-
-# Scrape from multiple sources
-python -m src.main scrape --source all
+# Scrape with custom limit
+python -m src.main scrape --limit 100
 
 # Scrape without per-Pokémon detail files
 python -m src.main scrape --no-per-pokemon
@@ -57,9 +65,17 @@ python -m src.main test-scraper --source pikalytics
 python -m src.main validate output/battle_meta.json
 ```
 
-## Data Source
+## Data Sources
 
-This scraper uses the **Pikalytics AI markdown API** (`/ai/pokedex/championstournaments`), which provides clean structured data for competitive Pokémon Champions tournaments.
+This scraper uses **two Pikalytics APIs**:
+
+1. **List API** (`/api/l/{date}/championstournaments-1760`)
+   - Returns all 187 Pokémon with rankings, usage rates, and teammates
+   - Single request, fast
+
+2. **AI Markdown API** (`/ai/pokedex/championstournaments/{pokemon}`)
+   - Returns per-Pokémon details: moves, items, abilities
+   - One request per Pokémon (rate-limited)
 
 **Update Frequency:** Pikalytics updates data **monthly** (check the `Data Date` field). The scraper runs weekly to catch month rollovers.
 
@@ -70,10 +86,10 @@ This scraper uses the **Pikalytics AI markdown API** (`/ai/pokedex/championstour
 ```json
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T05:23:00Z",
+  "updated_at": "2026-04-16T05:23:00Z",
   "season": {
     "id": "s1",
-    "name": "Season 1",
+    "name": "Pokemon Champions VGC 2026 Tournament",
     "start_date": "2026-04-08"
   },
   "pokemon_usage": [
@@ -81,20 +97,7 @@ This scraper uses the **Pikalytics AI markdown API** (`/ai/pokedex/championstour
       "rank": 1,
       "dex_id": 727,
       "name": "Incineroar",
-      "usage_rate": 0.5557,
-      "top_moves": [
-        { "name": "Fake Out", "usage": 0.989 },
-        { "name": "Parting Shot", "usage": 0.965 }
-      ],
-      "top_items": [
-        { "name": "Sitrus Berry", "usage": 0.556 }
-      ],
-      "top_abilities": [
-        { "name": "Intimidate", "usage": 0.983 }
-      ],
-      "top_teammates": [
-        { "name": "Sinistcha", "usage": 0.408 }
-      ]
+      "usage_rate": 0.5437
     }
   ],
   "sources": [
@@ -105,20 +108,35 @@ This scraper uses the **Pikalytics AI markdown API** (`/ai/pokedex/championstour
 
 ### pokemon/{dex_id}.json
 
+Uses **ID-only format** for localization:
+
 ```json
 {
   "dex_id": 727,
   "name": "Incineroar",
+  "form": null,
   "competitive": {
     "usage_rank": 1,
-    "usage_rate": 0.5557,
-    "moves": [...],
-    "items": [...],
-    "abilities": [...],
-    "teammates": [...]
+    "usage_rate": 0.5437,
+    "win_rate": null,
+    "moves": [
+      { "id": 252, "usage": 0.99 },
+      { "id": 575, "usage": 0.96 }
+    ],
+    "items": [
+      { "id": 158, "usage": 0.56 }
+    ],
+    "abilities": [
+      { "id": 22, "usage": 0.98 }
+    ],
+    "teammates": [
+      { "id": 1013, "usage": 0.39 }
+    ]
   }
 }
 ```
+
+**Note:** `moves[].id`, `items[].id`, `abilities[].id` are numeric IDs that map to your app's localized strings. No hardcoded English names in the output.
 
 ---
 
@@ -128,8 +146,14 @@ This scraper uses the **Pikalytics AI markdown API** (`/ai/pokedex/championstour
 
 | Endpoint | Description |
 |----------|-------------|
-| `GET /battle_meta.json` | Full competitive metadata |
-| `GET /pokemon/{dex_id}.json` | Per-Pokémon competitive data |
+| `GET /battle_meta.json` | Overview with all Pokémon rankings |
+| `GET /pokemon/{dex_id}.json` | Detailed competitive data for one Pokémon |
+
+### Example: Fetch Incineroar Data
+
+```bash
+curl https://eurekaffeine.github.io/pokemon-champions-scraper/pokemon/727.json
+```
 
 ### Caching Strategy
 
@@ -172,7 +196,7 @@ httpRequest.request(BATTLE_META_URL, {
 ### Manual Trigger
 
 Go to **Actions → Scrape and Deploy → Run workflow** with options:
-- `limit`: Number of Pokémon (default: 100)
+- `limit`: Number of Pokémon (default: 200)
 - `notify`: Send Telegram notification (default: false)
 
 ### Secrets (Optional)
@@ -189,16 +213,27 @@ For Telegram notifications:
 # config.yaml
 scraper:
   user_agent: "PocketGallery-Scraper/1.0"
-  request_delay_ms: 1000  # Be polite
+  request_delay_ms: 1000  # Be polite to Pikalytics
   max_retries: 3
   timeout_seconds: 30
 
 sources:
   pikalytics:
     enabled: true
-  opgg:
-    enabled: false  # Optional secondary source
 ```
+
+## Form Variant ID Mapping
+
+Some Pokémon have regional/mega forms with special IDs:
+
+| Pokémon | Form | Dex ID |
+|---------|------|--------|
+| Rotom-Wash | Wash | 10009 |
+| Rotom-Heat | Heat | 10010 |
+| Ninetales-Alola | Alola | 10104 |
+| Arcanine-Hisui | Hisui | 10229 |
+
+These IDs match the Pokédex asset system used by Pocket-Gallery.
 
 ## License
 
