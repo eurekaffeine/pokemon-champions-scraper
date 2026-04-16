@@ -1,0 +1,80 @@
+{
+  "dex_id": 899,
+  "name": "Wyrdeer",
+  "form": null,
+  "competitive": {
+    "usage_rank": 149,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 828,
+        "usage": 0.5
+      },
+      {
+        "id": 667,
+        "usage": 0.5
+      },
+      {
+        "id": 285,
+        "usage": 0.5
+      },
+      {
+        "id": 94,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 175,
+        "usage": 0.5
+      },
+      {
+        "id": 134,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 22,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 681,
+        "usage": 1.0
+      },
+      {
+        "id": 952,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 10236,
+        "usage": 0.5
+      },
+      {
+        "id": 334,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

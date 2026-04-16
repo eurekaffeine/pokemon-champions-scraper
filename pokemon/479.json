@@ -1,0 +1,84 @@
+{
+  "dex_id": 479,
+  "name": "Rotom",
+  "form": null,
+  "competitive": {
+    "usage_rank": 156,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 521,
+        "usage": 1.0
+      },
+      {
+        "id": 115,
+        "usage": 0.5
+      },
+      {
+        "id": 527,
+        "usage": 0.5
+      },
+      {
+        "id": 113,
+        "usage": 0.5
+      },
+      {
+        "id": 85,
+        "usage": 0.5
+      },
+      {
+        "id": 399,
+        "usage": 0.5
+      },
+      {
+        "id": 261,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
+        "id": 219,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 724,
+        "usage": 0.5
+      },
+      {
+        "id": 475,
+        "usage": 0.5
+      },
+      {
+        "id": 319,
+        "usage": 0.5
+      },
+      {
+        "id": 936,
+        "usage": 0.5
+      },
+      {
+        "id": 168,
+        "usage": 0.5
+      },
+      {
+        "id": 1018,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "dex_id": 750,
+  "name": "Mudsdale",
+  "form": null,
+  "competitive": {
+    "usage_rank": 126,
+    "usage_rate": 0.0016,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 776,
+        "usage": 0.8
+      },
+      {
+        "id": 667,
+        "usage": 0.8
+      },
+      {
+        "id": 89,
+        "usage": 0.6
+      },
+      {
+        "id": 157,
+        "usage": 0.4
+      },
+      {
+        "id": 484,
+        "usage": 0.4
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.6
+      },
+      {
+        "id": 164,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 192,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1013,
+        "usage": 0.6
+      },
+      {
+        "id": 727,
+        "usage": 0.4
+      },
+      {
+        "id": 6,
+        "usage": 0.4
+      },
+      {
+        "id": 903,
+        "usage": 0.4
+      },
+      {
+        "id": 981,
+        "usage": 0.2
+      },
+      {
+        "id": 983,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dex_id": 675,
+  "name": "Pangoro",
+  "form": null,
+  "competitive": {
+    "usage_rank": 187,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 197,
+        "usage": 1.0
+      },
+      {
+        "id": 575,
+        "usage": 1.0
+      },
+      {
+        "id": 663,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 194,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 113,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 678,
+        "usage": 1.0
+      },
+      {
+        "id": 10242,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

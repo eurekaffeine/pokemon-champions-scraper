@@ -1,0 +1,92 @@
+{
+  "dex_id": 563,
+  "name": "Cofagrigus",
+  "form": null,
+  "competitive": {
+    "usage_rank": 142,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 261,
+        "usage": 0.75
+      },
+      {
+        "id": 247,
+        "usage": 0.75
+      },
+      {
+        "id": 776,
+        "usage": 0.5
+      },
+      {
+        "id": 286,
+        "usage": 0.25
+      },
+      {
+        "id": 241,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.25
+      },
+      {
+        "id": 134,
+        "usage": 0.25
+      },
+      {
+        "id": 175,
+        "usage": 0.25
+      },
+      {
+        "id": 196,
+        "usage": 0.25
+      }
+    ],
+    "abilities": [
+      {
+        "id": 152,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 547,
+        "usage": 0.25
+      },
+      {
+        "id": 858,
+        "usage": 0.25
+      },
+      {
+        "id": 115,
+        "usage": 0.25
+      },
+      {
+        "id": 130,
+        "usage": 0.25
+      },
+      {
+        "id": 10230,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

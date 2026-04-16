@@ -1,0 +1,104 @@
+{
+  "dex_id": 10165,
+  "name": "Slowbro-Galar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 103,
+    "usage_rate": 0.0031,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 801,
+        "usage": 0.8
+      },
+      {
+        "id": 53,
+        "usage": 0.4
+      },
+      {
+        "id": 94,
+        "usage": 0.3
+      },
+      {
+        "id": 482,
+        "usage": 0.3
+      },
+      {
+        "id": 182,
+        "usage": 0.2
+      },
+      {
+        "id": 678,
+        "usage": 0.2
+      },
+      {
+        "id": 433,
+        "usage": 0.2
+      },
+      {
+        "id": 473,
+        "usage": 0.2
+      },
+      {
+        "id": 417,
+        "usage": 0.2
+      },
+      {
+        "id": 281,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 194,
+        "usage": 0.7
+      },
+      {
+        "id": 222,
+        "usage": 0.2
+      },
+      {
+        "id": 135,
+        "usage": 0.1
+      }
+    ],
+    "abilities": [
+      {
+        "id": 259,
+        "usage": 0.9
+      },
+      {
+        "id": 144,
+        "usage": 0.1
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1013,
+        "usage": 0.3
+      },
+      {
+        "id": 635,
+        "usage": 0.2
+      },
+      {
+        "id": 727,
+        "usage": 0.2
+      },
+      {
+        "id": 858,
+        "usage": 0.2
+      },
+      {
+        "id": 778,
+        "usage": 0.2
+      },
+      {
+        "id": 475,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

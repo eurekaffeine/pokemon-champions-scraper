@@ -1,0 +1,56 @@
+{
+  "dex_id": 10167,
+  "name": "Weezing-Galar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 183,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 790,
+        "usage": 1.0
+      },
+      {
+        "id": 139,
+        "usage": 1.0
+      },
+      {
+        "id": 390,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 256,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1007,
+        "usage": 1.0
+      },
+      {
+        "id": 1004,
+        "usage": 1.0
+      },
+      {
+        "id": 977,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

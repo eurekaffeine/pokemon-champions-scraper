@@ -1,0 +1,64 @@
+{
+  "dex_id": 10235,
+  "name": "Sneasel-Hisui",
+  "form": null,
+  "competitive": {
+    "usage_rank": 176,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 364,
+        "usage": 1.0
+      },
+      {
+        "id": 827,
+        "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 124,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 6,
+        "usage": 1.0
+      },
+      {
+        "id": 3,
+        "usage": 1.0
+      },
+      {
+        "id": 925,
+        "usage": 1.0
+      },
+      {
+        "id": 887,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

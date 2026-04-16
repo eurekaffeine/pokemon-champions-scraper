@@ -1,0 +1,76 @@
+{
+  "dex_id": 614,
+  "name": "Beartic",
+  "form": null,
+  "competitive": {
+    "usage_rank": 157,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 556,
+        "usage": 1.0
+      },
+      {
+        "id": 710,
+        "usage": 1.0
+      },
+      {
+        "id": 14,
+        "usage": 0.5
+      },
+      {
+        "id": 370,
+        "usage": 0.5
+      },
+      {
+        "id": 583,
+        "usage": 0.5
+      },
+      {
+        "id": 276,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 0.5
+      },
+      {
+        "id": 252,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 33,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
+        "id": 248,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 10012,
+        "usage": 0.5
+      },
+      {
+        "id": 186,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

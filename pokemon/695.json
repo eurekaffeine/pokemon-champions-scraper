@@ -1,0 +1,96 @@
+{
+  "dex_id": 695,
+  "name": "Heliolisk",
+  "form": null,
+  "competitive": {
+    "usage_rank": 132,
+    "usage_rate": 0.0016,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 527,
+        "usage": 1.0
+      },
+      {
+        "id": 880,
+        "usage": 0.6
+      },
+      {
+        "id": 406,
+        "usage": 0.6
+      },
+      {
+        "id": 521,
+        "usage": 0.6
+      },
+      {
+        "id": 85,
+        "usage": 0.4
+      },
+      {
+        "id": 182,
+        "usage": 0.4
+      },
+      {
+        "id": 304,
+        "usage": 0.2
+      },
+      {
+        "id": 411,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "usage": 0.6
+      },
+      {
+        "id": 219,
+        "usage": 0.2
+      },
+      {
+        "id": 252,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 94,
+        "usage": 0.6
+      },
+      {
+        "id": 87,
+        "usage": 0.4
+      }
+    ],
+    "teammates": [
+      {
+        "id": 6,
+        "usage": 0.6
+      },
+      {
+        "id": 727,
+        "usage": 0.6
+      },
+      {
+        "id": 1013,
+        "usage": 0.6
+      },
+      {
+        "id": 903,
+        "usage": 0.4
+      },
+      {
+        "id": 306,
+        "usage": 0.4
+      },
+      {
+        "id": 149,
+        "usage": 0.4
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

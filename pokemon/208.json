@@ -1,0 +1,112 @@
+{
+  "dex_id": 208,
+  "name": "Steelix",
+  "form": null,
+  "competitive": {
+    "usage_rank": 113,
+    "usage_rate": 0.0025,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 89,
+        "usage": 0.875
+      },
+      {
+        "id": 484,
+        "usage": 0.75
+      },
+      {
+        "id": 776,
+        "usage": 0.625
+      },
+      {
+        "id": 446,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.375
+      },
+      {
+        "id": 231,
+        "usage": 0.125
+      },
+      {
+        "id": 242,
+        "usage": 0.125
+      },
+      {
+        "id": 182,
+        "usage": 0.125
+      },
+      {
+        "id": 457,
+        "usage": 0.125
+      },
+      {
+        "id": 442,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 194,
+        "usage": 0.375
+      },
+      {
+        "id": 161,
+        "usage": 0.25
+      },
+      {
+        "id": 802,
+        "usage": 0.25
+      },
+      {
+        "id": 135,
+        "usage": 0.125
+      }
+    ],
+    "abilities": [
+      {
+        "id": 5,
+        "usage": 0.75
+      },
+      {
+        "id": 125,
+        "usage": 0.125
+      },
+      {
+        "id": 69,
+        "usage": 0.125
+      }
+    ],
+    "teammates": [
+      {
+        "id": 478,
+        "usage": 0.375
+      },
+      {
+        "id": 10230,
+        "usage": 0.25
+      },
+      {
+        "id": 10009,
+        "usage": 0.25
+      },
+      {
+        "id": 903,
+        "usage": 0.25
+      },
+      {
+        "id": 10239,
+        "usage": 0.25
+      },
+      {
+        "id": 959,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

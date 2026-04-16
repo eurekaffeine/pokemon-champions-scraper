@@ -1,0 +1,64 @@
+{
+  "dex_id": 978,
+  "name": "Tatsugiri",
+  "form": null,
+  "competitive": {
+    "usage_rank": 162,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 434,
+        "usage": 1.0
+      },
+      {
+        "id": 330,
+        "usage": 1.0
+      },
+      {
+        "id": 417,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 279,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 359,
+        "usage": 1.0
+      },
+      {
+        "id": 730,
+        "usage": 1.0
+      },
+      {
+        "id": 149,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 977,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

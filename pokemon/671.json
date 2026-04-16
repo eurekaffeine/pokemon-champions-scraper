@@ -1,0 +1,64 @@
+{
+  "dex_id": 671,
+  "name": "Florges",
+  "form": null,
+  "competitive": {
+    "usage_rank": 164,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 605,
+        "usage": 1.0
+      },
+      {
+        "id": 676,
+        "usage": 1.0
+      },
+      {
+        "id": 285,
+        "usage": 1.0
+      },
+      {
+        "id": 917,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 134,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 180,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 655,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      },
+      {
+        "id": 587,
+        "usage": 1.0
+      },
+      {
+        "id": 681,
+        "usage": 1.0
+      },
+      {
+        "id": 149,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

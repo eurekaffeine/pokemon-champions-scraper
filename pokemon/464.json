@@ -1,0 +1,100 @@
+{
+  "dex_id": 464,
+  "name": "Rhyperior",
+  "form": null,
+  "competitive": {
+    "usage_rank": 105,
+    "usage_rate": 0.0031,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 157,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 0.8
+      },
+      {
+        "id": 667,
+        "usage": 0.7
+      },
+      {
+        "id": 8,
+        "usage": 0.4
+      },
+      {
+        "id": 14,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.3
+      },
+      {
+        "id": 214,
+        "usage": 0.2
+      },
+      {
+        "id": 191,
+        "usage": 0.2
+      },
+      {
+        "id": 247,
+        "usage": 0.1
+      },
+      {
+        "id": 127,
+        "usage": 0.1
+      },
+      {
+        "id": 135,
+        "usage": 0.1
+      }
+    ],
+    "abilities": [
+      {
+        "id": 116,
+        "usage": 0.8
+      },
+      {
+        "id": 31,
+        "usage": 0.2
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 0.7
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.4
+      },
+      {
+        "id": 6,
+        "usage": 0.4
+      },
+      {
+        "id": 903,
+        "usage": 0.4
+      },
+      {
+        "id": 324,
+        "usage": 0.3
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

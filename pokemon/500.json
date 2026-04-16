@@ -1,0 +1,96 @@
+{
+  "dex_id": 500,
+  "name": "Emboar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 125,
+    "usage_rate": 0.0016,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 394,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 0.8
+      },
+      {
+        "id": 370,
+        "usage": 0.8
+      },
+      {
+        "id": 157,
+        "usage": 0.4
+      },
+      {
+        "id": 528,
+        "usage": 0.4
+      },
+      {
+        "id": 409,
+        "usage": 0.2
+      },
+      {
+        "id": 89,
+        "usage": 0.2
+      },
+      {
+        "id": 389,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 2569,
+        "usage": 0.8
+      },
+      {
+        "id": 134,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 66,
+        "usage": 0.4
+      },
+      {
+        "id": 104,
+        "usage": 0.4
+      },
+      {
+        "id": 120,
+        "usage": 0.2
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 0.8
+      },
+      {
+        "id": 823,
+        "usage": 0.4
+      },
+      {
+        "id": 869,
+        "usage": 0.4
+      },
+      {
+        "id": 464,
+        "usage": 0.4
+      },
+      {
+        "id": 981,
+        "usage": 0.4
+      },
+      {
+        "id": 983,
+        "usage": 0.4
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

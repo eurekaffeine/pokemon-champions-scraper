@@ -1,0 +1,104 @@
+{
+  "dex_id": 442,
+  "name": "Spiritomb",
+  "form": null,
+  "competitive": {
+    "usage_rank": 135,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 555,
+        "usage": 0.5
+      },
+      {
+        "id": 492,
+        "usage": 0.25
+      },
+      {
+        "id": 247,
+        "usage": 0.25
+      },
+      {
+        "id": 241,
+        "usage": 0.25
+      },
+      {
+        "id": 808,
+        "usage": 0.25
+      },
+      {
+        "id": 50,
+        "usage": 0.25
+      },
+      {
+        "id": 286,
+        "usage": 0.25
+      },
+      {
+        "id": 389,
+        "usage": 0.25
+      },
+      {
+        "id": 809,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.25
+      },
+      {
+        "id": 196,
+        "usage": 0.25
+      },
+      {
+        "id": 211,
+        "usage": 0.25
+      },
+      {
+        "id": 134,
+        "usage": 0.25
+      }
+    ],
+    "abilities": [
+      {
+        "id": 46,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 0.75
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 740,
+        "usage": 0.25
+      },
+      {
+        "id": 936,
+        "usage": 0.25
+      },
+      {
+        "id": 80,
+        "usage": 0.25
+      },
+      {
+        "id": 1013,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "dex_id": 867,
+  "name": "Runerigus",
+  "form": null,
+  "competitive": {
+    "usage_rank": 154,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 776,
+        "usage": 1.0
+      },
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 157,
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
+      },
+      {
+        "id": 261,
+        "usage": 0.5
+      },
+      {
+        "id": 334,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 254,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 530,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 10009,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

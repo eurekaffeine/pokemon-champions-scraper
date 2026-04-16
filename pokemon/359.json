@@ -1,0 +1,104 @@
+{
+  "dex_id": 359,
+  "name": "Absol",
+  "form": null,
+  "competitive": {
+    "usage_rank": 127,
+    "usage_rate": 0.0016,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 389,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 0.8
+      },
+      {
+        "id": 370,
+        "usage": 0.4
+      },
+      {
+        "id": 421,
+        "usage": 0.4
+      },
+      {
+        "id": 14,
+        "usage": 0.2
+      },
+      {
+        "id": 583,
+        "usage": 0.2
+      },
+      {
+        "id": 282,
+        "usage": 0.2
+      },
+      {
+        "id": 400,
+        "usage": 0.2
+      },
+      {
+        "id": 444,
+        "usage": 0.2
+      },
+      {
+        "id": 427,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 716,
+        "usage": 0.6
+      },
+      {
+        "id": 2638,
+        "usage": 0.2
+      },
+      {
+        "id": 209,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 105,
+        "usage": 0.8
+      },
+      {
+        "id": 154,
+        "usage": 0.2
+      }
+    ],
+    "teammates": [
+      {
+        "id": 730,
+        "usage": 0.4
+      },
+      {
+        "id": 149,
+        "usage": 0.2
+      },
+      {
+        "id": 727,
+        "usage": 0.2
+      },
+      {
+        "id": 978,
+        "usage": 0.2
+      },
+      {
+        "id": 977,
+        "usage": 0.2
+      },
+      {
+        "id": 952,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

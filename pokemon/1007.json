@@ -1,0 +1,56 @@
+{
+  "dex_id": 1007,
+  "name": "Koraidon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 181,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 394,
+        "usage": 1.0
+      },
+      {
+        "id": 337,
+        "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 1697,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 288,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 10167,
+        "usage": 1.0
+      },
+      {
+        "id": 1004,
+        "usage": 1.0
+      },
+      {
+        "id": 977,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

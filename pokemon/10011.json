@@ -1,0 +1,64 @@
+{
+  "dex_id": 10011,
+  "name": "Rotom-Fan",
+  "form": null,
+  "competitive": {
+    "usage_rank": 171,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 403,
+        "usage": 1.0
+      },
+      {
+        "id": 85,
+        "usage": 1.0
+      },
+      {
+        "id": 261,
+        "usage": 1.0
+      },
+      {
+        "id": 104,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 219,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 730,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 306,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

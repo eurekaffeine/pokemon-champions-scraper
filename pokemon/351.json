@@ -1,0 +1,64 @@
+{
+  "dex_id": 351,
+  "name": "Castform",
+  "form": null,
+  "competitive": {
+    "usage_rank": 172,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 311,
+        "usage": 1.0
+      },
+      {
+        "id": 240,
+        "usage": 1.0
+      },
+      {
+        "id": 247,
+        "usage": 1.0
+      },
+      {
+        "id": 542,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 59,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 748,
+        "usage": 1.0
+      },
+      {
+        "id": 10172,
+        "usage": 1.0
+      },
+      {
+        "id": 780,
+        "usage": 1.0
+      },
+      {
+        "id": 306,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

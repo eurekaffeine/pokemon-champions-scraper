@@ -1,0 +1,100 @@
+{
+  "dex_id": 939,
+  "name": "Bellibolt",
+  "form": null,
+  "competitive": {
+    "usage_rank": 137,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 85,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 570,
+        "usage": 0.5
+      },
+      {
+        "id": 87,
+        "usage": 0.5
+      },
+      {
+        "id": 521,
+        "usage": 0.25
+      },
+      {
+        "id": 115,
+        "usage": 0.25
+      },
+      {
+        "id": 113,
+        "usage": 0.25
+      },
+      {
+        "id": 491,
+        "usage": 0.25
+      },
+      {
+        "id": 527,
+        "usage": 0.25
+      },
+      {
+        "id": 330,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.5
+      },
+      {
+        "id": 168,
+        "usage": 0.25
+      },
+      {
+        "id": 219,
+        "usage": 0.25
+      }
+    ],
+    "abilities": [
+      {
+        "id": 280,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 740,
+        "usage": 0.25
+      },
+      {
+        "id": 858,
+        "usage": 0.25
+      },
+      {
+        "id": 199,
+        "usage": 0.25
+      },
+      {
+        "id": 752,
+        "usage": 0.25
+      },
+      {
+        "id": 10242,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

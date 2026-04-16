@@ -1,0 +1,64 @@
+{
+  "dex_id": 877,
+  "name": "Morpeko",
+  "form": null,
+  "competitive": {
+    "usage_rank": 160,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 252,
+        "usage": 1.0
+      },
+      {
+        "id": 575,
+        "usage": 1.0
+      },
+      {
+        "id": 783,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 258,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 780,
+        "usage": 0.5
+      },
+      {
+        "id": 500,
+        "usage": 0.5
+      },
+      {
+        "id": 196,
+        "usage": 0.5
+      },
+      {
+        "id": 925,
+        "usage": 0.5
+      },
+      {
+        "id": 94,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

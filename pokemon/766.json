@@ -1,0 +1,64 @@
+{
+  "dex_id": 766,
+  "name": "Passimian",
+  "form": null,
+  "competitive": {
+    "usage_rank": 170,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 441,
+        "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 364,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 218,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 128,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 663,
+        "usage": 1.0
+      },
+      {
+        "id": 132,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 478,
+        "usage": 1.0
+      },
+      {
+        "id": 184,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "dex_id": 428,
+  "name": "Lopunny",
+  "form": null,
+  "competitive": {
+    "usage_rank": 84,
+    "usage_rate": 0.0062,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 252,
+        "usage": 0.9
+      },
+      {
+        "id": 182,
+        "usage": 0.75
+      },
+      {
+        "id": 813,
+        "usage": 0.35
+      },
+      {
+        "id": 369,
+        "usage": 0.25
+      },
+      {
+        "id": 583,
+        "usage": 0.1
+      },
+      {
+        "id": 263,
+        "usage": 0.1
+      },
+      {
+        "id": 9,
+        "usage": 0.1
+      },
+      {
+        "id": 25,
+        "usage": 0.1
+      },
+      {
+        "id": 8,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 809,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 7,
+        "usage": 0.45
+      },
+      {
+        "id": 113,
+        "usage": 0.4
+      },
+      {
+        "id": 56,
+        "usage": 0.15
+      }
+    ],
+    "teammates": [
+      {
+        "id": 445,
+        "usage": 0.35
+      },
+      {
+        "id": 730,
+        "usage": 0.3
+      },
+      {
+        "id": 547,
+        "usage": 0.25
+      },
+      {
+        "id": 350,
+        "usage": 0.25
+      },
+      {
+        "id": 727,
+        "usage": 0.25
+      },
+      {
+        "id": 681,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

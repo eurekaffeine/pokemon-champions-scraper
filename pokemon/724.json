@@ -1,0 +1,88 @@
+{
+  "dex_id": 724,
+  "name": "Decidueye",
+  "form": null,
+  "competitive": {
+    "usage_rank": 155,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 348,
+        "usage": 0.5
+      },
+      {
+        "id": 282,
+        "usage": 0.5
+      },
+      {
+        "id": 413,
+        "usage": 0.5
+      },
+      {
+        "id": 662,
+        "usage": 0.5
+      },
+      {
+        "id": 437,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 809,
+        "usage": 0.5
+      },
+      {
+        "id": 542,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 190,
+        "usage": 0.5
+      },
+      {
+        "id": 194,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 203,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 475,
+        "usage": 0.5
+      },
+      {
+        "id": 319,
+        "usage": 0.5
+      },
+      {
+        "id": 936,
+        "usage": 0.5
+      },
+      {
+        "id": 479,
+        "usage": 0.5
+      },
+      {
+        "id": 168,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

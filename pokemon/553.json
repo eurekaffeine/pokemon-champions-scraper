@@ -1,0 +1,120 @@
+{
+  "dex_id": 553,
+  "name": "Krookodile",
+  "form": null,
+  "competitive": {
+    "usage_rank": 102,
+    "usage_rate": 0.0031,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 89,
+        "usage": 0.6
+      },
+      {
+        "id": 282,
+        "usage": 0.5
+      },
+      {
+        "id": 667,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.4
+      },
+      {
+        "id": 182,
+        "usage": 0.2
+      },
+      {
+        "id": 280,
+        "usage": 0.2
+      },
+      {
+        "id": 200,
+        "usage": 0.2
+      },
+      {
+        "id": 242,
+        "usage": 0.2
+      },
+      {
+        "id": 269,
+        "usage": 0.1
+      },
+      {
+        "id": 270,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.2
+      },
+      {
+        "id": 264,
+        "usage": 0.2
+      },
+      {
+        "id": 135,
+        "usage": 0.2
+      },
+      {
+        "id": 214,
+        "usage": 0.1
+      },
+      {
+        "id": 211,
+        "usage": 0.1
+      },
+      {
+        "id": 723,
+        "usage": 0.1
+      },
+      {
+        "id": 194,
+        "usage": 0.1
+      }
+    ],
+    "abilities": [
+      {
+        "id": 22,
+        "usage": 0.7
+      },
+      {
+        "id": 153,
+        "usage": 0.3
+      }
+    ],
+    "teammates": [
+      {
+        "id": 547,
+        "usage": 0.4
+      },
+      {
+        "id": 248,
+        "usage": 0.4
+      },
+      {
+        "id": 903,
+        "usage": 0.3
+      },
+      {
+        "id": 149,
+        "usage": 0.3
+      },
+      {
+        "id": 635,
+        "usage": 0.2
+      },
+      {
+        "id": 3,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

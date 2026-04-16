@@ -1,0 +1,64 @@
+{
+  "dex_id": 809,
+  "name": "Melmetal",
+  "form": null,
+  "competitive": {
+    "usage_rank": 175,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 742,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 8,
+        "usage": 1.0
+      },
+      {
+        "id": 9,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 683,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 89,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 715,
+        "usage": 1.0
+      },
+      {
+        "id": 149,
+        "usage": 1.0
+      },
+      {
+        "id": 454,
+        "usage": 1.0
+      },
+      {
+        "id": 658,
+        "usage": 1.0
+      },
+      {
+        "id": 310,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

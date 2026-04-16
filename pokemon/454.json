@@ -1,0 +1,104 @@
+{
+  "dex_id": 454,
+  "name": "Toxicroak",
+  "form": null,
+  "competitive": {
+    "usage_rank": 131,
+    "usage_rate": 0.0016,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 252,
+        "usage": 0.6
+      },
+      {
+        "id": 370,
+        "usage": 0.6
+      },
+      {
+        "id": 389,
+        "usage": 0.6
+      },
+      {
+        "id": 441,
+        "usage": 0.6
+      },
+      {
+        "id": 398,
+        "usage": 0.4
+      },
+      {
+        "id": 409,
+        "usage": 0.4
+      },
+      {
+        "id": 182,
+        "usage": 0.4
+      },
+      {
+        "id": 811,
+        "usage": 0.2
+      },
+      {
+        "id": 14,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 218,
+        "usage": 0.2
+      },
+      {
+        "id": 252,
+        "usage": 0.2
+      },
+      {
+        "id": 258,
+        "usage": 0.2
+      },
+      {
+        "id": 168,
+        "usage": 0.2
+      },
+      {
+        "id": 169,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 87,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 658,
+        "usage": 0.4
+      },
+      {
+        "id": 279,
+        "usage": 0.4
+      },
+      {
+        "id": 445,
+        "usage": 0.4
+      },
+      {
+        "id": 149,
+        "usage": 0.4
+      },
+      {
+        "id": 310,
+        "usage": 0.4
+      },
+      {
+        "id": 1018,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

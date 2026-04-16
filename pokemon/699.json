@@ -1,0 +1,64 @@
+{
+  "dex_id": 699,
+  "name": "Aurorus",
+  "form": null,
+  "competitive": {
+    "usage_rank": 168,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 694,
+        "usage": 1.0
+      },
+      {
+        "id": 414,
+        "usage": 1.0
+      },
+      {
+        "id": 573,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 166,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 117,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 740,
+        "usage": 1.0
+      },
+      {
+        "id": 952,
+        "usage": 1.0
+      },
+      {
+        "id": 10172,
+        "usage": 1.0
+      },
+      {
+        "id": 693,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "dex_id": 460,
+  "name": "Abomasnow",
+  "form": null,
+  "competitive": {
+    "usage_rank": 114,
+    "usage_rate": 0.0025,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 59,
+        "usage": 0.875
+      },
+      {
+        "id": 182,
+        "usage": 0.875
+      },
+      {
+        "id": 694,
+        "usage": 0.5
+      },
+      {
+        "id": 202,
+        "usage": 0.5
+      },
+      {
+        "id": 414,
+        "usage": 0.375
+      },
+      {
+        "id": 412,
+        "usage": 0.25
+      },
+      {
+        "id": 452,
+        "usage": 0.125
+      },
+      {
+        "id": 89,
+        "usage": 0.125
+      },
+      {
+        "id": 333,
+        "usage": 0.125
+      },
+      {
+        "id": 411,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 713,
+        "usage": 0.625
+      },
+      {
+        "id": 252,
+        "usage": 0.25
+      },
+      {
+        "id": 194,
+        "usage": 0.125
+      }
+    ],
+    "abilities": [
+      {
+        "id": 117,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 323,
+        "usage": 0.375
+      },
+      {
+        "id": 727,
+        "usage": 0.25
+      },
+      {
+        "id": 983,
+        "usage": 0.25
+      },
+      {
+        "id": 730,
+        "usage": 0.25
+      },
+      {
+        "id": 784,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

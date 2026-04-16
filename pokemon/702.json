@@ -1,0 +1,64 @@
+{
+  "dex_id": 702,
+  "name": "Dedenne",
+  "form": null,
+  "competitive": {
+    "usage_rank": 178,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 87,
+        "usage": 1.0
+      },
+      {
+        "id": 605,
+        "usage": 1.0
+      },
+      {
+        "id": 162,
+        "usage": 1.0
+      },
+      {
+        "id": 393,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 167,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 3,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 658,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 514,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

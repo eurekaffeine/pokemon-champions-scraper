@@ -1,0 +1,56 @@
+{
+  "dex_id": 1004,
+  "name": "Chi-Yu",
+  "form": null,
+  "competitive": {
+    "usage_rank": 184,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 257,
+        "usage": 1.0
+      },
+      {
+        "id": 315,
+        "usage": 1.0
+      },
+      {
+        "id": 877,
+        "usage": 1.0
+      },
+      {
+        "id": 555,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 287,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1007,
+        "usage": 1.0
+      },
+      {
+        "id": 10167,
+        "usage": 1.0
+      },
+      {
+        "id": 977,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

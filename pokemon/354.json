@@ -1,0 +1,64 @@
+{
+  "dex_id": 354,
+  "name": "Banette",
+  "form": null,
+  "competitive": {
+    "usage_rank": 177,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 809,
+        "usage": 1.0
+      },
+      {
+        "id": 227,
+        "usage": 1.0
+      },
+      {
+        "id": 168,
+        "usage": 1.0
+      },
+      {
+        "id": 506,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 190,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 15,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 911,
+        "usage": 1.0
+      },
+      {
+        "id": 959,
+        "usage": 1.0
+      },
+      {
+        "id": 887,
+        "usage": 1.0
+      },
+      {
+        "id": 208,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

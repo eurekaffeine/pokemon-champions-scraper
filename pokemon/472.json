@@ -1,0 +1,116 @@
+{
+  "dex_id": 472,
+  "name": "Gliscor",
+  "form": null,
+  "competitive": {
+    "usage_rank": 110,
+    "usage_rate": 0.0025,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 89,
+        "usage": 0.75
+      },
+      {
+        "id": 667,
+        "usage": 0.375
+      },
+      {
+        "id": 366,
+        "usage": 0.375
+      },
+      {
+        "id": 263,
+        "usage": 0.25
+      },
+      {
+        "id": 282,
+        "usage": 0.25
+      },
+      {
+        "id": 332,
+        "usage": 0.25
+      },
+      {
+        "id": 814,
+        "usage": 0.25
+      },
+      {
+        "id": 369,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.125
+      },
+      {
+        "id": 422,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.25
+      },
+      {
+        "id": 165,
+        "usage": 0.25
+      },
+      {
+        "id": 135,
+        "usage": 0.25
+      },
+      {
+        "id": 221,
+        "usage": 0.125
+      },
+      {
+        "id": 264,
+        "usage": 0.125
+      }
+    ],
+    "abilities": [
+      {
+        "id": 52,
+        "usage": 0.625
+      },
+      {
+        "id": 90,
+        "usage": 0.25
+      },
+      {
+        "id": 8,
+        "usage": 0.125
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 0.375
+      },
+      {
+        "id": 981,
+        "usage": 0.25
+      },
+      {
+        "id": 1013,
+        "usage": 0.25
+      },
+      {
+        "id": 655,
+        "usage": 0.25
+      },
+      {
+        "id": 149,
+        "usage": 0.25
+      },
+      {
+        "id": 248,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

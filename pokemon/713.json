@@ -1,0 +1,64 @@
+{
+  "dex_id": 713,
+  "name": "Avalugg",
+  "form": null,
+  "competitive": {
+    "usage_rank": 186,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 333,
+        "usage": 1.0
+      },
+      {
+        "id": 776,
+        "usage": 1.0
+      },
+      {
+        "id": 444,
+        "usage": 1.0
+      },
+      {
+        "id": 56,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 5,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 448,
+        "usage": 1.0
+      },
+      {
+        "id": 149,
+        "usage": 1.0
+      },
+      {
+        "id": 3,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

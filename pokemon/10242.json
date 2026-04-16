@@ -1,0 +1,116 @@
+{
+  "dex_id": 10242,
+  "name": "Goodra-Hisui",
+  "form": null,
+  "competitive": {
+    "usage_rank": 90,
+    "usage_rate": 0.005,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 430,
+        "usage": 0.6875
+      },
+      {
+        "id": 776,
+        "usage": 0.625
+      },
+      {
+        "id": 842,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.4375
+      },
+      {
+        "id": 85,
+        "usage": 0.3125
+      },
+      {
+        "id": 791,
+        "usage": 0.25
+      },
+      {
+        "id": 156,
+        "usage": 0.25
+      },
+      {
+        "id": 406,
+        "usage": 0.1875
+      },
+      {
+        "id": 434,
+        "usage": 0.1875
+      },
+      {
+        "id": 484,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.5625
+      },
+      {
+        "id": 127,
+        "usage": 0.25
+      },
+      {
+        "id": 134,
+        "usage": 0.0625
+      },
+      {
+        "id": 190,
+        "usage": 0.0625
+      },
+      {
+        "id": 135,
+        "usage": 0.0625
+      }
+    ],
+    "abilities": [
+      {
+        "id": 75,
+        "usage": 0.625
+      },
+      {
+        "id": 157,
+        "usage": 0.3125
+      },
+      {
+        "id": 183,
+        "usage": 0.0625
+      }
+    ],
+    "teammates": [
+      {
+        "id": 478,
+        "usage": 0.375
+      },
+      {
+        "id": 547,
+        "usage": 0.25
+      },
+      {
+        "id": 727,
+        "usage": 0.25
+      },
+      {
+        "id": 1013,
+        "usage": 0.25
+      },
+      {
+        "id": 186,
+        "usage": 0.25
+      },
+      {
+        "id": 350,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

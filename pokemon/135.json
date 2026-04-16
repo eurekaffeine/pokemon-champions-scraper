@@ -1,0 +1,112 @@
+{
+  "dex_id": 135,
+  "name": "Jolteon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 111,
+    "usage_rate": 0.0025,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 85,
+        "usage": 0.625
+      },
+      {
+        "id": 182,
+        "usage": 0.625
+      },
+      {
+        "id": 521,
+        "usage": 0.5
+      },
+      {
+        "id": 527,
+        "usage": 0.375
+      },
+      {
+        "id": 247,
+        "usage": 0.25
+      },
+      {
+        "id": 86,
+        "usage": 0.25
+      },
+      {
+        "id": 914,
+        "usage": 0.25
+      },
+      {
+        "id": 435,
+        "usage": 0.25
+      },
+      {
+        "id": 347,
+        "usage": 0.125
+      },
+      {
+        "id": 311,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 219,
+        "usage": 0.5
+      },
+      {
+        "id": 134,
+        "usage": 0.125
+      },
+      {
+        "id": 252,
+        "usage": 0.125
+      },
+      {
+        "id": 2105,
+        "usage": 0.125
+      },
+      {
+        "id": 264,
+        "usage": 0.125
+      }
+    ],
+    "abilities": [
+      {
+        "id": 10,
+        "usage": 0.875
+      },
+      {
+        "id": 95,
+        "usage": 0.125
+      }
+    ],
+    "teammates": [
+      {
+        "id": 334,
+        "usage": 0.25
+      },
+      {
+        "id": 530,
+        "usage": 0.25
+      },
+      {
+        "id": 475,
+        "usage": 0.25
+      },
+      {
+        "id": 547,
+        "usage": 0.25
+      },
+      {
+        "id": 149,
+        "usage": 0.25
+      },
+      {
+        "id": 658,
+        "usage": 0.125
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

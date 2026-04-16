@@ -1,0 +1,96 @@
+{
+  "dex_id": 25,
+  "name": "Pikachu",
+  "form": null,
+  "competitive": {
+    "usage_rank": 89,
+    "usage_rate": 0.005,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 252,
+        "usage": 0.9375
+      },
+      {
+        "id": 182,
+        "usage": 0.8125
+      },
+      {
+        "id": 85,
+        "usage": 0.5
+      },
+      {
+        "id": 344,
+        "usage": 0.375
+      },
+      {
+        "id": 227,
+        "usage": 0.3125
+      },
+      {
+        "id": 609,
+        "usage": 0.25
+      },
+      {
+        "id": 87,
+        "usage": 0.1875
+      },
+      {
+        "id": 521,
+        "usage": 0.1875
+      },
+      {
+        "id": 57,
+        "usage": 0.125
+      },
+      {
+        "id": 282,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 213,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 31,
+        "usage": 0.875
+      },
+      {
+        "id": 9,
+        "usage": 0.125
+      }
+    ],
+    "teammates": [
+      {
+        "id": 445,
+        "usage": 0.5625
+      },
+      {
+        "id": 94,
+        "usage": 0.375
+      },
+      {
+        "id": 902,
+        "usage": 0.375
+      },
+      {
+        "id": 279,
+        "usage": 0.375
+      },
+      {
+        "id": 663,
+        "usage": 0.375
+      },
+      {
+        "id": 1013,
+        "usage": 0.3125
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

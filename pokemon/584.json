@@ -1,0 +1,104 @@
+{
+  "dex_id": 584,
+  "name": "Vanilluxe",
+  "form": null,
+  "competitive": {
+    "usage_rank": 100,
+    "usage_rate": 0.0031,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 59,
+        "usage": 1.0
+      },
+      {
+        "id": 573,
+        "usage": 0.7
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 329,
+        "usage": 0.4
+      },
+      {
+        "id": 694,
+        "usage": 0.4
+      },
+      {
+        "id": 196,
+        "usage": 0.3
+      },
+      {
+        "id": 58,
+        "usage": 0.2
+      },
+      {
+        "id": 304,
+        "usage": 0.2
+      },
+      {
+        "id": 156,
+        "usage": 0.2
+      },
+      {
+        "id": 502,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.4
+      },
+      {
+        "id": 264,
+        "usage": 0.3
+      },
+      {
+        "id": 252,
+        "usage": 0.3
+      }
+    ],
+    "abilities": [
+      {
+        "id": 117,
+        "usage": 0.8
+      },
+      {
+        "id": 115,
+        "usage": 0.2
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 0.6
+      },
+      {
+        "id": 1013,
+        "usage": 0.4
+      },
+      {
+        "id": 701,
+        "usage": 0.4
+      },
+      {
+        "id": 478,
+        "usage": 0.4
+      },
+      {
+        "id": 902,
+        "usage": 0.3
+      },
+      {
+        "id": 727,
+        "usage": 0.3
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "dex_id": 214,
+  "name": "Heracross",
+  "form": null,
+  "competitive": {
+    "usage_rank": 133,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 42,
+        "usage": 0.75
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 331,
+        "usage": 0.5
+      },
+      {
+        "id": 197,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 719,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 153,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 0.75
+      },
+      {
+        "id": 981,
+        "usage": 0.75
+      },
+      {
+        "id": 248,
+        "usage": 0.5
+      },
+      {
+        "id": 530,
+        "usage": 0.5
+      },
+      {
+        "id": 10233,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

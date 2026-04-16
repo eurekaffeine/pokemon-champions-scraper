@@ -1,0 +1,104 @@
+{
+  "dex_id": 900,
+  "name": "Kleavor",
+  "form": null,
+  "competitive": {
+    "usage_rank": 101,
+    "usage_rate": 0.0031,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 830,
+        "usage": 1.0
+      },
+      {
+        "id": 404,
+        "usage": 0.6
+      },
+      {
+        "id": 370,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 366,
+        "usage": 0.4
+      },
+      {
+        "id": 369,
+        "usage": 0.3
+      },
+      {
+        "id": 332,
+        "usage": 0.2
+      },
+      {
+        "id": 97,
+        "usage": 0.1
+      },
+      {
+        "id": 201,
+        "usage": 0.1
+      },
+      {
+        "id": 157,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "usage": 0.4
+      },
+      {
+        "id": 252,
+        "usage": 0.3
+      },
+      {
+        "id": 215,
+        "usage": 0.2
+      },
+      {
+        "id": 230,
+        "usage": 0.1
+      }
+    ],
+    "abilities": [
+      {
+        "id": 292,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 0.3
+      },
+      {
+        "id": 478,
+        "usage": 0.2
+      },
+      {
+        "id": 445,
+        "usage": 0.2
+      },
+      {
+        "id": 154,
+        "usage": 0.2
+      },
+      {
+        "id": 623,
+        "usage": 0.2
+      },
+      {
+        "id": 324,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "dex_id": 392,
+  "name": "Infernape",
+  "form": null,
+  "competitive": {
+    "usage_rank": 161,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
+        "id": 315,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 394,
+        "usage": 0.5
+      },
+      {
+        "id": 183,
+        "usage": 0.5
+      },
+      {
+        "id": 918,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 191,
+        "usage": 0.5
+      },
+      {
+        "id": 218,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 66,
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
+      }
+    ],
+    "teammates": [
+      {
+        "id": 887,
+        "usage": 0.5
+      },
+      {
+        "id": 38,
+        "usage": 0.5
+      },
+      {
+        "id": 752,
+        "usage": 0.5
+      },
+      {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
+        "id": 10230,
+        "usage": 0.5
+      },
+      {
+        "id": 670,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

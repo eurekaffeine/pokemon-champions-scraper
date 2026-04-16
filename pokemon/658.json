@@ -1,0 +1,112 @@
+{
+  "dex_id": 658,
+  "name": "Greninja",
+  "form": null,
+  "competitive": {
+    "usage_rank": 72,
+    "usage_rate": 0.0078000000000000005,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 399,
+        "usage": 0.8
+      },
+      {
+        "id": 58,
+        "usage": 0.68
+      },
+      {
+        "id": 56,
+        "usage": 0.48
+      },
+      {
+        "id": 182,
+        "usage": 0.44
+      },
+      {
+        "id": 482,
+        "usage": 0.28
+      },
+      {
+        "id": 369,
+        "usage": 0.24
+      },
+      {
+        "id": 594,
+        "usage": 0.24
+      },
+      {
+        "id": 441,
+        "usage": 0.12
+      },
+      {
+        "id": 196,
+        "usage": 0.12
+      },
+      {
+        "id": 326,
+        "usage": 0.08
+      }
+    ],
+    "items": [
+      {
+        "id": 220,
+        "usage": 0.16
+      },
+      {
+        "id": 252,
+        "usage": 0.08
+      },
+      {
+        "id": 264,
+        "usage": 0.08
+      },
+      {
+        "id": 135,
+        "usage": 0.04
+      },
+      {
+        "id": 247,
+        "usage": 0.04
+      }
+    ],
+    "abilities": [
+      {
+        "id": 168,
+        "usage": 0.96
+      },
+      {
+        "id": 67,
+        "usage": 0.04
+      }
+    ],
+    "teammates": [
+      {
+        "id": 149,
+        "usage": 0.36
+      },
+      {
+        "id": 727,
+        "usage": 0.32
+      },
+      {
+        "id": 279,
+        "usage": 0.28
+      },
+      {
+        "id": 903,
+        "usage": 0.24
+      },
+      {
+        "id": 445,
+        "usage": 0.2
+      },
+      {
+        "id": 1018,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

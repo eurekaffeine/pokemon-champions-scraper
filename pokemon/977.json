@@ -1,0 +1,76 @@
+{
+  "dex_id": 977,
+  "name": "Dondozo",
+  "form": null,
+  "competitive": {
+    "usage_rank": 150,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 834,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 856,
+        "usage": 0.5
+      },
+      {
+        "id": 776,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 134,
+        "usage": 0.5
+      },
+      {
+        "id": 211,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 109,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 359,
+        "usage": 0.5
+      },
+      {
+        "id": 730,
+        "usage": 0.5
+      },
+      {
+        "id": 149,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 978,
+        "usage": 0.5
+      },
+      {
+        "id": 1007,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

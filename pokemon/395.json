@@ -1,0 +1,124 @@
+{
+  "dex_id": 395,
+  "name": "Empoleon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 83,
+    "usage_rate": 0.0062,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 430,
+        "usage": 0.9
+      },
+      {
+        "id": 182,
+        "usage": 0.7
+      },
+      {
+        "id": 56,
+        "usage": 0.7
+      },
+      {
+        "id": 58,
+        "usage": 0.45
+      },
+      {
+        "id": 57,
+        "usage": 0.25
+      },
+      {
+        "id": 311,
+        "usage": 0.2
+      },
+      {
+        "id": 282,
+        "usage": 0.1
+      },
+      {
+        "id": 410,
+        "usage": 0.1
+      },
+      {
+        "id": 59,
+        "usage": 0.1
+      },
+      {
+        "id": 446,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 0.35
+      },
+      {
+        "id": 220,
+        "usage": 0.15
+      },
+      {
+        "id": 211,
+        "usage": 0.15
+      },
+      {
+        "id": 166,
+        "usage": 0.1
+      },
+      {
+        "id": 196,
+        "usage": 0.1
+      },
+      {
+        "id": 191,
+        "usage": 0.05
+      },
+      {
+        "id": 210,
+        "usage": 0.05
+      },
+      {
+        "id": 168,
+        "usage": 0.05
+      }
+    ],
+    "abilities": [
+      {
+        "id": 172,
+        "usage": 0.95
+      },
+      {
+        "id": 67,
+        "usage": 0.05
+      }
+    ],
+    "teammates": [
+      {
+        "id": 445,
+        "usage": 0.35
+      },
+      {
+        "id": 547,
+        "usage": 0.35
+      },
+      {
+        "id": 903,
+        "usage": 0.3
+      },
+      {
+        "id": 6,
+        "usage": 0.3
+      },
+      {
+        "id": 478,
+        "usage": 0.25
+      },
+      {
+        "id": 727,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

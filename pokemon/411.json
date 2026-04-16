@@ -1,0 +1,80 @@
+{
+  "dex_id": 411,
+  "name": "Bastiodon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 159,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 776,
+        "usage": 1.0
+      },
+      {
+        "id": 469,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 334,
+        "usage": 0.5
+      },
+      {
+        "id": 335,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.5
+      },
+      {
+        "id": 252,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 5,
+        "usage": 0.5
+      },
+      {
+        "id": 43,
+        "usage": 0.5
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 130,
+        "usage": 0.5
+      },
+      {
+        "id": 448,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

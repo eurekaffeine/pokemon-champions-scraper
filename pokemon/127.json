@@ -1,0 +1,84 @@
+{
+  "dex_id": 127,
+  "name": "Pinsir",
+  "form": null,
+  "competitive": {
+    "usage_rank": 143,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 34,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 14,
+        "usage": 0.75
+      },
+      {
+        "id": 364,
+        "usage": 0.5
+      },
+      {
+        "id": 98,
+        "usage": 0.25
+      },
+      {
+        "id": 679,
+        "usage": 0.25
+      },
+      {
+        "id": 404,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 710,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 52,
+        "usage": 0.75
+      },
+      {
+        "id": 153,
+        "usage": 0.25
+      }
+    ],
+    "teammates": [
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 670,
+        "usage": 0.25
+      },
+      {
+        "id": 908,
+        "usage": 0.25
+      },
+      {
+        "id": 445,
+        "usage": 0.25
+      },
+      {
+        "id": 10009,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

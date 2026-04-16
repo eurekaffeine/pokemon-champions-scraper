@@ -1,0 +1,64 @@
+{
+  "dex_id": 514,
+  "name": "Simisear",
+  "form": null,
+  "competitive": {
+    "usage_rank": 179,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 53,
+        "usage": 1.0
+      },
+      {
+        "id": 242,
+        "usage": 1.0
+      },
+      {
+        "id": 417,
+        "usage": 1.0
+      },
+      {
+        "id": 263,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 190,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 82,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 3,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 702,
+        "usage": 1.0
+      },
+      {
+        "id": 658,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

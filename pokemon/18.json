@@ -1,0 +1,64 @@
+{
+  "dex_id": 18,
+  "name": "Pidgeot",
+  "form": null,
+  "competitive": {
+    "usage_rank": 167,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 542,
+        "usage": 1.0
+      },
+      {
+        "id": 366,
+        "usage": 1.0
+      },
+      {
+        "id": 257,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 803,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 145,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 38,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 3,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

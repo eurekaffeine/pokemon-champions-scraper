@@ -1,0 +1,72 @@
+{
+  "dex_id": 10026,
+  "name": "Aegislash-Blade",
+  "form": null,
+  "competitive": {
+    "usage_rank": 152,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 421,
+        "usage": 1.0
+      },
+      {
+        "id": 442,
+        "usage": 1.0
+      },
+      {
+        "id": 14,
+        "usage": 0.5
+      },
+      {
+        "id": 370,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 0.5
+      },
+      {
+        "id": 175,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 176,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 970,
+        "usage": 1.0
+      },
+      {
+        "id": 663,
+        "usage": 1.0
+      },
+      {
+        "id": 652,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}
