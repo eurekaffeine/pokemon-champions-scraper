@@ -70,7 +70,46 @@ class NameResolver:
     def get_pokemon_id(self, english_name: str) -> int:
         """Get Pokémon dex ID from English name. Returns 0 if not found."""
         normalized = normalize_name(english_name)
-        return self._mappings.get("pokemon", {}).get(normalized, 0)
+        
+        # Direct lookup
+        result = self._mappings.get("pokemon", {}).get(normalized, 0)
+        if result > 0:
+            return result
+        
+        # Try form variant aliases (Pikalytics uses different naming)
+        form_aliases = {
+            # Paldean Tauros forms
+            "tauros-paldea-combat": "paldean-tauros-combat-breed",
+            "tauros-paldea-blaze": "paldean-tauros-blaze-breed",
+            "tauros-paldea-aqua": "paldean-tauros-aqua-breed",
+            # Mr. Rime
+            "mr-rime": "mr.-rime",
+            "mr rime": "mr.-rime",
+            # Meowstic
+            "meowstic-f": "meowstic-female",
+            "meowstic-m": "meowstic-male",
+            # Calyrex forms
+            "calyrex-ice-rider": "calyrex-ice",
+            "calyrex-shadow-rider": "calyrex-shadow",
+            # Tatsugiri forms
+            "tatsugiri-droopy": "tatsugiri",
+            "tatsugiri-stretchy": "tatsugiri",
+            "tatsugiri-curly": "tatsugiri",
+            # Basculegion
+            "basculegion-f": "basculegion-female",
+            "basculegion-m": "basculegion-male",
+            # Indeedee
+            "indeedee-f": "indeedee-female",
+            "indeedee-m": "indeedee-male",
+        }
+        
+        alias = form_aliases.get(normalized)
+        if alias:
+            result = self._mappings.get("pokemon", {}).get(alias, 0)
+            if result > 0:
+                return result
+        
+        return 0
 
 
 # Singleton instance
