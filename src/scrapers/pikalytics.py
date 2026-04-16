@@ -96,7 +96,7 @@ class PikalyticsScraper(BaseScraper):
             moves_section = self._extract_section(markdown, "Common Moves")
             if moves_section:
                 move_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
-                for match in re.findall(move_pattern, moves_section)[:10]:
+                for match in re.findall(move_pattern, moves_section):  # No limit - get all
                     move_name = match[0].strip()
                     move_id = resolve_move_id(move_name)
                     if move_id > 0:  # Only include if we can resolve the ID
@@ -109,7 +109,7 @@ class PikalyticsScraper(BaseScraper):
             items_section = self._extract_section(markdown, "Common Items")
             if items_section:
                 item_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
-                for match in re.findall(item_pattern, items_section)[:10]:
+                for match in re.findall(item_pattern, items_section):  # No limit - get all
                     item_name = match[0].strip()
                     item_id = resolve_item_id(item_name)
                     if item_id > 0:  # Only include if we can resolve the ID
@@ -122,7 +122,7 @@ class PikalyticsScraper(BaseScraper):
             abilities_section = self._extract_section(markdown, "Common Abilities")
             if abilities_section:
                 ability_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
-                for match in re.findall(ability_pattern, abilities_section)[:5]:
+                for match in re.findall(ability_pattern, abilities_section):  # No limit - get all
                     ability_name = match[0].strip()
                     ability_id = resolve_ability_id(ability_name)
                     if ability_id > 0:  # Only include if we can resolve the ID
@@ -135,7 +135,7 @@ class PikalyticsScraper(BaseScraper):
             teammates_section = self._extract_section(markdown, "Common Teammates")
             if teammates_section:
                 teammate_pattern = r'\*\*([^*]+)\*\*:\s*([\d.]+)%'
-                for match in re.findall(teammate_pattern, teammates_section)[:6]:
+                for match in re.findall(teammate_pattern, teammates_section):  # No limit - get all
                     teammate_name = match[0].strip()
                     teammate_id = self._get_dex_id(teammate_name)
                     if teammate_id > 0:  # Only include if we can resolve the ID
