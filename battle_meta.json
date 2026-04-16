@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-16T05:25:33.943997Z",
+  "updated_at": "2026-04-16T05:57:56.980660Z",
   "season": {
     "id": "s1",
     "name": "Season 1",
@@ -11496,7 +11496,7 @@
     },
     {
       "rank": 98,
-      "dex_id": 0,
+      "dex_id": 10252,
       "name": "Tauros-Paldea-Aqua",
       "form": null,
       "usage_rate": 0.0037,
@@ -16786,7 +16786,7 @@
     },
     {
       "rank": 153,
-      "dex_id": 0,
+      "dex_id": 10251,
       "name": "Tauros-Paldea-Blaze",
       "form": null,
       "usage_rate": 0.0006,
@@ -17163,6 +17163,10 @@
           "usage": 0.5
         },
         {
+          "id": 10251,
+          "usage": 0.5
+        },
+        {
           "id": 186,
           "usage": 0.5
         }
@@ -17382,6 +17386,10 @@
         },
         {
           "id": 196,
+          "usage": 0.5
+        },
+        {
+          "id": 10025,
           "usage": 0.5
         },
         {
@@ -18228,7 +18236,7 @@
     },
     {
       "rank": 174,
-      "dex_id": 0,
+      "dex_id": 866,
       "name": "Mr-Rime",
       "form": null,
       "usage_rate": 0.0003,
@@ -18600,7 +18608,7 @@
     },
     {
       "rank": 180,
-      "dex_id": 0,
+      "dex_id": 10025,
       "name": "Meowstic-F",
       "form": null,
       "usage_rate": 0.0003,
@@ -18699,6 +18707,10 @@
       ],
       "top_teammates": [
         {
+          "id": 10194,
+          "usage": 1.0
+        },
+        {
           "id": 10167,
           "usage": 1.0
         },
@@ -18709,6 +18721,10 @@
         {
           "id": 977,
           "usage": 1.0
+        },
+        {
+          "id": 978,
+          "usage": 1.0
         }
       ],
       "top_tera_types": [],
@@ -18716,7 +18732,7 @@
     },
     {
       "rank": 182,
-      "dex_id": 0,
+      "dex_id": 10194,
       "name": "Calyrex-Shadow-Rider",
       "form": null,
       "usage_rate": 0.0003,
@@ -18767,6 +18783,10 @@
         {
           "id": 977,
           "usage": 1.0
+        },
+        {
+          "id": 978,
+          "usage": 1.0
         }
       ],
       "top_tera_types": [],
@@ -18815,11 +18835,19 @@
           "usage": 1.0
         },
         {
+          "id": 10194,
+          "usage": 1.0
+        },
+        {
           "id": 1004,
           "usage": 1.0
         },
         {
           "id": 977,
+          "usage": 1.0
+        },
+        {
+          "id": 978,
           "usage": 1.0
         }
       ],
@@ -18869,11 +18897,19 @@
           "usage": 1.0
         },
         {
+          "id": 10194,
+          "usage": 1.0
+        },
+        {
           "id": 10167,
           "usage": 1.0
         },
         {
           "id": 977,
+          "usage": 1.0
+        },
+        {
+          "id": 978,
           "usage": 1.0
         }
       ],
@@ -18882,7 +18918,7 @@
     },
     {
       "rank": 185,
-      "dex_id": 0,
+      "dex_id": 978,
       "name": "Tatsugiri-Droopy",
       "form": null,
       "usage_rate": 0.0003,
@@ -18920,6 +18956,10 @@
       "top_teammates": [
         {
           "id": 1007,
+          "usage": 1.0
+        },
+        {
+          "id": 10194,
           "usage": 1.0
         },
         {
@@ -19069,7 +19109,7 @@
     {
       "name": "Pikalytics",
       "url": "https://www.pikalytics.com",
-      "scraped_at": "2026-04-16T05:25:33.943278Z"
+      "scraped_at": "2026-04-16T05:57:56.979932Z"
     }
   ]
 }

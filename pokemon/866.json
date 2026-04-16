@@ -1,22 +1,22 @@
 {
-  "dex_id": 877,
-  "name": "Morpeko",
+  "dex_id": 866,
+  "name": "Mr-Rime",
   "form": null,
   "competitive": {
-    "usage_rank": 160,
-    "usage_rate": 0.0006,
+    "usage_rank": 174,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 252,
+        "id": 573,
         "usage": 1.0
       },
       {
-        "id": 575,
+        "id": 94,
         "usage": 1.0
       },
       {
-        "id": 783,
+        "id": 605,
         "usage": 1.0
       },
       {
@@ -26,40 +26,36 @@
     ],
     "items": [
       {
-        "id": 252,
+        "id": 211,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 258,
+        "id": 115,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 780,
-        "usage": 0.5
+        "id": 448,
+        "usage": 1.0
       },
       {
-        "id": 500,
-        "usage": 0.5
+        "id": 547,
+        "usage": 1.0
       },
       {
-        "id": 196,
-        "usage": 0.5
+        "id": 765,
+        "usage": 1.0
       },
       {
-        "id": 10025,
-        "usage": 0.5
+        "id": 911,
+        "usage": 1.0
       },
       {
-        "id": 925,
-        "usage": 0.5
-      },
-      {
-        "id": 94,
-        "usage": 0.5
+        "id": 478,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

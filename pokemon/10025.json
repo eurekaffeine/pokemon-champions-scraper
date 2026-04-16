@@ -1,22 +1,22 @@
 {
-  "dex_id": 877,
-  "name": "Morpeko",
+  "dex_id": 10025,
+  "name": "Meowstic-F",
   "form": null,
   "competitive": {
-    "usage_rank": 160,
-    "usage_rate": 0.0006,
+    "usage_rank": 180,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 252,
+        "id": 914,
         "usage": 1.0
       },
       {
-        "id": 575,
+        "id": 797,
         "usage": 1.0
       },
       {
-        "id": 783,
+        "id": 247,
         "usage": 1.0
       },
       {
@@ -26,40 +26,36 @@
     ],
     "items": [
       {
-        "id": 252,
+        "id": 2643,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 258,
+        "id": 172,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
+        "id": 877,
+        "usage": 1.0
+      },
+      {
         "id": 780,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 500,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 196,
-        "usage": 0.5
-      },
-      {
-        "id": 10025,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 925,
-        "usage": 0.5
-      },
-      {
-        "id": 94,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "tera_types": [],

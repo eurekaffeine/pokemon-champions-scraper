@@ -1,14 +1,18 @@
 {
   "dex_id": 978,
-  "name": "Tatsugiri",
+  "name": "Tatsugiri-Droopy",
   "form": null,
   "competitive": {
-    "usage_rank": 162,
+    "usage_rank": 185,
     "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 434,
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 196,
         "usage": 1.0
       },
       {
@@ -16,11 +20,7 @@
         "usage": 1.0
       },
       {
-        "id": 417,
-        "usage": 1.0
-      },
-      {
-        "id": 182,
+        "id": 434,
         "usage": 1.0
       }
     ],
@@ -38,19 +38,19 @@
     ],
     "teammates": [
       {
-        "id": 359,
+        "id": 1007,
         "usage": 1.0
       },
       {
-        "id": 730,
+        "id": 10194,
         "usage": 1.0
       },
       {
-        "id": 149,
+        "id": 10167,
         "usage": 1.0
       },
       {
-        "id": 727,
+        "id": 1004,
         "usage": 1.0
       },
       {

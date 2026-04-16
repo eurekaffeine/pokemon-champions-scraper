@@ -1,76 +1,68 @@
 {
-  "dex_id": 614,
-  "name": "Beartic",
+  "dex_id": 10251,
+  "name": "Tauros-Paldea-Blaze",
   "form": null,
   "competitive": {
-    "usage_rank": 157,
+    "usage_rank": 153,
     "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
-        "id": 556,
+        "id": 873,
         "usage": 1.0
-      },
-      {
-        "id": 710,
-        "usage": 1.0
-      },
-      {
-        "id": 14,
-        "usage": 0.5
       },
       {
         "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 885,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
         "usage": 0.5
       },
       {
-        "id": 583,
-        "usage": 0.5
-      },
-      {
-        "id": 276,
+        "id": 667,
         "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 135,
-        "usage": 0.5
-      },
-      {
-        "id": 252,
+        "id": 191,
         "usage": 0.5
       }
     ],
     "abilities": [
       {
-        "id": 33,
+        "id": 22,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
+        "id": 94,
+        "usage": 0.5
+      },
+      {
+        "id": 983,
+        "usage": 0.5
+      },
+      {
+        "id": 752,
+        "usage": 0.5
+      },
+      {
+        "id": 115,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
         "id": 478,
-        "usage": 0.5
-      },
-      {
-        "id": 248,
-        "usage": 0.5
-      },
-      {
-        "id": 279,
-        "usage": 0.5
-      },
-      {
-        "id": 10012,
-        "usage": 0.5
-      },
-      {
-        "id": 10251,
-        "usage": 0.5
-      },
-      {
-        "id": 186,
         "usage": 0.5
       }
     ],
