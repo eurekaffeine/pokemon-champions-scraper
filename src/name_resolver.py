@@ -10,6 +10,7 @@ import json
 import re
 from pathlib import Path
 from functools import lru_cache
+from typing import Optional
 
 
 # Path to the mappings file
@@ -73,7 +74,7 @@ class NameResolver:
 
 
 # Singleton instance
-_resolver: NameResolver | None = None
+_resolver: Optional[NameResolver] = None
 
 
 def get_resolver() -> NameResolver:

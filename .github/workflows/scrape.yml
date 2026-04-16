@@ -13,7 +13,7 @@ on:
       limit:
         description: 'Number of Pokémon to scrape'
         required: false
-        default: '100'
+        default: '200'
       notify:
         description: 'Send Telegram notification on completion'
         required: false
