@@ -23,7 +23,8 @@ def normalize_name(name: str) -> str:
         "Fake Out" → "fake-out"
         "Will-O-Wisp" → "will-o-wisp"
         "Sitrus Berry" → "sitrus-berry"
-        "10,000,000 Volt Thunderbolt" → "10,000,000-volt-thunderbolt"
+        "Rotom-Wash" → "rotom-wash"
+        "Ninetales-Alola" → "ninetales-alola"
     """
     return re.sub(r'[\s]+', '-', name.strip().lower())
 

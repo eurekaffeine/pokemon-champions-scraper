@@ -41,7 +41,11 @@ def normalize_name(name: str) -> str:
         "Fake Out" → "fake-out"
         "Will-O-Wisp" → "will-o-wisp"
         "Sitrus Berry" → "sitrus-berry"
+        "Rotom(wash)" → "rotom-wash"
+        "Ninetales(Alola)" → "ninetales-alola"
     """
+    # Replace parentheses with hyphens for form variants
+    name = re.sub(r'\(([^)]+)\)', r'-\1', name)
     return re.sub(r'[\s]+', '-', name.strip().lower())
 
 
