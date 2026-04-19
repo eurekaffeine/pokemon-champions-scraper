@@ -145,19 +145,19 @@ class DataMerger:
         top_moves = self._merge_usage_lists(
             {src: p.top_moves for src, p in source_data.items()},
             "moves",
-            key_attr="name",
+            key_attr="id",
         )
         
         top_items = self._merge_usage_lists(
             {src: p.top_items for src, p in source_data.items()},
             "items",
-            key_attr="name",
+            key_attr="id",
         )
         
         top_abilities = self._merge_usage_lists(
             {src: p.top_abilities for src, p in source_data.items()},
             "abilities",
-            key_attr="name",
+            key_attr="id",
         )
         
         top_teammates = self._merge_teammate_lists(
@@ -247,14 +247,19 @@ class DataMerger:
         base_list = non_empty[best_source]
 
         # Merge in unique items from other sources
-        seen_keys = {getattr(item, key_attr).lower() for item in base_list}
+        # Handle both string and int keys
+        def get_key(item):
+            val = getattr(item, key_attr)
+            return val.lower() if isinstance(val, str) else val
+        
+        seen_keys = {get_key(item) for item in base_list}
         merged = list(base_list)
 
         for src, items in non_empty.items():
             if src == best_source:
                 continue
             for item in items:
-                key = getattr(item, key_attr).lower()
+                key = get_key(item)
                 if key not in seen_keys:
                     seen_keys.add(key)
                     merged.append(item)
@@ -268,25 +273,24 @@ class DataMerger:
         source_lists: dict[str, list[TeammateUsage]],
         max_items: int = 6,
     ) -> list[TeammateUsage]:
-        """Merge teammate lists, deduplicating by dex_id."""
+        """Merge teammate lists, deduplicating by id."""
         if not source_lists:
             return []
 
-        # Group by dex_id
-        by_dex_id: dict[int, list[TeammateUsage]] = defaultdict(list)
+        # Group by id
+        by_id: dict[int, list[TeammateUsage]] = defaultdict(list)
         
         for items in source_lists.values():
             for item in items:
-                if item.dex_id > 0:
-                    by_dex_id[item.dex_id].append(item)
+                if item.id > 0:
+                    by_id[item.id].append(item)
 
         # Average usage for duplicates
         merged = []
-        for dex_id, items in by_dex_id.items():
+        for pokemon_id, items in by_id.items():
             avg_usage = sum(i.usage for i in items) / len(items)
             merged.append(TeammateUsage(
-                dex_id=dex_id,
-                name=items[0].name,
+                id=pokemon_id,
                 usage=avg_usage,
             ))
 
