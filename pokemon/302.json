@@ -3,122 +3,122 @@
   "name": "Sableye",
   "form": null,
   "competitive": {
-    "usage_rank": 57,
-    "usage_rate": 0.013999999999999999,
+    "usage_rank": 55,
+    "usage_rate": 0.014199999999999999,
     "win_rate": null,
     "moves": [
       {
         "id": 252,
-        "usage": 0.42222000000000004
-      },
-      {
-        "id": 492,
-        "usage": 0.4
-      },
-      {
-        "id": 113,
-        "usage": 0.4
+        "usage": 0.42
       },
       {
         "id": 227,
-        "usage": 0.4
+        "usage": 0.42
+      },
+      {
+        "id": 492,
+        "usage": 0.38
+      },
+      {
+        "id": 113,
+        "usage": 0.38
       },
       {
         "id": 115,
-        "usage": 0.33332999999999996
+        "usage": 0.32
       },
       {
         "id": 511,
-        "usage": 0.28889
+        "usage": 0.28
       },
       {
         "id": 240,
-        "usage": 0.26667
+        "usage": 0.26
       },
       {
         "id": 50,
-        "usage": 0.22222
+        "usage": 0.26
       },
       {
         "id": 269,
-        "usage": 0.2
+        "usage": 0.18
       },
       {
         "id": 241,
-        "usage": 0.17778
+        "usage": 0.18
       }
     ],
     "items": [
       {
         "id": 196,
-        "usage": 0.22222
+        "usage": 0.22
+      },
+      {
+        "id": 135,
+        "usage": 0.2
       },
       {
         "id": 252,
         "usage": 0.2
       },
       {
-        "id": 135,
-        "usage": 0.17778
-      },
-      {
         "id": 723,
-        "usage": 0.15556
+        "usage": 0.16
       },
       {
         "id": 795,
-        "usage": 0.11111
+        "usage": 0.1
       },
       {
         "id": 211,
-        "usage": 0.08889
+        "usage": 0.08
       },
       {
         "id": 134,
-        "usage": 0.02222
+        "usage": 0.02
       },
       {
         "id": 191,
-        "usage": 0.02222
+        "usage": 0.02
       }
     ],
     "abilities": [
       {
         "id": 158,
-        "usage": 0.95556
+        "usage": 0.96
       },
       {
         "id": 156,
-        "usage": 0.02222
+        "usage": 0.02
       },
       {
         "id": 51,
-        "usage": 0.02222
+        "usage": 0.02
       }
     ],
     "teammates": [
       {
         "id": 727,
-        "usage": 0.42222000000000004
-      },
-      {
-        "id": 279,
-        "usage": 0.26667
+        "usage": 0.4
       },
       {
         "id": 902,
-        "usage": 0.26667
+        "usage": 0.28
+      },
+      {
+        "id": 279,
+        "usage": 0.26
       },
       {
         "id": 1018,
-        "usage": 0.22222
+        "usage": 0.22
       },
       {
         "id": 547,
         "usage": 0.2
       },
       {
-        "id": 903,
+        "id": 6,
         "usage": 0.2
       }
     ],

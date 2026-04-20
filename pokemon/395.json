@@ -3,25 +3,25 @@
   "name": "Empoleon",
   "form": null,
   "competitive": {
-    "usage_rank": 83,
-    "usage_rate": 0.0062,
+    "usage_rank": 82,
+    "usage_rate": 0.0068000000000000005,
     "win_rate": null,
     "moves": [
       {
         "id": 430,
-        "usage": 0.9
+        "usage": 0.91667
       },
       {
         "id": 182,
-        "usage": 0.7
+        "usage": 0.75
       },
       {
         "id": 56,
-        "usage": 0.7
+        "usage": 0.66667
       },
       {
         "id": 58,
-        "usage": 0.45
+        "usage": 0.5
       },
       {
         "id": 57,
@@ -29,92 +29,92 @@
       },
       {
         "id": 311,
-        "usage": 0.2
+        "usage": 0.16667
       },
       {
         "id": 282,
-        "usage": 0.1
+        "usage": 0.08333
       },
       {
         "id": 410,
-        "usage": 0.1
+        "usage": 0.08333
       },
       {
         "id": 59,
-        "usage": 0.1
+        "usage": 0.08333
       },
       {
         "id": 446,
-        "usage": 0.1
+        "usage": 0.08333
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.35
-      },
-      {
-        "id": 220,
-        "usage": 0.15
+        "usage": 0.33332999999999996
       },
       {
         "id": 211,
-        "usage": 0.15
+        "usage": 0.16667
       },
       {
         "id": 166,
-        "usage": 0.1
+        "usage": 0.16667
+      },
+      {
+        "id": 220,
+        "usage": 0.125
       },
       {
         "id": 196,
-        "usage": 0.1
+        "usage": 0.08333
       },
       {
         "id": 191,
-        "usage": 0.05
+        "usage": 0.04167
       },
       {
         "id": 210,
-        "usage": 0.05
+        "usage": 0.04167
       },
       {
         "id": 168,
-        "usage": 0.05
+        "usage": 0.04167
       }
     ],
     "abilities": [
       {
         "id": 172,
-        "usage": 0.95
+        "usage": 0.95833
       },
       {
         "id": 67,
-        "usage": 0.05
+        "usage": 0.04167
       }
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.35
+        "id": 727,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 547,
-        "usage": 0.35
+        "id": 445,
+        "usage": 0.33332999999999996
       },
       {
         "id": 903,
-        "usage": 0.3
+        "usage": 0.29167000000000004
+      },
+      {
+        "id": 547,
+        "usage": 0.29167000000000004
       },
       {
         "id": 6,
-        "usage": 0.3
+        "usage": 0.29167000000000004
       },
       {
         "id": 478,
-        "usage": 0.25
-      },
-      {
-        "id": 727,
         "usage": 0.25
       }
     ],

@@ -3,103 +3,103 @@
   "name": "Lycanroc",
   "form": null,
   "competitive": {
-    "usage_rank": 88,
-    "usage_rate": 0.0053,
+    "usage_rank": 86,
+    "usage_rate": 0.005699999999999999,
     "win_rate": null,
     "moves": [
       {
         "id": 157,
-        "usage": 0.88235
+        "usage": 0.85
       },
       {
         "id": 182,
-        "usage": 0.88235
+        "usage": 0.8
       },
       {
         "id": 709,
-        "usage": 0.70588
+        "usage": 0.7
       },
       {
         "id": 370,
-        "usage": 0.41176
+        "usage": 0.4
       },
       {
         "id": 283,
-        "usage": 0.41176
+        "usage": 0.35
       },
       {
         "id": 442,
-        "usage": 0.11765
-      },
-      {
-        "id": 14,
-        "usage": 0.11765
-      },
-      {
-        "id": 280,
-        "usage": 0.11765
+        "usage": 0.15
       },
       {
         "id": 501,
-        "usage": 0.05882
+        "usage": 0.1
       },
       {
-        "id": 269,
-        "usage": 0.05882
+        "id": 14,
+        "usage": 0.1
+      },
+      {
+        "id": 242,
+        "usage": 0.1
+      },
+      {
+        "id": 706,
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.82353
+        "usage": 0.85
       },
       {
         "id": 135,
-        "usage": 0.05882
+        "usage": 0.05
       },
       {
         "id": 215,
-        "usage": 0.05882
+        "usage": 0.05
       }
     ],
     "abilities": [
       {
         "id": 146,
-        "usage": 0.70588
+        "usage": 0.65
       },
       {
         "id": 181,
-        "usage": 0.23529
+        "usage": 0.3
       },
       {
         "id": 51,
-        "usage": 0.05882
+        "usage": 0.05
       }
     ],
     "teammates": [
       {
         "id": 248,
-        "usage": 0.70588
+        "usage": 0.65
       },
       {
         "id": 727,
-        "usage": 0.58824
+        "usage": 0.55
       },
       {
         "id": 1013,
-        "usage": 0.41176
+        "usage": 0.35
       },
       {
         "id": 903,
-        "usage": 0.35294
+        "usage": 0.35
       },
       {
         "id": 306,
-        "usage": 0.29412
+        "usage": 0.25
       },
       {
         "id": 547,
-        "usage": 0.29412
+        "usage": 0.25
       }
     ],
     "tera_types": [],
