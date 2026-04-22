@@ -1,13 +1,12 @@
 # .github/workflows/scrape.yml
-# Weekly scraper workflow - fetches competitive Pokémon data and deploys to GitHub Pages
-# Pikalytics updates monthly, so weekly is sufficient to catch month rollovers
+# Daily scraper workflow - fetches competitive Pokémon data, audits IDs, and deploys to GitHub Pages
 
 name: Scrape and Deploy
 
 on:
   schedule:
-    # Run weekly on Mondays at 2 AM UTC
-    - cron: '0 2 * * 1'
+    # Run daily at 2 AM UTC (10 AM CST)
+    - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       limit:
@@ -61,7 +60,7 @@ jobs:
         id: run-scraper
         run: |
           set +e
-          LIMIT=${{ github.event.inputs.limit || '100' }}
+          LIMIT=${{ github.event.inputs.limit || '250' }}
           
           echo "Running scraper with limit=${LIMIT}..."
           python -m src.main scrape --limit ${LIMIT} --output output 2>&1 | tee scrape.log
@@ -83,6 +82,12 @@ jobs:
             echo "count=0" >> $GITHUB_OUTPUT
             exit 1
           fi
+
+      - name: Audit Pokémon ID mappings
+        if: steps.run-scraper.outputs.status == 'success'
+        run: |
+          echo "Running ID audit against Pokédex-Assets mappings..."
+          python scripts/audit_ids.py output/battle_meta.json src/data/name_mappings.json
 
       - name: Upload scrape logs
         if: always()
