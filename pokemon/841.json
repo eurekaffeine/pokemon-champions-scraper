@@ -1,0 +1,64 @@
+{
+  "dex_id": 841,
+  "name": "Flapple",
+  "form": null,
+  "competitive": {
+    "usage_rank": 199,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 788,
+        "usage": 1.0
+      },
+      {
+        "id": 200,
+        "usage": 1.0
+      },
+      {
+        "id": 369,
+        "usage": 1.0
+      },
+      {
+        "id": 389,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 55,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 655,
+        "usage": 1.0
+      },
+      {
+        "id": 730,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 745,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

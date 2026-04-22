@@ -3,8 +3,8 @@
   "name": "Chandelure",
   "form": null,
   "competitive": {
-    "usage_rank": 90,
-    "usage_rate": 0.0048,
+    "usage_rank": 88,
+    "usage_rate": 0.0054,
     "win_rate": null,
     "moves": [
       {
@@ -13,89 +13,93 @@
       },
       {
         "id": 257,
-        "usage": 0.9411799999999999
+        "usage": 0.9375
       },
       {
         "id": 182,
-        "usage": 0.70588
+        "usage": 0.6875
       },
       {
         "id": 433,
-        "usage": 0.41176
+        "usage": 0.4375
       },
       {
         "id": 315,
-        "usage": 0.35294
+        "usage": 0.3125
       },
       {
         "id": 412,
-        "usage": 0.23529
-      },
-      {
-        "id": 76,
-        "usage": 0.05882
+        "usage": 0.21875
       },
       {
         "id": 399,
-        "usage": 0.05882
+        "usage": 0.0625
       },
       {
         "id": 347,
-        "usage": 0.05882
+        "usage": 0.0625
       },
       {
         "id": 271,
-        "usage": 0.05882
+        "usage": 0.0625
+      },
+      {
+        "id": 53,
+        "usage": 0.0625
       }
     ],
     "items": [
       {
         "id": 2574,
-        "usage": 0.6470600000000001
+        "usage": 0.53125
       },
       {
         "id": 264,
-        "usage": 0.23529
+        "usage": 0.25
       },
       {
         "id": 252,
-        "usage": 0.11765
+        "usage": 0.1875
+      },
+      {
+        "id": 226,
+        "usage": 0.03125
       }
     ],
     "abilities": [
       {
         "id": 18,
-        "usage": 0.88235
+        "usage": 0.8125
       },
       {
         "id": 151,
-        "usage": 0.11765
+        "usage": 0.1875
       }
     ],
     "teammates": [
       {
         "id": 445,
-        "usage": 0.47058999999999995
+        "usage": 0.34375
       },
       {
         "id": 10009,
-        "usage": 0.35294
+        "usage": 0.21875
       },
       {
         "id": 903,
-        "usage": 0.23529
+        "usage": 0.1875
       },
       {
         "id": 547,
-        "usage": 0.23529
+        "usage": 0.1875
       },
       {
-        "id": 448,
-        "usage": 0.23529
+        "id": 981,
+        "usage": 0.1875
       },
       {
-        "id": 823,
-        "usage": 0.17647
+        "id": 983,
+        "usage": 0.1875
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 711,
+  "name": "Gourgeist",
+  "form": null,
+  "competitive": {
+    "usage_rank": 203,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 567,
+        "usage": 1.0
+      },
+      {
+        "id": 809,
+        "usage": 1.0
+      },
+      {
+        "id": 261,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 169,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 15,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 623,
+        "usage": 1.0
+      },
+      {
+        "id": 115,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
+        "usage": 1.0
+      },
+      {
+        "id": 936,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

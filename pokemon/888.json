@@ -1,0 +1,64 @@
+{
+  "dex_id": 888,
+  "name": "Zacian",
+  "form": null,
+  "competitive": {
+    "usage_rank": 207,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 533,
+        "usage": 1.0
+      },
+      {
+        "id": 583,
+        "usage": 1.0
+      },
+      {
+        "id": 424,
+        "usage": 1.0
+      },
+      {
+        "id": 14,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 1698,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 234,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 10022,
+        "usage": 1.0
+      },
+      {
+        "id": 1000,
+        "usage": 1.0
+      },
+      {
+        "id": 472,
+        "usage": 1.0
+      },
+      {
+        "id": 1003,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

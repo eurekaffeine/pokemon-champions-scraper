@@ -1,0 +1,64 @@
+{
+  "dex_id": 10256,
+  "name": "Palafin-Hero",
+  "form": null,
+  "competitive": {
+    "usage_rank": 181,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 834,
+        "usage": 1.0
+      },
+      {
+        "id": 857,
+        "usage": 1.0
+      },
+      {
+        "id": 812,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 220,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 278,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 10296,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 530,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

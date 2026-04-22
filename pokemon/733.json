@@ -1,0 +1,64 @@
+{
+  "dex_id": 733,
+  "name": "Toucannon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 211,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 331,
+        "usage": 1.0
+      },
+      {
+        "id": 690,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 230,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 92,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 68,
+        "usage": 1.0
+      },
+      {
+        "id": 184,
+        "usage": 1.0
+      },
+      {
+        "id": 858,
+        "usage": 1.0
+      },
+      {
+        "id": 500,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

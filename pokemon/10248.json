@@ -1,0 +1,64 @@
+{
+  "dex_id": 10248,
+  "name": "Basculegion-F",
+  "form": null,
+  "competitive": {
+    "usage_rank": 182,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 56,
+        "usage": 1.0
+      },
+      {
+        "id": 247,
+        "usage": 1.0
+      },
+      {
+        "id": 330,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 220,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 33,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 212,
+        "usage": 1.0
+      },
+      {
+        "id": 1018,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

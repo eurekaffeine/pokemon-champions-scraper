@@ -1,0 +1,84 @@
+{
+  "dex_id": 229,
+  "name": "Houndoom",
+  "form": null,
+  "competitive": {
+    "usage_rank": 155,
+    "usage_rate": 0.0007000000000000001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 257,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 399,
+        "usage": 0.5
+      },
+      {
+        "id": 76,
+        "usage": 0.5
+      },
+      {
+        "id": 555,
+        "usage": 0.5
+      },
+      {
+        "id": 389,
+        "usage": 0.25
+      },
+      {
+        "id": 815,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 705,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 18,
+        "usage": 0.75
+      },
+      {
+        "id": 94,
+        "usage": 0.25
+      }
+    ],
+    "teammates": [
+      {
+        "id": 302,
+        "usage": 0.5
+      },
+      {
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 983,
+        "usage": 0.5
+      },
+      {
+        "id": 547,
+        "usage": 0.5
+      },
+      {
+        "id": 765,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

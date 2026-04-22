@@ -1,0 +1,108 @@
+{
+  "dex_id": 389,
+  "name": "Torterra",
+  "form": null,
+  "competitive": {
+    "usage_rank": 151,
+    "usage_rate": 0.0008,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 0.8
+      },
+      {
+        "id": 89,
+        "usage": 0.6
+      },
+      {
+        "id": 428,
+        "usage": 0.4
+      },
+      {
+        "id": 452,
+        "usage": 0.4
+      },
+      {
+        "id": 331,
+        "usage": 0.2
+      },
+      {
+        "id": 341,
+        "usage": 0.2
+      },
+      {
+        "id": 202,
+        "usage": 0.2
+      },
+      {
+        "id": 469,
+        "usage": 0.2
+      },
+      {
+        "id": 504,
+        "usage": 0.2
+      },
+      {
+        "id": 402,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 0.4
+      },
+      {
+        "id": 252,
+        "usage": 0.2
+      },
+      {
+        "id": 211,
+        "usage": 0.2
+      },
+      {
+        "id": 191,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 75,
+        "usage": 0.8
+      },
+      {
+        "id": 65,
+        "usage": 0.2
+      }
+    ],
+    "teammates": [
+      {
+        "id": 765,
+        "usage": 0.4
+      },
+      {
+        "id": 248,
+        "usage": 0.4
+      },
+      {
+        "id": 445,
+        "usage": 0.4
+      },
+      {
+        "id": 279,
+        "usage": 0.2
+      },
+      {
+        "id": 149,
+        "usage": 0.2
+      },
+      {
+        "id": 9,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

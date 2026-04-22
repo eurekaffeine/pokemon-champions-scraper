@@ -1,0 +1,120 @@
+{
+  "dex_id": 697,
+  "name": "Tyrantrum",
+  "form": null,
+  "competitive": {
+    "usage_rank": 123,
+    "usage_rate": 0.0017000000000000001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 0.7
+      },
+      {
+        "id": 457,
+        "usage": 0.6
+      },
+      {
+        "id": 706,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.3
+      },
+      {
+        "id": 349,
+        "usage": 0.3
+      },
+      {
+        "id": 370,
+        "usage": 0.2
+      },
+      {
+        "id": 799,
+        "usage": 0.1
+      },
+      {
+        "id": 242,
+        "usage": 0.1
+      },
+      {
+        "id": 583,
+        "usage": 0.1
+      },
+      {
+        "id": 337,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.4
+      },
+      {
+        "id": 134,
+        "usage": 0.1
+      },
+      {
+        "id": 264,
+        "usage": 0.1
+      },
+      {
+        "id": 207,
+        "usage": 0.1
+      },
+      {
+        "id": 223,
+        "usage": 0.1
+      },
+      {
+        "id": 215,
+        "usage": 0.1
+      },
+      {
+        "id": 135,
+        "usage": 0.1
+      }
+    ],
+    "abilities": [
+      {
+        "id": 69,
+        "usage": 0.6
+      },
+      {
+        "id": 173,
+        "usage": 0.4
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 0.3
+      },
+      {
+        "id": 248,
+        "usage": 0.3
+      },
+      {
+        "id": 547,
+        "usage": 0.3
+      },
+      {
+        "id": 445,
+        "usage": 0.3
+      },
+      {
+        "id": 903,
+        "usage": 0.2
+      },
+      {
+        "id": 142,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

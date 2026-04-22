@@ -1,0 +1,104 @@
+{
+  "dex_id": 471,
+  "name": "Glaceon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 122,
+    "usage_rate": 0.0017000000000000001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 59,
+        "usage": 1.0
+      },
+      {
+        "id": 573,
+        "usage": 0.9
+      },
+      {
+        "id": 182,
+        "usage": 0.8
+      },
+      {
+        "id": 420,
+        "usage": 0.3
+      },
+      {
+        "id": 347,
+        "usage": 0.2
+      },
+      {
+        "id": 197,
+        "usage": 0.2
+      },
+      {
+        "id": 304,
+        "usage": 0.1
+      },
+      {
+        "id": 352,
+        "usage": 0.1
+      },
+      {
+        "id": 281,
+        "usage": 0.1
+      },
+      {
+        "id": 341,
+        "usage": 0.1
+      }
+    ],
+    "items": [
+      {
+        "id": 223,
+        "usage": 0.5
+      },
+      {
+        "id": 190,
+        "usage": 0.4
+      },
+      {
+        "id": 211,
+        "usage": 0.1
+      }
+    ],
+    "abilities": [
+      {
+        "id": 81,
+        "usage": 0.9
+      },
+      {
+        "id": 115,
+        "usage": 0.1
+      }
+    ],
+    "teammates": [
+      {
+        "id": 478,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 0.6
+      },
+      {
+        "id": 10230,
+        "usage": 0.4
+      },
+      {
+        "id": 1013,
+        "usage": 0.4
+      },
+      {
+        "id": 730,
+        "usage": 0.3
+      },
+      {
+        "id": 445,
+        "usage": 0.3
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

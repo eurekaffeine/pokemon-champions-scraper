@@ -1,0 +1,96 @@
+{
+  "dex_id": 866,
+  "name": "Mr-Rime",
+  "form": null,
+  "competitive": {
+    "usage_rank": 149,
+    "usage_rate": 0.0008,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 573,
+        "usage": 1.0
+      },
+      {
+        "id": 94,
+        "usage": 0.8
+      },
+      {
+        "id": 182,
+        "usage": 0.8
+      },
+      {
+        "id": 252,
+        "usage": 0.6
+      },
+      {
+        "id": 605,
+        "usage": 0.2
+      },
+      {
+        "id": 886,
+        "usage": 0.2
+      },
+      {
+        "id": 502,
+        "usage": 0.2
+      },
+      {
+        "id": 247,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.6
+      },
+      {
+        "id": 211,
+        "usage": 0.2
+      },
+      {
+        "id": 135,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 251,
+        "usage": 0.8
+      },
+      {
+        "id": 115,
+        "usage": 0.2
+      }
+    ],
+    "teammates": [
+      {
+        "id": 282,
+        "usage": 0.4
+      },
+      {
+        "id": 981,
+        "usage": 0.4
+      },
+      {
+        "id": 395,
+        "usage": 0.4
+      },
+      {
+        "id": 448,
+        "usage": 0.2
+      },
+      {
+        "id": 547,
+        "usage": 0.2
+      },
+      {
+        "id": 765,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

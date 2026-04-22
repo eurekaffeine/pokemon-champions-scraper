@@ -3,8 +3,8 @@
   "name": "Rotom-Mow",
   "form": null,
   "competitive": {
-    "usage_rank": 95,
-    "usage_rate": 0.0043,
+    "usage_rank": 96,
+    "usage_rate": 0.0042,
     "win_rate": null,
     "moves": [
       {
@@ -13,65 +13,65 @@
       },
       {
         "id": 521,
-        "usage": 0.8
+        "usage": 0.72
       },
       {
         "id": 85,
-        "usage": 0.53333
-      },
-      {
-        "id": 527,
-        "usage": 0.53333
+        "usage": 0.64
       },
       {
         "id": 261,
-        "usage": 0.4
+        "usage": 0.44
+      },
+      {
+        "id": 527,
+        "usage": 0.36
       },
       {
         "id": 182,
-        "usage": 0.2
-      },
-      {
-        "id": 435,
-        "usage": 0.13333
+        "usage": 0.32
       },
       {
         "id": 271,
-        "usage": 0.13333
+        "usage": 0.16
       },
       {
-        "id": 399,
-        "usage": 0.06667
+        "id": 435,
+        "usage": 0.08
       },
       {
-        "id": 86,
-        "usage": 0.06667
+        "id": 598,
+        "usage": 0.08
+      },
+      {
+        "id": 247,
+        "usage": 0.08
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 219,
-        "usage": 0.2
-      },
-      {
-        "id": 135,
-        "usage": 0.2
+        "usage": 0.36
       },
       {
         "id": 211,
-        "usage": 0.13333
+        "usage": 0.28
+      },
+      {
+        "id": 135,
+        "usage": 0.16
+      },
+      {
+        "id": 219,
+        "usage": 0.12
       },
       {
         "id": 252,
-        "usage": 0.06667
+        "usage": 0.04
       },
       {
         "id": 161,
-        "usage": 0.06667
+        "usage": 0.04
       }
     ],
     "abilities": [
@@ -83,26 +83,26 @@
     "teammates": [
       {
         "id": 727,
-        "usage": 0.46667000000000003
+        "usage": 0.48
       },
       {
         "id": 445,
-        "usage": 0.46667000000000003
-      },
-      {
-        "id": 547,
-        "usage": 0.4
-      },
-      {
-        "id": 903,
-        "usage": 0.4
+        "usage": 0.32
       },
       {
         "id": 248,
-        "usage": 0.33332999999999996
+        "usage": 0.32
       },
       {
-        "id": 823,
+        "id": 903,
+        "usage": 0.28
+      },
+      {
+        "id": 547,
+        "usage": 0.24
+      },
+      {
+        "id": 94,
         "usage": 0.2
       }
     ],

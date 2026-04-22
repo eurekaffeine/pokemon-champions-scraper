@@ -1,0 +1,100 @@
+{
+  "dex_id": 407,
+  "name": "Roserade",
+  "form": null,
+  "competitive": {
+    "usage_rank": 158,
+    "usage_rate": 0.0007000000000000001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 412,
+        "usage": 0.75
+      },
+      {
+        "id": 188,
+        "usage": 0.75
+      },
+      {
+        "id": 79,
+        "usage": 0.75
+      },
+      {
+        "id": 437,
+        "usage": 0.5
+      },
+      {
+        "id": 398,
+        "usage": 0.25
+      },
+      {
+        "id": 605,
+        "usage": 0.25
+      },
+      {
+        "id": 416,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.25
+      },
+      {
+        "id": 326,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "usage": 0.5
+      },
+      {
+        "id": 207,
+        "usage": 0.25
+      },
+      {
+        "id": 252,
+        "usage": 0.25
+      }
+    ],
+    "abilities": [
+      {
+        "id": 38,
+        "usage": 0.75
+      },
+      {
+        "id": 30,
+        "usage": 0.25
+      }
+    ],
+    "teammates": [
+      {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 248,
+        "usage": 0.25
+      },
+      {
+        "id": 212,
+        "usage": 0.25
+      },
+      {
+        "id": 530,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

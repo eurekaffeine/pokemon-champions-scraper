@@ -1,0 +1,64 @@
+{
+  "dex_id": 1003,
+  "name": "Ting-Lu",
+  "form": null,
+  "competitive": {
+    "usage_rank": 206,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 707,
+        "usage": 1.0
+      },
+      {
+        "id": 808,
+        "usage": 1.0
+      },
+      {
+        "id": 90,
+        "usage": 1.0
+      },
+      {
+        "id": 446,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 683,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 284,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 10022,
+        "usage": 1.0
+      },
+      {
+        "id": 1000,
+        "usage": 1.0
+      },
+      {
+        "id": 472,
+        "usage": 1.0
+      },
+      {
+        "id": 888,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

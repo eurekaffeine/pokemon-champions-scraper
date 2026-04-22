@@ -3,103 +3,103 @@
   "name": "Lycanroc",
   "form": null,
   "competitive": {
-    "usage_rank": 86,
-    "usage_rate": 0.005699999999999999,
+    "usage_rank": 92,
+    "usage_rate": 0.004699999999999999,
     "win_rate": null,
     "moves": [
       {
-        "id": 157,
-        "usage": 0.85
+        "id": 182,
+        "usage": 0.78571
       },
       {
-        "id": 182,
-        "usage": 0.8
+        "id": 157,
+        "usage": 0.75
       },
       {
         "id": 709,
-        "usage": 0.7
+        "usage": 0.75
       },
       {
         "id": 370,
-        "usage": 0.4
+        "usage": 0.39286
       },
       {
         "id": 283,
-        "usage": 0.35
-      },
-      {
-        "id": 442,
-        "usage": 0.15
-      },
-      {
-        "id": 501,
-        "usage": 0.1
-      },
-      {
-        "id": 14,
-        "usage": 0.1
-      },
-      {
-        "id": 242,
-        "usage": 0.1
+        "usage": 0.28571
       },
       {
         "id": 706,
-        "usage": 0.1
+        "usage": 0.25
+      },
+      {
+        "id": 242,
+        "usage": 0.21428999999999998
+      },
+      {
+        "id": 442,
+        "usage": 0.10714
+      },
+      {
+        "id": 501,
+        "usage": 0.07143
+      },
+      {
+        "id": 14,
+        "usage": 0.07143
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.85
-      },
-      {
-        "id": 135,
-        "usage": 0.05
+        "usage": 0.82143
       },
       {
         "id": 215,
-        "usage": 0.05
+        "usage": 0.10714
+      },
+      {
+        "id": 135,
+        "usage": 0.03571
       }
     ],
     "abilities": [
       {
         "id": 146,
-        "usage": 0.65
+        "usage": 0.57143
       },
       {
         "id": 181,
-        "usage": 0.3
+        "usage": 0.39286
       },
       {
         "id": 51,
-        "usage": 0.05
+        "usage": 0.03571
       }
     ],
     "teammates": [
       {
         "id": 248,
-        "usage": 0.65
+        "usage": 0.57143
       },
       {
         "id": 727,
-        "usage": 0.55
-      },
-      {
-        "id": 1013,
-        "usage": 0.35
+        "usage": 0.5
       },
       {
         "id": 903,
-        "usage": 0.35
+        "usage": 0.32143
       },
       {
-        "id": 306,
-        "usage": 0.25
+        "id": 1013,
+        "usage": 0.28571
       },
       {
-        "id": 547,
-        "usage": 0.25
+        "id": 445,
+        "usage": 0.28571
+      },
+      {
+        "id": 154,
+        "usage": 0.17857
       }
     ],
     "tera_types": [],
