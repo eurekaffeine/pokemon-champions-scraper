@@ -10,7 +10,7 @@ sources:
     enabled: true
     base_url: "https://pikalytics.com/pokedex/champions"
   opgg:
-    enabled: true  # Now implemented
+    enabled: false  # Disabled: HTML scraping unreliable, distorts Pikalytics data via weighted merge
     base_url: "https://op.gg/pokemon-champions"
   game8:
     enabled: false  # TODO: implement

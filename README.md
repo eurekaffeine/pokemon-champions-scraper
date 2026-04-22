@@ -10,7 +10,7 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 
 ## Features
 
-- 📊 **187 Pokémon** scraped from Pikalytics (full meta coverage)
+- 📊 **211 Pokémon** scraped from Pikalytics (full meta coverage)
 - 🔄 Weekly automated updates via GitHub Actions (Mondays 2 AM UTC)
 - 📱 JSON output optimized for mobile app consumption
 - 🏆 Complete competitive data: moves, items, abilities, teammates
@@ -21,7 +21,7 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 
 | Data Type | Count | Source |
 |-----------|-------|--------|
-| Pokémon | 187 | List API |
+| Pokémon | 211 | List API |
 | Moves per Pokémon | ~10 | AI Markdown |
 | Items per Pokémon | ~10 | AI Markdown |
 | Abilities per Pokémon | 3-5 | AI Markdown |
@@ -232,6 +232,17 @@ Some Pokémon have regional/mega forms with special IDs:
 | Rotom-Heat | Heat | 10010 |
 | Ninetales-Alola | Alola | 10104 |
 | Arcanine-Hisui | Hisui | 10229 |
+| Floette-Eternal | Eternal | 10296 |
+| Tauros-Paldea | Combat | 10250 |
+| Tauros-Paldea-Blaze | Blaze | 10251 |
+| Tauros-Paldea-Aqua | Aqua | 10252 |
+| Meowstic-F | Female | 10025 |
+| Basculegion-F | Female | 10248 |
+| Palafin-Hero | Hero | 10256 |
+| Calyrex-Shadow-Rider | Shadow | 10194 |
+| Mr-Rime | — | 866 |
+
+Form variants without separate asset files (e.g., Vivillon-High Plains, Tatsugiri-Droopy, Sinistcha-Masterpiece, Maushold-Four) map to their base form ID.
 
 These IDs match the Pokédex asset system used by Pocket-Gallery.
 

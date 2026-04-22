@@ -79,12 +79,16 @@ class NameResolver:
         # Try form variant aliases (Pikalytics uses different naming)
         form_aliases = {
             # Paldean Tauros forms
+            "tauros-paldea": "paldean-tauros-combat-breed",
             "tauros-paldea-combat": "paldean-tauros-combat-breed",
             "tauros-paldea-blaze": "paldean-tauros-blaze-breed",
             "tauros-paldea-aqua": "paldean-tauros-aqua-breed",
-            # Mr. Rime
+            # Mr. Rime / Mr. Mime
+            "mr-rime": "mr.-rime",
             "mr-rime": "mr.-rime",
             "mr rime": "mr.-rime",
+            "mr-mime": "mr.-mime",
+            "mr-mime-galar": "mr.-mime-galar",
             # Meowstic
             "meowstic-f": "meowstic-female",
             "meowstic-m": "meowstic-male",
@@ -92,6 +96,7 @@ class NameResolver:
             "calyrex-ice-rider": "calyrex-ice",
             "calyrex-shadow-rider": "calyrex-shadow",
             # Tatsugiri forms
+            # Tatsugiri forms → base form (variants don't have separate asset files)
             "tatsugiri-droopy": "tatsugiri",
             "tatsugiri-stretchy": "tatsugiri",
             "tatsugiri-curly": "tatsugiri",
@@ -101,6 +106,33 @@ class NameResolver:
             # Indeedee
             "indeedee-f": "indeedee-female",
             "indeedee-m": "indeedee-male",
+            # Floette
+            "floette-eternal": "megafloette",
+            # Sinistcha
+            "sinistcha-masterpiece": "sinistcha",
+            # Maushold
+            "maushold-four": "maushold",
+            "maushold-family-of-three": "maushold-family-of-three",
+            # Palafin
+            "palafin-hero": "palafin-hero-form",
+            # Vivillon forms → base form (variants don't have separate asset files)
+            "vivillon-high-plains": "vivillon",
+            "vivillon-garden": "vivillon",
+            "vivillon-polar": "vivillon",
+            "vivillon-tundra": "vivillon",
+            "vivillon-continental": "vivillon",
+            "vivillon-elegant": "vivillon",
+            "vivillon-icy-snow": "vivillon",
+            "vivillon-modern": "vivillon",
+            "vivillon-marine": "vivillon",
+            "vivillon-archipelago": "vivillon",
+            "vivillon-sandstorm": "vivillon",
+            "vivillon-river": "vivillon",
+            "vivillon-monsoon": "vivillon",
+            "vivillon-savanna": "vivillon",
+            "vivillon-sun": "vivillon",
+            "vivillon-ocean": "vivillon",
+            "vivillon-jungle": "vivillon",
         }
         
         alias = form_aliases.get(normalized)
