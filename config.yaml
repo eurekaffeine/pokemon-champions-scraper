@@ -10,10 +10,10 @@ sources:
     enabled: true
     base_url: "https://pikalytics.com/pokedex/champions"
   opgg:
-    enabled: false  # TODO: implement
+    enabled: false  # Disabled: HTML scraping unreliable, distorts Pikalytics data via weighted merge
     base_url: "https://op.gg/pokemon-champions"
   game8:
-    enabled: false  # Manual tier lists, less useful
+    enabled: false  # TODO: implement
     base_url: "https://game8.co/games/Pokemon-Champions"
 
 output:
@@ -24,3 +24,14 @@ output:
 
 schedule:
   cron: "0 2 * * *"  # Daily at 2 AM UTC
+
+# Telegram notifications (optional)
+telegram:
+  enabled: false
+  bot_token: ""  # Set via environment: TELEGRAM_BOT_TOKEN
+  chat_id: ""    # Set via environment: TELEGRAM_CHAT_ID
+
+# Logging
+logging:
+  level: INFO
+  json_format: false  # Set to true for production/structured logging

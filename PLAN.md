@@ -183,14 +183,14 @@ pokemon-champions-scraper/
 
 **Deliverable:** Working scraper that outputs `battle_meta.json`
 
-### Phase 2: Multi-Source & Robustness
+### Phase 2: Multi-Source & Robustness ✅
 
-| Task | Description | Est. Time |
-|------|-------------|-----------|
-| 2.1 | Implement OP.GG scraper | 2 hr |
-| 2.2 | Implement data merge logic (combine sources, resolve conflicts) | 1 hr |
-| 2.3 | Add retry logic, rate limiting, error handling | 1 hr |
-| 2.4 | Add logging and alerting (failed scrapes) | 30 min |
+| Task | Description | Est. Time | Status |
+|------|-------------|-----------|--------|
+| 2.1 | Implement OP.GG scraper | 2 hr | ✅ Done |
+| 2.2 | Implement data merge logic (combine sources, resolve conflicts) | 1 hr | ✅ Done |
+| 2.3 | Add retry logic, rate limiting, error handling | 1 hr | ✅ Done |
+| 2.4 | Add logging and alerting (failed scrapes) | 30 min | ✅ Done |
 
 ### Phase 3: Automation & Hosting
 
@@ -370,12 +370,13 @@ class BattleMetaRepository(
 ## Next Steps
 
 1. ✅ Create repo, add this plan
-2. ⬜ Set up project structure (Task 1.1)
-3. ⬜ Define Pydantic models (Task 1.2)
-4. ⬜ Implement Pikalytics scraper (Tasks 1.3–1.4)
-5. ⬜ Test and validate output
-6. ⬜ Set up GitHub Actions cron
+2. ✅ Set up project structure (Task 1.1)
+3. ✅ Define Pydantic models (Task 1.2)
+4. ✅ Implement Pikalytics scraper (Tasks 1.3–1.4)
+5. ✅ Phase 2 complete — multi-source, merge, circuit breaker
+6. ⬜ Set up GitHub Actions cron (Phase 3)
+7. ⬜ Mobile app integration (Phase 4)
 
 ---
 
-*Last updated: 2026-04-14*
+*Last updated: 2026-04-19*
