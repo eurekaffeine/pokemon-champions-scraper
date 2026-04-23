@@ -1,15 +1,99 @@
 {
   "dex_id": 666,
-  "name": "Vivillon-High Plains",
+  "name": "Vivillon",
   "form": null,
   "competitive": {
-    "usage_rank": 183,
-    "usage_rate": 0.0002,
+    "usage_rank": 71,
+    "usage_rate": 0.0077,
     "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
+    "moves": [
+      {
+        "id": 182,
+        "usage": 0.8913
+      },
+      {
+        "id": 79,
+        "usage": 0.8913
+      },
+      {
+        "id": 542,
+        "usage": 0.73913
+      },
+      {
+        "id": 476,
+        "usage": 0.7173900000000001
+      },
+      {
+        "id": 366,
+        "usage": 0.52174
+      },
+      {
+        "id": 676,
+        "usage": 0.19565000000000002
+      },
+      {
+        "id": 369,
+        "usage": 0.02174
+      },
+      {
+        "id": 403,
+        "usage": 0.02174
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.95652
+      },
+      {
+        "id": 190,
+        "usage": 0.02174
+      },
+      {
+        "id": 194,
+        "usage": 0.02174
+      }
+    ],
+    "abilities": [
+      {
+        "id": 14,
+        "usage": 0.82609
+      },
+      {
+        "id": 132,
+        "usage": 0.13043
+      },
+      {
+        "id": 19,
+        "usage": 0.04348
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 0.69565
+      },
+      {
+        "id": 94,
+        "usage": 0.39130000000000004
+      },
+      {
+        "id": 983,
+        "usage": 0.36957
+      },
+      {
+        "id": 186,
+        "usage": 0.34783000000000003
+      },
+      {
+        "id": 902,
+        "usage": 0.30435
+      },
+      {
+        "id": 903,
+        "usage": 0.28261
+      }
+    ],
     "tera_types": [],
     "spreads": []
   }

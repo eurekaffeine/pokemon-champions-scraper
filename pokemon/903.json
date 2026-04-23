@@ -4,7 +4,7 @@
   "form": null,
   "competitive": {
     "usage_rank": 2,
-    "usage_rate": 0.48350000000000004,
+    "usage_rate": 0.4836,
     "win_rate": null,
     "moves": [
       {
@@ -127,7 +127,7 @@
       },
       {
         "id": 1013,
-        "usage": 0.2807
+        "usage": 0.28174
       },
       {
         "id": 6,

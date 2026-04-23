@@ -3,7 +3,7 @@
   "name": "Espeon",
   "form": null,
   "competitive": {
-    "usage_rank": 148,
+    "usage_rank": 146,
     "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
@@ -70,6 +70,10 @@
     ],
     "teammates": [
       {
+        "id": 678,
+        "usage": 0.4
+      },
+      {
         "id": 701,
         "usage": 0.4
       },
@@ -88,10 +92,6 @@
       {
         "id": 442,
         "usage": 0.4
-      },
-      {
-        "id": 323,
-        "usage": 0.2
       }
     ],
     "tera_types": [],
