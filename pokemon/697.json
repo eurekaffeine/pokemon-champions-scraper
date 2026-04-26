@@ -3,115 +3,87 @@
   "name": "Tyrantrum",
   "form": null,
   "competitive": {
-    "usage_rank": 122,
-    "usage_rate": 0.0017000000000000001,
+    "usage_rank": 125,
+    "usage_rate": 0.0013,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
-        "usage": 0.7
+        "id": 457,
+        "usage": 1.0
       },
       {
-        "id": 457,
-        "usage": 0.6
+        "id": 182,
+        "usage": 1.0
       },
       {
         "id": 706,
         "usage": 0.5
       },
       {
-        "id": 157,
-        "usage": 0.3
+        "id": 349,
+        "usage": 0.5
       },
       {
-        "id": 349,
-        "usage": 0.3
+        "id": 89,
+        "usage": 0.25
+      },
+      {
+        "id": 32,
+        "usage": 0.25
       },
       {
         "id": 370,
-        "usage": 0.2
+        "usage": 0.25
       },
       {
-        "id": 799,
-        "usage": 0.1
-      },
-      {
-        "id": 242,
-        "usage": 0.1
-      },
-      {
-        "id": 583,
-        "usage": 0.1
-      },
-      {
-        "id": 337,
-        "usage": 0.1
+        "id": 667,
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.4
-      },
-      {
-        "id": 134,
-        "usage": 0.1
-      },
-      {
-        "id": 264,
-        "usage": 0.1
-      },
-      {
-        "id": 207,
-        "usage": 0.1
-      },
-      {
-        "id": 223,
-        "usage": 0.1
+        "usage": 0.5
       },
       {
         "id": 215,
-        "usage": 0.1
+        "usage": 0.25
       },
       {
         "id": 135,
-        "usage": 0.1
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
         "id": 69,
-        "usage": 0.6
-      },
-      {
-        "id": 173,
-        "usage": 0.4
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.3
+        "id": 445,
+        "usage": 0.75
       },
       {
-        "id": 248,
-        "usage": 0.3
+        "id": 6,
+        "usage": 0.5
       },
       {
         "id": 547,
-        "usage": 0.3
+        "usage": 0.5
       },
       {
-        "id": 445,
-        "usage": 0.3
+        "id": 707,
+        "usage": 0.25
       },
       {
-        "id": 903,
-        "usage": 0.2
+        "id": 715,
+        "usage": 0.25
       },
       {
-        "id": 142,
-        "usage": 0.2
+        "id": 450,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

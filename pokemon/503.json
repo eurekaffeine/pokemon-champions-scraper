@@ -1,60 +1,60 @@
 {
-  "dex_id": 10011,
-  "name": "Rotom-Fan",
+  "dex_id": 503,
+  "name": "Samurott",
   "form": null,
   "competitive": {
-    "usage_rank": 179,
-    "usage_rate": 0.0002,
+    "usage_rank": 175,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 403,
+        "id": 56,
         "usage": 1.0
       },
       {
-        "id": 85,
+        "id": 58,
         "usage": 1.0
       },
       {
-        "id": 261,
+        "id": 410,
         "usage": 1.0
       },
       {
-        "id": 104,
+        "id": 164,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 219,
+        "id": 191,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 26,
+        "id": 67,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 730,
+        "id": 6,
         "usage": 1.0
       },
       {
-        "id": 248,
+        "id": 858,
         "usage": 1.0
       },
       {
-        "id": 981,
+        "id": 208,
         "usage": 1.0
       },
       {
-        "id": 306,
+        "id": 94,
         "usage": 1.0
       },
       {
-        "id": 727,
+        "id": 149,
         "usage": 1.0
       }
     ],

@@ -3,13 +3,21 @@
   "name": "Cofagrigus",
   "form": null,
   "competitive": {
-    "usage_rank": 126,
-    "usage_rate": 0.0017000000000000001,
+    "usage_rank": 118,
+    "usage_rate": 0.0016,
     "win_rate": null,
     "moves": [
       {
         "id": 433,
         "usage": 1.0
+      },
+      {
+        "id": 261,
+        "usage": 0.8
+      },
+      {
+        "id": 502,
+        "usage": 0.6
       },
       {
         "id": 247,
@@ -20,46 +28,18 @@
         "usage": 0.6
       },
       {
-        "id": 261,
-        "usage": 0.5
+        "id": 506,
+        "usage": 0.2
       },
       {
-        "id": 50,
-        "usage": 0.3
-      },
-      {
-        "id": 421,
-        "usage": 0.3
-      },
-      {
-        "id": 502,
-        "usage": 0.3
-      },
-      {
-        "id": 286,
-        "usage": 0.1
-      },
-      {
-        "id": 241,
-        "usage": 0.1
+        "id": 334,
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.4
-      },
-      {
-        "id": 175,
-        "usage": 0.4
-      },
-      {
-        "id": 134,
-        "usage": 0.1
-      },
-      {
-        "id": 196,
-        "usage": 0.1
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -70,28 +50,28 @@
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.5
+        "id": 740,
+        "usage": 0.8
       },
       {
         "id": 983,
-        "usage": 0.3
+        "usage": 0.6
       },
       {
-        "id": 715,
-        "usage": 0.3
+        "id": 727,
+        "usage": 0.6
       },
       {
-        "id": 154,
-        "usage": 0.3
+        "id": 10104,
+        "usage": 0.4
       },
       {
-        "id": 395,
-        "usage": 0.3
+        "id": 65,
+        "usage": 0.4
       },
       {
-        "id": 473,
-        "usage": 0.3
+        "id": 149,
+        "usage": 0.4
       }
     ],
     "tera_types": [],

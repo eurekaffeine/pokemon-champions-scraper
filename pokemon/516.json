@@ -1,44 +1,52 @@
 {
-  "dex_id": 587,
-  "name": "Emolga",
+  "dex_id": 516,
+  "name": "Simipour",
   "form": null,
   "competitive": {
-    "usage_rank": 173,
-    "usage_rate": 0.0002,
+    "usage_rank": 172,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 270,
+        "id": 503,
         "usage": 1.0
       },
       {
-        "id": 521,
+        "id": 812,
         "usage": 1.0
       },
       {
-        "id": 435,
+        "id": 196,
         "usage": 1.0
       },
       {
-        "id": 609,
+        "id": 252,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 135,
+        "id": 220,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 9,
+        "id": 67,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 655,
+        "id": 154,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
         "usage": 1.0
       },
       {
@@ -47,14 +55,6 @@
       },
       {
         "id": 681,
-        "usage": 1.0
-      },
-      {
-        "id": 149,
-        "usage": 1.0
-      },
-      {
-        "id": 671,
         "usage": 1.0
       }
     ],

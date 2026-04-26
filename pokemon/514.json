@@ -3,87 +3,59 @@
   "name": "Simisear",
   "form": null,
   "competitive": {
-    "usage_rank": 168,
+    "usage_rank": 161,
     "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 53,
-        "usage": 0.5
-      },
-      {
-        "id": 242,
-        "usage": 0.5
-      },
-      {
-        "id": 417,
-        "usage": 0.5
-      },
-      {
-        "id": 263,
-        "usage": 0.5
-      },
-      {
         "id": 270,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 315,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 252,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 281,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 190,
-        "usage": 0.5
-      },
-      {
         "id": 252,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 82,
-        "usage": 0.5
-      },
-      {
         "id": 66,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 3,
-        "usage": 0.5
-      },
-      {
-        "id": 248,
-        "usage": 0.5
-      },
-      {
-        "id": 702,
-        "usage": 0.5
-      },
-      {
-        "id": 658,
-        "usage": 0.5
-      },
-      {
-        "id": 635,
-        "usage": 0.5
-      },
-      {
         "id": 10012,
-        "usage": 0.5
+        "usage": 1.0
+      },
+      {
+        "id": 395,
+        "usage": 1.0
+      },
+      {
+        "id": 130,
+        "usage": 1.0
+      },
+      {
+        "id": 334,
+        "usage": 1.0
+      },
+      {
+        "id": 10296,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

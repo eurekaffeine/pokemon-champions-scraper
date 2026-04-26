@@ -3,95 +3,91 @@
   "name": "Pikachu",
   "form": null,
   "competitive": {
-    "usage_rank": 94,
-    "usage_rate": 0.0042,
+    "usage_rank": 102,
+    "usage_rate": 0.0026,
     "win_rate": null,
     "moves": [
       {
         "id": 252,
-        "usage": 0.96
-      },
-      {
-        "id": 182,
-        "usage": 0.8
-      },
-      {
-        "id": 85,
-        "usage": 0.44
-      },
-      {
-        "id": 344,
-        "usage": 0.36
+        "usage": 1.0
       },
       {
         "id": 521,
-        "usage": 0.32
+        "usage": 0.75
       },
       {
-        "id": 227,
-        "usage": 0.24
+        "id": 182,
+        "usage": 0.75
       },
       {
         "id": 87,
-        "usage": 0.24
+        "usage": 0.5
       },
       {
-        "id": 609,
-        "usage": 0.24
+        "id": 85,
+        "usage": 0.25
+      },
+      {
+        "id": 344,
+        "usage": 0.25
       },
       {
         "id": 57,
-        "usage": 0.12
+        "usage": 0.125
       },
       {
-        "id": 282,
-        "usage": 0.08
+        "id": 240,
+        "usage": 0.125
+      },
+      {
+        "id": 609,
+        "usage": 0.125
+      },
+      {
+        "id": 364,
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 213,
-        "usage": 0.96
+        "usage": 0.875
       },
       {
         "id": 252,
-        "usage": 0.04
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 31,
-        "usage": 0.92
-      },
-      {
-        "id": 9,
-        "usage": 0.08
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.44
-      },
-      {
-        "id": 663,
-        "usage": 0.36
-      },
-      {
-        "id": 94,
-        "usage": 0.36
+        "id": 9,
+        "usage": 0.5
       },
       {
         "id": 279,
-        "usage": 0.32
-      },
-      {
-        "id": 902,
-        "usage": 0.32
+        "usage": 0.375
       },
       {
         "id": 727,
-        "usage": 0.32
+        "usage": 0.375
+      },
+      {
+        "id": 902,
+        "usage": 0.25
+      },
+      {
+        "id": 663,
+        "usage": 0.25
+      },
+      {
+        "id": 937,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

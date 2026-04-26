@@ -3,8 +3,8 @@
   "name": "Sharpedo",
   "form": null,
   "competitive": {
-    "usage_rank": 134,
-    "usage_rate": 0.0013,
+    "usage_rank": 104,
+    "usage_rate": 0.0026,
     "win_rate": null,
     "moves": [
       {
@@ -12,46 +12,46 @@
         "usage": 1.0
       },
       {
+        "id": 182,
+        "usage": 0.875
+      },
+      {
         "id": 710,
+        "usage": 0.75
+      },
+      {
+        "id": 706,
         "usage": 0.5
       },
       {
         "id": 127,
-        "usage": 0.5
-      },
-      {
-        "id": 182,
-        "usage": 0.5
-      },
-      {
-        "id": 240,
-        "usage": 0.375
-      },
-      {
-        "id": 269,
-        "usage": 0.375
+        "usage": 0.25
       },
       {
         "id": 423,
         "usage": 0.25
       },
       {
-        "id": 706,
-        "usage": 0.25
-      },
-      {
-        "id": 305,
+        "id": 453,
         "usage": 0.125
       },
       {
-        "id": 453,
+        "id": 370,
+        "usage": 0.125
+      },
+      {
+        "id": 305,
         "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 800,
-        "usage": 1.0
+        "usage": 0.875
+      },
+      {
+        "id": 252,
+        "usage": 0.125
       }
     ],
     "abilities": [
@@ -66,27 +66,27 @@
     ],
     "teammates": [
       {
-        "id": 461,
-        "usage": 0.5
-      },
-      {
-        "id": 302,
+        "id": 903,
         "usage": 0.375
-      },
-      {
-        "id": 197,
-        "usage": 0.375
-      },
-      {
-        "id": 635,
-        "usage": 0.375
-      },
-      {
-        "id": 727,
-        "usage": 0.25
       },
       {
         "id": 279,
+        "usage": 0.25
+      },
+      {
+        "id": 1013,
+        "usage": 0.25
+      },
+      {
+        "id": 149,
+        "usage": 0.25
+      },
+      {
+        "id": 10008,
+        "usage": 0.25
+      },
+      {
+        "id": 1018,
         "usage": 0.25
       }
     ],

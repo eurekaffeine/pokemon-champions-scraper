@@ -3,99 +3,83 @@
   "name": "Hippowdon",
   "form": null,
   "competitive": {
-    "usage_rank": 148,
-    "usage_rate": 0.0008,
+    "usage_rank": 151,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.8
-      },
-      {
-        "id": 157,
-        "usage": 0.6
+        "usage": 0.5
       },
       {
         "id": 281,
-        "usage": 0.4
-      },
-      {
-        "id": 667,
-        "usage": 0.4
-      },
-      {
-        "id": 707,
-        "usage": 0.4
-      },
-      {
-        "id": 328,
-        "usage": 0.2
-      },
-      {
-        "id": 303,
-        "usage": 0.2
+        "usage": 0.5
       },
       {
         "id": 270,
-        "usage": 0.2
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.5
       },
       {
         "id": 156,
-        "usage": 0.2
+        "usage": 0.5
       },
       {
         "id": 484,
-        "usage": 0.2
+        "usage": 0.5
+      },
+      {
+        "id": 18,
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.4
-      },
-      {
-        "id": 214,
-        "usage": 0.4
+        "usage": 0.5
       },
       {
         "id": 211,
-        "usage": 0.2
+        "usage": 0.5
       }
     ],
     "abilities": [
       {
         "id": 45,
-        "usage": 0.6
-      },
-      {
-        "id": 159,
-        "usage": 0.4
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
+        "id": 697,
+        "usage": 0.5
+      },
+      {
         "id": 445,
-        "usage": 0.4
+        "usage": 0.5
       },
       {
-        "id": 460,
-        "usage": 0.4
+        "id": 707,
+        "usage": 0.5
       },
       {
-        "id": 981,
-        "usage": 0.4
+        "id": 6,
+        "usage": 0.5
       },
       {
-        "id": 730,
-        "usage": 0.4
+        "id": 715,
+        "usage": 0.5
       },
       {
-        "id": 248,
-        "usage": 0.4
-      },
-      {
-        "id": 934,
-        "usage": 0.2
+        "id": 970,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

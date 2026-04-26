@@ -3,127 +3,123 @@
   "name": "Ninetales-Alola",
   "form": null,
   "competitive": {
-    "usage_rank": 35,
-    "usage_rate": 0.038,
+    "usage_rank": 37,
+    "usage_rate": 0.0325,
     "win_rate": null,
     "moves": [
       {
         "id": 59,
-        "usage": 0.9292
+        "usage": 0.97
       },
       {
         "id": 182,
-        "usage": 0.78319
+        "usage": 0.73
       },
       {
         "id": 694,
-        "usage": 0.7035399999999999
+        "usage": 0.68
       },
       {
         "id": 573,
-        "usage": 0.34513
-      },
-      {
-        "id": 227,
-        "usage": 0.33628
+        "usage": 0.4
       },
       {
         "id": 585,
-        "usage": 0.33628
+        "usage": 0.39
+      },
+      {
+        "id": 227,
+        "usage": 0.36
       },
       {
         "id": 196,
-        "usage": 0.30973
+        "usage": 0.27
       },
       {
         "id": 50,
-        "usage": 0.07522000000000001
+        "usage": 0.07
       },
       {
         "id": 605,
-        "usage": 0.0708
+        "usage": 0.04
       },
       {
-        "id": 270,
-        "usage": 0.0354
+        "id": 58,
+        "usage": 0.01
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.57522
+        "usage": 0.58
       },
       {
         "id": 223,
-        "usage": 0.15044000000000002
-      },
-      {
-        "id": 161,
-        "usage": 0.0708
+        "usage": 0.17
       },
       {
         "id": 264,
-        "usage": 0.061950000000000005
+        "usage": 0.1
       },
       {
-        "id": 196,
-        "usage": 0.0354
+        "id": 161,
+        "usage": 0.06
       },
       {
-        "id": 211,
-        "usage": 0.02212
+        "id": 194,
+        "usage": 0.02
       },
       {
         "id": 135,
-        "usage": 0.02212
+        "usage": 0.02
       },
       {
         "id": 176,
-        "usage": 0.0177
+        "usage": 0.01
       },
       {
-        "id": 167,
-        "usage": 0.00885
+        "id": 207,
+        "usage": 0.01
       },
       {
-        "id": 191,
-        "usage": 0.00885
+        "id": 196,
+        "usage": 0.01
       }
     ],
     "abilities": [
       {
         "id": 117,
-        "usage": 0.9469
+        "usage": 0.94
       },
       {
         "id": 81,
-        "usage": 0.053099999999999994
+        "usage": 0.06
       }
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.50442
-      },
-      {
         "id": 903,
-        "usage": 0.4292
+        "usage": 0.43
       },
       {
-        "id": 1013,
-        "usage": 0.30973
+        "id": 727,
+        "usage": 0.38
       },
       {
         "id": 445,
-        "usage": 0.25221
+        "usage": 0.3
+      },
+      {
+        "id": 970,
+        "usage": 0.25
       },
       {
         "id": 983,
-        "usage": 0.23893999999999999
+        "usage": 0.25
       },
       {
         "id": 10009,
-        "usage": 0.22566
+        "usage": 0.22
       }
     ],
     "tera_types": [],

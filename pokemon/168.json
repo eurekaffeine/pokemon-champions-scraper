@@ -3,98 +3,78 @@
   "name": "Ariados",
   "form": null,
   "competitive": {
-    "usage_rank": 152,
-    "usage_rate": 0.0007000000000000001,
+    "usage_rank": 132,
+    "usage_rate": 0.0013,
     "win_rate": null,
     "moves": [
       {
-        "id": 390,
-        "usage": 0.5
-      },
-      {
-        "id": 440,
-        "usage": 0.5
-      },
-      {
         "id": 476,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
-        "id": 564,
-        "usage": 0.25
-      },
-      {
-        "id": 241,
-        "usage": 0.25
+        "id": 672,
+        "usage": 0.75
       },
       {
         "id": 141,
+        "usage": 0.75
+      },
+      {
+        "id": 182,
+        "usage": 0.75
+      },
+      {
+        "id": 522,
         "usage": 0.25
       },
       {
-        "id": 282,
+        "id": 81,
         "usage": 0.25
       },
       {
-        "id": 660,
-        "usage": 0.25
-      },
-      {
-        "id": 389,
-        "usage": 0.25
-      },
-      {
-        "id": 92,
+        "id": 390,
         "usage": 0.25
       }
     ],
     "items": [
       {
+        "id": 135,
+        "usage": 0.75
+      },
+      {
         "id": 190,
-        "usage": 0.5
-      },
-      {
-        "id": 211,
-        "usage": 0.25
-      },
-      {
-        "id": 252,
         "usage": 0.25
       }
     ],
     "abilities": [
       {
         "id": 15,
-        "usage": 0.5
-      },
-      {
-        "id": 97,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 780,
-        "usage": 0.5
+        "id": 727,
+        "usage": 1.0
       },
       {
-        "id": 724,
-        "usage": 0.25
+        "id": 902,
+        "usage": 1.0
       },
       {
-        "id": 475,
-        "usage": 0.25
+        "id": 115,
+        "usage": 0.75
       },
       {
-        "id": 319,
-        "usage": 0.25
+        "id": 681,
+        "usage": 0.75
       },
       {
-        "id": 936,
-        "usage": 0.25
+        "id": 186,
+        "usage": 0.75
       },
       {
-        "id": 479,
+        "id": 10296,
         "usage": 0.25
       }
     ],

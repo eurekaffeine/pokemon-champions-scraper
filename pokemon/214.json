@@ -3,7 +3,7 @@
   "name": "Heracross",
   "form": null,
   "competitive": {
-    "usage_rank": 132,
+    "usage_rank": 122,
     "usage_rate": 0.0013,
     "win_rate": null,
     "moves": [
@@ -13,88 +13,88 @@
       },
       {
         "id": 350,
-        "usage": 0.75
-      },
-      {
-        "id": 42,
         "usage": 0.5
       },
       {
-        "id": 182,
-        "usage": 0.375
-      },
-      {
         "id": 197,
-        "usage": 0.375
+        "usage": 0.5
       },
       {
-        "id": 331,
-        "usage": 0.375
+        "id": 42,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.25
       },
       {
         "id": 679,
-        "usage": 0.125
+        "usage": 0.25
       },
       {
         "id": 918,
-        "usage": 0.125
+        "usage": 0.25
+      },
+      {
+        "id": 331,
+        "usage": 0.25
       },
       {
         "id": 157,
-        "usage": 0.125
+        "usage": 0.25
       },
       {
         "id": 224,
-        "usage": 0.125
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 719,
-        "usage": 0.75
+        "usage": 0.5
       },
       {
         "id": 218,
-        "usage": 0.125
+        "usage": 0.25
       },
       {
         "id": 264,
-        "usage": 0.125
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
         "id": 153,
-        "usage": 0.875
+        "usage": 0.75
       },
       {
         "id": 62,
-        "usage": 0.125
+        "usage": 0.25
       }
     ],
     "teammates": [
-      {
-        "id": 727,
-        "usage": 0.75
-      },
       {
         "id": 547,
         "usage": 0.75
       },
       {
-        "id": 981,
-        "usage": 0.375
-      },
-      {
         "id": 6,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 1018,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
         "usage": 0.25
       },
       {
-        "id": 248,
-        "usage": 0.25
-      },
-      {
-        "id": 530,
+        "id": 925,
         "usage": 0.25
       }
     ],

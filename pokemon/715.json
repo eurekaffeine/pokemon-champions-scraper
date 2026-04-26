@@ -3,32 +3,28 @@
   "name": "Noivern",
   "form": null,
   "competitive": {
-    "usage_rank": 124,
-    "usage_rate": 0.0017000000000000001,
+    "usage_rank": 117,
+    "usage_rate": 0.0016,
     "win_rate": null,
     "moves": [
       {
-        "id": 434,
-        "usage": 0.9
+        "id": 366,
+        "usage": 1.0
       },
       {
-        "id": 366,
-        "usage": 0.9
+        "id": 434,
+        "usage": 0.8
       },
       {
         "id": 182,
-        "usage": 0.7
-      },
-      {
-        "id": 403,
-        "usage": 0.4
-      },
-      {
-        "id": 542,
-        "usage": 0.3
+        "usage": 0.8
       },
       {
         "id": 162,
+        "usage": 0.4
+      },
+      {
+        "id": 257,
         "usage": 0.2
       },
       {
@@ -36,39 +32,35 @@
         "usage": 0.2
       },
       {
-        "id": 432,
-        "usage": 0.1
+        "id": 542,
+        "usage": 0.2
       },
       {
-        "id": 369,
-        "usage": 0.1
+        "id": 403,
+        "usage": 0.2
       },
       {
-        "id": 257,
-        "usage": 0.1
+        "id": 399,
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 165,
-        "usage": 0.2
-      },
-      {
-        "id": 134,
-        "usage": 0.1
+        "usage": 0.4
       },
       {
         "id": 190,
-        "usage": 0.1
+        "usage": 0.2
       }
     ],
     "abilities": [
       {
-        "id": 151,
+        "id": 140,
         "usage": 0.6
       },
       {
@@ -76,34 +68,34 @@
         "usage": 0.2
       },
       {
-        "id": 140,
+        "id": 151,
         "usage": 0.2
       }
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.5
+        "id": 445,
+        "usage": 0.8
       },
       {
-        "id": 154,
+        "id": 6,
         "usage": 0.4
       },
       {
-        "id": 149,
-        "usage": 0.3
+        "id": 970,
+        "usage": 0.4
       },
       {
-        "id": 395,
-        "usage": 0.3
+        "id": 727,
+        "usage": 0.4
       },
       {
-        "id": 473,
-        "usage": 0.3
+        "id": 697,
+        "usage": 0.2
       },
       {
-        "id": 563,
-        "usage": 0.3
+        "id": 707,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

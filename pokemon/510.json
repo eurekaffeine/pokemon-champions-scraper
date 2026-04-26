@@ -3,8 +3,8 @@
   "name": "Liepard",
   "form": null,
   "competitive": {
-    "usage_rank": 175,
-    "usage_rate": 0.0002,
+    "usage_rank": 174,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
@@ -38,7 +38,7 @@
     ],
     "teammates": [
       {
-        "id": 279,
+        "id": 149,
         "usage": 1.0
       },
       {
@@ -46,11 +46,11 @@
         "usage": 1.0
       },
       {
-        "id": 149,
+        "id": 1018,
         "usage": 1.0
       },
       {
-        "id": 1018,
+        "id": 279,
         "usage": 1.0
       },
       {

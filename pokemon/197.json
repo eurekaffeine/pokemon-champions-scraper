@@ -3,102 +3,102 @@
   "name": "Umbreon",
   "form": null,
   "competitive": {
-    "usage_rank": 101,
-    "usage_rate": 0.0034000000000000002,
+    "usage_rank": 96,
+    "usage_rate": 0.0032,
     "win_rate": null,
     "moves": [
       {
         "id": 555,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 492,
         "usage": 0.6
       },
       {
-        "id": 236,
-        "usage": 0.45
-      },
-      {
         "id": 281,
-        "usage": 0.35
+        "usage": 0.5
       },
       {
-        "id": 92,
-        "usage": 0.3
-      },
-      {
-        "id": 182,
-        "usage": 0.25
-      },
-      {
-        "id": 269,
-        "usage": 0.25
+        "id": 236,
+        "usage": 0.4
       },
       {
         "id": 273,
+        "usage": 0.3
+      },
+      {
+        "id": 226,
         "usage": 0.2
+      },
+      {
+        "id": 270,
+        "usage": 0.2
+      },
+      {
+        "id": 182,
+        "usage": 0.2
+      },
+      {
+        "id": 269,
+        "usage": 0.1
       },
       {
         "id": 608,
-        "usage": 0.2
-      },
-      {
-        "id": 285,
-        "usage": 0.15
+        "usage": 0.1
       }
     ],
     "items": [
       {
-        "id": 211,
-        "usage": 0.6
-      },
-      {
         "id": 166,
-        "usage": 0.2
+        "usage": 0.4
       },
       {
-        "id": 196,
-        "usage": 0.15
+        "id": 211,
+        "usage": 0.4
       },
       {
         "id": 207,
-        "usage": 0.05
+        "usage": 0.1
+      },
+      {
+        "id": 135,
+        "usage": 0.1
       }
     ],
     "abilities": [
       {
         "id": 39,
-        "usage": 0.9
+        "usage": 0.8
       },
       {
         "id": 28,
-        "usage": 0.1
+        "usage": 0.2
       }
     ],
     "teammates": [
       {
-        "id": 302,
-        "usage": 0.45
+        "id": 94,
+        "usage": 0.4
       },
       {
-        "id": 727,
-        "usage": 0.35
+        "id": 903,
+        "usage": 0.4
+      },
+      {
+        "id": 302,
+        "usage": 0.3
       },
       {
         "id": 1013,
         "usage": 0.3
       },
       {
-        "id": 903,
-        "usage": 0.3
+        "id": 937,
+        "usage": 0.2
       },
       {
-        "id": 547,
-        "usage": 0.25
-      },
-      {
-        "id": 59,
+        "id": 25,
         "usage": 0.2
       }
     ],
