@@ -3,91 +3,99 @@
   "name": "Raichu-Alola",
   "form": null,
   "competitive": {
-    "usage_rank": 127,
-    "usage_rate": 0.0013,
+    "usage_rank": 151,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
-        "id": 797,
-        "usage": 0.5
-      },
-      {
-        "id": 411,
-        "usage": 0.5
-      },
-      {
         "id": 94,
-        "usage": 0.5
+        "usage": 0.44444
       },
       {
         "id": 252,
-        "usage": 0.5
+        "usage": 0.44444
       },
       {
         "id": 85,
-        "usage": 0.5
+        "usage": 0.44444
       },
       {
-        "id": 57,
-        "usage": 0.25
+        "id": 797,
+        "usage": 0.33332999999999996
       },
       {
         "id": 527,
-        "usage": 0.25
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 411,
+        "usage": 0.22222
       },
       {
         "id": 87,
-        "usage": 0.25
+        "usage": 0.22222
       },
       {
         "id": 683,
-        "usage": 0.25
+        "usage": 0.22222
       },
       {
         "id": 521,
-        "usage": 0.25
+        "usage": 0.22222
+      },
+      {
+        "id": 604,
+        "usage": 0.22222
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.75
+        "usage": 0.33332999999999996
       },
       {
         "id": 219,
-        "usage": 0.25
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 135,
+        "usage": 0.22222
+      },
+      {
+        "id": 194,
+        "usage": 0.11111
       }
     ],
     "abilities": [
       {
         "id": 207,
-        "usage": 0.75
+        "usage": 0.88889
       }
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.5
-      },
-      {
         "id": 730,
-        "usage": 0.5
+        "usage": 0.44444
       },
       {
-        "id": 350,
-        "usage": 0.25
+        "id": 727,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 6,
-        "usage": 0.25
+        "id": 903,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 445,
-        "usage": 0.25
+        "id": 700,
+        "usage": 0.22222
       },
       {
-        "id": 902,
-        "usage": 0.25
+        "id": 547,
+        "usage": 0.22222
+      },
+      {
+        "id": 983,
+        "usage": 0.22222
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 10180,
+  "name": "Stunfisk-Galar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 201,
+    "usage_rate": 0.0001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 492,
+        "usage": 1.0
+      },
+      {
+        "id": 779,
+        "usage": 1.0
+      },
+      {
+        "id": 389,
+        "usage": 1.0
+      },
+      {
+        "id": 189,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 190,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 250,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 900,
+        "usage": 1.0
+      },
+      {
+        "id": 970,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 681,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

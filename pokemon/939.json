@@ -3,43 +3,71 @@
   "name": "Bellibolt",
   "form": null,
   "competitive": {
-    "usage_rank": 149,
-    "usage_rate": 0.0006,
+    "usage_rank": 115,
+    "usage_rate": 0.002,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.95
       },
       {
         "id": 570,
-        "usage": 1.0
-      },
-      {
-        "id": 521,
-        "usage": 0.5
-      },
-      {
-        "id": 389,
-        "usage": 0.5
+        "usage": 0.95
       },
       {
         "id": 487,
-        "usage": 0.5
+        "usage": 0.35
+      },
+      {
+        "id": 521,
+        "usage": 0.3
+      },
+      {
+        "id": 330,
+        "usage": 0.25
+      },
+      {
+        "id": 85,
+        "usage": 0.2
+      },
+      {
+        "id": 311,
+        "usage": 0.2
+      },
+      {
+        "id": 491,
+        "usage": 0.15
       },
       {
         "id": 113,
-        "usage": 0.5
+        "usage": 0.1
+      },
+      {
+        "id": 87,
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.5
+        "usage": 0.35
       },
       {
         "id": 211,
-        "usage": 0.5
+        "usage": 0.3
+      },
+      {
+        "id": 219,
+        "usage": 0.25
+      },
+      {
+        "id": 127,
+        "usage": 0.05
+      },
+      {
+        "id": 207,
+        "usage": 0.05
       }
     ],
     "abilities": [
@@ -50,28 +78,28 @@
     ],
     "teammates": [
       {
-        "id": 655,
-        "usage": 0.5
-      },
-      {
-        "id": 983,
-        "usage": 0.5
-      },
-      {
-        "id": 3,
-        "usage": 0.5
+        "id": 981,
+        "usage": 0.4
       },
       {
         "id": 903,
-        "usage": 0.5
+        "usage": 0.35
+      },
+      {
+        "id": 1013,
+        "usage": 0.35
+      },
+      {
+        "id": 445,
+        "usage": 0.3
       },
       {
         "id": 142,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "tera_types": [],

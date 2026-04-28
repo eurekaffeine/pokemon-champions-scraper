@@ -3,86 +3,106 @@
   "name": "Tyrantrum",
   "form": null,
   "competitive": {
-    "usage_rank": 125,
-    "usage_rate": 0.0013,
+    "usage_rank": 142,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
         "id": 457,
-        "usage": 1.0
+        "usage": 0.83333
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 370,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 157,
+        "usage": 0.33332999999999996
       },
       {
         "id": 706,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 349,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 89,
         "usage": 0.25
       },
       {
-        "id": 32,
-        "usage": 0.25
-      },
-      {
-        "id": 370,
-        "usage": 0.25
-      },
-      {
         "id": 667,
         "usage": 0.25
+      },
+      {
+        "id": 200,
+        "usage": 0.16667
+      },
+      {
+        "id": 32,
+        "usage": 0.08333
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       },
       {
         "id": 215,
-        "usage": 0.25
+        "usage": 0.16667
       },
       {
         "id": 135,
-        "usage": 0.25
+        "usage": 0.16667
+      },
+      {
+        "id": 264,
+        "usage": 0.16667
+      },
+      {
+        "id": 230,
+        "usage": 0.08333
       }
     ],
     "abilities": [
       {
         "id": 69,
-        "usage": 1.0
+        "usage": 0.83333
+      },
+      {
+        "id": 173,
+        "usage": 0.16667
       }
     ],
     "teammates": [
       {
         "id": 445,
-        "usage": 0.75
-      },
-      {
-        "id": 6,
-        "usage": 0.5
+        "usage": 0.41667000000000004
       },
       {
         "id": 547,
-        "usage": 0.5
+        "usage": 0.41667000000000004
       },
       {
-        "id": 707,
+        "id": 6,
         "usage": 0.25
       },
       {
-        "id": 715,
+        "id": 727,
         "usage": 0.25
       },
       {
-        "id": 450,
+        "id": 248,
+        "usage": 0.25
+      },
+      {
+        "id": 350,
         "usage": 0.25
       }
     ],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 512,
+  "name": "Simisage",
+  "form": null,
+  "competitive": {
+    "usage_rank": 202,
+    "usage_rate": 0.0001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 73,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 252,
+        "usage": 1.0
+      },
+      {
+        "id": 437,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 82,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 516,
+        "usage": 1.0
+      },
+      {
+        "id": 514,
+        "usage": 1.0
+      },
+      {
+        "id": 587,
+        "usage": 1.0
+      },
+      {
+        "id": 351,
+        "usage": 1.0
+      },
+      {
+        "id": 132,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

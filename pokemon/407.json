@@ -3,24 +3,24 @@
   "name": "Roserade",
   "form": null,
   "competitive": {
-    "usage_rank": 128,
-    "usage_rate": 0.0013,
+    "usage_rank": 155,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
-      {
-        "id": 437,
-        "usage": 1.0
-      },
       {
         "id": 188,
         "usage": 1.0
       },
       {
-        "id": 326,
-        "usage": 0.5
+        "id": 437,
+        "usage": 0.75
       },
       {
         "id": 79,
+        "usage": 0.625
+      },
+      {
+        "id": 326,
         "usage": 0.5
       },
       {
@@ -38,51 +38,59 @@
       {
         "id": 605,
         "usage": 0.25
+      },
+      {
+        "id": 80,
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.75
+        "usage": 0.5
       },
       {
         "id": 252,
-        "usage": 0.25
+        "usage": 0.375
+      },
+      {
+        "id": 216,
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 38,
-        "usage": 0.75
+        "usage": 0.625
       },
       {
         "id": 30,
-        "usage": 0.25
+        "usage": 0.375
       }
     ],
     "teammates": [
       {
-        "id": 902,
-        "usage": 0.5
-      },
-      {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.375
       },
       {
         "id": 445,
-        "usage": 0.5
+        "usage": 0.375
       },
       {
         "id": 428,
         "usage": 0.25
       },
       {
-        "id": 823,
+        "id": 902,
         "usage": 0.25
       },
       {
-        "id": 282,
+        "id": 142,
+        "usage": 0.25
+      },
+      {
+        "id": 350,
         "usage": 0.25
       }
     ],

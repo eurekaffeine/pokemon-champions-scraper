@@ -1,0 +1,64 @@
+{
+  "dex_id": 587,
+  "name": "Emolga",
+  "form": null,
+  "competitive": {
+    "usage_rank": 203,
+    "usage_rate": 0.0001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 609,
+        "usage": 1.0
+      },
+      {
+        "id": 521,
+        "usage": 1.0
+      },
+      {
+        "id": 403,
+        "usage": 1.0
+      },
+      {
+        "id": 227,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 172,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 78,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 516,
+        "usage": 1.0
+      },
+      {
+        "id": 512,
+        "usage": 1.0
+      },
+      {
+        "id": 514,
+        "usage": 1.0
+      },
+      {
+        "id": 351,
+        "usage": 1.0
+      },
+      {
+        "id": 132,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

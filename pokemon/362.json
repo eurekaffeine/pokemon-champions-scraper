@@ -1,0 +1,108 @@
+{
+  "dex_id": 362,
+  "name": "Glalie",
+  "form": null,
+  "competitive": {
+    "usage_rank": 181,
+    "usage_rate": 0.0004,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 556,
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
+      },
+      {
+        "id": 573,
+        "usage": 0.25
+      },
+      {
+        "id": 329,
+        "usage": 0.25
+      },
+      {
+        "id": 242,
+        "usage": 0.25
+      },
+      {
+        "id": 861,
+        "usage": 0.25
+      },
+      {
+        "id": 153,
+        "usage": 0.25
+      },
+      {
+        "id": 59,
+        "usage": 0.25
+      },
+      {
+        "id": 196,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 223,
+        "usage": 0.5
+      },
+      {
+        "id": 211,
+        "usage": 0.25
+      },
+      {
+        "id": 194,
+        "usage": 0.25
+      }
+    ],
+    "abilities": [
+      {
+        "id": 39,
+        "usage": 0.5
+      },
+      {
+        "id": 141,
+        "usage": 0.25
+      },
+      {
+        "id": 115,
+        "usage": 0.25
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 0.75
+      },
+      {
+        "id": 10009,
+        "usage": 0.75
+      },
+      {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
+        "id": 461,
+        "usage": 0.25
+      },
+      {
+        "id": 94,
+        "usage": 0.25
+      },
+      {
+        "id": 701,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

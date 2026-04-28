@@ -1,0 +1,80 @@
+{
+  "dex_id": 855,
+  "name": "Polteageist",
+  "form": null,
+  "competitive": {
+    "usage_rank": 192,
+    "usage_rate": 0.0002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 247,
+        "usage": 1.0
+      },
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 202,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 668,
+        "usage": 0.5
+      },
+      {
+        "id": 597,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
+        "id": 211,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 130,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 740,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 534,
+        "usage": 0.5
+      },
+      {
+        "id": 10165,
+        "usage": 0.5
+      },
+      {
+        "id": 248,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

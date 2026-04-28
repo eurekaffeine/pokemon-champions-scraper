@@ -1,0 +1,96 @@
+{
+  "dex_id": 409,
+  "name": "Rampardos",
+  "form": null,
+  "competitive": {
+    "usage_rank": 178,
+    "usage_rate": 0.0004,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 157,
+        "usage": 1.0
+      },
+      {
+        "id": 442,
+        "usage": 0.75
+      },
+      {
+        "id": 182,
+        "usage": 0.75
+      },
+      {
+        "id": 359,
+        "usage": 0.5
+      },
+      {
+        "id": 457,
+        "usage": 0.25
+      },
+      {
+        "id": 58,
+        "usage": 0.25
+      },
+      {
+        "id": 280,
+        "usage": 0.25
+      },
+      {
+        "id": 57,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 191,
+        "usage": 0.25
+      },
+      {
+        "id": 264,
+        "usage": 0.25
+      },
+      {
+        "id": 252,
+        "usage": 0.25
+      },
+      {
+        "id": 190,
+        "usage": 0.25
+      }
+    ],
+    "abilities": [
+      {
+        "id": 125,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 858,
+        "usage": 0.5
+      },
+      {
+        "id": 302,
+        "usage": 0.5
+      },
+      {
+        "id": 765,
+        "usage": 0.25
+      },
+      {
+        "id": 324,
+        "usage": 0.25
+      },
+      {
+        "id": 323,
+        "usage": 0.25
+      },
+      {
+        "id": 925,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

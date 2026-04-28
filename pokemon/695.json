@@ -3,111 +3,127 @@
   "name": "Heliolisk",
   "form": null,
   "competitive": {
-    "usage_rank": 106,
-    "usage_rate": 0.0026,
+    "usage_rank": 87,
+    "usage_rate": 0.005,
     "win_rate": null,
     "moves": [
       {
+        "id": 85,
+        "usage": 0.68
+      },
+      {
         "id": 182,
-        "usage": 0.625
+        "usage": 0.5
       },
       {
         "id": 527,
-        "usage": 0.5
-      },
-      {
-        "id": 85,
-        "usage": 0.5
-      },
-      {
-        "id": 87,
-        "usage": 0.375
-      },
-      {
-        "id": 137,
-        "usage": 0.375
-      },
-      {
-        "id": 880,
-        "usage": 0.375
+        "usage": 0.48
       },
       {
         "id": 521,
-        "usage": 0.25
+        "usage": 0.46
       },
       {
-        "id": 399,
-        "usage": 0.25
+        "id": 880,
+        "usage": 0.46
+      },
+      {
+        "id": 87,
+        "usage": 0.26
       },
       {
         "id": 304,
-        "usage": 0.125
+        "usage": 0.24
       },
       {
-        "id": 502,
-        "usage": 0.125
+        "id": 311,
+        "usage": 0.2
+      },
+      {
+        "id": 598,
+        "usage": 0.14
+      },
+      {
+        "id": 406,
+        "usage": 0.12
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.25
-      },
-      {
-        "id": 211,
-        "usage": 0.25
-      },
-      {
-        "id": 252,
-        "usage": 0.25
-      },
-      {
-        "id": 15,
-        "usage": 0.125
+        "usage": 0.38
       },
       {
         "id": 219,
-        "usage": 0.125
+        "usage": 0.2
+      },
+      {
+        "id": 252,
+        "usage": 0.16
+      },
+      {
+        "id": 135,
+        "usage": 0.1
+      },
+      {
+        "id": 168,
+        "usage": 0.06
+      },
+      {
+        "id": 211,
+        "usage": 0.04
+      },
+      {
+        "id": 15,
+        "usage": 0.02
+      },
+      {
+        "id": 166,
+        "usage": 0.02
+      },
+      {
+        "id": 228,
+        "usage": 0.02
       }
     ],
     "abilities": [
       {
         "id": 87,
-        "usage": 0.75
+        "usage": 0.76
       },
       {
         "id": 94,
-        "usage": 0.125
+        "usage": 0.22
       },
       {
         "id": 8,
-        "usage": 0.125
+        "usage": 0.02
       }
     ],
     "teammates": [
       {
-        "id": 1013,
-        "usage": 0.5
+        "id": 903,
+        "usage": 0.36
       },
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.32
       },
       {
-        "id": 282,
-        "usage": 0.25
+        "id": 1013,
+        "usage": 0.26
       },
       {
-        "id": 279,
-        "usage": 0.25
+        "id": 142,
+        "usage": 0.24
       },
       {
-        "id": 903,
-        "usage": 0.25
+        "id": 445,
+        "usage": 0.22
       },
       {
-        "id": 184,
-        "usage": 0.25
+        "id": 212,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

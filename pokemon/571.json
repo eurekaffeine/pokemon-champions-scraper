@@ -3,47 +3,67 @@
   "name": "Zoroark",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
-    "usage_rate": 0.0006,
+    "usage_rank": 159,
+    "usage_rate": 0.0007000000000000001,
     "win_rate": null,
     "moves": [
       {
-        "id": 53,
-        "usage": 1.0
+        "id": 182,
+        "usage": 0.57143
       },
       {
         "id": 399,
-        "usage": 0.5
+        "usage": 0.42857
       },
       {
         "id": 94,
-        "usage": 0.5
+        "usage": 0.42857
       },
       {
-        "id": 182,
-        "usage": 0.5
+        "id": 53,
+        "usage": 0.42857
       },
       {
         "id": 539,
-        "usage": 0.5
-      },
-      {
-        "id": 68,
-        "usage": 0.5
+        "usage": 0.42857
       },
       {
         "id": 188,
-        "usage": 0.5
+        "usage": 0.42857
+      },
+      {
+        "id": 269,
+        "usage": 0.28571
+      },
+      {
+        "id": 68,
+        "usage": 0.14286
+      },
+      {
+        "id": 411,
+        "usage": 0.14286
+      },
+      {
+        "id": 227,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 194,
-        "usage": 0.5
+        "usage": 0.28571
       },
       {
         "id": 217,
-        "usage": 0.5
+        "usage": 0.28571
+      },
+      {
+        "id": 252,
+        "usage": 0.28571
+      },
+      {
+        "id": 264,
+        "usage": 0.14286
       }
     ],
     "abilities": [
@@ -54,28 +74,28 @@
     ],
     "teammates": [
       {
-        "id": 959,
-        "usage": 0.5
+        "id": 10009,
+        "usage": 0.42857
       },
       {
         "id": 149,
-        "usage": 0.5
-      },
-      {
-        "id": 279,
-        "usage": 0.5
+        "usage": 0.28571
       },
       {
         "id": 887,
-        "usage": 0.5
+        "usage": 0.28571
       },
       {
         "id": 778,
-        "usage": 0.5
+        "usage": 0.28571
       },
       {
-        "id": 6,
-        "usage": 0.5
+        "id": 445,
+        "usage": 0.28571
+      },
+      {
+        "id": 727,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

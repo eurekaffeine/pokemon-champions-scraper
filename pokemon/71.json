@@ -3,31 +3,75 @@
   "name": "Victreebel",
   "form": null,
   "competitive": {
-    "usage_rank": 162,
-    "usage_rate": 0.0003,
+    "usage_rank": 117,
+    "usage_rate": 0.002,
     "win_rate": null,
     "moves": [
       {
-        "id": 438,
-        "usage": 1.0
+        "id": 182,
+        "usage": 0.75
       },
       {
-        "id": 77,
-        "usage": 1.0
-      },
-      {
-        "id": 389,
-        "usage": 1.0
+        "id": 188,
+        "usage": 0.65
       },
       {
         "id": 668,
-        "usage": 1.0
+        "usage": 0.55
+      },
+      {
+        "id": 412,
+        "usage": 0.4
+      },
+      {
+        "id": 79,
+        "usage": 0.4
+      },
+      {
+        "id": 398,
+        "usage": 0.2
+      },
+      {
+        "id": 438,
+        "usage": 0.15
+      },
+      {
+        "id": 76,
+        "usage": 0.15
+      },
+      {
+        "id": 202,
+        "usage": 0.15
+      },
+      {
+        "id": 389,
+        "usage": 0.1
       }
     ],
     "items": [
       {
+        "id": 2560,
+        "usage": 0.65
+      },
+      {
+        "id": 252,
+        "usage": 0.1
+      },
+      {
+        "id": 211,
+        "usage": 0.1
+      },
+      {
         "id": 264,
-        "usage": 1.0
+        "usage": 0.05
+      },
+      {
+        "id": 161,
+        "usage": 0.05
+      },
+      {
+        "id": 190,
+        "usage": 0.05
       }
     ],
     "abilities": [
@@ -38,24 +82,28 @@
     ],
     "teammates": [
       {
-        "id": 1018,
-        "usage": 1.0
+        "id": 903,
+        "usage": 0.35
       },
       {
-        "id": 1013,
-        "usage": 1.0
+        "id": 6,
+        "usage": 0.25
+      },
+      {
+        "id": 142,
+        "usage": 0.25
       },
       {
         "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 149,
-        "usage": 1.0
+        "usage": 0.2
       },
       {
         "id": 727,
-        "usage": 1.0
+        "usage": 0.2
+      },
+      {
+        "id": 10008,
+        "usage": 0.2
       }
     ],
     "tera_types": [],
