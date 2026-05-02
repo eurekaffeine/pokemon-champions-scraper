@@ -106,8 +106,9 @@ class NameResolver:
             # Indeedee
             "indeedee-f": "indeedee-female",
             "indeedee-m": "indeedee-male",
-            # Floette
-            "floette-eternal": "megafloette",
+            # Floette — "Floette-Eternal" (Pikalytics) refers to the Eternal Flower
+            # form (dex_id 10061), NOT MegaFloette (dex_id 10296).
+            "floette-eternal": "floette-eternal-flower",
             # Sinistcha
             "sinistcha-masterpiece": "sinistcha",
             # Maushold
