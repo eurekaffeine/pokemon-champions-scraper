@@ -3,8 +3,8 @@
   "name": "Clawitzer",
   "form": null,
   "competitive": {
-    "usage_rank": 164,
-    "usage_rate": 0.0007000000000000001,
+    "usage_rank": 150,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
@@ -12,50 +12,54 @@
         "usage": 1.0
       },
       {
-        "id": 399,
-        "usage": 0.85714
+        "id": 396,
+        "usage": 0.875
       },
       {
-        "id": 396,
-        "usage": 0.85714
+        "id": 399,
+        "usage": 0.875
       },
       {
         "id": 182,
-        "usage": 0.57143
+        "usage": 0.5
       },
       {
         "id": 505,
-        "usage": 0.28571
+        "usage": 0.375
       },
       {
         "id": 406,
-        "usage": 0.28571
+        "usage": 0.25
       },
       {
         "id": 188,
-        "usage": 0.14286
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 220,
-        "usage": 0.42857
+        "usage": 0.375
+      },
+      {
+        "id": 218,
+        "usage": 0.125
       },
       {
         "id": 163,
-        "usage": 0.14286
+        "usage": 0.125
       },
       {
         "id": 211,
-        "usage": 0.14286
+        "usage": 0.125
       },
       {
         "id": 164,
-        "usage": 0.14286
+        "usage": 0.125
       },
       {
         "id": 194,
-        "usage": 0.14286
+        "usage": 0.125
       }
     ],
     "abilities": [
@@ -67,27 +71,27 @@
     "teammates": [
       {
         "id": 983,
-        "usage": 0.57143
-      },
-      {
-        "id": 740,
-        "usage": 0.42857
-      },
-      {
-        "id": 445,
-        "usage": 0.42857
-      },
-      {
-        "id": 780,
-        "usage": 0.28571
-      },
-      {
-        "id": 10172,
-        "usage": 0.28571
+        "usage": 0.5
       },
       {
         "id": 1013,
-        "usage": 0.28571
+        "usage": 0.375
+      },
+      {
+        "id": 445,
+        "usage": 0.375
+      },
+      {
+        "id": 740,
+        "usage": 0.375
+      },
+      {
+        "id": 981,
+        "usage": 0.25
+      },
+      {
+        "id": 727,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

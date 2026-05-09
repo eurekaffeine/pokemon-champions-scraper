@@ -3,25 +3,29 @@
   "name": "Garbodor",
   "form": null,
   "competitive": {
-    "usage_rank": 196,
-    "usage_rate": 0.0001,
+    "usage_rank": 167,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
+        "id": 256,
+        "usage": 0.8
+      },
+      {
         "id": 153,
-        "usage": 1.0
+        "usage": 0.2
       },
       {
         "id": 390,
-        "usage": 1.0
+        "usage": 0.2
       },
       {
         "id": 254,
-        "usage": 1.0
+        "usage": 0.2
       },
       {
         "id": 499,
-        "usage": 1.0
+        "usage": 0.2
       }
     ],
     "items": [
@@ -38,24 +42,28 @@
     ],
     "teammates": [
       {
+        "id": 132,
+        "usage": 0.8
+      },
+      {
+        "id": 778,
+        "usage": 0.8
+      },
+      {
+        "id": 911,
+        "usage": 0.8
+      },
+      {
+        "id": 10239,
+        "usage": 0.8
+      },
+      {
+        "id": 24,
+        "usage": 0.8
+      },
+      {
         "id": 530,
-        "usage": 1.0
-      },
-      {
-        "id": 248,
-        "usage": 1.0
-      },
-      {
-        "id": 727,
-        "usage": 1.0
-      },
-      {
-        "id": 497,
-        "usage": 1.0
-      },
-      {
-        "id": 282,
-        "usage": 1.0
+        "usage": 0.2
       }
     ],
     "tera_types": [],

@@ -3,8 +3,8 @@
   "name": "Liepard",
   "form": null,
   "competitive": {
-    "usage_rank": 172,
-    "usage_rate": 0.0005,
+    "usage_rank": 168,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
@@ -12,23 +12,23 @@
         "usage": 0.8
       },
       {
-        "id": 492,
-        "usage": 0.8
+        "id": 269,
+        "usage": 0.6
       },
       {
         "id": 227,
         "usage": 0.6
       },
       {
-        "id": 86,
-        "usage": 0.4
+        "id": 492,
+        "usage": 0.6
       },
       {
-        "id": 269,
-        "usage": 0.4
+        "id": 282,
+        "usage": 0.2
       },
       {
-        "id": 240,
+        "id": 182,
         "usage": 0.2
       },
       {
@@ -70,11 +70,7 @@
         "usage": 0.6
       },
       {
-        "id": 149,
-        "usage": 0.4
-      },
-      {
-        "id": 902,
+        "id": 727,
         "usage": 0.4
       },
       {
@@ -86,7 +82,11 @@
         "usage": 0.4
       },
       {
-        "id": 1018,
+        "id": 65,
+        "usage": 0.2
+      },
+      {
+        "id": 887,
         "usage": 0.2
       }
     ],

@@ -3,49 +3,41 @@
   "name": "Houndoom",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
+    "usage_rank": 154,
     "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
+        "id": 399,
+        "usage": 1.0
+      },
+      {
         "id": 257,
-        "usage": 0.875
+        "usage": 0.85714
       },
       {
         "id": 182,
-        "usage": 0.875
-      },
-      {
-        "id": 399,
-        "usage": 0.625
-      },
-      {
-        "id": 555,
-        "usage": 0.375
+        "usage": 0.85714
       },
       {
         "id": 417,
-        "usage": 0.375
-      },
-      {
-        "id": 76,
-        "usage": 0.25
+        "usage": 0.57143
       },
       {
         "id": 815,
-        "usage": 0.25
+        "usage": 0.28571
       },
       {
-        "id": 389,
-        "usage": 0.125
+        "id": 555,
+        "usage": 0.14286
       },
       {
         "id": 188,
-        "usage": 0.125
+        "usage": 0.14286
       },
       {
         "id": 53,
-        "usage": 0.125
+        "usage": 0.14286
       }
     ],
     "items": [
@@ -57,37 +49,41 @@
     "abilities": [
       {
         "id": 18,
-        "usage": 0.875
+        "usage": 0.57143
       },
       {
-        "id": 94,
-        "usage": 0.125
+        "id": 127,
+        "usage": 0.28571
+      },
+      {
+        "id": 48,
+        "usage": 0.14286
       }
     ],
     "teammates": [
       {
         "id": 547,
-        "usage": 0.625
+        "usage": 0.85714
       },
       {
-        "id": 663,
-        "usage": 0.375
+        "id": 903,
+        "usage": 0.57143
       },
       {
-        "id": 983,
-        "usage": 0.375
+        "id": 324,
+        "usage": 0.42857
       },
       {
-        "id": 1013,
-        "usage": 0.375
+        "id": 3,
+        "usage": 0.28571
       },
       {
-        "id": 302,
-        "usage": 0.25
+        "id": 727,
+        "usage": 0.28571
       },
       {
-        "id": 763,
-        "usage": 0.25
+        "id": 981,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

@@ -3,8 +3,8 @@
   "name": "Pinsir",
   "form": null,
   "competitive": {
-    "usage_rank": 173,
-    "usage_rate": 0.0005,
+    "usage_rank": 175,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
@@ -54,10 +54,6 @@
     ],
     "teammates": [
       {
-        "id": 279,
-        "usage": 0.4
-      },
-      {
         "id": 902,
         "usage": 0.4
       },
@@ -66,15 +62,19 @@
         "usage": 0.4
       },
       {
-        "id": 983,
+        "id": 279,
+        "usage": 0.4
+      },
+      {
+        "id": 448,
         "usage": 0.2
       },
       {
-        "id": 445,
+        "id": 186,
         "usage": 0.2
       },
       {
-        "id": 730,
+        "id": 142,
         "usage": 0.2
       }
     ],

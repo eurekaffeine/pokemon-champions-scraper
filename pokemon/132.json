@@ -3,8 +3,8 @@
   "name": "Ditto",
   "form": null,
   "competitive": {
-    "usage_rank": 132,
-    "usage_rate": 0.0015,
+    "usage_rank": 116,
+    "usage_rate": 0.0023,
     "win_rate": null,
     "moves": [
       {
@@ -15,66 +15,62 @@
     "items": [
       {
         "id": 264,
-        "usage": 0.33332999999999996
+        "usage": 0.5
       },
       {
         "id": 252,
-        "usage": 0.26667
+        "usage": 0.25
       },
       {
         "id": 194,
-        "usage": 0.13333
-      },
-      {
-        "id": 134,
-        "usage": 0.06667
+        "usage": 0.1
       },
       {
         "id": 211,
-        "usage": 0.06667
+        "usage": 0.05
       },
       {
         "id": 190,
-        "usage": 0.06667
+        "usage": 0.05
       },
       {
         "id": 135,
-        "usage": 0.06667
+        "usage": 0.05
       }
     ],
     "abilities": [
       {
         "id": 150,
-        "usage": 0.93333
+        "usage": 0.75
       },
       {
         "id": 7,
-        "usage": 0.06667
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
-        "id": 902,
-        "usage": 0.33332999999999996
-      },
-      {
         "id": 279,
-        "usage": 0.33332999999999996
+        "usage": 0.3
       },
       {
-        "id": 727,
-        "usage": 0.26667
+        "id": 778,
+        "usage": 0.25
       },
       {
-        "id": 547,
+        "id": 10239,
+        "usage": 0.25
+      },
+      {
+        "id": 569,
         "usage": 0.2
       },
       {
-        "id": 1018,
+        "id": 911,
         "usage": 0.2
       },
       {
-        "id": 983,
+        "id": 24,
         "usage": 0.2
       }
     ],

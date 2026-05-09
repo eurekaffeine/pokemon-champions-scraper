@@ -3,59 +3,79 @@
   "name": "Simisage",
   "form": null,
   "competitive": {
-    "usage_rank": 202,
-    "usage_rate": 0.0001,
+    "usage_rank": 190,
+    "usage_rate": 0.0002,
     "win_rate": null,
     "moves": [
-      {
-        "id": 73,
-        "usage": 1.0
-      },
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 252,
         "usage": 1.0
       },
       {
+        "id": 331,
+        "usage": 0.5
+      },
+      {
+        "id": 269,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.5
+      },
+      {
+        "id": 73,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
         "id": 437,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
       {
+        "id": 65,
+        "usage": 0.5
+      },
+      {
         "id": 82,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "teammates": [
       {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 248,
+        "usage": 0.5
+      },
+      {
+        "id": 970,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 142,
+        "usage": 0.5
+      },
+      {
         "id": 516,
-        "usage": 1.0
-      },
-      {
-        "id": 514,
-        "usage": 1.0
-      },
-      {
-        "id": 587,
-        "usage": 1.0
-      },
-      {
-        "id": 351,
-        "usage": 1.0
-      },
-      {
-        "id": 132,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

@@ -3,131 +3,127 @@
   "name": "Drampa",
   "form": null,
   "competitive": {
-    "usage_rank": 66,
-    "usage_rate": 0.0098,
+    "usage_rank": 63,
+    "usage_rate": 0.0116,
     "win_rate": null,
     "moves": [
       {
-        "id": 304,
-        "usage": 0.86869
-      },
-      {
         "id": 182,
-        "usage": 0.81818
+        "usage": 0.89
       },
       {
-        "id": 434,
-        "usage": 0.46465
+        "id": 304,
+        "usage": 0.87
       },
       {
         "id": 414,
-        "usage": 0.39393999999999996
+        "usage": 0.45
+      },
+      {
+        "id": 434,
+        "usage": 0.44
       },
       {
         "id": 406,
-        "usage": 0.38384
+        "usage": 0.36
       },
       {
         "id": 85,
-        "usage": 0.30303
+        "usage": 0.25
       },
       {
         "id": 347,
-        "usage": 0.18181999999999998
-      },
-      {
-        "id": 257,
-        "usage": 0.14141
+        "usage": 0.18
       },
       {
         "id": 53,
-        "usage": 0.13131
+        "usage": 0.17
+      },
+      {
+        "id": 257,
+        "usage": 0.09
       },
       {
         "id": 355,
-        "usage": 0.06061
+        "usage": 0.07
       }
     ],
     "items": [
       {
         "id": 2585,
-        "usage": 0.7878799999999999
+        "usage": 0.83
       },
       {
         "id": 166,
-        "usage": 0.0404
-      },
-      {
-        "id": 194,
-        "usage": 0.030299999999999997
+        "usage": 0.06
       },
       {
         "id": 228,
-        "usage": 0.0202
+        "usage": 0.03
       },
       {
         "id": 252,
-        "usage": 0.0202
+        "usage": 0.02
+      },
+      {
+        "id": 194,
+        "usage": 0.02
       },
       {
         "id": 191,
-        "usage": 0.0202
-      },
-      {
-        "id": 211,
-        "usage": 0.0202
+        "usage": 0.01
       },
       {
         "id": 190,
-        "usage": 0.0202
+        "usage": 0.01
       },
       {
-        "id": 247,
-        "usage": 0.0101
+        "id": 174,
+        "usage": 0.01
       },
       {
-        "id": 230,
-        "usage": 0.0101
+        "id": 211,
+        "usage": 0.01
       }
     ],
     "abilities": [
       {
         "id": 13,
-        "usage": 0.64646
+        "usage": 0.69
       },
       {
         "id": 201,
-        "usage": 0.31312999999999996
+        "usage": 0.27
       },
       {
         "id": 157,
-        "usage": 0.0404
+        "usage": 0.04
       }
     ],
     "teammates": [
       {
         "id": 981,
-        "usage": 0.46465
-      },
-      {
-        "id": 1013,
-        "usage": 0.39393999999999996
+        "usage": 0.46
       },
       {
         "id": 727,
-        "usage": 0.37374
+        "usage": 0.39
       },
       {
         "id": 983,
-        "usage": 0.30303
+        "usage": 0.34
+      },
+      {
+        "id": 1013,
+        "usage": 0.33
       },
       {
         "id": 324,
-        "usage": 0.27273
+        "usage": 0.27
       },
       {
         "id": 903,
-        "usage": 0.25253
+        "usage": 0.27
       }
     ],
     "tera_types": [],

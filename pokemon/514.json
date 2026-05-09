@@ -3,8 +3,8 @@
   "name": "Simisear",
   "form": null,
   "competitive": {
-    "usage_rank": 189,
-    "usage_rate": 0.0002,
+    "usage_rank": 200,
+    "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
@@ -12,38 +12,22 @@
         "usage": 1.0
       },
       {
-        "id": 270,
-        "usage": 0.5
-      },
-      {
-        "id": 315,
-        "usage": 0.5
-      },
-      {
-        "id": 281,
-        "usage": 0.5
-      },
-      {
         "id": 394,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 157,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 252,
-        "usage": 0.5
-      },
-      {
         "id": 191,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -54,28 +38,24 @@
     ],
     "teammates": [
       {
-        "id": 10012,
-        "usage": 0.5
-      },
-      {
-        "id": 395,
-        "usage": 0.5
-      },
-      {
-        "id": 130,
-        "usage": 0.5
-      },
-      {
-        "id": 334,
-        "usage": 0.5
-      },
-      {
-        "id": 10061,
-        "usage": 0.5
-      },
-      {
         "id": 516,
-        "usage": 0.5
+        "usage": 1.0
+      },
+      {
+        "id": 512,
+        "usage": 1.0
+      },
+      {
+        "id": 587,
+        "usage": 1.0
+      },
+      {
+        "id": 351,
+        "usage": 1.0
+      },
+      {
+        "id": 132,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

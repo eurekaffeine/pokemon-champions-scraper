@@ -3,29 +3,33 @@
   "name": "Simipour",
   "form": null,
   "competitive": {
-    "usage_rank": 171,
-    "usage_rate": 0.0005,
+    "usage_rank": 174,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
-      {
-        "id": 503,
-        "usage": 1.0
-      },
       {
         "id": 252,
         "usage": 1.0
       },
       {
-        "id": 812,
-        "usage": 0.8
-      },
-      {
-        "id": 196,
-        "usage": 0.4
+        "id": 503,
+        "usage": 1.0
       },
       {
         "id": 58,
-        "usage": 0.4
+        "usage": 0.6
+      },
+      {
+        "id": 812,
+        "usage": 0.6
+      },
+      {
+        "id": 269,
+        "usage": 0.2
+      },
+      {
+        "id": 196,
+        "usage": 0.2
       },
       {
         "id": 270,
@@ -38,12 +42,12 @@
     ],
     "items": [
       {
-        "id": 220,
-        "usage": 0.4
+        "id": 252,
+        "usage": 0.6
       },
       {
-        "id": 252,
-        "usage": 0.4
+        "id": 220,
+        "usage": 0.2
       },
       {
         "id": 190,
@@ -58,27 +62,27 @@
     ],
     "teammates": [
       {
-        "id": 142,
-        "usage": 0.6
-      },
-      {
-        "id": 154,
-        "usage": 0.4
-      },
-      {
-        "id": 727,
-        "usage": 0.4
-      },
-      {
         "id": 445,
         "usage": 0.4
       },
       {
-        "id": 681,
+        "id": 142,
         "usage": 0.4
       },
       {
-        "id": 925,
+        "id": 10061,
+        "usage": 0.2
+      },
+      {
+        "id": 6,
+        "usage": 0.2
+      },
+      {
+        "id": 903,
+        "usage": 0.2
+      },
+      {
+        "id": 115,
         "usage": 0.2
       }
     ],
