@@ -3,55 +3,39 @@
   "name": "Chimecho",
   "form": null,
   "competitive": {
-    "usage_rank": 110,
-    "usage_rate": 0.0029,
+    "usage_rank": 132,
+    "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
       {
-        "id": 430,
-        "usage": 0.84
-      },
-      {
-        "id": 433,
-        "usage": 0.6
-      },
-      {
         "id": 182,
-        "usage": 0.56
+        "usage": 1.0
       },
       {
         "id": 94,
-        "usage": 0.4
+        "usage": 1.0
       },
       {
-        "id": 105,
-        "usage": 0.32
+        "id": 505,
+        "usage": 0.5
+      },
+      {
+        "id": 433,
+        "usage": 0.5
+      },
+      {
+        "id": 430,
+        "usage": 0.5
       },
       {
         "id": 347,
-        "usage": 0.24
-      },
-      {
-        "id": 473,
-        "usage": 0.2
-      },
-      {
-        "id": 500,
-        "usage": 0.2
-      },
-      {
-        "id": 322,
-        "usage": 0.16
-      },
-      {
-        "id": 605,
-        "usage": 0.12
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 2637,
-        "usage": 0.96
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -62,28 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.4
+        "id": 908,
+        "usage": 0.5
       },
       {
-        "id": 1013,
-        "usage": 0.4
+        "id": 752,
+        "usage": 0.5
       },
       {
-        "id": 248,
-        "usage": 0.28
-      },
-      {
-        "id": 903,
-        "usage": 0.28
-      },
-      {
-        "id": 445,
-        "usage": 0.24
+        "id": 1018,
+        "usage": 0.5
       },
       {
         "id": 279,
-        "usage": 0.2
+        "usage": 0.5
+      },
+      {
+        "id": 700,
+        "usage": 0.5
+      },
+      {
+        "id": 695,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

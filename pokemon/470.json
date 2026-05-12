@@ -3,8 +3,8 @@
   "name": "Leafeon",
   "form": null,
   "competitive": {
-    "usage_rank": 124,
-    "usage_rate": 0.0019,
+    "usage_rank": 161,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
@@ -12,98 +12,50 @@
         "usage": 1.0
       },
       {
-        "id": 197,
-        "usage": 0.625
-      },
-      {
-        "id": 282,
-        "usage": 0.5625
-      },
-      {
         "id": 240,
-        "usage": 0.375
-      },
-      {
-        "id": 182,
-        "usage": 0.375
+        "usage": 1.0
       },
       {
         "id": 313,
-        "usage": 0.3125
+        "usage": 1.0
       },
       {
-        "id": 669,
-        "usage": 0.1875
-      },
-      {
-        "id": 14,
-        "usage": 0.1875
-      },
-      {
-        "id": 281,
-        "usage": 0.125
-      },
-      {
-        "id": 404,
-        "usage": 0.125
+        "id": 197,
+        "usage": 1.0
       }
     ],
     "items": [
       {
         "id": 209,
-        "usage": 0.3125
-      },
-      {
-        "id": 216,
-        "usage": 0.3125
-      },
-      {
-        "id": 252,
-        "usage": 0.1875
-      },
-      {
-        "id": 211,
-        "usage": 0.125
-      },
-      {
-        "id": 135,
-        "usage": 0.0625
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 34,
-        "usage": 0.9375
-      },
-      {
-        "id": 102,
-        "usage": 0.0625
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 350,
-        "usage": 0.625
+        "id": 154,
+        "usage": 1.0
       },
       {
         "id": 1013,
-        "usage": 0.375
-      },
-      {
-        "id": 302,
-        "usage": 0.3125
-      },
-      {
-        "id": 154,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
         "id": 1018,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
-        "id": 445,
-        "usage": 0.25
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 302,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

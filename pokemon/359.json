@@ -3,8 +3,8 @@
   "name": "Absol",
   "form": null,
   "competitive": {
-    "usage_rank": 155,
-    "usage_rate": 0.0008,
+    "usage_rank": 157,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
@@ -12,82 +12,50 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.85714
-      },
-      {
-        "id": 400,
-        "usage": 0.57143
-      },
-      {
-        "id": 370,
-        "usage": 0.57143
-      },
-      {
         "id": 282,
-        "usage": 0.42857
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
       },
       {
         "id": 14,
-        "usage": 0.28571
-      },
-      {
-        "id": 427,
-        "usage": 0.14286
-      },
-      {
-        "id": 566,
-        "usage": 0.14286
+        "usage": 1.0
       }
     ],
     "items": [
       {
         "id": 716,
-        "usage": 0.57143
-      },
-      {
-        "id": 209,
-        "usage": 0.28571
-      },
-      {
-        "id": 252,
-        "usage": 0.14286
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 105,
-        "usage": 0.71429
-      },
-      {
-        "id": 154,
-        "usage": 0.28571
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 547,
-        "usage": 0.71429
+        "id": 392,
+        "usage": 1.0
       },
       {
         "id": 981,
-        "usage": 0.28571
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
       },
       {
         "id": 784,
-        "usage": 0.28571
+        "usage": 1.0
       },
       {
-        "id": 655,
-        "usage": 0.28571
-      },
-      {
-        "id": 445,
-        "usage": 0.28571
-      },
-      {
-        "id": 6,
-        "usage": 0.28571
+        "id": 983,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

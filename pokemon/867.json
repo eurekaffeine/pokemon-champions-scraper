@@ -3,63 +3,35 @@
   "name": "Runerigus",
   "form": null,
   "competitive": {
-    "usage_rank": 179,
-    "usage_rate": 0.0006,
+    "usage_rank": 121,
+    "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
       {
         "id": 433,
-        "usage": 0.6
+        "usage": 1.0
+      },
+      {
+        "id": 334,
+        "usage": 1.0
       },
       {
         "id": 776,
-        "usage": 0.6
+        "usage": 1.0
       },
       {
-        "id": 194,
-        "usage": 0.4
-      },
-      {
-        "id": 157,
-        "usage": 0.4
-      },
-      {
-        "id": 89,
-        "usage": 0.4
-      },
-      {
-        "id": 809,
-        "usage": 0.4
+        "id": 182,
+        "usage": 0.5
       },
       {
         "id": 261,
-        "usage": 0.2
-      },
-      {
-        "id": 109,
-        "usage": 0.2
-      },
-      {
-        "id": 471,
-        "usage": 0.2
-      },
-      {
-        "id": 566,
-        "usage": 0.2
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.4
-      },
-      {
-        "id": 135,
-        "usage": 0.2
-      },
-      {
-        "id": 215,
-        "usage": 0.2
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -70,28 +42,28 @@
     ],
     "teammates": [
       {
-        "id": 279,
-        "usage": 0.4
+        "id": 248,
+        "usage": 1.0
       },
       {
-        "id": 740,
-        "usage": 0.2
+        "id": 903,
+        "usage": 1.0
       },
       {
-        "id": 10172,
-        "usage": 0.2
+        "id": 983,
+        "usage": 1.0
       },
       {
         "id": 727,
-        "usage": 0.2
+        "usage": 1.0
       },
       {
-        "id": 699,
-        "usage": 0.2
+        "id": 10061,
+        "usage": 0.5
       },
       {
-        "id": 10244,
-        "usage": 0.2
+        "id": 1013,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

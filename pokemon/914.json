@@ -3,75 +3,39 @@
   "name": "Quaquaval",
   "form": null,
   "competitive": {
-    "usage_rank": 127,
+    "usage_rank": 134,
     "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
       {
-        "id": 370,
-        "usage": 0.93333
+        "id": 872,
+        "usage": 1.0
       },
       {
-        "id": 872,
-        "usage": 0.66667
+        "id": 370,
+        "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 0.4
-      },
-      {
-        "id": 834,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 197,
-        "usage": 0.26667
+        "usage": 1.0
       },
       {
         "id": 861,
-        "usage": 0.26667
+        "usage": 0.5
       },
       {
-        "id": 813,
-        "usage": 0.26667
-      },
-      {
-        "id": 812,
-        "usage": 0.2
-      },
-      {
-        "id": 227,
-        "usage": 0.13333
-      },
-      {
-        "id": 453,
-        "usage": 0.13333
+        "id": 834,
+        "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 220,
-        "usage": 0.26667
-      },
-      {
-        "id": 191,
-        "usage": 0.2
-      },
-      {
-        "id": 264,
-        "usage": 0.2
-      },
-      {
         "id": 252,
-        "usage": 0.13333
+        "usage": 0.5
       },
       {
-        "id": 218,
-        "usage": 0.06667
-      },
-      {
-        "id": 134,
-        "usage": 0.06667
+        "id": 220,
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -82,28 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 547,
-        "usage": 0.26667
+        "id": 970,
+        "usage": 0.5
+      },
+      {
+        "id": 59,
+        "usage": 0.5
+      },
+      {
+        "id": 149,
+        "usage": 0.5
+      },
+      {
+        "id": 10104,
+        "usage": 0.5
       },
       {
         "id": 983,
-        "usage": 0.26667
+        "usage": 0.5
       },
       {
         "id": 36,
-        "usage": 0.2
-      },
-      {
-        "id": 282,
-        "usage": 0.2
-      },
-      {
-        "id": 637,
-        "usage": 0.2
-      },
-      {
-        "id": 10239,
-        "usage": 0.2
+        "usage": 0.5
       }
     ],
     "tera_types": [],

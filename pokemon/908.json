@@ -3,123 +3,99 @@
   "name": "Meowscarada",
   "form": null,
   "competitive": {
-    "usage_rank": 54,
-    "usage_rate": 0.0171,
+    "usage_rank": 47,
+    "usage_rate": 0.0213,
     "win_rate": null,
     "moves": [
       {
         "id": 870,
-        "usage": 0.97297
+        "usage": 0.96
       },
       {
         "id": 813,
-        "usage": 0.68243
+        "usage": 0.88
       },
       {
         "id": 282,
-        "usage": 0.6554099999999999
+        "usage": 0.84
       },
       {
         "id": 369,
-        "usage": 0.32432
+        "usage": 0.56
       },
       {
         "id": 182,
-        "usage": 0.2973
-      },
-      {
-        "id": 389,
-        "usage": 0.25676
+        "usage": 0.2
       },
       {
         "id": 67,
-        "usage": 0.25
+        "usage": 0.2
+      },
+      {
+        "id": 389,
+        "usage": 0.16
+      },
+      {
+        "id": 512,
+        "usage": 0.04
       },
       {
         "id": 675,
-        "usage": 0.10811
+        "usage": 0.04
       },
       {
-        "id": 583,
-        "usage": 0.08784
-      },
-      {
-        "id": 9,
-        "usage": 0.08784
+        "id": 572,
+        "usage": 0.04
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.49323999999999996
+        "usage": 0.68
       },
       {
         "id": 252,
-        "usage": 0.34459
-      },
-      {
-        "id": 216,
-        "usage": 0.06081
-      },
-      {
-        "id": 135,
-        "usage": 0.01351
-      },
-      {
-        "id": 191,
-        "usage": 0.01351
-      },
-      {
-        "id": 166,
-        "usage": 0.01351
+        "usage": 0.2
       },
       {
         "id": 217,
-        "usage": 0.01351
-      },
-      {
-        "id": 211,
-        "usage": 0.00676
-      },
-      {
-        "id": 161,
-        "usage": 0.00676
+        "usage": 0.04
       }
     ],
     "abilities": [
       {
         "id": 168,
-        "usage": 0.77703
+        "usage": 0.88
       },
       {
         "id": 65,
-        "usage": 0.22297
+        "usage": 0.12
       }
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.36485999999999996
+        "id": 142,
+        "usage": 0.2
       },
       {
         "id": 903,
-        "usage": 0.31081
+        "usage": 0.2
+      },
+      {
+        "id": 279,
+        "usage": 0.2
+      },
+      {
+        "id": 1018,
+        "usage": 0.2
+      },
+      {
+        "id": 445,
+        "usage": 0.2
       },
       {
         "id": 350,
-        "usage": 0.23649
-      },
-      {
-        "id": 142,
-        "usage": 0.20946
-      },
-      {
-        "id": 727,
-        "usage": 0.2027
-      },
-      {
-        "id": 983,
-        "usage": 0.16216
+        "usage": 0.16
       }
     ],
     "tera_types": [],

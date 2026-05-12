@@ -3,99 +3,67 @@
   "name": "Ampharos",
   "form": null,
   "competitive": {
-    "usage_rank": 89,
-    "usage_rate": 0.0046,
+    "usage_rank": 118,
+    "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
       {
-        "id": 406,
-        "usage": 0.975
-      },
-      {
         "id": 182,
-        "usage": 0.9
+        "usage": 1.0
       },
       {
         "id": 85,
-        "usage": 0.8
+        "usage": 1.0
       },
       {
-        "id": 521,
-        "usage": 0.3
-      },
-      {
-        "id": 408,
-        "usage": 0.2
+        "id": 406,
+        "usage": 1.0
       },
       {
         "id": 605,
-        "usage": 0.2
+        "usage": 0.5
       },
       {
-        "id": 435,
-        "usage": 0.175
-      },
-      {
-        "id": 87,
-        "usage": 0.125
-      },
-      {
-        "id": 570,
-        "usage": 0.125
-      },
-      {
-        "id": 411,
-        "usage": 0.1
+        "id": 527,
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 697,
-        "usage": 0.975
-      },
-      {
-        "id": 190,
-        "usage": 0.025
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 9,
-        "usage": 0.9
-      },
-      {
-        "id": 104,
-        "usage": 0.075
-      },
-      {
-        "id": 57,
-        "usage": 0.025
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 0.625
+        "id": 858,
+        "usage": 0.5
       },
       {
-        "id": 727,
-        "usage": 0.425
+        "id": 700,
+        "usage": 0.5
       },
       {
-        "id": 1013,
-        "usage": 0.325
+        "id": 778,
+        "usage": 0.5
       },
       {
-        "id": 903,
-        "usage": 0.225
+        "id": 450,
+        "usage": 0.5
       },
       {
-        "id": 983,
-        "usage": 0.2
+        "id": 675,
+        "usage": 0.5
       },
       {
-        "id": 279,
-        "usage": 0.175
+        "id": 784,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

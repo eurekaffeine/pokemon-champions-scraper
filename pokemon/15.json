@@ -3,49 +3,25 @@
   "name": "Beedrill",
   "form": null,
   "competitive": {
-    "usage_rank": 146,
-    "usage_rate": 0.0012,
+    "usage_rank": 104,
+    "usage_rate": 0.0026,
     "win_rate": null,
     "moves": [
+      {
+        "id": 369,
+        "usage": 1.0
+      },
       {
         "id": 398,
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.9
-      },
-      {
-        "id": 369,
-        "usage": 0.7
-      },
-      {
         "id": 529,
-        "usage": 0.4
+        "usage": 1.0
       },
       {
-        "id": 675,
-        "usage": 0.2
-      },
-      {
-        "id": 814,
-        "usage": 0.2
-      },
-      {
-        "id": 280,
-        "usage": 0.1
-      },
-      {
-        "id": 496,
-        "usage": 0.1
-      },
-      {
-        "id": 679,
-        "usage": 0.1
-      },
-      {
-        "id": 565,
-        "usage": 0.1
+        "id": 182,
+        "usage": 1.0
       }
     ],
     "items": [
@@ -56,42 +32,30 @@
     ],
     "abilities": [
       {
-        "id": 68,
-        "usage": 0.5
-      },
-      {
-        "id": 97,
-        "usage": 0.4
-      },
-      {
         "id": 91,
-        "usage": 0.1
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
-        "id": 142,
-        "usage": 0.5
-      },
-      {
-        "id": 981,
-        "usage": 0.4
-      },
-      {
-        "id": 1013,
-        "usage": 0.3
+        "id": 10236,
+        "usage": 1.0
       },
       {
         "id": 763,
-        "usage": 0.2
+        "usage": 1.0
       },
       {
-        "id": 186,
-        "usage": 0.2
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

@@ -3,99 +3,59 @@
   "name": "Pikachu",
   "form": null,
   "competitive": {
-    "usage_rank": 136,
-    "usage_rate": 0.0014000000000000002,
+    "usage_rank": 142,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
-        "id": 252,
-        "usage": 0.91667
+        "id": 344,
+        "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.58333
-      },
-      {
-        "id": 87,
-        "usage": 0.33332999999999996
+        "id": 918,
+        "usage": 1.0
       },
       {
         "id": 521,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
-        "id": 344,
-        "usage": 0.25
-      },
-      {
-        "id": 57,
-        "usage": 0.25
-      },
-      {
-        "id": 609,
-        "usage": 0.25
-      },
-      {
-        "id": 85,
-        "usage": 0.25
-      },
-      {
-        "id": 98,
-        "usage": 0.16667
-      },
-      {
-        "id": 583,
-        "usage": 0.16667
+        "id": 252,
+        "usage": 1.0
       }
     ],
     "items": [
       {
         "id": 213,
-        "usage": 0.83333
-      },
-      {
-        "id": 190,
-        "usage": 0.08333
-      },
-      {
-        "id": 134,
-        "usage": 0.08333
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 31,
-        "usage": 0.83333
-      },
-      {
-        "id": 9,
-        "usage": 0.16667
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 279,
-        "usage": 0.41667000000000004
+        "id": 981,
+        "usage": 1.0
       },
       {
-        "id": 9,
-        "usage": 0.41667000000000004
+        "id": 983,
+        "usage": 1.0
       },
       {
-        "id": 6,
-        "usage": 0.33332999999999996
+        "id": 324,
+        "usage": 1.0
       },
       {
-        "id": 149,
-        "usage": 0.33332999999999996
+        "id": 282,
+        "usage": 1.0
       },
       {
-        "id": 902,
-        "usage": 0.25
-      },
-      {
-        "id": 3,
-        "usage": 0.25
+        "id": 115,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

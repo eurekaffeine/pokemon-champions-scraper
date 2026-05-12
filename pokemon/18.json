@@ -3,8 +3,8 @@
   "name": "Pidgeot",
   "form": null,
   "competitive": {
-    "usage_rank": 172,
-    "usage_rate": 0.0006,
+    "usage_rank": 151,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
@@ -12,24 +12,16 @@
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 257,
         "usage": 1.0
       },
       {
         "id": 366,
-        "usage": 0.8
+        "usage": 1.0
       },
       {
-        "id": 257,
-        "usage": 0.8
-      },
-      {
-        "id": 63,
-        "usage": 0.2
-      },
-      {
-        "id": 18,
-        "usage": 0.2
+        "id": 182,
+        "usage": 1.0
       }
     ],
     "items": [
@@ -40,42 +32,30 @@
     ],
     "abilities": [
       {
-        "id": 145,
-        "usage": 0.4
-      },
-      {
         "id": 51,
-        "usage": 0.4
-      },
-      {
-        "id": 77,
-        "usage": 0.2
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 681,
-        "usage": 0.4
+        "id": 445,
+        "usage": 1.0
       },
       {
-        "id": 637,
-        "usage": 0.4
+        "id": 983,
+        "usage": 1.0
       },
       {
-        "id": 142,
-        "usage": 0.4
+        "id": 902,
+        "usage": 1.0
       },
       {
-        "id": 699,
-        "usage": 0.2
+        "id": 903,
+        "usage": 1.0
       },
       {
-        "id": 784,
-        "usage": 0.2
-      },
-      {
-        "id": 282,
-        "usage": 0.2
+        "id": 10009,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

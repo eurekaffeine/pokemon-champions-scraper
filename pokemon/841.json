@@ -3,8 +3,8 @@
   "name": "Flapple",
   "form": null,
   "competitive": {
-    "usage_rank": 180,
-    "usage_rate": 0.0005,
+    "usage_rank": 108,
+    "usage_rate": 0.0026,
     "win_rate": null,
     "moves": [
       {
@@ -12,54 +12,30 @@
         "usage": 1.0
       },
       {
-        "id": 407,
-        "usage": 0.75
+        "id": 200,
+        "usage": 1.0
+      },
+      {
+        "id": 484,
+        "usage": 0.66667
       },
       {
         "id": 332,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 182,
-        "usage": 0.5
-      },
-      {
-        "id": 200,
-        "usage": 0.25
+        "usage": 0.33332999999999996
       },
       {
         "id": 491,
-        "usage": 0.25
-      },
-      {
-        "id": 349,
-        "usage": 0.25
-      },
-      {
-        "id": 369,
-        "usage": 0.25
-      },
-      {
-        "id": 814,
-        "usage": 0.25
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
         "id": 227,
-        "usage": 0.25
-      },
-      {
-        "id": 252,
-        "usage": 0.25
-      },
-      {
-        "id": 264,
-        "usage": 0.25
-      },
-      {
-        "id": 211,
-        "usage": 0.25
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -70,28 +46,24 @@
     ],
     "teammates": [
       {
-        "id": 302,
-        "usage": 0.5
-      },
-      {
-        "id": 678,
-        "usage": 0.5
-      },
-      {
-        "id": 655,
-        "usage": 0.5
-      },
-      {
         "id": 65,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
         "id": 68,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
         "id": 130,
-        "usage": 0.25
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 302,
+        "usage": 1.0
       }
     ],
     "tera_types": [],
