@@ -81,7 +81,7 @@ class PikalyticsScraper(BaseScraper):
             for pokemon_data in data[:limit]:
                 name = pokemon_data.get("name", "")
                 rank = int(pokemon_data.get("rank", 0))
-                usage_rate = float(pokemon_data.get("percent", 0)) / 100
+                usage_rate = min(1.0, float(pokemon_data.get("percent", 0)) / 100)
                 dex_id = self._get_dex_id(name)
                 
                 # Parse teammates from list API (always available)
@@ -92,7 +92,7 @@ class PikalyticsScraper(BaseScraper):
                     if teammate_id > 0:
                         teammates.append(TeammateUsage(
                             id=teammate_id,
-                            usage=float(team_data.get("percent", 0)) / 100,
+                            usage=min(1.0, float(team_data.get("percent", 0)) / 100),
                         ))
                 
                 rankings.append(PokemonUsage(
@@ -134,7 +134,7 @@ class PikalyticsScraper(BaseScraper):
                     if move_id > 0:
                         moves.append(MoveUsage(
                             id=move_id,
-                            usage=float(match[1]) / 100,
+                            usage=min(1.0, float(match[1]) / 100),
                         ))
 
             # Parse Common Items section (get all)
@@ -147,7 +147,7 @@ class PikalyticsScraper(BaseScraper):
                     if item_id > 0:
                         items.append(ItemUsage(
                             id=item_id,
-                            usage=float(match[1]) / 100,
+                            usage=min(1.0, float(match[1]) / 100),
                         ))
 
             # Parse Common Abilities section (get all)
@@ -160,7 +160,7 @@ class PikalyticsScraper(BaseScraper):
                     if ability_id > 0:
                         abilities.append(AbilityUsage(
                             id=ability_id,
-                            usage=float(match[1]) / 100,
+                            usage=min(1.0, float(match[1]) / 100),
                         ))
 
             # Parse Common Teammates section (get all)
@@ -173,7 +173,7 @@ class PikalyticsScraper(BaseScraper):
                     if teammate_id > 0:
                         teammates.append(TeammateUsage(
                             id=teammate_id,
-                            usage=float(match[1]) / 100,
+                            usage=min(1.0, float(match[1]) / 100),
                         ))
 
             return PokemonUsage(
