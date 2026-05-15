@@ -183,6 +183,16 @@ jobs:
           enable_jekyll: false
           force_orphan: false
 
+      - name: Mirror to Azure Blob Storage (China CDN)
+        env:
+          AZURE_CHAMPIONS_SAS_TOKEN: ${{ secrets.AZURE_CHAMPIONS_SAS_TOKEN }}
+        run: |
+          if [ -z "$AZURE_CHAMPIONS_SAS_TOKEN" ]; then
+            echo "⚠️ AZURE_CHAMPIONS_SAS_TOKEN not set, skipping Azure upload"
+            exit 0
+          fi
+          bash scripts/upload_azure.sh output
+
   notify:
     needs: [scrape, deploy]
     runs-on: ubuntu-latest
