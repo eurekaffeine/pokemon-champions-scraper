@@ -3,7 +3,7 @@
   "name": "Rampardos",
   "form": null,
   "competitive": {
-    "usage_rank": 127,
+    "usage_rank": 133,
     "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
@@ -17,65 +17,65 @@
       },
       {
         "id": 59,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 457,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 350,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 359,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 215,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
         "id": 104,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 125,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
         "id": 1018,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 10172,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 911,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 26,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 740,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 765,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "tera_types": [],

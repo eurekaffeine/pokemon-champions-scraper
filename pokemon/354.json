@@ -3,20 +3,20 @@
   "name": "Banette",
   "form": null,
   "competitive": {
-    "usage_rank": 98,
-    "usage_rate": 0.0034000000000000002,
+    "usage_rank": 94,
+    "usage_rate": 0.0040999999999999995,
     "win_rate": null,
     "moves": [
       {
-        "id": 194,
-        "usage": 0.5
-      },
-      {
-        "id": 227,
-        "usage": 0.5
-      },
-      {
         "id": 809,
+        "usage": 0.8
+      },
+      {
+        "id": 194,
+        "usage": 0.6
+      },
+      {
+        "id": 261,
         "usage": 0.5
       },
       {
@@ -24,28 +24,28 @@
         "usage": 0.5
       },
       {
-        "id": 389,
-        "usage": 0.25
+        "id": 227,
+        "usage": 0.5
       },
       {
         "id": 50,
-        "usage": 0.25
+        "usage": 0.3
+      },
+      {
+        "id": 240,
+        "usage": 0.1
+      },
+      {
+        "id": 389,
+        "usage": 0.1
       },
       {
         "id": 421,
-        "usage": 0.25
+        "usage": 0.1
       },
       {
         "id": 207,
-        "usage": 0.25
-      },
-      {
-        "id": 14,
-        "usage": 0.25
-      },
-      {
-        "id": 164,
-        "usage": 0.25
+        "usage": 0.1
       }
     ],
     "items": [
@@ -56,42 +56,42 @@
     ],
     "abilities": [
       {
-        "id": 119,
-        "usage": 0.5
-      },
-      {
         "id": 130,
-        "usage": 0.25
+        "usage": 0.4
       },
       {
         "id": 15,
-        "usage": 0.25
+        "usage": 0.3
+      },
+      {
+        "id": 119,
+        "usage": 0.3
       }
     ],
     "teammates": [
       {
+        "id": 445,
+        "usage": 0.4
+      },
+      {
+        "id": 547,
+        "usage": 0.4
+      },
+      {
+        "id": 903,
+        "usage": 0.3
+      },
+      {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.3
       },
       {
-        "id": 310,
-        "usage": 0.25
+        "id": 700,
+        "usage": 0.2
       },
       {
-        "id": 10236,
-        "usage": 0.25
-      },
-      {
-        "id": 908,
-        "usage": 0.25
-      },
-      {
-        "id": 637,
-        "usage": 0.25
-      },
-      {
-        "id": 143,
-        "usage": 0.25
+        "id": 1018,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

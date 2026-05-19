@@ -3,31 +3,51 @@
   "name": "Espeon",
   "form": null,
   "competitive": {
-    "usage_rank": 150,
-    "usage_rate": 0.0009,
+    "usage_rank": 155,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
+        "id": 347,
+        "usage": 0.5
+      },
+      {
+        "id": 226,
+        "usage": 0.5
+      },
+      {
+        "id": 234,
+        "usage": 0.5
+      },
+      {
+        "id": 500,
+        "usage": 0.5
+      },
+      {
         "id": 115,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 113,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 94,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 135,
+        "usage": 0.5
+      },
+      {
         "id": 175,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -42,20 +62,24 @@
         "usage": 1.0
       },
       {
+        "id": 25,
+        "usage": 0.5
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 9,
+        "usage": 0.5
+      },
+      {
+        "id": 143,
+        "usage": 0.5
+      },
+      {
         "id": 547,
-        "usage": 1.0
-      },
-      {
-        "id": 445,
-        "usage": 1.0
-      },
-      {
-        "id": 395,
-        "usage": 1.0
-      },
-      {
-        "id": 534,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 683,
+  "name": "Aromatisse",
+  "form": null,
+  "competitive": {
+    "usage_rank": 171,
+    "usage_rate": 0.0004,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 270,
+        "usage": 1.0
+      },
+      {
+        "id": 585,
+        "usage": 1.0
+      },
+      {
+        "id": 204,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 165,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 842,
+        "usage": 1.0
+      },
+      {
+        "id": 740,
+        "usage": 1.0
+      },
+      {
+        "id": 323,
+        "usage": 1.0
+      },
+      {
+        "id": 199,
+        "usage": 1.0
+      },
+      {
+        "id": 858,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

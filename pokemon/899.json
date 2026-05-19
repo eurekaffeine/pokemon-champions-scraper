@@ -3,31 +3,59 @@
   "name": "Wyrdeer",
   "form": null,
   "competitive": {
-    "usage_rank": 143,
-    "usage_rate": 0.0009,
+    "usage_rank": 103,
+    "usage_rate": 0.0029,
     "win_rate": null,
     "moves": [
       {
+        "id": 433,
+        "usage": 0.71429
+      },
+      {
+        "id": 828,
+        "usage": 0.57143
+      },
+      {
+        "id": 247,
+        "usage": 0.57143
+      },
+      {
+        "id": 528,
+        "usage": 0.42857
+      },
+      {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.42857
       },
       {
         "id": 285,
-        "usage": 1.0
-      },
-      {
-        "id": 797,
-        "usage": 1.0
+        "usage": 0.42857
       },
       {
         "id": 414,
-        "usage": 1.0
+        "usage": 0.28571
+      },
+      {
+        "id": 50,
+        "usage": 0.14286
+      },
+      {
+        "id": 473,
+        "usage": 0.14286
+      },
+      {
+        "id": 917,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
+        "id": 135,
+        "usage": 0.57143
+      },
+      {
         "id": 175,
-        "usage": 1.0
+        "usage": 0.42857
       }
     ],
     "abilities": [
@@ -38,24 +66,28 @@
     ],
     "teammates": [
       {
-        "id": 678,
-        "usage": 1.0
+        "id": 10165,
+        "usage": 0.42857
       },
       {
-        "id": 902,
-        "usage": 1.0
+        "id": 563,
+        "usage": 0.42857
       },
       {
-        "id": 212,
-        "usage": 1.0
+        "id": 6,
+        "usage": 0.42857
       },
       {
-        "id": 903,
-        "usage": 1.0
+        "id": 208,
+        "usage": 0.42857
       },
       {
-        "id": 36,
-        "usage": 1.0
+        "id": 389,
+        "usage": 0.28571
+      },
+      {
+        "id": 115,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

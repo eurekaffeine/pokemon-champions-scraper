@@ -1,0 +1,64 @@
+{
+  "dex_id": 579,
+  "name": "Reuniclus",
+  "form": null,
+  "competitive": {
+    "usage_rank": 169,
+    "usage_rate": 0.0004,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 240,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 175,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 144,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 160,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 763,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
+        "usage": 1.0
+      },
+      {
+        "id": 324,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

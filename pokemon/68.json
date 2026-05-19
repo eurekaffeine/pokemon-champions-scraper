@@ -3,99 +3,107 @@
   "name": "Machamp",
   "form": null,
   "competitive": {
-    "usage_rank": 93,
-    "usage_rate": 0.0043,
+    "usage_rank": 100,
+    "usage_rate": 0.0029,
     "win_rate": null,
     "moves": [
       {
-        "id": 197,
-        "usage": 0.8
-      },
-      {
-        "id": 223,
-        "usage": 0.8
-      },
-      {
         "id": 444,
-        "usage": 0.8
+        "usage": 0.71429
+      },
+      {
+        "id": 197,
+        "usage": 0.71429
       },
       {
         "id": 440,
-        "usage": 0.6
+        "usage": 0.57143
+      },
+      {
+        "id": 223,
+        "usage": 0.57143
       },
       {
         "id": 480,
-        "usage": 0.2
+        "usage": 0.28571
       },
       {
         "id": 350,
-        "usage": 0.2
+        "usage": 0.28571
+      },
+      {
+        "id": 238,
+        "usage": 0.14286
+      },
+      {
+        "id": 469,
+        "usage": 0.14286
+      },
+      {
+        "id": 8,
+        "usage": 0.14286
       },
       {
         "id": 418,
-        "usage": 0.2
-      },
-      {
-        "id": 270,
-        "usage": 0.2
-      },
-      {
-        "id": 663,
-        "usage": 0.2
+        "usage": 0.14286
       }
     ],
     "items": [
       {
-        "id": 218,
-        "usage": 0.4
+        "id": 215,
+        "usage": 0.28571
       },
       {
-        "id": 215,
-        "usage": 0.2
+        "id": 218,
+        "usage": 0.28571
+      },
+      {
+        "id": 209,
+        "usage": 0.14286
       },
       {
         "id": 723,
-        "usage": 0.2
+        "usage": 0.14286
       },
       {
         "id": 222,
-        "usage": 0.2
+        "usage": 0.14286
       }
     ],
     "abilities": [
       {
         "id": 99,
-        "usage": 0.8
+        "usage": 0.71429
       },
       {
         "id": 62,
-        "usage": 0.2
+        "usage": 0.28571
       }
     ],
     "teammates": [
       {
         "id": 65,
-        "usage": 0.8
+        "usage": 0.71429
       },
       {
         "id": 841,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 130,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 142,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 302,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
-        "id": 765,
-        "usage": 0.2
+        "id": 727,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

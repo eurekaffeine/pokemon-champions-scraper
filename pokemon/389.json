@@ -1,0 +1,64 @@
+{
+  "dex_id": 389,
+  "name": "Torterra",
+  "form": null,
+  "competitive": {
+    "usage_rank": 157,
+    "usage_rate": 0.0008,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 202,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 776,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 194,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 65,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 10165,
+        "usage": 1.0
+      },
+      {
+        "id": 563,
+        "usage": 1.0
+      },
+      {
+        "id": 6,
+        "usage": 1.0
+      },
+      {
+        "id": 899,
+        "usage": 1.0
+      },
+      {
+        "id": 208,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

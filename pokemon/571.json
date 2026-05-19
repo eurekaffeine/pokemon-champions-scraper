@@ -3,12 +3,12 @@
   "name": "Zoroark",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
-    "usage_rate": 0.0009,
+    "usage_rank": 165,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
-        "id": 304,
+        "id": 247,
         "usage": 1.0
       },
       {
@@ -16,12 +16,20 @@
         "usage": 1.0
       },
       {
-        "id": 369,
-        "usage": 1.0
+        "id": 196,
+        "usage": 0.5
       },
       {
-        "id": 247,
-        "usage": 1.0
+        "id": 313,
+        "usage": 0.5
+      },
+      {
+        "id": 304,
+        "usage": 0.5
+      },
+      {
+        "id": 369,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +46,28 @@
     ],
     "teammates": [
       {
+        "id": 6,
+        "usage": 0.5
+      },
+      {
+        "id": 130,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 547,
+        "usage": 0.5
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
         "id": 952,
-        "usage": 1.0
-      },
-      {
-        "id": 983,
-        "usage": 1.0
-      },
-      {
-        "id": 903,
-        "usage": 1.0
-      },
-      {
-        "id": 132,
-        "usage": 1.0
-      },
-      {
-        "id": 981,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

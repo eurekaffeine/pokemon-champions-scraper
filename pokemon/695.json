@@ -3,103 +3,107 @@
   "name": "Heliolisk",
   "form": null,
   "competitive": {
-    "usage_rank": 76,
-    "usage_rate": 0.0085,
+    "usage_rank": 81,
+    "usage_rate": 0.0066,
     "win_rate": null,
     "moves": [
       {
-        "id": 521,
-        "usage": 0.6
-      },
-      {
         "id": 527,
-        "usage": 0.6
+        "usage": 0.625
       },
       {
-        "id": 304,
-        "usage": 0.5
-      },
-      {
-        "id": 880,
-        "usage": 0.5
+        "id": 521,
+        "usage": 0.625
       },
       {
         "id": 85,
         "usage": 0.5
       },
       {
-        "id": 411,
-        "usage": 0.3
+        "id": 304,
+        "usage": 0.4375
+      },
+      {
+        "id": 880,
+        "usage": 0.4375
       },
       {
         "id": 182,
-        "usage": 0.3
+        "usage": 0.3125
       },
       {
         "id": 406,
-        "usage": 0.2
+        "usage": 0.25
       },
       {
         "id": 598,
-        "usage": 0.2
+        "usage": 0.1875
       },
       {
-        "id": 502,
-        "usage": 0.1
+        "id": 411,
+        "usage": 0.1875
+      },
+      {
+        "id": 87,
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.6
+        "usage": 0.625
       },
       {
         "id": 252,
-        "usage": 0.2
+        "usage": 0.1875
       },
       {
         "id": 135,
-        "usage": 0.2
+        "usage": 0.125
+      },
+      {
+        "id": 219,
+        "usage": 0.0625
       }
     ],
     "abilities": [
       {
         "id": 87,
-        "usage": 0.8
-      },
-      {
-        "id": 8,
-        "usage": 0.1
+        "usage": 0.8125
       },
       {
         "id": 94,
-        "usage": 0.1
+        "usage": 0.125
+      },
+      {
+        "id": 8,
+        "usage": 0.0625
       }
     ],
     "teammates": [
       {
-        "id": 6,
-        "usage": 0.4
-      },
-      {
-        "id": 902,
-        "usage": 0.4
-      },
-      {
         "id": 445,
-        "usage": 0.4
+        "usage": 0.625
+      },
+      {
+        "id": 6,
+        "usage": 0.4375
       },
       {
         "id": 547,
-        "usage": 0.3
+        "usage": 0.3125
       },
       {
-        "id": 700,
-        "usage": 0.3
+        "id": 902,
+        "usage": 0.3125
       },
       {
         "id": 94,
-        "usage": 0.2
+        "usage": 0.25
+      },
+      {
+        "id": 727,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

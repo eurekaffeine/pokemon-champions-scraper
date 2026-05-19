@@ -3,33 +3,37 @@
   "name": "Abomasnow",
   "form": null,
   "competitive": {
-    "usage_rank": 110,
-    "usage_rate": 0.0026,
+    "usage_rank": 135,
+    "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 59,
         "usage": 1.0
       },
       {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
         "id": 414,
-        "usage": 0.66667
+        "usage": 0.75
       },
       {
         "id": 412,
-        "usage": 0.66667
+        "usage": 0.5
+      },
+      {
+        "id": 202,
+        "usage": 0.25
       },
       {
         "id": 694,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       },
       {
         "id": 452,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       }
     ],
     "items": [
@@ -46,28 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 981,
+        "usage": 0.75
+      },
+      {
         "id": 903,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
         "id": 727,
-        "usage": 0.66667
-      },
-      {
-        "id": 981,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
         "id": 937,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
         "id": 902,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
-        "id": 471,
-        "usage": 0.33332999999999996
+        "id": 752,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

@@ -1,0 +1,80 @@
+{
+  "dex_id": 199,
+  "name": "Slowking",
+  "form": null,
+  "competitive": {
+    "usage_rank": 108,
+    "usage_rate": 0.0025,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 881,
+        "usage": 0.83333
+      },
+      {
+        "id": 503,
+        "usage": 0.83333
+      },
+      {
+        "id": 281,
+        "usage": 0.16667
+      },
+      {
+        "id": 505,
+        "usage": 0.16667
+      }
+    ],
+    "items": [
+      {
+        "id": 175,
+        "usage": 0.83333
+      },
+      {
+        "id": 196,
+        "usage": 0.16667
+      }
+    ],
+    "abilities": [
+      {
+        "id": 144,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 727,
+        "usage": 0.83333
+      },
+      {
+        "id": 1013,
+        "usage": 0.83333
+      },
+      {
+        "id": 740,
+        "usage": 0.83333
+      },
+      {
+        "id": 983,
+        "usage": 0.66667
+      },
+      {
+        "id": 902,
+        "usage": 0.66667
+      },
+      {
+        "id": 10239,
+        "usage": 0.16667
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

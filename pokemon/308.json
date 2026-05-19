@@ -3,29 +3,45 @@
   "name": "Medicham",
   "form": null,
   "competitive": {
-    "usage_rank": 122,
-    "usage_rate": 0.0017000000000000001,
+    "usage_rank": 106,
+    "usage_rate": 0.0025,
     "win_rate": null,
     "moves": [
       {
-        "id": 370,
+        "id": 252,
         "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 0.66667
       },
       {
         "id": 157,
-        "usage": 1.0
-      },
-      {
-        "id": 252,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 364,
         "usage": 0.5
       },
       {
+        "id": 853,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 428,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 398,
+        "usage": 0.16667
+      },
+      {
+        "id": 339,
+        "usage": 0.16667
+      },
+      {
         "id": 418,
-        "usage": 0.5
+        "usage": 0.16667
       }
     ],
     "items": [
@@ -46,20 +62,24 @@
         "usage": 1.0
       },
       {
+        "id": 983,
+        "usage": 0.83333
+      },
+      {
         "id": 858,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 324,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 727,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
-        "id": 983,
-        "usage": 1.0
+        "id": 10233,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

@@ -1,0 +1,84 @@
+{
+  "dex_id": 510,
+  "name": "Liepard",
+  "form": null,
+  "competitive": {
+    "usage_rank": 161,
+    "usage_rate": 0.0008,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 281,
+        "usage": 0.5
+      },
+      {
+        "id": 227,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 555,
+        "usage": 0.5
+      },
+      {
+        "id": 383,
+        "usage": 0.5
+      },
+      {
+        "id": 269,
+        "usage": 0.5
+      },
+      {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
+        "id": 492,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 158,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
+        "id": 983,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 154,
+        "usage": 0.5
+      },
+      {
+        "id": 681,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,8 +3,8 @@
   "name": "Vaporeon",
   "form": null,
   "competitive": {
-    "usage_rank": 123,
-    "usage_rate": 0.0017000000000000001,
+    "usage_rank": 148,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
@@ -17,39 +17,39 @@
       },
       {
         "id": 503,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 58,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       },
       {
         "id": 56,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 264,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       }
     ],
     "abilities": [
       {
         "id": 11,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 93,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
@@ -59,23 +59,23 @@
       },
       {
         "id": 970,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 981,
-        "usage": 0.5
-      },
-      {
-        "id": 637,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 3,
-        "usage": 0.5
+        "usage": 0.66667
+      },
+      {
+        "id": 637,
+        "usage": 0.66667
       },
       {
         "id": 887,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 842,
+  "name": "Appletun",
+  "form": null,
+  "competitive": {
+    "usage_rank": 172,
+    "usage_rate": 0.0004,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 787,
+        "usage": 1.0
+      },
+      {
+        "id": 73,
+        "usage": 1.0
+      },
+      {
+        "id": 105,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 47,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 683,
+        "usage": 1.0
+      },
+      {
+        "id": 740,
+        "usage": 1.0
+      },
+      {
+        "id": 323,
+        "usage": 1.0
+      },
+      {
+        "id": 199,
+        "usage": 1.0
+      },
+      {
+        "id": 858,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}
