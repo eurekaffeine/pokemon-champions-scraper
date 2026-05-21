@@ -3,107 +3,127 @@
   "name": "Politoed",
   "form": null,
   "competitive": {
-    "usage_rank": 36,
-    "usage_rate": 0.0414,
+    "usage_rank": 39,
+    "usage_rate": 0.0351,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.98
+        "usage": 0.95143
       },
       {
         "id": 311,
-        "usage": 0.84
+        "usage": 0.85651
       },
       {
         "id": 195,
-        "usage": 0.62
+        "usage": 0.54967
       },
       {
         "id": 227,
-        "usage": 0.6
+        "usage": 0.43929
       },
       {
         "id": 196,
-        "usage": 0.26
-      },
-      {
-        "id": 330,
-        "usage": 0.26
+        "usage": 0.33996000000000004
       },
       {
         "id": 270,
-        "usage": 0.19
+        "usage": 0.24945
+      },
+      {
+        "id": 330,
+        "usage": 0.22957999999999998
       },
       {
         "id": 58,
-        "usage": 0.08
+        "usage": 0.17439
       },
       {
         "id": 240,
-        "usage": 0.05
+        "usage": 0.04415
       },
       {
-        "id": 95,
-        "usage": 0.05
+        "id": 414,
+        "usage": 0.03753
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.67
+        "usage": 0.4702
       },
       {
         "id": 211,
-        "usage": 0.25
+        "usage": 0.33775
       },
       {
         "id": 220,
-        "usage": 0.05
-      },
-      {
-        "id": 194,
-        "usage": 0.02
+        "usage": 0.0883
       },
       {
         "id": 163,
-        "usage": 0.01
+        "usage": 0.03532
+      },
+      {
+        "id": 194,
+        "usage": 0.01766
+      },
+      {
+        "id": 264,
+        "usage": 0.011040000000000001
+      },
+      {
+        "id": 252,
+        "usage": 0.011040000000000001
+      },
+      {
+        "id": 134,
+        "usage": 0.00883
+      },
+      {
+        "id": 190,
+        "usage": 0.00883
+      },
+      {
+        "id": 164,
+        "usage": 0.00221
       }
     ],
     "abilities": [
       {
         "id": 2,
-        "usage": 0.95
+        "usage": 0.97351
       },
       {
         "id": 11,
-        "usage": 0.05
+        "usage": 0.02649
       }
     ],
     "teammates": [
       {
         "id": 727,
-        "usage": 0.63
-      },
-      {
-        "id": 1013,
-        "usage": 0.61
+        "usage": 0.56733
       },
       {
         "id": 94,
-        "usage": 0.55
+        "usage": 0.49007
+      },
+      {
+        "id": 1013,
+        "usage": 0.41942999999999997
       },
       {
         "id": 1018,
-        "usage": 0.35
+        "usage": 0.36203
       },
       {
         "id": 902,
-        "usage": 0.27
+        "usage": 0.34658
       },
       {
-        "id": 784,
-        "usage": 0.26
+        "id": 903,
+        "usage": 0.25607
       }
     ],
     "tera_types": [],

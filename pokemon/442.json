@@ -3,59 +3,103 @@
   "name": "Spiritomb",
   "form": null,
   "competitive": {
-    "usage_rank": 176,
-    "usage_rate": 0.0004,
+    "usage_rank": 136,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
-        "id": 492,
-        "usage": 1.0
+        "id": 433,
+        "usage": 0.86667
+      },
+      {
+        "id": 261,
+        "usage": 0.73333
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.6
+      },
+      {
+        "id": 492,
+        "usage": 0.46667000000000003
+      },
+      {
+        "id": 555,
+        "usage": 0.4
+      },
+      {
+        "id": 220,
+        "usage": 0.2
       },
       {
         "id": 286,
-        "usage": 1.0
+        "usage": 0.13333
       },
       {
-        "id": 433,
-        "usage": 1.0
+        "id": 101,
+        "usage": 0.13333
+      },
+      {
+        "id": 506,
+        "usage": 0.13333
+      },
+      {
+        "id": 502,
+        "usage": 0.13333
       }
     ],
     "items": [
       {
+        "id": 135,
+        "usage": 0.53333
+      },
+      {
         "id": 211,
-        "usage": 1.0
+        "usage": 0.26667
+      },
+      {
+        "id": 190,
+        "usage": 0.13333
+      },
+      {
+        "id": 723,
+        "usage": 0.06667
       }
     ],
     "abilities": [
       {
         "id": 151,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 46,
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
+        "id": 350,
+        "usage": 0.4
+      },
+      {
+        "id": 445,
+        "usage": 0.33332999999999996
+      },
+      {
         "id": 3,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       },
       {
-        "id": 10239,
-        "usage": 1.0
+        "id": 727,
+        "usage": 0.26667
       },
       {
-        "id": 302,
-        "usage": 1.0
+        "id": 623,
+        "usage": 0.2
       },
       {
-        "id": 142,
-        "usage": 1.0
-      },
-      {
-        "id": 10230,
-        "usage": 1.0
+        "id": 279,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

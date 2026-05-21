@@ -3,8 +3,8 @@
   "name": "Simipour",
   "form": null,
   "competitive": {
-    "usage_rank": 163,
-    "usage_rate": 0.0008,
+    "usage_rank": 169,
+    "usage_rate": 0.0005,
     "win_rate": null,
     "moves": [
       {
@@ -12,34 +12,54 @@
         "usage": 1.0
       },
       {
-        "id": 196,
-        "usage": 1.0
+        "id": 503,
+        "usage": 0.85714
       },
       {
-        "id": 240,
-        "usage": 0.5
+        "id": 196,
+        "usage": 0.42857
+      },
+      {
+        "id": 58,
+        "usage": 0.42857
+      },
+      {
+        "id": 812,
+        "usage": 0.42857
       },
       {
         "id": 270,
-        "usage": 0.5
-      },
-      {
-        "id": 503,
-        "usage": 0.5
+        "usage": 0.28571
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.28571
+      },
+      {
+        "id": 240,
+        "usage": 0.14286
+      },
+      {
+        "id": 269,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
-        "id": 135,
-        "usage": 0.5
+        "id": 252,
+        "usage": 0.57143
       },
       {
-        "id": 252,
-        "usage": 0.5
+        "id": 135,
+        "usage": 0.14286
+      },
+      {
+        "id": 220,
+        "usage": 0.14286
+      },
+      {
+        "id": 190,
+        "usage": 0.14286
       }
     ],
     "abilities": [
@@ -51,27 +71,27 @@
     "teammates": [
       {
         "id": 445,
-        "usage": 1.0
-      },
-      {
-        "id": 154,
-        "usage": 0.5
-      },
-      {
-        "id": 454,
-        "usage": 0.5
-      },
-      {
-        "id": 937,
-        "usage": 0.5
+        "usage": 0.57143
       },
       {
         "id": 142,
-        "usage": 0.5
+        "usage": 0.42857
+      },
+      {
+        "id": 154,
+        "usage": 0.28571
       },
       {
         "id": 10061,
-        "usage": 0.5
+        "usage": 0.28571
+      },
+      {
+        "id": 454,
+        "usage": 0.14286
+      },
+      {
+        "id": 937,
+        "usage": 0.14286
       }
     ],
     "tera_types": [],

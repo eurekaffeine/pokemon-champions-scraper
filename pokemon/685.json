@@ -1,0 +1,64 @@
+{
+  "dex_id": 685,
+  "name": "Slurpuff",
+  "form": null,
+  "competitive": {
+    "usage_rank": 190,
+    "usage_rate": 0.0001,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 605,
+        "usage": 1.0
+      },
+      {
+        "id": 81,
+        "usage": 1.0
+      },
+      {
+        "id": 270,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 84,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 10061,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 10230,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

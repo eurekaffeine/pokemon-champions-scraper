@@ -3,31 +3,59 @@
   "name": "Appletun",
   "form": null,
   "competitive": {
-    "usage_rank": 172,
-    "usage_rate": 0.0004,
+    "usage_rank": 161,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 787,
+        "usage": 0.875
       },
       {
-        "id": 787,
-        "usage": 1.0
+        "id": 182,
+        "usage": 0.875
       },
       {
         "id": 73,
-        "usage": 1.0
+        "usage": 0.625
+      },
+      {
+        "id": 434,
+        "usage": 0.5
+      },
+      {
+        "id": 406,
+        "usage": 0.25
       },
       {
         "id": 105,
-        "usage": 1.0
+        "usage": 0.25
+      },
+      {
+        "id": 437,
+        "usage": 0.125
+      },
+      {
+        "id": 202,
+        "usage": 0.125
+      },
+      {
+        "id": 164,
+        "usage": 0.125
+      },
+      {
+        "id": 776,
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 1.0
+        "usage": 0.875
+      },
+      {
+        "id": 135,
+        "usage": 0.125
       }
     ],
     "abilities": [
@@ -38,24 +66,28 @@
     ],
     "teammates": [
       {
-        "id": 683,
-        "usage": 1.0
-      },
-      {
-        "id": 740,
-        "usage": 1.0
-      },
-      {
-        "id": 323,
-        "usage": 1.0
-      },
-      {
-        "id": 199,
-        "usage": 1.0
-      },
-      {
         "id": 858,
-        "usage": 1.0
+        "usage": 0.25
+      },
+      {
+        "id": 730,
+        "usage": 0.25
+      },
+      {
+        "id": 983,
+        "usage": 0.25
+      },
+      {
+        "id": 115,
+        "usage": 0.25
+      },
+      {
+        "id": 358,
+        "usage": 0.125
+      },
+      {
+        "id": 531,
+        "usage": 0.125
       }
     ],
     "tera_types": [],

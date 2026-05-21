@@ -3,8 +3,8 @@
   "name": "Pinsir",
   "form": null,
   "competitive": {
-    "usage_rank": 127,
-    "usage_rate": 0.0017000000000000001,
+    "usage_rank": 152,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
@@ -13,31 +13,39 @@
       },
       {
         "id": 182,
-        "usage": 0.75
-      },
-      {
-        "id": 98,
-        "usage": 0.75
-      },
-      {
-        "id": 89,
-        "usage": 0.5
+        "usage": 0.8
       },
       {
         "id": 364,
-        "usage": 0.25
+        "usage": 0.5
+      },
+      {
+        "id": 370,
+        "usage": 0.5
+      },
+      {
+        "id": 98,
+        "usage": 0.4
       },
       {
         "id": 679,
-        "usage": 0.25
+        "usage": 0.2
+      },
+      {
+        "id": 89,
+        "usage": 0.2
       },
       {
         "id": 667,
-        "usage": 0.25
+        "usage": 0.1
       },
       {
         "id": 197,
-        "usage": 0.25
+        "usage": 0.1
+      },
+      {
+        "id": 157,
+        "usage": 0.1
       }
     ],
     "items": [
@@ -48,42 +56,42 @@
     ],
     "abilities": [
       {
-        "id": 184,
-        "usage": 0.5
+        "id": 52,
+        "usage": 0.6
       },
       {
-        "id": 52,
-        "usage": 0.25
+        "id": 184,
+        "usage": 0.3
       },
       {
         "id": 104,
-        "usage": 0.25
+        "usage": 0.1
       }
     ],
     "teammates": [
       {
-        "id": 900,
-        "usage": 0.75
-      },
-      {
-        "id": 752,
-        "usage": 0.75
-      },
-      {
-        "id": 666,
-        "usage": 0.75
+        "id": 902,
+        "usage": 0.4
       },
       {
         "id": 637,
-        "usage": 0.75
+        "usage": 0.4
       },
       {
-        "id": 212,
-        "usage": 0.75
+        "id": 445,
+        "usage": 0.3
       },
       {
-        "id": 10248,
-        "usage": 0.25
+        "id": 900,
+        "usage": 0.3
+      },
+      {
+        "id": 752,
+        "usage": 0.3
+      },
+      {
+        "id": 666,
+        "usage": 0.3
       }
     ],
     "tera_types": [],

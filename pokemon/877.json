@@ -3,8 +3,8 @@
   "name": "Morpeko",
   "form": null,
   "competitive": {
-    "usage_rank": 153,
-    "usage_rate": 0.0008,
+    "usage_rank": 168,
+    "usage_rate": 0.0005,
     "win_rate": null,
     "moves": [
       {
@@ -13,29 +13,53 @@
       },
       {
         "id": 252,
-        "usage": 1.0
-      },
-      {
-        "id": 282,
-        "usage": 1.0
-      },
-      {
-        "id": 706,
-        "usage": 0.5
+        "usage": 0.71429
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.57143
+      },
+      {
+        "id": 282,
+        "usage": 0.42857
+      },
+      {
+        "id": 575,
+        "usage": 0.28571
+      },
+      {
+        "id": 706,
+        "usage": 0.14286
+      },
+      {
+        "id": 226,
+        "usage": 0.14286
+      },
+      {
+        "id": 269,
+        "usage": 0.14286
+      },
+      {
+        "id": 527,
+        "usage": 0.14286
+      },
+      {
+        "id": 200,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.5
+        "usage": 0.71429
       },
       {
         "id": 196,
-        "usage": 0.5
+        "usage": 0.14286
+      },
+      {
+        "id": 264,
+        "usage": 0.14286
       }
     ],
     "abilities": [
@@ -47,27 +71,27 @@
     "teammates": [
       {
         "id": 142,
-        "usage": 0.5
-      },
-      {
-        "id": 763,
-        "usage": 0.5
-      },
-      {
-        "id": 350,
-        "usage": 0.5
+        "usage": 0.57143
       },
       {
         "id": 903,
-        "usage": 0.5
+        "usage": 0.42857
       },
       {
-        "id": 392,
-        "usage": 0.5
+        "id": 350,
+        "usage": 0.28571
       },
       {
-        "id": 700,
-        "usage": 0.5
+        "id": 730,
+        "usage": 0.28571
+      },
+      {
+        "id": 727,
+        "usage": 0.28571
+      },
+      {
+        "id": 478,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

@@ -1,60 +1,60 @@
 {
-  "dex_id": 10243,
-  "name": "Avalugg-Hisui",
+  "dex_id": 855,
+  "name": "Polteageist",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
-    "usage_rate": 0.0008,
+    "usage_rank": 194,
+    "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 444,
+        "id": 247,
         "usage": 1.0
       },
       {
-        "id": 836,
+        "id": 668,
         "usage": 1.0
       },
       {
-        "id": 776,
+        "id": 597,
         "usage": 1.0
       },
       {
-        "id": 469,
+        "id": 433,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 135,
+        "id": 211,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 5,
+        "id": 130,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 6,
+        "id": 248,
         "usage": 1.0
       },
       {
-        "id": 530,
+        "id": 681,
         "usage": 1.0
       },
       {
-        "id": 887,
+        "id": 306,
         "usage": 1.0
       },
       {
-        "id": 730,
+        "id": 784,
         "usage": 1.0
       },
       {
-        "id": 115,
+        "id": 142,
         "usage": 1.0
       }
     ],

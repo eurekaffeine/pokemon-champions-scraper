@@ -3,75 +3,103 @@
   "name": "Luxray",
   "form": null,
   "competitive": {
-    "usage_rank": 166,
-    "usage_rate": 0.0008,
+    "usage_rank": 132,
+    "usage_rate": 0.0013,
     "win_rate": null,
     "moves": [
       {
         "id": 521,
-        "usage": 1.0
+        "usage": 0.82353
       },
       {
         "id": 555,
-        "usage": 1.0
+        "usage": 0.58824
       },
       {
-        "id": 527,
-        "usage": 0.5
+        "id": 706,
+        "usage": 0.47058999999999995
       },
       {
-        "id": 608,
-        "usage": 0.5
+        "id": 276,
+        "usage": 0.35294
+      },
+      {
+        "id": 528,
+        "usage": 0.29412
       },
       {
         "id": 270,
-        "usage": 0.5
+        "usage": 0.23529
+      },
+      {
+        "id": 916,
+        "usage": 0.23529
+      },
+      {
+        "id": 608,
+        "usage": 0.17647
       },
       {
         "id": 85,
-        "usage": 0.5
+        "usage": 0.17647
+      },
+      {
+        "id": 86,
+        "usage": 0.17647
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.5
+        "usage": 0.52941
       },
       {
         "id": 219,
-        "usage": 0.5
+        "usage": 0.17647
+      },
+      {
+        "id": 264,
+        "usage": 0.17647
+      },
+      {
+        "id": 252,
+        "usage": 0.05882
       }
     ],
     "abilities": [
       {
         "id": 22,
-        "usage": 1.0
+        "usage": 0.9411799999999999
+      },
+      {
+        "id": 62,
+        "usage": 0.05882
       }
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 1.0
-      },
-      {
-        "id": 609,
-        "usage": 0.5
+        "id": 350,
+        "usage": 0.52941
       },
       {
         "id": 212,
-        "usage": 0.5
+        "usage": 0.35294
       },
       {
-        "id": 350,
-        "usage": 0.5
-      },
-      {
-        "id": 700,
-        "usage": 0.5
+        "id": 981,
+        "usage": 0.29412
       },
       {
         "id": 1013,
-        "usage": 0.5
+        "usage": 0.29412
+      },
+      {
+        "id": 903,
+        "usage": 0.29412
+      },
+      {
+        "id": 3,
+        "usage": 0.17647
       }
     ],
     "tera_types": [],
