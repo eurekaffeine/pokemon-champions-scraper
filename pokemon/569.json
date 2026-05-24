@@ -3,8 +3,8 @@
   "name": "Garbodor",
   "form": null,
   "competitive": {
-    "usage_rank": 175,
-    "usage_rate": 0.0005,
+    "usage_rank": 153,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
@@ -12,32 +12,40 @@
         "usage": 0.83333
       },
       {
-        "id": 153,
+        "id": 441,
         "usage": 0.16667
       },
       {
-        "id": 390,
+        "id": 707,
         "usage": 0.16667
       },
       {
-        "id": 254,
+        "id": 409,
         "usage": 0.16667
       },
       {
-        "id": 499,
+        "id": 182,
         "usage": 0.16667
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 1.0
+        "usage": 0.83333
+      },
+      {
+        "id": 191,
+        "usage": 0.16667
       }
     ],
     "abilities": [
       {
         "id": 1,
-        "usage": 1.0
+        "usage": 0.83333
+      },
+      {
+        "id": 133,
+        "usage": 0.16667
       }
     ],
     "teammates": [
@@ -62,7 +70,7 @@
         "usage": 0.83333
       },
       {
-        "id": 530,
+        "id": 160,
         "usage": 0.16667
       }
     ],

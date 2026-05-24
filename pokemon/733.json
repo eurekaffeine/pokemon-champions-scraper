@@ -3,103 +3,71 @@
   "name": "Toucannon",
   "form": null,
   "competitive": {
-    "usage_rank": 171,
-    "usage_rate": 0.0005,
+    "usage_rank": 184,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
         "id": 331,
-        "usage": 0.85714
+        "usage": 1.0
       },
       {
         "id": 690,
-        "usage": 0.85714
+        "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 0.57143
-      },
-      {
-        "id": 350,
-        "usage": 0.57143
-      },
-      {
-        "id": 413,
-        "usage": 0.42857
+        "usage": 1.0
       },
       {
         "id": 675,
-        "usage": 0.14286
+        "usage": 0.5
       },
       {
-        "id": 369,
-        "usage": 0.14286
-      },
-      {
-        "id": 366,
-        "usage": 0.14286
-      },
-      {
-        "id": 512,
-        "usage": 0.14286
-      },
-      {
-        "id": 403,
-        "usage": 0.14286
+        "id": 350,
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.28571
-      },
-      {
-        "id": 221,
-        "usage": 0.28571
+        "usage": 0.5
       },
       {
         "id": 191,
-        "usage": 0.14286
-      },
-      {
-        "id": 264,
-        "usage": 0.14286
+        "usage": 0.5
       }
     ],
     "abilities": [
       {
         "id": 92,
-        "usage": 0.85714
-      },
-      {
-        "id": 51,
-        "usage": 0.14286
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
         "id": 903,
-        "usage": 0.42857
-      },
-      {
-        "id": 981,
-        "usage": 0.28571
-      },
-      {
-        "id": 428,
-        "usage": 0.28571
-      },
-      {
-        "id": 18,
-        "usage": 0.28571
+        "usage": 0.5
       },
       {
         "id": 130,
-        "usage": 0.14286
+        "usage": 0.5
       },
       {
         "id": 952,
-        "usage": 0.14286
+        "usage": 0.5
+      },
+      {
+        "id": 637,
+        "usage": 0.5
+      },
+      {
+        "id": 681,
+        "usage": 0.5
+      },
+      {
+        "id": 763,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

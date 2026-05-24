@@ -3,7 +3,7 @@
   "name": "Aromatisse",
   "form": null,
   "competitive": {
-    "usage_rank": 163,
+    "usage_rank": 167,
     "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
@@ -13,57 +13,45 @@
       },
       {
         "id": 270,
-        "usage": 0.875
+        "usage": 0.5
       },
       {
         "id": 585,
-        "usage": 0.75
+        "usage": 0.5
       },
       {
         "id": 505,
-        "usage": 0.375
+        "usage": 0.5
+      },
+      {
+        "id": 227,
+        "usage": 0.5
+      },
+      {
+        "id": 204,
+        "usage": 0.25
       },
       {
         "id": 605,
         "usage": 0.25
       },
       {
-        "id": 502,
+        "id": 182,
         "usage": 0.25
       },
       {
-        "id": 204,
-        "usage": 0.125
-      },
-      {
-        "id": 227,
-        "usage": 0.125
-      },
-      {
         "id": 241,
-        "usage": 0.125
-      },
-      {
-        "id": 182,
-        "usage": 0.125
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.375
-      },
-      {
-        "id": 211,
-        "usage": 0.375
+        "usage": 0.75
       },
       {
         "id": 176,
-        "usage": 0.125
-      },
-      {
-        "id": 134,
-        "usage": 0.125
+        "usage": 0.25
       }
     ],
     "abilities": [
@@ -78,8 +66,8 @@
         "usage": 0.5
       },
       {
-        "id": 475,
-        "usage": 0.375
+        "id": 842,
+        "usage": 0.25
       },
       {
         "id": 740,
@@ -90,11 +78,11 @@
         "usage": 0.25
       },
       {
-        "id": 9,
+        "id": 858,
         "usage": 0.25
       },
       {
-        "id": 143,
+        "id": 9,
         "usage": 0.25
       }
     ],

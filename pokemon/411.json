@@ -3,103 +3,83 @@
   "name": "Bastiodon",
   "form": null,
   "competitive": {
-    "usage_rank": 141,
-    "usage_rate": 0.0009,
+    "usage_rank": 161,
+    "usage_rate": 0.0007000000000000001,
     "win_rate": null,
     "moves": [
       {
         "id": 776,
-        "usage": 0.91667
-      },
-      {
-        "id": 334,
-        "usage": 0.66667
+        "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 0.66667
+        "usage": 1.0
       },
       {
         "id": 492,
-        "usage": 0.58333
+        "usage": 0.8
+      },
+      {
+        "id": 334,
+        "usage": 0.4
       },
       {
         "id": 469,
-        "usage": 0.58333
+        "usage": 0.4
       },
       {
         "id": 444,
-        "usage": 0.08333
+        "usage": 0.2
       },
       {
         "id": 335,
-        "usage": 0.08333
-      },
-      {
-        "id": 484,
-        "usage": 0.08333
-      },
-      {
-        "id": 319,
-        "usage": 0.08333
-      },
-      {
-        "id": 179,
-        "usage": 0.08333
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.58333
+        "usage": 0.6
       },
       {
         "id": 135,
-        "usage": 0.25
-      },
-      {
-        "id": 196,
-        "usage": 0.08333
-      },
-      {
-        "id": 166,
-        "usage": 0.08333
+        "usage": 0.4
       }
     ],
     "abilities": [
       {
         "id": 43,
-        "usage": 0.5
+        "usage": 0.6
       },
       {
         "id": 5,
-        "usage": 0.5
+        "usage": 0.4
       }
     ],
     "teammates": [
       {
-        "id": 10009,
-        "usage": 0.5
+        "id": 478,
+        "usage": 0.4
       },
       {
         "id": 903,
-        "usage": 0.41667000000000004
+        "usage": 0.4
       },
       {
         "id": 445,
-        "usage": 0.41667000000000004
-      },
-      {
-        "id": 478,
-        "usage": 0.33332999999999996
+        "usage": 0.4
       },
       {
         "id": 937,
-        "usage": 0.33332999999999996
+        "usage": 0.4
       },
       {
-        "id": 780,
-        "usage": 0.25
+        "id": 10009,
+        "usage": 0.4
+      },
+      {
+        "id": 765,
+        "usage": 0.4
       }
     ],
     "tera_types": [],

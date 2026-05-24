@@ -3,107 +3,99 @@
   "name": "Goodra",
   "form": null,
   "competitive": {
-    "usage_rank": 153,
-    "usage_rate": 0.0008,
+    "usage_rank": 147,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
-        "id": 434,
-        "usage": 0.8
-      },
-      {
         "id": 151,
-        "usage": 0.7
+        "usage": 0.875
       },
       {
         "id": 776,
-        "usage": 0.7
+        "usage": 0.875
+      },
+      {
+        "id": 434,
+        "usage": 0.75
       },
       {
         "id": 156,
-        "usage": 0.5
-      },
-      {
-        "id": 182,
-        "usage": 0.3
+        "usage": 0.625
       },
       {
         "id": 406,
-        "usage": 0.2
+        "usage": 0.25
       },
       {
         "id": 791,
-        "usage": 0.2
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.125
       },
       {
         "id": 311,
-        "usage": 0.1
+        "usage": 0.125
       },
       {
         "id": 503,
-        "usage": 0.1
-      },
-      {
-        "id": 53,
-        "usage": 0.1
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.5
+        "usage": 0.625
       },
       {
         "id": 135,
-        "usage": 0.3
+        "usage": 0.25
       },
       {
         "id": 174,
-        "usage": 0.1
-      },
-      {
-        "id": 226,
-        "usage": 0.1
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 93,
-        "usage": 0.5
-      },
-      {
-        "id": 157,
-        "usage": 0.3
+        "usage": 0.625
       },
       {
         "id": 183,
-        "usage": 0.2
+        "usage": 0.25
+      },
+      {
+        "id": 157,
+        "usage": 0.125
       }
     ],
     "teammates": [
       {
         "id": 902,
-        "usage": 0.8
+        "usage": 1.0
       },
       {
         "id": 279,
-        "usage": 0.5
+        "usage": 0.625
       },
       {
         "id": 1018,
-        "usage": 0.5
+        "usage": 0.625
       },
       {
         "id": 142,
-        "usage": 0.5
+        "usage": 0.625
       },
       {
         "id": 154,
-        "usage": 0.5
+        "usage": 0.625
       },
       {
         "id": 952,
-        "usage": 0.2
+        "usage": 0.25
       }
     ],
     "tera_types": [],
