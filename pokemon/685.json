@@ -1,48 +1,52 @@
 {
-  "dex_id": 579,
-  "name": "Reuniclus",
+  "dex_id": 685,
+  "name": "Slurpuff",
   "form": null,
   "competitive": {
-    "usage_rank": 191,
+    "usage_rank": 189,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 94,
-        "usage": 1.0
-      },
-      {
-        "id": 433,
-        "usage": 1.0
-      },
-      {
-        "id": 240,
+        "id": 605,
         "usage": 1.0
       },
       {
         "id": 182,
         "usage": 1.0
+      },
+      {
+        "id": 495,
+        "usage": 1.0
+      },
+      {
+        "id": 270,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 175,
+        "id": 135,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 144,
+        "id": 84,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 160,
+        "id": 534,
         "usage": 1.0
       },
       {
-        "id": 727,
+        "id": 655,
+        "usage": 1.0
+      },
+      {
+        "id": 473,
         "usage": 1.0
       },
       {
@@ -50,11 +54,7 @@
         "usage": 1.0
       },
       {
-        "id": 983,
-        "usage": 1.0
-      },
-      {
-        "id": 324,
+        "id": 10236,
         "usage": 1.0
       }
     ],

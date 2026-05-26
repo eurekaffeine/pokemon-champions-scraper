@@ -3,7 +3,7 @@
   "name": "Pinsir",
   "form": null,
   "competitive": {
-    "usage_rank": 150,
+    "usage_rank": 152,
     "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
@@ -12,24 +12,28 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.85714
+        "id": 98,
+        "usage": 0.71429
       },
       {
-        "id": 98,
-        "usage": 0.57143
+        "id": 182,
+        "usage": 0.71429
       },
       {
         "id": 89,
         "usage": 0.42857
       },
       {
-        "id": 364,
-        "usage": 0.42857
+        "id": 197,
+        "usage": 0.28571
       },
       {
-        "id": 370,
+        "id": 364,
         "usage": 0.28571
+      },
+      {
+        "id": 263,
+        "usage": 0.14286
       },
       {
         "id": 679,
@@ -40,7 +44,7 @@
         "usage": 0.14286
       },
       {
-        "id": 197,
+        "id": 370,
         "usage": 0.14286
       }
     ],

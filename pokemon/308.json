@@ -3,59 +3,59 @@
   "name": "Medicham",
   "form": null,
   "competitive": {
-    "usage_rank": 115,
-    "usage_rate": 0.0023,
+    "usage_rank": 129,
+    "usage_rate": 0.002,
     "win_rate": null,
     "moves": [
       {
         "id": 252,
-        "usage": 0.9375
+        "usage": 0.92857
       },
       {
         "id": 370,
-        "usage": 0.6875
+        "usage": 0.71429
       },
       {
         "id": 157,
-        "usage": 0.4375
+        "usage": 0.42857
       },
       {
         "id": 364,
-        "usage": 0.3125
+        "usage": 0.35714
       },
       {
         "id": 428,
-        "usage": 0.25
+        "usage": 0.28571
       },
       {
         "id": 427,
-        "usage": 0.25
-      },
-      {
-        "id": 182,
-        "usage": 0.1875
-      },
-      {
-        "id": 8,
-        "usage": 0.1875
+        "usage": 0.21428999999999998
       },
       {
         "id": 853,
-        "usage": 0.1875
+        "usage": 0.21428999999999998
       },
       {
         "id": 418,
-        "usage": 0.125
+        "usage": 0.14286
+      },
+      {
+        "id": 182,
+        "usage": 0.14286
+      },
+      {
+        "id": 8,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 704,
-        "usage": 0.9375
+        "usage": 0.92857
       },
       {
         "id": 252,
-        "usage": 0.0625
+        "usage": 0.07143
       }
     ],
     "abilities": [
@@ -67,27 +67,27 @@
     "teammates": [
       {
         "id": 981,
-        "usage": 0.6875
+        "usage": 0.78571
       },
       {
         "id": 983,
-        "usage": 0.5625
+        "usage": 0.64286
       },
       {
         "id": 727,
-        "usage": 0.4375
+        "usage": 0.42857
       },
       {
         "id": 858,
-        "usage": 0.3125
+        "usage": 0.35714
       },
       {
         "id": 324,
-        "usage": 0.3125
+        "usage": 0.35714
       },
       {
         "id": 547,
-        "usage": 0.1875
+        "usage": 0.21428999999999998
       }
     ],
     "tera_types": [],

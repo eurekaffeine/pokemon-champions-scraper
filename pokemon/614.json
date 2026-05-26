@@ -3,16 +3,12 @@
   "name": "Beartic",
   "form": null,
   "competitive": {
-    "usage_rank": 189,
-    "usage_rate": 0.0001,
+    "usage_rank": 170,
+    "usage_rate": 0.0004,
     "win_rate": null,
     "moves": [
       {
-        "id": 556,
-        "usage": 1.0
-      },
-      {
-        "id": 182,
+        "id": 710,
         "usage": 1.0
       },
       {
@@ -20,42 +16,70 @@
         "usage": 1.0
       },
       {
-        "id": 710,
-        "usage": 1.0
+        "id": 556,
+        "usage": 0.66667
+      },
+      {
+        "id": 182,
+        "usage": 0.66667
+      },
+      {
+        "id": 196,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 89,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
         "id": 223,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 252,
+        "usage": 0.33332999999999996
       }
     ],
     "abilities": [
       {
+        "id": 81,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 202,
+        "usage": 0.33332999999999996
+      },
+      {
         "id": 33,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
         "id": 186,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 181,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 160,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 858,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 461,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 952,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

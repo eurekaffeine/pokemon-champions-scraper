@@ -3,111 +3,111 @@
   "name": "Goodra-Hisui",
   "form": null,
   "competitive": {
-    "usage_rank": 111,
-    "usage_rate": 0.0026,
+    "usage_rank": 109,
+    "usage_rate": 0.0029,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.77778
+        "usage": 0.8
       },
       {
         "id": 842,
-        "usage": 0.66667
+        "usage": 0.65
       },
       {
         "id": 776,
-        "usage": 0.66667
+        "usage": 0.6
       },
       {
         "id": 85,
-        "usage": 0.33332999999999996
+        "usage": 0.35
       },
       {
         "id": 430,
-        "usage": 0.27777999999999997
-      },
-      {
-        "id": 484,
-        "usage": 0.22222
-      },
-      {
-        "id": 791,
-        "usage": 0.16667
+        "usage": 0.3
       },
       {
         "id": 434,
-        "usage": 0.16667
+        "usage": 0.2
+      },
+      {
+        "id": 791,
+        "usage": 0.2
+      },
+      {
+        "id": 484,
+        "usage": 0.2
+      },
+      {
+        "id": 406,
+        "usage": 0.1
       },
       {
         "id": 442,
-        "usage": 0.11111
-      },
-      {
-        "id": 360,
-        "usage": 0.11111
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.77778
-      },
-      {
-        "id": 230,
-        "usage": 0.05556
-      },
-      {
-        "id": 168,
-        "usage": 0.05556
+        "usage": 0.75
       },
       {
         "id": 166,
-        "usage": 0.05556
+        "usage": 0.1
+      },
+      {
+        "id": 230,
+        "usage": 0.05
+      },
+      {
+        "id": 168,
+        "usage": 0.05
       },
       {
         "id": 210,
-        "usage": 0.05556
+        "usage": 0.05
       }
     ],
     "abilities": [
       {
         "id": 75,
-        "usage": 0.66667
+        "usage": 0.65
       },
       {
         "id": 183,
-        "usage": 0.27777999999999997
+        "usage": 0.3
       },
       {
         "id": 157,
-        "usage": 0.05556
+        "usage": 0.05
       }
     ],
     "teammates": [
       {
         "id": 727,
-        "usage": 0.33332999999999996
+        "usage": 0.3
       },
       {
         "id": 902,
-        "usage": 0.27777999999999997
+        "usage": 0.25
       },
       {
         "id": 903,
-        "usage": 0.22222
+        "usage": 0.2
       },
       {
         "id": 952,
-        "usage": 0.22222
+        "usage": 0.2
       },
       {
         "id": 142,
-        "usage": 0.22222
+        "usage": 0.2
       },
       {
         "id": 478,
-        "usage": 0.22222
+        "usage": 0.2
       }
     ],
     "tera_types": [],

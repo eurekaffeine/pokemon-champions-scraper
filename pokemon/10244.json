@@ -3,79 +3,79 @@
   "name": "Decidueye-Hisui",
   "form": null,
   "competitive": {
-    "usage_rank": 113,
-    "usage_rate": 0.0026,
+    "usage_rank": 107,
+    "usage_rate": 0.0029,
     "win_rate": null,
     "moves": [
       {
         "id": 843,
-        "usage": 0.9444400000000001
+        "usage": 0.95
       },
       {
         "id": 348,
-        "usage": 0.88889
+        "usage": 0.95
       },
       {
         "id": 182,
-        "usage": 0.77778
+        "usage": 0.85
       },
       {
         "id": 389,
-        "usage": 0.44444
+        "usage": 0.5
       },
       {
         "id": 425,
-        "usage": 0.22222
+        "usage": 0.2
       },
       {
         "id": 413,
-        "usage": 0.16667
+        "usage": 0.15
       },
       {
         "id": 366,
-        "usage": 0.16667
-      },
-      {
-        "id": 918,
-        "usage": 0.11111
+        "usage": 0.1
       },
       {
         "id": 369,
-        "usage": 0.11111
+        "usage": 0.1
       },
       {
         "id": 280,
-        "usage": 0.05556
+        "usage": 0.05
+      },
+      {
+        "id": 918,
+        "usage": 0.05
       }
     ],
     "items": [
       {
         "id": 209,
-        "usage": 0.44444
+        "usage": 0.4
       },
       {
         "id": 252,
-        "usage": 0.22222
+        "usage": 0.3
       },
       {
         "id": 218,
-        "usage": 0.11111
-      },
-      {
-        "id": 135,
-        "usage": 0.05556
-      },
-      {
-        "id": 169,
-        "usage": 0.05556
-      },
-      {
-        "id": 264,
-        "usage": 0.05556
+        "usage": 0.1
       },
       {
         "id": 194,
-        "usage": 0.05556
+        "usage": 0.05
+      },
+      {
+        "id": 135,
+        "usage": 0.05
+      },
+      {
+        "id": 169,
+        "usage": 0.05
+      },
+      {
+        "id": 264,
+        "usage": 0.05
       }
     ],
     "abilities": [
@@ -87,27 +87,27 @@
     "teammates": [
       {
         "id": 981,
-        "usage": 0.44444
-      },
-      {
-        "id": 212,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 902,
-        "usage": 0.22222
+        "usage": 0.5
       },
       {
         "id": 730,
-        "usage": 0.22222
+        "usage": 0.3
+      },
+      {
+        "id": 212,
+        "usage": 0.3
       },
       {
         "id": 10233,
-        "usage": 0.22222
+        "usage": 0.25
       },
       {
-        "id": 181,
-        "usage": 0.16667
+        "id": 983,
+        "usage": 0.2
+      },
+      {
+        "id": 902,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

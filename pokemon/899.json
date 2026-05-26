@@ -3,7 +3,7 @@
   "name": "Wyrdeer",
   "form": null,
   "competitive": {
-    "usage_rank": 138,
+    "usage_rank": 136,
     "usage_rate": 0.0015,
     "win_rate": null,
     "moves": [
@@ -12,11 +12,11 @@
         "usage": 0.7
       },
       {
-        "id": 828,
-        "usage": 0.6
+        "id": 285,
+        "usage": 0.5
       },
       {
-        "id": 285,
+        "id": 828,
         "usage": 0.5
       },
       {
@@ -28,12 +28,16 @@
         "usage": 0.4
       },
       {
-        "id": 182,
-        "usage": 0.4
+        "id": 414,
+        "usage": 0.3
       },
       {
-        "id": 414,
-        "usage": 0.2
+        "id": 182,
+        "usage": 0.3
+      },
+      {
+        "id": 94,
+        "usage": 0.1
       },
       {
         "id": 50,
@@ -42,16 +46,12 @@
       {
         "id": 473,
         "usage": 0.1
-      },
-      {
-        "id": 917,
-        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.4
+        "usage": 0.5
       },
       {
         "id": 175,
@@ -63,10 +63,6 @@
       },
       {
         "id": 211,
-        "usage": 0.1
-      },
-      {
-        "id": 190,
         "usage": 0.1
       }
     ],

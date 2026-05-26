@@ -3,8 +3,8 @@
   "name": "Sharpedo",
   "form": null,
   "competitive": {
-    "usage_rank": 118,
-    "usage_rate": 0.0022,
+    "usage_rank": 127,
+    "usage_rate": 0.002,
     "win_rate": null,
     "moves": [
       {
@@ -17,27 +17,27 @@
       },
       {
         "id": 706,
-        "usage": 0.8
+        "usage": 0.78571
       },
       {
         "id": 423,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 370,
-        "usage": 0.2
+        "usage": 0.21428999999999998
       },
       {
         "id": 164,
-        "usage": 0.2
+        "usage": 0.21428999999999998
       },
       {
         "id": 710,
-        "usage": 0.13333
+        "usage": 0.14286
       },
       {
         "id": 127,
-        "usage": 0.06667
+        "usage": 0.07143
       }
     ],
     "items": [
@@ -49,37 +49,37 @@
     "abilities": [
       {
         "id": 3,
-        "usage": 0.86667
+        "usage": 0.85714
       },
       {
         "id": 24,
-        "usage": 0.13333
+        "usage": 0.14286
       }
     ],
     "teammates": [
       {
         "id": 903,
-        "usage": 0.8
+        "usage": 0.85714
       },
       {
         "id": 10008,
-        "usage": 0.33332999999999996
+        "usage": 0.35714
       },
       {
         "id": 1013,
-        "usage": 0.26667
+        "usage": 0.28571
       },
       {
         "id": 823,
-        "usage": 0.26667
+        "usage": 0.28571
       },
       {
         "id": 350,
-        "usage": 0.26667
+        "usage": 0.28571
       },
       {
         "id": 445,
-        "usage": 0.26667
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

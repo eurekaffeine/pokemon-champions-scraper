@@ -3,59 +3,59 @@
   "name": "Orthworm",
   "form": null,
   "competitive": {
-    "usage_rank": 99,
-    "usage_rate": 0.0036,
+    "usage_rank": 95,
+    "usage_rate": 0.0039000000000000003,
     "win_rate": null,
     "moves": [
       {
         "id": 880,
-        "usage": 0.92
+        "usage": 0.92593
       },
       {
         "id": 776,
-        "usage": 0.84
+        "usage": 0.85185
       },
       {
         "id": 484,
-        "usage": 0.8
+        "usage": 0.8148099999999999
       },
       {
         "id": 334,
-        "usage": 0.52
+        "usage": 0.51852
       },
       {
         "id": 182,
-        "usage": 0.48
+        "usage": 0.48148
       },
       {
         "id": 442,
-        "usage": 0.16
+        "usage": 0.14815
       },
       {
         "id": 270,
-        "usage": 0.12
+        "usage": 0.11111
       },
       {
         "id": 157,
-        "usage": 0.12
+        "usage": 0.11111
       },
       {
         "id": 34,
-        "usage": 0.04
+        "usage": 0.037040000000000003
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.84
+        "usage": 0.85185
       },
       {
         "id": 211,
-        "usage": 0.08
+        "usage": 0.07407
       },
       {
         "id": 194,
-        "usage": 0.08
+        "usage": 0.07407
       }
     ],
     "abilities": [
@@ -67,27 +67,27 @@
     "teammates": [
       {
         "id": 445,
-        "usage": 0.88
+        "usage": 0.85185
       },
       {
         "id": 727,
-        "usage": 0.4
+        "usage": 0.40741
       },
       {
         "id": 902,
-        "usage": 0.36
+        "usage": 0.33332999999999996
       },
       {
         "id": 903,
-        "usage": 0.36
+        "usage": 0.33332999999999996
       },
       {
         "id": 478,
-        "usage": 0.32
+        "usage": 0.2963
       },
       {
         "id": 10010,
-        "usage": 0.24
+        "usage": 0.22222
       }
     ],
     "tera_types": [],
