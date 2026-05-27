@@ -3,8 +3,8 @@
   "name": "Ditto",
   "form": null,
   "competitive": {
-    "usage_rank": 118,
-    "usage_rate": 0.0025,
+    "usage_rank": 115,
+    "usage_rate": 0.0026,
     "win_rate": null,
     "moves": [
       {
@@ -15,59 +15,59 @@
     "items": [
       {
         "id": 264,
-        "usage": 0.58824
+        "usage": 0.5555599999999999
       },
       {
         "id": 252,
-        "usage": 0.23529
+        "usage": 0.22222
       },
       {
         "id": 194,
-        "usage": 0.05882
+        "usage": 0.11111
       },
       {
         "id": 190,
-        "usage": 0.05882
+        "usage": 0.05556
       },
       {
         "id": 135,
-        "usage": 0.05882
+        "usage": 0.05556
       }
     ],
     "abilities": [
       {
         "id": 150,
-        "usage": 0.6470600000000001
+        "usage": 0.66667
       },
       {
         "id": 7,
-        "usage": 0.35294
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
         "id": 778,
-        "usage": 0.41176
+        "usage": 0.38889
       },
       {
         "id": 10239,
-        "usage": 0.35294
+        "usage": 0.33332999999999996
       },
       {
         "id": 569,
-        "usage": 0.29412
+        "usage": 0.27777999999999997
       },
       {
         "id": 911,
-        "usage": 0.29412
+        "usage": 0.27777999999999997
       },
       {
         "id": 24,
-        "usage": 0.29412
+        "usage": 0.27777999999999997
       },
       {
-        "id": 324,
-        "usage": 0.23529
+        "id": 730,
+        "usage": 0.22222
       }
     ],
     "tera_types": [],

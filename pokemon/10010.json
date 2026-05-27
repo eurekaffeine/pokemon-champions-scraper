@@ -3,8 +3,8 @@
   "name": "Rotom-Frost",
   "form": null,
   "competitive": {
-    "usage_rank": 117,
-    "usage_rate": 0.0025,
+    "usage_rank": 125,
+    "usage_rate": 0.0022,
     "win_rate": null,
     "moves": [
       {
@@ -13,49 +13,49 @@
       },
       {
         "id": 85,
-        "usage": 0.9411799999999999
+        "usage": 0.93333
       },
       {
         "id": 182,
-        "usage": 0.6470600000000001
+        "usage": 0.66667
       },
       {
         "id": 521,
-        "usage": 0.47058999999999995
+        "usage": 0.46667000000000003
       },
       {
         "id": 270,
-        "usage": 0.41176
+        "usage": 0.4
       },
       {
         "id": 527,
-        "usage": 0.41176
+        "usage": 0.4
       },
       {
         "id": 247,
-        "usage": 0.05882
+        "usage": 0.06667
       },
       {
         "id": 261,
-        "usage": 0.05882
+        "usage": 0.06667
       }
     ],
     "items": [
       {
         "id": 223,
-        "usage": 0.52941
+        "usage": 0.53333
       },
       {
         "id": 264,
-        "usage": 0.35294
+        "usage": 0.33332999999999996
       },
       {
         "id": 135,
-        "usage": 0.05882
+        "usage": 0.06667
       },
       {
         "id": 219,
-        "usage": 0.05882
+        "usage": 0.06667
       }
     ],
     "abilities": [
@@ -67,27 +67,27 @@
     "teammates": [
       {
         "id": 478,
-        "usage": 0.82353
+        "usage": 0.8
       },
       {
         "id": 445,
-        "usage": 0.82353
+        "usage": 0.8
       },
       {
         "id": 727,
-        "usage": 0.6470600000000001
+        "usage": 0.66667
       },
       {
         "id": 902,
-        "usage": 0.41176
-      },
-      {
-        "id": 968,
-        "usage": 0.35294
+        "usage": 0.4
       },
       {
         "id": 903,
-        "usage": 0.35294
+        "usage": 0.4
+      },
+      {
+        "id": 968,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

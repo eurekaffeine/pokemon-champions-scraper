@@ -3,73 +3,73 @@
   "name": "Hippowdon",
   "form": null,
   "competitive": {
-    "usage_rank": 125,
-    "usage_rate": 0.002,
+    "usage_rank": 122,
+    "usage_rate": 0.0023,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.92857
-      },
-      {
-        "id": 89,
-        "usage": 0.64286
+        "usage": 0.9375
       },
       {
         "id": 281,
-        "usage": 0.64286
+        "usage": 0.6875
       },
       {
-        "id": 157,
-        "usage": 0.42857
+        "id": 89,
+        "usage": 0.625
       },
       {
         "id": 667,
-        "usage": 0.35714
+        "usage": 0.375
+      },
+      {
+        "id": 157,
+        "usage": 0.375
       },
       {
         "id": 444,
-        "usage": 0.28571
+        "usage": 0.3125
       },
       {
         "id": 90,
-        "usage": 0.14286
+        "usage": 0.125
       },
       {
         "id": 422,
-        "usage": 0.14286
+        "usage": 0.125
+      },
+      {
+        "id": 303,
+        "usage": 0.0625
       },
       {
         "id": 423,
-        "usage": 0.07143
-      },
-      {
-        "id": 46,
-        "usage": 0.07143
+        "usage": 0.0625
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.57143
+        "usage": 0.5625
       },
       {
         "id": 135,
-        "usage": 0.28571
+        "usage": 0.3125
       },
       {
         "id": 214,
-        "usage": 0.14286
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 45,
-        "usage": 0.92857
+        "usage": 0.9375
       },
       {
         "id": 159,
-        "usage": 0.07143
+        "usage": 0.0625
       }
     ],
     "teammates": [
@@ -79,23 +79,23 @@
       },
       {
         "id": 445,
-        "usage": 0.42857
+        "usage": 0.4375
       },
       {
         "id": 823,
-        "usage": 0.35714
-      },
-      {
-        "id": 306,
-        "usage": 0.35714
+        "usage": 0.375
       },
       {
         "id": 745,
-        "usage": 0.28571
+        "usage": 0.3125
       },
       {
         "id": 635,
-        "usage": 0.28571
+        "usage": 0.3125
+      },
+      {
+        "id": 130,
+        "usage": 0.3125
       }
     ],
     "tera_types": [],

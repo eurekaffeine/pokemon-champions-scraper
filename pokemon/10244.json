@@ -3,16 +3,16 @@
   "name": "Decidueye-Hisui",
   "form": null,
   "competitive": {
-    "usage_rank": 107,
+    "usage_rank": 108,
     "usage_rate": 0.0029,
     "win_rate": null,
     "moves": [
       {
-        "id": 843,
+        "id": 348,
         "usage": 0.95
       },
       {
-        "id": 348,
+        "id": 843,
         "usage": 0.95
       },
       {
@@ -90,24 +90,24 @@
         "usage": 0.5
       },
       {
+        "id": 212,
+        "usage": 0.3
+      },
+      {
         "id": 730,
         "usage": 0.3
       },
       {
-        "id": 212,
-        "usage": 0.3
+        "id": 902,
+        "usage": 0.25
       },
       {
         "id": 10233,
         "usage": 0.25
       },
       {
-        "id": 983,
-        "usage": 0.2
-      },
-      {
-        "id": 902,
-        "usage": 0.2
+        "id": 279,
+        "usage": 0.15
       }
     ],
     "tera_types": [],

@@ -3,127 +3,127 @@
   "name": "Ceruledge",
   "form": null,
   "competitive": {
-    "usage_rank": 59,
-    "usage_rate": 0.014499999999999999,
+    "usage_rank": 58,
+    "usage_rate": 0.015,
     "win_rate": null,
     "moves": [
       {
         "id": 891,
-        "usage": 0.98
+        "usage": 0.9805800000000001
       },
       {
         "id": 182,
-        "usage": 0.87
+        "usage": 0.86408
       },
       {
         "id": 425,
-        "usage": 0.84
+        "usage": 0.85437
       },
       {
         "id": 14,
-        "usage": 0.39
+        "usage": 0.39805999999999997
       },
       {
         "id": 809,
-        "usage": 0.36
+        "usage": 0.37864
       },
       {
         "id": 339,
-        "usage": 0.27
+        "usage": 0.27184
       },
       {
         "id": 370,
-        "usage": 0.08
+        "usage": 0.06796
       },
       {
         "id": 566,
-        "usage": 0.07
+        "usage": 0.05825
       },
       {
         "id": 421,
-        "usage": 0.03
+        "usage": 0.02913
       },
       {
         "id": 261,
-        "usage": 0.03
+        "usage": 0.02913
       }
     ],
     "items": [
       {
         "id": 175,
-        "usage": 0.3
+        "usage": 0.31068
       },
       {
         "id": 252,
-        "usage": 0.19
+        "usage": 0.19417
       },
       {
         "id": 211,
-        "usage": 0.13
+        "usage": 0.12621000000000002
       },
       {
         "id": 135,
-        "usage": 0.09
+        "usage": 0.08738
       },
       {
         "id": 226,
-        "usage": 0.06
+        "usage": 0.05825
       },
       {
         "id": 224,
-        "usage": 0.05
+        "usage": 0.04854
       },
       {
         "id": 173,
-        "usage": 0.05
+        "usage": 0.04854
       },
       {
         "id": 191,
-        "usage": 0.03
+        "usage": 0.02913
       },
       {
         "id": 134,
-        "usage": 0.03
+        "usage": 0.02913
       },
       {
         "id": 209,
-        "usage": 0.03
+        "usage": 0.02913
       }
     ],
     "abilities": [
       {
         "id": 18,
-        "usage": 0.94
+        "usage": 0.94175
       },
       {
         "id": 133,
-        "usage": 0.06
+        "usage": 0.05825
       }
     ],
     "teammates": [
       {
         "id": 350,
-        "usage": 0.28
+        "usage": 0.27184
       },
       {
         "id": 903,
-        "usage": 0.22
-      },
-      {
-        "id": 981,
-        "usage": 0.21
+        "usage": 0.24272
       },
       {
         "id": 115,
-        "usage": 0.21
+        "usage": 0.22329999999999997
       },
       {
-        "id": 983,
-        "usage": 0.2
+        "id": 981,
+        "usage": 0.21359000000000003
       },
       {
         "id": 902,
-        "usage": 0.19
+        "usage": 0.19417
+      },
+      {
+        "id": 983,
+        "usage": 0.19417
       }
     ],
     "tera_types": [],

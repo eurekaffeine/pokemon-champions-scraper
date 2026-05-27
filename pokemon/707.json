@@ -3,7 +3,7 @@
   "name": "Klefki",
   "form": null,
   "competitive": {
-    "usage_rank": 96,
+    "usage_rank": 97,
     "usage_rate": 0.0039000000000000003,
     "win_rate": null,
     "moves": [
@@ -106,7 +106,7 @@
         "usage": 0.25926
       },
       {
-        "id": 1013,
+        "id": 26,
         "usage": 0.22222
       }
     ],

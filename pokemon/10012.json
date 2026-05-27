@@ -3,71 +3,71 @@
   "name": "Rotom-Mow",
   "form": null,
   "competitive": {
-    "usage_rank": 85,
-    "usage_rate": 0.0059,
+    "usage_rank": 86,
+    "usage_rate": 0.0058,
     "win_rate": null,
     "moves": [
       {
         "id": 437,
-        "usage": 0.95122
+        "usage": 0.95
       },
       {
         "id": 85,
-        "usage": 0.7561
+        "usage": 0.75
       },
       {
         "id": 521,
-        "usage": 0.65854
+        "usage": 0.7
       },
       {
         "id": 527,
-        "usage": 0.60976
+        "usage": 0.6
       },
       {
         "id": 182,
-        "usage": 0.41463
+        "usage": 0.375
       },
       {
         "id": 261,
-        "usage": 0.31707
+        "usage": 0.325
       },
       {
         "id": 87,
-        "usage": 0.09756000000000001
+        "usage": 0.1
       },
       {
         "id": 271,
-        "usage": 0.09756000000000001
+        "usage": 0.1
       },
       {
         "id": 598,
-        "usage": 0.048780000000000004
+        "usage": 0.05
       },
       {
         "id": 247,
-        "usage": 0.024390000000000002
+        "usage": 0.025
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.56098
+        "usage": 0.6
       },
       {
         "id": 135,
-        "usage": 0.2439
+        "usage": 0.25
       },
       {
         "id": 216,
-        "usage": 0.07317
+        "usage": 0.075
       },
       {
         "id": 167,
-        "usage": 0.07317
+        "usage": 0.05
       },
       {
         "id": 252,
-        "usage": 0.048780000000000004
+        "usage": 0.025
       }
     ],
     "abilities": [
@@ -78,28 +78,28 @@
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.26829000000000003
-      },
-      {
-        "id": 637,
-        "usage": 0.2439
-      },
-      {
         "id": 36,
-        "usage": 0.2439
+        "usage": 0.25
       },
       {
         "id": 902,
-        "usage": 0.21951
+        "usage": 0.225
       },
       {
         "id": 448,
-        "usage": 0.21951
+        "usage": 0.225
+      },
+      {
+        "id": 637,
+        "usage": 0.225
+      },
+      {
+        "id": 445,
+        "usage": 0.225
       },
       {
         "id": 6,
-        "usage": 0.21951
+        "usage": 0.225
       }
     ],
     "tera_types": [],

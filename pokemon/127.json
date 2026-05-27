@@ -3,8 +3,8 @@
   "name": "Pinsir",
   "form": null,
   "competitive": {
-    "usage_rank": 152,
-    "usage_rate": 0.001,
+    "usage_rank": 156,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
@@ -13,39 +13,35 @@
       },
       {
         "id": 98,
-        "usage": 0.71429
+        "usage": 0.83333
       },
       {
         "id": 182,
-        "usage": 0.71429
+        "usage": 0.66667
       },
       {
         "id": 89,
-        "usage": 0.42857
+        "usage": 0.5
       },
       {
         "id": 197,
-        "usage": 0.28571
-      },
-      {
-        "id": 364,
-        "usage": 0.28571
+        "usage": 0.33332999999999996
       },
       {
         "id": 263,
-        "usage": 0.14286
+        "usage": 0.16667
+      },
+      {
+        "id": 364,
+        "usage": 0.16667
       },
       {
         "id": 679,
-        "usage": 0.14286
+        "usage": 0.16667
       },
       {
         "id": 667,
-        "usage": 0.14286
-      },
-      {
-        "id": 370,
-        "usage": 0.14286
+        "usage": 0.16667
       }
     ],
     "items": [
@@ -57,41 +53,41 @@
     "abilities": [
       {
         "id": 184,
-        "usage": 0.57143
+        "usage": 0.5
       },
       {
         "id": 52,
-        "usage": 0.28571
+        "usage": 0.33332999999999996
       },
       {
         "id": 104,
-        "usage": 0.14286
+        "usage": 0.16667
       }
     ],
     "teammates": [
       {
         "id": 637,
-        "usage": 0.57143
+        "usage": 0.66667
       },
       {
         "id": 212,
-        "usage": 0.57143
+        "usage": 0.66667
       },
       {
         "id": 752,
-        "usage": 0.57143
+        "usage": 0.66667
       },
       {
         "id": 900,
-        "usage": 0.57143
+        "usage": 0.66667
       },
       {
         "id": 666,
-        "usage": 0.57143
+        "usage": 0.66667
       },
       {
-        "id": 902,
-        "usage": 0.42857
+        "id": 903,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],
