@@ -3,45 +3,49 @@
   "name": "Liepard",
   "form": null,
   "competitive": {
-    "usage_rank": 169,
-    "usage_rate": 0.0006,
+    "usage_rank": 150,
+    "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
-        "usage": 0.75
-      },
-      {
         "id": 252,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
-        "id": 383,
-        "usage": 0.5
-      },
-      {
-        "id": 282,
-        "usage": 0.5
-      },
-      {
-        "id": 269,
-        "usage": 0.5
-      },
-      {
-        "id": 281,
-        "usage": 0.25
-      },
-      {
-        "id": 227,
-        "usage": 0.25
-      },
-      {
-        "id": 555,
-        "usage": 0.25
+        "id": 182,
+        "usage": 0.6
       },
       {
         "id": 492,
-        "usage": 0.25
+        "usage": 0.4
+      },
+      {
+        "id": 383,
+        "usage": 0.4
+      },
+      {
+        "id": 282,
+        "usage": 0.4
+      },
+      {
+        "id": 269,
+        "usage": 0.4
+      },
+      {
+        "id": 240,
+        "usage": 0.2
+      },
+      {
+        "id": 313,
+        "usage": 0.2
+      },
+      {
+        "id": 281,
+        "usage": 0.2
+      },
+      {
+        "id": 227,
+        "usage": 0.2
       }
     ],
     "items": [
@@ -59,27 +63,27 @@
     "teammates": [
       {
         "id": 350,
-        "usage": 1.0
+        "usage": 0.8
+      },
+      {
+        "id": 445,
+        "usage": 0.4
       },
       {
         "id": 681,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
-        "id": 700,
-        "usage": 0.25
+        "id": 9,
+        "usage": 0.2
       },
       {
-        "id": 142,
-        "usage": 0.25
+        "id": 1013,
+        "usage": 0.2
       },
       {
-        "id": 952,
-        "usage": 0.25
-      },
-      {
-        "id": 478,
-        "usage": 0.25
+        "id": 666,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

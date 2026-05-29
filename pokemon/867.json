@@ -3,67 +3,63 @@
   "name": "Runerigus",
   "form": null,
   "competitive": {
-    "usage_rank": 138,
+    "usage_rank": 133,
     "usage_rate": 0.0015,
     "win_rate": null,
     "moves": [
       {
-        "id": 433,
-        "usage": 0.9
-      },
-      {
         "id": 182,
-        "usage": 0.8
+        "usage": 0.75
       },
       {
         "id": 776,
-        "usage": 0.8
+        "usage": 0.75
       },
       {
-        "id": 261,
-        "usage": 0.4
+        "id": 433,
+        "usage": 0.75
       },
       {
         "id": 334,
-        "usage": 0.4
+        "usage": 0.5
+      },
+      {
+        "id": 261,
+        "usage": 0.375
       },
       {
         "id": 809,
-        "usage": 0.3
-      },
-      {
-        "id": 157,
-        "usage": 0.1
-      },
-      {
-        "id": 502,
-        "usage": 0.1
+        "usage": 0.25
       },
       {
         "id": 89,
-        "usage": 0.1
+        "usage": 0.25
+      },
+      {
+        "id": 157,
+        "usage": 0.125
+      },
+      {
+        "id": 502,
+        "usage": 0.125
       },
       {
         "id": 101,
-        "usage": 0.1
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.7
+        "usage": 0.625
       },
       {
         "id": 135,
-        "usage": 0.1
-      },
-      {
-        "id": 173,
-        "usage": 0.1
+        "usage": 0.125
       },
       {
         "id": 134,
-        "usage": 0.1
+        "usage": 0.125
       }
     ],
     "abilities": [
@@ -75,27 +71,27 @@
     "teammates": [
       {
         "id": 903,
+        "usage": 0.625
+      },
+      {
+        "id": 983,
         "usage": 0.5
       },
       {
         "id": 248,
-        "usage": 0.4
-      },
-      {
-        "id": 983,
-        "usage": 0.4
+        "usage": 0.375
       },
       {
         "id": 10061,
-        "usage": 0.3
+        "usage": 0.375
       },
       {
-        "id": 10009,
-        "usage": 0.3
+        "id": 6,
+        "usage": 0.25
       },
       {
-        "id": 727,
-        "usage": 0.3
+        "id": 1013,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

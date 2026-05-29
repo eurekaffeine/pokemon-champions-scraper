@@ -3,71 +3,71 @@
   "name": "Cofagrigus",
   "form": null,
   "competitive": {
-    "usage_rank": 110,
-    "usage_rate": 0.0029,
+    "usage_rank": 109,
+    "usage_rate": 0.0027,
     "win_rate": null,
     "moves": [
       {
-        "id": 433,
-        "usage": 0.75
+        "id": 247,
+        "usage": 0.78571
       },
       {
-        "id": 247,
-        "usage": 0.75
+        "id": 433,
+        "usage": 0.71429
       },
       {
         "id": 776,
-        "usage": 0.6
+        "usage": 0.71429
       },
       {
         "id": 182,
-        "usage": 0.3
+        "usage": 0.28571
       },
       {
         "id": 261,
-        "usage": 0.3
+        "usage": 0.28571
       },
       {
         "id": 399,
-        "usage": 0.2
+        "usage": 0.21428999999999998
       },
       {
         "id": 390,
-        "usage": 0.2
+        "usage": 0.21428999999999998
       },
       {
         "id": 94,
-        "usage": 0.2
-      },
-      {
-        "id": 506,
-        "usage": 0.2
+        "usage": 0.21428999999999998
       },
       {
         "id": 502,
-        "usage": 0.15
+        "usage": 0.14286
+      },
+      {
+        "id": 334,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.45
+        "usage": 0.42857
       },
       {
         "id": 135,
-        "usage": 0.35
-      },
-      {
-        "id": 196,
-        "usage": 0.1
+        "usage": 0.35714
       },
       {
         "id": 173,
-        "usage": 0.05
+        "usage": 0.07143
+      },
+      {
+        "id": 196,
+        "usage": 0.07143
       },
       {
         "id": 175,
-        "usage": 0.05
+        "usage": 0.07143
       }
     ],
     "abilities": [
@@ -79,27 +79,27 @@
     "teammates": [
       {
         "id": 6,
-        "usage": 0.4
-      },
-      {
-        "id": 983,
-        "usage": 0.3
-      },
-      {
-        "id": 208,
-        "usage": 0.25
+        "usage": 0.42857
       },
       {
         "id": 324,
-        "usage": 0.2
+        "usage": 0.28571
+      },
+      {
+        "id": 983,
+        "usage": 0.28571
       },
       {
         "id": 10165,
-        "usage": 0.2
+        "usage": 0.21428999999999998
       },
       {
         "id": 899,
-        "usage": 0.2
+        "usage": 0.21428999999999998
+      },
+      {
+        "id": 208,
+        "usage": 0.21428999999999998
       }
     ],
     "tera_types": [],

@@ -3,8 +3,8 @@
   "name": "Simipour",
   "form": null,
   "competitive": {
-    "usage_rank": 166,
-    "usage_rate": 0.0006,
+    "usage_rank": 182,
+    "usage_rate": 0.0004,
     "win_rate": null,
     "moves": [
       {
@@ -13,45 +13,33 @@
       },
       {
         "id": 196,
-        "usage": 0.75
-      },
-      {
-        "id": 503,
-        "usage": 0.75
-      },
-      {
-        "id": 812,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
         "id": 240,
-        "usage": 0.25
+        "usage": 0.5
       },
       {
         "id": 270,
-        "usage": 0.25
+        "usage": 0.5
+      },
+      {
+        "id": 503,
+        "usage": 0.5
       },
       {
         "id": 182,
-        "usage": 0.25
-      },
-      {
-        "id": 269,
-        "usage": 0.25
-      },
-      {
-        "id": 58,
-        "usage": 0.25
+        "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 252,
-        "usage": 0.75
+        "id": 135,
+        "usage": 0.5
       },
       {
-        "id": 135,
-        "usage": 0.25
+        "id": 252,
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -63,27 +51,27 @@
     "teammates": [
       {
         "id": 445,
-        "usage": 0.75
+        "usage": 1.0
       },
       {
-        "id": 763,
+        "id": 154,
+        "usage": 0.5
+      },
+      {
+        "id": 454,
+        "usage": 0.5
+      },
+      {
+        "id": 937,
+        "usage": 0.5
+      },
+      {
+        "id": 142,
         "usage": 0.5
       },
       {
         "id": 10061,
         "usage": 0.5
-      },
-      {
-        "id": 18,
-        "usage": 0.25
-      },
-      {
-        "id": 956,
-        "usage": 0.25
-      },
-      {
-        "id": 302,
-        "usage": 0.25
       }
     ],
     "tera_types": [],

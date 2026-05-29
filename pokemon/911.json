@@ -3,119 +3,103 @@
   "name": "Skeledirge",
   "form": null,
   "competitive": {
-    "usage_rank": 99,
-    "usage_rate": 0.0036,
+    "usage_rank": 103,
+    "usage_rate": 0.0033,
     "win_rate": null,
     "moves": [
       {
-        "id": 871,
-        "usage": 0.8
+        "id": 247,
+        "usage": 0.70588
       },
       {
-        "id": 247,
-        "usage": 0.76
+        "id": 871,
+        "usage": 0.70588
       },
       {
         "id": 182,
-        "usage": 0.52
+        "usage": 0.47058999999999995
       },
       {
         "id": 257,
-        "usage": 0.24
-      },
-      {
-        "id": 261,
-        "usage": 0.2
+        "usage": 0.35294
       },
       {
         "id": 555,
-        "usage": 0.2
-      },
-      {
-        "id": 303,
-        "usage": 0.16
-      },
-      {
-        "id": 414,
-        "usage": 0.16
+        "usage": 0.29412
       },
       {
         "id": 242,
-        "usage": 0.12
+        "usage": 0.17647
+      },
+      {
+        "id": 261,
+        "usage": 0.17647
+      },
+      {
+        "id": 303,
+        "usage": 0.05882
       },
       {
         "id": 53,
-        "usage": 0.08
+        "usage": 0.05882
+      },
+      {
+        "id": 414,
+        "usage": 0.05882
       }
     ],
     "items": [
       {
         "id": 226,
-        "usage": 0.44
+        "usage": 0.6470600000000001
       },
       {
         "id": 211,
-        "usage": 0.24
-      },
-      {
-        "id": 168,
-        "usage": 0.08
+        "usage": 0.23529
       },
       {
         "id": 175,
-        "usage": 0.08
-      },
-      {
-        "id": 162,
-        "usage": 0.04
-      },
-      {
-        "id": 194,
-        "usage": 0.04
+        "usage": 0.05882
       },
       {
         "id": 173,
-        "usage": 0.04
-      },
-      {
-        "id": 135,
-        "usage": 0.04
+        "usage": 0.05882
       }
     ],
     "abilities": [
       {
         "id": 109,
-        "usage": 0.76
+        "usage": 0.70588
       },
       {
         "id": 66,
-        "usage": 0.24
+        "usage": 0.29412
       }
     ],
     "teammates": [
       {
         "id": 740,
-        "usage": 0.36
+        "usage": 0.41176
       },
       {
         "id": 1018,
-        "usage": 0.32
+        "usage": 0.35294
       },
       {
         "id": 10172,
-        "usage": 0.32
+        "usage": 0.35294
       },
       {
         "id": 409,
-        "usage": 0.28
+        "usage": 0.35294
       },
       {
         "id": 26,
-        "usage": 0.24
+        "usage": 0.35294
       },
       {
-        "id": 248,
-        "usage": 0.24
+        "id": 132,
+        "usage": 0.29412
       }
     ],
     "tera_types": [],

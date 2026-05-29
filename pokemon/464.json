@@ -3,107 +3,107 @@
   "name": "Rhyperior",
   "form": null,
   "competitive": {
-    "usage_rank": 144,
-    "usage_rate": 0.0013,
+    "usage_rank": 136,
+    "usage_rate": 0.0015,
     "win_rate": null,
     "moves": [
       {
         "id": 157,
-        "usage": 0.88889
+        "usage": 0.875
       },
       {
         "id": 182,
-        "usage": 0.88889
+        "usage": 0.875
       },
       {
         "id": 667,
-        "usage": 0.66667
+        "usage": 0.75
       },
       {
         "id": 8,
-        "usage": 0.5555599999999999
+        "usage": 0.625
       },
       {
         "id": 89,
-        "usage": 0.22222
-      },
-      {
-        "id": 707,
-        "usage": 0.22222
+        "usage": 0.125
       },
       {
         "id": 68,
-        "usage": 0.11111
+        "usage": 0.125
       },
       {
         "id": 529,
-        "usage": 0.11111
+        "usage": 0.125
       },
       {
         "id": 242,
-        "usage": 0.11111
+        "usage": 0.125
       },
       {
         "id": 280,
-        "usage": 0.11111
+        "usage": 0.125
+      },
+      {
+        "id": 707,
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 162,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 191,
-        "usage": 0.22222
+        "usage": 0.375
       },
       {
         "id": 214,
-        "usage": 0.11111
+        "usage": 0.125
       },
       {
         "id": 252,
-        "usage": 0.11111
+        "usage": 0.125
+      },
+      {
+        "id": 191,
+        "usage": 0.125
       },
       {
         "id": 227,
-        "usage": 0.11111
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 116,
-        "usage": 0.88889
+        "usage": 0.875
       },
       {
         "id": 31,
-        "usage": 0.11111
+        "usage": 0.125
       }
     ],
     "teammates": [
       {
         "id": 981,
-        "usage": 0.88889
+        "usage": 0.875
       },
       {
         "id": 324,
-        "usage": 0.66667
-      },
-      {
-        "id": 727,
-        "usage": 0.44444
+        "usage": 0.75
       },
       {
         "id": 1013,
-        "usage": 0.33332999999999996
+        "usage": 0.375
+      },
+      {
+        "id": 727,
+        "usage": 0.375
       },
       {
         "id": 9,
-        "usage": 0.22222
+        "usage": 0.25
       },
       {
         "id": 323,
-        "usage": 0.22222
+        "usage": 0.25
       }
     ],
     "tera_types": [],
