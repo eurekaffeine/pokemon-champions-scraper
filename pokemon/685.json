@@ -1,60 +1,60 @@
 {
-  "dex_id": 713,
-  "name": "Avalugg",
+  "dex_id": 685,
+  "name": "Slurpuff",
   "form": null,
   "competitive": {
-    "usage_rank": 191,
+    "usage_rank": 190,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 556,
+        "id": 605,
         "usage": 1.0
       },
       {
-        "id": 105,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 360,
+        "id": 495,
         "usage": 1.0
       },
       {
-        "id": 776,
+        "id": 270,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 223,
+        "id": 135,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 20,
+        "id": 84,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 358,
+        "id": 534,
         "usage": 1.0
       },
       {
-        "id": 531,
+        "id": 655,
         "usage": 1.0
       },
       {
-        "id": 36,
+        "id": 473,
         "usage": 1.0
       },
       {
-        "id": 842,
+        "id": 763,
         "usage": 1.0
       },
       {
-        "id": 208,
+        "id": 10236,
         "usage": 1.0
       }
     ],

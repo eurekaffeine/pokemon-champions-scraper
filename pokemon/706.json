@@ -3,73 +3,73 @@
   "name": "Goodra",
   "form": null,
   "competitive": {
-    "usage_rank": 144,
-    "usage_rate": 0.0013,
+    "usage_rank": 149,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
         "id": 151,
-        "usage": 0.85714
+        "usage": 0.875
       },
       {
         "id": 776,
-        "usage": 0.85714
+        "usage": 0.875
       },
       {
         "id": 434,
-        "usage": 0.71429
+        "usage": 0.75
       },
       {
         "id": 156,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 406,
-        "usage": 0.28571
+        "usage": 0.25
       },
       {
         "id": 791,
-        "usage": 0.28571
+        "usage": 0.25
       },
       {
         "id": 182,
-        "usage": 0.14286
+        "usage": 0.125
       },
       {
         "id": 311,
-        "usage": 0.14286
+        "usage": 0.125
       },
       {
         "id": 503,
-        "usage": 0.14286
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 135,
-        "usage": 0.28571
+        "usage": 0.25
       },
       {
         "id": 174,
-        "usage": 0.14286
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 93,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 183,
-        "usage": 0.28571
+        "usage": 0.25
       },
       {
         "id": 157,
-        "usage": 0.14286
+        "usage": 0.125
       }
     ],
     "teammates": [
@@ -79,23 +79,23 @@
       },
       {
         "id": 279,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 1018,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 142,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 154,
-        "usage": 0.57143
+        "usage": 0.625
       },
       {
         "id": 952,
-        "usage": 0.28571
+        "usage": 0.25
       }
     ],
     "tera_types": [],

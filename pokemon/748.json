@@ -3,99 +3,99 @@
   "name": "Toxapex",
   "form": null,
   "competitive": {
-    "usage_rank": 124,
-    "usage_rate": 0.0019,
+    "usage_rank": 110,
+    "usage_rate": 0.0027,
     "win_rate": null,
     "moves": [
       {
         "id": 92,
-        "usage": 0.8
+        "usage": 0.77778
       },
       {
         "id": 469,
-        "usage": 0.8
+        "usage": 0.72222
       },
       {
         "id": 611,
-        "usage": 0.6
+        "usage": 0.66667
       },
       {
         "id": 661,
-        "usage": 0.6
+        "usage": 0.66667
       },
       {
         "id": 105,
-        "usage": 0.5
-      },
-      {
-        "id": 710,
-        "usage": 0.2
+        "usage": 0.6111099999999999
       },
       {
         "id": 182,
-        "usage": 0.1
+        "usage": 0.11111
+      },
+      {
+        "id": 710,
+        "usage": 0.11111
       },
       {
         "id": 886,
-        "usage": 0.1
+        "usage": 0.05556
       },
       {
         "id": 491,
-        "usage": 0.1
+        "usage": 0.05556
       },
       {
-        "id": 398,
-        "usage": 0.1
+        "id": 114,
+        "usage": 0.05556
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.6
+        "usage": 0.6111099999999999
       },
       {
         "id": 135,
-        "usage": 0.3
+        "usage": 0.33332999999999996
       },
       {
         "id": 220,
-        "usage": 0.1
+        "usage": 0.05556
       }
     ],
     "abilities": [
       {
         "id": 144,
-        "usage": 0.9
+        "usage": 0.9444400000000001
       },
       {
         "id": 196,
-        "usage": 0.1
+        "usage": 0.05556
       }
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.6
-      },
-      {
         "id": 3,
-        "usage": 0.4
+        "usage": 0.44444
       },
       {
         "id": 970,
-        "usage": 0.3
+        "usage": 0.44444
+      },
+      {
+        "id": 445,
+        "usage": 0.38889
+      },
+      {
+        "id": 727,
+        "usage": 0.22222
       },
       {
         "id": 478,
-        "usage": 0.2
+        "usage": 0.16667
       },
       {
         "id": 902,
-        "usage": 0.2
-      },
-      {
-        "id": 6,
-        "usage": 0.2
+        "usage": 0.16667
       }
     ],
     "tera_types": [],

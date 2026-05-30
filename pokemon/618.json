@@ -1,60 +1,60 @@
 {
-  "dex_id": 713,
-  "name": "Avalugg",
+  "dex_id": 618,
+  "name": "Stunfisk",
   "form": null,
   "competitive": {
-    "usage_rank": 191,
+    "usage_rank": 189,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 556,
+        "id": 414,
         "usage": 1.0
       },
       {
-        "id": 105,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 360,
+        "id": 85,
         "usage": 1.0
       },
       {
-        "id": 776,
+        "id": 188,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 223,
+        "id": 214,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 20,
+        "id": 8,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 358,
-        "usage": 1.0
-      },
-      {
         "id": 531,
         "usage": 1.0
       },
       {
-        "id": 36,
+        "id": 635,
         "usage": 1.0
       },
       {
-        "id": 842,
+        "id": 569,
         "usage": 1.0
       },
       {
-        "id": 208,
+        "id": 609,
+        "usage": 1.0
+      },
+      {
+        "id": 534,
         "usage": 1.0
       }
     ],

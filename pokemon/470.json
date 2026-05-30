@@ -3,31 +3,59 @@
   "name": "Leafeon",
   "form": null,
   "competitive": {
-    "usage_rank": 188,
-    "usage_rate": 0.0002,
+    "usage_rank": 171,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
+        "id": 182,
+        "usage": 0.75
+      },
+      {
         "id": 348,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 332,
+        "usage": 0.25
+      },
+      {
+        "id": 270,
+        "usage": 0.25
+      },
+      {
+        "id": 669,
+        "usage": 0.25
       },
       {
         "id": 240,
-        "usage": 1.0
+        "usage": 0.25
       },
       {
         "id": 313,
-        "usage": 1.0
+        "usage": 0.25
       },
       {
         "id": 197,
-        "usage": 1.0
+        "usage": 0.25
+      },
+      {
+        "id": 331,
+        "usage": 0.25
+      },
+      {
+        "id": 76,
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 209,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 216,
+        "usage": 0.25
       }
     ],
     "abilities": [
@@ -38,24 +66,28 @@
     ],
     "teammates": [
       {
-        "id": 154,
-        "usage": 1.0
+        "id": 279,
+        "usage": 0.5
       },
       {
-        "id": 1013,
-        "usage": 1.0
-      },
-      {
-        "id": 1018,
-        "usage": 1.0
+        "id": 324,
+        "usage": 0.5
       },
       {
         "id": 350,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
-        "id": 302,
-        "usage": 1.0
+        "id": 983,
+        "usage": 0.25
+      },
+      {
+        "id": 428,
+        "usage": 0.25
+      },
+      {
+        "id": 902,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

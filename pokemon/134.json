@@ -9,89 +9,97 @@
     "moves": [
       {
         "id": 182,
-        "usage": 0.8
-      },
-      {
-        "id": 503,
-        "usage": 0.6
+        "usage": 0.71429
       },
       {
         "id": 247,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 196,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 56,
-        "usage": 0.4
+        "usage": 0.42857
+      },
+      {
+        "id": 503,
+        "usage": 0.42857
       },
       {
         "id": 58,
-        "usage": 0.4
+        "usage": 0.42857
       },
       {
         "id": 59,
-        "usage": 0.2
+        "usage": 0.14286
       },
       {
         "id": 91,
-        "usage": 0.2
+        "usage": 0.14286
       },
       {
         "id": 273,
-        "usage": 0.2
+        "usage": 0.14286
+      },
+      {
+        "id": 343,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.6
-      },
-      {
-        "id": 220,
-        "usage": 0.2
+        "usage": 0.42857
       },
       {
         "id": 264,
-        "usage": 0.2
+        "usage": 0.28571
+      },
+      {
+        "id": 220,
+        "usage": 0.14286
+      },
+      {
+        "id": 163,
+        "usage": 0.14286
       }
     ],
     "abilities": [
       {
         "id": 11,
-        "usage": 0.8
+        "usage": 0.71429
       },
       {
         "id": 93,
-        "usage": 0.2
+        "usage": 0.28571
       }
     ],
     "teammates": [
       {
         "id": 823,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 970,
-        "usage": 0.4
+        "usage": 0.28571
       },
       {
         "id": 981,
-        "usage": 0.4
+        "usage": 0.28571
       },
       {
         "id": 3,
-        "usage": 0.4
+        "usage": 0.28571
       },
       {
         "id": 637,
-        "usage": 0.4
+        "usage": 0.28571
       },
       {
-        "id": 478,
-        "usage": 0.2
+        "id": 887,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

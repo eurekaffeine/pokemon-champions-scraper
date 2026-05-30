@@ -3,75 +3,87 @@
   "name": "Garbodor",
   "form": null,
   "competitive": {
-    "usage_rank": 147,
-    "usage_rate": 0.0011,
+    "usage_rank": 152,
+    "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
       {
         "id": 256,
-        "usage": 0.83333
-      },
-      {
-        "id": 441,
-        "usage": 0.16667
-      },
-      {
-        "id": 707,
-        "usage": 0.16667
+        "usage": 0.57143
       },
       {
         "id": 409,
-        "usage": 0.16667
+        "usage": 0.42857
       },
       {
         "id": 182,
-        "usage": 0.16667
+        "usage": 0.42857
+      },
+      {
+        "id": 398,
+        "usage": 0.28571
+      },
+      {
+        "id": 707,
+        "usage": 0.28571
+      },
+      {
+        "id": 153,
+        "usage": 0.14286
+      },
+      {
+        "id": 441,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.83333
+        "usage": 0.71429
+      },
+      {
+        "id": 228,
+        "usage": 0.14286
       },
       {
         "id": 191,
-        "usage": 0.16667
+        "usage": 0.14286
       }
     ],
     "abilities": [
       {
         "id": 1,
-        "usage": 0.83333
+        "usage": 0.71429
       },
       {
         "id": 133,
-        "usage": 0.16667
+        "usage": 0.28571
       }
     ],
     "teammates": [
       {
         "id": 132,
-        "usage": 0.83333
+        "usage": 0.57143
       },
       {
         "id": 778,
-        "usage": 0.83333
+        "usage": 0.57143
       },
       {
         "id": 911,
-        "usage": 0.83333
+        "usage": 0.57143
       },
       {
         "id": 10239,
-        "usage": 0.83333
+        "usage": 0.57143
       },
       {
         "id": 24,
-        "usage": 0.83333
+        "usage": 0.57143
       },
       {
-        "id": 160,
-        "usage": 0.16667
+        "id": 937,
+        "usage": 0.14286
       }
     ],
     "tera_types": [],

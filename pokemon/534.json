@@ -3,115 +3,119 @@
   "name": "Conkeldurr",
   "form": null,
   "competitive": {
-    "usage_rank": 77,
-    "usage_rate": 0.0077,
+    "usage_rank": 79,
+    "usage_rate": 0.0072,
     "win_rate": null,
     "moves": [
       {
         "id": 409,
-        "usage": 0.95
+        "usage": 0.9375
       },
       {
         "id": 183,
-        "usage": 0.625
+        "usage": 0.64583
       },
       {
         "id": 8,
-        "usage": 0.45
+        "usage": 0.47917000000000004
       },
       {
         "id": 9,
-        "usage": 0.45
+        "usage": 0.4375
       },
       {
         "id": 182,
-        "usage": 0.425
+        "usage": 0.39582999999999996
       },
       {
         "id": 398,
-        "usage": 0.25
+        "usage": 0.22917
       },
       {
         "id": 282,
-        "usage": 0.2
-      },
-      {
-        "id": 157,
-        "usage": 0.15
+        "usage": 0.20833
       },
       {
         "id": 469,
-        "usage": 0.15
+        "usage": 0.16667
+      },
+      {
+        "id": 157,
+        "usage": 0.14583000000000002
       },
       {
         "id": 174,
-        "usage": 0.15
+        "usage": 0.14583000000000002
       }
     ],
     "items": [
       {
         "id": 218,
-        "usage": 0.55
+        "usage": 0.5625
       },
       {
         "id": 211,
-        "usage": 0.15
+        "usage": 0.125
       },
       {
         "id": 135,
-        "usage": 0.1
+        "usage": 0.10417
       },
       {
         "id": 191,
-        "usage": 0.075
-      },
-      {
-        "id": 219,
-        "usage": 0.025
-      },
-      {
-        "id": 209,
-        "usage": 0.025
+        "usage": 0.0625
       },
       {
         "id": 134,
-        "usage": 0.025
+        "usage": 0.04167
+      },
+      {
+        "id": 219,
+        "usage": 0.02083
+      },
+      {
+        "id": 209,
+        "usage": 0.02083
+      },
+      {
+        "id": 252,
+        "usage": 0.02083
       },
       {
         "id": 207,
-        "usage": 0.025
+        "usage": 0.02083
       }
     ],
     "abilities": [
       {
         "id": 89,
-        "usage": 0.75
+        "usage": 0.77083
       },
       {
         "id": 62,
-        "usage": 0.2
+        "usage": 0.1875
       },
       {
         "id": 125,
-        "usage": 0.05
+        "usage": 0.04167
       }
     ],
     "teammates": [
       {
         "id": 981,
-        "usage": 0.7
+        "usage": 0.66667
       },
       {
         "id": 324,
-        "usage": 0.375
+        "usage": 0.35417000000000004
       },
       {
         "id": 983,
-        "usage": 0.325
+        "usage": 0.29167000000000004
       },
       {
         "id": 9,
-        "usage": 0.3
+        "usage": 0.27082999999999996
       },
       {
         "id": 1013,
@@ -119,7 +123,7 @@
       },
       {
         "id": 323,
-        "usage": 0.225
+        "usage": 0.20833
       }
     ],
     "tera_types": [],

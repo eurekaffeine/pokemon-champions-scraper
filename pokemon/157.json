@@ -3,31 +3,51 @@
   "name": "Typhlosion",
   "form": null,
   "competitive": {
-    "usage_rank": 189,
-    "usage_rate": 0.0002,
+    "usage_rank": 176,
+    "usage_rate": 0.0004,
     "win_rate": null,
     "moves": [
       {
         "id": 284,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 257,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 815,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 53,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 428,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 89,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 915,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 252,
+        "usage": 0.33332999999999996
       }
     ],
     "abilities": [
@@ -42,20 +62,24 @@
         "usage": 1.0
       },
       {
-        "id": 445,
+        "id": 823,
         "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 0.66667
       },
       {
         "id": 302,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 10012,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
-        "id": 823,
-        "usage": 1.0
+        "id": 248,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

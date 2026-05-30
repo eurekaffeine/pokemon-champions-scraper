@@ -3,99 +3,99 @@
   "name": "Audino",
   "form": null,
   "competitive": {
-    "usage_rank": 157,
-    "usage_rate": 0.001,
+    "usage_rank": 142,
+    "usage_rate": 0.0013,
     "win_rate": null,
     "moves": [
       {
-        "id": 791,
-        "usage": 0.8
-      },
-      {
         "id": 433,
-        "usage": 0.8
-      },
-      {
-        "id": 493,
-        "usage": 0.6
+        "usage": 0.77778
       },
       {
         "id": 605,
-        "usage": 0.6
+        "usage": 0.66667
       },
       {
-        "id": 281,
-        "usage": 0.2
+        "id": 791,
+        "usage": 0.66667
       },
       {
-        "id": 213,
-        "usage": 0.2
+        "id": 493,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 304,
-        "usage": 0.2
-      },
-      {
-        "id": 247,
-        "usage": 0.2
-      },
-      {
-        "id": 347,
-        "usage": 0.2
+        "id": 505,
+        "usage": 0.22222
       },
       {
         "id": 182,
-        "usage": 0.2
+        "usage": 0.22222
+      },
+      {
+        "id": 240,
+        "usage": 0.22222
+      },
+      {
+        "id": 53,
+        "usage": 0.11111
+      },
+      {
+        "id": 281,
+        "usage": 0.11111
+      },
+      {
+        "id": 213,
+        "usage": 0.11111
       }
     ],
     "items": [
       {
         "id": 798,
-        "usage": 0.6
+        "usage": 0.77778
       },
       {
         "id": 196,
-        "usage": 0.2
+        "usage": 0.11111
       },
       {
         "id": 264,
-        "usage": 0.2
+        "usage": 0.11111
       }
     ],
     "abilities": [
       {
         "id": 144,
-        "usage": 0.8
+        "usage": 0.77778
       },
       {
         "id": 131,
-        "usage": 0.2
+        "usage": 0.22222
       }
     ],
     "teammates": [
       {
-        "id": 80,
-        "usage": 0.4
+        "id": 279,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 1018,
+        "usage": 0.33332999999999996
       },
       {
         "id": 903,
-        "usage": 0.4
-      },
-      {
-        "id": 143,
-        "usage": 0.4
-      },
-      {
-        "id": 681,
-        "usage": 0.4
-      },
-      {
-        "id": 784,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       },
       {
         "id": 1013,
-        "usage": 0.4
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 212,
+        "usage": 0.22222
+      },
+      {
+        "id": 902,
+        "usage": 0.22222
       }
     ],
     "tera_types": [],
