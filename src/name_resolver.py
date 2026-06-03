@@ -141,7 +141,24 @@ class NameResolver:
             result = self._mappings.get("pokemon", {}).get(alias, 0)
             if result > 0:
                 return result
-        
+
+        # Mega / Gmax fallback: these forms share the National Pokédex number
+        # of their base form (e.g. Charizard-Mega-X → 6, Gyarados-Mega → 130,
+        # Floette-Eternal-Mega → Floette-Eternal). Pikalytics started returning
+        # Mega forms in the championstournaments dataset around 2026-05-16,
+        # but Pocket-Gallery does not ship separate Mega assets, so we map
+        # them back to the base dex_id rather than dropping them.
+        for suffix in ("-mega-x", "-mega-y", "-mega", "-gmax", "-gigantamax"):
+            if normalized.endswith(suffix):
+                base = normalized[: -len(suffix)]
+                # Recurse so the base name still benefits from form_aliases
+                # (e.g. "floette-eternal-mega" → "floette-eternal" → 10061).
+                if base and base != normalized:
+                    base_id = self.get_pokemon_id(base)
+                    if base_id > 0:
+                        return base_id
+                break
+
         return 0
 
 
