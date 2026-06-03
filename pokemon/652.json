@@ -3,8 +3,8 @@
   "name": "Chesnaught",
   "form": null,
   "competitive": {
-    "usage_rank": 97,
-    "usage_rate": 0.0037,
+    "usage_rank": 105,
+    "usage_rate": 0.0034999999999999996,
     "win_rate": null,
     "moves": [
       {
@@ -13,31 +13,31 @@
       },
       {
         "id": 776,
-        "usage": 0.88
-      },
-      {
-        "id": 334,
-        "usage": 0.6
+        "usage": 0.92
       },
       {
         "id": 452,
-        "usage": 0.48
+        "usage": 0.68
+      },
+      {
+        "id": 334,
+        "usage": 0.52
       },
       {
         "id": 73,
-        "usage": 0.48
+        "usage": 0.32
       },
       {
         "id": 469,
-        "usage": 0.16
+        "usage": 0.24
       },
       {
         "id": 157,
-        "usage": 0.12
+        "usage": 0.08
       },
       {
-        "id": 409,
-        "usage": 0.08
+        "id": 428,
+        "usage": 0.04
       },
       {
         "id": 235,
@@ -51,7 +51,11 @@
     "items": [
       {
         "id": 2575,
-        "usage": 0.96
+        "usage": 0.92
+      },
+      {
+        "id": 135,
+        "usage": 0.04
       },
       {
         "id": 211,
@@ -66,28 +70,28 @@
     ],
     "teammates": [
       {
+        "id": 970,
+        "usage": 0.52
+      },
+      {
         "id": 902,
-        "usage": 0.44
+        "usage": 0.48
       },
       {
         "id": 279,
-        "usage": 0.44
-      },
-      {
-        "id": 970,
-        "usage": 0.4
-      },
-      {
-        "id": 1018,
-        "usage": 0.28
+        "usage": 0.48
       },
       {
         "id": 10061,
-        "usage": 0.24
+        "usage": 0.32
       },
       {
         "id": 1013,
-        "usage": 0.24
+        "usage": 0.32
+      },
+      {
+        "id": 1018,
+        "usage": 0.32
       }
     ],
     "tera_types": [],

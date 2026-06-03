@@ -1,22 +1,22 @@
 {
-  "dex_id": 460,
-  "name": "Abomasnow",
+  "dex_id": 855,
+  "name": "Polteageist",
   "form": null,
   "competitive": {
-    "usage_rank": 213,
+    "usage_rank": 214,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 59,
+        "id": 500,
         "usage": 1.0
       },
       {
-        "id": 694,
+        "id": 504,
         "usage": 1.0
       },
       {
-        "id": 202,
+        "id": 226,
         "usage": 1.0
       },
       {
@@ -26,35 +26,35 @@
     ],
     "items": [
       {
-        "id": 252,
+        "id": 191,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 117,
+        "id": 130,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 445,
+        "id": 959,
         "usage": 1.0
       },
       {
-        "id": 903,
+        "id": 302,
         "usage": 1.0
       },
       {
-        "id": 478,
+        "id": 970,
         "usage": 1.0
       },
       {
-        "id": 823,
+        "id": 10061,
         "usage": 1.0
       },
       {
-        "id": 10009,
+        "id": 130,
         "usage": 1.0
       }
     ],

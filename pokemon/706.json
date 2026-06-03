@@ -3,44 +3,48 @@
   "name": "Goodra",
   "form": null,
   "competitive": {
-    "usage_rank": 149,
-    "usage_rate": 0.0012,
+    "usage_rank": 163,
+    "usage_rate": 0.0011,
     "win_rate": null,
     "moves": [
       {
         "id": 151,
-        "usage": 0.875
-      },
-      {
-        "id": 776,
-        "usage": 0.875
-      },
-      {
-        "id": 434,
         "usage": 0.75
       },
       {
-        "id": 156,
+        "id": 776,
+        "usage": 0.75
+      },
+      {
+        "id": 434,
         "usage": 0.625
+      },
+      {
+        "id": 156,
+        "usage": 0.5
+      },
+      {
+        "id": 791,
+        "usage": 0.375
       },
       {
         "id": 406,
         "usage": 0.25
       },
       {
-        "id": 791,
-        "usage": 0.25
-      },
-      {
-        "id": 182,
+        "id": 411,
         "usage": 0.125
       },
       {
-        "id": 311,
+        "id": 56,
         "usage": 0.125
       },
       {
-        "id": 503,
+        "id": 188,
+        "usage": 0.125
+      },
+      {
+        "id": 282,
         "usage": 0.125
       }
     ],
@@ -54,7 +58,7 @@
         "usage": 0.25
       },
       {
-        "id": 174,
+        "id": 252,
         "usage": 0.125
       }
     ],
@@ -65,37 +69,33 @@
       },
       {
         "id": 183,
-        "usage": 0.25
-      },
-      {
-        "id": 157,
-        "usage": 0.125
+        "usage": 0.375
       }
     ],
     "teammates": [
       {
         "id": 902,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 903,
+        "usage": 0.5
       },
       {
         "id": 279,
-        "usage": 0.625
+        "usage": 0.5
       },
       {
         "id": 1018,
-        "usage": 0.625
+        "usage": 0.5
       },
       {
         "id": 142,
-        "usage": 0.625
+        "usage": 0.5
       },
       {
         "id": 154,
-        "usage": 0.625
-      },
-      {
-        "id": 952,
-        "usage": 0.25
+        "usage": 0.5
       }
     ],
     "tera_types": [],

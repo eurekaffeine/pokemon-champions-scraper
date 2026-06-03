@@ -1,113 +1,97 @@
 {
   "dex_id": 65,
-  "name": "Alakazam",
+  "name": "Alakazam-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 88,
-    "usage_rate": 0.0051,
+    "usage_rank": 127,
+    "usage_rate": 0.0022,
     "win_rate": null,
     "moves": [
       {
-        "id": 94,
-        "usage": 0.70588
-      },
-      {
         "id": 182,
-        "usage": 0.55882
-      },
-      {
-        "id": 683,
-        "usage": 0.47058999999999995
+        "usage": 0.75
       },
       {
         "id": 411,
-        "usage": 0.41176
-      },
-      {
-        "id": 605,
-        "usage": 0.32353000000000004
+        "usage": 0.6875
       },
       {
         "id": 797,
-        "usage": 0.29412
+        "usage": 0.5
       },
       {
-        "id": 113,
-        "usage": 0.23529
+        "id": 94,
+        "usage": 0.5
       },
       {
-        "id": 269,
-        "usage": 0.23529
+        "id": 605,
+        "usage": 0.375
       },
       {
         "id": 50,
-        "usage": 0.23529
+        "usage": 0.25
+      },
+      {
+        "id": 683,
+        "usage": 0.1875
       },
       {
         "id": 227,
-        "usage": 0.11765
+        "usage": 0.1875
+      },
+      {
+        "id": 247,
+        "usage": 0.125
+      },
+      {
+        "id": 478,
+        "usage": 0.125
       }
     ],
     "items": [
       {
         "id": 718,
-        "usage": 0.5
-      },
-      {
-        "id": 175,
-        "usage": 0.23529
-      },
-      {
-        "id": 252,
-        "usage": 0.17647
-      },
-      {
-        "id": 225,
-        "usage": 0.05882
-      },
-      {
-        "id": 194,
-        "usage": 0.02941
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 39,
-        "usage": 0.55882
+        "id": 98,
+        "usage": 0.625
       },
       {
-        "id": 98,
-        "usage": 0.35294
+        "id": 39,
+        "usage": 0.3125
       },
       {
         "id": 28,
-        "usage": 0.08824
+        "usage": 0.0625
       }
     ],
     "teammates": [
       {
-        "id": 1013,
-        "usage": 0.35294
-      },
-      {
-        "id": 780,
-        "usage": 0.32353000000000004
+        "id": 678,
+        "usage": 0.4375
       },
       {
         "id": 68,
-        "usage": 0.29412
+        "usage": 0.375
       },
       {
-        "id": 902,
-        "usage": 0.26471
+        "id": 841,
+        "usage": 0.3125
       },
       {
-        "id": 279,
-        "usage": 0.23529
+        "id": 130,
+        "usage": 0.3125
       },
       {
-        "id": 212,
-        "usage": 0.23529
+        "id": 142,
+        "usage": 0.3125
+      },
+      {
+        "id": 1013,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

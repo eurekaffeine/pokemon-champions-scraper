@@ -1,60 +1,60 @@
 {
-  "dex_id": 351,
-  "name": "Castform",
+  "dex_id": 10011,
+  "name": "Rotom-Fan",
   "form": null,
   "competitive": {
-    "usage_rank": 192,
+    "usage_rank": 216,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 311,
+        "id": 403,
         "usage": 1.0
       },
       {
-        "id": 240,
+        "id": 85,
         "usage": 1.0
       },
       {
-        "id": 241,
+        "id": 527,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 261,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 209,
+        "id": 135,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 59,
+        "id": 26,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 981,
+        "id": 983,
         "usage": 1.0
       },
       {
-        "id": 10239,
+        "id": 478,
         "usage": 1.0
       },
       {
-        "id": 681,
+        "id": 727,
         "usage": 1.0
       },
       {
-        "id": 428,
+        "id": 547,
         "usage": 1.0
       },
       {
-        "id": 675,
+        "id": 128,
         "usage": 1.0
       }
     ],

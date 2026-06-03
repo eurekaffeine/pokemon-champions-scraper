@@ -3,7 +3,7 @@
   "name": "Flapple",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
+    "usage_rank": 168,
     "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
@@ -83,7 +83,7 @@
       },
       {
         "id": 302,
-        "usage": 0.71429
+        "usage": 0.57143
       },
       {
         "id": 678,

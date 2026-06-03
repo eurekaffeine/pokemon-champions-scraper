@@ -3,7 +3,7 @@
   "name": "Emolga",
   "form": null,
   "competitive": {
-    "usage_rank": 169,
+    "usage_rank": 184,
     "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
@@ -12,15 +12,15 @@
         "usage": 1.0
       },
       {
-        "id": 403,
-        "usage": 0.5
-      },
-      {
-        "id": 182,
+        "id": 269,
         "usage": 0.5
       },
       {
         "id": 227,
+        "usage": 0.5
+      },
+      {
+        "id": 270,
         "usage": 0.25
       },
       {
@@ -28,11 +28,15 @@
         "usage": 0.25
       },
       {
-        "id": 269,
+        "id": 403,
         "usage": 0.25
       },
       {
         "id": 85,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
         "usage": 0.25
       },
       {
@@ -42,43 +46,31 @@
       {
         "id": 814,
         "usage": 0.25
-      },
-      {
-        "id": 521,
-        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.25
+        "usage": 0.5
       },
       {
         "id": 264,
-        "usage": 0.25
-      },
-      {
-        "id": 219,
         "usage": 0.25
       }
     ],
     "abilities": [
       {
-        "id": 9,
+        "id": 78,
         "usage": 0.5
       },
       {
-        "id": 78,
+        "id": 9,
         "usage": 0.5
       }
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.5
-      },
-      {
-        "id": 547,
+        "id": 681,
         "usage": 0.5
       },
       {
@@ -86,15 +78,19 @@
         "usage": 0.5
       },
       {
-        "id": 10061,
+        "id": 752,
         "usage": 0.25
       },
       {
-        "id": 908,
+        "id": 981,
         "usage": 0.25
       },
       {
-        "id": 681,
+        "id": 154,
+        "usage": 0.25
+      },
+      {
+        "id": 248,
         "usage": 0.25
       }
     ],

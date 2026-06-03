@@ -1,60 +1,60 @@
 {
-  "dex_id": 460,
-  "name": "Abomasnow",
+  "dex_id": 766,
+  "name": "Passimian",
   "form": null,
   "competitive": {
-    "usage_rank": 213,
+    "usage_rank": 215,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 59,
-        "usage": 1.0
-      },
-      {
-        "id": 694,
-        "usage": 1.0
-      },
-      {
-        "id": 202,
-        "usage": 1.0
-      },
-      {
         "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 811,
+        "usage": 1.0
+      },
+      {
+        "id": 282,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 252,
+        "id": 218,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 117,
+        "id": 128,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 445,
+        "id": 142,
         "usage": 1.0
       },
       {
-        "id": 903,
+        "id": 959,
         "usage": 1.0
       },
       {
-        "id": 478,
+        "id": 130,
         "usage": 1.0
       },
       {
-        "id": 823,
+        "id": 1013,
         "usage": 1.0
       },
       {
-        "id": 10009,
+        "id": 10233,
         "usage": 1.0
       }
     ],

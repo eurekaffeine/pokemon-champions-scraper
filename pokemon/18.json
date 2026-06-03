@@ -1,18 +1,18 @@
 {
   "dex_id": 18,
-  "name": "Pidgeot",
+  "name": "Pidgeot-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 150,
-    "usage_rate": 0.001,
+    "usage_rank": 151,
+    "usage_rate": 0.0014000000000000002,
     "win_rate": null,
     "moves": [
       {
-        "id": 257,
+        "id": 542,
         "usage": 1.0
       },
       {
-        "id": 542,
+        "id": 257,
         "usage": 1.0
       },
       {
@@ -20,12 +20,16 @@
         "usage": 1.0
       },
       {
-        "id": 63,
-        "usage": 0.57143
+        "id": 366,
+        "usage": 0.5
       },
       {
-        "id": 366,
-        "usage": 0.42857
+        "id": 63,
+        "usage": 0.4
+      },
+      {
+        "id": 241,
+        "usage": 0.1
       }
     ],
     "items": [
@@ -37,37 +41,37 @@
     "abilities": [
       {
         "id": 51,
-        "usage": 0.57143
+        "usage": 0.6
       },
       {
         "id": 145,
-        "usage": 0.42857
+        "usage": 0.4
       }
     ],
     "teammates": [
       {
         "id": 727,
-        "usage": 0.28571
+        "usage": 0.3
       },
       {
         "id": 902,
-        "usage": 0.28571
+        "usage": 0.3
       },
       {
         "id": 128,
-        "usage": 0.28571
+        "usage": 0.3
       },
       {
-        "id": 956,
-        "usage": 0.28571
+        "id": 903,
+        "usage": 0.2
       },
       {
-        "id": 302,
-        "usage": 0.28571
+        "id": 3,
+        "usage": 0.2
       },
       {
-        "id": 763,
-        "usage": 0.28571
+        "id": 149,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

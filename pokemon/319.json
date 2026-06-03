@@ -1,10 +1,10 @@
 {
   "dex_id": 319,
-  "name": "Sharpedo",
+  "name": "Sharpedo-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 131,
-    "usage_rate": 0.0018,
+    "usage_rank": 167,
+    "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
       {
@@ -17,23 +17,23 @@
       },
       {
         "id": 706,
-        "usage": 0.75
+        "usage": 0.71429
       },
       {
         "id": 423,
-        "usage": 0.66667
-      },
-      {
-        "id": 164,
-        "usage": 0.25
+        "usage": 0.42857
       },
       {
         "id": 710,
-        "usage": 0.16667
+        "usage": 0.28571
       },
       {
         "id": 370,
-        "usage": 0.16667
+        "usage": 0.28571
+      },
+      {
+        "id": 164,
+        "usage": 0.28571
       }
     ],
     "items": [
@@ -45,37 +45,37 @@
     "abilities": [
       {
         "id": 3,
-        "usage": 0.83333
+        "usage": 0.71429
       },
       {
         "id": 24,
-        "usage": 0.16667
+        "usage": 0.28571
       }
     ],
     "teammates": [
       {
         "id": 903,
-        "usage": 0.83333
-      },
-      {
-        "id": 350,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 10008,
-        "usage": 0.33332999999999996
+        "usage": 0.71429
       },
       {
         "id": 445,
-        "usage": 0.33332999999999996
+        "usage": 0.42857
+      },
+      {
+        "id": 981,
+        "usage": 0.28571
+      },
+      {
+        "id": 154,
+        "usage": 0.28571
       },
       {
         "id": 1013,
-        "usage": 0.25
+        "usage": 0.28571
       },
       {
         "id": 823,
-        "usage": 0.25
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

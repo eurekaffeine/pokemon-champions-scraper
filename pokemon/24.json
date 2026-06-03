@@ -3,39 +3,47 @@
   "name": "Arbok",
   "form": null,
   "competitive": {
-    "usage_rank": 167,
-    "usage_rate": 0.0007000000000000001,
+    "usage_rank": 206,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 784,
-        "usage": 0.8
+        "id": 282,
+        "usage": 1.0
+      },
+      {
+        "id": 441,
+        "usage": 0.5
+      },
+      {
+        "id": 137,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
       },
       {
         "id": 398,
-        "usage": 0.2
+        "usage": 0.5
       },
       {
         "id": 92,
-        "usage": 0.2
+        "usage": 0.5
       },
       {
         "id": 482,
-        "usage": 0.2
-      },
-      {
-        "id": 282,
-        "usage": 0.2
+        "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 215,
-        "usage": 0.8
+        "id": 222,
+        "usage": 0.5
       },
       {
         "id": 135,
-        "usage": 0.2
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -46,28 +54,28 @@
     ],
     "teammates": [
       {
-        "id": 132,
-        "usage": 0.8
+        "id": 3,
+        "usage": 0.5
       },
       {
-        "id": 569,
-        "usage": 0.8
+        "id": 248,
+        "usage": 0.5
       },
       {
-        "id": 778,
-        "usage": 0.8
+        "id": 823,
+        "usage": 0.5
       },
       {
-        "id": 911,
-        "usage": 0.8
+        "id": 350,
+        "usage": 0.5
       },
       {
-        "id": 10239,
-        "usage": 0.8
+        "id": 10008,
+        "usage": 0.5
       },
       {
         "id": 844,
-        "usage": 0.2
+        "usage": 0.5
       }
     ],
     "tera_types": [],

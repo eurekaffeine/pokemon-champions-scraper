@@ -3,107 +3,107 @@
   "name": "Mudsdale",
   "form": null,
   "competitive": {
-    "usage_rank": 121,
-    "usage_rate": 0.0024,
+    "usage_rank": 133,
+    "usage_rate": 0.0021,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.9375
+        "usage": 0.93333
       },
       {
         "id": 89,
-        "usage": 0.75
+        "usage": 0.73333
       },
       {
         "id": 157,
-        "usage": 0.625
+        "usage": 0.6
       },
       {
         "id": 370,
-        "usage": 0.3125
+        "usage": 0.33332999999999996
       },
       {
         "id": 776,
-        "usage": 0.3125
+        "usage": 0.33332999999999996
       },
       {
         "id": 667,
-        "usage": 0.3125
+        "usage": 0.26667
       },
       {
         "id": 484,
-        "usage": 0.1875
+        "usage": 0.2
       },
       {
         "id": 174,
-        "usage": 0.125
+        "usage": 0.13333
       },
       {
         "id": 444,
-        "usage": 0.125
+        "usage": 0.13333
       },
       {
         "id": 371,
-        "usage": 0.0625
+        "usage": 0.06667
       }
     ],
     "items": [
       {
         "id": 214,
-        "usage": 0.375
+        "usage": 0.33332999999999996
       },
       {
         "id": 164,
-        "usage": 0.25
+        "usage": 0.26667
       },
       {
         "id": 211,
-        "usage": 0.1875
+        "usage": 0.2
       },
       {
         "id": 135,
-        "usage": 0.125
+        "usage": 0.13333
       },
       {
         "id": 162,
-        "usage": 0.0625
+        "usage": 0.06667
       }
     ],
     "abilities": [
       {
         "id": 39,
-        "usage": 0.625
+        "usage": 0.6
       },
       {
         "id": 192,
-        "usage": 0.375
+        "usage": 0.4
       }
     ],
     "teammates": [
       {
         "id": 765,
-        "usage": 0.375
+        "usage": 0.4
       },
       {
         "id": 730,
-        "usage": 0.3125
+        "usage": 0.33332999999999996
       },
       {
         "id": 1013,
-        "usage": 0.1875
+        "usage": 0.2
       },
       {
         "id": 354,
-        "usage": 0.1875
+        "usage": 0.2
       },
       {
         "id": 279,
-        "usage": 0.1875
+        "usage": 0.2
       },
       {
         "id": 324,
-        "usage": 0.1875
+        "usage": 0.2
       }
     ],
     "tera_types": [],

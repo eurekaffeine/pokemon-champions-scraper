@@ -1,68 +1,76 @@
 {
-  "dex_id": 10061,
-  "name": "Floette-Eternal",
+  "dex_id": 10248,
+  "name": "Basculegion-F",
   "form": null,
   "competitive": {
-    "usage_rank": 212,
+    "usage_rank": 205,
     "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 585,
+        "id": 330,
         "usage": 1.0
       },
       {
-        "id": 605,
-        "usage": 1.0
-      },
-      {
-        "id": 617,
+        "id": 58,
         "usage": 1.0
       },
       {
         "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 247,
         "usage": 0.5
       },
       {
-        "id": 271,
+        "id": 506,
         "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 264,
+        "id": 252,
+        "usage": 0.5
+      },
+      {
+        "id": 224,
         "usage": 0.5
       }
     ],
     "abilities": [
       {
-        "id": 166,
-        "usage": 1.0
+        "id": 33,
+        "usage": 0.5
+      },
+      {
+        "id": 91,
+        "usage": 0.5
       }
     ],
     "teammates": [
       {
-        "id": 6,
+        "id": 707,
+        "usage": 1.0
+      },
+      {
+        "id": 964,
         "usage": 0.5
       },
       {
-        "id": 142,
+        "id": 981,
         "usage": 0.5
       },
       {
-        "id": 445,
+        "id": 3,
         "usage": 0.5
       },
       {
-        "id": 983,
+        "id": 1018,
         "usage": 0.5
       },
       {
-        "id": 902,
-        "usage": 0.5
-      },
-      {
-        "id": 310,
+        "id": 248,
         "usage": 0.5
       }
     ],

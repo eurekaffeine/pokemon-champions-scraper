@@ -3,55 +3,55 @@
   "name": "Chimecho",
   "form": null,
   "competitive": {
-    "usage_rank": 102,
-    "usage_rate": 0.0034000000000000002,
+    "usage_rank": 115,
+    "usage_rate": 0.0028000000000000004,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
-        "usage": 0.73913
+        "id": 94,
+        "usage": 0.75
       },
       {
         "id": 430,
-        "usage": 0.69565
+        "usage": 0.75
       },
       {
-        "id": 94,
-        "usage": 0.6087
+        "id": 182,
+        "usage": 0.75
       },
       {
         "id": 433,
-        "usage": 0.43478
+        "usage": 0.45
       },
       {
         "id": 505,
-        "usage": 0.30435
+        "usage": 0.3
       },
       {
         "id": 247,
-        "usage": 0.17390999999999998
+        "usage": 0.2
       },
       {
         "id": 322,
-        "usage": 0.13043
+        "usage": 0.15
       },
       {
-        "id": 347,
-        "usage": 0.13043
+        "id": 105,
+        "usage": 0.1
       },
       {
         "id": 270,
-        "usage": 0.08696
+        "usage": 0.1
       },
       {
         "id": 226,
-        "usage": 0.08696
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 2637,
-        "usage": 0.95652
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -62,28 +62,28 @@
     ],
     "teammates": [
       {
-        "id": 903,
-        "usage": 0.34783000000000003
+        "id": 700,
+        "usage": 0.35
       },
       {
-        "id": 700,
-        "usage": 0.34783000000000003
+        "id": 903,
+        "usage": 0.35
       },
       {
         "id": 445,
-        "usage": 0.26087
-      },
-      {
-        "id": 279,
-        "usage": 0.26087
-      },
-      {
-        "id": 981,
-        "usage": 0.21739
+        "usage": 0.3
       },
       {
         "id": 902,
-        "usage": 0.21739
+        "usage": 0.25
+      },
+      {
+        "id": 279,
+        "usage": 0.2
+      },
+      {
+        "id": 1018,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

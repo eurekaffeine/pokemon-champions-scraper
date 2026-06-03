@@ -3,8 +3,8 @@
   "name": "Gourgeist",
   "form": null,
   "competitive": {
-    "usage_rank": 170,
-    "usage_rate": 0.0006,
+    "usage_rank": 208,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
@@ -16,6 +16,10 @@
         "usage": 1.0
       },
       {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
         "id": 438,
         "usage": 0.5
       },
@@ -24,70 +28,50 @@
         "usage": 0.5
       },
       {
-        "id": 182,
-        "usage": 0.25
-      },
-      {
         "id": 502,
-        "usage": 0.25
-      },
-      {
-        "id": 402,
-        "usage": 0.25
-      },
-      {
-        "id": 157,
-        "usage": 0.25
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 161,
-        "usage": 0.75
-      },
-      {
-        "id": 211,
-        "usage": 0.25
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 15,
+        "id": 119,
         "usage": 0.5
       },
       {
-        "id": 119,
-        "usage": 0.25
-      },
-      {
         "id": 53,
-        "usage": 0.25
+        "usage": 0.5
       }
     ],
     "teammates": [
       {
-        "id": 983,
-        "usage": 0.75
-      },
-      {
-        "id": 981,
-        "usage": 0.5
-      },
-      {
-        "id": 700,
-        "usage": 0.5
-      },
-      {
         "id": 780,
-        "usage": 0.25
+        "usage": 0.5
       },
       {
         "id": 323,
-        "usage": 0.25
+        "usage": 0.5
       },
       {
         "id": 765,
-        "usage": 0.25
+        "usage": 0.5
+      },
+      {
+        "id": 460,
+        "usage": 0.5
+      },
+      {
+        "id": 752,
+        "usage": 0.5
+      },
+      {
+        "id": 428,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

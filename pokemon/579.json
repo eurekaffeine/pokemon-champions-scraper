@@ -3,8 +3,8 @@
   "name": "Reuniclus",
   "form": null,
   "competitive": {
-    "usage_rank": 180,
-    "usage_rate": 0.0003,
+    "usage_rank": 182,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
@@ -12,15 +12,7 @@
         "usage": 1.0
       },
       {
-        "id": 917,
-        "usage": 0.5
-      },
-      {
-        "id": 411,
-        "usage": 0.5
-      },
-      {
-        "id": 502,
+        "id": 270,
         "usage": 0.5
       },
       {
@@ -28,22 +20,50 @@
         "usage": 0.5
       },
       {
-        "id": 240,
+        "id": 411,
         "usage": 0.5
       },
       {
+        "id": 797,
+        "usage": 0.25
+      },
+      {
+        "id": 678,
+        "usage": 0.25
+      },
+      {
+        "id": 917,
+        "usage": 0.25
+      },
+      {
+        "id": 502,
+        "usage": 0.25
+      },
+      {
+        "id": 240,
+        "usage": 0.25
+      },
+      {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "items": [
       {
+        "id": 211,
+        "usage": 0.25
+      },
+      {
+        "id": 135,
+        "usage": 0.25
+      },
+      {
         "id": 196,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 175,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "abilities": [
@@ -58,28 +78,28 @@
     ],
     "teammates": [
       {
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
         "id": 983,
-        "usage": 1.0
-      },
-      {
-        "id": 6,
         "usage": 0.5
       },
       {
-        "id": 3,
-        "usage": 0.5
+        "id": 214,
+        "usage": 0.25
       },
       {
-        "id": 445,
-        "usage": 0.5
+        "id": 248,
+        "usage": 0.25
       },
       {
-        "id": 26,
-        "usage": 0.5
-      },
-      {
-        "id": 160,
-        "usage": 0.5
+        "id": 395,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

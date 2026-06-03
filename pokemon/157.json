@@ -3,7 +3,7 @@
   "name": "Typhlosion",
   "form": null,
   "competitive": {
-    "usage_rank": 176,
+    "usage_rank": 199,
     "usage_rate": 0.0004,
     "win_rate": null,
     "moves": [
@@ -58,12 +58,12 @@
     ],
     "teammates": [
       {
-        "id": 6,
+        "id": 823,
         "usage": 1.0
       },
       {
-        "id": 823,
-        "usage": 1.0
+        "id": 6,
+        "usage": 0.66667
       },
       {
         "id": 445,
@@ -78,7 +78,7 @@
         "usage": 0.66667
       },
       {
-        "id": 248,
+        "id": 6,
         "usage": 0.33332999999999996
       }
     ],
