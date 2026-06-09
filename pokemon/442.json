@@ -3,8 +3,8 @@
   "name": "Spiritomb",
   "form": null,
   "competitive": {
-    "usage_rank": 166,
-    "usage_rate": 0.001,
+    "usage_rank": 179,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
@@ -13,97 +13,93 @@
       },
       {
         "id": 261,
-        "usage": 0.71429
+        "usage": 0.8
       },
       {
         "id": 492,
-        "usage": 0.57143
-      },
-      {
-        "id": 182,
-        "usage": 0.57143
+        "usage": 0.4
       },
       {
         "id": 555,
-        "usage": 0.42857
+        "usage": 0.4
+      },
+      {
+        "id": 220,
+        "usage": 0.2
+      },
+      {
+        "id": 808,
+        "usage": 0.2
+      },
+      {
+        "id": 809,
+        "usage": 0.2
       },
       {
         "id": 240,
-        "usage": 0.14286
+        "usage": 0.2
       },
       {
         "id": 94,
-        "usage": 0.14286
+        "usage": 0.2
       },
       {
         "id": 194,
-        "usage": 0.14286
-      },
-      {
-        "id": 506,
-        "usage": 0.14286
-      },
-      {
-        "id": 286,
-        "usage": 0.14286
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.42857
+        "usage": 0.4
       },
       {
         "id": 723,
-        "usage": 0.14286
+        "usage": 0.2
       },
       {
         "id": 252,
-        "usage": 0.14286
+        "usage": 0.2
       },
       {
         "id": 190,
-        "usage": 0.14286
-      },
-      {
-        "id": 211,
-        "usage": 0.14286
+        "usage": 0.2
       }
     ],
     "abilities": [
       {
         "id": 151,
-        "usage": 0.71429
+        "usage": 0.6
       },
       {
         "id": 46,
-        "usage": 0.28571
+        "usage": 0.4
       }
     ],
     "teammates": [
       {
+        "id": 902,
+        "usage": 0.4
+      },
+      {
+        "id": 1013,
+        "usage": 0.4
+      },
+      {
         "id": 279,
-        "usage": 0.42857
+        "usage": 0.4
       },
       {
-        "id": 306,
-        "usage": 0.42857
+        "id": 407,
+        "usage": 0.2
       },
       {
-        "id": 445,
-        "usage": 0.28571
+        "id": 350,
+        "usage": 0.2
       },
       {
-        "id": 3,
-        "usage": 0.28571
-      },
-      {
-        "id": 115,
-        "usage": 0.14286
-      },
-      {
-        "id": 10244,
-        "usage": 0.14286
+        "id": 663,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

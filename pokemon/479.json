@@ -3,51 +3,39 @@
   "name": "Rotom",
   "form": null,
   "competitive": {
-    "usage_rank": 188,
-    "usage_rate": 0.0006,
+    "usage_rank": 211,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 527,
-        "usage": 0.75
-      },
-      {
-        "id": 521,
-        "usage": 0.75
-      },
-      {
         "id": 247,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 85,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
-        "id": 56,
-        "usage": 0.5
-      },
-      {
-        "id": 261,
+        "id": 527,
         "usage": 0.5
       },
       {
         "id": 598,
-        "usage": 0.25
+        "usage": 0.5
+      },
+      {
+        "id": 521,
+        "usage": 0.5
       },
       {
         "id": 271,
-        "usage": 0.25
+        "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.5
-      },
-      {
-        "id": 211,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -58,28 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 765,
-        "usage": 0.5
-      },
-      {
-        "id": 900,
-        "usage": 0.5
-      },
-      {
-        "id": 700,
-        "usage": 0.5
-      },
-      {
-        "id": 160,
-        "usage": 0.5
-      },
-      {
-        "id": 248,
-        "usage": 0.5
-      },
-      {
         "id": 334,
-        "usage": 0.25
+        "usage": 0.5
+      },
+      {
+        "id": 637,
+        "usage": 0.5
+      },
+      {
+        "id": 10165,
+        "usage": 0.5
+      },
+      {
+        "id": 350,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 6,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

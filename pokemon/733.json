@@ -3,38 +3,34 @@
   "name": "Toucannon",
   "form": null,
   "competitive": {
-    "usage_rank": 207,
+    "usage_rank": 205,
     "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
-      {
-        "id": 331,
-        "usage": 1.0
-      },
       {
         "id": 690,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 331,
         "usage": 1.0
       },
       {
         "id": 350,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
-        "id": 675,
-        "usage": 0.5
+        "id": 182,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 134,
+        "id": 252,
         "usage": 0.5
       },
       {
-        "id": 252,
+        "id": 134,
         "usage": 0.5
       }
     ],
@@ -46,27 +42,27 @@
     ],
     "teammates": [
       {
-        "id": 903,
-        "usage": 1.0
+        "id": 683,
+        "usage": 0.5
+      },
+      {
+        "id": 308,
+        "usage": 0.5
+      },
+      {
+        "id": 693,
+        "usage": 0.5
+      },
+      {
+        "id": 748,
+        "usage": 0.5
+      },
+      {
+        "id": 472,
+        "usage": 0.5
       },
       {
         "id": 655,
-        "usage": 0.5
-      },
-      {
-        "id": 902,
-        "usage": 0.5
-      },
-      {
-        "id": 547,
-        "usage": 0.5
-      },
-      {
-        "id": 445,
-        "usage": 0.5
-      },
-      {
-        "id": 130,
         "usage": 0.5
       }
     ],

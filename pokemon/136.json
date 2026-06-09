@@ -1,22 +1,22 @@
 {
-  "dex_id": 362,
-  "name": "Glalie",
+  "dex_id": 136,
+  "name": "Flareon",
   "form": null,
   "competitive": {
-    "usage_rank": 228,
+    "usage_rank": 215,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 329,
+        "id": 394,
         "usage": 1.0
       },
       {
-        "id": 573,
+        "id": 424,
         "usage": 1.0
       },
       {
-        "id": 334,
+        "id": 174,
         "usage": 1.0
       },
       {
@@ -26,35 +26,35 @@
     ],
     "items": [
       {
-        "id": 161,
+        "id": 226,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 141,
+        "id": 18,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 701,
+        "id": 867,
         "usage": 1.0
       },
       {
-        "id": 866,
+        "id": 869,
         "usage": 1.0
       },
       {
-        "id": 981,
+        "id": 358,
         "usage": 1.0
       },
       {
-        "id": 983,
+        "id": 715,
         "usage": 1.0
       },
       {
-        "id": 208,
+        "id": 510,
         "usage": 1.0
       }
     ],

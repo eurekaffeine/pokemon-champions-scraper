@@ -3,71 +3,58 @@
   "name": "Charizard",
   "form": null,
   "competitive": {
-    "usage_rank": 196,
-    "usage_rate": 0.0004,
+    "usage_rank": 209,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
         "id": 257,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
         "id": 76,
-        "usage": 0.66667
-      },
-      {
-        "id": 311,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
         "id": 182,
-        "usage": 0.33332999999999996
+        "usage": 0.5
       },
       {
-        "id": 406,
-        "usage": 0.33332999999999996
+        "id": 311,
+        "usage": 0.5
       }
     ],
-    "items": [
-      {
-        "id": 264,
-        "usage": 0.33332999999999996
-      }
-    ],
+    "items": [],
     "abilities": [
       {
         "id": 70,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 94,
-        "usage": 0.33332999999999996
+        "usage": 0.5
       }
     ],
     "teammates": [
       {
-        "id": 324,
-        "usage": 0.66667
-      },
-      {
-        "id": 903,
-        "usage": 0.66667
-      },
-      {
         "id": 547,
-        "usage": 0.33332999999999996
+        "usage": 0.5
       },
       {
         "id": 3,
-        "usage": 0.33332999999999996
+        "usage": 0.5
       },
       {
         "id": 727,
-        "usage": 0.33332999999999996
+        "usage": 0.5
       },
       {
         "id": 981,
-        "usage": 0.33332999999999996
+        "usage": 0.5
+      },
+      {
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

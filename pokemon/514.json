@@ -1,52 +1,52 @@
 {
-  "dex_id": 362,
-  "name": "Glalie",
+  "dex_id": 514,
+  "name": "Simisear",
   "form": null,
   "competitive": {
-    "usage_rank": 228,
+    "usage_rank": 214,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 329,
+        "id": 241,
         "usage": 1.0
       },
       {
-        "id": 573,
+        "id": 252,
         "usage": 1.0
       },
       {
-        "id": 334,
+        "id": 261,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 315,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 161,
+        "id": 168,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 141,
+        "id": 66,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 701,
+        "id": 3,
         "usage": 1.0
       },
       {
-        "id": 866,
+        "id": 700,
         "usage": 1.0
       },
       {
-        "id": 981,
+        "id": 10239,
         "usage": 1.0
       },
       {
@@ -54,7 +54,7 @@
         "usage": 1.0
       },
       {
-        "id": 208,
+        "id": 6,
         "usage": 1.0
       }
     ],

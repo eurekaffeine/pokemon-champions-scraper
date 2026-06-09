@@ -1,60 +1,60 @@
 {
-  "dex_id": 362,
-  "name": "Glalie",
+  "dex_id": 205,
+  "name": "Forretress",
   "form": null,
   "competitive": {
-    "usage_rank": 228,
+    "usage_rank": 217,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 329,
+        "id": 446,
         "usage": 1.0
       },
       {
-        "id": 573,
-        "usage": 1.0
-      },
-      {
-        "id": 334,
+        "id": 86,
         "usage": 1.0
       },
       {
         "id": 182,
         "usage": 1.0
+      },
+      {
+        "id": 153,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 161,
+        "id": 228,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 141,
+        "id": 5,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 701,
+        "id": 229,
         "usage": 1.0
       },
       {
-        "id": 866,
+        "id": 683,
         "usage": 1.0
       },
       {
-        "id": 981,
+        "id": 470,
         "usage": 1.0
       },
       {
-        "id": 983,
+        "id": 510,
         "usage": 1.0
       },
       {
-        "id": 208,
+        "id": 715,
         "usage": 1.0
       }
     ],

@@ -3,47 +3,59 @@
   "name": "Raichu-Alola",
   "form": null,
   "competitive": {
-    "usage_rank": 185,
-    "usage_rate": 0.0006,
+    "usage_rank": 173,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
-        "id": 85,
-        "usage": 1.0
+        "id": 94,
+        "usage": 0.85714
       },
       {
-        "id": 94,
-        "usage": 1.0
+        "id": 85,
+        "usage": 0.71429
       },
       {
         "id": 252,
-        "usage": 0.5
-      },
-      {
-        "id": 182,
-        "usage": 0.5
-      },
-      {
-        "id": 521,
-        "usage": 0.5
+        "usage": 0.71429
       },
       {
         "id": 527,
-        "usage": 0.25
+        "usage": 0.28571
       },
       {
-        "id": 435,
-        "usage": 0.25
+        "id": 182,
+        "usage": 0.28571
+      },
+      {
+        "id": 521,
+        "usage": 0.28571
+      },
+      {
+        "id": 598,
+        "usage": 0.14286
+      },
+      {
+        "id": 804,
+        "usage": 0.14286
+      },
+      {
+        "id": 604,
+        "usage": 0.14286
+      },
+      {
+        "id": 683,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
-        "id": 219,
-        "usage": 0.75
+        "id": 252,
+        "usage": 0.57143
       },
       {
-        "id": 252,
-        "usage": 0.25
+        "id": 219,
+        "usage": 0.42857
       }
     ],
     "abilities": [
@@ -54,28 +66,28 @@
     ],
     "teammates": [
       {
+        "id": 727,
+        "usage": 0.42857
+      },
+      {
         "id": 547,
-        "usage": 0.75
+        "usage": 0.42857
+      },
+      {
+        "id": 181,
+        "usage": 0.28571
+      },
+      {
+        "id": 1013,
+        "usage": 0.28571
+      },
+      {
+        "id": 700,
+        "usage": 0.28571
       },
       {
         "id": 902,
-        "usage": 0.5
-      },
-      {
-        "id": 727,
-        "usage": 0.5
-      },
-      {
-        "id": 214,
-        "usage": 0.25
-      },
-      {
-        "id": 6,
-        "usage": 0.25
-      },
-      {
-        "id": 983,
-        "usage": 0.25
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

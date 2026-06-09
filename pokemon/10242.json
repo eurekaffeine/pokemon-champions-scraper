@@ -3,49 +3,49 @@
   "name": "Goodra-Hisui",
   "form": null,
   "competitive": {
-    "usage_rank": 125,
-    "usage_rate": 0.0022,
+    "usage_rank": 130,
+    "usage_rate": 0.002,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.75
+        "usage": 0.6875
       },
       {
         "id": 842,
-        "usage": 0.5625
+        "usage": 0.625
       },
       {
         "id": 776,
-        "usage": 0.5
+        "usage": 0.5625
       },
       {
-        "id": 430,
-        "usage": 0.375
+        "id": 791,
+        "usage": 0.3125
       },
       {
         "id": 85,
-        "usage": 0.375
+        "usage": 0.3125
+      },
+      {
+        "id": 430,
+        "usage": 0.3125
       },
       {
         "id": 434,
         "usage": 0.25
       },
       {
-        "id": 791,
-        "usage": 0.1875
+        "id": 442,
+        "usage": 0.125
       },
       {
         "id": 406,
         "usage": 0.125
       },
       {
-        "id": 484,
-        "usage": 0.125
-      },
-      {
-        "id": 442,
-        "usage": 0.125
+        "id": 364,
+        "usage": 0.0625
       }
     ],
     "items": [
@@ -55,7 +55,11 @@
       },
       {
         "id": 166,
-        "usage": 0.1875
+        "usage": 0.125
+      },
+      {
+        "id": 135,
+        "usage": 0.0625
       },
       {
         "id": 230,
@@ -69,18 +73,26 @@
     "abilities": [
       {
         "id": 75,
-        "usage": 0.625
+        "usage": 0.4375
       },
       {
         "id": 183,
-        "usage": 0.3125
+        "usage": 0.375
       },
       {
         "id": 157,
-        "usage": 0.0625
+        "usage": 0.1875
       }
     ],
     "teammates": [
+      {
+        "id": 302,
+        "usage": 0.1875
+      },
+      {
+        "id": 1013,
+        "usage": 0.1875
+      },
       {
         "id": 902,
         "usage": 0.1875
@@ -90,15 +102,7 @@
         "usage": 0.1875
       },
       {
-        "id": 730,
-        "usage": 0.1875
-      },
-      {
         "id": 908,
-        "usage": 0.1875
-      },
-      {
-        "id": 445,
         "usage": 0.1875
       },
       {

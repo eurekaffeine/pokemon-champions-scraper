@@ -3,83 +3,99 @@
   "name": "Torterra",
   "form": null,
   "competitive": {
-    "usage_rank": 183,
-    "usage_rate": 0.0006,
+    "usage_rank": 166,
+    "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
       {
-        "id": 202,
-        "usage": 0.75
+        "id": 469,
+        "usage": 0.5
       },
       {
         "id": 89,
-        "usage": 0.75
-      },
-      {
-        "id": 350,
-        "usage": 0.75
-      },
-      {
-        "id": 776,
-        "usage": 0.75
+        "usage": 0.5
       },
       {
         "id": 452,
-        "usage": 0.25
+        "usage": 0.375
       },
       {
         "id": 838,
-        "usage": 0.25
-      },
-      {
-        "id": 469,
-        "usage": 0.25
+        "usage": 0.375
       },
       {
         "id": 182,
+        "usage": 0.375
+      },
+      {
+        "id": 202,
+        "usage": 0.375
+      },
+      {
+        "id": 350,
+        "usage": 0.375
+      },
+      {
+        "id": 776,
+        "usage": 0.375
+      },
+      {
+        "id": 402,
+        "usage": 0.25
+      },
+      {
+        "id": 504,
         "usage": 0.25
       }
     ],
     "items": [
       {
+        "id": 191,
+        "usage": 0.375
+      },
+      {
         "id": 194,
-        "usage": 0.75
+        "usage": 0.375
+      },
+      {
+        "id": 211,
+        "usage": 0.125
       },
       {
         "id": 214,
-        "usage": 0.25
+        "usage": 0.125
       }
     ],
     "abilities": [
       {
         "id": 65,
-        "usage": 0.75
+        "usage": 0.625
       },
       {
         "id": 75,
-        "usage": 0.25
+        "usage": 0.375
       }
     ],
     "teammates": [
       {
+        "id": 6,
+        "usage": 0.5
+      },
+      {
         "id": 10165,
-        "usage": 0.75
+        "usage": 0.375
       },
       {
         "id": 563,
-        "usage": 0.75
-      },
-      {
-        "id": 6,
-        "usage": 0.75
+        "usage": 0.375
       },
       {
         "id": 899,
-        "usage": 0.75
+        "usage": 0.375
       },
       {
         "id": 208,
-        "usage": 0.75
+        "usage": 0.375
       },
       {
         "id": 10009,

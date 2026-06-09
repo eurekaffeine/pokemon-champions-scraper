@@ -3,41 +3,45 @@
   "name": "Beedrill-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
-    "usage_rate": 0.0014000000000000002,
+    "usage_rank": 168,
+    "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
-      {
-        "id": 398,
-        "usage": 1.0
-      },
       {
         "id": 182,
         "usage": 1.0
       },
       {
+        "id": 398,
+        "usage": 1.0
+      },
+      {
         "id": 369,
-        "usage": 0.9
-      },
-      {
-        "id": 529,
-        "usage": 0.5
-      },
-      {
-        "id": 814,
-        "usage": 0.2
-      },
-      {
-        "id": 42,
-        "usage": 0.2
+        "usage": 1.0
       },
       {
         "id": 282,
-        "usage": 0.1
+        "usage": 0.25
       },
       {
-        "id": 404,
-        "usage": 0.1
+        "id": 814,
+        "usage": 0.25
+      },
+      {
+        "id": 164,
+        "usage": 0.125
+      },
+      {
+        "id": 527,
+        "usage": 0.125
+      },
+      {
+        "id": 42,
+        "usage": 0.125
+      },
+      {
+        "id": 529,
+        "usage": 0.125
       }
     ],
     "items": [
@@ -48,42 +52,42 @@
     ],
     "abilities": [
       {
-        "id": 91,
-        "usage": 0.5
-      },
-      {
         "id": 97,
-        "usage": 0.4
+        "usage": 0.625
       },
       {
         "id": 68,
-        "usage": 0.1
+        "usage": 0.25
+      },
+      {
+        "id": 91,
+        "usage": 0.125
       }
     ],
     "teammates": [
       {
-        "id": 763,
-        "usage": 0.6
+        "id": 981,
+        "usage": 0.375
       },
       {
-        "id": 727,
-        "usage": 0.5
+        "id": 700,
+        "usage": 0.25
       },
       {
-        "id": 10236,
-        "usage": 0.5
+        "id": 445,
+        "usage": 0.25
       },
       {
-        "id": 26,
-        "usage": 0.5
-      },
-      {
-        "id": 142,
-        "usage": 0.3
+        "id": 350,
+        "usage": 0.25
       },
       {
         "id": 132,
-        "usage": 0.2
+        "usage": 0.25
+      },
+      {
+        "id": 730,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

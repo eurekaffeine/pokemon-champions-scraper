@@ -1,22 +1,22 @@
 {
-  "dex_id": 362,
-  "name": "Glalie",
+  "dex_id": 702,
+  "name": "Dedenne",
   "form": null,
   "competitive": {
-    "usage_rank": 228,
+    "usage_rank": 216,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 329,
+        "id": 162,
         "usage": 1.0
       },
       {
-        "id": 573,
+        "id": 609,
         "usage": 1.0
       },
       {
-        "id": 334,
+        "id": 240,
         "usage": 1.0
       },
       {
@@ -26,35 +26,35 @@
     ],
     "items": [
       {
-        "id": 161,
+        "id": 168,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 141,
+        "id": 167,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 701,
+        "id": 80,
         "usage": 1.0
       },
       {
-        "id": 866,
+        "id": 934,
         "usage": 1.0
       },
       {
-        "id": 981,
+        "id": 911,
         "usage": 1.0
       },
       {
-        "id": 983,
+        "id": 128,
         "usage": 1.0
       },
       {
-        "id": 208,
+        "id": 1019,
         "usage": 1.0
       }
     ],

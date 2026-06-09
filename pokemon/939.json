@@ -3,8 +3,8 @@
   "name": "Bellibolt",
   "form": null,
   "competitive": {
-    "usage_rank": 111,
-    "usage_rate": 0.0028000000000000004,
+    "usage_rank": 124,
+    "usage_rate": 0.0022,
     "win_rate": null,
     "moves": [
       {
@@ -12,58 +12,54 @@
         "usage": 1.0
       },
       {
-        "id": 487,
-        "usage": 0.85
+        "id": 182,
+        "usage": 0.82353
       },
       {
-        "id": 182,
-        "usage": 0.8
+        "id": 487,
+        "usage": 0.76471
       },
       {
         "id": 85,
-        "usage": 0.4
+        "usage": 0.41176
       },
       {
         "id": 303,
-        "usage": 0.2
+        "usage": 0.23529
       },
       {
         "id": 330,
-        "usage": 0.2
+        "usage": 0.23529
       },
       {
         "id": 521,
-        "usage": 0.15
+        "usage": 0.17647
       },
       {
         "id": 311,
-        "usage": 0.15
+        "usage": 0.17647
       },
       {
-        "id": 491,
-        "usage": 0.1
+        "id": 527,
+        "usage": 0.05882
       },
       {
-        "id": 87,
-        "usage": 0.05
+        "id": 304,
+        "usage": 0.05882
       }
     ],
     "items": [
       {
         "id": 219,
-        "usage": 0.65
+        "usage": 0.58824
       },
       {
         "id": 211,
-        "usage": 0.2
+        "usage": 0.29412
       },
       {
         "id": 135,
-        "usage": 0.1
-      },
-      {
-        "id": 209,
-        "usage": 0.05
+        "usage": 0.11765
       }
     ],
     "abilities": [
@@ -74,28 +70,28 @@
     ],
     "teammates": [
       {
+        "id": 727,
+        "usage": 0.29412
+      },
+      {
         "id": 981,
-        "usage": 0.4
+        "usage": 0.29412
+      },
+      {
+        "id": 547,
+        "usage": 0.17647
+      },
+      {
+        "id": 6,
+        "usage": 0.17647
+      },
+      {
+        "id": 1013,
+        "usage": 0.17647
       },
       {
         "id": 445,
-        "usage": 0.3
-      },
-      {
-        "id": 727,
-        "usage": 0.3
-      },
-      {
-        "id": 302,
-        "usage": 0.2
-      },
-      {
-        "id": 983,
-        "usage": 0.2
-      },
-      {
-        "id": 128,
-        "usage": 0.15
+        "usage": 0.17647
       }
     ],
     "tera_types": [],

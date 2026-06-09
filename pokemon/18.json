@@ -3,33 +3,37 @@
   "name": "Pidgeot-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 151,
-    "usage_rate": 0.0014000000000000002,
+    "usage_rank": 145,
+    "usage_rate": 0.0015,
     "win_rate": null,
     "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
       {
         "id": 542,
         "usage": 1.0
       },
       {
         "id": 257,
-        "usage": 1.0
-      },
-      {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 366,
-        "usage": 0.5
+        "usage": 0.91667
       },
       {
         "id": 63,
-        "usage": 0.4
+        "usage": 0.5
+      },
+      {
+        "id": 366,
+        "usage": 0.41667000000000004
+      },
+      {
+        "id": 403,
+        "usage": 0.08333
       },
       {
         "id": 241,
-        "usage": 0.1
+        "usage": 0.08333
       }
     ],
     "items": [
@@ -41,37 +45,37 @@
     "abilities": [
       {
         "id": 51,
-        "usage": 0.6
+        "usage": 0.66667
       },
       {
         "id": 145,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.3
+        "id": 763,
+        "usage": 0.41667000000000004
       },
       {
-        "id": 902,
-        "usage": 0.3
+        "id": 547,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 10233,
+        "usage": 0.25
+      },
+      {
+        "id": 635,
+        "usage": 0.25
       },
       {
         "id": 128,
-        "usage": 0.3
+        "usage": 0.25
       },
       {
-        "id": 903,
-        "usage": 0.2
-      },
-      {
-        "id": 3,
-        "usage": 0.2
-      },
-      {
-        "id": 149,
-        "usage": 0.2
+        "id": 208,
+        "usage": 0.16667
       }
     ],
     "tera_types": [],
