@@ -1,22 +1,26 @@
 {
-  "dex_id": 503,
-  "name": "Samurott",
+  "dex_id": 409676,
+  "name": "Furfrou",
   "form": null,
   "competitive": {
-    "usage_rank": 210,
+    "usage_rank": 208,
     "usage_rate": 0.0002,
     "win_rate": null,
     "moves": [
       {
-        "id": 56,
+        "id": 555,
+        "usage": 1.0
+      },
+      {
+        "id": 706,
         "usage": 0.5
       },
       {
-        "id": 58,
+        "id": 608,
         "usage": 0.5
       },
       {
-        "id": 453,
+        "id": 369,
         "usage": 0.5
       },
       {
@@ -24,61 +28,53 @@
         "usage": 0.5
       },
       {
-        "id": 534,
+        "id": 538,
         "usage": 0.5
       },
       {
-        "id": 812,
-        "usage": 0.5
-      },
-      {
-        "id": 282,
-        "usage": 0.5
-      },
-      {
-        "id": 196,
+        "id": 270,
         "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 220,
+        "id": 166,
         "usage": 0.5
       },
       {
-        "id": 264,
+        "id": 135,
         "usage": 0.5
       }
     ],
     "abilities": [
       {
-        "id": 67,
+        "id": 169,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
+        "id": 478,
+        "usage": 1.0
+      },
+      {
         "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 10230,
         "usage": 0.5
       },
       {
-        "id": 530,
+        "id": 475,
         "usage": 0.5
       },
       {
-        "id": 635,
+        "id": 727,
         "usage": 0.5
       },
       {
-        "id": 637,
-        "usage": 0.5
-      },
-      {
-        "id": 663,
-        "usage": 0.5
-      },
-      {
-        "id": 981,
+        "id": 350,
         "usage": 0.5
       }
     ],

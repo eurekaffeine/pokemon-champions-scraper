@@ -3,40 +3,36 @@
   "name": "Slowbro",
   "form": null,
   "competitive": {
-    "usage_rank": 183,
+    "usage_rank": 181,
     "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
-        "id": 433,
-        "usage": 0.6
+        "id": 94,
+        "usage": 0.8
       },
       {
         "id": 503,
         "usage": 0.6
       },
       {
-        "id": 182,
+        "id": 433,
         "usage": 0.6
-      },
-      {
-        "id": 94,
-        "usage": 0.4
-      },
-      {
-        "id": 505,
-        "usage": 0.4
-      },
-      {
-        "id": 281,
-        "usage": 0.4
       },
       {
         "id": 270,
         "usage": 0.4
       },
       {
+        "id": 182,
+        "usage": 0.4
+      },
+      {
         "id": 303,
+        "usage": 0.2
+      },
+      {
+        "id": 281,
         "usage": 0.2
       },
       {
@@ -46,13 +42,13 @@
       {
         "id": 240,
         "usage": 0.2
+      },
+      {
+        "id": 505,
+        "usage": 0.2
       }
     ],
     "items": [
-      {
-        "id": 196,
-        "usage": 0.4
-      },
       {
         "id": 135,
         "usage": 0.4
@@ -60,12 +56,24 @@
       {
         "id": 175,
         "usage": 0.2
+      },
+      {
+        "id": 196,
+        "usage": 0.2
+      },
+      {
+        "id": 211,
+        "usage": 0.2
       }
     ],
     "abilities": [
       {
         "id": 144,
-        "usage": 0.8
+        "usage": 0.6
+      },
+      {
+        "id": 12,
+        "usage": 0.2
       },
       {
         "id": 20,
@@ -75,27 +83,27 @@
     "teammates": [
       {
         "id": 6,
-        "usage": 0.6
-      },
-      {
-        "id": 9,
-        "usage": 0.4
+        "usage": 0.8
       },
       {
         "id": 700,
         "usage": 0.4
       },
       {
-        "id": 681,
-        "usage": 0.4
+        "id": 1013,
+        "usage": 0.2
       },
       {
-        "id": 445,
-        "usage": 0.4
+        "id": 695,
+        "usage": 0.2
       },
       {
-        "id": 142,
-        "usage": 0.4
+        "id": 534,
+        "usage": 0.2
+      },
+      {
+        "id": 553,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

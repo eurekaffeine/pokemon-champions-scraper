@@ -3,8 +3,8 @@
   "name": "Aurorus",
   "form": null,
   "competitive": {
-    "usage_rank": 161,
-    "usage_rate": 0.0012,
+    "usage_rank": 166,
+    "usage_rate": 0.001,
     "win_rate": null,
     "moves": [
       {
@@ -35,18 +35,18 @@
     "items": [
       {
         "id": 223,
-        "usage": 0.33332999999999996
+        "usage": 0.44444
       },
       {
         "id": 135,
         "usage": 0.33332999999999996
       },
       {
-        "id": 166,
-        "usage": 0.22222
+        "id": 194,
+        "usage": 0.11111
       },
       {
-        "id": 194,
+        "id": 166,
         "usage": 0.11111
       }
     ],
@@ -63,7 +63,7 @@
     "teammates": [
       {
         "id": 212,
-        "usage": 0.66667
+        "usage": 0.5555599999999999
       },
       {
         "id": 10239,
@@ -82,7 +82,7 @@
         "usage": 0.33332999999999996
       },
       {
-        "id": 115,
+        "id": 983,
         "usage": 0.22222
       }
     ],

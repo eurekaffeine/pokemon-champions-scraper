@@ -3,16 +3,12 @@
   "name": "Basculegion-F",
   "form": null,
   "competitive": {
-    "usage_rank": 208,
-    "usage_rate": 0.0003,
+    "usage_rank": 193,
+    "usage_rate": 0.0004,
     "win_rate": null,
     "moves": [
       {
         "id": 330,
-        "usage": 1.0
-      },
-      {
-        "id": 58,
         "usage": 1.0
       },
       {
@@ -21,21 +17,37 @@
       },
       {
         "id": 247,
-        "usage": 0.5
+        "usage": 0.75
+      },
+      {
+        "id": 58,
+        "usage": 0.75
+      },
+      {
+        "id": 56,
+        "usage": 0.25
       },
       {
         "id": 506,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "items": [
       {
+        "id": 220,
+        "usage": 0.25
+      },
+      {
+        "id": 190,
+        "usage": 0.25
+      },
+      {
         "id": 252,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 224,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "abilities": [
@@ -50,11 +62,15 @@
     ],
     "teammates": [
       {
-        "id": 707,
-        "usage": 1.0
+        "id": 1018,
+        "usage": 0.75
       },
       {
-        "id": 964,
+        "id": 952,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
         "usage": 0.5
       },
       {
@@ -62,16 +78,12 @@
         "usage": 0.5
       },
       {
-        "id": 3,
+        "id": 707,
         "usage": 0.5
       },
       {
-        "id": 1018,
-        "usage": 0.5
-      },
-      {
-        "id": 248,
-        "usage": 0.5
+        "id": 956,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

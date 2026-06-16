@@ -1,48 +1,48 @@
 {
-  "dex_id": 713,
-  "name": "Avalugg",
+  "dex_id": 512,
+  "name": "Simisage",
   "form": null,
   "competitive": {
-    "usage_rank": 226,
+    "usage_rank": 217,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 556,
+        "id": 412,
         "usage": 1.0
       },
       {
-        "id": 105,
+        "id": 252,
         "usage": 1.0
       },
       {
-        "id": 360,
+        "id": 157,
         "usage": 1.0
       },
       {
-        "id": 776,
+        "id": 67,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 223,
+        "id": 169,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 20,
+        "id": 65,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 358,
+        "id": 981,
         "usage": 1.0
       },
       {
-        "id": 531,
+        "id": 302,
         "usage": 1.0
       },
       {
@@ -50,7 +50,7 @@
         "usage": 1.0
       },
       {
-        "id": 842,
+        "id": 983,
         "usage": 1.0
       },
       {

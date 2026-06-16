@@ -3,17 +3,17 @@
   "name": "Pangoro",
   "form": null,
   "competitive": {
-    "usage_rank": 184,
+    "usage_rank": 183,
     "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 0.8
+        "usage": 0.6
       },
       {
-        "id": 370,
-        "usage": 0.6
+        "id": 409,
+        "usage": 0.4
       },
       {
         "id": 418,
@@ -24,27 +24,27 @@
         "usage": 0.4
       },
       {
-        "id": 663,
+        "id": 370,
         "usage": 0.4
+      },
+      {
+        "id": 681,
+        "usage": 0.2
+      },
+      {
+        "id": 509,
+        "usage": 0.2
+      },
+      {
+        "id": 371,
+        "usage": 0.2
       },
       {
         "id": 675,
         "usage": 0.2
       },
       {
-        "id": 409,
-        "usage": 0.2
-      },
-      {
         "id": 441,
-        "usage": 0.2
-      },
-      {
-        "id": 480,
-        "usage": 0.2
-      },
-      {
-        "id": 197,
         "usage": 0.2
       }
     ],
@@ -64,37 +64,41 @@
     ],
     "abilities": [
       {
-        "id": 113,
-        "usage": 0.6
-      },
-      {
         "id": 89,
         "usage": 0.4
+      },
+      {
+        "id": 113,
+        "usage": 0.4
+      },
+      {
+        "id": 104,
+        "usage": 0.2
       }
     ],
     "teammates": [
-      {
-        "id": 450,
-        "usage": 0.4
-      },
       {
         "id": 1019,
         "usage": 0.4
       },
       {
-        "id": 24,
+        "id": 727,
         "usage": 0.2
       },
       {
-        "id": 208,
+        "id": 855,
         "usage": 0.2
       },
       {
-        "id": 579,
+        "id": 748,
         "usage": 0.2
       },
       {
-        "id": 887,
+        "id": 778,
+        "usage": 0.2
+      },
+      {
+        "id": 695,
         "usage": 0.2
       }
     ],

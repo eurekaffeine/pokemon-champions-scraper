@@ -1,61 +1,81 @@
 {
   "dex_id": 362,
-  "name": "Glalie",
+  "name": "Glalie-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 228,
-    "usage_rate": 0.0001,
+    "usage_rank": 198,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 329,
-        "usage": 1.0
-      },
-      {
-        "id": 573,
-        "usage": 1.0
-      },
-      {
-        "id": 334,
+        "id": 153,
         "usage": 1.0
       },
       {
         "id": 182,
         "usage": 1.0
+      },
+      {
+        "id": 34,
+        "usage": 0.66667
+      },
+      {
+        "id": 420,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 269,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 861,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 50,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
-        "id": 161,
+        "id": 804,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
+        "id": 39,
+        "usage": 0.66667
+      },
+      {
         "id": 141,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
-        "id": 701,
+        "id": 902,
         "usage": 1.0
       },
       {
-        "id": 866,
-        "usage": 1.0
+        "id": 903,
+        "usage": 0.66667
       },
       {
-        "id": 981,
-        "usage": 1.0
+        "id": 547,
+        "usage": 0.66667
+      },
+      {
+        "id": 445,
+        "usage": 0.66667
+      },
+      {
+        "id": 715,
+        "usage": 0.33332999999999996
       },
       {
         "id": 983,
-        "usage": 1.0
-      },
-      {
-        "id": 208,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

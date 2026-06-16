@@ -3,8 +3,8 @@
   "name": "Slowbro-Galar",
   "form": null,
   "competitive": {
-    "usage_rank": 133,
-    "usage_rate": 0.002,
+    "usage_rank": 137,
+    "usage_rate": 0.0017000000000000001,
     "win_rate": null,
     "moves": [
       {
@@ -13,89 +13,89 @@
       },
       {
         "id": 94,
-        "usage": 0.8125
+        "usage": 0.73333
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 58,
-        "usage": 0.25
+        "usage": 0.33332999999999996
       },
       {
         "id": 240,
-        "usage": 0.25
-      },
-      {
-        "id": 53,
-        "usage": 0.25
-      },
-      {
-        "id": 127,
-        "usage": 0.25
-      },
-      {
-        "id": 433,
-        "usage": 0.1875
+        "usage": 0.26667
       },
       {
         "id": 428,
-        "usage": 0.125
+        "usage": 0.2
+      },
+      {
+        "id": 433,
+        "usage": 0.2
+      },
+      {
+        "id": 409,
+        "usage": 0.06667
       },
       {
         "id": 505,
-        "usage": 0.0625
+        "usage": 0.06667
+      },
+      {
+        "id": 411,
+        "usage": 0.06667
       }
     ],
     "items": [
       {
         "id": 194,
-        "usage": 0.6875
-      },
-      {
-        "id": 190,
-        "usage": 0.25
+        "usage": 0.86667
       },
       {
         "id": 196,
-        "usage": 0.0625
+        "usage": 0.06667
+      },
+      {
+        "id": 190,
+        "usage": 0.06667
       }
     ],
     "abilities": [
       {
         "id": 259,
-        "usage": 0.9375
+        "usage": 0.93333
       },
       {
         "id": 20,
-        "usage": 0.0625
+        "usage": 0.06667
       }
     ],
     "teammates": [
       {
-        "id": 208,
-        "usage": 0.3125
-      },
-      {
-        "id": 563,
-        "usage": 0.3125
-      },
-      {
-        "id": 6,
-        "usage": 0.25
-      },
-      {
         "id": 1013,
-        "usage": 0.25
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 902,
+        "usage": 0.26667
       },
       {
         "id": 6,
-        "usage": 0.25
+        "usage": 0.26667
       },
       {
-        "id": 899,
-        "usage": 0.25
+        "id": 660,
+        "usage": 0.2
+      },
+      {
+        "id": 121,
+        "usage": 0.2
+      },
+      {
+        "id": 867,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

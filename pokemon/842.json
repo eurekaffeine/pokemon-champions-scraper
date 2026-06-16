@@ -3,8 +3,8 @@
   "name": "Appletun",
   "form": null,
   "competitive": {
-    "usage_rank": 212,
-    "usage_rate": 0.0003,
+    "usage_rank": 207,
+    "usage_rate": 0.0002,
     "win_rate": null,
     "moves": [
       {
@@ -12,26 +12,34 @@
         "usage": 1.0
       },
       {
+        "id": 334,
+        "usage": 1.0
+      },
+      {
         "id": 73,
-        "usage": 1.0
-      },
-      {
-        "id": 105,
-        "usage": 1.0
-      },
-      {
-        "id": 406,
         "usage": 0.5
       },
       {
-        "id": 182,
+        "id": 776,
+        "usage": 0.5
+      },
+      {
+        "id": 133,
+        "usage": 0.5
+      },
+      {
+        "id": 105,
         "usage": 0.5
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 174,
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -42,27 +50,27 @@
     ],
     "teammates": [
       {
-        "id": 358,
+        "id": 983,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
         "usage": 0.5
       },
       {
-        "id": 531,
+        "id": 121,
         "usage": 0.5
       },
       {
-        "id": 36,
+        "id": 678,
         "usage": 0.5
       },
       {
-        "id": 713,
+        "id": 65,
         "usage": 0.5
       },
       {
-        "id": 208,
-        "usage": 0.5
-      },
-      {
-        "id": 683,
+        "id": 970,
         "usage": 0.5
       }
     ],

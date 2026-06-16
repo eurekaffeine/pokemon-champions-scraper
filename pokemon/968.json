@@ -3,8 +3,8 @@
   "name": "Orthworm",
   "form": null,
   "competitive": {
-    "usage_rank": 104,
-    "usage_rate": 0.0037,
+    "usage_rank": 114,
+    "usage_rate": 0.0028000000000000004,
     "win_rate": null,
     "moves": [
       {
@@ -13,77 +13,77 @@
       },
       {
         "id": 776,
-        "usage": 0.96552
+        "usage": 0.92
       },
       {
         "id": 182,
-        "usage": 0.6551699999999999
+        "usage": 0.76
       },
       {
         "id": 484,
-        "usage": 0.6206900000000001
+        "usage": 0.56
       },
       {
         "id": 270,
-        "usage": 0.34482999999999997
+        "usage": 0.36
       },
       {
         "id": 334,
-        "usage": 0.27586
+        "usage": 0.24
       },
       {
         "id": 442,
-        "usage": 0.10345
+        "usage": 0.08
+      },
+      {
+        "id": 328,
+        "usage": 0.04
       },
       {
         "id": 523,
-        "usage": 0.03448
+        "usage": 0.04
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.96552
-      },
-      {
-        "id": 211,
-        "usage": 0.03448
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 297,
-        "usage": 0.96552
+        "usage": 0.96
       },
       {
         "id": 8,
-        "usage": 0.03448
+        "usage": 0.04
       }
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 0.41379
-      },
-      {
         "id": 1013,
-        "usage": 0.34482999999999997
-      },
-      {
-        "id": 727,
-        "usage": 0.24138
-      },
-      {
-        "id": 903,
-        "usage": 0.24138
-      },
-      {
-        "id": 902,
-        "usage": 0.24138
+        "usage": 0.4
       },
       {
         "id": 9,
-        "usage": 0.2069
+        "usage": 0.32
+      },
+      {
+        "id": 445,
+        "usage": 0.32
+      },
+      {
+        "id": 903,
+        "usage": 0.28
+      },
+      {
+        "id": 959,
+        "usage": 0.24
+      },
+      {
+        "id": 727,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

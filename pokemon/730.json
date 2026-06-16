@@ -3,115 +3,115 @@
   "name": "Primarina",
   "form": null,
   "competitive": {
-    "usage_rank": 47,
-    "usage_rate": 0.023,
+    "usage_rank": 46,
+    "usage_rate": 0.0225,
     "win_rate": null,
     "moves": [
       {
+        "id": 585,
+        "usage": 0.895
+      },
+      {
         "id": 182,
-        "usage": 0.95
+        "usage": 0.875
       },
       {
         "id": 304,
-        "usage": 0.92778
-      },
-      {
-        "id": 585,
-        "usage": 0.9055599999999999
+        "usage": 0.835
       },
       {
         "id": 347,
-        "usage": 0.37778
+        "usage": 0.39
       },
       {
         "id": 58,
-        "usage": 0.12222
+        "usage": 0.12
       },
       {
-        "id": 94,
-        "usage": 0.08333
+        "id": 664,
+        "usage": 0.085
       },
       {
-        "id": 195,
-        "usage": 0.07778
-      },
-      {
-        "id": 791,
-        "usage": 0.06667
-      },
-      {
-        "id": 605,
-        "usage": 0.06111
+        "id": 227,
+        "usage": 0.085
       },
       {
         "id": 453,
-        "usage": 0.06111
+        "usage": 0.085
+      },
+      {
+        "id": 94,
+        "usage": 0.085
+      },
+      {
+        "id": 605,
+        "usage": 0.065
       }
     ],
     "items": [
       {
-        "id": 220,
-        "usage": 0.33889
+        "id": 211,
+        "usage": 0.325
       },
       {
-        "id": 211,
-        "usage": 0.30556
+        "id": 220,
+        "usage": 0.295
       },
       {
         "id": 135,
-        "usage": 0.21667000000000003
+        "usage": 0.24
       },
       {
         "id": 167,
-        "usage": 0.06667
+        "usage": 0.055
+      },
+      {
+        "id": 252,
+        "usage": 0.02
       },
       {
         "id": 2105,
-        "usage": 0.02222
+        "usage": 0.02
       },
       {
         "id": 194,
-        "usage": 0.02222
-      },
-      {
-        "id": 264,
-        "usage": 0.01667
+        "usage": 0.02
       }
     ],
     "abilities": [
       {
         "id": 204,
-        "usage": 0.93889
+        "usage": 0.875
       },
       {
         "id": 67,
-        "usage": 0.06111
+        "usage": 0.125
       }
     ],
     "teammates": [
       {
         "id": 445,
-        "usage": 0.31667
+        "usage": 0.33
       },
       {
         "id": 983,
-        "usage": 0.27777999999999997
-      },
-      {
-        "id": 903,
-        "usage": 0.27222
+        "usage": 0.3
       },
       {
         "id": 727,
-        "usage": 0.21667000000000003
+        "usage": 0.235
+      },
+      {
+        "id": 903,
+        "usage": 0.235
       },
       {
         "id": 981,
-        "usage": 0.21111000000000002
+        "usage": 0.205
       },
       {
         "id": 1013,
-        "usage": 0.18333
+        "usage": 0.2
       }
     ],
     "tera_types": [],

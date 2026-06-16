@@ -3,8 +3,8 @@
   "name": "Garganacl",
   "form": null,
   "competitive": {
-    "usage_rank": 187,
-    "usage_rate": 0.0005,
+    "usage_rank": 186,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
@@ -12,34 +12,34 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
         "id": 105,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 469,
-        "usage": 0.75
+        "usage": 0.8
+      },
+      {
+        "id": 182,
+        "usage": 0.8
       },
       {
         "id": 776,
-        "usage": 0.25
+        "usage": 0.4
       },
       {
         "id": 484,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 215,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "abilities": [
@@ -50,28 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 937,
+        "usage": 0.2
+      },
+      {
+        "id": 730,
+        "usage": 0.2
+      },
+      {
+        "id": 908,
+        "usage": 0.2
+      },
+      {
+        "id": 970,
+        "usage": 0.2
+      },
+      {
+        "id": 212,
+        "usage": 0.2
+      },
+      {
         "id": 9,
-        "usage": 0.25
-      },
-      {
-        "id": 959,
-        "usage": 0.25
-      },
-      {
-        "id": 678,
-        "usage": 0.25
-      },
-      {
-        "id": 652,
-        "usage": 0.25
-      },
-      {
-        "id": 134,
-        "usage": 0.25
-      },
-      {
-        "id": 1013,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "tera_types": [],

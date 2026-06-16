@@ -3,63 +3,63 @@
   "name": "Diggersby",
   "form": null,
   "competitive": {
-    "usage_rank": 148,
-    "usage_rate": 0.0014000000000000002,
+    "usage_rank": 160,
+    "usage_rate": 0.0011,
     "win_rate": null,
     "moves": [
       {
         "id": 89,
-        "usage": 0.9090900000000001
+        "usage": 0.9
       },
       {
         "id": 369,
-        "usage": 0.63636
-      },
-      {
-        "id": 8,
-        "usage": 0.54545
+        "usage": 0.7
       },
       {
         "id": 157,
-        "usage": 0.54545
+        "usage": 0.6
+      },
+      {
+        "id": 8,
+        "usage": 0.5
       },
       {
         "id": 317,
-        "usage": 0.36363999999999996
+        "usage": 0.4
       },
       {
         "id": 263,
-        "usage": 0.27273
+        "usage": 0.3
       },
       {
         "id": 182,
-        "usage": 0.18181999999999998
+        "usage": 0.2
       },
       {
         "id": 98,
-        "usage": 0.18181999999999998
+        "usage": 0.2
       },
       {
         "id": 667,
-        "usage": 0.18181999999999998
+        "usage": 0.1
       },
       {
         "id": 442,
-        "usage": 0.09090999999999999
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.81818
+        "usage": 0.8
       },
       {
         "id": 135,
-        "usage": 0.09090999999999999
+        "usage": 0.1
       },
       {
         "id": 214,
-        "usage": 0.09090999999999999
+        "usage": 0.1
       }
     ],
     "abilities": [
@@ -71,27 +71,27 @@
     "teammates": [
       {
         "id": 6,
-        "usage": 0.63636
+        "usage": 0.7
       },
       {
         "id": 1013,
-        "usage": 0.36363999999999996
+        "usage": 0.4
       },
       {
         "id": 666,
-        "usage": 0.27273
+        "usage": 0.3
       },
       {
         "id": 121,
-        "usage": 0.27273
+        "usage": 0.3
       },
       {
         "id": 10165,
-        "usage": 0.27273
+        "usage": 0.3
       },
       {
         "id": 867,
-        "usage": 0.27273
+        "usage": 0.3
       }
     ],
     "tera_types": [],

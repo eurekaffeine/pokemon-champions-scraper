@@ -3,8 +3,8 @@
   "name": "Forretress",
   "form": null,
   "competitive": {
-    "usage_rank": 217,
-    "usage_rate": 0.0001,
+    "usage_rank": 204,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
@@ -12,22 +12,34 @@
         "usage": 1.0
       },
       {
-        "id": 86,
+        "id": 153,
         "usage": 1.0
+      },
+      {
+        "id": 484,
+        "usage": 0.66667
+      },
+      {
+        "id": 776,
+        "usage": 0.66667
+      },
+      {
+        "id": 86,
+        "usage": 0.33332999999999996
       },
       {
         "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 153,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
+        "id": 211,
+        "usage": 0.66667
+      },
+      {
         "id": 228,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 908,
+        "usage": 0.66667
+      },
+      {
+        "id": 637,
+        "usage": 0.66667
+      },
+      {
+        "id": 730,
+        "usage": 0.66667
+      },
+      {
+        "id": 428,
+        "usage": 0.66667
+      },
+      {
+        "id": 970,
+        "usage": 0.66667
+      },
+      {
         "id": 229,
-        "usage": 1.0
-      },
-      {
-        "id": 683,
-        "usage": 1.0
-      },
-      {
-        "id": 470,
-        "usage": 1.0
-      },
-      {
-        "id": 510,
-        "usage": 1.0
-      },
-      {
-        "id": 715,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

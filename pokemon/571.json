@@ -3,30 +3,30 @@
   "name": "Zoroark",
   "form": null,
   "competitive": {
-    "usage_rank": 229,
+    "usage_rank": 215,
     "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 247,
+        "id": 539,
         "usage": 1.0
       },
       {
-        "id": 196,
+        "id": 369,
         "usage": 1.0
       },
       {
-        "id": 313,
+        "id": 389,
         "usage": 1.0
       },
       {
-        "id": 271,
+        "id": 53,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 264,
+        "id": 209,
         "usage": 1.0
       }
     ],
@@ -38,23 +38,23 @@
     ],
     "teammates": [
       {
-        "id": 6,
+        "id": 877,
         "usage": 1.0
       },
       {
-        "id": 130,
+        "id": 282,
         "usage": 1.0
       },
       {
-        "id": 445,
+        "id": 587,
         "usage": 1.0
       },
       {
-        "id": 547,
+        "id": 637,
         "usage": 1.0
       },
       {
-        "id": 3,
+        "id": 937,
         "usage": 1.0
       }
     ],

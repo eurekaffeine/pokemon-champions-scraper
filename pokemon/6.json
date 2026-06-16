@@ -3,12 +3,16 @@
   "name": "Charizard",
   "form": null,
   "competitive": {
-    "usage_rank": 209,
-    "usage_rate": 0.0003,
+    "usage_rank": 213,
+    "usage_rate": 0.0002,
     "win_rate": null,
     "moves": [
       {
         "id": 257,
+        "usage": 0.5
+      },
+      {
+        "id": 311,
         "usage": 0.5
       },
       {
@@ -18,30 +22,26 @@
       {
         "id": 182,
         "usage": 0.5
-      },
-      {
-        "id": 311,
-        "usage": 0.5
       }
     ],
     "items": [],
     "abilities": [
       {
-        "id": 70,
+        "id": 66,
         "usage": 0.5
       }
     ],
     "teammates": [
       {
-        "id": 547,
-        "usage": 0.5
-      },
-      {
         "id": 3,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
         "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
         "usage": 0.5
       },
       {
@@ -53,7 +53,7 @@
         "usage": 0.5
       },
       {
-        "id": 902,
+        "id": 903,
         "usage": 0.5
       }
     ],

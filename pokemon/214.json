@@ -1,85 +1,61 @@
 {
   "dex_id": 214,
-  "name": "Heracross-Mega",
+  "name": "Heracross",
   "form": null,
   "competitive": {
-    "usage_rank": 94,
-    "usage_rate": 0.0049,
+    "usage_rank": 216,
+    "usage_rate": 0.0001,
     "win_rate": null,
     "moves": [
       {
-        "id": 370,
-        "usage": 0.97368
-      },
-      {
-        "id": 350,
-        "usage": 0.9473699999999999
-      },
-      {
-        "id": 42,
-        "usage": 0.7631600000000001
-      },
-      {
-        "id": 182,
-        "usage": 0.63158
-      },
-      {
-        "id": 331,
-        "usage": 0.34210999999999997
-      },
-      {
         "id": 197,
-        "usage": 0.28947
+        "usage": 1.0
       },
       {
-        "id": 280,
-        "usage": 0.02632
+        "id": 67,
+        "usage": 1.0
       },
       {
-        "id": 89,
-        "usage": 0.02632
+        "id": 317,
+        "usage": 1.0
+      },
+      {
+        "id": 224,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 719,
+        "id": 191,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 153,
-        "usage": 0.63158
-      },
-      {
-        "id": 62,
-        "usage": 0.36841999999999997
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 983,
-        "usage": 0.47368000000000005
+        "id": 212,
+        "usage": 1.0
       },
       {
-        "id": 902,
-        "usage": 0.42105
+        "id": 637,
+        "usage": 1.0
       },
       {
-        "id": 663,
-        "usage": 0.39474
+        "id": 168,
+        "usage": 1.0
       },
       {
-        "id": 981,
-        "usage": 0.36841999999999997
+        "id": 666,
+        "usage": 1.0
       },
       {
-        "id": 970,
-        "usage": 0.26316
-      },
-      {
-        "id": 115,
-        "usage": 0.23684000000000002
+        "id": 900,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

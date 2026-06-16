@@ -3,8 +3,8 @@
   "name": "Polteageist",
   "form": null,
   "competitive": {
-    "usage_rank": 219,
-    "usage_rate": 0.0001,
+    "usage_rank": 190,
+    "usage_rate": 0.0004,
     "win_rate": null,
     "moves": [
       {
@@ -12,16 +12,24 @@
         "usage": 1.0
       },
       {
-        "id": 504,
-        "usage": 1.0
-      },
-      {
         "id": 226,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 504,
         "usage": 1.0
+      },
+      {
+        "id": 247,
+        "usage": 0.5
+      },
+      {
+        "id": 164,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.25
       }
     ],
     "items": [
@@ -33,29 +41,37 @@
     "abilities": [
       {
         "id": 130,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 133,
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
-        "id": 959,
-        "usage": 1.0
-      },
-      {
-        "id": 302,
-        "usage": 1.0
-      },
-      {
-        "id": 970,
-        "usage": 1.0
-      },
-      {
         "id": 10061,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
-        "id": 130,
-        "usage": 1.0
+        "id": 925,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 212,
+        "usage": 0.5
+      },
+      {
+        "id": 500,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.25
       }
     ],
     "tera_types": [],
