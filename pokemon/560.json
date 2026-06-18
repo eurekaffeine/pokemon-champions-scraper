@@ -1,0 +1,80 @@
+{
+  "dex_id": 560,
+  "name": "Scrafty-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 45,
+    "usage_rate": 0.0253,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 252,
+        "usage": 1.0
+      },
+      {
+        "id": 282,
+        "usage": 0.8
+      },
+      {
+        "id": 370,
+        "usage": 0.8
+      },
+      {
+        "id": 182,
+        "usage": 0.6
+      },
+      {
+        "id": 409,
+        "usage": 0.4
+      },
+      {
+        "id": 8,
+        "usage": 0.2
+      },
+      {
+        "id": 197,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 2572,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 22,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1000,
+        "usage": 0.4
+      },
+      {
+        "id": 445,
+        "usage": 0.4
+      },
+      {
+        "id": 981,
+        "usage": 0.4
+      },
+      {
+        "id": 376,
+        "usage": 0.4
+      },
+      {
+        "id": 1013,
+        "usage": 0.4
+      },
+      {
+        "id": 979,
+        "usage": 0.4
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

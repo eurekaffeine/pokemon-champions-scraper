@@ -1,0 +1,72 @@
+{
+  "dex_id": 376,
+  "name": "Metagross",
+  "form": null,
+  "competitive": {
+    "usage_rank": 72,
+    "usage_rate": 0.0101,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 418,
+        "usage": 1.0
+      },
+      {
+        "id": 706,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 309,
+        "usage": 0.5
+      },
+      {
+        "id": 442,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 29,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 26,
+        "usage": 0.5
+      },
+      {
+        "id": 861,
+        "usage": 0.5
+      },
+      {
+        "id": 350,
+        "usage": 0.5
+      },
+      {
+        "id": 398,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 398,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

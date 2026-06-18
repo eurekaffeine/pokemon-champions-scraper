@@ -1,0 +1,64 @@
+{
+  "dex_id": 972,
+  "name": "Houndstone",
+  "form": null,
+  "competitive": {
+    "usage_rank": 92,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 261,
+        "usage": 1.0
+      },
+      {
+        "id": 854,
+        "usage": 1.0
+      },
+      {
+        "id": 706,
+        "usage": 1.0
+      },
+      {
+        "id": 336,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 175,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 146,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1000,
+        "usage": 1.0
+      },
+      {
+        "id": 530,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

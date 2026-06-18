@@ -1,0 +1,64 @@
+{
+  "dex_id": 689,
+  "name": "Barbaracle-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 114,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 504,
+        "usage": 1.0
+      },
+      {
+        "id": 710,
+        "usage": 1.0
+      },
+      {
+        "id": 157,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 2581,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 181,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 925,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 10009,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

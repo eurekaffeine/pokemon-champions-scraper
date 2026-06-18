@@ -3,79 +3,59 @@
   "name": "Audino",
   "form": null,
   "competitive": {
-    "usage_rank": 211,
-    "usage_rate": 0.0002,
+    "usage_rank": 109,
+    "usage_rate": 0.0051,
     "win_rate": null,
     "moves": [
       {
-        "id": 433,
+        "id": 270,
         "usage": 1.0
       },
       {
-        "id": 502,
-        "usage": 0.5
+        "id": 304,
+        "usage": 1.0
       },
       {
-        "id": 240,
-        "usage": 0.5
+        "id": 113,
+        "usage": 1.0
       },
       {
-        "id": 505,
-        "usage": 0.5
-      },
-      {
-        "id": 281,
-        "usage": 0.5
-      },
-      {
-        "id": 791,
-        "usage": 0.5
-      },
-      {
-        "id": 493,
-        "usage": 0.5
+        "id": 182,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 196,
+        "id": 211,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 144,
-        "usage": 0.5
-      },
-      {
         "id": 131,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 6,
-        "usage": 0.5
+        "id": 149,
+        "usage": 1.0
       },
       {
-        "id": 666,
-        "usage": 0.5
+        "id": 26,
+        "usage": 1.0
       },
       {
-        "id": 302,
-        "usage": 0.5
+        "id": 154,
+        "usage": 1.0
       },
       {
-        "id": 1018,
-        "usage": 0.5
+        "id": 903,
+        "usage": 1.0
       },
       {
-        "id": 184,
-        "usage": 0.5
-      },
-      {
-        "id": 80,
-        "usage": 0.5
+        "id": 571,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

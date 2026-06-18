@@ -1,0 +1,64 @@
+{
+  "dex_id": 260,
+  "name": "Swampert",
+  "form": null,
+  "competitive": {
+    "usage_rank": 117,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 469,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 196,
+        "usage": 1.0
+      },
+      {
+        "id": 710,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 164,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 67,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 398,
+        "usage": 1.0
+      },
+      {
+        "id": 10230,
+        "usage": 1.0
+      },
+      {
+        "id": 861,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 691,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

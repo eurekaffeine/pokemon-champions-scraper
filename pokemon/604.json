@@ -1,0 +1,92 @@
+{
+  "dex_id": 604,
+  "name": "Eelektross-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 37,
+    "usage_rate": 0.0404,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 0.875
+      },
+      {
+        "id": 85,
+        "usage": 0.5
+      },
+      {
+        "id": 406,
+        "usage": 0.375
+      },
+      {
+        "id": 53,
+        "usage": 0.25
+      },
+      {
+        "id": 202,
+        "usage": 0.25
+      },
+      {
+        "id": 489,
+        "usage": 0.25
+      },
+      {
+        "id": 916,
+        "usage": 0.25
+      },
+      {
+        "id": 409,
+        "usage": 0.25
+      },
+      {
+        "id": 282,
+        "usage": 0.25
+      },
+      {
+        "id": 528,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 2573,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 547,
+        "usage": 0.625
+      },
+      {
+        "id": 445,
+        "usage": 0.375
+      },
+      {
+        "id": 903,
+        "usage": 0.375
+      },
+      {
+        "id": 1013,
+        "usage": 0.375
+      },
+      {
+        "id": 981,
+        "usage": 0.25
+      },
+      {
+        "id": 1018,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

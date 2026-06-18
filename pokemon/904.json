@@ -1,0 +1,64 @@
+{
+  "dex_id": 904,
+  "name": "Overqwil",
+  "form": null,
+  "competitive": {
+    "usage_rank": 111,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 398,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 242,
+        "usage": 1.0
+      },
+      {
+        "id": 453,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 33,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 302,
+        "usage": 1.0
+      },
+      {
+        "id": 260,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 1018,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

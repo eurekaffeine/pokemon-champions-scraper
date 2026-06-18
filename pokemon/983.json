@@ -3,87 +3,107 @@
   "name": "Kingambit",
   "form": null,
   "competitive": {
-    "usage_rank": 3,
-    "usage_rate": 0.3969,
+    "usage_rank": 5,
+    "usage_rate": 0.2525,
     "win_rate": null,
     "moves": [
       {
         "id": 389,
-        "usage": 0.99603
+        "usage": 0.98
       },
       {
         "id": 869,
-        "usage": 0.98271
-      },
-      {
-        "id": 182,
-        "usage": 0.8092900000000001
+        "usage": 0.92
       },
       {
         "id": 442,
-        "usage": 0.61604
+        "usage": 0.72
+      },
+      {
+        "id": 182,
+        "usage": 0.68
       },
       {
         "id": 67,
-        "usage": 0.4072
+        "usage": 0.4
       },
       {
         "id": 14,
-        "usage": 0.17454999999999998
+        "usage": 0.18
+      },
+      {
+        "id": 372,
+        "usage": 0.04
+      },
+      {
+        "id": 446,
+        "usage": 0.02
+      },
+      {
+        "id": 317,
+        "usage": 0.02
+      },
+      {
+        "id": 280,
+        "usage": 0.02
       }
     ],
     "items": [
       {
-        "id": 166,
-        "usage": 0.50864
+        "id": 217,
+        "usage": 0.42
       },
       {
-        "id": 217,
-        "usage": 0.40408
+        "id": 166,
+        "usage": 0.32
       },
       {
         "id": 252,
-        "usage": 0.05157
+        "usage": 0.12
+      },
+      {
+        "id": 247,
+        "usage": 0.1
       },
       {
         "id": 161,
-        "usage": 0.02635
+        "usage": 0.02
+      },
+      {
+        "id": 264,
+        "usage": 0.02
       }
     ],
     "abilities": [
       {
         "id": 128,
-        "usage": 0.9849800000000001
-      },
-      {
-        "id": 293,
-        "usage": 0.01474
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 902,
-        "usage": 0.56475
+        "id": 547,
+        "usage": 0.36
       },
       {
         "id": 445,
-        "usage": 0.53585
+        "usage": 0.36
+      },
+      {
+        "id": 902,
+        "usage": 0.34
       },
       {
         "id": 903,
-        "usage": 0.4089
+        "usage": 0.26
       },
       {
-        "id": 6,
-        "usage": 0.39785
+        "id": 26,
+        "usage": 0.24
       },
       {
-        "id": 547,
-        "usage": 0.33437
-      },
-      {
-        "id": 10061,
-        "usage": 0.2437
+        "id": 981,
+        "usage": 0.22
       }
     ],
     "tera_types": [],

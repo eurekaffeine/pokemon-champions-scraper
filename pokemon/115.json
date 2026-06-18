@@ -1,10 +1,10 @@
 {
   "dex_id": 115,
-  "name": "Kangaskhan",
+  "name": "Kangaskhan-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 66,
-    "usage_rate": 0.0115,
+    "usage_rank": 95,
+    "usage_rate": 0.0051,
     "win_rate": null,
     "moves": [
       {
@@ -12,46 +12,22 @@
         "usage": 1.0
       },
       {
-        "id": 387,
-        "usage": 0.86275
-      },
-      {
         "id": 38,
-        "usage": 0.13724999999999998
+        "usage": 1.0
       },
       {
         "id": 389,
-        "usage": 0.07843
-      },
-      {
-        "id": 409,
-        "usage": 0.06863000000000001
-      },
-      {
-        "id": 8,
-        "usage": 0.04902
-      },
-      {
-        "id": 182,
-        "usage": 0.039220000000000005
+        "usage": 1.0
       },
       {
         "id": 67,
-        "usage": 0.02941
-      },
-      {
-        "id": 359,
-        "usage": 0.019610000000000002
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 228,
-        "usage": 0.9509799999999999
-      },
-      {
-        "id": 135,
-        "usage": 0.019610000000000002
+        "id": 714,
+        "usage": 1.0
       }
     ],
     "abilities": [
@@ -62,28 +38,24 @@
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 0.6470600000000001
+        "id": 6,
+        "usage": 1.0
       },
       {
-        "id": 324,
-        "usage": 0.34314
+        "id": 445,
+        "usage": 1.0
       },
       {
-        "id": 700,
-        "usage": 0.34314
+        "id": 142,
+        "usage": 1.0
       },
       {
-        "id": 983,
-        "usage": 0.25489999999999996
+        "id": 1013,
+        "usage": 1.0
       },
       {
-        "id": 323,
-        "usage": 0.19608
-      },
-      {
-        "id": 547,
-        "usage": 0.15686
+        "id": 184,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

@@ -1,0 +1,72 @@
+{
+  "dex_id": 257,
+  "name": "Blaziken",
+  "form": null,
+  "competitive": {
+    "usage_rank": 84,
+    "usage_rate": 0.0101,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 394,
+        "usage": 1.0
+      },
+      {
+        "id": 282,
+        "usage": 1.0
+      },
+      {
+        "id": 197,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 3,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 254,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 142,
+        "usage": 0.5
+      },
+      {
+        "id": 376,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 6,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dex_id": 545,
+  "name": "Scolipede",
+  "form": null,
+  "competitive": {
+    "usage_rank": 105,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 398,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 141,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 199,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 3,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 979,
+        "usage": 1.0
+      },
+      {
+        "id": 260,
+        "usage": 1.0
+      },
+      {
+        "id": 398,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

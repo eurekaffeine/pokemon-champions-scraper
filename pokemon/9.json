@@ -1,105 +1,61 @@
 {
   "dex_id": 9,
-  "name": "Blastoise",
+  "name": "Blastoise-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 151,
-    "usage_rate": 0.0013,
+    "usage_rank": 103,
+    "usage_rate": 0.0051,
     "win_rate": null,
     "moves": [
       {
-        "id": 812,
-        "usage": 0.58333
-      },
-      {
         "id": 323,
-        "usage": 0.58333
-      },
-      {
-        "id": 252,
-        "usage": 0.5
-      },
-      {
-        "id": 58,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 330,
-        "usage": 0.25
-      },
-      {
-        "id": 196,
-        "usage": 0.25
-      },
-      {
-        "id": 396,
-        "usage": 0.25
-      },
-      {
-        "id": 182,
-        "usage": 0.25
-      },
-      {
-        "id": 504,
-        "usage": 0.25
+        "usage": 1.0
       },
       {
         "id": 399,
-        "usage": 0.16667
+        "usage": 1.0
+      },
+      {
+        "id": 396,
+        "usage": 1.0
+      },
+      {
+        "id": 252,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 135,
-        "usage": 0.41667000000000004
-      },
-      {
-        "id": 220,
-        "usage": 0.25
-      },
-      {
-        "id": 191,
-        "usage": 0.16667
-      },
-      {
-        "id": 264,
-        "usage": 0.16667
+        "id": 700,
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 44,
-        "usage": 0.83333
-      },
-      {
-        "id": 67,
-        "usage": 0.16667
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 279,
-        "usage": 0.33332999999999996
+        "id": 981,
+        "usage": 1.0
       },
       {
-        "id": 94,
-        "usage": 0.33332999999999996
+        "id": 324,
+        "usage": 1.0
       },
       {
-        "id": 727,
-        "usage": 0.33332999999999996
+        "id": 115,
+        "usage": 1.0
       },
       {
-        "id": 6,
-        "usage": 0.25
+        "id": 700,
+        "usage": 1.0
       },
       {
-        "id": 3,
-        "usage": 0.25
-      },
-      {
-        "id": 143,
-        "usage": 0.25
+        "id": 902,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

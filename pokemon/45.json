@@ -1,0 +1,64 @@
+{
+  "dex_id": 45,
+  "name": "Vileplume",
+  "form": null,
+  "competitive": {
+    "usage_rank": 126,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 188,
+        "usage": 1.0
+      },
+      {
+        "id": 495,
+        "usage": 1.0
+      },
+      {
+        "id": 79,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 252,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 34,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 324,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
+        "usage": 1.0
+      },
+      {
+        "id": 780,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

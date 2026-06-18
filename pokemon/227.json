@@ -1,101 +1,61 @@
 {
   "dex_id": 227,
-  "name": "Skarmory",
+  "name": "Skarmory-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 53,
-    "usage_rate": 0.0174,
+    "usage_rank": 130,
+    "usage_rate": 0.0051,
     "win_rate": null,
     "moves": [
       {
-        "id": 442,
-        "usage": 0.97419
+        "id": 182,
+        "usage": 1.0
       },
       {
         "id": 413,
-        "usage": 0.92903
+        "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.85161
-      },
-      {
-        "id": 317,
-        "usage": 0.54194
-      },
-      {
-        "id": 366,
-        "usage": 0.23226
+        "id": 442,
+        "usage": 1.0
       },
       {
         "id": 157,
-        "usage": 0.15484
-      },
-      {
-        "id": 269,
-        "usage": 0.09677
-      },
-      {
-        "id": 14,
-        "usage": 0.05806
-      },
-      {
-        "id": 364,
-        "usage": 0.03871
-      },
-      {
-        "id": 776,
-        "usage": 0.03871
+        "usage": 1.0
       }
     ],
     "items": [
       {
         "id": 2565,
-        "usage": 0.99355
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 5,
-        "usage": 0.80645
-      },
-      {
         "id": 133,
-        "usage": 0.14839
-      },
-      {
-        "id": 51,
-        "usage": 0.02581
-      },
-      {
-        "id": 242,
-        "usage": 0.0129
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 902,
-        "usage": 0.54194
-      },
-      {
         "id": 445,
-        "usage": 0.46452
-      },
-      {
-        "id": 547,
-        "usage": 0.45161
+        "usage": 1.0
       },
       {
         "id": 903,
-        "usage": 0.35484000000000004
+        "usage": 1.0
       },
       {
-        "id": 6,
-        "usage": 0.29677
+        "id": 1013,
+        "usage": 1.0
       },
       {
-        "id": 983,
-        "usage": 0.21935
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

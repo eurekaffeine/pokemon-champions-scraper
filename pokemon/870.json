@@ -1,0 +1,64 @@
+{
+  "dex_id": 870,
+  "name": "Falinks-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 106,
+    "usage_rate": 0.0051,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 442,
+        "usage": 1.0
+      },
+      {
+        "id": 748,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 2587,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 128,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 115,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

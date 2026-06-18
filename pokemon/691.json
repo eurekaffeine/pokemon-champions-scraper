@@ -1,0 +1,80 @@
+{
+  "dex_id": 691,
+  "name": "Dragalge-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 51,
+    "usage_rate": 0.0202,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 188,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 0.75
+      },
+      {
+        "id": 503,
+        "usage": 0.75
+      },
+      {
+        "id": 434,
+        "usage": 0.5
+      },
+      {
+        "id": 406,
+        "usage": 0.5
+      },
+      {
+        "id": 812,
+        "usage": 0.25
+      },
+      {
+        "id": 390,
+        "usage": 0.25
+      }
+    ],
+    "items": [
+      {
+        "id": 2582,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 91,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 861,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 0.75
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 10009,
+        "usage": 0.5
+      },
+      {
+        "id": 1000,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

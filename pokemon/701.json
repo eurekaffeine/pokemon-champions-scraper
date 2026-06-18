@@ -1,117 +1,61 @@
 {
   "dex_id": 701,
-  "name": "Hawlucha",
+  "name": "Hawlucha-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 85,
-    "usage_rate": 0.0066,
+    "usage_rank": 91,
+    "usage_rate": 0.0051,
     "win_rate": null,
     "moves": [
       {
-        "id": 494,
-        "usage": 0.76271
+        "id": 197,
+        "usage": 1.0
       },
       {
-        "id": 197,
-        "usage": 0.74576
+        "id": 494,
+        "usage": 1.0
       },
       {
         "id": 370,
-        "usage": 0.6949200000000001
+        "usage": 1.0
       },
       {
         "id": 413,
-        "usage": 0.67797
-      },
-      {
-        "id": 182,
-        "usage": 0.23729
-      },
-      {
-        "id": 136,
-        "usage": 0.16949000000000003
-      },
-      {
-        "id": 814,
-        "usage": 0.15254
-      },
-      {
-        "id": 811,
-        "usage": 0.13559
-      },
-      {
-        "id": 238,
-        "usage": 0.08474999999999999
-      },
-      {
-        "id": 444,
-        "usage": 0.05085
+        "usage": 1.0
       }
     ],
     "items": [
       {
         "id": 2583,
-        "usage": 0.84746
-      },
-      {
-        "id": 252,
-        "usage": 0.0678
-      },
-      {
-        "id": 191,
-        "usage": 0.05085
-      },
-      {
-        "id": 134,
-        "usage": 0.01695
-      },
-      {
-        "id": 196,
-        "usage": 0.01695
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 7,
-        "usage": 0.5932200000000001
-      },
-      {
-        "id": 104,
-        "usage": 0.20339
-      },
-      {
-        "id": 84,
-        "usage": 0.16949000000000003
-      },
-      {
-        "id": 99,
-        "usage": 0.0339
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 143,
-        "usage": 0.71186
+        "id": 10230,
+        "usage": 1.0
       },
       {
-        "id": 1013,
-        "usage": 0.66102
+        "id": 10061,
+        "usage": 1.0
       },
       {
-        "id": 727,
-        "usage": 0.61017
+        "id": 547,
+        "usage": 1.0
       },
       {
-        "id": 94,
-        "usage": 0.47458
+        "id": 903,
+        "usage": 1.0
       },
       {
-        "id": 186,
-        "usage": 0.40678
-      },
-      {
-        "id": 248,
-        "usage": 0.18644
+        "id": 350,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

@@ -1,0 +1,88 @@
+{
+  "dex_id": 303,
+  "name": "Mawile-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 36,
+    "usage_rate": 0.0404,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 583,
+        "usage": 1.0
+      },
+      {
+        "id": 442,
+        "usage": 0.875
+      },
+      {
+        "id": 389,
+        "usage": 0.625
+      },
+      {
+        "id": 157,
+        "usage": 0.25
+      },
+      {
+        "id": 282,
+        "usage": 0.125
+      },
+      {
+        "id": 280,
+        "usage": 0.125
+      }
+    ],
+    "items": [
+      {
+        "id": 720,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 52,
+        "usage": 0.375
+      },
+      {
+        "id": 22,
+        "usage": 0.375
+      },
+      {
+        "id": 37,
+        "usage": 0.25
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 0.625
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 6,
+        "usage": 0.25
+      },
+      {
+        "id": 3,
+        "usage": 0.25
+      },
+      {
+        "id": 324,
+        "usage": 0.25
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

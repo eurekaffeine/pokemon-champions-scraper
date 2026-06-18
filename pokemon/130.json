@@ -1,129 +1,65 @@
 {
   "dex_id": 130,
-  "name": "Gyarados",
+  "name": "Gyarados-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 97,
-    "usage_rate": 0.0045000000000000005,
+    "usage_rank": 86,
+    "usage_rate": 0.0101,
     "win_rate": null,
     "moves": [
       {
         "id": 127,
-        "usage": 0.95
-      },
-      {
-        "id": 86,
-        "usage": 0.525
-      },
-      {
-        "id": 182,
-        "usage": 0.5
-      },
-      {
-        "id": 269,
-        "usage": 0.4
-      },
-      {
-        "id": 423,
-        "usage": 0.275
-      },
-      {
-        "id": 270,
-        "usage": 0.275
-      },
-      {
-        "id": 89,
-        "usage": 0.175
-      },
-      {
-        "id": 438,
-        "usage": 0.15
-      },
-      {
-        "id": 349,
-        "usage": 0.125
+        "usage": 1.0
       },
       {
         "id": 242,
-        "usage": 0.075
+        "usage": 1.0
+      },
+      {
+        "id": 349,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 135,
-        "usage": 0.5
-      },
-      {
-        "id": 211,
-        "usage": 0.2
-      },
-      {
-        "id": 264,
-        "usage": 0.05
-      },
-      {
-        "id": 163,
-        "usage": 0.05
-      },
-      {
-        "id": 134,
-        "usage": 0.05
-      },
-      {
-        "id": 230,
-        "usage": 0.025
-      },
-      {
-        "id": 223,
-        "usage": 0.025
-      },
-      {
-        "id": 220,
-        "usage": 0.025
-      },
-      {
-        "id": 190,
-        "usage": 0.025
-      },
-      {
-        "id": 221,
-        "usage": 0.025
+        "id": 715,
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 22,
-        "usage": 0.95
-      },
-      {
-        "id": 153,
-        "usage": 0.05
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 547,
-        "usage": 0.275
+        "id": 545,
+        "usage": 0.5
       },
       {
-        "id": 530,
-        "usage": 0.275
+        "id": 1000,
+        "usage": 0.5
       },
       {
-        "id": 248,
-        "usage": 0.25
+        "id": 727,
+        "usage": 0.5
       },
       {
         "id": 1013,
-        "usage": 0.25
+        "usage": 0.5
       },
       {
-        "id": 784,
-        "usage": 0.2
+        "id": 142,
+        "usage": 0.5
       },
       {
-        "id": 445,
-        "usage": 0.175
+        "id": 547,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

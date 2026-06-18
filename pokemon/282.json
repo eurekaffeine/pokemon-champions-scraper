@@ -1,109 +1,77 @@
 {
   "dex_id": 282,
-  "name": "Gardevoir",
+  "name": "Gardevoir-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 115,
-    "usage_rate": 0.0028000000000000004,
+    "usage_rank": 58,
+    "usage_rate": 0.0152,
     "win_rate": null,
     "moves": [
       {
-        "id": 585,
-        "usage": 0.76
-      },
-      {
-        "id": 94,
-        "usage": 0.64
-      },
-      {
-        "id": 605,
-        "usage": 0.56
-      },
-      {
-        "id": 196,
-        "usage": 0.36
+        "id": 304,
+        "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 0.32
+        "usage": 1.0
       },
       {
-        "id": 473,
-        "usage": 0.28
+        "id": 94,
+        "usage": 0.66667
       },
       {
         "id": 433,
-        "usage": 0.28
+        "usage": 0.66667
       },
       {
-        "id": 85,
-        "usage": 0.16
+        "id": 270,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 271,
-        "usage": 0.12
-      },
-      {
-        "id": 396,
-        "usage": 0.08
+        "id": 473,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
-        "id": 264,
-        "usage": 0.48
-      },
-      {
-        "id": 252,
-        "usage": 0.24
-      },
-      {
-        "id": 2105,
-        "usage": 0.2
-      },
-      {
-        "id": 211,
-        "usage": 0.04
-      },
-      {
-        "id": 207,
-        "usage": 0.04
+        "id": 696,
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 140,
-        "usage": 0.6
+        "usage": 0.66667
       },
       {
         "id": 36,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
         "id": 445,
-        "usage": 0.68
+        "usage": 0.66667
       },
       {
-        "id": 6,
-        "usage": 0.44
+        "id": 750,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 350,
-        "usage": 0.32
+        "id": 981,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 3,
-        "usage": 0.24
+        "id": 666,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 655,
-        "usage": 0.24
+        "id": 324,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 727,
-        "usage": 0.2
+        "id": 254,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],
