@@ -3,8 +3,8 @@
   "name": "Drampa-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 125,
-    "usage_rate": 0.0051,
+    "usage_rank": 86,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
       {
@@ -16,12 +16,16 @@
         "usage": 1.0
       },
       {
-        "id": 85,
+        "id": 414,
         "usage": 1.0
       },
       {
-        "id": 414,
-        "usage": 1.0
+        "id": 412,
+        "usage": 0.5
+      },
+      {
+        "id": 85,
+        "usage": 0.5
       }
     ],
     "items": [

@@ -3,16 +3,12 @@
   "name": "Mimikyu",
   "form": null,
   "competitive": {
-    "usage_rank": 123,
-    "usage_rate": 0.0051,
+    "usage_rank": 96,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
       {
         "id": 425,
-        "usage": 1.0
-      },
-      {
-        "id": 421,
         "usage": 1.0
       },
       {
@@ -22,12 +18,24 @@
       {
         "id": 182,
         "usage": 1.0
+      },
+      {
+        "id": 204,
+        "usage": 0.5
+      },
+      {
+        "id": 421,
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 2105,
+        "usage": 0.5
+      },
+      {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,15 +46,11 @@
     ],
     "teammates": [
       {
-        "id": 248,
-        "usage": 1.0
-      },
-      {
         "id": 530,
         "usage": 1.0
       },
       {
-        "id": 823,
+        "id": 248,
         "usage": 1.0
       },
       {
@@ -56,6 +60,14 @@
       {
         "id": 10009,
         "usage": 1.0
+      },
+      {
+        "id": 398,
+        "usage": 0.5
+      },
+      {
+        "id": 823,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

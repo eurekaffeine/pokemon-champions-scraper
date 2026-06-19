@@ -3,25 +3,33 @@
   "name": "Oranguru",
   "form": null,
   "competitive": {
-    "usage_rank": 100,
-    "usage_rate": 0.0051,
+    "usage_rank": 97,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 433,
-        "usage": 1.0
-      },
-      {
-        "id": 285,
-        "usage": 1.0
-      },
       {
         "id": 689,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 433,
         "usage": 1.0
+      },
+      {
+        "id": 94,
+        "usage": 0.5
+      },
+      {
+        "id": 227,
+        "usage": 0.5
+      },
+      {
+        "id": 285,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 623,
-        "usage": 1.0
-      },
-      {
-        "id": 981,
-        "usage": 1.0
-      },
-      {
         "id": 324,
         "usage": 1.0
       },
       {
-        "id": 983,
-        "usage": 1.0
+        "id": 691,
+        "usage": 0.5
       },
       {
-        "id": 3,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 964,
+        "usage": 0.5
+      },
+      {
+        "id": 750,
+        "usage": 0.5
+      },
+      {
+        "id": 623,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

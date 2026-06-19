@@ -3,8 +3,8 @@
   "name": "Arcanine-Hisui",
   "form": null,
   "competitive": {
-    "usage_rank": 40,
-    "usage_rate": 0.0354,
+    "usage_rank": 39,
+    "usage_rate": 0.0352,
     "win_rate": null,
     "moves": [
       {
@@ -12,74 +12,86 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.85714
+        "id": 457,
+        "usage": 0.8
       },
       {
         "id": 245,
-        "usage": 0.71429
+        "usage": 0.7
       },
       {
-        "id": 457,
-        "usage": 0.71429
+        "id": 182,
+        "usage": 0.7
       },
       {
         "id": 157,
-        "usage": 0.42857
+        "usage": 0.4
+      },
+      {
+        "id": 528,
+        "usage": 0.1
+      },
+      {
+        "id": 706,
+        "usage": 0.1
       },
       {
         "id": 442,
-        "usage": 0.14286
+        "usage": 0.1
       },
       {
         "id": 370,
-        "usage": 0.14286
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.85714
+        "usage": 0.6
       },
       {
         "id": 264,
-        "usage": 0.14286
+        "usage": 0.3
+      },
+      {
+        "id": 135,
+        "usage": 0.1
       }
     ],
     "abilities": [
       {
         "id": 69,
-        "usage": 0.85714
+        "usage": 0.8
       },
       {
         "id": 22,
-        "usage": 0.14286
+        "usage": 0.2
       }
     ],
     "teammates": [
       {
-        "id": 547,
-        "usage": 0.71429
+        "id": 478,
+        "usage": 0.6
       },
       {
         "id": 903,
-        "usage": 0.71429
+        "usage": 0.5
       },
       {
-        "id": 478,
-        "usage": 0.71429
+        "id": 547,
+        "usage": 0.5
       },
       {
         "id": 983,
-        "usage": 0.57143
+        "usage": 0.4
+      },
+      {
+        "id": 861,
+        "usage": 0.3
       },
       {
         "id": 445,
-        "usage": 0.42857
-      },
-      {
-        "id": 10061,
-        "usage": 0.14286
+        "usage": 0.3
       }
     ],
     "tera_types": [],

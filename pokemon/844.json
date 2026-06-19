@@ -1,0 +1,64 @@
+{
+  "dex_id": 844,
+  "name": "Sandaconda",
+  "form": null,
+  "competitive": {
+    "usage_rank": 119,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 107,
+        "usage": 1.0
+      },
+      {
+        "id": 489,
+        "usage": 1.0
+      },
+      {
+        "id": 667,
+        "usage": 1.0
+      },
+      {
+        "id": 444,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 190,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 8,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 823,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 902,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

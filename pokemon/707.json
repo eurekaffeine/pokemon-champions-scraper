@@ -1,0 +1,64 @@
+{
+  "dex_id": 707,
+  "name": "Klefki",
+  "form": null,
+  "competitive": {
+    "usage_rank": 111,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 113,
+        "usage": 1.0
+      },
+      {
+        "id": 115,
+        "usage": 1.0
+      },
+      {
+        "id": 86,
+        "usage": 1.0
+      },
+      {
+        "id": 319,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 246,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 158,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 687,
+        "usage": 1.0
+      },
+      {
+        "id": 823,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      },
+      {
+        "id": 902,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,18 +3,10 @@
   "name": "Clawitzer",
   "form": null,
   "competitive": {
-    "usage_rank": 93,
-    "usage_rate": 0.0051,
+    "usage_rank": 84,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 352,
-        "usage": 1.0
-      },
-      {
-        "id": 406,
-        "usage": 1.0
-      },
       {
         "id": 399,
         "usage": 1.0
@@ -22,12 +14,28 @@
       {
         "id": 396,
         "usage": 1.0
+      },
+      {
+        "id": 406,
+        "usage": 1.0
+      },
+      {
+        "id": 330,
+        "usage": 0.5
+      },
+      {
+        "id": 352,
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 247,
+        "usage": 0.5
+      },
+      {
         "id": 227,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +46,28 @@
     ],
     "teammates": [
       {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 666,
+        "usage": 0.5
+      },
+      {
+        "id": 26,
+        "usage": 0.5
+      },
+      {
+        "id": 10104,
+        "usage": 0.5
+      },
+      {
+        "id": 398,
+        "usage": 0.5
+      },
+      {
         "id": 547,
-        "usage": 1.0
-      },
-      {
-        "id": 970,
-        "usage": 1.0
-      },
-      {
-        "id": 678,
-        "usage": 1.0
-      },
-      {
-        "id": 65,
-        "usage": 1.0
-      },
-      {
-        "id": 983,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

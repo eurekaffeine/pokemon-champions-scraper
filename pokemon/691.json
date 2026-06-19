@@ -3,8 +3,8 @@
   "name": "Dragalge-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 51,
-    "usage_rate": 0.0202,
+    "usage_rank": 52,
+    "usage_rate": 0.021099999999999997,
     "win_rate": null,
     "moves": [
       {
@@ -13,27 +13,27 @@
       },
       {
         "id": 182,
-        "usage": 0.75
+        "usage": 0.83333
       },
       {
         "id": 503,
-        "usage": 0.75
-      },
-      {
-        "id": 434,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 406,
         "usage": 0.5
       },
       {
+        "id": 434,
+        "usage": 0.5
+      },
+      {
         "id": 812,
-        "usage": 0.25
+        "usage": 0.33332999999999996
       },
       {
         "id": 390,
-        "usage": 0.25
+        "usage": 0.16667
       }
     ],
     "items": [
@@ -45,33 +45,37 @@
     "abilities": [
       {
         "id": 91,
-        "usage": 1.0
+        "usage": 0.83333
+      },
+      {
+        "id": 38,
+        "usage": 0.16667
       }
     ],
     "teammates": [
       {
-        "id": 861,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.83333
       },
       {
-        "id": 1013,
-        "usage": 0.75
+        "id": 861,
+        "usage": 0.66667
       },
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       },
       {
         "id": 10009,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       },
       {
         "id": 1000,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       },
       {
-        "id": 279,
-        "usage": 0.25
+        "id": 983,
+        "usage": 0.16667
       }
     ],
     "tera_types": [],

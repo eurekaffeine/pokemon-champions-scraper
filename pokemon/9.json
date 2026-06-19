@@ -3,25 +3,37 @@
   "name": "Blastoise-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 103,
-    "usage_rate": 0.0051,
+    "usage_rank": 95,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 323,
-        "usage": 1.0
-      },
       {
         "id": 399,
         "usage": 1.0
       },
       {
+        "id": 352,
+        "usage": 0.5
+      },
+      {
+        "id": 504,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 323,
+        "usage": 0.5
+      },
+      {
         "id": 396,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 252,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 1.0
-      },
-      {
-        "id": 324,
-        "usage": 1.0
-      },
-      {
-        "id": 115,
-        "usage": 1.0
-      },
-      {
-        "id": 700,
-        "usage": 1.0
-      },
-      {
         "id": 902,
         "usage": 1.0
+      },
+      {
+        "id": 925,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 981,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

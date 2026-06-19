@@ -1,0 +1,64 @@
+{
+  "dex_id": 10172,
+  "name": "Slowking-Galar",
+  "form": null,
+  "competitive": {
+    "usage_rank": 114,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 881,
+        "usage": 1.0
+      },
+      {
+        "id": 59,
+        "usage": 1.0
+      },
+      {
+        "id": 482,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 144,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 740,
+        "usage": 1.0
+      },
+      {
+        "id": 911,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 1018,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

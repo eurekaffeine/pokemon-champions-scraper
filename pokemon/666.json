@@ -3,47 +3,47 @@
   "name": "Vivillon",
   "form": null,
   "competitive": {
-    "usage_rank": 43,
-    "usage_rate": 0.0253,
+    "usage_rank": 45,
+    "usage_rate": 0.0246,
     "win_rate": null,
     "moves": [
-      {
-        "id": 542,
-        "usage": 1.0
-      },
       {
         "id": 79,
         "usage": 1.0
       },
       {
+        "id": 542,
+        "usage": 1.0
+      },
+      {
         "id": 476,
-        "usage": 0.8
+        "usage": 0.71429
       },
       {
         "id": 182,
-        "usage": 0.4
-      },
-      {
-        "id": 412,
-        "usage": 0.4
+        "usage": 0.57143
       },
       {
         "id": 366,
-        "usage": 0.2
+        "usage": 0.28571
+      },
+      {
+        "id": 412,
+        "usage": 0.28571
       },
       {
         "id": 676,
-        "usage": 0.2
+        "usage": 0.14286
       }
     ],
     "items": [
       {
-        "id": 264,
-        "usage": 0.6
+        "id": 252,
+        "usage": 0.57143
       },
       {
-        "id": 252,
-        "usage": 0.4
+        "id": 264,
+        "usage": 0.42857
       }
     ],
     "abilities": [
@@ -55,27 +55,27 @@
     "teammates": [
       {
         "id": 981,
-        "usage": 0.8
-      },
-      {
-        "id": 700,
-        "usage": 0.6
+        "usage": 0.71429
       },
       {
         "id": 26,
-        "usage": 0.6
+        "usage": 0.57143
       },
       {
         "id": 983,
-        "usage": 0.4
+        "usage": 0.42857
       },
       {
-        "id": 248,
-        "usage": 0.4
+        "id": 700,
+        "usage": 0.42857
       },
       {
-        "id": 282,
-        "usage": 0.2
+        "id": 10104,
+        "usage": 0.28571
+      },
+      {
+        "id": 398,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

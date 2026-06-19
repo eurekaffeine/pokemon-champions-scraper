@@ -4,9 +4,13 @@
   "form": null,
   "competitive": {
     "usage_rank": 56,
-    "usage_rate": 0.0202,
+    "usage_rate": 0.0176,
     "win_rate": null,
     "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
       {
         "id": 337,
         "usage": 1.0
@@ -16,16 +20,12 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 915,
+        "usage": 0.6
       },
       {
         "id": 394,
-        "usage": 0.5
-      },
-      {
-        "id": 915,
-        "usage": 0.5
+        "usage": 0.4
       }
     ],
     "items": [
@@ -37,11 +37,11 @@
     "abilities": [
       {
         "id": 66,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 94,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "teammates": [
@@ -55,19 +55,19 @@
       },
       {
         "id": 727,
-        "usage": 0.75
-      },
-      {
-        "id": 350,
-        "usage": 0.5
-      },
-      {
-        "id": 10061,
-        "usage": 0.5
+        "usage": 0.8
       },
       {
         "id": 983,
-        "usage": 0.5
+        "usage": 0.6
+      },
+      {
+        "id": 10061,
+        "usage": 0.6
+      },
+      {
+        "id": 350,
+        "usage": 0.4
       }
     ],
     "tera_types": [],

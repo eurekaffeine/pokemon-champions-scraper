@@ -1,0 +1,64 @@
+{
+  "dex_id": 448,
+  "name": "Lucario-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 118,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 309,
+        "usage": 1.0
+      },
+      {
+        "id": 245,
+        "usage": 1.0
+      },
+      {
+        "id": 197,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 712,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 39,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 937,
+        "usage": 1.0
+      },
+      {
+        "id": 10104,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 130,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

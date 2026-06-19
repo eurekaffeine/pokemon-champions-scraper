@@ -3,12 +3,12 @@
   "name": "Toxapex",
   "form": null,
   "competitive": {
-    "usage_rank": 63,
-    "usage_rate": 0.0152,
+    "usage_rank": 64,
+    "usage_rate": 0.0141,
     "win_rate": null,
     "moves": [
       {
-        "id": 92,
+        "id": 661,
         "usage": 1.0
       },
       {
@@ -20,18 +20,22 @@
         "usage": 1.0
       },
       {
-        "id": 661,
-        "usage": 1.0
+        "id": 92,
+        "usage": 0.75
+      },
+      {
+        "id": 105,
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.66667
+        "usage": 0.75
       },
       {
         "id": 168,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       }
     ],
     "abilities": [
@@ -43,27 +47,27 @@
     "teammates": [
       {
         "id": 727,
-        "usage": 0.66667
+        "usage": 0.75
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 26,
+        "usage": 0.5
+      },
+      {
+        "id": 652,
+        "usage": 0.25
+      },
+      {
+        "id": 979,
+        "usage": 0.25
       },
       {
         "id": 983,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 478,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 445,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 398,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 254,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       }
     ],
     "tera_types": [],

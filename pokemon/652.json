@@ -1,0 +1,64 @@
+{
+  "dex_id": 652,
+  "name": "Chesnaught-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 115,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 776,
+        "usage": 1.0
+      },
+      {
+        "id": 596,
+        "usage": 1.0
+      },
+      {
+        "id": 452,
+        "usage": 1.0
+      },
+      {
+        "id": 73,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 2575,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 171,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 748,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 979,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

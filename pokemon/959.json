@@ -3,25 +3,33 @@
   "name": "Tinkaton",
   "form": null,
   "competitive": {
-    "usage_rank": 118,
-    "usage_rate": 0.0051,
+    "usage_rank": 85,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 893,
-        "usage": 1.0
-      },
       {
         "id": 252,
         "usage": 1.0
       },
       {
-        "id": 583,
+        "id": 893,
         "usage": 1.0
       },
       {
+        "id": 313,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 583,
+        "usage": 0.5
+      },
+      {
         "id": 227,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,11 +46,7 @@
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 1.0
-      },
-      {
-        "id": 553,
+        "id": 604,
         "usage": 1.0
       },
       {
@@ -50,12 +54,20 @@
         "usage": 1.0
       },
       {
-        "id": 149,
-        "usage": 1.0
+        "id": 445,
+        "usage": 0.5
       },
       {
-        "id": 604,
-        "usage": 1.0
+        "id": 1000,
+        "usage": 0.5
+      },
+      {
+        "id": 861,
+        "usage": 0.5
+      },
+      {
+        "id": 981,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 160,
+  "name": "Feraligatr-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 122,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 710,
+        "usage": 1.0
+      },
+      {
+        "id": 453,
+        "usage": 1.0
+      },
+      {
+        "id": 38,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 2564,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 125,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 303,
+        "usage": 1.0
+      },
+      {
+        "id": 186,
+        "usage": 1.0
+      },
+      {
+        "id": 750,
+        "usage": 1.0
+      },
+      {
+        "id": 115,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

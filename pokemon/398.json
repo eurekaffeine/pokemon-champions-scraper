@@ -3,8 +3,8 @@
   "name": "Staraptor",
   "form": null,
   "competitive": {
-    "usage_rank": 54,
-    "usage_rate": 0.0202,
+    "usage_rank": 63,
+    "usage_rate": 0.0141,
     "win_rate": null,
     "moves": [
       {
@@ -16,15 +16,15 @@
         "usage": 1.0
       },
       {
+        "id": 515,
+        "usage": 0.5
+      },
+      {
         "id": 369,
         "usage": 0.5
       },
       {
         "id": 182,
-        "usage": 0.5
-      },
-      {
-        "id": 515,
         "usage": 0.5
       },
       {
@@ -58,23 +58,23 @@
         "usage": 0.5
       },
       {
+        "id": 254,
+        "usage": 0.25
+      },
+      {
+        "id": 135,
+        "usage": 0.25
+      },
+      {
+        "id": 902,
+        "usage": 0.25
+      },
+      {
+        "id": 547,
+        "usage": 0.25
+      },
+      {
         "id": 26,
-        "usage": 0.25
-      },
-      {
-        "id": 861,
-        "usage": 0.25
-      },
-      {
-        "id": 350,
-        "usage": 0.25
-      },
-      {
-        "id": 1013,
-        "usage": 0.25
-      },
-      {
-        "id": 376,
         "usage": 0.25
       }
     ],

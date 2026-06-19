@@ -3,31 +3,43 @@
   "name": "Clefable",
   "form": null,
   "competitive": {
-    "usage_rank": 127,
-    "usage_rate": 0.0051,
+    "usage_rank": 92,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 266,
         "usage": 1.0
       },
       {
-        "id": 270,
+        "id": 182,
         "usage": 1.0
       },
       {
+        "id": 585,
+        "usage": 0.5
+      },
+      {
+        "id": 240,
+        "usage": 0.5
+      },
+      {
+        "id": 270,
+        "usage": 0.5
+      },
+      {
         "id": 791,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 2105,
+        "usage": 0.5
+      },
+      {
         "id": 190,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 260,
+        "usage": 0.5
+      },
+      {
+        "id": 1018,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
         "id": 903,
-        "usage": 1.0
-      },
-      {
-        "id": 983,
-        "usage": 1.0
-      },
-      {
-        "id": 655,
-        "usage": 1.0
-      },
-      {
-        "id": 184,
-        "usage": 1.0
-      },
-      {
-        "id": 130,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

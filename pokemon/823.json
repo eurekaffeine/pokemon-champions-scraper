@@ -3,8 +3,8 @@
   "name": "Corviknight",
   "form": null,
   "competitive": {
-    "usage_rank": 42,
-    "usage_rate": 0.030299999999999997,
+    "usage_rank": 40,
+    "usage_rate": 0.0352,
     "win_rate": null,
     "moves": [
       {
@@ -13,41 +13,41 @@
       },
       {
         "id": 366,
-        "usage": 0.83333
+        "usage": 0.7
       },
       {
         "id": 339,
-        "usage": 0.66667
+        "usage": 0.6
+      },
+      {
+        "id": 355,
+        "usage": 0.6
+      },
+      {
+        "id": 442,
+        "usage": 0.5
       },
       {
         "id": 182,
         "usage": 0.5
       },
       {
-        "id": 355,
-        "usage": 0.5
-      },
-      {
-        "id": 442,
-        "usage": 0.33332999999999996
-      },
-      {
         "id": 776,
-        "usage": 0.16667
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 211,
-        "usage": 0.5
+        "usage": 0.6
       },
       {
         "id": 161,
-        "usage": 0.33332999999999996
+        "usage": 0.3
       },
       {
         "id": 221,
-        "usage": 0.16667
+        "usage": 0.1
       }
     ],
     "abilities": [
@@ -59,27 +59,27 @@
     "teammates": [
       {
         "id": 248,
-        "usage": 0.83333
-      },
-      {
-        "id": 635,
-        "usage": 0.5
+        "usage": 0.8
       },
       {
         "id": 445,
         "usage": 0.5
       },
       {
+        "id": 635,
+        "usage": 0.3
+      },
+      {
         "id": 530,
-        "usage": 0.5
+        "usage": 0.3
       },
       {
         "id": 10009,
-        "usage": 0.5
+        "usage": 0.3
       },
       {
-        "id": 10230,
-        "usage": 0.16667
+        "id": 1013,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

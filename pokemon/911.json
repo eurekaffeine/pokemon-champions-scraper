@@ -1,0 +1,76 @@
+{
+  "dex_id": 911,
+  "name": "Skeledirge",
+  "form": null,
+  "competitive": {
+    "usage_rank": 89,
+    "usage_rate": 0.006999999999999999,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 247,
+        "usage": 1.0
+      },
+      {
+        "id": 871,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 257,
+        "usage": 0.5
+      },
+      {
+        "id": 914,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 226,
+        "usage": 0.5
+      },
+      {
+        "id": 211,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 109,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 740,
+        "usage": 0.5
+      },
+      {
+        "id": 10172,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 26,
+        "usage": 0.5
+      },
+      {
+        "id": 1018,
+        "usage": 0.5
+      },
+      {
+        "id": 547,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

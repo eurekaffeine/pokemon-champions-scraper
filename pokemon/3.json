@@ -3,37 +3,37 @@
   "name": "Venusaur-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 53,
-    "usage_rate": 0.0202,
+    "usage_rank": 48,
+    "usage_rate": 0.021099999999999997,
     "win_rate": null,
     "moves": [
-      {
-        "id": 414,
-        "usage": 1.0
-      },
       {
         "id": 188,
         "usage": 1.0
       },
       {
+        "id": 414,
+        "usage": 1.0
+      },
+      {
         "id": 182,
-        "usage": 0.75
+        "usage": 0.83333
       },
       {
         "id": 202,
-        "usage": 0.5
+        "usage": 0.66667
       },
       {
         "id": 79,
-        "usage": 0.25
+        "usage": 0.16667
       },
       {
         "id": 412,
-        "usage": 0.25
+        "usage": 0.16667
       },
       {
         "id": 437,
-        "usage": 0.25
+        "usage": 0.16667
       }
     ],
     "items": [
@@ -45,37 +45,37 @@
     "abilities": [
       {
         "id": 34,
-        "usage": 0.75
+        "usage": 0.83333
       },
       {
         "id": 65,
-        "usage": 0.25
+        "usage": 0.16667
       }
     ],
     "teammates": [
       {
         "id": 983,
-        "usage": 0.75
-      },
-      {
-        "id": 700,
         "usage": 0.5
       },
       {
-        "id": 445,
-        "usage": 0.5
+        "id": 260,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 981,
-        "usage": 0.5
+        "id": 302,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 6,
-        "usage": 0.25
+        "id": 1018,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 547,
-        "usage": 0.25
+        "id": 279,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 979,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

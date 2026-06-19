@@ -3,8 +3,8 @@
   "name": "Meowscarada",
   "form": null,
   "competitive": {
-    "usage_rank": 116,
-    "usage_rate": 0.0051,
+    "usage_rank": 93,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
       {
@@ -12,22 +12,34 @@
         "usage": 1.0
       },
       {
-        "id": 9,
+        "id": 813,
         "usage": 1.0
+      },
+      {
+        "id": 369,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 9,
+        "usage": 0.5
       },
       {
         "id": 282,
-        "usage": 1.0
-      },
-      {
-        "id": 813,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
         "id": 264,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 260,
+        "usage": 0.5
+      },
+      {
+        "id": 1018,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 861,
+        "usage": 0.5
+      },
+      {
+        "id": 257,
+        "usage": 0.5
+      },
+      {
         "id": 478,
-        "usage": 1.0
-      },
-      {
-        "id": 903,
-        "usage": 1.0
-      },
-      {
-        "id": 637,
-        "usage": 1.0
-      },
-      {
-        "id": 981,
-        "usage": 1.0
-      },
-      {
-        "id": 914,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

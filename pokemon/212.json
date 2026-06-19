@@ -1,0 +1,64 @@
+{
+  "dex_id": 212,
+  "name": "Scizor-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 120,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 418,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 14,
+        "usage": 1.0
+      },
+      {
+        "id": 450,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 709,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 101,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 260,
+        "usage": 1.0
+      },
+      {
+        "id": 560,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      },
+      {
+        "id": 184,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

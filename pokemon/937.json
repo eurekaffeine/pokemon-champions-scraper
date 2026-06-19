@@ -1,0 +1,64 @@
+{
+  "dex_id": 937,
+  "name": "Ceruledge",
+  "form": null,
+  "competitive": {
+    "usage_rank": 117,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 891,
+        "usage": 1.0
+      },
+      {
+        "id": 425,
+        "usage": 1.0
+      },
+      {
+        "id": 427,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 18,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 448,
+        "usage": 1.0
+      },
+      {
+        "id": 10104,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 130,
+        "usage": 1.0
+      },
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

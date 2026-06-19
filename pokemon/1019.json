@@ -1,0 +1,64 @@
+{
+  "dex_id": 1019,
+  "name": "Hydrapple",
+  "form": null,
+  "competitive": {
+    "usage_rank": 110,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 434,
+        "usage": 1.0
+      },
+      {
+        "id": 412,
+        "usage": 1.0
+      },
+      {
+        "id": 414,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 144,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 260,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 1000,
+        "usage": 1.0
+      },
+      {
+        "id": 302,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

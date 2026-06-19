@@ -3,10 +3,14 @@
   "name": "Meganium-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 108,
-    "usage_rate": 0.0051,
+    "usage_rank": 94,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
       {
         "id": 605,
         "usage": 1.0
@@ -16,12 +20,12 @@
         "usage": 1.0
       },
       {
-        "id": 202,
-        "usage": 1.0
+        "id": 76,
+        "usage": 0.5
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 202,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +42,28 @@
     ],
     "teammates": [
       {
-        "id": 149,
-        "usage": 1.0
-      },
-      {
         "id": 26,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
-        "id": 531,
-        "usage": 1.0
+        "id": 925,
+        "usage": 0.5
       },
       {
-        "id": 903,
-        "usage": 1.0
+        "id": 663,
+        "usage": 0.5
       },
       {
-        "id": 571,
-        "usage": 1.0
+        "id": 983,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 149,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

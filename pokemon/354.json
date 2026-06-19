@@ -1,0 +1,64 @@
+{
+  "dex_id": 354,
+  "name": "Banette-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 112,
+    "usage_rate": 0.0034999999999999996,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 194,
+        "usage": 1.0
+      },
+      {
+        "id": 227,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 809,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 707,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 119,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 902,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

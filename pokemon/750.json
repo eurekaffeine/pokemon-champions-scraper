@@ -3,8 +3,8 @@
   "name": "Mudsdale",
   "form": null,
   "competitive": {
-    "usage_rank": 87,
-    "usage_rate": 0.0051,
+    "usage_rank": 66,
+    "usage_rate": 0.0141,
     "win_rate": null,
     "moves": [
       {
@@ -12,50 +12,78 @@
         "usage": 1.0
       },
       {
-        "id": 667,
-        "usage": 1.0
+        "id": 776,
+        "usage": 0.75
       },
       {
-        "id": 484,
-        "usage": 1.0
+        "id": 182,
+        "usage": 0.75
       },
       {
         "id": 89,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 707,
+        "usage": 0.25
+      },
+      {
+        "id": 667,
+        "usage": 0.25
+      },
+      {
+        "id": 484,
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 211,
+        "usage": 0.25
+      },
+      {
+        "id": 243,
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
+        "id": 192,
+        "usage": 0.75
+      },
+      {
         "id": 39,
-        "usage": 1.0
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
-        "id": 282,
-        "usage": 1.0
-      },
-      {
-        "id": 981,
-        "usage": 1.0
-      },
-      {
-        "id": 666,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.5
       },
       {
         "id": 324,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
-        "id": 254,
-        "usage": 1.0
+        "id": 691,
+        "usage": 0.25
+      },
+      {
+        "id": 765,
+        "usage": 0.25
+      },
+      {
+        "id": 964,
+        "usage": 0.25
+      },
+      {
+        "id": 65,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

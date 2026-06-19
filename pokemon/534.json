@@ -3,8 +3,8 @@
   "name": "Conkeldurr",
   "form": null,
   "competitive": {
-    "usage_rank": 129,
-    "usage_rate": 0.0051,
+    "usage_rank": 91,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
       {
@@ -12,11 +12,11 @@
         "usage": 1.0
       },
       {
-        "id": 183,
+        "id": 409,
         "usage": 1.0
       },
       {
-        "id": 409,
+        "id": 183,
         "usage": 1.0
       },
       {
@@ -26,8 +26,12 @@
     ],
     "items": [
       {
+        "id": 247,
+        "usage": 0.5
+      },
+      {
         "id": 218,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +42,28 @@
     ],
     "teammates": [
       {
-        "id": 376,
-        "usage": 1.0
-      },
-      {
-        "id": 142,
-        "usage": 1.0
-      },
-      {
-        "id": 257,
-        "usage": 1.0
-      },
-      {
         "id": 981,
         "usage": 1.0
       },
       {
-        "id": 936,
-        "usage": 1.0
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 115,
+        "usage": 0.5
+      },
+      {
+        "id": 6,
+        "usage": 0.5
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 376,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

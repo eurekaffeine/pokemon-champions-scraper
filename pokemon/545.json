@@ -3,31 +3,43 @@
   "name": "Scolipede",
   "form": null,
   "competitive": {
-    "usage_rank": 105,
-    "usage_rate": 0.0051,
+    "usage_rank": 98,
+    "usage_rate": 0.006999999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 398,
-        "usage": 1.0
-      },
       {
         "id": 182,
         "usage": 1.0
       },
       {
-        "id": 89,
+        "id": 398,
         "usage": 1.0
       },
       {
+        "id": 224,
+        "usage": 0.5
+      },
+      {
+        "id": 42,
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
+      },
+      {
         "id": 141,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
         "id": 199,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 65,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 604,
+        "usage": 0.5
+      },
+      {
+        "id": 750,
+        "usage": 0.5
+      },
+      {
         "id": 979,
-        "usage": 1.0
-      },
-      {
-        "id": 260,
-        "usage": 1.0
-      },
-      {
-        "id": 398,
-        "usage": 1.0
-      },
-      {
-        "id": 26,
-        "usage": 1.0
-      },
-      {
-        "id": 1013,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],
