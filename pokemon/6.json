@@ -1,73 +1,61 @@
 {
   "dex_id": 6,
-  "name": "Charizard-Mega-X",
+  "name": "Charizard",
   "form": null,
   "competitive": {
-    "usage_rank": 56,
-    "usage_rate": 0.0176,
+    "usage_rank": 157,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 337,
-        "usage": 1.0
-      },
-      {
-        "id": 349,
-        "usage": 1.0
-      },
-      {
-        "id": 915,
-        "usage": 0.6
-      },
-      {
         "id": 394,
-        "usage": 0.4
+        "usage": 1.0
+      },
+      {
+        "id": 200,
+        "usage": 1.0
+      },
+      {
+        "id": 488,
+        "usage": 1.0
+      },
+      {
+        "id": 19,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 699,
+        "id": 134,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 66,
-        "usage": 0.8
-      },
-      {
-        "id": 94,
-        "usage": 0.2
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 903,
+        "id": 94,
         "usage": 1.0
       },
       {
-        "id": 1013,
+        "id": 184,
         "usage": 1.0
       },
       {
-        "id": 727,
-        "usage": 0.8
+        "id": 254,
+        "usage": 1.0
       },
       {
-        "id": 983,
-        "usage": 0.6
+        "id": 208,
+        "usage": 1.0
       },
       {
-        "id": 10061,
-        "usage": 0.6
-      },
-      {
-        "id": 350,
-        "usage": 0.4
+        "id": 26,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

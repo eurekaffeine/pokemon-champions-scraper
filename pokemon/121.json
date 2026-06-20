@@ -1,0 +1,64 @@
+{
+  "dex_id": 121,
+  "name": "Starmie-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 161,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 710,
+        "usage": 1.0
+      },
+      {
+        "id": 453,
+        "usage": 1.0
+      },
+      {
+        "id": 428,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 2561,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 30,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 1018,
+        "usage": 1.0
+      },
+      {
+        "id": 428,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

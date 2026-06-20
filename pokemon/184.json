@@ -3,8 +3,8 @@
   "name": "Azumarill",
   "form": null,
   "competitive": {
-    "usage_rank": 55,
-    "usage_rate": 0.0176,
+    "usage_rank": 52,
+    "usage_rate": 0.0189,
     "win_rate": null,
     "moves": [
       {
@@ -12,26 +12,54 @@
         "usage": 1.0
       },
       {
+        "id": 583,
+        "usage": 0.9375
+      },
+      {
         "id": 187,
-        "usage": 1.0
+        "usage": 0.8125
       },
       {
         "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 583,
-        "usage": 0.8
+        "usage": 0.8125
       },
       {
         "id": 276,
-        "usage": 0.2
+        "usage": 0.25
+      },
+      {
+        "id": 710,
+        "usage": 0.0625
+      },
+      {
+        "id": 127,
+        "usage": 0.0625
+      },
+      {
+        "id": 270,
+        "usage": 0.0625
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 220,
+        "usage": 0.0625
+      },
+      {
+        "id": 191,
+        "usage": 0.0625
+      },
+      {
+        "id": 211,
+        "usage": 0.0625
+      },
+      {
+        "id": 254,
+        "usage": 0.0625
       }
     ],
     "abilities": [
@@ -42,28 +70,28 @@
     ],
     "teammates": [
       {
+        "id": 903,
+        "usage": 0.4375
+      },
+      {
         "id": 445,
-        "usage": 0.6
+        "usage": 0.4375
       },
       {
         "id": 1013,
-        "usage": 0.6
+        "usage": 0.4375
       },
       {
         "id": 6,
-        "usage": 0.4
+        "usage": 0.375
       },
       {
-        "id": 903,
-        "usage": 0.4
+        "id": 925,
+        "usage": 0.25
       },
       {
-        "id": 428,
-        "usage": 0.2
-      },
-      {
-        "id": 248,
-        "usage": 0.2
+        "id": 655,
+        "usage": 0.1875
       }
     ],
     "tera_types": [],

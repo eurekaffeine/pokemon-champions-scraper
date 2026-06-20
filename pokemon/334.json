@@ -1,0 +1,64 @@
+{
+  "dex_id": 334,
+  "name": "Altaria",
+  "form": null,
+  "competitive": {
+    "usage_rank": 168,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 332,
+        "usage": 1.0
+      },
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 19,
+        "usage": 1.0
+      },
+      {
+        "id": 58,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 13,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 6,
+        "usage": 1.0
+      },
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

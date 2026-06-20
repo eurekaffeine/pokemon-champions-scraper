@@ -1,0 +1,64 @@
+{
+  "dex_id": 518,
+  "name": "Musharna",
+  "form": null,
+  "competitive": {
+    "usage_rank": 171,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 585,
+        "usage": 1.0
+      },
+      {
+        "id": 113,
+        "usage": 1.0
+      },
+      {
+        "id": 115,
+        "usage": 1.0
+      },
+      {
+        "id": 433,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 246,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 140,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 691,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 10104,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 937,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,35 +3,51 @@
   "name": "Blaziken",
   "form": null,
   "competitive": {
-    "usage_rank": 82,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 88,
+    "usage_rate": 0.0059,
     "win_rate": null,
     "moves": [
       {
+        "id": 182,
+        "usage": 0.6
+      },
+      {
+        "id": 257,
+        "usage": 0.6
+      },
+      {
         "id": 370,
-        "usage": 1.0
+        "usage": 0.6
+      },
+      {
+        "id": 811,
+        "usage": 0.6
+      },
+      {
+        "id": 396,
+        "usage": 0.4
       },
       {
         "id": 394,
-        "usage": 1.0
+        "usage": 0.4
       },
       {
         "id": 282,
-        "usage": 1.0
+        "usage": 0.4
       },
       {
         "id": 197,
-        "usage": 0.5
-      },
-      {
-        "id": 182,
-        "usage": 0.5
+        "usage": 0.4
       }
     ],
     "items": [
       {
+        "id": 252,
+        "usage": 0.6
+      },
+      {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.4
       }
     ],
     "abilities": [
@@ -42,28 +58,28 @@
     ],
     "teammates": [
       {
-        "id": 254,
-        "usage": 0.5
+        "id": 376,
+        "usage": 0.8
       },
       {
-        "id": 902,
-        "usage": 0.5
+        "id": 445,
+        "usage": 0.6
+      },
+      {
+        "id": 1013,
+        "usage": 0.6
       },
       {
         "id": 142,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
-        "id": 376,
-        "usage": 0.5
+        "id": 10009,
+        "usage": 0.2
       },
       {
-        "id": 903,
-        "usage": 0.5
-      },
-      {
-        "id": 6,
-        "usage": 0.5
+        "id": 10061,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

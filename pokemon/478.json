@@ -1,10 +1,10 @@
 {
   "dex_id": 478,
-  "name": "Froslass-Mega",
+  "name": "Froslass",
   "form": null,
   "competitive": {
-    "usage_rank": 25,
-    "usage_rate": 0.0634,
+    "usage_rank": 165,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
@@ -12,82 +12,50 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.9444400000000001
+        "id": 694,
+        "usage": 1.0
       },
       {
         "id": 247,
-        "usage": 0.72222
+        "usage": 1.0
       },
       {
-        "id": 694,
-        "usage": 0.72222
-      },
-      {
-        "id": 311,
-        "usage": 0.11111
-      },
-      {
-        "id": 240,
-        "usage": 0.11111
-      },
-      {
-        "id": 114,
-        "usage": 0.05556
-      },
-      {
-        "id": 50,
-        "usage": 0.05556
-      },
-      {
-        "id": 164,
-        "usage": 0.05556
-      },
-      {
-        "id": 94,
-        "usage": 0.05556
+        "id": 87,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 2566,
+        "id": 223,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 130,
-        "usage": 0.83333
-      },
-      {
-        "id": 81,
-        "usage": 0.16667
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 983,
-        "usage": 0.5
+        "id": 903,
+        "usage": 1.0
       },
       {
-        "id": 903,
-        "usage": 0.44444
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
       },
       {
         "id": 445,
-        "usage": 0.38889
+        "usage": 1.0
       },
       {
-        "id": 10230,
-        "usage": 0.33332999999999996
-      },
-      {
-        "id": 547,
-        "usage": 0.27777999999999997
-      },
-      {
-        "id": 902,
-        "usage": 0.22222
+        "id": 212,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

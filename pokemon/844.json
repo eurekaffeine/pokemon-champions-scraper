@@ -3,8 +3,8 @@
   "name": "Sandaconda",
   "form": null,
   "competitive": {
-    "usage_rank": 119,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 148,
+    "usage_rate": 0.0024,
     "win_rate": null,
     "moves": [
       {
@@ -12,16 +12,28 @@
         "usage": 1.0
       },
       {
+        "id": 776,
+        "usage": 0.5
+      },
+      {
+        "id": 334,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.5
+      },
+      {
         "id": 489,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 667,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 444,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
@@ -42,20 +54,24 @@
         "usage": 1.0
       },
       {
+        "id": 10230,
+        "usage": 0.5
+      },
+      {
+        "id": 10009,
+        "usage": 0.5
+      },
+      {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
         "id": 823,
-        "usage": 1.0
-      },
-      {
-        "id": 727,
-        "usage": 1.0
-      },
-      {
-        "id": 902,
-        "usage": 1.0
-      },
-      {
-        "id": 700,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

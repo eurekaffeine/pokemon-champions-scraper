@@ -3,25 +3,33 @@
   "name": "Gyarados-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 106,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 89,
+    "usage_rate": 0.0059,
     "win_rate": null,
     "moves": [
-      {
-        "id": 127,
-        "usage": 1.0
-      },
-      {
-        "id": 242,
-        "usage": 1.0
-      },
       {
         "id": 349,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 127,
         "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 0.8
+      },
+      {
+        "id": 242,
+        "usage": 0.6
+      },
+      {
+        "id": 808,
+        "usage": 0.4
+      },
+      {
+        "id": 269,
+        "usage": 0.2
       }
     ],
     "items": [
@@ -38,28 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 545,
-        "usage": 0.5
-      },
-      {
-        "id": 1000,
-        "usage": 0.5
+        "id": 903,
+        "usage": 0.8
       },
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.6
       },
       {
         "id": 1013,
-        "usage": 0.5
+        "usage": 0.6
       },
       {
-        "id": 142,
-        "usage": 0.5
+        "id": 1000,
+        "usage": 0.4
       },
       {
-        "id": 547,
-        "usage": 0.5
+        "id": 254,
+        "usage": 0.2
+      },
+      {
+        "id": 279,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

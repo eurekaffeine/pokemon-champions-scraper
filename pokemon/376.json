@@ -3,35 +3,47 @@
   "name": "Metagross",
   "form": null,
   "competitive": {
-    "usage_rank": 99,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 86,
+    "usage_rate": 0.0070999999999999995,
     "win_rate": null,
     "moves": [
-      {
-        "id": 418,
-        "usage": 1.0
-      },
       {
         "id": 706,
         "usage": 1.0
       },
       {
+        "id": 418,
+        "usage": 0.83333
+      },
+      {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 442,
+        "usage": 0.5
       },
       {
         "id": 309,
         "usage": 0.5
       },
       {
-        "id": 442,
-        "usage": 0.5
+        "id": 89,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 776,
+        "usage": 0.16667
       }
     ],
     "items": [
       {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.83333
+      },
+      {
+        "id": 134,
+        "usage": 0.16667
       }
     ],
     "abilities": [
@@ -42,8 +54,8 @@
     ],
     "teammates": [
       {
-        "id": 26,
-        "usage": 0.5
+        "id": 1013,
+        "usage": 0.83333
       },
       {
         "id": 861,
@@ -58,12 +70,12 @@
         "usage": 0.5
       },
       {
-        "id": 1013,
-        "usage": 0.5
+        "id": 26,
+        "usage": 0.33332999999999996
       },
       {
-        "id": 398,
-        "usage": 0.5
+        "id": 925,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

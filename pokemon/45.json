@@ -3,12 +3,12 @@
   "name": "Vileplume",
   "form": null,
   "competitive": {
-    "usage_rank": 87,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 72,
+    "usage_rate": 0.0106,
     "win_rate": null,
     "moves": [
       {
-        "id": 188,
+        "id": 79,
         "usage": 1.0
       },
       {
@@ -16,12 +16,20 @@
         "usage": 1.0
       },
       {
-        "id": 79,
-        "usage": 1.0
+        "id": 188,
+        "usage": 0.77778
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 412,
+        "usage": 0.44444
+      },
+      {
+        "id": 76,
+        "usage": 0.11111
       }
     ],
     "items": [
@@ -38,24 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 324,
-        "usage": 1.0
-      },
-      {
         "id": 981,
         "usage": 1.0
       },
       {
-        "id": 700,
+        "id": 324,
         "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 0.44444
+      },
+      {
+        "id": 115,
+        "usage": 0.33332999999999996
       },
       {
         "id": 983,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       },
       {
-        "id": 780,
-        "usage": 1.0
+        "id": 303,
+        "usage": 0.22222
       }
     ],
     "tera_types": [],

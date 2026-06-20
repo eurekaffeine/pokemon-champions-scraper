@@ -3,37 +3,49 @@
   "name": "Delphox-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 41,
-    "usage_rate": 0.0352,
+    "usage_rank": 26,
+    "usage_rate": 0.0567,
     "win_rate": null,
     "moves": [
-      {
-        "id": 257,
-        "usage": 1.0
-      },
       {
         "id": 182,
         "usage": 1.0
       },
       {
-        "id": 473,
-        "usage": 0.7
+        "id": 257,
+        "usage": 0.95833
       },
       {
         "id": 417,
-        "usage": 0.7
+        "usage": 0.625
       },
       {
         "id": 94,
-        "usage": 0.3
+        "usage": 0.52083
+      },
+      {
+        "id": 473,
+        "usage": 0.47917000000000004
       },
       {
         "id": 164,
-        "usage": 0.2
+        "usage": 0.20833
+      },
+      {
+        "id": 347,
+        "usage": 0.08333
+      },
+      {
+        "id": 53,
+        "usage": 0.04167
       },
       {
         "id": 227,
-        "usage": 0.1
+        "usage": 0.04167
+      },
+      {
+        "id": 496,
+        "usage": 0.02083
       }
     ],
     "items": [
@@ -45,33 +57,37 @@
     "abilities": [
       {
         "id": 66,
-        "usage": 1.0
+        "usage": 0.91667
+      },
+      {
+        "id": 26,
+        "usage": 0.08333
       }
     ],
     "teammates": [
       {
         "id": 1013,
-        "usage": 0.6
-      },
-      {
-        "id": 983,
         "usage": 0.5
       },
       {
         "id": 727,
-        "usage": 0.5
-      },
-      {
-        "id": 903,
-        "usage": 0.4
-      },
-      {
-        "id": 398,
-        "usage": 0.4
+        "usage": 0.4375
       },
       {
         "id": 925,
-        "usage": 0.4
+        "usage": 0.39582999999999996
+      },
+      {
+        "id": 445,
+        "usage": 0.39582999999999996
+      },
+      {
+        "id": 398,
+        "usage": 0.375
+      },
+      {
+        "id": 983,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

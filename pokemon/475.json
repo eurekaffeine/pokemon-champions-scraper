@@ -1,14 +1,18 @@
 {
   "dex_id": 475,
-  "name": "Gallade",
+  "name": "Gallade-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 116,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 173,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
       {
-        "id": 433,
+        "id": 813,
+        "usage": 1.0
+      },
+      {
+        "id": 427,
         "usage": 1.0
       },
       {
@@ -16,17 +20,13 @@
         "usage": 1.0
       },
       {
-        "id": 348,
-        "usage": 1.0
-      },
-      {
-        "id": 427,
+        "id": 182,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 247,
+        "id": 797,
         "usage": 1.0
       }
     ],
@@ -38,23 +38,23 @@
     ],
     "teammates": [
       {
-        "id": 861,
+        "id": 903,
         "usage": 1.0
       },
       {
-        "id": 248,
+        "id": 448,
         "usage": 1.0
       },
       {
-        "id": 745,
+        "id": 727,
         "usage": 1.0
       },
       {
-        "id": 823,
+        "id": 279,
         "usage": 1.0
       },
       {
-        "id": 1000,
+        "id": 1013,
         "usage": 1.0
       }
     ],

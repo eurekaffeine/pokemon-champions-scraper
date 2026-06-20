@@ -1,0 +1,56 @@
+{
+  "dex_id": 132,
+  "name": "Ditto",
+  "form": null,
+  "competitive": {
+    "usage_rank": 136,
+    "usage_rate": 0.0024,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 144,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 254,
+        "usage": 0.5
+      },
+      {
+        "id": 247,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 150,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 142,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 902,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,8 +3,8 @@
   "name": "Staraptor",
   "form": null,
   "competitive": {
-    "usage_rank": 63,
-    "usage_rate": 0.0141,
+    "usage_rank": 93,
+    "usage_rate": 0.0059,
     "win_rate": null,
     "moves": [
       {
@@ -16,34 +16,34 @@
         "usage": 1.0
       },
       {
-        "id": 515,
-        "usage": 0.5
-      },
-      {
-        "id": 369,
-        "usage": 0.5
-      },
-      {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.6
       },
       {
-        "id": 38,
-        "usage": 0.25
+        "id": 515,
+        "usage": 0.4
       },
       {
         "id": 355,
-        "usage": 0.25
+        "usage": 0.4
+      },
+      {
+        "id": 369,
+        "usage": 0.4
+      },
+      {
+        "id": 38,
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 2561,
-        "usage": 0.25
+        "usage": 0.4
       }
     ],
     "abilities": [
@@ -55,27 +55,27 @@
     "teammates": [
       {
         "id": 983,
-        "usage": 0.5
-      },
-      {
-        "id": 254,
-        "usage": 0.25
-      },
-      {
-        "id": 135,
-        "usage": 0.25
-      },
-      {
-        "id": 902,
-        "usage": 0.25
-      },
-      {
-        "id": 547,
-        "usage": 0.25
+        "usage": 0.4
       },
       {
         "id": 26,
-        "usage": 0.25
+        "usage": 0.4
+      },
+      {
+        "id": 350,
+        "usage": 0.4
+      },
+      {
+        "id": 1013,
+        "usage": 0.4
+      },
+      {
+        "id": 861,
+        "usage": 0.4
+      },
+      {
+        "id": 254,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

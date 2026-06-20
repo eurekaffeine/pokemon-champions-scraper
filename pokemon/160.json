@@ -3,12 +3,12 @@
   "name": "Feraligatr-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 122,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 150,
+    "usage_rate": 0.0024,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
+        "id": 38,
         "usage": 1.0
       },
       {
@@ -16,12 +16,16 @@
         "usage": 1.0
       },
       {
-        "id": 453,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 38,
-        "usage": 1.0
+        "id": 157,
+        "usage": 0.5
+      },
+      {
+        "id": 453,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -42,20 +46,24 @@
         "usage": 1.0
       },
       {
-        "id": 186,
-        "usage": 1.0
-      },
-      {
-        "id": 750,
-        "usage": 1.0
-      },
-      {
-        "id": 115,
-        "usage": 1.0
-      },
-      {
         "id": 1013,
         "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 186,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

@@ -1,0 +1,88 @@
+{
+  "dex_id": 758,
+  "name": "Salazzle",
+  "form": null,
+  "competitive": {
+    "usage_rank": 147,
+    "usage_rate": 0.0024,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 252,
+        "usage": 1.0
+      },
+      {
+        "id": 188,
+        "usage": 0.5
+      },
+      {
+        "id": 807,
+        "usage": 0.5
+      },
+      {
+        "id": 50,
+        "usage": 0.5
+      },
+      {
+        "id": 269,
+        "usage": 0.5
+      },
+      {
+        "id": 315,
+        "usage": 0.5
+      },
+      {
+        "id": 261,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 0.5
+      },
+      {
+        "id": 252,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 212,
+        "usage": 0.5
+      },
+      {
+        "id": 12,
+        "usage": 0.5
+      }
+    ],
+    "teammates": [
+      {
+        "id": 26,
+        "usage": 0.5
+      },
+      {
+        "id": 763,
+        "usage": 0.5
+      },
+      {
+        "id": 983,
+        "usage": 0.5
+      },
+      {
+        "id": 260,
+        "usage": 0.5
+      },
+      {
+        "id": 279,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

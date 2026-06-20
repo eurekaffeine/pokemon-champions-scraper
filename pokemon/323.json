@@ -3,12 +3,12 @@
   "name": "Camerupt-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 132,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 98,
+    "usage_rate": 0.004699999999999999,
     "win_rate": null,
     "moves": [
       {
-        "id": 257,
+        "id": 246,
         "usage": 1.0
       },
       {
@@ -20,8 +20,12 @@
         "usage": 1.0
       },
       {
-        "id": 246,
-        "usage": 1.0
+        "id": 257,
+        "usage": 0.5
+      },
+      {
+        "id": 284,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +42,28 @@
     ],
     "teammates": [
       {
-        "id": 740,
-        "usage": 1.0
-      },
-      {
         "id": 981,
-        "usage": 1.0
-      },
-      {
-        "id": 925,
-        "usage": 1.0
-      },
-      {
-        "id": 983,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
         "id": 324,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 303,
+        "usage": 0.25
+      },
+      {
+        "id": 903,
+        "usage": 0.25
+      },
+      {
+        "id": 1019,
+        "usage": 0.25
+      },
+      {
+        "id": 184,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

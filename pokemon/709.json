@@ -1,0 +1,64 @@
+{
+  "dex_id": 709,
+  "name": "Trevenant",
+  "form": null,
+  "competitive": {
+    "usage_rank": 177,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 89,
+        "usage": 1.0
+      },
+      {
+        "id": 532,
+        "usage": 1.0
+      },
+      {
+        "id": 809,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 139,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 780,
+        "usage": 1.0
+      },
+      {
+        "id": 358,
+        "usage": 1.0
+      },
+      {
+        "id": 730,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

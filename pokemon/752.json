@@ -3,8 +3,8 @@
   "name": "Araquanid",
   "form": null,
   "competitive": {
-    "usage_rank": 101,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 104,
+    "usage_rate": 0.004699999999999999,
     "win_rate": null,
     "moves": [
       {
@@ -16,22 +16,38 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
         "id": 141,
         "usage": 0.5
       },
       {
-        "id": 679,
+        "id": 182,
         "usage": 0.5
+      },
+      {
+        "id": 115,
+        "usage": 0.25
+      },
+      {
+        "id": 487,
+        "usage": 0.25
+      },
+      {
+        "id": 196,
+        "usage": 0.25
+      },
+      {
+        "id": 679,
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 220,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 211,
+        "usage": 0.25
       }
     ],
     "abilities": [
@@ -42,12 +58,16 @@
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 1.0
+        "id": 700,
+        "usage": 0.75
       },
       {
-        "id": 700,
-        "usage": 1.0
+        "id": 981,
+        "usage": 0.75
+      },
+      {
+        "id": 324,
+        "usage": 0.5
       },
       {
         "id": 623,
@@ -58,12 +78,8 @@
         "usage": 0.5
       },
       {
-        "id": 324,
-        "usage": 0.5
-      },
-      {
-        "id": 666,
-        "usage": 0.5
+        "id": 26,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

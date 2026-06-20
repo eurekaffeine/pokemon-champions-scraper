@@ -3,8 +3,8 @@
   "name": "Scrafty",
   "form": null,
   "competitive": {
-    "usage_rank": 121,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 141,
+    "usage_rate": 0.0024,
     "win_rate": null,
     "moves": [
       {
@@ -12,22 +12,34 @@
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
         "id": 252,
         "usage": 1.0
       },
       {
+        "id": 409,
+        "usage": 0.5
+      },
+      {
+        "id": 197,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
         "id": 811,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 211,
+        "usage": 0.5
+      },
+      {
         "id": 243,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 94,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 302,
+        "usage": 0.5
+      },
+      {
+        "id": 861,
+        "usage": 0.5
+      },
+      {
+        "id": 398,
+        "usage": 0.5
+      },
+      {
         "id": 212,
-        "usage": 1.0
-      },
-      {
-        "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 260,
-        "usage": 1.0
-      },
-      {
-        "id": 445,
-        "usage": 1.0
-      },
-      {
-        "id": 184,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

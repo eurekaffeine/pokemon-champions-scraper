@@ -3,31 +3,47 @@
   "name": "Snorlax",
   "form": null,
   "competitive": {
-    "usage_rank": 133,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 152,
+    "usage_rate": 0.0024,
     "win_rate": null,
     "moves": [
-      {
-        "id": 38,
-        "usage": 1.0
-      },
       {
         "id": 667,
         "usage": 1.0
       },
       {
+        "id": 34,
+        "usage": 0.5
+      },
+      {
+        "id": 156,
+        "usage": 0.5
+      },
+      {
+        "id": 254,
+        "usage": 0.5
+      },
+      {
+        "id": 38,
+        "usage": 0.5
+      },
+      {
         "id": 281,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 135,
+        "usage": 0.5
+      },
+      {
         "id": 211,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +54,28 @@
     ],
     "teammates": [
       {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 10061,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 748,
+        "usage": 0.5
+      },
+      {
         "id": 979,
-        "usage": 1.0
-      },
-      {
-        "id": 94,
-        "usage": 1.0
-      },
-      {
-        "id": 376,
-        "usage": 1.0
-      },
-      {
-        "id": 10104,
-        "usage": 1.0
-      },
-      {
-        "id": 128,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

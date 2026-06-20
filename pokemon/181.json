@@ -1,0 +1,64 @@
+{
+  "dex_id": 181,
+  "name": "Ampharos-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 160,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 406,
+        "usage": 1.0
+      },
+      {
+        "id": 85,
+        "usage": 1.0
+      },
+      {
+        "id": 408,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 697,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 9,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 324,
+        "usage": 1.0
+      },
+      {
+        "id": 45,
+        "usage": 1.0
+      },
+      {
+        "id": 428,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

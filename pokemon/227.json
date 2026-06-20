@@ -1,60 +1,60 @@
 {
   "dex_id": 227,
-  "name": "Skarmory-Mega",
+  "name": "Skarmory",
   "form": null,
   "competitive": {
-    "usage_rank": 146,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 176,
+    "usage_rate": 0.0012,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 413,
         "usage": 1.0
       },
       {
-        "id": 442,
+        "id": 366,
         "usage": 1.0
       },
       {
-        "id": 157,
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 442,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 2565,
+        "id": 210,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 133,
+        "id": 5,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 445,
+        "id": 398,
         "usage": 1.0
       },
       {
-        "id": 903,
+        "id": 149,
         "usage": 1.0
       },
       {
-        "id": 1013,
+        "id": 68,
         "usage": 1.0
       },
       {
-        "id": 248,
+        "id": 350,
         "usage": 1.0
       },
       {
-        "id": 547,
+        "id": 983,
         "usage": 1.0
       }
     ],

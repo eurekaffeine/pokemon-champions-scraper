@@ -1,0 +1,64 @@
+{
+  "dex_id": 409676,
+  "name": "Furfrou",
+  "form": null,
+  "competitive": {
+    "usage_rank": 154,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 283,
+        "usage": 1.0
+      },
+      {
+        "id": 538,
+        "usage": 1.0
+      },
+      {
+        "id": 608,
+        "usage": 1.0
+      },
+      {
+        "id": 555,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 166,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 169,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 748,
+        "usage": 1.0
+      },
+      {
+        "id": 334,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

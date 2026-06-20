@@ -3,12 +3,12 @@
   "name": "Rotom-Mow",
   "form": null,
   "competitive": {
-    "usage_rank": 145,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 144,
+    "usage_rate": 0.0024,
     "win_rate": null,
     "moves": [
       {
-        "id": 85,
+        "id": 521,
         "usage": 1.0
       },
       {
@@ -16,12 +16,20 @@
         "usage": 1.0
       },
       {
-        "id": 527,
-        "usage": 1.0
+        "id": 271,
+        "usage": 0.5
       },
       {
-        "id": 521,
-        "usage": 1.0
+        "id": 261,
+        "usage": 0.5
+      },
+      {
+        "id": 85,
+        "usage": 0.5
+      },
+      {
+        "id": 527,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 260,
-        "usage": 1.0
-      },
-      {
-        "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 1018,
-        "usage": 1.0
-      },
-      {
-        "id": 979,
-        "usage": 1.0
-      },
-      {
         "id": 925,
         "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      },
+      {
+        "id": 861,
+        "usage": 0.5
+      },
+      {
+        "id": 655,
+        "usage": 0.5
+      },
+      {
+        "id": 870,
+        "usage": 0.5
+      },
+      {
+        "id": 260,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

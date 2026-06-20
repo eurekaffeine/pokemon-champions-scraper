@@ -1,0 +1,64 @@
+{
+  "dex_id": 618,
+  "name": "Stunfisk",
+  "form": null,
+  "competitive": {
+    "usage_rank": 164,
+    "usage_rate": 0.0012,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 87,
+        "usage": 1.0
+      },
+      {
+        "id": 85,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 414,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 9,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 778,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 1.0
+      },
+      {
+        "id": 323,
+        "usage": 1.0
+      },
+      {
+        "id": 324,
+        "usage": 1.0
+      },
+      {
+        "id": 730,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,33 +3,37 @@
   "name": "Crabominable-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 88,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 101,
+    "usage_rate": 0.004699999999999999,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 409,
         "usage": 1.0
       },
       {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
         "id": 665,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 183,
         "usage": 0.5
       },
       {
+        "id": 317,
+        "usage": 0.25
+      },
+      {
         "id": 8,
-        "usage": 0.5
+        "usage": 0.25
       },
       {
         "id": 9,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "items": [
@@ -46,6 +50,18 @@
     ],
     "teammates": [
       {
+        "id": 324,
+        "usage": 0.5
+      },
+      {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 925,
+        "usage": 0.5
+      },
+      {
         "id": 911,
         "usage": 0.5
       },
@@ -55,18 +71,6 @@
       },
       {
         "id": 279,
-        "usage": 0.5
-      },
-      {
-        "id": 26,
-        "usage": 0.5
-      },
-      {
-        "id": 1018,
-        "usage": 0.5
-      },
-      {
-        "id": 981,
         "usage": 0.5
       }
     ],

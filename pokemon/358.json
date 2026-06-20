@@ -1,0 +1,72 @@
+{
+  "dex_id": 358,
+  "name": "Chimecho-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 134,
+    "usage_rate": 0.0024,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 430,
+        "usage": 1.0
+      },
+      {
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 605,
+        "usage": 0.5
+      },
+      {
+        "id": 347,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 2637,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 26,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 260,
+        "usage": 0.5
+      },
+      {
+        "id": 10008,
+        "usage": 0.5
+      },
+      {
+        "id": 547,
+        "usage": 0.5
+      },
+      {
+        "id": 473,
+        "usage": 0.5
+      },
+      {
+        "id": 142,
+        "usage": 0.5
+      },
+      {
+        "id": 780,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dex_id": 197,
+  "name": "Umbreon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 138,
+    "usage_rate": 0.0024,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 492,
+        "usage": 1.0
+      },
+      {
+        "id": 555,
+        "usage": 0.5
+      },
+      {
+        "id": 281,
+        "usage": 0.5
+      },
+      {
+        "id": 269,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 92,
+        "usage": 0.5
+      },
+      {
+        "id": 236,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 0.5
+      },
+      {
+        "id": 211,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 39,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 350,
+        "usage": 0.5
+      },
+      {
+        "id": 376,
+        "usage": 0.5
+      },
+      {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
+        "id": 10230,
+        "usage": 0.5
+      },
+      {
+        "id": 727,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

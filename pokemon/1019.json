@@ -3,18 +3,10 @@
   "name": "Hydrapple",
   "form": null,
   "competitive": {
-    "usage_rank": 110,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 129,
+    "usage_rate": 0.0024,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 434,
-        "usage": 1.0
-      },
       {
         "id": 412,
         "usage": 1.0
@@ -22,12 +14,32 @@
       {
         "id": 414,
         "usage": 1.0
+      },
+      {
+        "id": 907,
+        "usage": 0.5
+      },
+      {
+        "id": 676,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 434,
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 303,
+        "usage": 0.5
+      },
+      {
+        "id": 981,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 323,
+        "usage": 0.5
+      },
+      {
+        "id": 184,
+        "usage": 0.5
+      },
+      {
         "id": 260,
-        "usage": 1.0
-      },
-      {
-        "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 727,
-        "usage": 1.0
-      },
-      {
-        "id": 1000,
-        "usage": 1.0
-      },
-      {
-        "id": 302,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

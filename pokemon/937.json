@@ -3,8 +3,8 @@
   "name": "Ceruledge",
   "form": null,
   "competitive": {
-    "usage_rank": 117,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 81,
+    "usage_rate": 0.0083,
     "win_rate": null,
     "moves": [
       {
@@ -16,18 +16,34 @@
         "usage": 1.0
       },
       {
-        "id": 427,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 339,
+        "usage": 0.42857
+      },
+      {
+        "id": 14,
+        "usage": 0.42857
+      },
+      {
+        "id": 427,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
+        "id": 175,
+        "usage": 0.71429
+      },
+      {
+        "id": 135,
+        "usage": 0.14286
+      },
+      {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.14286
       }
     ],
     "abilities": [
@@ -38,24 +54,28 @@
     ],
     "teammates": [
       {
-        "id": 448,
-        "usage": 1.0
-      },
-      {
         "id": 10104,
-        "usage": 1.0
+        "usage": 0.57143
       },
       {
-        "id": 547,
-        "usage": 1.0
+        "id": 376,
+        "usage": 0.42857
       },
       {
-        "id": 130,
-        "usage": 1.0
+        "id": 445,
+        "usage": 0.42857
       },
       {
-        "id": 26,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.42857
+      },
+      {
+        "id": 10061,
+        "usage": 0.28571
+      },
+      {
+        "id": 903,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

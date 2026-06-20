@@ -3,39 +3,67 @@
   "name": "Mimikyu",
   "form": null,
   "competitive": {
-    "usage_rank": 96,
-    "usage_rate": 0.006999999999999999,
+    "usage_rank": 92,
+    "usage_rate": 0.0059,
     "win_rate": null,
     "moves": [
       {
         "id": 425,
-        "usage": 1.0
+        "usage": 0.8
       },
       {
         "id": 583,
-        "usage": 1.0
-      },
-      {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 204,
-        "usage": 0.5
+        "usage": 0.8
       },
       {
         "id": 421,
-        "usage": 0.5
+        "usage": 0.6
+      },
+      {
+        "id": 433,
+        "usage": 0.4
+      },
+      {
+        "id": 182,
+        "usage": 0.4
+      },
+      {
+        "id": 261,
+        "usage": 0.2
+      },
+      {
+        "id": 194,
+        "usage": 0.2
+      },
+      {
+        "id": 409,
+        "usage": 0.2
+      },
+      {
+        "id": 269,
+        "usage": 0.2
+      },
+      {
+        "id": 204,
+        "usage": 0.2
       }
     ],
     "items": [
       {
-        "id": 2105,
-        "usage": 0.5
+        "id": 247,
+        "usage": 0.4
       },
       {
-        "id": 247,
-        "usage": 0.5
+        "id": 196,
+        "usage": 0.2
+      },
+      {
+        "id": 243,
+        "usage": 0.2
+      },
+      {
+        "id": 2105,
+        "usage": 0.2
       }
     ],
     "abilities": [
@@ -46,28 +74,28 @@
     ],
     "teammates": [
       {
+        "id": 727,
+        "usage": 0.4
+      },
+      {
         "id": 530,
-        "usage": 1.0
+        "usage": 0.4
       },
       {
         "id": 248,
-        "usage": 1.0
+        "usage": 0.4
       },
       {
         "id": 635,
-        "usage": 1.0
+        "usage": 0.4
       },
       {
         "id": 10009,
-        "usage": 1.0
+        "usage": 0.4
       },
       {
-        "id": 398,
-        "usage": 0.5
-      },
-      {
-        "id": 823,
-        "usage": 0.5
+        "id": 376,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

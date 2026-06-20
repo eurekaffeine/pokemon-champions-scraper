@@ -3,8 +3,8 @@
   "name": "Gengar",
   "form": null,
   "competitive": {
-    "usage_rank": 135,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 95,
+    "usage_rate": 0.0059,
     "win_rate": null,
     "moves": [
       {
@@ -13,21 +13,53 @@
       },
       {
         "id": 188,
-        "usage": 1.0
+        "usage": 0.6
       },
       {
-        "id": 261,
-        "usage": 1.0
+        "id": 196,
+        "usage": 0.4
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.4
+      },
+      {
+        "id": 482,
+        "usage": 0.2
+      },
+      {
+        "id": 194,
+        "usage": 0.2
+      },
+      {
+        "id": 605,
+        "usage": 0.2
+      },
+      {
+        "id": 85,
+        "usage": 0.2
+      },
+      {
+        "id": 399,
+        "usage": 0.2
+      },
+      {
+        "id": 94,
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 1.0
+        "usage": 0.6
+      },
+      {
+        "id": 264,
+        "usage": 0.2
+      },
+      {
+        "id": 134,
+        "usage": 0.2
       }
     ],
     "abilities": [
@@ -39,23 +71,27 @@
     "teammates": [
       {
         "id": 727,
-        "usage": 1.0
+        "usage": 0.8
       },
       {
         "id": 6,
-        "usage": 1.0
-      },
-      {
-        "id": 26,
-        "usage": 1.0
-      },
-      {
-        "id": 903,
-        "usage": 1.0
+        "usage": 0.6
       },
       {
         "id": 547,
-        "usage": 1.0
+        "usage": 0.4
+      },
+      {
+        "id": 26,
+        "usage": 0.4
+      },
+      {
+        "id": 10230,
+        "usage": 0.2
+      },
+      {
+        "id": 208,
+        "usage": 0.2
       }
     ],
     "tera_types": [],
