@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-06-20T06:18:40.950367Z",
+  "updated_at": "2026-06-21T06:49:22.120990Z",
   "season": {
     "id": "s1",
     "name": "Season 1",
@@ -16022,7 +16022,7 @@
     {
       "name": "Pikalytics",
       "url": "https://www.pikalytics.com",
-      "scraped_at": "2026-06-20T06:18:40.950285Z"
+      "scraped_at": "2026-06-21T06:49:22.120912Z"
     }
   ]
 }
