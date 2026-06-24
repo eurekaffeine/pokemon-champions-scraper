@@ -1,0 +1,64 @@
+{
+  "dex_id": 308,
+  "name": "Medicham",
+  "form": null,
+  "competitive": {
+    "usage_rank": 248,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 252,
+        "usage": 1.0
+      },
+      {
+        "id": 428,
+        "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 230,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 74,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 10104,
+        "usage": 1.0
+      },
+      {
+        "id": 765,
+        "usage": 1.0
+      },
+      {
+        "id": 10009,
+        "usage": 1.0
+      },
+      {
+        "id": 748,
+        "usage": 1.0
+      },
+      {
+        "id": 460,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

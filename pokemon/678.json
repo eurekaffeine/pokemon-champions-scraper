@@ -1,85 +1,61 @@
 {
   "dex_id": 678,
-  "name": "Meowstic",
+  "name": "Meowstic-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 146,
-    "usage_rate": 0.0024,
+    "usage_rank": 228,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 501,
-        "usage": 0.5
-      },
-      {
-        "id": 204,
-        "usage": 0.5
-      },
-      {
-        "id": 86,
-        "usage": 0.5
+        "id": 252,
+        "usage": 1.0
       },
       {
         "id": 94,
-        "usage": 0.5
+        "usage": 1.0
       },
       {
-        "id": 797,
-        "usage": 0.5
-      },
-      {
-        "id": 678,
-        "usage": 0.5
+        "id": 285,
+        "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 0.5
-      },
-      {
-        "id": 399,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 211,
-        "usage": 0.5
-      },
-      {
-        "id": 196,
-        "usage": 0.5
+        "id": 2643,
+        "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 158,
+        "id": 172,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 6,
-        "usage": 0.5
+        "id": 637,
+        "usage": 1.0
       },
       {
-        "id": 445,
-        "usage": 0.5
+        "id": 908,
+        "usage": 1.0
       },
       {
-        "id": 900,
-        "usage": 0.5
+        "id": 983,
+        "usage": 1.0
       },
       {
-        "id": 461,
-        "usage": 0.5
+        "id": 279,
+        "usage": 1.0
       },
       {
-        "id": 1000,
-        "usage": 0.5
-      },
-      {
-        "id": 547,
-        "usage": 0.5
+        "id": 903,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

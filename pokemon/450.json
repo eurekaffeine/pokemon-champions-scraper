@@ -1,0 +1,88 @@
+{
+  "dex_id": 450,
+  "name": "Hippowdon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 199,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 281,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.5
+      },
+      {
+        "id": 156,
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
+      },
+      {
+        "id": 422,
+        "usage": 0.5
+      },
+      {
+        "id": 424,
+        "usage": 0.5
+      },
+      {
+        "id": 303,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 134,
+        "usage": 0.5
+      },
+      {
+        "id": 135,
+        "usage": 0.5
+      }
+    ],
+    "abilities": [
+      {
+        "id": 45,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 303,
+        "usage": 0.5
+      },
+      {
+        "id": 903,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 36,
+        "usage": 0.5
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 473,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,61 +1,81 @@
 {
   "dex_id": 121,
-  "name": "Starmie-Mega",
+  "name": "Starmie",
   "form": null,
   "competitive": {
-    "usage_rank": 161,
-    "usage_rate": 0.0012,
+    "usage_rank": 204,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
-        "id": 710,
+        "id": 94,
         "usage": 1.0
       },
       {
-        "id": 453,
+        "id": 503,
         "usage": 1.0
       },
       {
-        "id": 428,
-        "usage": 1.0
+        "id": 196,
+        "usage": 0.5
+      },
+      {
+        "id": 85,
+        "usage": 0.5
+      },
+      {
+        "id": 58,
+        "usage": 0.5
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 2561,
-        "usage": 1.0
+        "id": 264,
+        "usage": 0.5
+      },
+      {
+        "id": 245,
+        "usage": 0.5
       }
     ],
     "abilities": [
       {
         "id": 30,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 148,
+        "usage": 0.5
       }
     ],
     "teammates": [
       {
-        "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 1018,
-        "usage": 1.0
-      },
-      {
-        "id": 428,
-        "usage": 1.0
-      },
-      {
-        "id": 142,
-        "usage": 1.0
-      },
-      {
         "id": 445,
         "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
+        "usage": 0.5
+      },
+      {
+        "id": 763,
+        "usage": 0.5
+      },
+      {
+        "id": 609,
+        "usage": 0.5
+      },
+      {
+        "id": 668,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

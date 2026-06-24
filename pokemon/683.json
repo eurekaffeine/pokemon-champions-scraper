@@ -1,44 +1,48 @@
 {
-  "dex_id": 618,
-  "name": "Stunfisk",
+  "dex_id": 683,
+  "name": "Aromatisse",
   "form": null,
   "competitive": {
-    "usage_rank": 164,
-    "usage_rate": 0.0012,
+    "usage_rank": 230,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 87,
+        "id": 585,
         "usage": 1.0
       },
       {
-        "id": 85,
+        "id": 433,
+        "usage": 1.0
+      },
+      {
+        "id": 502,
         "usage": 1.0
       },
       {
         "id": 182,
         "usage": 1.0
-      },
-      {
-        "id": 414,
-        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 247,
+        "id": 135,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 9,
+        "id": 165,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 778,
+        "id": 303,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
         "usage": 1.0
       },
       {
@@ -46,15 +50,11 @@
         "usage": 1.0
       },
       {
-        "id": 323,
+        "id": 1013,
         "usage": 1.0
       },
       {
-        "id": 324,
-        "usage": 1.0
-      },
-      {
-        "id": 730,
+        "id": 260,
         "usage": 1.0
       }
     ],

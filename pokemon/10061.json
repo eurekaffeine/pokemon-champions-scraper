@@ -1,77 +1,61 @@
 {
   "dex_id": 10061,
-  "name": "Floette-Eternal-Mega",
+  "name": "Floette-Eternal",
   "form": null,
   "competitive": {
-    "usage_rank": 16,
-    "usage_rate": 0.1241,
+    "usage_rank": 225,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
+        "id": 617,
         "usage": 1.0
       },
       {
-        "id": 605,
-        "usage": 0.97143
-      },
-      {
         "id": 585,
-        "usage": 0.71429
+        "usage": 1.0
       },
       {
-        "id": 347,
-        "usage": 0.61905
+        "id": 94,
+        "usage": 1.0
       },
       {
-        "id": 617,
-        "usage": 0.38095
-      },
-      {
-        "id": 577,
-        "usage": 0.30476
+        "id": 182,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 2579,
+        "id": 2105,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
         "id": 166,
-        "usage": 0.98095
-      },
-      {
-        "id": 187,
-        "usage": 0.01905
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 1013,
-        "usage": 0.5619
-      },
-      {
-        "id": 727,
-        "usage": 0.49524
-      },
-      {
-        "id": 445,
-        "usage": 0.41905000000000003
-      },
-      {
-        "id": 902,
-        "usage": 0.32381
+        "id": 560,
+        "usage": 1.0
       },
       {
         "id": 547,
-        "usage": 0.31428999999999996
+        "usage": 1.0
       },
       {
-        "id": 983,
-        "usage": 0.27619
+        "id": 1000,
+        "usage": 1.0
+      },
+      {
+        "id": 376,
+        "usage": 1.0
+      },
+      {
+        "id": 445,
+        "usage": 1.0
       }
     ],
     "tera_types": [],

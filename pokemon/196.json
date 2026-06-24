@@ -1,0 +1,64 @@
+{
+  "dex_id": 196,
+  "name": "Espeon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 236,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 408,
+        "usage": 1.0
+      },
+      {
+        "id": 917,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 1.0
+      },
+      {
+        "id": 197,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 247,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 156,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 26,
+        "usage": 1.0
+      },
+      {
+        "id": 395,
+        "usage": 1.0
+      },
+      {
+        "id": 637,
+        "usage": 1.0
+      },
+      {
+        "id": 10239,
+        "usage": 1.0
+      },
+      {
+        "id": 154,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,8 +3,8 @@
   "name": "Pikachu",
   "form": null,
   "competitive": {
-    "usage_rank": 159,
-    "usage_rate": 0.0012,
+    "usage_rank": 187,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
@@ -13,15 +13,27 @@
       },
       {
         "id": 804,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 447,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 914,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 270,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 344,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 204,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
@@ -33,29 +45,37 @@
     "abilities": [
       {
         "id": 9,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 31,
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
         "id": 26,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 700,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 279,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 902,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 6,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 10233,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 211,
+  "name": "Qwilfish",
+  "form": null,
+  "competitive": {
+    "usage_rank": 238,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 710,
+        "usage": 1.0
+      },
+      {
+        "id": 86,
+        "usage": 1.0
+      },
+      {
+        "id": 441,
+        "usage": 1.0
+      },
+      {
+        "id": 812,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 22,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 655,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 448,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

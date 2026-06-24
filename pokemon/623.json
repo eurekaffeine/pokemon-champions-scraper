@@ -1,69 +1,81 @@
 {
   "dex_id": 623,
-  "name": "Golurk-Mega",
+  "name": "Golurk",
   "form": null,
   "competitive": {
-    "usage_rank": 114,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 206,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 838,
         "usage": 1.0
       },
       {
-        "id": 809,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 157,
-        "usage": 0.66667
+        "id": 809,
+        "usage": 0.5
       },
       {
-        "id": 8,
-        "usage": 0.33332999999999996
+        "id": 444,
+        "usage": 0.5
+      },
+      {
+        "id": 409,
+        "usage": 0.5
+      },
+      {
+        "id": 325,
+        "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 2642,
-        "usage": 1.0
+        "id": 247,
+        "usage": 0.5
+      },
+      {
+        "id": 135,
+        "usage": 0.5
       }
     ],
     "abilities": [
       {
         "id": 99,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 89,
+        "usage": 0.5
       }
     ],
     "teammates": [
-      {
-        "id": 324,
-        "usage": 1.0
-      },
       {
         "id": 981,
         "usage": 1.0
       },
       {
-        "id": 115,
-        "usage": 0.66667
+        "id": 727,
+        "usage": 0.5
       },
       {
-        "id": 700,
-        "usage": 0.66667
+        "id": 324,
+        "usage": 0.5
       },
       {
-        "id": 752,
-        "usage": 0.66667
+        "id": 10061,
+        "usage": 0.5
       },
       {
-        "id": 983,
-        "usage": 0.33332999999999996
+        "id": 925,
+        "usage": 0.5
+      },
+      {
+        "id": 778,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

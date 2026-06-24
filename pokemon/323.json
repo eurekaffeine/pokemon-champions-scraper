@@ -3,29 +3,41 @@
   "name": "Camerupt-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 98,
-    "usage_rate": 0.004699999999999999,
+    "usage_rank": 85,
+    "usage_rate": 0.0068000000000000005,
     "win_rate": null,
     "moves": [
-      {
-        "id": 246,
-        "usage": 1.0
-      },
       {
         "id": 414,
         "usage": 1.0
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.91667
       },
       {
         "id": 257,
-        "usage": 0.5
+        "usage": 0.79167
+      },
+      {
+        "id": 246,
+        "usage": 0.58333
       },
       {
         "id": 284,
-        "usage": 0.5
+        "usage": 0.45832999999999996
+      },
+      {
+        "id": 53,
+        "usage": 0.16667
+      },
+      {
+        "id": 436,
+        "usage": 0.04167
+      },
+      {
+        "id": 157,
+        "usage": 0.04167
       }
     ],
     "items": [
@@ -37,33 +49,41 @@
     "abilities": [
       {
         "id": 116,
-        "usage": 1.0
+        "usage": 0.875
+      },
+      {
+        "id": 125,
+        "usage": 0.08333
+      },
+      {
+        "id": 40,
+        "usage": 0.04167
       }
     ],
     "teammates": [
       {
         "id": 981,
-        "usage": 0.75
+        "usage": 0.79167
       },
       {
-        "id": 324,
-        "usage": 0.5
+        "id": 983,
+        "usage": 0.375
       },
       {
-        "id": 303,
-        "usage": 0.25
+        "id": 115,
+        "usage": 0.29167000000000004
       },
       {
-        "id": 903,
-        "usage": 0.25
+        "id": 730,
+        "usage": 0.20833
       },
       {
-        "id": 1019,
-        "usage": 0.25
+        "id": 925,
+        "usage": 0.20833
       },
       {
-        "id": 184,
-        "usage": 0.25
+        "id": 398,
+        "usage": 0.16667
       }
     ],
     "tera_types": [],

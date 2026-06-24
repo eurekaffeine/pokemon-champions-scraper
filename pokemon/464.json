@@ -3,71 +3,91 @@
   "name": "Rhyperior",
   "form": null,
   "competitive": {
-    "usage_rank": 120,
-    "usage_rate": 0.0034999999999999996,
+    "usage_rank": 174,
+    "usage_rate": 0.0011,
     "win_rate": null,
     "moves": [
       {
         "id": 667,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
         "id": 157,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
         "id": 8,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 196,
+        "usage": 0.25
+      },
+      {
+        "id": 85,
+        "usage": 0.25
+      },
+      {
+        "id": 53,
+        "usage": 0.25
+      },
+      {
+        "id": 800,
+        "usage": 0.25
       }
     ],
     "items": [
       {
         "id": 162,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       },
       {
         "id": 247,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       },
       {
         "id": 164,
-        "usage": 0.33332999999999996
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
         "id": 116,
-        "usage": 1.0
+        "usage": 0.75
+      },
+      {
+        "id": 31,
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
         "id": 981,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
         "id": 1013,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
         "id": 324,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
         "id": 303,
-        "usage": 0.66667
+        "usage": 0.5
       },
       {
-        "id": 691,
-        "usage": 0.33332999999999996
+        "id": 473,
+        "usage": 0.25
       },
       {
-        "id": 780,
-        "usage": 0.33332999999999996
+        "id": 450,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

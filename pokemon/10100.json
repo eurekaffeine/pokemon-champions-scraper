@@ -3,25 +3,37 @@
   "name": "Raichu-Alola",
   "form": null,
   "competitive": {
-    "usage_rank": 153,
-    "usage_rate": 0.0012,
+    "usage_rank": 215,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
-      {
-        "id": 87,
-        "usage": 1.0
-      },
       {
         "id": 85,
         "usage": 1.0
       },
       {
+        "id": 252,
+        "usage": 0.5
+      },
+      {
+        "id": 94,
+        "usage": 0.5
+      },
+      {
+        "id": 227,
+        "usage": 0.5
+      },
+      {
+        "id": 87,
+        "usage": 0.5
+      },
+      {
         "id": 521,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 605,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
+        "id": 184,
+        "usage": 0.5
+      },
+      {
+        "id": 197,
+        "usage": 0.5
+      },
+      {
+        "id": 10061,
+        "usage": 0.5
+      },
+      {
+        "id": 666,
+        "usage": 0.5
+      },
+      {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
         "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 1018,
-        "usage": 1.0
-      },
-      {
-        "id": 10009,
-        "usage": 1.0
-      },
-      {
-        "id": 902,
-        "usage": 1.0
-      },
-      {
-        "id": 149,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

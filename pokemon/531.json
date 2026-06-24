@@ -1,60 +1,60 @@
 {
   "dex_id": 531,
-  "name": "Audino",
+  "name": "Audino-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 185,
-    "usage_rate": 0.0012,
+    "usage_rank": 244,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
+      {
+        "id": 791,
+        "usage": 1.0
+      },
       {
         "id": 270,
         "usage": 1.0
       },
       {
-        "id": 304,
-        "usage": 1.0
-      },
-      {
-        "id": 113,
-        "usage": 1.0
-      },
-      {
         "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 577,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 211,
+        "id": 798,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 131,
+        "id": 144,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 149,
+        "id": 350,
+        "usage": 1.0
+      },
+      {
+        "id": 939,
+        "usage": 1.0
+      },
+      {
+        "id": 279,
+        "usage": 1.0
+      },
+      {
+        "id": 38,
         "usage": 1.0
       },
       {
         "id": 26,
-        "usage": 1.0
-      },
-      {
-        "id": 154,
-        "usage": 1.0
-      },
-      {
-        "id": 903,
-        "usage": 1.0
-      },
-      {
-        "id": 571,
         "usage": 1.0
       }
     ],

@@ -3,47 +3,63 @@
   "name": "Snorlax",
   "form": null,
   "competitive": {
-    "usage_rank": 152,
-    "usage_rate": 0.0024,
+    "usage_rank": 119,
+    "usage_rate": 0.0028000000000000004,
     "win_rate": null,
     "moves": [
       {
-        "id": 667,
-        "usage": 1.0
-      },
-      {
-        "id": 34,
-        "usage": 0.5
-      },
-      {
-        "id": 156,
-        "usage": 0.5
-      },
-      {
-        "id": 254,
-        "usage": 0.5
-      },
-      {
-        "id": 38,
-        "usage": 0.5
-      },
-      {
         "id": 281,
-        "usage": 0.5
+        "usage": 0.7
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.4
+      },
+      {
+        "id": 34,
+        "usage": 0.4
+      },
+      {
+        "id": 156,
+        "usage": 0.4
+      },
+      {
+        "id": 89,
+        "usage": 0.3
+      },
+      {
+        "id": 254,
+        "usage": 0.3
+      },
+      {
+        "id": 276,
+        "usage": 0.2
+      },
+      {
+        "id": 227,
+        "usage": 0.2
+      },
+      {
+        "id": 120,
+        "usage": 0.2
+      },
+      {
+        "id": 38,
+        "usage": 0.2
       }
     ],
     "items": [
       {
-        "id": 135,
-        "usage": 0.5
+        "id": 211,
+        "usage": 0.4
       },
       {
-        "id": 211,
-        "usage": 0.5
+        "id": 135,
+        "usage": 0.4
+      },
+      {
+        "id": 166,
+        "usage": 0.2
       }
     ],
     "abilities": [
@@ -54,28 +70,28 @@
     ],
     "teammates": [
       {
-        "id": 3,
+        "id": 547,
+        "usage": 0.6
+      },
+      {
+        "id": 94,
         "usage": 0.5
       },
       {
-        "id": 10061,
+        "id": 983,
         "usage": 0.5
       },
       {
-        "id": 1013,
-        "usage": 0.5
+        "id": 26,
+        "usage": 0.3
       },
       {
-        "id": 727,
-        "usage": 0.5
+        "id": 149,
+        "usage": 0.3
       },
       {
-        "id": 748,
-        "usage": 0.5
-      },
-      {
-        "id": 979,
-        "usage": 0.5
+        "id": 701,
+        "usage": 0.3
       }
     ],
     "tera_types": [],

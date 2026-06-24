@@ -3,31 +3,63 @@
   "name": "Klefki",
   "form": null,
   "competitive": {
-    "usage_rank": 130,
-    "usage_rate": 0.0024,
+    "usage_rank": 118,
+    "usage_rate": 0.0028000000000000004,
     "win_rate": null,
     "moves": [
       {
         "id": 113,
-        "usage": 1.0
+        "usage": 0.9
       },
       {
         "id": 115,
-        "usage": 1.0
+        "usage": 0.8
       },
       {
         "id": 86,
-        "usage": 1.0
+        "usage": 0.7
+      },
+      {
+        "id": 605,
+        "usage": 0.4
+      },
+      {
+        "id": 240,
+        "usage": 0.4
       },
       {
         "id": 319,
-        "usage": 1.0
+        "usage": 0.2
+      },
+      {
+        "id": 433,
+        "usage": 0.1
+      },
+      {
+        "id": 219,
+        "usage": 0.1
+      },
+      {
+        "id": 796,
+        "usage": 0.1
+      },
+      {
+        "id": 393,
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 246,
-        "usage": 1.0
+        "usage": 0.8
+      },
+      {
+        "id": 196,
+        "usage": 0.1
+      },
+      {
+        "id": 161,
+        "usage": 0.1
       }
     ],
     "abilities": [
@@ -38,24 +70,28 @@
     ],
     "teammates": [
       {
-        "id": 687,
-        "usage": 1.0
+        "id": 279,
+        "usage": 0.6
       },
       {
-        "id": 823,
-        "usage": 1.0
+        "id": 1018,
+        "usage": 0.4
       },
       {
-        "id": 445,
-        "usage": 1.0
-      },
-      {
-        "id": 902,
-        "usage": 1.0
+        "id": 260,
+        "usage": 0.4
       },
       {
         "id": 1013,
-        "usage": 1.0
+        "usage": 0.4
+      },
+      {
+        "id": 149,
+        "usage": 0.4
+      },
+      {
+        "id": 445,
+        "usage": 0.4
       }
     ],
     "tera_types": [],

@@ -1,22 +1,22 @@
 {
   "dex_id": 71,
-  "name": "Victreebel-Mega",
+  "name": "Victreebel",
   "form": null,
   "competitive": {
-    "usage_rank": 169,
-    "usage_rate": 0.0012,
+    "usage_rank": 232,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
-      {
-        "id": 227,
-        "usage": 1.0
-      },
       {
         "id": 79,
         "usage": 1.0
       },
       {
-        "id": 202,
+        "id": 499,
+        "usage": 1.0
+      },
+      {
+        "id": 76,
         "usage": 1.0
       },
       {
@@ -26,7 +26,7 @@
     ],
     "items": [
       {
-        "id": 2560,
+        "id": 247,
         "usage": 1.0
       }
     ],
@@ -38,23 +38,23 @@
     ],
     "teammates": [
       {
-        "id": 324,
+        "id": 6,
         "usage": 1.0
       },
       {
-        "id": 398,
+        "id": 1018,
         "usage": 1.0
       },
       {
-        "id": 981,
+        "id": 700,
         "usage": 1.0
       },
       {
-        "id": 858,
+        "id": 478,
         "usage": 1.0
       },
       {
-        "id": 115,
+        "id": 823,
         "usage": 1.0
       }
     ],

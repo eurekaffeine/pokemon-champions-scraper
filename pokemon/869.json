@@ -1,0 +1,64 @@
+{
+  "dex_id": 869,
+  "name": "Alcremie",
+  "form": null,
+  "competitive": {
+    "usage_rank": 223,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 777,
+        "usage": 1.0
+      },
+      {
+        "id": 270,
+        "usage": 1.0
+      },
+      {
+        "id": 605,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 175,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 655,
+        "usage": 1.0
+      },
+      {
+        "id": 745,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 700,
+        "usage": 1.0
+      },
+      {
+        "id": 925,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

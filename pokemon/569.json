@@ -1,0 +1,64 @@
+{
+  "dex_id": 569,
+  "name": "Garbodor",
+  "form": null,
+  "competitive": {
+    "usage_rank": 221,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 441,
+        "usage": 1.0
+      },
+      {
+        "id": 92,
+        "usage": 1.0
+      },
+      {
+        "id": 707,
+        "usage": 1.0
+      },
+      {
+        "id": 776,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 170,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 133,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 71,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 24,
+        "usage": 1.0
+      },
+      {
+        "id": 10165,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

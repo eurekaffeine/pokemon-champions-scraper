@@ -1,16 +1,12 @@
 {
   "dex_id": 310,
-  "name": "Manectric-Mega",
+  "name": "Manectric",
   "form": null,
   "competitive": {
-    "usage_rank": 183,
-    "usage_rate": 0.0012,
+    "usage_rank": 237,
+    "usage_rate": 0.0003,
     "win_rate": null,
     "moves": [
-      {
-        "id": 182,
-        "usage": 1.0
-      },
       {
         "id": 85,
         "usage": 1.0
@@ -22,11 +18,15 @@
       {
         "id": 555,
         "usage": 1.0
+      },
+      {
+        "id": 521,
+        "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 721,
+        "id": 264,
         "usage": 1.0
       }
     ],
@@ -38,23 +38,23 @@
     ],
     "teammates": [
       {
-        "id": 254,
+        "id": 398,
         "usage": 1.0
       },
       {
-        "id": 302,
+        "id": 861,
         "usage": 1.0
       },
       {
-        "id": 395,
+        "id": 1013,
         "usage": 1.0
       },
       {
-        "id": 663,
+        "id": 902,
         "usage": 1.0
       },
       {
-        "id": 899,
+        "id": 376,
         "usage": 1.0
       }
     ],

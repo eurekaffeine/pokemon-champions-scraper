@@ -1,0 +1,96 @@
+{
+  "dex_id": 497,
+  "name": "Serperior",
+  "form": null,
+  "competitive": {
+    "usage_rank": 154,
+    "usage_rate": 0.0014000000000000002,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 437,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 406,
+        "usage": 0.6
+      },
+      {
+        "id": 202,
+        "usage": 0.4
+      },
+      {
+        "id": 137,
+        "usage": 0.4
+      },
+      {
+        "id": 164,
+        "usage": 0.2
+      },
+      {
+        "id": 76,
+        "usage": 0.2
+      },
+      {
+        "id": 241,
+        "usage": 0.2
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 0.4
+      },
+      {
+        "id": 252,
+        "usage": 0.2
+      },
+      {
+        "id": 135,
+        "usage": 0.2
+      },
+      {
+        "id": 242,
+        "usage": 0.2
+      }
+    ],
+    "abilities": [
+      {
+        "id": 126,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 547,
+        "usage": 0.4
+      },
+      {
+        "id": 398,
+        "usage": 0.2
+      },
+      {
+        "id": 861,
+        "usage": 0.2
+      },
+      {
+        "id": 727,
+        "usage": 0.2
+      },
+      {
+        "id": 350,
+        "usage": 0.2
+      },
+      {
+        "id": 26,
+        "usage": 0.2
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -3,59 +3,95 @@
   "name": "Trevenant",
   "form": null,
   "competitive": {
-    "usage_rank": 177,
-    "usage_rate": 0.0012,
+    "usage_rank": 135,
+    "usage_rate": 0.002,
     "win_rate": null,
     "moves": [
       {
-        "id": 89,
+        "id": 182,
         "usage": 1.0
       },
       {
         "id": 532,
-        "usage": 1.0
+        "usage": 0.85714
       },
       {
         "id": 809,
-        "usage": 1.0
+        "usage": 0.71429
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 261,
+        "usage": 0.28571
+      },
+      {
+        "id": 89,
+        "usage": 0.28571
+      },
+      {
+        "id": 433,
+        "usage": 0.28571
+      },
+      {
+        "id": 409,
+        "usage": 0.14286
+      },
+      {
+        "id": 389,
+        "usage": 0.14286
+      },
+      {
+        "id": 502,
+        "usage": 0.14286
+      },
+      {
+        "id": 452,
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.85714
+      },
+      {
+        "id": 273,
+        "usage": 0.14286
       }
     ],
     "abilities": [
       {
         "id": 139,
-        "usage": 1.0
+        "usage": 0.85714
+      },
+      {
+        "id": 30,
+        "usage": 0.14286
       }
     ],
     "teammates": [
       {
-        "id": 780,
-        "usage": 1.0
+        "id": 981,
+        "usage": 0.85714
+      },
+      {
+        "id": 199,
+        "usage": 0.28571
+      },
+      {
+        "id": 740,
+        "usage": 0.28571
       },
       {
         "id": 358,
-        "usage": 1.0
+        "usage": 0.28571
       },
       {
-        "id": 730,
-        "usage": 1.0
+        "id": 983,
+        "usage": 0.28571
       },
       {
-        "id": 903,
-        "usage": 1.0
-      },
-      {
-        "id": 981,
-        "usage": 1.0
+        "id": 700,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

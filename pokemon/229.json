@@ -1,0 +1,64 @@
+{
+  "dex_id": 229,
+  "name": "Houndoom-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 219,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 257,
+        "usage": 1.0
+      },
+      {
+        "id": 399,
+        "usage": 1.0
+      },
+      {
+        "id": 76,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 705,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 18,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 510,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 319,
+        "usage": 1.0
+      },
+      {
+        "id": 461,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

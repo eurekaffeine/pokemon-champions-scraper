@@ -1,0 +1,64 @@
+{
+  "dex_id": 10243,
+  "name": "Avalugg-Hisui",
+  "form": null,
+  "competitive": {
+    "usage_rank": 212,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 836,
+        "usage": 1.0
+      },
+      {
+        "id": 667,
+        "usage": 1.0
+      },
+      {
+        "id": 105,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 173,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 10233,
+        "usage": 1.0
+      },
+      {
+        "id": 870,
+        "usage": 1.0
+      },
+      {
+        "id": 733,
+        "usage": 1.0
+      },
+      {
+        "id": 981,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

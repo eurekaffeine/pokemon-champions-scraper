@@ -1,0 +1,64 @@
+{
+  "dex_id": 80,
+  "name": "Slowbro-Mega",
+  "form": null,
+  "competitive": {
+    "usage_rank": 224,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 334,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 303,
+        "usage": 1.0
+      },
+      {
+        "id": 776,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 801,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 12,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 398,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 547,
+        "usage": 1.0
+      },
+      {
+        "id": 350,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

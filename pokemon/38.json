@@ -3,39 +3,67 @@
   "name": "Ninetales",
   "form": null,
   "competitive": {
-    "usage_rank": 102,
-    "usage_rate": 0.004699999999999999,
+    "usage_rank": 67,
+    "usage_rate": 0.0127,
     "win_rate": null,
     "moves": [
       {
         "id": 257,
-        "usage": 1.0
-      },
-      {
-        "id": 313,
-        "usage": 1.0
+        "usage": 0.93333
       },
       {
         "id": 76,
-        "usage": 0.75
+        "usage": 0.82222
       },
       {
-        "id": 473,
-        "usage": 0.5
+        "id": 313,
+        "usage": 0.8
       },
       {
         "id": 315,
-        "usage": 0.5
+        "usage": 0.73333
+      },
+      {
+        "id": 182,
+        "usage": 0.17778
+      },
+      {
+        "id": 311,
+        "usage": 0.13333
+      },
+      {
+        "id": 473,
+        "usage": 0.11111
+      },
+      {
+        "id": 261,
+        "usage": 0.06667
+      },
+      {
+        "id": 270,
+        "usage": 0.06667
       },
       {
         "id": 241,
-        "usage": 0.25
+        "usage": 0.04444
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 1.0
+        "usage": 0.82222
+      },
+      {
+        "id": 261,
+        "usage": 0.11111
+      },
+      {
+        "id": 226,
+        "usage": 0.04444
+      },
+      {
+        "id": 247,
+        "usage": 0.02222
       }
     ],
     "abilities": [
@@ -47,27 +75,27 @@
     "teammates": [
       {
         "id": 668,
-        "usage": 1.0
+        "usage": 0.93333
       },
       {
         "id": 981,
-        "usage": 1.0
+        "usage": 0.82222
       },
       {
         "id": 547,
-        "usage": 0.5
+        "usage": 0.8
       },
       {
         "id": 902,
-        "usage": 0.5
+        "usage": 0.77778
       },
       {
         "id": 10061,
-        "usage": 0.5
+        "usage": 0.73333
       },
       {
-        "id": 823,
-        "usage": 0.5
+        "id": 700,
+        "usage": 0.15556
       }
     ],
     "tera_types": [],

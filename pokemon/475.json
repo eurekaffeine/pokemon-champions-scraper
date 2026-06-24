@@ -3,12 +3,12 @@
   "name": "Gallade-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 173,
-    "usage_rate": 0.0012,
+    "usage_rank": 196,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
-        "id": 813,
+        "id": 533,
         "usage": 1.0
       },
       {
@@ -16,12 +16,16 @@
         "usage": 1.0
       },
       {
-        "id": 533,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 14,
+        "usage": 0.5
+      },
+      {
+        "id": 813,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +42,28 @@
     ],
     "teammates": [
       {
+        "id": 478,
+        "usage": 0.5
+      },
+      {
+        "id": 715,
+        "usage": 0.5
+      },
+      {
+        "id": 902,
+        "usage": 0.5
+      },
+      {
+        "id": 666,
+        "usage": 0.5
+      },
+      {
+        "id": 758,
+        "usage": 0.5
+      },
+      {
         "id": 903,
-        "usage": 1.0
-      },
-      {
-        "id": 448,
-        "usage": 1.0
-      },
-      {
-        "id": 727,
-        "usage": 1.0
-      },
-      {
-        "id": 279,
-        "usage": 1.0
-      },
-      {
-        "id": 1013,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],

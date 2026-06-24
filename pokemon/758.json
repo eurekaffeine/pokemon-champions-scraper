@@ -3,8 +3,8 @@
   "name": "Salazzle",
   "form": null,
   "competitive": {
-    "usage_rank": 147,
-    "usage_rate": 0.0024,
+    "usage_rank": 166,
+    "usage_rate": 0.0011,
     "win_rate": null,
     "moves": [
       {
@@ -13,14 +13,6 @@
       },
       {
         "id": 188,
-        "usage": 0.5
-      },
-      {
-        "id": 807,
-        "usage": 0.5
-      },
-      {
-        "id": 50,
         "usage": 0.5
       },
       {
@@ -34,52 +26,72 @@
       {
         "id": 261,
         "usage": 0.5
+      },
+      {
+        "id": 257,
+        "usage": 0.25
+      },
+      {
+        "id": 182,
+        "usage": 0.25
+      },
+      {
+        "id": 807,
+        "usage": 0.25
+      },
+      {
+        "id": 50,
+        "usage": 0.25
       }
     ],
     "items": [
       {
-        "id": 247,
+        "id": 252,
         "usage": 0.5
       },
       {
-        "id": 252,
-        "usage": 0.5
+        "id": 226,
+        "usage": 0.25
+      },
+      {
+        "id": 247,
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
-        "id": 212,
-        "usage": 0.5
+        "id": 12,
+        "usage": 0.75
       },
       {
-        "id": 12,
-        "usage": 0.5
+        "id": 212,
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
-        "id": 26,
-        "usage": 0.5
-      },
-      {
-        "id": 763,
-        "usage": 0.5
-      },
-      {
-        "id": 983,
-        "usage": 0.5
-      },
-      {
-        "id": 260,
-        "usage": 0.5
-      },
-      {
-        "id": 279,
-        "usage": 0.5
-      },
-      {
         "id": 903,
         "usage": 0.5
+      },
+      {
+        "id": 904,
+        "usage": 0.5
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 748,
+        "usage": 0.5
+      },
+      {
+        "id": 15,
+        "usage": 0.5
+      },
+      {
+        "id": 475,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

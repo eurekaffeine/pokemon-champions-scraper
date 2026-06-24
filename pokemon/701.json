@@ -3,8 +3,8 @@
   "name": "Hawlucha-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 181,
-    "usage_rate": 0.0012,
+    "usage_rank": 194,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
@@ -17,11 +17,19 @@
       },
       {
         "id": 370,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 413,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 679,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 811,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
@@ -38,24 +46,28 @@
     ],
     "teammates": [
       {
-        "id": 10230,
-        "usage": 1.0
+        "id": 94,
+        "usage": 0.66667
       },
       {
-        "id": 10061,
-        "usage": 1.0
+        "id": 143,
+        "usage": 0.66667
       },
       {
-        "id": 547,
-        "usage": 1.0
+        "id": 727,
+        "usage": 0.66667
       },
       {
-        "id": 903,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.66667
       },
       {
-        "id": 350,
-        "usage": 1.0
+        "id": 861,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 186,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

@@ -3,8 +3,8 @@
   "name": "Sceptile",
   "form": null,
   "competitive": {
-    "usage_rank": 156,
-    "usage_rate": 0.0012,
+    "usage_rank": 193,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
@@ -13,49 +13,73 @@
       },
       {
         "id": 918,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 338,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 406,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 414,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 182,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 880,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
       {
         "id": 264,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 191,
+        "usage": 0.33332999999999996
       }
     ],
     "abilities": [
       {
         "id": 65,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 84,
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
         "id": 94,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 184,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 208,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 6,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 26,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 979,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

@@ -1,0 +1,64 @@
+{
+  "dex_id": 24,
+  "name": "Arbok",
+  "form": null,
+  "competitive": {
+    "usage_rank": 222,
+    "usage_rate": 0.0003,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 706,
+        "usage": 1.0
+      },
+      {
+        "id": 441,
+        "usage": 1.0
+      },
+      {
+        "id": 489,
+        "usage": 1.0
+      },
+      {
+        "id": 242,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 211,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 22,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 569,
+        "usage": 1.0
+      },
+      {
+        "id": 71,
+        "usage": 1.0
+      },
+      {
+        "id": 903,
+        "usage": 1.0
+      },
+      {
+        "id": 10165,
+        "usage": 1.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

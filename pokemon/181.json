@@ -3,12 +3,12 @@
   "name": "Ampharos-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 160,
-    "usage_rate": 0.0012,
+    "usage_rank": 121,
+    "usage_rate": 0.0025,
     "win_rate": null,
     "moves": [
       {
-        "id": 406,
+        "id": 182,
         "usage": 1.0
       },
       {
@@ -16,12 +16,28 @@
         "usage": 1.0
       },
       {
-        "id": 408,
+        "id": 406,
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 411,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 538,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 521,
+        "usage": 0.11111
+      },
+      {
+        "id": 570,
+        "usage": 0.11111
+      },
+      {
+        "id": 408,
+        "usage": 0.11111
       }
     ],
     "items": [
@@ -39,23 +55,27 @@
     "teammates": [
       {
         "id": 981,
-        "usage": 1.0
+        "usage": 0.77778
       },
       {
-        "id": 324,
-        "usage": 1.0
+        "id": 727,
+        "usage": 0.66667
       },
       {
-        "id": 45,
-        "usage": 1.0
-      },
-      {
-        "id": 428,
-        "usage": 1.0
+        "id": 903,
+        "usage": 0.44444
       },
       {
         "id": 1013,
-        "usage": 1.0
+        "usage": 0.44444
+      },
+      {
+        "id": 902,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 324,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

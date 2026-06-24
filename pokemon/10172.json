@@ -3,8 +3,8 @@
   "name": "Slowking-Galar",
   "form": null,
   "competitive": {
-    "usage_rank": 140,
-    "usage_rate": 0.0024,
+    "usage_rank": 182,
+    "usage_rate": 0.0008,
     "win_rate": null,
     "moves": [
       {
@@ -13,15 +13,27 @@
       },
       {
         "id": 881,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 59,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 482,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 678,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 182,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 188,
+        "usage": 0.33332999999999996
       }
     ],
     "items": [
@@ -39,23 +51,27 @@
     "teammates": [
       {
         "id": 740,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 911,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 279,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 26,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
         "id": 1018,
-        "usage": 1.0
+        "usage": 0.66667
+      },
+      {
+        "id": 282,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

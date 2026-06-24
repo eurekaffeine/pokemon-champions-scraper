@@ -1,0 +1,72 @@
+{
+  "dex_id": 168,
+  "name": "Ariados",
+  "form": null,
+  "competitive": {
+    "usage_rank": 205,
+    "usage_rate": 0.0006,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 476,
+        "usage": 1.0
+      },
+      {
+        "id": 81,
+        "usage": 1.0
+      },
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 282,
+        "usage": 0.5
+      },
+      {
+        "id": 522,
+        "usage": 0.5
+      }
+    ],
+    "items": [
+      {
+        "id": 135,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 15,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 282,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 902,
+        "usage": 1.0
+      },
+      {
+        "id": 784,
+        "usage": 1.0
+      },
+      {
+        "id": 248,
+        "usage": 0.5
+      },
+      {
+        "id": 983,
+        "usage": 0.5
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

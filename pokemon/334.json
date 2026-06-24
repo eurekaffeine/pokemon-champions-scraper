@@ -3,31 +3,47 @@
   "name": "Altaria",
   "form": null,
   "competitive": {
-    "usage_rank": 168,
-    "usage_rate": 0.0012,
+    "usage_rank": 207,
+    "usage_rate": 0.0006,
     "win_rate": null,
     "moves": [
       {
-        "id": 332,
+        "id": 58,
         "usage": 1.0
+      },
+      {
+        "id": 406,
+        "usage": 0.5
+      },
+      {
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 114,
+        "usage": 0.5
+      },
+      {
+        "id": 332,
+        "usage": 0.5
       },
       {
         "id": 89,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 19,
-        "usage": 1.0
-      },
-      {
-        "id": 58,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 723,
+        "usage": 0.5
+      },
+      {
         "id": 211,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -42,20 +58,24 @@
         "usage": 1.0
       },
       {
+        "id": 934,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
+      },
+      {
+        "id": 135,
+        "usage": 0.5
+      },
+      {
+        "id": 939,
+        "usage": 0.5
+      },
+      {
         "id": 6,
-        "usage": 1.0
-      },
-      {
-        "id": 94,
-        "usage": 1.0
-      },
-      {
-        "id": 727,
-        "usage": 1.0
-      },
-      {
-        "id": 350,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "tera_types": [],
