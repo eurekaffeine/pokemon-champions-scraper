@@ -3,7 +3,7 @@
   "name": "Garganacl",
   "form": null,
   "competitive": {
-    "usage_rank": 152,
+    "usage_rank": 155,
     "usage_rate": 0.0014000000000000002,
     "win_rate": null,
     "moves": [
@@ -13,81 +13,81 @@
       },
       {
         "id": 469,
-        "usage": 0.8
+        "usage": 0.83333
       },
       {
         "id": 776,
-        "usage": 0.6
-      },
-      {
-        "id": 334,
-        "usage": 0.4
-      },
-      {
-        "id": 105,
-        "usage": 0.4
+        "usage": 0.66667
       },
       {
         "id": 182,
-        "usage": 0.4
+        "usage": 0.5
+      },
+      {
+        "id": 334,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 105,
+        "usage": 0.33332999999999996
       },
       {
         "id": 174,
-        "usage": 0.2
+        "usage": 0.16667
       },
       {
         "id": 442,
-        "usage": 0.2
+        "usage": 0.16667
       }
     ],
     "items": [
       {
-        "id": 135,
-        "usage": 0.4
+        "id": 211,
+        "usage": 0.5
       },
       {
-        "id": 211,
-        "usage": 0.4
+        "id": 135,
+        "usage": 0.33332999999999996
       },
       {
         "id": 215,
-        "usage": 0.2
+        "usage": 0.16667
       }
     ],
     "abilities": [
       {
         "id": 272,
-        "usage": 0.8
+        "usage": 0.83333
       },
       {
         "id": 29,
-        "usage": 0.2
+        "usage": 0.16667
       }
     ],
     "teammates": [
       {
         "id": 925,
-        "usage": 0.6
+        "usage": 0.5
       },
       {
         "id": 6,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       },
       {
         "id": 10061,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       },
       {
         "id": 956,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       },
       {
         "id": 666,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       },
       {
         "id": 861,
-        "usage": 0.4
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

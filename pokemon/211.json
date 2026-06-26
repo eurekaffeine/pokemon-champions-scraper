@@ -3,31 +3,43 @@
   "name": "Qwilfish",
   "form": null,
   "competitive": {
-    "usage_rank": 238,
-    "usage_rate": 0.0003,
+    "usage_rank": 212,
+    "usage_rate": 0.0005,
     "win_rate": null,
     "moves": [
+      {
+        "id": 812,
+        "usage": 1.0
+      },
       {
         "id": 710,
         "usage": 1.0
       },
       {
+        "id": 398,
+        "usage": 0.5
+      },
+      {
+        "id": 120,
+        "usage": 0.5
+      },
+      {
         "id": 86,
-        "usage": 1.0
+        "usage": 0.5
       },
       {
         "id": 441,
-        "usage": 1.0
-      },
-      {
-        "id": 812,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "items": [
       {
+        "id": 264,
+        "usage": 0.5
+      },
+      {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.5
       }
     ],
     "abilities": [
@@ -38,24 +50,28 @@
     ],
     "teammates": [
       {
-        "id": 1013,
-        "usage": 1.0
-      },
-      {
-        "id": 635,
-        "usage": 1.0
-      },
-      {
-        "id": 655,
-        "usage": 1.0
-      },
-      {
         "id": 547,
         "usage": 1.0
       },
       {
-        "id": 448,
-        "usage": 1.0
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 26,
+        "usage": 0.5
+      },
+      {
+        "id": 10061,
+        "usage": 0.5
+      },
+      {
+        "id": 1000,
+        "usage": 0.5
+      },
+      {
+        "id": 1013,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

@@ -3,12 +3,12 @@
   "name": "Alcremie",
   "form": null,
   "competitive": {
-    "usage_rank": 223,
-    "usage_rate": 0.0003,
+    "usage_rank": 191,
+    "usage_rate": 0.0007000000000000001,
     "win_rate": null,
     "moves": [
       {
-        "id": 182,
+        "id": 605,
         "usage": 1.0
       },
       {
@@ -20,42 +20,54 @@
         "usage": 1.0
       },
       {
-        "id": 605,
+        "id": 182,
         "usage": 1.0
       }
     ],
     "items": [
       {
+        "id": 167,
+        "usage": 0.66667
+      },
+      {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "abilities": [
       {
+        "id": 165,
+        "usage": 0.66667
+      },
+      {
         "id": 175,
-        "usage": 1.0
+        "usage": 0.33332999999999996
       }
     ],
     "teammates": [
       {
+        "id": 3,
+        "usage": 0.66667
+      },
+      {
+        "id": 727,
+        "usage": 0.66667
+      },
+      {
+        "id": 983,
+        "usage": 0.66667
+      },
+      {
+        "id": 1013,
+        "usage": 0.66667
+      },
+      {
         "id": 655,
-        "usage": 1.0
+        "usage": 0.66667
       },
       {
-        "id": 745,
-        "usage": 1.0
-      },
-      {
-        "id": 635,
-        "usage": 1.0
-      },
-      {
-        "id": 700,
-        "usage": 1.0
-      },
-      {
-        "id": 925,
-        "usage": 1.0
+        "id": 334,
+        "usage": 0.33332999999999996
       }
     ],
     "tera_types": [],

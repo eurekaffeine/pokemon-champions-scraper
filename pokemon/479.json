@@ -1,22 +1,22 @@
 {
-  "dex_id": 229,
-  "name": "Houndoom-Mega",
+  "dex_id": 479,
+  "name": "Rotom",
   "form": null,
   "competitive": {
-    "usage_rank": 211,
+    "usage_rank": 208,
     "usage_rate": 0.0005,
     "win_rate": null,
     "moves": [
       {
-        "id": 257,
+        "id": 506,
         "usage": 1.0
       },
       {
-        "id": 399,
+        "id": 85,
         "usage": 1.0
       },
       {
-        "id": 76,
+        "id": 261,
         "usage": 1.0
       },
       {
@@ -26,43 +26,39 @@
     ],
     "items": [
       {
-        "id": 705,
+        "id": 254,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 127,
-        "usage": 0.5
-      },
-      {
-        "id": 18,
-        "usage": 0.5
+        "id": 26,
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 45,
+        "id": 80,
+        "usage": 1.0
+      },
+      {
+        "id": 727,
+        "usage": 1.0
+      },
+      {
+        "id": 635,
+        "usage": 1.0
+      },
+      {
+        "id": 212,
+        "usage": 1.0
+      },
+      {
+        "id": 952,
         "usage": 0.5
       },
       {
-        "id": 398,
-        "usage": 0.5
-      },
-      {
-        "id": 303,
-        "usage": 0.5
-      },
-      {
-        "id": 981,
-        "usage": 0.5
-      },
-      {
-        "id": 324,
-        "usage": 0.5
-      },
-      {
-        "id": 510,
+        "id": 1013,
         "usage": 0.5
       }
     ],

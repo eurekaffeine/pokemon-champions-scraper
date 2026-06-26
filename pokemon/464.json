@@ -3,91 +3,99 @@
   "name": "Rhyperior",
   "form": null,
   "competitive": {
-    "usage_rank": 174,
+    "usage_rank": 166,
     "usage_rate": 0.0011,
     "win_rate": null,
     "moves": [
       {
-        "id": 667,
-        "usage": 0.75
-      },
-      {
         "id": 157,
-        "usage": 0.75
-      },
-      {
-        "id": 8,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 182,
-        "usage": 0.75
+        "usage": 0.8
+      },
+      {
+        "id": 667,
+        "usage": 0.6
+      },
+      {
+        "id": 8,
+        "usage": 0.6
+      },
+      {
+        "id": 32,
+        "usage": 0.2
+      },
+      {
+        "id": 784,
+        "usage": 0.2
       },
       {
         "id": 196,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 85,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 53,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 800,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 162,
-        "usage": 0.25
+        "usage": 0.4
       },
       {
         "id": 247,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 164,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "abilities": [
       {
         "id": 116,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 31,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 0.75
+        "id": 1013,
+        "usage": 0.8
       },
       {
-        "id": 1013,
-        "usage": 0.75
+        "id": 981,
+        "usage": 0.6
       },
       {
         "id": 324,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 303,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
-        "id": 473,
-        "usage": 0.25
+        "id": 866,
+        "usage": 0.2
       },
       {
-        "id": 450,
-        "usage": 0.25
+        "id": 26,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

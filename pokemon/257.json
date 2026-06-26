@@ -3,99 +3,99 @@
   "name": "Blaziken",
   "form": null,
   "competitive": {
-    "usage_rank": 83,
-    "usage_rate": 0.008199999999999999,
+    "usage_rank": 85,
+    "usage_rate": 0.0068000000000000005,
     "win_rate": null,
     "moves": [
       {
         "id": 257,
-        "usage": 0.6551699999999999
+        "usage": 0.63333
       },
       {
         "id": 811,
-        "usage": 0.6551699999999999
+        "usage": 0.63333
       },
       {
         "id": 182,
-        "usage": 0.58621
+        "usage": 0.6
       },
       {
         "id": 396,
-        "usage": 0.55172
+        "usage": 0.53333
       },
       {
         "id": 370,
-        "usage": 0.41379
+        "usage": 0.43333
       },
       {
         "id": 197,
-        "usage": 0.41379
+        "usage": 0.4
       },
       {
         "id": 394,
-        "usage": 0.27586
+        "usage": 0.3
       },
       {
         "id": 157,
-        "usage": 0.10345
+        "usage": 0.13333
       },
       {
         "id": 282,
-        "usage": 0.10345
+        "usage": 0.1
       },
       {
         "id": 14,
-        "usage": 0.10345
+        "usage": 0.1
       }
     ],
     "items": [
       {
         "id": 252,
-        "usage": 0.6896599999999999
+        "usage": 0.7
       },
       {
         "id": 247,
-        "usage": 0.27586
+        "usage": 0.26667
       },
       {
         "id": 135,
-        "usage": 0.03448
+        "usage": 0.03333
       }
     ],
     "abilities": [
       {
         "id": 3,
-        "usage": 0.96552
+        "usage": 0.96667
       },
       {
         "id": 66,
-        "usage": 0.03448
+        "usage": 0.03333
       }
     ],
     "teammates": [
       {
         "id": 376,
-        "usage": 0.82759
-      },
-      {
-        "id": 142,
-        "usage": 0.44828
-      },
-      {
-        "id": 445,
-        "usage": 0.44828
-      },
-      {
-        "id": 1013,
-        "usage": 0.41379
+        "usage": 0.8
       },
       {
         "id": 700,
-        "usage": 0.41379
+        "usage": 0.43333
+      },
+      {
+        "id": 142,
+        "usage": 0.43333
+      },
+      {
+        "id": 445,
+        "usage": 0.43333
+      },
+      {
+        "id": 1013,
+        "usage": 0.4
       },
       {
         "id": 983,
-        "usage": 0.24138
+        "usage": 0.26667
       }
     ],
     "tera_types": [],

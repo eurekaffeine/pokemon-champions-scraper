@@ -9,81 +9,93 @@
     "moves": [
       {
         "id": 394,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 200,
-        "usage": 0.75
+        "usage": 0.6
       },
       {
         "id": 488,
-        "usage": 0.75
+        "usage": 0.6
       },
       {
         "id": 19,
-        "usage": 0.75
+        "usage": 0.6
+      },
+      {
+        "id": 53,
+        "usage": 0.2
+      },
+      {
+        "id": 406,
+        "usage": 0.2
+      },
+      {
+        "id": 126,
+        "usage": 0.2
       },
       {
         "id": 257,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 311,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 76,
-        "usage": 0.25
-      },
-      {
-        "id": 182,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "items": [
       {
         "id": 134,
-        "usage": 0.75
+        "usage": 0.6
+      },
+      {
+        "id": 190,
+        "usage": 0.2
       },
       {
         "id": 247,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "abilities": [
       {
         "id": 66,
-        "usage": 0.75
+        "usage": 0.8
       },
       {
         "id": 94,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "teammates": [
       {
         "id": 94,
-        "usage": 0.75
+        "usage": 0.6
       },
       {
         "id": 184,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 254,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 208,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 26,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
-        "id": 547,
-        "usage": 0.25
+        "id": 248,
+        "usage": 0.2
       }
     ],
     "tera_types": [],

@@ -3,8 +3,8 @@
   "name": "Chandelure",
   "form": null,
   "competitive": {
-    "usage_rank": 153,
-    "usage_rate": 0.0014000000000000002,
+    "usage_rank": 143,
+    "usage_rate": 0.0016,
     "win_rate": null,
     "moves": [
       {
@@ -13,41 +13,49 @@
       },
       {
         "id": 257,
-        "usage": 1.0
+        "usage": 0.85714
       },
       {
         "id": 182,
-        "usage": 0.8
+        "usage": 0.85714
       },
       {
         "id": 433,
-        "usage": 0.6
+        "usage": 0.42857
       },
       {
         "id": 412,
-        "usage": 0.2
+        "usage": 0.28571
       },
       {
         "id": 53,
-        "usage": 0.2
+        "usage": 0.28571
+      },
+      {
+        "id": 269,
+        "usage": 0.14286
       },
       {
         "id": 271,
-        "usage": 0.2
+        "usage": 0.14286
       }
     ],
     "items": [
       {
         "id": 247,
-        "usage": 0.4
+        "usage": 0.42857
       },
       {
         "id": 252,
-        "usage": 0.4
+        "usage": 0.28571
+      },
+      {
+        "id": 175,
+        "usage": 0.14286
       },
       {
         "id": 264,
-        "usage": 0.2
+        "usage": 0.14286
       }
     ],
     "abilities": [
@@ -59,27 +67,27 @@
     "teammates": [
       {
         "id": 981,
-        "usage": 0.8
-      },
-      {
-        "id": 691,
-        "usage": 0.4
+        "usage": 0.85714
       },
       {
         "id": 10104,
-        "usage": 0.4
+        "usage": 0.42857
       },
       {
-        "id": 212,
-        "usage": 0.4
+        "id": 303,
+        "usage": 0.28571
+      },
+      {
+        "id": 560,
+        "usage": 0.28571
       },
       {
         "id": 10236,
-        "usage": 0.2
+        "usage": 0.28571
       },
       {
-        "id": 1019,
-        "usage": 0.2
+        "id": 547,
+        "usage": 0.28571
       }
     ],
     "tera_types": [],

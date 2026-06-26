@@ -3,73 +3,81 @@
   "name": "Hydrapple",
   "form": null,
   "competitive": {
-    "usage_rank": 128,
-    "usage_rate": 0.0023,
+    "usage_rank": 118,
+    "usage_rate": 0.0027,
     "win_rate": null,
     "moves": [
       {
         "id": 414,
-        "usage": 0.875
+        "usage": 0.91667
       },
       {
         "id": 907,
-        "usage": 0.75
+        "usage": 0.83333
       },
       {
         "id": 182,
-        "usage": 0.75
+        "usage": 0.66667
       },
       {
         "id": 202,
-        "usage": 0.625
-      },
-      {
-        "id": 412,
-        "usage": 0.375
+        "usage": 0.58333
       },
       {
         "id": 676,
-        "usage": 0.25
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 412,
+        "usage": 0.33332999999999996
+      },
+      {
+        "id": 903,
+        "usage": 0.08333
       },
       {
         "id": 281,
-        "usage": 0.125
+        "usage": 0.08333
       },
       {
         "id": 776,
-        "usage": 0.125
+        "usage": 0.08333
       },
       {
         "id": 434,
-        "usage": 0.125
+        "usage": 0.08333
       }
     ],
     "items": [
       {
         "id": 247,
-        "usage": 0.625
-      },
-      {
-        "id": 211,
-        "usage": 0.125
-      },
-      {
-        "id": 165,
-        "usage": 0.125
+        "usage": 0.58333
       },
       {
         "id": 252,
-        "usage": 0.125
+        "usage": 0.16667
+      },
+      {
+        "id": 135,
+        "usage": 0.08333
+      },
+      {
+        "id": 211,
+        "usage": 0.08333
+      },
+      {
+        "id": 165,
+        "usage": 0.08333
       }
     ],
     "abilities": [
       {
         "id": 144,
-        "usage": 0.875
+        "usage": 0.75
       },
       {
         "id": 306,
-        "usage": 0.125
+        "usage": 0.25
       }
     ],
     "teammates": [
@@ -79,22 +87,22 @@
       },
       {
         "id": 303,
-        "usage": 0.5
+        "usage": 0.41667000000000004
       },
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.33332999999999996
       },
       {
-        "id": 691,
+        "id": 398,
         "usage": 0.25
       },
       {
-        "id": 279,
+        "id": 324,
         "usage": 0.25
       },
       {
-        "id": 10104,
+        "id": 983,
         "usage": 0.25
       }
     ],

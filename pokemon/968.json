@@ -3,10 +3,14 @@
   "name": "Orthworm",
   "form": null,
   "competitive": {
-    "usage_rank": 177,
+    "usage_rank": 165,
     "usage_rate": 0.0011,
     "win_rate": null,
     "moves": [
+      {
+        "id": 776,
+        "usage": 1.0
+      },
       {
         "id": 484,
         "usage": 1.0
@@ -16,20 +20,20 @@
         "usage": 1.0
       },
       {
-        "id": 776,
-        "usage": 1.0
+        "id": 270,
+        "usage": 0.4
       },
       {
-        "id": 270,
-        "usage": 0.5
+        "id": 334,
+        "usage": 0.2
       },
       {
         "id": 182,
-        "usage": 0.25
+        "usage": 0.2
       },
       {
         "id": 157,
-        "usage": 0.25
+        "usage": 0.2
       }
     ],
     "items": [
@@ -50,24 +54,24 @@
         "usage": 1.0
       },
       {
+        "id": 6,
+        "usage": 0.4
+      },
+      {
+        "id": 903,
+        "usage": 0.4
+      },
+      {
+        "id": 547,
+        "usage": 0.4
+      },
+      {
         "id": 282,
-        "usage": 0.5
+        "usage": 0.4
       },
       {
         "id": 604,
-        "usage": 0.5
-      },
-      {
-        "id": 248,
-        "usage": 0.25
-      },
-      {
-        "id": 972,
-        "usage": 0.25
-      },
-      {
-        "id": 1013,
-        "usage": 0.25
+        "usage": 0.4
       }
     ],
     "tera_types": [],

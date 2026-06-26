@@ -3,8 +3,8 @@
   "name": "Feraligatr",
   "form": null,
   "competitive": {
-    "usage_rank": 245,
-    "usage_rate": 0.0003,
+    "usage_rank": 210,
+    "usage_rate": 0.0005,
     "win_rate": null,
     "moves": [
       {
@@ -16,12 +16,16 @@
         "usage": 1.0
       },
       {
-        "id": 799,
+        "id": 706,
         "usage": 1.0
       },
       {
-        "id": 706,
-        "usage": 1.0
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 799,
+        "usage": 0.5
       }
     ],
     "items": [
@@ -38,24 +42,28 @@
     ],
     "teammates": [
       {
-        "id": 553,
-        "usage": 1.0
-      },
-      {
-        "id": 149,
-        "usage": 1.0
-      },
-      {
         "id": 303,
         "usage": 1.0
       },
       {
-        "id": 925,
-        "usage": 1.0
+        "id": 727,
+        "usage": 0.5
       },
       {
-        "id": 547,
-        "usage": 1.0
+        "id": 858,
+        "usage": 0.5
+      },
+      {
+        "id": 248,
+        "usage": 0.5
+      },
+      {
+        "id": 3,
+        "usage": 0.5
+      },
+      {
+        "id": 553,
+        "usage": 0.5
       }
     ],
     "tera_types": [],

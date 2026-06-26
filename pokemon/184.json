@@ -3,97 +3,97 @@
   "name": "Azumarill",
   "form": null,
   "competitive": {
-    "usage_rank": 66,
-    "usage_rate": 0.013000000000000001,
+    "usage_rank": 70,
+    "usage_rate": 0.0113,
     "win_rate": null,
     "moves": [
       {
         "id": 453,
-        "usage": 0.9347799999999999
+        "usage": 0.94
       },
       {
         "id": 583,
-        "usage": 0.8913
+        "usage": 0.88
       },
       {
         "id": 182,
-        "usage": 0.76087
+        "usage": 0.78
       },
       {
         "id": 187,
-        "usage": 0.65217
+        "usage": 0.66
       },
       {
         "id": 710,
-        "usage": 0.21739
+        "usage": 0.24
       },
       {
         "id": 276,
-        "usage": 0.19565000000000002
+        "usage": 0.18
       },
       {
         "id": 57,
-        "usage": 0.06522
+        "usage": 0.06
       },
       {
         "id": 383,
-        "usage": 0.06522
+        "usage": 0.06
       },
       {
         "id": 38,
-        "usage": 0.06522
+        "usage": 0.06
       },
       {
         "id": 59,
-        "usage": 0.06522
+        "usage": 0.06
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 0.6087
+        "usage": 0.62
       },
       {
         "id": 220,
-        "usage": 0.17390999999999998
+        "usage": 0.18
       },
       {
         "id": 194,
-        "usage": 0.06522
+        "usage": 0.06
       },
       {
         "id": 245,
-        "usage": 0.04348
+        "usage": 0.04
       },
       {
         "id": 243,
-        "usage": 0.02174
+        "usage": 0.02
       },
       {
         "id": 207,
-        "usage": 0.02174
+        "usage": 0.02
       },
       {
         "id": 191,
-        "usage": 0.02174
+        "usage": 0.02
       },
       {
         "id": 211,
-        "usage": 0.02174
+        "usage": 0.02
       },
       {
         "id": 254,
-        "usage": 0.02174
+        "usage": 0.02
       }
     ],
     "abilities": [
       {
         "id": 37,
-        "usage": 0.9347799999999999
+        "usage": 0.94
       },
       {
         "id": 157,
-        "usage": 0.06522
+        "usage": 0.06
       }
     ],
     "teammates": [
@@ -103,23 +103,23 @@
       },
       {
         "id": 1013,
-        "usage": 0.45652000000000004
+        "usage": 0.44
       },
       {
         "id": 903,
-        "usage": 0.39130000000000004
+        "usage": 0.4
       },
       {
         "id": 655,
-        "usage": 0.34783000000000003
-      },
-      {
-        "id": 727,
-        "usage": 0.26087
+        "usage": 0.34
       },
       {
         "id": 6,
-        "usage": 0.26087
+        "usage": 0.26
+      },
+      {
+        "id": 727,
+        "usage": 0.26
       }
     ],
     "tera_types": [],

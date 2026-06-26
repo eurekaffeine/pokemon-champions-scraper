@@ -3,24 +3,16 @@
   "name": "Emboar-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 218,
-    "usage_rate": 0.0006,
+    "usage_rank": 181,
+    "usage_rate": 0.0009,
     "win_rate": null,
     "moves": [
       {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.75
       },
       {
-        "id": 535,
-        "usage": 1.0
-      },
-      {
-        "id": 912,
-        "usage": 0.5
-      },
-      {
-        "id": 370,
+        "id": 394,
         "usage": 0.5
       },
       {
@@ -28,8 +20,32 @@
         "usage": 0.5
       },
       {
-        "id": 339,
+        "id": 389,
         "usage": 0.5
+      },
+      {
+        "id": 535,
+        "usage": 0.5
+      },
+      {
+        "id": 157,
+        "usage": 0.25
+      },
+      {
+        "id": 359,
+        "usage": 0.25
+      },
+      {
+        "id": 912,
+        "usage": 0.25
+      },
+      {
+        "id": 370,
+        "usage": 0.25
+      },
+      {
+        "id": 339,
+        "usage": 0.25
       }
     ],
     "items": [
@@ -41,37 +57,37 @@
     "abilities": [
       {
         "id": 120,
-        "usage": 0.5
+        "usage": 0.75
       },
       {
         "id": 66,
-        "usage": 0.5
+        "usage": 0.25
       }
     ],
     "teammates": [
       {
+        "id": 445,
+        "usage": 0.5
+      },
+      {
+        "id": 142,
+        "usage": 0.5
+      },
+      {
         "id": 1013,
-        "usage": 1.0
-      },
-      {
-        "id": 748,
         "usage": 0.5
       },
       {
-        "id": 135,
-        "usage": 0.5
+        "id": 310,
+        "usage": 0.25
       },
       {
-        "id": 867,
-        "usage": 0.5
+        "id": 547,
+        "usage": 0.25
       },
       {
-        "id": 691,
-        "usage": 0.5
-      },
-      {
-        "id": 730,
-        "usage": 0.5
+        "id": 65,
+        "usage": 0.25
       }
     ],
     "tera_types": [],

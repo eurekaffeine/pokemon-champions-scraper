@@ -3,33 +3,33 @@
   "name": "Garchomp-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 109,
-    "usage_rate": 0.0034000000000000002,
+    "usage_rank": 113,
+    "usage_rate": 0.0032,
     "win_rate": null,
     "moves": [
       {
         "id": 337,
-        "usage": 0.91667
+        "usage": 0.92857
       },
       {
         "id": 707,
-        "usage": 0.91667
+        "usage": 0.92857
       },
       {
         "id": 182,
-        "usage": 0.83333
+        "usage": 0.85714
       },
       {
         "id": 89,
-        "usage": 0.75
+        "usage": 0.64286
       },
       {
         "id": 157,
-        "usage": 0.41667000000000004
+        "usage": 0.5
       },
       {
         "id": 442,
-        "usage": 0.16667
+        "usage": 0.14286
       }
     ],
     "items": [
@@ -41,37 +41,37 @@
     "abilities": [
       {
         "id": 24,
-        "usage": 0.75
+        "usage": 0.71429
       },
       {
         "id": 8,
-        "usage": 0.25
+        "usage": 0.28571
       }
     ],
     "teammates": [
       {
         "id": 1013,
-        "usage": 0.58333
+        "usage": 0.57143
       },
       {
         "id": 727,
-        "usage": 0.58333
+        "usage": 0.57143
       },
       {
         "id": 398,
-        "usage": 0.41667000000000004
+        "usage": 0.35714
       },
       {
         "id": 903,
-        "usage": 0.41667000000000004
+        "usage": 0.35714
       },
       {
-        "id": 983,
-        "usage": 0.25
+        "id": 10009,
+        "usage": 0.21428999999999998
       },
       {
-        "id": 6,
-        "usage": 0.25
+        "id": 981,
+        "usage": 0.21428999999999998
       }
     ],
     "tera_types": [],

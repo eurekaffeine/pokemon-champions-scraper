@@ -1,32 +1,32 @@
 {
   "dex_id": 308,
-  "name": "Medicham",
+  "name": "Medicham-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 248,
-    "usage_rate": 0.0003,
+    "usage_rank": 242,
+    "usage_rate": 0.0002,
     "win_rate": null,
     "moves": [
-      {
-        "id": 252,
-        "usage": 1.0
-      },
-      {
-        "id": 428,
-        "usage": 1.0
-      },
       {
         "id": 370,
         "usage": 1.0
       },
       {
-        "id": 182,
+        "id": 252,
+        "usage": 1.0
+      },
+      {
+        "id": 8,
+        "usage": 1.0
+      },
+      {
+        "id": 398,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 230,
+        "id": 704,
         "usage": 1.0
       }
     ],
@@ -38,11 +38,15 @@
     ],
     "teammates": [
       {
-        "id": 10104,
+        "id": 6,
         "usage": 1.0
       },
       {
-        "id": 765,
+        "id": 1013,
+        "usage": 1.0
+      },
+      {
+        "id": 983,
         "usage": 1.0
       },
       {
@@ -50,11 +54,7 @@
         "usage": 1.0
       },
       {
-        "id": 748,
-        "usage": 1.0
-      },
-      {
-        "id": 460,
+        "id": 445,
         "usage": 1.0
       }
     ],

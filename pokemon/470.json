@@ -1,76 +1,80 @@
 {
-  "dex_id": 442,
-  "name": "Spiritomb",
+  "dex_id": 470,
+  "name": "Leafeon",
   "form": null,
   "competitive": {
-    "usage_rank": 221,
+    "usage_rank": 205,
     "usage_rate": 0.0005,
     "win_rate": null,
     "moves": [
       {
-        "id": 261,
+        "id": 282,
         "usage": 1.0
       },
       {
-        "id": 285,
-        "usage": 1.0
-      },
-      {
-        "id": 50,
+        "id": 197,
         "usage": 0.5
       },
       {
-        "id": 566,
+        "id": 348,
         "usage": 0.5
       },
       {
-        "id": 101,
+        "id": 164,
         "usage": 0.5
       },
       {
-        "id": 433,
+        "id": 182,
+        "usage": 0.5
+      },
+      {
+        "id": 669,
+        "usage": 0.5
+      },
+      {
+        "id": 608,
         "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 252,
+        "id": 247,
         "usage": 0.5
       },
       {
-        "id": 135,
+        "id": 216,
         "usage": 0.5
       }
     ],
     "abilities": [
       {
-        "id": 151,
+        "id": 34,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 260,
+        "id": 6,
+        "usage": 1.0
+      },
+      {
+        "id": 10009,
         "usage": 0.5
       },
       {
-        "id": 149,
+        "id": 142,
         "usage": 0.5
       },
       {
-        "id": 902,
+        "id": 196,
         "usage": 0.5
       },
       {
-        "id": 279,
+        "id": 903,
         "usage": 0.5
       },
       {
-        "id": 1018,
-        "usage": 0.5
-      },
-      {
-        "id": 560,
+        "id": 445,
         "usage": 0.5
       }
     ],

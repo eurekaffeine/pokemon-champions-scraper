@@ -1,60 +1,60 @@
 {
-  "dex_id": 359,
-  "name": "Absol-Mega",
+  "dex_id": 362,
+  "name": "Glalie",
   "form": null,
   "competitive": {
-    "usage_rank": 247,
-    "usage_rate": 0.0003,
+    "usage_rank": 230,
+    "usage_rate": 0.0002,
     "win_rate": null,
     "moves": [
-      {
-        "id": 282,
-        "usage": 1.0
-      },
       {
         "id": 182,
         "usage": 1.0
       },
       {
-        "id": 389,
+        "id": 104,
         "usage": 1.0
       },
       {
-        "id": 157,
+        "id": 524,
+        "usage": 1.0
+      },
+      {
+        "id": 164,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 716,
+        "id": 211,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 105,
+        "id": 141,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 115,
+        "id": 128,
         "usage": 1.0
       },
       {
-        "id": 1018,
+        "id": 478,
         "usage": 1.0
       },
       {
-        "id": 279,
+        "id": 727,
         "usage": 1.0
       },
       {
-        "id": 902,
+        "id": 1013,
         "usage": 1.0
       },
       {
-        "id": 260,
+        "id": 678,
         "usage": 1.0
       }
     ],

@@ -3,8 +3,8 @@
   "name": "Glimmora-Mega",
   "form": null,
   "competitive": {
-    "usage_rank": 82,
-    "usage_rate": 0.008199999999999999,
+    "usage_rank": 83,
+    "usage_rate": 0.0072,
     "win_rate": null,
     "moves": [
       {
@@ -12,36 +12,36 @@
         "usage": 1.0
       },
       {
-        "id": 596,
-        "usage": 0.89655
+        "id": 414,
+        "usage": 0.90625
       },
       {
-        "id": 414,
-        "usage": 0.89655
+        "id": 596,
+        "usage": 0.90625
       },
       {
         "id": 188,
-        "usage": 0.82759
+        "usage": 0.84375
       },
       {
         "id": 482,
-        "usage": 0.13793
+        "usage": 0.125
       },
       {
         "id": 182,
-        "usage": 0.10345
+        "usage": 0.09375
       },
       {
         "id": 866,
-        "usage": 0.06897
+        "usage": 0.0625
       },
       {
         "id": 412,
-        "usage": 0.03448
+        "usage": 0.03125
       },
       {
         "id": 474,
-        "usage": 0.03448
+        "usage": 0.03125
       }
     ],
     "items": [
@@ -59,27 +59,27 @@
     "teammates": [
       {
         "id": 547,
-        "usage": 0.58621
+        "usage": 0.625
       },
       {
         "id": 727,
-        "usage": 0.48276
+        "usage": 0.46875
       },
       {
         "id": 902,
-        "usage": 0.37931
+        "usage": 0.375
       },
       {
         "id": 1000,
-        "usage": 0.37931
+        "usage": 0.375
       },
       {
         "id": 398,
-        "usage": 0.31034
+        "usage": 0.3125
       },
       {
-        "id": 10104,
-        "usage": 0.27586
+        "id": 983,
+        "usage": 0.25
       }
     ],
     "tera_types": [],
