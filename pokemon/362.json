@@ -3,59 +3,87 @@
   "name": "Glalie",
   "form": null,
   "competitive": {
-    "usage_rank": 230,
-    "usage_rate": 0.0002,
-    "win_rate": null,
+    "usage_rank": 186,
+    "usage_rate": 6.0142417244033874e-05,
+    "win_rate": 0.52,
     "moves": [
+      {
+        "id": 153,
+        "usage": 1.0
+      },
       {
         "id": 182,
         "usage": 1.0
       },
       {
-        "id": 104,
-        "usage": 1.0
+        "id": 269,
+        "usage": 0.647
       },
       {
-        "id": 524,
-        "usage": 1.0
+        "id": 34,
+        "usage": 0.541
+      },
+      {
+        "id": 420,
+        "usage": 0.271
+      },
+      {
+        "id": 861,
+        "usage": 0.247
+      },
+      {
+        "id": 270,
+        "usage": 0.129
+      },
+      {
+        "id": 196,
+        "usage": 0.071
+      },
+      {
+        "id": 556,
+        "usage": 0.059000000000000004
       },
       {
         "id": 164,
-        "usage": 1.0
+        "usage": 0.012
       }
     ],
     "items": [
       {
-        "id": 211,
+        "id": 804,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 141,
+        "id": 39,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 128,
-        "usage": 1.0
+        "id": 765,
+        "usage": 0.0
       },
       {
-        "id": 478,
-        "usage": 1.0
+        "id": 700,
+        "usage": 0.0
       },
       {
-        "id": 727,
-        "usage": 1.0
+        "id": 324,
+        "usage": 0.0
       },
       {
-        "id": 1013,
-        "usage": 1.0
+        "id": 750,
+        "usage": 0.0
       },
       {
-        "id": 678,
-        "usage": 1.0
+        "id": 36,
+        "usage": 0.0
+      },
+      {
+        "id": 464,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

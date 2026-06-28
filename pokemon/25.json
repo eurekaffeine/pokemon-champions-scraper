@@ -3,83 +3,91 @@
   "name": "Pikachu",
   "form": null,
   "competitive": {
-    "usage_rank": 164,
-    "usage_rate": 0.0011,
-    "win_rate": null,
+    "usage_rank": 129,
+    "usage_rate": 0.00025981524249422635,
+    "win_rate": 0.5,
     "moves": [
       {
+        "id": 182,
+        "usage": 0.971
+      },
+      {
         "id": 252,
-        "usage": 1.0
+        "usage": 0.971
       },
       {
-        "id": 804,
-        "usage": 0.6
+        "id": 85,
+        "usage": 0.943
       },
       {
-        "id": 447,
-        "usage": 0.6
+        "id": 98,
+        "usage": 0.943
       },
       {
-        "id": 270,
-        "usage": 0.4
+        "id": 179,
+        "usage": 0.028999999999999998
+      },
+      {
+        "id": 280,
+        "usage": 0.028999999999999998
+      },
+      {
+        "id": 283,
+        "usage": 0.028999999999999998
       },
       {
         "id": 344,
-        "usage": 0.4
+        "usage": 0.028999999999999998
       },
       {
-        "id": 204,
-        "usage": 0.4
+        "id": 364,
+        "usage": 0.028999999999999998
       },
       {
-        "id": 914,
-        "usage": 0.4
-      },
-      {
-        "id": 182,
-        "usage": 0.2
+        "id": 918,
+        "usage": 0.028999999999999998
       }
     ],
     "items": [
       {
         "id": 213,
-        "usage": 1.0
+        "usage": 0.971
       }
     ],
     "abilities": [
       {
         "id": 31,
-        "usage": 0.6
+        "usage": 0.971
       },
       {
         "id": 9,
-        "usage": 0.4
+        "usage": 0.028999999999999998
       }
     ],
     "teammates": [
       {
-        "id": 26,
-        "usage": 0.6
+        "id": 6,
+        "usage": 0.0
       },
       {
-        "id": 279,
-        "usage": 0.6
-      },
-      {
-        "id": 700,
-        "usage": 0.6
-      },
-      {
-        "id": 10233,
-        "usage": 0.4
-      },
-      {
-        "id": 1013,
-        "usage": 0.4
+        "id": 445,
+        "usage": 0.0
       },
       {
         "id": 547,
-        "usage": 0.4
+        "usage": 0.0
+      },
+      {
+        "id": 727,
+        "usage": 0.0
+      },
+      {
+        "id": 983,
+        "usage": 0.0
+      },
+      {
+        "id": 3,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

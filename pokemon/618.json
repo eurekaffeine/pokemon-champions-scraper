@@ -1,61 +1,61 @@
 {
-  "dex_id": 711,
-  "name": "Gourgeist",
+  "dex_id": 618,
+  "name": "Stunfisk",
   "form": null,
   "competitive": {
-    "usage_rank": 177,
-    "usage_rate": 0.0011,
-    "win_rate": null,
+    "usage_rank": 198,
+    "usage_rate": 3.3679753656658966e-05,
+    "win_rate": 0.42857142857142855,
     "moves": [
       {
-        "id": 433,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 438,
+        "id": 389,
         "usage": 1.0
       },
       {
-        "id": 566,
+        "id": 414,
         "usage": 1.0
       },
       {
-        "id": 95,
+        "id": 85,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 135,
+        "id": 245,
         "usage": 1.0
       }
     ],
     "abilities": [
       {
-        "id": 119,
+        "id": 9,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 685,
-        "usage": 1.0
+        "id": 376,
+        "usage": 0.0
       },
       {
-        "id": 248,
-        "usage": 1.0
+        "id": 398,
+        "usage": 0.0
       },
       {
-        "id": 903,
-        "usage": 1.0
+        "id": 902,
+        "usage": 0.0
       },
       {
-        "id": 663,
-        "usage": 1.0
+        "id": 983,
+        "usage": 0.0
       },
       {
-        "id": 964,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

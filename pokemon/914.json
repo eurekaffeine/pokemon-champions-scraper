@@ -3,51 +3,59 @@
   "name": "Quaquaval",
   "form": null,
   "competitive": {
-    "usage_rank": 183,
-    "usage_rate": 0.0009,
-    "win_rate": null,
+    "usage_rank": 159,
+    "usage_rate": 0.00013953040800615858,
+    "win_rate": 0.5172413793103449,
     "moves": [
       {
         "id": 370,
         "usage": 1.0
       },
       {
-        "id": 834,
-        "usage": 0.75
-      },
-      {
-        "id": 282,
-        "usage": 0.75
-      },
-      {
-        "id": 813,
-        "usage": 0.5
-      },
-      {
-        "id": 453,
-        "usage": 0.5
+        "id": 182,
+        "usage": 0.7
       },
       {
         "id": 872,
-        "usage": 0.25
+        "usage": 0.7
+      },
+      {
+        "id": 813,
+        "usage": 0.4
+      },
+      {
+        "id": 197,
+        "usage": 0.3
+      },
+      {
+        "id": 339,
+        "usage": 0.3
+      },
+      {
+        "id": 834,
+        "usage": 0.3
       },
       {
         "id": 812,
-        "usage": 0.25
+        "usage": 0.2
+      },
+      {
+        "id": 282,
+        "usage": 0.1
       }
     ],
     "items": [
       {
-        "id": 194,
-        "usage": 0.5
-      },
-      {
-        "id": 264,
-        "usage": 0.25
+        "id": 247,
+        "usage": 0.6
       },
       {
         "id": 220,
-        "usage": 0.25
+        "usage": 0.3
+      },
+      {
+        "id": 252,
+        "usage": 0.1
       }
     ],
     "abilities": [
@@ -58,28 +66,28 @@
     ],
     "teammates": [
       {
-        "id": 94,
-        "usage": 0.5
+        "id": 26,
+        "usage": 0.0
       },
       {
         "id": 727,
-        "usage": 0.5
+        "usage": 0.0
       },
       {
-        "id": 478,
-        "usage": 0.5
+        "id": 279,
+        "usage": 0.0
       },
       {
-        "id": 903,
-        "usage": 0.5
+        "id": 1018,
+        "usage": 0.0
       },
       {
-        "id": 637,
-        "usage": 0.5
+        "id": 260,
+        "usage": 0.0
       },
       {
-        "id": 981,
-        "usage": 0.5
+        "id": 902,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

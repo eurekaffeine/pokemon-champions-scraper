@@ -1,53 +1,53 @@
 {
   "dex_id": 652,
-  "name": "Chesnaught-Mega",
+  "name": "Chesnaught",
   "form": null,
   "competitive": {
-    "usage_rank": 136,
-    "usage_rate": 0.0018,
-    "win_rate": null,
+    "usage_rank": 104,
+    "usage_rate": 0.0004931678214010778,
+    "win_rate": 0.5414634146341464,
     "moves": [
       {
-        "id": 776,
-        "usage": 1.0
-      },
-      {
         "id": 596,
-        "usage": 1.0
+        "usage": 0.976
       },
       {
-        "id": 452,
-        "usage": 0.625
-      },
-      {
-        "id": 469,
-        "usage": 0.5
-      },
-      {
-        "id": 402,
-        "usage": 0.25
-      },
-      {
-        "id": 73,
-        "usage": 0.25
-      },
-      {
-        "id": 9,
-        "usage": 0.125
-      },
-      {
-        "id": 479,
-        "usage": 0.125
+        "id": 776,
+        "usage": 0.929
       },
       {
         "id": 334,
-        "usage": 0.125
+        "usage": 0.643
+      },
+      {
+        "id": 73,
+        "usage": 0.595
+      },
+      {
+        "id": 469,
+        "usage": 0.5479999999999999
+      },
+      {
+        "id": 452,
+        "usage": 0.16699999999999998
+      },
+      {
+        "id": 409,
+        "usage": 0.071
+      },
+      {
+        "id": 442,
+        "usage": 0.071
       }
     ],
     "items": [
       {
+        "id": 211,
+        "usage": 0.595
+      },
+      {
         "id": 2575,
-        "usage": 1.0
+        "usage": 0.405
       }
     ],
     "abilities": [
@@ -58,28 +58,28 @@
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 0.75
+        "id": 925,
+        "usage": 0.0
       },
       {
-        "id": 727,
-        "usage": 0.625
+        "id": 1013,
+        "usage": 0.0
       },
       {
-        "id": 668,
-        "usage": 0.375
+        "id": 260,
+        "usage": 0.0
       },
       {
-        "id": 547,
-        "usage": 0.375
+        "id": 279,
+        "usage": 0.0
       },
       {
-        "id": 902,
-        "usage": 0.375
+        "id": 861,
+        "usage": 0.0
       },
       {
-        "id": 324,
-        "usage": 0.25
+        "id": 1018,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

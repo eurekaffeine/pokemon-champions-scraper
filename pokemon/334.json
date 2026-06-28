@@ -3,47 +3,67 @@
   "name": "Altaria",
   "form": null,
   "competitive": {
-    "usage_rank": 219,
-    "usage_rate": 0.0005,
-    "win_rate": null,
+    "usage_rank": 118,
+    "usage_rate": 0.0003223633564280216,
+    "win_rate": 0.35447761194029853,
     "moves": [
       {
-        "id": 58,
-        "usage": 1.0
+        "id": 366,
+        "usage": 0.889
       },
       {
-        "id": 406,
-        "usage": 0.5
+        "id": 304,
+        "usage": 0.698
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.54
       },
       {
-        "id": 114,
-        "usage": 0.5
+        "id": 261,
+        "usage": 0.413
       },
       {
-        "id": 332,
-        "usage": 0.5
+        "id": 355,
+        "usage": 0.302
       },
       {
-        "id": 89,
-        "usage": 0.5
+        "id": 542,
+        "usage": 0.23800000000000002
       },
       {
-        "id": 19,
-        "usage": 0.5
+        "id": 270,
+        "usage": 0.19
+      },
+      {
+        "id": 432,
+        "usage": 0.19
+      },
+      {
+        "id": 784,
+        "usage": 0.175
+      },
+      {
+        "id": 434,
+        "usage": 0.14300000000000002
       }
     ],
     "items": [
       {
-        "id": 723,
-        "usage": 0.5
+        "id": 796,
+        "usage": 0.698
+      },
+      {
+        "id": 135,
+        "usage": 0.27
+      },
+      {
+        "id": 190,
+        "usage": 0.016
       },
       {
         "id": 211,
-        "usage": 0.5
+        "usage": 0.016
       }
     ],
     "abilities": [
@@ -54,28 +74,28 @@
     ],
     "teammates": [
       {
-        "id": 26,
-        "usage": 1.0
+        "id": 1018,
+        "usage": 0.0
       },
       {
-        "id": 934,
-        "usage": 0.5
+        "id": 279,
+        "usage": 0.0
       },
       {
-        "id": 1013,
-        "usage": 0.5
+        "id": 903,
+        "usage": 0.0
       },
       {
-        "id": 135,
-        "usage": 0.5
+        "id": 130,
+        "usage": 0.0
       },
       {
-        "id": 939,
-        "usage": 0.5
+        "id": 445,
+        "usage": 0.0
       },
       {
-        "id": 6,
-        "usage": 0.5
+        "id": 584,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

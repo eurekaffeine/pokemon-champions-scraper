@@ -3,35 +3,43 @@
   "name": "Ariados",
   "form": null,
   "competitive": {
-    "usage_rank": 217,
-    "usage_rate": 0.0005,
-    "win_rate": null,
+    "usage_rank": 153,
+    "usage_rate": 0.00015877598152424943,
+    "win_rate": 0.4696969696969697,
     "moves": [
-      {
-        "id": 476,
-        "usage": 1.0
-      },
-      {
-        "id": 81,
-        "usage": 1.0
-      },
       {
         "id": 182,
         "usage": 1.0
       },
       {
+        "id": 476,
+        "usage": 1.0
+      },
+      {
         "id": 282,
-        "usage": 0.5
+        "usage": 0.965
+      },
+      {
+        "id": 81,
+        "usage": 0.965
       },
       {
         "id": 522,
-        "usage": 0.5
+        "usage": 0.035
+      },
+      {
+        "id": 672,
+        "usage": 0.035
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.982
+      },
+      {
+        "id": 211,
+        "usage": 0.018000000000000002
       }
     ],
     "abilities": [
@@ -42,28 +50,28 @@
     ],
     "teammates": [
       {
-        "id": 282,
-        "usage": 1.0
-      },
-      {
-        "id": 727,
-        "usage": 1.0
-      },
-      {
         "id": 902,
-        "usage": 1.0
+        "usage": 0.0
       },
       {
-        "id": 784,
-        "usage": 1.0
+        "id": 445,
+        "usage": 0.0
       },
       {
-        "id": 248,
-        "usage": 0.5
+        "id": 6,
+        "usage": 0.0
       },
       {
-        "id": 983,
-        "usage": 0.5
+        "id": 142,
+        "usage": 0.0
+      },
+      {
+        "id": 700,
+        "usage": 0.0
+      },
+      {
+        "id": 143,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

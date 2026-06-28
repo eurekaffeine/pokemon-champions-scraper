@@ -3,59 +3,95 @@
   "name": "Alakazam",
   "form": null,
   "competitive": {
-    "usage_rank": 247,
-    "usage_rate": 0.0002,
-    "win_rate": null,
+    "usage_rank": 119,
+    "usage_rate": 0.0003199576597382602,
+    "win_rate": 0.3082706766917293,
     "moves": [
       {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 412,
-        "usage": 1.0
-      },
-      {
         "id": 247,
-        "usage": 1.0
+        "usage": 0.625
       },
       {
         "id": 94,
-        "usage": 1.0
+        "usage": 0.563
+      },
+      {
+        "id": 683,
+        "usage": 0.43799999999999994
+      },
+      {
+        "id": 271,
+        "usage": 0.313
+      },
+      {
+        "id": 285,
+        "usage": 0.313
+      },
+      {
+        "id": 182,
+        "usage": 0.25
+      },
+      {
+        "id": 227,
+        "usage": 0.25
+      },
+      {
+        "id": 502,
+        "usage": 0.25
+      },
+      {
+        "id": 797,
+        "usage": 0.25
+      },
+      {
+        "id": 412,
+        "usage": 0.188
       }
     ],
     "items": [
       {
-        "id": 247,
-        "usage": 1.0
+        "id": 264,
+        "usage": 0.43799999999999994
+      },
+      {
+        "id": 252,
+        "usage": 0.313
+      },
+      {
+        "id": 718,
+        "usage": 0.25
       }
     ],
     "abilities": [
       {
-        "id": 98,
+        "id": 39,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
         "id": 260,
-        "usage": 1.0
-      },
-      {
-        "id": 376,
-        "usage": 1.0
+        "usage": 0.0
       },
       {
         "id": 279,
-        "usage": 1.0
+        "usage": 0.0
+      },
+      {
+        "id": 902,
+        "usage": 0.0
       },
       {
         "id": 903,
-        "usage": 1.0
+        "usage": 0.0
       },
       {
-        "id": 763,
-        "usage": 1.0
+        "id": 983,
+        "usage": 0.0
+      },
+      {
+        "id": 1013,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

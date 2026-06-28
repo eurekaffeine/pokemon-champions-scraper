@@ -3,30 +3,38 @@
   "name": "Appletun",
   "form": null,
   "competitive": {
-    "usage_rank": 228,
-    "usage_rate": 0.0005,
-    "win_rate": null,
+    "usage_rank": 199,
+    "usage_rate": 3.3679753656658966e-05,
+    "win_rate": 0.35714285714285715,
     "moves": [
+      {
+        "id": 241,
+        "usage": 1.0
+      },
       {
         "id": 787,
         "usage": 1.0
       },
       {
-        "id": 406,
-        "usage": 1.0
-      },
-      {
-        "id": 73,
-        "usage": 1.0
-      },
-      {
         "id": 182,
-        "usage": 1.0
+        "usage": 0.5
+      },
+      {
+        "id": 406,
+        "usage": 0.5
+      },
+      {
+        "id": 434,
+        "usage": 0.5
+      },
+      {
+        "id": 74,
+        "usage": 0.5
       }
     ],
     "items": [
       {
-        "id": 273,
+        "id": 135,
         "usage": 0.5
       },
       {
@@ -42,28 +50,28 @@
     ],
     "teammates": [
       {
-        "id": 128,
-        "usage": 0.5
+        "id": 324,
+        "usage": 0.0
       },
       {
-        "id": 478,
-        "usage": 0.5
+        "id": 9,
+        "usage": 0.0
       },
       {
-        "id": 727,
-        "usage": 0.5
+        "id": 10172,
+        "usage": 0.0
       },
       {
-        "id": 970,
-        "usage": 0.5
+        "id": 248,
+        "usage": 0.0
       },
       {
-        "id": 981,
-        "usage": 0.5
+        "id": 389,
+        "usage": 0.0
       },
       {
-        "id": 65,
-        "usage": 0.5
+        "id": 699,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

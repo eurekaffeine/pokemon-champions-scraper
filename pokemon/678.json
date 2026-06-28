@@ -1,61 +1,125 @@
 {
   "dex_id": 678,
-  "name": "Meowstic-Mega",
+  "name": "Meowstic",
   "form": null,
   "competitive": {
-    "usage_rank": 241,
-    "usage_rate": 0.0002,
-    "win_rate": null,
+    "usage_rank": 100,
+    "usage_rate": 0.0005581216320246343,
+    "win_rate": 0.3793103448275862,
     "moves": [
       {
         "id": 252,
-        "usage": 1.0
+        "usage": 0.7040000000000001
+      },
+      {
+        "id": 115,
+        "usage": 0.39399999999999996
+      },
+      {
+        "id": 113,
+        "usage": 0.359
+      },
+      {
+        "id": 204,
+        "usage": 0.282
+      },
+      {
+        "id": 678,
+        "usage": 0.261
+      },
+      {
+        "id": 797,
+        "usage": 0.261
+      },
+      {
+        "id": 313,
+        "usage": 0.24600000000000002
       },
       {
         "id": 94,
-        "usage": 1.0
+        "usage": 0.19
       },
       {
         "id": 285,
-        "usage": 1.0
+        "usage": 0.14800000000000002
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 86,
+        "usage": 0.134
       }
     ],
     "items": [
       {
+        "id": 246,
+        "usage": 0.21100000000000002
+      },
+      {
+        "id": 196,
+        "usage": 0.19
+      },
+      {
+        "id": 252,
+        "usage": 0.183
+      },
+      {
+        "id": 173,
+        "usage": 0.12
+      },
+      {
+        "id": 225,
+        "usage": 0.085
+      },
+      {
+        "id": 190,
+        "usage": 0.077
+      },
+      {
+        "id": 135,
+        "usage": 0.035
+      },
+      {
+        "id": 175,
+        "usage": 0.035
+      },
+      {
         "id": 2643,
-        "usage": 1.0
+        "usage": 0.035
+      },
+      {
+        "id": 127,
+        "usage": 0.027999999999999997
       }
     ],
     "abilities": [
       {
-        "id": 172,
+        "id": 158,
         "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 637,
-        "usage": 1.0
+        "id": 398,
+        "usage": 0.0
       },
       {
-        "id": 908,
-        "usage": 1.0
+        "id": 1013,
+        "usage": 0.0
       },
       {
-        "id": 983,
-        "usage": 1.0
+        "id": 727,
+        "usage": 0.0
       },
       {
-        "id": 279,
-        "usage": 1.0
+        "id": 26,
+        "usage": 0.0
       },
       {
-        "id": 903,
-        "usage": 1.0
+        "id": 700,
+        "usage": 0.0
+      },
+      {
+        "id": 902,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

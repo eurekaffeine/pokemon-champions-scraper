@@ -3,103 +3,99 @@
   "name": "Infernape",
   "form": null,
   "competitive": {
-    "usage_rank": 140,
-    "usage_rate": 0.0018,
-    "win_rate": null,
+    "usage_rank": 133,
+    "usage_rate": 0.0002405696689761355,
+    "win_rate": 0.51,
     "moves": [
       {
-        "id": 252,
-        "usage": 0.875
+        "id": 7,
+        "usage": 0.938
       },
       {
-        "id": 394,
-        "usage": 0.625
+        "id": 409,
+        "usage": 0.813
+      },
+      {
+        "id": 9,
+        "usage": 0.813
+      },
+      {
+        "id": 14,
+        "usage": 0.75
       },
       {
         "id": 182,
-        "usage": 0.5
+        "usage": 0.188
+      },
+      {
+        "id": 252,
+        "usage": 0.125
+      },
+      {
+        "id": 369,
+        "usage": 0.125
       },
       {
         "id": 370,
-        "usage": 0.5
-      },
-      {
-        "id": 315,
-        "usage": 0.25
-      },
-      {
-        "id": 227,
-        "usage": 0.25
-      },
-      {
-        "id": 811,
-        "usage": 0.25
-      },
-      {
-        "id": 317,
         "usage": 0.125
       },
       {
-        "id": 257,
-        "usage": 0.125
+        "id": 396,
+        "usage": 0.063
       },
       {
-        "id": 444,
-        "usage": 0.125
+        "id": 53,
+        "usage": 0.063
       }
     ],
     "items": [
       {
-        "id": 247,
-        "usage": 0.375
-      },
-      {
-        "id": 226,
-        "usage": 0.25
-      },
-      {
-        "id": 245,
-        "usage": 0.25
-      },
-      {
         "id": 252,
+        "usage": 0.813
+      },
+      {
+        "id": 247,
         "usage": 0.125
+      },
+      {
+        "id": 264,
+        "usage": 0.063
       }
     ],
     "abilities": [
       {
-        "id": 66,
-        "usage": 0.875
+        "id": 89,
+        "usage": 0.938
       },
       {
-        "id": 89,
-        "usage": 0.125
+        "id": 66,
+        "usage": 0.063
       }
     ],
     "teammates": [
       {
-        "id": 902,
-        "usage": 0.5
+        "id": 1013,
+        "usage": 0.0
       },
       {
-        "id": 445,
-        "usage": 0.5
+        "id": 130,
+        "usage": 0.0
       },
       {
-        "id": 547,
-        "usage": 0.5
+        "id": 389,
+        "usage": 0.0
       },
       {
-        "id": 26,
-        "usage": 0.25
+        "id": 510,
+        "usage": 0.0
       },
       {
-        "id": 666,
-        "usage": 0.25
+        "id": 687,
+        "usage": 0.0
       },
       {
-        "id": 700,
-        "usage": 0.25
+        "id": 10104,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

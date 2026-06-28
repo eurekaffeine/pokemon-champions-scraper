@@ -3,35 +3,47 @@
   "name": "Aromatisse",
   "form": null,
   "competitive": {
-    "usage_rank": 178,
-    "usage_rate": 0.0009,
-    "win_rate": null,
+    "usage_rank": 165,
+    "usage_rate": 0.00012028483448806775,
+    "win_rate": 0.46,
     "moves": [
       {
         "id": 585,
         "usage": 1.0
       },
       {
+        "id": 113,
+        "usage": 0.857
+      },
+      {
+        "id": 115,
+        "usage": 0.857
+      },
+      {
+        "id": 505,
+        "usage": 0.857
+      },
+      {
+        "id": 227,
+        "usage": 0.14300000000000002
+      },
+      {
         "id": 433,
-        "usage": 1.0
-      },
-      {
-        "id": 182,
-        "usage": 1.0
-      },
-      {
-        "id": 50,
-        "usage": 0.5
+        "usage": 0.14300000000000002
       },
       {
         "id": 502,
-        "usage": 0.5
+        "usage": 0.14300000000000002
       }
     ],
     "items": [
       {
+        "id": 246,
+        "usage": 0.857
+      },
+      {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.14300000000000002
       }
     ],
     "abilities": [
@@ -42,28 +54,28 @@
     ],
     "teammates": [
       {
-        "id": 303,
-        "usage": 1.0
+        "id": 26,
+        "usage": 0.0
       },
       {
         "id": 279,
-        "usage": 1.0
+        "usage": 0.0
       },
       {
-        "id": 981,
-        "usage": 1.0
+        "id": 902,
+        "usage": 0.0
       },
       {
-        "id": 730,
-        "usage": 0.75
+        "id": 1013,
+        "usage": 0.0
       },
       {
-        "id": 740,
-        "usage": 0.5
+        "id": 1018,
+        "usage": 0.0
       },
       {
-        "id": 560,
-        "usage": 0.25
+        "id": 306,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

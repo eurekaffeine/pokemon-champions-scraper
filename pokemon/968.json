@@ -3,43 +3,63 @@
   "name": "Orthworm",
   "form": null,
   "competitive": {
-    "usage_rank": 165,
-    "usage_rate": 0.0011,
-    "win_rate": null,
+    "usage_rank": 128,
+    "usage_rate": 0.0002622209391839877,
+    "win_rate": 0.47706422018348627,
     "moves": [
       {
         "id": 776,
-        "usage": 1.0
-      },
-      {
-        "id": 484,
-        "usage": 1.0
+        "usage": 0.935
       },
       {
         "id": 880,
-        "usage": 1.0
+        "usage": 0.935
       },
       {
-        "id": 270,
-        "usage": 0.4
-      },
-      {
-        "id": 334,
-        "usage": 0.2
+        "id": 484,
+        "usage": 0.7759999999999999
       },
       {
         "id": 182,
-        "usage": 0.2
+        "usage": 0.72
       },
       {
-        "id": 157,
-        "usage": 0.2
+        "id": 442,
+        "usage": 0.215
+      },
+      {
+        "id": 334,
+        "usage": 0.196
+      },
+      {
+        "id": 270,
+        "usage": 0.09300000000000001
+      },
+      {
+        "id": 489,
+        "usage": 0.065
+      },
+      {
+        "id": 446,
+        "usage": 0.055999999999999994
+      },
+      {
+        "id": 523,
+        "usage": 0.009000000000000001
       }
     ],
     "items": [
       {
         "id": 135,
-        "usage": 1.0
+        "usage": 0.925
+      },
+      {
+        "id": 211,
+        "usage": 0.065
+      },
+      {
+        "id": 264,
+        "usage": 0.009000000000000001
       }
     ],
     "abilities": [
@@ -50,28 +70,28 @@
     ],
     "teammates": [
       {
-        "id": 445,
-        "usage": 1.0
+        "id": 9,
+        "usage": 0.0
       },
       {
-        "id": 6,
-        "usage": 0.4
+        "id": 302,
+        "usage": 0.0
       },
       {
-        "id": 903,
-        "usage": 0.4
+        "id": 925,
+        "usage": 0.0
       },
       {
-        "id": 547,
-        "usage": 0.4
+        "id": 666,
+        "usage": 0.0
       },
       {
-        "id": 282,
-        "usage": 0.4
+        "id": 700,
+        "usage": 0.0
       },
       {
-        "id": 604,
-        "usage": 0.4
+        "id": 279,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

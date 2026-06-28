@@ -1,0 +1,68 @@
+{
+  "dex_id": 10126,
+  "name": "Lycanroc-Midnight",
+  "form": "midnight",
+  "competitive": {
+    "usage_rank": 194,
+    "usage_rate": 4.089684372594303e-05,
+    "win_rate": 0.35294117647058826,
+    "moves": [
+      {
+        "id": 157,
+        "usage": 1.0
+      },
+      {
+        "id": 231,
+        "usage": 1.0
+      },
+      {
+        "id": 370,
+        "usage": 1.0
+      },
+      {
+        "id": 444,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 264,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 99,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 609,
+        "usage": 0.0
+      },
+      {
+        "id": 471,
+        "usage": 0.0
+      },
+      {
+        "id": 478,
+        "usage": 0.0
+      },
+      {
+        "id": 903,
+        "usage": 0.0
+      },
+      {
+        "id": 302,
+        "usage": 0.0
+      },
+      {
+        "id": 655,
+        "usage": 0.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

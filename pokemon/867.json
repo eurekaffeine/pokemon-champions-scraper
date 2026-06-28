@@ -3,59 +3,63 @@
   "name": "Runerigus",
   "form": null,
   "competitive": {
-    "usage_rank": 152,
-    "usage_rate": 0.0014000000000000002,
-    "win_rate": null,
+    "usage_rank": 157,
+    "usage_rate": 0.00014674749807544265,
+    "win_rate": 0.2459016393442623,
     "moves": [
       {
         "id": 433,
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 0.83333
-      },
-      {
-        "id": 261,
-        "usage": 0.83333
-      },
-      {
-        "id": 502,
-        "usage": 0.5
+        "id": 809,
+        "usage": 0.909
       },
       {
         "id": 89,
-        "usage": 0.16667
+        "usage": 0.879
       },
       {
-        "id": 566,
-        "usage": 0.16667
+        "id": 261,
+        "usage": 0.848
+      },
+      {
+        "id": 182,
+        "usage": 0.061
+      },
+      {
+        "id": 194,
+        "usage": 0.061
+      },
+      {
+        "id": 421,
+        "usage": 0.061
       },
       {
         "id": 776,
-        "usage": 0.16667
+        "usage": 0.061
       },
       {
-        "id": 114,
-        "usage": 0.16667
+        "id": 334,
+        "usage": 0.03
       },
       {
-        "id": 414,
-        "usage": 0.16667
+        "id": 385,
+        "usage": 0.03
       }
     ],
     "items": [
       {
+        "id": 162,
+        "usage": 0.848
+      },
+      {
         "id": 196,
-        "usage": 0.66667
+        "usage": 0.121
       },
       {
         "id": 211,
-        "usage": 0.16667
-      },
-      {
-        "id": 175,
-        "usage": 0.16667
+        "usage": 0.03
       }
     ],
     "abilities": [
@@ -66,28 +70,28 @@
     ],
     "teammates": [
       {
-        "id": 1013,
-        "usage": 0.83333
+        "id": 376,
+        "usage": 0.0
       },
       {
-        "id": 279,
-        "usage": 0.83333
+        "id": 45,
+        "usage": 0.0
       },
       {
-        "id": 1018,
-        "usage": 0.66667
+        "id": 560,
+        "usage": 0.0
       },
       {
-        "id": 730,
-        "usage": 0.66667
+        "id": 695,
+        "usage": 0.0
       },
       {
-        "id": 303,
-        "usage": 0.66667
+        "id": 925,
+        "usage": 0.0
       },
       {
-        "id": 324,
-        "usage": 0.16667
+        "id": 181,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

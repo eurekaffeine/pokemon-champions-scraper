@@ -3,30 +3,30 @@
   "name": "Victreebel",
   "form": null,
   "competitive": {
-    "usage_rank": 244,
-    "usage_rate": 0.0002,
-    "win_rate": null,
+    "usage_rank": 141,
+    "usage_rate": 0.00019967282525019245,
+    "win_rate": 0.4578313253012048,
     "moves": [
       {
-        "id": 79,
+        "id": 182,
         "usage": 1.0
       },
       {
-        "id": 499,
+        "id": 389,
         "usage": 1.0
       },
       {
-        "id": 76,
+        "id": 398,
         "usage": 1.0
       },
       {
-        "id": 188,
+        "id": 438,
         "usage": 1.0
       }
     ],
     "items": [
       {
-        "id": 247,
+        "id": 2560,
         "usage": 1.0
       }
     ],
@@ -38,24 +38,24 @@
     ],
     "teammates": [
       {
-        "id": 6,
-        "usage": 1.0
+        "id": 184,
+        "usage": 0.0
       },
       {
-        "id": 1018,
-        "usage": 1.0
+        "id": 302,
+        "usage": 0.0
       },
       {
-        "id": 700,
-        "usage": 1.0
+        "id": 319,
+        "usage": 0.0
       },
       {
-        "id": 478,
-        "usage": 1.0
+        "id": 448,
+        "usage": 0.0
       },
       {
-        "id": 823,
-        "usage": 1.0
+        "id": 727,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

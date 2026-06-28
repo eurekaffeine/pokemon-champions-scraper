@@ -3,12 +3,12 @@
   "name": "Toucannon",
   "form": null,
   "competitive": {
-    "usage_rank": 186,
-    "usage_rate": 0.0009,
-    "win_rate": null,
+    "usage_rank": 175,
+    "usage_rate": 9.141647421093149e-05,
+    "win_rate": 0.3157894736842105,
     "moves": [
       {
-        "id": 690,
+        "id": 182,
         "usage": 1.0
       },
       {
@@ -16,22 +16,22 @@
         "usage": 1.0
       },
       {
-        "id": 350,
+        "id": 690,
         "usage": 1.0
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 350,
+        "usage": 0.917
+      },
+      {
+        "id": 366,
+        "usage": 0.083
       }
     ],
     "items": [
       {
-        "id": 134,
-        "usage": 0.5
-      },
-      {
         "id": 252,
-        "usage": 0.25
+        "usage": 0.917
       }
     ],
     "abilities": [
@@ -42,28 +42,28 @@
     ],
     "teammates": [
       {
-        "id": 981,
-        "usage": 1.0
+        "id": 902,
+        "usage": 0.0
       },
       {
-        "id": 903,
-        "usage": 0.5
+        "id": 6,
+        "usage": 0.0
       },
       {
-        "id": 10233,
-        "usage": 0.5
+        "id": 700,
+        "usage": 0.0
       },
       {
-        "id": 870,
-        "usage": 0.5
+        "id": 750,
+        "usage": 0.0
       },
       {
-        "id": 10243,
-        "usage": 0.5
+        "id": 1013,
+        "usage": 0.0
       },
       {
-        "id": 302,
-        "usage": 0.25
+        "id": 398,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

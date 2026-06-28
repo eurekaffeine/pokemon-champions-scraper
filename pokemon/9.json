@@ -3,103 +3,107 @@
   "name": "Blastoise",
   "form": null,
   "competitive": {
-    "usage_rank": 170,
-    "usage_rate": 0.0011,
-    "win_rate": null,
+    "usage_rank": 43,
+    "usage_rate": 0.005304561200923787,
+    "win_rate": 0.49705215419501136,
     "moves": [
       {
-        "id": 182,
-        "usage": 0.6
-      },
-      {
-        "id": 352,
-        "usage": 0.6
-      },
-      {
-        "id": 776,
-        "usage": 0.4
-      },
-      {
-        "id": 57,
-        "usage": 0.4
-      },
-      {
-        "id": 58,
-        "usage": 0.2
-      },
-      {
-        "id": 406,
-        "usage": 0.2
-      },
-      {
-        "id": 812,
-        "usage": 0.2
-      },
-      {
-        "id": 252,
-        "usage": 0.2
+        "id": 323,
+        "usage": 0.934
       },
       {
         "id": 399,
-        "usage": 0.2
+        "usage": 0.8340000000000001
       },
       {
-        "id": 453,
-        "usage": 0.2
+        "id": 396,
+        "usage": 0.6
+      },
+      {
+        "id": 252,
+        "usage": 0.5760000000000001
+      },
+      {
+        "id": 504,
+        "usage": 0.46799999999999997
+      },
+      {
+        "id": 182,
+        "usage": 0.336
+      },
+      {
+        "id": 58,
+        "usage": 0.094
+      },
+      {
+        "id": 352,
+        "usage": 0.05
+      },
+      {
+        "id": 406,
+        "usage": 0.034
+      },
+      {
+        "id": 330,
+        "usage": 0.031
       }
     ],
     "items": [
       {
+        "id": 700,
+        "usage": 0.9620000000000001
+      },
+      {
+        "id": 220,
+        "usage": 0.024
+      },
+      {
         "id": 211,
-        "usage": 0.4
-      },
-      {
-        "id": 135,
-        "usage": 0.2
-      },
-      {
-        "id": 190,
-        "usage": 0.2
+        "usage": 0.01
       },
       {
         "id": 191,
-        "usage": 0.2
+        "usage": 0.003
+      },
+      {
+        "id": 135,
+        "usage": 0.001
       }
     ],
     "abilities": [
       {
         "id": 44,
-        "usage": 0.6
+        "usage": 0.716
       },
       {
         "id": 67,
-        "usage": 0.4
+        "usage": 0.284
       }
     ],
     "teammates": [
       {
-        "id": 727,
-        "usage": 0.4
+        "id": 981,
+        "usage": 0.0
       },
       {
-        "id": 445,
-        "usage": 0.4
+        "id": 902,
+        "usage": 0.0
       },
       {
-        "id": 94,
-        "usage": 0.4
+        "id": 324,
+        "usage": 0.0
       },
       {
-        "id": 6,
-        "usage": 0.2
+        "id": 1013,
+        "usage": 0.0
       },
       {
-        "id": 26,
-        "usage": 0.2
+        "id": 700,
+        "usage": 0.0
       },
       {
-        "id": 260,
-        "usage": 0.2
+        "id": 666,
+        "usage": 0.0
       }
     ],
     "tera_types": [],

@@ -1,69 +1,81 @@
 {
   "dex_id": 229,
-  "name": "Houndoom-Mega",
+  "name": "Houndoom",
   "form": null,
   "competitive": {
-    "usage_rank": 211,
-    "usage_rate": 0.0005,
-    "win_rate": null,
+    "usage_rank": 166,
+    "usage_rate": 0.00012028483448806775,
+    "win_rate": 0.38,
     "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
       {
         "id": 257,
         "usage": 1.0
       },
       {
         "id": 399,
-        "usage": 1.0
+        "usage": 0.8240000000000001
       },
       {
-        "id": 76,
-        "usage": 1.0
+        "id": 188,
+        "usage": 0.765
       },
       {
-        "id": 182,
-        "usage": 1.0
+        "id": 389,
+        "usage": 0.17600000000000002
+      },
+      {
+        "id": 555,
+        "usage": 0.17600000000000002
+      },
+      {
+        "id": 164,
+        "usage": 0.059000000000000004
       }
     ],
     "items": [
       {
         "id": 705,
-        "usage": 1.0
+        "usage": 0.8240000000000001
+      },
+      {
+        "id": 252,
+        "usage": 0.17600000000000002
       }
     ],
     "abilities": [
       {
-        "id": 127,
-        "usage": 0.5
-      },
-      {
         "id": 18,
-        "usage": 0.5
+        "usage": 1.0
       }
     ],
     "teammates": [
       {
-        "id": 45,
-        "usage": 0.5
-      },
-      {
-        "id": 398,
-        "usage": 0.5
-      },
-      {
-        "id": 303,
-        "usage": 0.5
-      },
-      {
         "id": 981,
-        "usage": 0.5
+        "usage": 0.0
       },
       {
-        "id": 324,
-        "usage": 0.5
+        "id": 445,
+        "usage": 0.0
       },
       {
-        "id": 510,
-        "usage": 0.5
+        "id": 663,
+        "usage": 0.0
+      },
+      {
+        "id": 10061,
+        "usage": 0.0
+      },
+      {
+        "id": 902,
+        "usage": 0.0
+      },
+      {
+        "id": 1000,
+        "usage": 0.0
       }
     ],
     "tera_types": [],
