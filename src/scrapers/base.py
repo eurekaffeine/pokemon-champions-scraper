@@ -197,6 +197,30 @@ class BaseScraper(ABC):
                 f"{self._stats.total_time_ms:.0f}ms total"
             )
 
+    @staticmethod
+    def _merge_teammates(base_mates, detail_mates):
+        """Union teammate lists, preferring the entry with real (non-zero) usage.
+
+        Different feeds populate teammates differently: a list API may give real
+        percentages for only the top mon, while the per-Pokemon markdown gives
+        the full set but sometimes with usage=0. Union by id, keep the max usage
+        seen, and preserve a stable order (base first, then new from detail).
+        """
+        by_id = {}
+        order = []
+        for m in list(base_mates or []) + list(detail_mates or []):
+            existing = by_id.get(m.id)
+            if existing is None:
+                by_id[m.id] = m
+                order.append(m.id)
+            elif m.usage > existing.usage:
+                by_id[m.id] = m
+        merged = [by_id[i] for i in order]
+        # Sort by usage desc when any real usage exists; else keep source order.
+        if any(m.usage > 0 for m in merged):
+            merged.sort(key=lambda m: m.usage, reverse=True)
+        return merged
+
     def _merge_pokemon_data(self, base: PokemonUsage, detail: PokemonUsage) -> PokemonUsage:
         """Merge detail data into base ranking data."""
         return PokemonUsage(
@@ -209,7 +233,7 @@ class BaseScraper(ABC):
             top_moves=detail.top_moves or base.top_moves,
             top_items=detail.top_items or base.top_items,
             top_abilities=detail.top_abilities or base.top_abilities,
-            top_teammates=detail.top_teammates or base.top_teammates,
+            top_teammates=self._merge_teammates(base.top_teammates, detail.top_teammates),
             top_tera_types=detail.top_tera_types or base.top_tera_types,
             top_spreads=detail.top_spreads or base.top_spreads,
         )

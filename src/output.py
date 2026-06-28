@@ -63,11 +63,27 @@ def write_pokemon_files(
     pokemon_dir.mkdir(parents=True, exist_ok=True)
     
     written_files = []
+    # Track which (dex_id) we've already written, to detect collisions where
+    # two different source rows would clobber the same {dex_id}.json file.
+    written_by_id: dict[int, str] = {}
     
     for pokemon in pokemon_list:
         if pokemon.dex_id <= 0:
             logger.warning(f"Skipping {pokemon.name} - invalid dex_id")
             continue
+        
+        prior = written_by_id.get(pokemon.dex_id)
+        if prior is not None and prior != pokemon.name:
+            # Two distinct Pokemon/forms resolved to the same dex_id. Writing
+            # the second would silently overwrite the first (this is exactly
+            # the Floette-Eternal / Floette-Eternal-Mega bug). Fail loudly so
+            # the mapping/feed gets fixed instead of corrupting output.
+            raise ValueError(
+                f"dex_id collision: {pokemon.dex_id}.json would be written for "
+                f"both {prior!r} and {pokemon.name!r}. Fix the name resolver or "
+                f"data source so distinct forms get distinct ids."
+            )
+        written_by_id[pokemon.dex_id] = pokemon.name
         
         # Convert to per-pokemon format
         detail = PokemonDetail(

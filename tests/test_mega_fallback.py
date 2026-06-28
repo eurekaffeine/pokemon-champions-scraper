@@ -1,11 +1,14 @@
 """Tests for Mega/Gmax form fallback in NameResolver.
 
-Pikalytics started returning Mega forms in the championstournaments
-dataset around 2026-05-16, which broke the ID audit (Mega forms were
-unresolved → dex_id=0 → audit exit 1 → GH Pages deploy skipped).
+Historically Pikalytics' `championstournaments` feed returned Mega forms
+(around 2026-05-16), which broke the ID audit (Mega forms were unresolved
+→ dex_id=0 → audit exit 1 → GH Pages deploy skipped).
 
-These forms share their base form's National Pokédex number, so the
-resolver now strips the Mega/Gmax suffix and recurses to the base name.
+The scraper now reads the `battledataregmbs3` ranked-ladder feed, which does
+NOT emit Mega rows — so this fallback is defense-in-depth rather than load-
+bearing for the active feed. We keep these tests because the resolver still
+guarantees Mega/Gmax names degrade to their base form's National Pokédex
+number if such a name ever appears again.
 """
 
 import pytest

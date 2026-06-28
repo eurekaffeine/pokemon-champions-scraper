@@ -10,7 +10,7 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 
 ## Features
 
-- 📊 **211 Pokémon** scraped from Pikalytics (full meta coverage)
+- 📊 **~208 Pokémon** from the Reg M-B S3 ranked-ladder feed (full meta coverage)
 - 🔄 Weekly automated updates via GitHub Actions (Mondays 2 AM UTC)
 - 📱 JSON output optimized for mobile app consumption
 - 🏆 Complete competitive data: moves, items, abilities, teammates
@@ -65,19 +65,49 @@ python -m src.main test-scraper --source pikalytics
 python -m src.main validate output/battle_meta.json
 ```
 
-## Data Sources
+## Data Source
 
-This scraper uses **two Pikalytics APIs**:
+This scraper reads the Pokémon Champions **ranked-ladder** feed that Pikalytics
+labels *"Regulation Set M-B S3 Ranked Battle Data"* (format code
+`battledataregmbs3`). We use the ranked-ladder feed rather than the
+`championstournaments` tournament feed because it:
 
-1. **List API** (`/api/l/{date}/championstournaments-1760`)
-   - Returns all 187 Pokémon with rankings, usage rates, and teammates
-   - Single request, fast
+- has **larger, cleaner sample sizes** (ladder-wide game counts),
+- exposes **richer detail** (EV spreads + natures are present in the feed for a
+  future enhancement), and
+- does **not** split Mega forms into separate rows — which previously caused
+  `dex_id` collisions (e.g. `Floette-Eternal-Mega` and `Floette-Eternal` both
+  collapsing onto one id and silently overwriting each other).
 
-2. **AI Markdown API** (`/ai/pokedex/championstournaments/{pokemon}`)
-   - Returns per-Pokémon details: moves, items, abilities
-   - One request per Pokémon (rate-limited)
+Two Pikalytics endpoints are used:
 
-**Update Frequency:** Pikalytics updates data **monthly** (check the `Data Date` field). The scraper runs weekly to catch month rollovers.
+1. **List API** (`/api/l/{YYYY-MM}/battledataregmbs3-1760`)
+   - Returns all ranked Pokémon (~208) with win rates, sample sizes, and
+     (for the very top entry) embedded detail.
+   - Single request, fast.
+
+2. **AI Markdown API** (`/ai/pokedex/battledataregmbs3/{pokemon}`)
+   - Per-Pokémon details: moves, items, abilities, teammates.
+   - One request per Pokémon (rate-limited).
+
+### Usage rate & ranking
+
+The ranked-ladder feed reports usage as a **raw game count** (`games`), not a
+pick-rate percentage. `usage_rate` is therefore derived as each Pokémon's share
+of the total games in the snapshot, and `rank` is re-assigned by that derived
+usage so that `rank` is always the ordinal of `usage_rate` (strictly
+descending). Pikalytics' own ladder `rank` is intentionally **not** used, as it
+is not monotonic with the game count.
+
+> **Teammates:** this feed does not expose teammate usage percentages
+> (the list API gives teammate *rank* only, and the markdown reports
+> `undefined%`). Teammates are emitted in source order (most common first)
+> with `usage = 0.0` to signal "percentage unavailable".
+
+**Update Frequency:** Pikalytics publishes monthly (see the `Data Date` /
+`data_date` field). The scraper runs daily to catch month rollovers. It refuses
+to fall back to the current wall-clock month, since that month is frequently
+empty and would otherwise overwrite good data.
 
 ## Output Schema
 
@@ -88,9 +118,12 @@ This scraper uses **two Pikalytics APIs**:
   "schema_version": "1.0.0",
   "updated_at": "2026-04-16T05:23:00Z",
   "season": {
-    "id": "s1",
-    "name": "Pokemon Champions VGC 2026 Tournament",
-    "start_date": "2026-04-08"
+    "id": "regmb-s3",
+    "name": "Regulation Set M-B S3",
+    "format_code": "battledataregmbs3",
+    "data_date": "2026-05",
+    "start_date": "2026-05-01",
+    "end_date": null
   },
   "pokemon_usage": [
     {
@@ -232,7 +265,7 @@ Some Pokémon have regional/mega forms with special IDs:
 | Rotom-Heat | Heat | 10010 |
 | Ninetales-Alola | Alola | 10104 |
 | Arcanine-Hisui | Hisui | 10229 |
-| Floette-Eternal | Eternal | 10296 |
+| Floette-Eternal | Eternal Flower | 10061 |
 | Tauros-Paldea | Combat | 10250 |
 | Tauros-Paldea-Blaze | Blaze | 10251 |
 | Tauros-Paldea-Aqua | Aqua | 10252 |
@@ -242,7 +275,30 @@ Some Pokémon have regional/mega forms with special IDs:
 | Calyrex-Shadow-Rider | Shadow | 10194 |
 | Mr-Rime | — | 866 |
 
-Form variants without separate asset files (e.g., Vivillon-High Plains, Tatsugiri-Droopy, Sinistcha-Masterpiece, Maushold-Four) map to their base form ID.
+Form variants without separate asset files (e.g., Vivillon-High Plains,
+Tatsugiri-Droopy, Sinistcha-Masterpiece, Maushold-Four) map to their base form ID.
+
+### Why form IDs, not National Dex numbers?
+
+`dex_id` (and per-Pokémon filenames `pokemon/{dex_id}.json`) use the Pocket-Gallery
+**asset id**, which for form-changing Pokémon is an internal form id (e.g.
+`Floette-Eternal` → `10061`, `Rotom-Wash` → `10009`), **not** the National Dex
+number (Floette is #670; Rotom is #479).
+
+This is deliberate and required by the apps:
+
+- The apps build the request URL as `pokemon/{dex_id}.json` using the `dex_id`
+  value **verbatim** (and likewise for teammate `id`s). The filename, the
+  `dex_id` field, and teammate ids are a single join key.
+- The apps' **local** Pokédex assets are keyed the same way — `670.json` *and*
+  `10061.json` both exist locally, and `getPokemonDexById` resolves form ids via
+  a dedicated form map. Champions `dex_id` is the join into that map.
+- Re-keying to National Dex numbers would **break** this join and is impossible
+  for multi-form species anyway (Rotom-Wash/Heat/Mow/Frost/Fan would all collide
+  on `479.json`).
+
+The human-readable form is additionally surfaced in the `form` field (e.g.
+`"eternal"`, `"wash"`), but it is metadata only — the numeric id is the key.
 
 These IDs match the Pokédex asset system used by Pocket-Gallery.
 
