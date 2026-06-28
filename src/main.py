@@ -249,6 +249,7 @@ def scrape(
         all_stats: dict[str, ScrapeStats] = {}
         tier_lists: dict[str, TierList] = {}
         source_infos: list[SourceInfo] = []
+        season_model: Optional[Season] = None
         
         for source_name in sources:
             scraper_class = SCRAPERS[source_name]
@@ -280,6 +281,18 @@ def scrape(
                     url=scraper.base_url,
                     scraped_at=datetime.now(timezone.utc),
                 ))
+
+                # Capture season/regulation metadata from the first source
+                # that can provide it (avoids a fabricated "Season 1").
+                if season_model is None and hasattr(scraper, "scrape_season"):
+                    try:
+                        season_model = scraper.season_info_to_model(
+                            await scraper.scrape_season()
+                        )
+                    except Exception as exc:
+                        logger.warning(
+                            f"Could not derive season from {scraper.name}: {exc}"
+                        )
                 
                 logger.info(f"  {scraper.name}: {len(pokemon_list)} Pokémon scraped")
                 
@@ -303,17 +316,27 @@ def scrape(
             pokemon_list = all_results[source_name]
             tier_list = tier_lists.get(source_name)
         
-        # Build BattleMeta
+        # Build BattleMeta. The apps decode `season` as a non-optional field
+        # (iOS would fail to parse the whole document on null), so guarantee a
+        # Season object even if live parsing failed.
         now = datetime.now(timezone.utc)
+        if season_model is None:
+            logger.warning(
+                "Season metadata unavailable; emitting fallback season so the "
+                "output stays decodable by clients that require a season."
+            )
+            season_model = Season(
+                id="regmb-s3",
+                name="Regulation Set M-B S3",
+                format_code="battledataregmbs3",
+                data_date=f"{now.year}-{now.month:02d}",
+                start_date=now.date().replace(day=1),
+                end_date=None,
+            )
         battle_meta = BattleMeta(
             schema_version="1.0.0",
             updated_at=now,
-            season=Season(
-                id="s1",
-                name="Season 1",
-                start_date=datetime(2026, 4, 8).date(),
-                end_date=None,
-            ),
+            season=season_model,
             pokemon_usage=pokemon_list,
             tier_list=tier_list,
             sources=source_infos,
