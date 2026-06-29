@@ -1,0 +1,72 @@
+{
+  "dex_id": 10025,
+  "name": "Meowstic-F",
+  "form": "f",
+  "competitive": {
+    "usage_rank": 206,
+    "usage_rate": 0.0,
+    "win_rate": null,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 412,
+        "usage": 1.0
+      },
+      {
+        "id": 94,
+        "usage": 1.0
+      },
+      {
+        "id": 85,
+        "usage": 0.667
+      },
+      {
+        "id": 252,
+        "usage": 0.33299999999999996
+      }
+    ],
+    "items": [
+      {
+        "id": 2643,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 172,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 260,
+        "usage": 0.0
+      },
+      {
+        "id": 279,
+        "usage": 0.0
+      },
+      {
+        "id": 302,
+        "usage": 0.0
+      },
+      {
+        "id": 1013,
+        "usage": 0.0
+      },
+      {
+        "id": 1018,
+        "usage": 0.0
+      },
+      {
+        "id": 26,
+        "usage": 0.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

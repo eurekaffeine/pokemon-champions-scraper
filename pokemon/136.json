@@ -1,0 +1,64 @@
+{
+  "dex_id": 136,
+  "name": "Flareon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 204,
+    "usage_rate": 1.2028483448806774e-05,
+    "win_rate": 0.6,
+    "moves": [
+      {
+        "id": 182,
+        "usage": 1.0
+      },
+      {
+        "id": 276,
+        "usage": 1.0
+      },
+      {
+        "id": 394,
+        "usage": 1.0
+      },
+      {
+        "id": 608,
+        "usage": 1.0
+      }
+    ],
+    "items": [
+      {
+        "id": 172,
+        "usage": 1.0
+      }
+    ],
+    "abilities": [
+      {
+        "id": 18,
+        "usage": 1.0
+      }
+    ],
+    "teammates": [
+      {
+        "id": 445,
+        "usage": 0.0
+      },
+      {
+        "id": 547,
+        "usage": 0.0
+      },
+      {
+        "id": 668,
+        "usage": 0.0
+      },
+      {
+        "id": 903,
+        "usage": 0.0
+      },
+      {
+        "id": 983,
+        "usage": 0.0
+      }
+    ],
+    "tera_types": [],
+    "spreads": []
+  }
+}

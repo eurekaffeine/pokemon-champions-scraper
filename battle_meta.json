@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-06-28T11:52:24.647625Z",
+  "updated_at": "2026-06-29T06:43:35.152398Z",
   "season": {
     "id": "regmb-s3",
     "name": "Regulation Set M-B S3",
@@ -21721,6 +21721,574 @@
       ],
       "top_tera_types": [],
       "top_spreads": []
+    },
+    {
+      "rank": 201,
+      "dex_id": 518,
+      "name": "Musharna",
+      "form": null,
+      "usage_rate": 2.1651270207852194e-05,
+      "win_rate": 0.4444444444444444,
+      "top_moves": [
+        {
+          "id": 433,
+          "usage": 1.0
+        },
+        {
+          "id": 94,
+          "usage": 1.0
+        },
+        {
+          "id": 270,
+          "usage": 0.905
+        },
+        {
+          "id": 502,
+          "usage": 0.81
+        },
+        {
+          "id": 585,
+          "usage": 0.095
+        },
+        {
+          "id": 182,
+          "usage": 0.071
+        },
+        {
+          "id": 281,
+          "usage": 0.048
+        },
+        {
+          "id": 204,
+          "usage": 0.024
+        },
+        {
+          "id": 247,
+          "usage": 0.024
+        },
+        {
+          "id": 361,
+          "usage": 0.024
+        }
+      ],
+      "top_items": [
+        {
+          "id": 135,
+          "usage": 0.643
+        },
+        {
+          "id": 196,
+          "usage": 0.262
+        },
+        {
+          "id": 175,
+          "usage": 0.095
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 140,
+          "usage": 0.929
+        },
+        {
+          "id": 28,
+          "usage": 0.071
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 303,
+          "usage": 0.0
+        },
+        {
+          "id": 763,
+          "usage": 0.0
+        },
+        {
+          "id": 395,
+          "usage": 0.0
+        },
+        {
+          "id": 454,
+          "usage": 0.0
+        },
+        {
+          "id": 970,
+          "usage": 0.0
+        },
+        {
+          "id": 45,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 202,
+      "dex_id": 211,
+      "name": "Qwilfish",
+      "form": null,
+      "usage_rate": 1.924557351809084e-05,
+      "win_rate": 0.25,
+      "top_moves": [
+        {
+          "id": 114,
+          "usage": 1.0
+        },
+        {
+          "id": 269,
+          "usage": 1.0
+        },
+        {
+          "id": 812,
+          "usage": 1.0
+        },
+        {
+          "id": 92,
+          "usage": 1.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": 135,
+          "usage": 1.0
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 22,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 260,
+          "usage": 0.0
+        },
+        {
+          "id": 279,
+          "usage": 0.0
+        },
+        {
+          "id": 707,
+          "usage": 0.0
+        },
+        {
+          "id": 1013,
+          "usage": 0.0
+        },
+        {
+          "id": 1018,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 203,
+      "dex_id": 713,
+      "name": "Avalugg",
+      "form": null,
+      "usage_rate": 1.4434180138568129e-05,
+      "win_rate": 0.16666666666666666,
+      "top_moves": [
+        {
+          "id": 105,
+          "usage": 1.0
+        },
+        {
+          "id": 469,
+          "usage": 1.0
+        },
+        {
+          "id": 776,
+          "usage": 1.0
+        },
+        {
+          "id": 861,
+          "usage": 1.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": 211,
+          "usage": 1.0
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 5,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 9,
+          "usage": 0.0
+        },
+        {
+          "id": 10172,
+          "usage": 0.0
+        },
+        {
+          "id": 324,
+          "usage": 0.0
+        },
+        {
+          "id": 389,
+          "usage": 0.0
+        },
+        {
+          "id": 842,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 204,
+      "dex_id": 136,
+      "name": "Flareon",
+      "form": null,
+      "usage_rate": 1.2028483448806774e-05,
+      "win_rate": 0.6,
+      "top_moves": [
+        {
+          "id": 182,
+          "usage": 1.0
+        },
+        {
+          "id": 276,
+          "usage": 1.0
+        },
+        {
+          "id": 394,
+          "usage": 1.0
+        },
+        {
+          "id": 608,
+          "usage": 1.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": 172,
+          "usage": 1.0
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 18,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 445,
+          "usage": 0.0
+        },
+        {
+          "id": 547,
+          "usage": 0.0
+        },
+        {
+          "id": 668,
+          "usage": 0.0
+        },
+        {
+          "id": 903,
+          "usage": 0.0
+        },
+        {
+          "id": 983,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 205,
+      "dex_id": 505,
+      "name": "Watchog",
+      "form": null,
+      "usage_rate": 0.0,
+      "win_rate": null,
+      "top_moves": [
+        {
+          "id": 242,
+          "usage": 1.0
+        },
+        {
+          "id": 416,
+          "usage": 1.0
+        },
+        {
+          "id": 67,
+          "usage": 1.0
+        },
+        {
+          "id": 8,
+          "usage": 1.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": 194,
+          "usage": 1.0
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 148,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 478,
+          "usage": 0.0
+        },
+        {
+          "id": 547,
+          "usage": 0.0
+        },
+        {
+          "id": 727,
+          "usage": 0.0
+        },
+        {
+          "id": 979,
+          "usage": 0.0
+        },
+        {
+          "id": 983,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 206,
+      "dex_id": 10025,
+      "name": "Meowstic-F",
+      "form": "f",
+      "usage_rate": 0.0,
+      "win_rate": null,
+      "top_moves": [
+        {
+          "id": 182,
+          "usage": 1.0
+        },
+        {
+          "id": 412,
+          "usage": 1.0
+        },
+        {
+          "id": 94,
+          "usage": 1.0
+        },
+        {
+          "id": 85,
+          "usage": 0.667
+        },
+        {
+          "id": 252,
+          "usage": 0.33299999999999996
+        }
+      ],
+      "top_items": [
+        {
+          "id": 2643,
+          "usage": 1.0
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 172,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 260,
+          "usage": 0.0
+        },
+        {
+          "id": 279,
+          "usage": 0.0
+        },
+        {
+          "id": 302,
+          "usage": 0.0
+        },
+        {
+          "id": 1013,
+          "usage": 0.0
+        },
+        {
+          "id": 1018,
+          "usage": 0.0
+        },
+        {
+          "id": 26,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 207,
+      "dex_id": 351,
+      "name": "Castform",
+      "form": null,
+      "usage_rate": 0.0,
+      "win_rate": null,
+      "top_moves": [
+        {
+          "id": 182,
+          "usage": 1.0
+        },
+        {
+          "id": 311,
+          "usage": 1.0
+        },
+        {
+          "id": 58,
+          "usage": 1.0
+        },
+        {
+          "id": 87,
+          "usage": 1.0
+        }
+      ],
+      "top_items": [
+        {
+          "id": 247,
+          "usage": 1.0
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 59,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 10172,
+          "usage": 0.0
+        },
+        {
+          "id": 279,
+          "usage": 0.0
+        },
+        {
+          "id": 442,
+          "usage": 0.0
+        },
+        {
+          "id": 902,
+          "usage": 0.0
+        },
+        {
+          "id": 1018,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
+    },
+    {
+      "rank": 208,
+      "dex_id": 10243,
+      "name": "Avalugg-Hisui",
+      "form": "hisui",
+      "usage_rate": 0.0,
+      "win_rate": null,
+      "top_moves": [
+        {
+          "id": 776,
+          "usage": 1.0
+        },
+        {
+          "id": 157,
+          "usage": 0.938
+        },
+        {
+          "id": 836,
+          "usage": 0.938
+        },
+        {
+          "id": 469,
+          "usage": 0.875
+        },
+        {
+          "id": 182,
+          "usage": 0.063
+        },
+        {
+          "id": 350,
+          "usage": 0.063
+        },
+        {
+          "id": 423,
+          "usage": 0.063
+        },
+        {
+          "id": 861,
+          "usage": 0.063
+        }
+      ],
+      "top_items": [
+        {
+          "id": 211,
+          "usage": 0.938
+        },
+        {
+          "id": 215,
+          "usage": 0.063
+        }
+      ],
+      "top_abilities": [
+        {
+          "id": 5,
+          "usage": 1.0
+        }
+      ],
+      "top_teammates": [
+        {
+          "id": 475,
+          "usage": 0.0
+        },
+        {
+          "id": 149,
+          "usage": 0.0
+        },
+        {
+          "id": 323,
+          "usage": 0.0
+        },
+        {
+          "id": 858,
+          "usage": 0.0
+        },
+        {
+          "id": 981,
+          "usage": 0.0
+        },
+        {
+          "id": 903,
+          "usage": 0.0
+        }
+      ],
+      "top_tera_types": [],
+      "top_spreads": []
     }
   ],
   "tier_list": null,
@@ -21729,7 +22297,7 @@
     {
       "name": "Pikalytics",
       "url": "https://www.pikalytics.com",
-      "scraped_at": "2026-06-28T11:52:22.170704Z"
+      "scraped_at": "2026-06-29T06:43:34.044001Z"
     }
   ]
 }
