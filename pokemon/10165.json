@@ -3,9 +3,9 @@
   "name": "Slowbro-Galar",
   "form": "galar",
   "competitive": {
-    "usage_rank": 188,
-    "usage_rate": 5.533102386451116e-05,
-    "win_rate": 0.4782608695652174,
+    "usage_rank": 180,
+    "usage_rate": 7.519680413582423e-05,
+    "win_rate": 0.375,
     "moves": [
       {
         "id": 801,

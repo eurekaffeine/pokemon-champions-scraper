@@ -3,9 +3,9 @@
   "name": "Chandelure",
   "form": null,
   "competitive": {
-    "usage_rank": 86,
-    "usage_rate": 0.000962278675904542,
-    "win_rate": 0.47,
+    "usage_rank": 90,
+    "usage_rate": 0.0008224650452355775,
+    "win_rate": 0.4714285714285714,
     "moves": [
       {
         "id": 247,

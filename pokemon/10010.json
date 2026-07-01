@@ -3,9 +3,9 @@
   "name": "Rotom-Frost",
   "form": "frost",
   "competitive": {
-    "usage_rank": 177,
-    "usage_rate": 8.660508083140877e-05,
-    "win_rate": 0.2777777777777778,
+    "usage_rank": 167,
+    "usage_rate": 0.00010809540594524732,
+    "win_rate": 0.3695652173913043,
     "moves": [
       {
         "id": 59,

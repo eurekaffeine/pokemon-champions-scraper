@@ -3,9 +3,9 @@
   "name": "Pidgeot",
   "form": null,
   "competitive": {
-    "usage_rank": 134,
-    "usage_rate": 0.00022613548883756735,
-    "win_rate": 0.43617021276595747,
+    "usage_rank": 145,
+    "usage_rate": 0.00018329221008107156,
+    "win_rate": 0.3717948717948718,
     "moves": [
       {
         "id": 182,

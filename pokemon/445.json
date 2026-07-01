@@ -3,9 +3,9 @@
   "name": "Garchomp",
   "form": null,
   "competitive": {
-    "usage_rank": 2,
-    "usage_rate": 0.06984459199384142,
-    "win_rate": 0.5236627286191575,
+    "usage_rank": 1,
+    "usage_rate": 0.06771237222418047,
+    "win_rate": 0.5137254901960784,
     "moves": [
       {
         "id": 337,

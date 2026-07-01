@@ -3,9 +3,9 @@
   "name": "Gallade",
   "form": null,
   "competitive": {
-    "usage_rank": 69,
-    "usage_rate": 0.0017321016166281756,
-    "win_rate": 0.4527777777777778,
+    "usage_rank": 65,
+    "usage_rate": 0.001821172600164493,
+    "win_rate": 0.472258064516129,
     "moves": [
       {
         "id": 533,

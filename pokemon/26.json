@@ -3,9 +3,9 @@
   "name": "Raichu",
   "form": null,
   "competitive": {
-    "usage_rank": 37,
-    "usage_rate": 0.006945246343341031,
-    "win_rate": 0.4464842396951853,
+    "usage_rank": 26,
+    "usage_rate": 0.009867230642697686,
+    "win_rate": 0.44605858537747084,
     "moves": [
       {
         "id": 252,

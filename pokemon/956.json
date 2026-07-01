@@ -3,9 +3,9 @@
   "name": "Espathra",
   "form": null,
   "competitive": {
-    "usage_rank": 56,
-    "usage_rate": 0.002523575827559661,
-    "win_rate": 0.5505243088655862,
+    "usage_rank": 64,
+    "usage_rate": 0.0020655622136059215,
+    "win_rate": 0.5324232081911263,
     "moves": [
       {
         "id": 182,

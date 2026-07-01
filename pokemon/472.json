@@ -3,9 +3,9 @@
   "name": "Gliscor",
   "form": null,
   "competitive": {
-    "usage_rank": 145,
-    "usage_rate": 0.00019005003849114705,
-    "win_rate": 0.4177215189873418,
+    "usage_rank": 133,
+    "usage_rate": 0.0002631888144753848,
+    "win_rate": 0.3125,
     "moves": [
       {
         "id": 814,

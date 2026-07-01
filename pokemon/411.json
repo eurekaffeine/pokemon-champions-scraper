@@ -3,9 +3,9 @@
   "name": "Bastiodon",
   "form": null,
   "competitive": {
-    "usage_rank": 190,
-    "usage_rate": 5.533102386451116e-05,
-    "win_rate": 0.30434782608695654,
+    "usage_rank": 200,
+    "usage_rate": 2.5848901421689578e-05,
+    "win_rate": 0.2727272727272727,
     "moves": [
       {
         "id": 469,

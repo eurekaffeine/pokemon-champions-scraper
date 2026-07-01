@@ -3,9 +3,9 @@
   "name": "Decidueye-Hisui",
   "form": "hisui",
   "competitive": {
-    "usage_rank": 170,
-    "usage_rate": 0.00010825635103926098,
-    "win_rate": 0.4222222222222222,
+    "usage_rank": 172,
+    "usage_rate": 9.634590529902479e-05,
+    "win_rate": 0.4878048780487805,
     "moves": [
       {
         "id": 182,

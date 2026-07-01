@@ -3,9 +3,9 @@
   "name": "Steelix",
   "form": null,
   "competitive": {
-    "usage_rank": 85,
-    "usage_rate": 0.000983929946112394,
-    "win_rate": 0.43765281173594134,
+    "usage_rank": 88,
+    "usage_rate": 0.0009164610504053578,
+    "win_rate": 0.38461538461538464,
     "moves": [
       {
         "id": 484,

@@ -3,9 +3,9 @@
   "name": "Stunfisk",
   "form": null,
   "competitive": {
-    "usage_rank": 198,
-    "usage_rate": 3.3679753656658966e-05,
-    "win_rate": 0.42857142857142855,
+    "usage_rank": 185,
+    "usage_rate": 5.8747503231112676e-05,
+    "win_rate": 0.4,
     "moves": [
       {
         "id": 182,

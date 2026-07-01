@@ -3,9 +3,9 @@
   "name": "Spiritomb",
   "form": null,
   "competitive": {
-    "usage_rank": 172,
-    "usage_rate": 0.0001010392609699769,
-    "win_rate": 0.35714285714285715,
+    "usage_rank": 175,
+    "usage_rate": 8.929620491129127e-05,
+    "win_rate": 0.39473684210526316,
     "moves": [
       {
         "id": 433,

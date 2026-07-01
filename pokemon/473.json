@@ -3,9 +3,9 @@
   "name": "Mamoswine",
   "form": null,
   "competitive": {
-    "usage_rank": 70,
-    "usage_rate": 0.0016839876828329485,
-    "win_rate": 0.49357142857142855,
+    "usage_rank": 60,
+    "usage_rate": 0.002302902126659617,
+    "win_rate": 0.5056122448979592,
     "moves": [
       {
         "id": 420,

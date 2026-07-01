@@ -3,9 +3,9 @@
   "name": "Blaziken",
   "form": null,
   "competitive": {
-    "usage_rank": 65,
-    "usage_rate": 0.0018620092378752887,
-    "win_rate": 0.524547803617571,
+    "usage_rank": 51,
+    "usage_rate": 0.0031535659734461285,
+    "win_rate": 0.518628912071535,
     "moves": [
       {
         "id": 370,

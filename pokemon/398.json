@@ -3,9 +3,9 @@
   "name": "Staraptor",
   "form": null,
   "competitive": {
-    "usage_rank": 25,
-    "usage_rate": 0.009360565819861432,
-    "win_rate": 0.4384476998200977,
+    "usage_rank": 20,
+    "usage_rate": 0.01244037128422042,
+    "win_rate": 0.44692104268983757,
     "moves": [
       {
         "id": 370,

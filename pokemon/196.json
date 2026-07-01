@@ -3,9 +3,9 @@
   "name": "Espeon",
   "form": null,
   "competitive": {
-    "usage_rank": 174,
-    "usage_rate": 9.382217090069285e-05,
-    "win_rate": 0.5384615384615384,
+    "usage_rank": 186,
+    "usage_rate": 5.639760310186817e-05,
+    "win_rate": 0.5,
     "moves": [
       {
         "id": 408,

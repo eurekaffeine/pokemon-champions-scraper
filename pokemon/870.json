@@ -3,9 +3,9 @@
   "name": "Falinks",
   "form": null,
   "competitive": {
-    "usage_rank": 150,
-    "usage_rate": 0.0001756158583525789,
-    "win_rate": 0.3150684931506849,
+    "usage_rank": 142,
+    "usage_rate": 0.00022089061214898366,
+    "win_rate": 0.3404255319148936,
     "moves": [
       {
         "id": 370,

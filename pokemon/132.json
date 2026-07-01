@@ -3,9 +3,9 @@
   "name": "Ditto",
   "form": null,
   "competitive": {
-    "usage_rank": 126,
-    "usage_rate": 0.0002766551193225558,
-    "win_rate": 0.3130434782608696,
+    "usage_rank": 122,
+    "usage_rate": 0.000328986018094231,
+    "win_rate": 0.35,
     "moves": [
       {
         "id": 144,

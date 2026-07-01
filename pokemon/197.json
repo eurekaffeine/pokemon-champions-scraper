@@ -3,9 +3,9 @@
   "name": "Umbreon",
   "form": null,
   "competitive": {
-    "usage_rank": 122,
-    "usage_rate": 0.000298306389530408,
-    "win_rate": 0.47580645161290325,
+    "usage_rank": 113,
+    "usage_rate": 0.0004018329221008107,
+    "win_rate": 0.45614035087719296,
     "moves": [
       {
         "id": 555,
