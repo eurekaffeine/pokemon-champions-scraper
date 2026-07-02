@@ -3,9 +3,9 @@
   "name": "Arcanine",
   "form": null,
   "competitive": {
-    "usage_rank": 119,
-    "usage_rate": 0.000343085418869698,
-    "win_rate": 0.3698630136986301,
+    "usage_rank": 123,
+    "usage_rate": 0.0003167003548906918,
+    "win_rate": 0.36764705882352944,
     "moves": [
       {
         "id": 182,

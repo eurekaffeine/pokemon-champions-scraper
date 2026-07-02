@@ -3,9 +3,9 @@
   "name": "Glaceon",
   "form": null,
   "competitive": {
-    "usage_rank": 173,
-    "usage_rate": 9.399600516978028e-05,
-    "win_rate": 0.4,
+    "usage_rank": 176,
+    "usage_rate": 9.081848412306603e-05,
+    "win_rate": 0.41025641025641024,
     "moves": [
       {
         "id": 573,

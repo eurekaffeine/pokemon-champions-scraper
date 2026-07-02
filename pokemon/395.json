@@ -3,9 +3,9 @@
   "name": "Empoleon",
   "form": null,
   "competitive": {
-    "usage_rank": 114,
-    "usage_rate": 0.00039948302197156623,
-    "win_rate": 0.43529411764705883,
+    "usage_rank": 116,
+    "usage_rate": 0.0003749173318926572,
+    "win_rate": 0.42857142857142855,
     "moves": [
       {
         "id": 182,

@@ -3,9 +3,9 @@
   "name": "Beedrill",
   "form": null,
   "competitive": {
-    "usage_rank": 139,
-    "usage_rate": 0.00023029021266596168,
-    "win_rate": 0.41836734693877553,
+    "usage_rank": 131,
+    "usage_rate": 0.0002677980942090409,
+    "win_rate": 0.4,
     "moves": [
       {
         "id": 182,

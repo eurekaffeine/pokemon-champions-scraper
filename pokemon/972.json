@@ -3,9 +3,9 @@
   "name": "Houndstone",
   "form": null,
   "competitive": {
-    "usage_rank": 107,
-    "usage_rate": 0.0004323816237809893,
-    "win_rate": 0.5353260869565217,
+    "usage_rank": 106,
+    "usage_rate": 0.00044012034613485847,
+    "win_rate": 0.5317460317460317,
     "moves": [
       {
         "id": 854,

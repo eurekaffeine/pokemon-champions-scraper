@@ -3,9 +3,9 @@
   "name": "Snorlax",
   "form": null,
   "competitive": {
-    "usage_rank": 83,
-    "usage_rate": 0.0010762542591939842,
-    "win_rate": 0.5054585152838428,
+    "usage_rank": 81,
+    "usage_rate": 0.0011270806747580501,
+    "win_rate": 0.49483471074380164,
     "moves": [
       {
         "id": 182,

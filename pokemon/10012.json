@@ -3,9 +3,9 @@
   "name": "Rotom-Mow",
   "form": "mow",
   "competitive": {
-    "usage_rank": 100,
-    "usage_rate": 0.0005404770297262366,
-    "win_rate": 0.40869565217391307,
+    "usage_rank": 101,
+    "usage_rate": 0.0005402535465782389,
+    "win_rate": 0.40948275862068967,
     "moves": [
       {
         "id": 437,
