@@ -108,6 +108,26 @@ def _pct(raw) -> float:
         return 0.0
 
 
+def _rank_to_usage(position: int, total: int) -> float:
+    """Derive a 0-1 usage proxy from a teammate's ordinal position.
+
+    The Pikalytics Champions feed ranks teammates by co-occurrence but does
+    NOT expose the underlying percentage: list-API ``team`` rows carry only an
+    ordinal ``rank`` (no ``percent`` key), and the AI-markdown feed reports
+    every teammate as ``undefined%``. Parsing a missing/`undefined` percent
+    therefore collapsed every teammate to ``usage=0.0``, which also destroyed
+    the ordering downstream (the merge sorts by usage).
+
+    We reconstruct a stable, strictly-decreasing signal from the rank the feed
+    *does* give us: position 1 of N -> N/N, position 2 -> (N-1)/N, ... This is
+    an ordering proxy, NOT a true usage percentage; consumers should treat it
+    as relative teammate ranking rather than an absolute co-occurrence rate.
+    """
+    if total <= 0 or position <= 0:
+        return 0.0
+    return round(max(0.0, (total - position + 1) / total), 5)
+
+
 class PikalyticsScraper(BaseScraper):
     """Scraper for Pokemon Champions ranked-ladder data (list API + AI markdown)."""
 
@@ -362,13 +382,26 @@ class PikalyticsScraper(BaseScraper):
         return rest or None
 
     def _parse_listapi_teammates(self, team: list) -> list[TeammateUsage]:
-        out: list[TeammateUsage] = []
+        """Parse list-API ``team`` rows into teammates.
+
+        These rows are ordered by co-occurrence rank but carry no ``percent``
+        field, so usage is derived from ordinal position (see ``_rank_to_usage``)
+        rather than parsed. Order is preserved; unresolvable names are dropped
+        before position assignment so the proxy stays dense.
+        """
+        ids: list[int] = []
+        seen: set[int] = set()
         for t in team:
             tname = t.get("pokemon", "")
             tid = self._to_int(t.get("id"), 0) or self._get_dex_id(tname)
-            if tid > 0:
-                out.append(TeammateUsage(id=tid, usage=_pct(t.get("percent"))))
-        return out
+            if tid > 0 and tid not in seen:
+                seen.add(tid)
+                ids.append(tid)
+        total = len(ids)
+        return [
+            TeammateUsage(id=tid, usage=_rank_to_usage(pos, total))
+            for pos, tid in enumerate(ids, start=1)
+        ]
 
     def _parse_listapi_moves(self, moves: list) -> list[MoveUsage]:
         out: list[MoveUsage] = []
@@ -409,24 +442,30 @@ class PikalyticsScraper(BaseScraper):
     def _parse_markdown_teammates(self, markdown: str) -> list[TeammateUsage]:
         """Parse the 'Common Teammates' section.
 
-        On the ranked-ladder feed the AI markdown often reports teammate usage
-        as 'undefined%' (the real percentages live in the list API). We still
-        want the teammate set + ordering, so we accept both numeric and
-        'undefined' percentages, defaulting the latter to usage=0.0 while
-        preserving the source order (most common first).
+        On the Champions feed the AI markdown reports teammate usage as
+        'undefined%' (Pikalytics does not expose teammate co-occurrence rates
+        for this format). We preserve the source order (most common first) and
+        derive a rank-based usage proxy (see ``_rank_to_usage``) so teammates
+        carry a meaningful, strictly-decreasing signal instead of collapsing to
+        0.0. If a real numeric percent is ever present we use it verbatim.
         """
-        out: list[TeammateUsage] = []
         section = self._extract_section(markdown, "Common Teammates")
         if not section:
-            return out
+            return []
         seen: set[int] = set()
+        parsed: list[tuple[int, Optional[float]]] = []
         pattern = r"\*\*([^*]+)\*\*:\s*([\d.]+|undefined)%"
         for tname, pct in re.findall(pattern, section):
             tid = self._get_dex_id(tname.strip())
             if tid <= 0 or tid in seen:
                 continue
             seen.add(tid)
-            usage = 0.0 if pct == "undefined" else min(1.0, float(pct) / 100)
+            real = None if pct == "undefined" else min(1.0, float(pct) / 100)
+            parsed.append((tid, real))
+        total = len(parsed)
+        out: list[TeammateUsage] = []
+        for pos, (tid, real) in enumerate(parsed, start=1):
+            usage = real if real is not None else _rank_to_usage(pos, total)
             out.append(TeammateUsage(id=tid, usage=usage))
         return out
 
