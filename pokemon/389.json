@@ -3,9 +3,9 @@
   "name": "Torterra",
   "form": null,
   "competitive": {
-    "usage_rank": 151,
-    "usage_rate": 0.00015136414020511005,
-    "win_rate": 0.4307692307692308,
+    "usage_rank": 188,
+    "usage_rate": 5.88688237773534e-05,
+    "win_rate": 0.44,
     "moves": [
       {
         "id": 838,

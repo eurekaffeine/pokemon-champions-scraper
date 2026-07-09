@@ -3,9 +3,9 @@
   "name": "Flareon",
   "form": null,
   "competitive": {
-    "usage_rank": 202,
-    "usage_rate": 1.1643395400393081e-05,
-    "win_rate": 0.6,
+    "usage_rank": 207,
+    "usage_rate": 0.0,
+    "win_rate": null,
     "moves": [
       {
         "id": 182,

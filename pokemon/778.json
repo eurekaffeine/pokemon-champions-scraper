@@ -3,9 +3,9 @@
   "name": "Mimikyu",
   "form": null,
   "competitive": {
-    "usage_rank": 77,
-    "usage_rate": 0.001322689717484654,
-    "win_rate": 0.4515845070422535,
+    "usage_rank": 79,
+    "usage_rate": 0.0011397004283295617,
+    "win_rate": 0.41838842975206614,
     "moves": [
       {
         "id": 583,

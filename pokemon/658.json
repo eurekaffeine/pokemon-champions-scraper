@@ -3,9 +3,9 @@
   "name": "Greninja",
   "form": null,
   "competitive": {
-    "usage_rank": 98,
-    "usage_rate": 0.000582169770019654,
-    "win_rate": 0.366,
+    "usage_rank": 94,
+    "usage_rate": 0.0007040711323771467,
+    "win_rate": 0.342809364548495,
     "moves": [
       {
         "id": 58,

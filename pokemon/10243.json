@@ -3,9 +3,9 @@
   "name": "Avalugg-Hisui",
   "form": "hisui",
   "competitive": {
-    "usage_rank": 208,
-    "usage_rate": 0.0,
-    "win_rate": null,
+    "usage_rank": 203,
+    "usage_rate": 7.0642588532824076e-06,
+    "win_rate": 0.0,
     "moves": [
       {
         "id": 776,

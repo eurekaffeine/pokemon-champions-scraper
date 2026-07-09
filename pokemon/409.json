@@ -3,9 +3,9 @@
   "name": "Rampardos",
   "form": null,
   "competitive": {
-    "usage_rank": 171,
-    "usage_rate": 9.780452136330188e-05,
-    "win_rate": 0.30952380952380953,
+    "usage_rank": 153,
+    "usage_rate": 0.0001507041888700247,
+    "win_rate": 0.328125,
     "moves": [
       {
         "id": 157,

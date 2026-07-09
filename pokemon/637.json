@@ -3,9 +3,9 @@
   "name": "Volcarona",
   "form": null,
   "competitive": {
-    "usage_rank": 78,
-    "usage_rate": 0.0012784448149631602,
-    "win_rate": 0.4899817850637523,
+    "usage_rank": 76,
+    "usage_rate": 0.0012056335109601976,
+    "win_rate": 0.4931640625,
     "moves": [
       {
         "id": 257,

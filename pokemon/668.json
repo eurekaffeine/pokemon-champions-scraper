@@ -3,9 +3,9 @@
   "name": "Pyroar",
   "form": null,
   "competitive": {
-    "usage_rank": 49,
-    "usage_rate": 0.00371890049088555,
-    "win_rate": 0.5300563556668754,
+    "usage_rank": 40,
+    "usage_rate": 0.004944981197297685,
+    "win_rate": 0.5211904761904762,
     "moves": [
       {
         "id": 257,

@@ -3,9 +3,9 @@
   "name": "Barbaracle",
   "form": null,
   "competitive": {
-    "usage_rank": 133,
-    "usage_rate": 0.000260812056968805,
-    "win_rate": 0.44642857142857145,
+    "usage_rank": 125,
+    "usage_rate": 0.0003202464013488025,
+    "win_rate": 0.45588235294117646,
     "moves": [
       {
         "id": 157,
