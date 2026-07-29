@@ -19,6 +19,7 @@ import httpx
 
 from src.models.schema import (
     AbilityUsage,
+    EVSpread,
     ItemUsage,
     MoveUsage,
     PokemonUsage,
@@ -29,6 +30,7 @@ from src.name_resolver import (
     resolve_ability_id,
     resolve_item_id,
     resolve_move_id,
+    resolve_nature_id,
     resolve_pokemon_id,
 )
 from src.scrapers.base import BaseScraper, ParseError
@@ -127,6 +129,32 @@ def _form_slug(name: str) -> Optional[str]:
     return name.partition("-")[2].strip().lower() or None
 
 
+def _normalized_spreads(values: dict, denominator: float) -> list[EVSpread]:
+    """Normalize Showdown ``Nature:HP/Atk/Def/SpA/SpD/Spe`` spreads."""
+    if denominator <= 0 or not isinstance(values, dict):
+        return []
+    result: list[EVSpread] = []
+    for raw_spread, weight in sorted(values.items(), key=lambda item: item[1], reverse=True):
+        nature, separator, evs = raw_spread.partition(":")
+        nature_id = resolve_nature_id(nature)
+        if not separator or nature_id <= 0 or not re.fullmatch(r"\d+(?:/\d+){5}", evs):
+            continue
+        try:
+            usage = min(1.0, max(0.0, float(weight) / denominator))
+        except (TypeError, ValueError):
+            continue
+        if usage > 0:
+            result.append(
+                EVSpread(
+                    nature_id=nature_id,
+                    nature=nature,
+                    evs=evs,
+                    usage=usage,
+                )
+            )
+    return result
+
+
 class SmogonSinglesScraper(BaseScraper):
     """Scrape Champions Regulation M-B singles from Smogon monthly stats."""
 
@@ -154,23 +182,36 @@ class SmogonSinglesScraper(BaseScraper):
             f"{SINGLES_FORMAT_CODE}-{SINGLES_CUTOFF}.json"
         )
 
-    async def _snapshot_exists(self, month: str) -> bool:
+    async def _snapshot_exists(self, month: str, include_details: bool = True) -> bool:
+        """Return false only for a confirmed absent (404) snapshot.
+
+        Network failures, rate limits, and server failures abort discovery so a
+        transient outage cannot silently select and publish an older month.
+        """
         headers = {"User-Agent": self.user_agent}
         async with httpx.AsyncClient(timeout=self.timeout_seconds, follow_redirects=True) as client:
-            for url in (self._ranking_url(month), self._chaos_url(month)):
+            urls = [self._ranking_url(month)]
+            if include_details:
+                urls.append(self._chaos_url(month))
+            for url in urls:
                 try:
                     response = await client.head(url, headers=headers)
-                    if response.status_code != 200:
+                    if response.status_code == 404:
                         return False
-                except httpx.HTTPError:
-                    return False
+                    response.raise_for_status()
+                except httpx.HTTPError as exc:
+                    raise ParseError(
+                        f"Could not safely discover Smogon snapshot {month}: {exc}"
+                    ) from exc
         return True
 
-    async def scrape_season(self) -> Optional[SmogonSeasonInfo]:
+    async def scrape_season(
+        self, include_details: bool = True
+    ) -> Optional[SmogonSeasonInfo]:
         if self._season_info is not None:
             return self._season_info
         for month in _month_candidates():
-            if await self._snapshot_exists(month):
+            if await self._snapshot_exists(month, include_details=include_details):
                 self._season_info = SmogonSeasonInfo(data_date=month)
                 return self._season_info
         raise ParseError(
@@ -191,14 +232,16 @@ class SmogonSinglesScraper(BaseScraper):
             end_date=None,
         )
 
-    async def _load_snapshot(self) -> tuple[list[RankingRow], dict]:
-        info = await self.scrape_season()
+    async def _load_snapshot(
+        self, include_details: bool = True
+    ) -> tuple[list[RankingRow], dict]:
+        info = await self.scrape_season(include_details=include_details)
         if info is None:
             raise ParseError("Smogon singles season metadata is unavailable")
 
         if self._ranking_text is None:
             self._ranking_text = await self._fetch(self._ranking_url(info.data_date))
-        if self._chaos_data is None:
+        if include_details and self._chaos_data is None:
             raw = await self._fetch(self._chaos_url(info.data_date))
             try:
                 payload = json.loads(raw)
@@ -218,7 +261,7 @@ class SmogonSinglesScraper(BaseScraper):
                 battle_count=int(chaos_info.get("number of battles", 0)),
             )
 
-        return parse_rankings(self._ranking_text), self._chaos_data
+        return parse_rankings(self._ranking_text), self._chaos_data or {}
 
     @staticmethod
     def _canonical_name(names: list[str]) -> str:
@@ -275,10 +318,16 @@ class SmogonSinglesScraper(BaseScraper):
                 resolve_pokemon_id,
                 TeammateUsage,
             ),
+            top_spreads=_normalized_spreads(
+                self._sum_distributions(records, "Spreads"),
+                denominator,
+            ),
         )
 
-    async def scrape_rankings(self, limit: int = 400) -> list[PokemonUsage]:
-        ranking_rows, chaos = await self._load_snapshot()
+    async def _scrape_rankings(
+        self, limit: int = 400, include_details: bool = True
+    ) -> list[PokemonUsage]:
+        ranking_rows, chaos = await self._load_snapshot(include_details=include_details)
 
         grouped_rows: dict[int, list[RankingRow]] = defaultdict(list)
         unresolved: list[str] = []
@@ -292,10 +341,18 @@ class SmogonSinglesScraper(BaseScraper):
             raise ParseError(f"Unresolved Smogon Pokémon names: {', '.join(unresolved)}")
 
         grouped_chaos: dict[int, list[tuple[str, dict]]] = defaultdict(list)
+        unresolved_chaos: list[str] = []
         for name, record in chaos.items():
             dex_id = resolve_pokemon_id(name)
             if dex_id > 0:
                 grouped_chaos[dex_id].append((name, record))
+            elif float(record.get("Raw count", 0) or 0) > 0:
+                unresolved_chaos.append(name)
+        if unresolved_chaos:
+            raise ParseError(
+                "Unresolved Smogon Chaos Pokémon names: "
+                + ", ".join(unresolved_chaos)
+            )
 
         combined: list[PokemonUsage] = []
         self._details_by_name.clear()
@@ -305,8 +362,18 @@ class SmogonSinglesScraper(BaseScraper):
             chaos_records = grouped_chaos.get(dex_id, [])
             detail_names = [name for name, _ in chaos_records] or names
             detail_records = [record for _, record in chaos_records]
-            detail = self._build_details(detail_names, detail_records, dex_id)
-            pokemon = detail.model_copy(update={"usage_rate": usage_rate})
+            if include_details:
+                detail = self._build_details(detail_names, detail_records, dex_id)
+                pokemon = detail.model_copy(update={"usage_rate": usage_rate})
+            else:
+                canonical_name = self._canonical_name(names)
+                pokemon = PokemonUsage(
+                    rank=0,
+                    dex_id=dex_id,
+                    name=canonical_name,
+                    form=_form_slug(canonical_name),
+                    usage_rate=usage_rate,
+                )
             combined.append(pokemon)
 
         combined.sort(key=lambda pokemon: (-pokemon.usage_rate, pokemon.name))
@@ -322,6 +389,27 @@ class SmogonSinglesScraper(BaseScraper):
             len(ranking_rows),
         )
         return ranked
+
+    async def scrape_rankings(self, limit: int = 400) -> list[PokemonUsage]:
+        return await self._scrape_rankings(limit=limit, include_details=True)
+
+    async def scrape(
+        self, limit: int = 400, include_details: bool = True
+    ) -> list[PokemonUsage]:
+        """Load one ranking file and, when requested, one Chaos file."""
+        import time
+
+        start_time = time.time()
+        self.reset_stats()
+        try:
+            result = await self._scrape_rankings(
+                limit=limit,
+                include_details=include_details,
+            )
+            self._stats.pokemon_scraped = len(result)
+            return result
+        finally:
+            self._stats.total_time_ms = (time.time() - start_time) * 1000
 
     async def scrape_pokemon_detail(self, name: str) -> Optional[PokemonUsage]:
         # All details are loaded in the single Chaos snapshot request.
