@@ -62,10 +62,22 @@ jobs:
           set +e
           LIMIT=${{ github.event.inputs.limit || '250' }}
           
-          echo "Running scraper with limit=${LIMIT}..."
-          python -m src.main scrape --limit ${LIMIT} --output output 2>&1 | tee scrape.log
-          
-          SCRAPE_EXIT_CODE=${PIPESTATUS[0]}
+          echo "Running doubles scraper with limit=${LIMIT}..."
+          python -m src.main scrape --format doubles --limit ${LIMIT} --output output 2>&1 | tee scrape.log
+          DOUBLES_EXIT_CODE=${PIPESTATUS[0]}
+
+          # Singles has more distinct battle forms than doubles. Always publish
+          # the complete asset-safe set rather than truncating it to the
+          # workflow's legacy doubles limit.
+          echo "Running complete singles scraper..."
+          python -m src.main scrape --format singles --limit 400 --output output/singles 2>&1 | tee -a scrape.log
+          SINGLES_EXIT_CODE=${PIPESTATUS[0]}
+
+          if [ $DOUBLES_EXIT_CODE -eq 0 ] && [ $SINGLES_EXIT_CODE -eq 0 ]; then
+            SCRAPE_EXIT_CODE=0
+          else
+            SCRAPE_EXIT_CODE=1
+          fi
           
           if [ $SCRAPE_EXIT_CODE -eq 0 ]; then
             echo "status=success" >> $GITHUB_OUTPUT
@@ -88,6 +100,7 @@ jobs:
         run: |
           echo "Running ID audit against Pokédex-Assets mappings..."
           python scripts/audit_ids.py output/battle_meta.json src/data/name_mappings.json
+          python scripts/audit_ids.py output/singles/battle_meta.json src/data/name_mappings.json
 
       - name: Upload scrape logs
         if: always()
@@ -148,15 +161,21 @@ jobs:
             
             <h2>Endpoints</h2>
             <div class="endpoint">
-              <strong>GET</strong> <a href="./battle_meta.json">battle_meta.json</a>
+              <strong>GET</strong> <a href="./battle_meta.json">battle_meta.json</a> (Doubles, legacy-compatible)
+            </div>
+            <div class="endpoint">
+              <strong>GET</strong> <a href="./singles/battle_meta.json">singles/battle_meta.json</a> (Singles)
             </div>
             <p>Returns full competitive metadata including usage stats, moves, items, and tier lists.</p>
-            
+
             <h2>Per-Pokémon Data</h2>
             <div class="endpoint">
-              <strong>GET</strong> <code>pokemon/{dex_id}.json</code>
+              <strong>GET</strong> <code>pokemon/{dex_id}.json</code> (Doubles)
             </div>
-            <p>Individual Pokémon competitive data. Example: <a href="./pokemon/445.json">pokemon/445.json</a> (Garchomp)</p>
+            <div class="endpoint">
+              <strong>GET</strong> <code>singles/pokemon/{dex_id}.json</code> (Singles)
+            </div>
+            <p>Individual Pokémon competitive data. Example: <a href="./pokemon/445.json">pokemon/445.json</a> (Garchomp doubles)</p>
             
             <h2>Usage</h2>
             <pre><code>fetch('https://your-domain/battle_meta.json')

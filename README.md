@@ -5,8 +5,10 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 ## 🎯 Live API
 
 - **Landing Page:** https://eurekaffeine.github.io/pokemon-champions-scraper/
-- **Battle Meta:** https://eurekaffeine.github.io/pokemon-champions-scraper/battle_meta.json
-- **Per-Pokémon:** https://eurekaffeine.github.io/pokemon-champions-scraper/pokemon/{dex_id}.json
+- **Doubles Battle Meta (existing):** https://eurekaffeine.github.io/pokemon-champions-scraper/battle_meta.json
+- **Doubles Per-Pokémon (existing):** https://eurekaffeine.github.io/pokemon-champions-scraper/pokemon/{dex_id}.json
+- **Singles Battle Meta:** https://eurekaffeine.github.io/pokemon-champions-scraper/singles/battle_meta.json
+- **Singles Per-Pokémon:** https://eurekaffeine.github.io/pokemon-champions-scraper/singles/pokemon/{dex_id}.json
 
 ## Features
 
@@ -37,10 +39,15 @@ cd pokemon-champions-scraper
 # Install dependencies
 pip install -r requirements.txt
 
-# Run scraper (default: 200 Pokémon)
-python -m src.main scrape --limit 200
+# Existing doubles output (URLs remain backward-compatible)
+python -m src.main scrape --format doubles --limit 200 --output output
 
-# Output in ./output/battle_meta.json
+# New Battle Stadium Singles output
+python -m src.main scrape --format singles --limit 400 --output output/singles
+
+# Outputs:
+#   ./output/battle_meta.json          (doubles)
+#   ./output/singles/battle_meta.json  (singles)
 ```
 
 ## CLI Usage
@@ -65,9 +72,11 @@ python -m src.main test-scraper --source pikalytics
 python -m src.main validate output/battle_meta.json
 ```
 
-## Data Source
+## Data Sources
 
-This scraper reads the Pokémon Champions **ranked-ladder** feed that Pikalytics
+### Doubles (existing URLs)
+
+The doubles scraper reads the Pokémon Champions **ranked-ladder** feed that Pikalytics
 labels *"Regulation Set M-B S3 Ranked Battle Data"* (format code
 `battledataregmbs3`). We use the ranked-ladder feed rather than the
 `championstournaments` tournament feed because it:
@@ -108,6 +117,17 @@ is not monotonic with the game count.
 `data_date` field). The scraper runs daily to catch month rollovers. It refuses
 to fall back to the current wall-clock month, since that month is frequently
 empty and would otherwise overwrite good data.
+
+### Singles
+
+Singles uses the monthly Pokémon Showdown/Smogon statistics format
+`gen9championsbssregmb` at the 1760 rating cutoff. The ranking text supplies
+exact rank and weighted usage; the Chaos JSON supplies moves, items, abilities,
+spreads, and teammate percentages. The scraper selects the newest completed
+month for which both files are available.
+
+Singles is published additively under `/singles/`. The legacy root paths remain
+doubles so existing app versions continue to receive the same format.
 
 ## Output Schema
 
@@ -179,8 +199,10 @@ Uses **ID-only format** for localization:
 
 | Endpoint | Description |
 |----------|-------------|
-| `GET /battle_meta.json` | Overview with all Pokémon rankings |
-| `GET /pokemon/{dex_id}.json` | Detailed competitive data for one Pokémon |
+| `GET /battle_meta.json` | Doubles overview (existing contract) |
+| `GET /pokemon/{dex_id}.json` | Doubles details (existing contract) |
+| `GET /singles/battle_meta.json` | Singles overview |
+| `GET /singles/pokemon/{dex_id}.json` | Singles details |
 
 ### Example: Fetch Incineroar Data
 

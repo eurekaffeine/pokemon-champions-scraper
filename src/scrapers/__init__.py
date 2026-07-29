@@ -3,6 +3,7 @@
 
 from .base import BaseScraper, ScraperError, ParseError, RateLimitError, CircuitBreakerOpenError, ScrapeStats
 from .pikalytics import PikalyticsScraper
+from .smogon import SmogonSinglesScraper
 from .opgg import OPGGScraper
 
 __all__ = [
@@ -13,5 +14,6 @@ __all__ = [
     "CircuitBreakerOpenError",
     "ScrapeStats",
     "PikalyticsScraper",
+    "SmogonSinglesScraper",
     "OPGGScraper",
 ]

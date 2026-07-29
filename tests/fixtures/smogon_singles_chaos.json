@@ -1,0 +1,43 @@
+{
+  "info": {
+    "metagame": "gen9championsbssregmb",
+    "cutoff": 1760,
+    "cutoff deviation": 0,
+    "team type": null,
+    "number of battles": 66070
+  },
+  "data": {
+    "Garchomp": {
+      "Raw count": 1000,
+      "Abilities": {"roughskin": 90.0, "sandveil": 10.0},
+      "Items": {"sitrusberry": 60.0, "focussash": 40.0},
+      "Spreads": {"Jolly:2/32/0/0/0/32": 70.0, "Adamant:2/32/0/0/0/32": 30.0},
+      "Moves": {"earthquake": 99.0, "stealthrock": 60.0, "outrage": 50.0, "rocktomb": 40.0},
+      "Teammates": {"Mimikyu": 40.0, "Archaludon": 30.0}
+    },
+    "Garchomp-Mega": {
+      "Raw count": 100,
+      "Abilities": {"sandforce": 10.0},
+      "Items": {"garchompite": 10.0},
+      "Spreads": {"Jolly:2/32/0/0/0/32": 10.0},
+      "Moves": {"earthquake": 10.0, "dragonclaw": 8.0},
+      "Teammates": {"Mimikyu": 4.0}
+    },
+    "Gourgeist-Super": {
+      "Raw count": 20,
+      "Abilities": {"frisk": 2.0},
+      "Items": {"leftovers": 2.0},
+      "Spreads": {},
+      "Moves": {"shadowball": 2.0},
+      "Teammates": {"Garchomp": 1.0}
+    },
+    "Gourgeist": {
+      "Raw count": 10,
+      "Abilities": {"frisk": 1.0},
+      "Items": {"leftovers": 1.0},
+      "Spreads": {},
+      "Moves": {"shadowball": 1.0},
+      "Teammates": {"Garchomp": 0.5}
+    }
+  }
+}
