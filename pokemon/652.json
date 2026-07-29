@@ -3,9 +3,9 @@
   "name": "Chesnaught",
   "form": null,
   "competitive": {
-    "usage_rank": 120,
-    "usage_rate": 0.0003532129426641204,
-    "win_rate": 0.4866666666666667,
+    "usage_rank": 107,
+    "usage_rate": 0.0007167202463006511,
+    "win_rate": 0.41788321167883213,
     "moves": [
       {
         "id": 596,

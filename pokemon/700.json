@@ -3,9 +3,9 @@
   "name": "Sylveon",
   "form": null,
   "competitive": {
-    "usage_rank": 13,
-    "usage_rate": 0.026822990865913304,
-    "win_rate": 0.501975243613379,
+    "usage_rank": 10,
+    "usage_rate": 0.030081324206049222,
+    "win_rate": 0.4802173913043478,
     "moves": [
       {
         "id": 304,

@@ -3,9 +3,9 @@
   "name": "Jolteon",
   "form": null,
   "competitive": {
-    "usage_rank": 119,
-    "usage_rate": 0.0003649867074195911,
-    "win_rate": 0.32903225806451614,
+    "usage_rank": 129,
+    "usage_rate": 0.0005388480683866209,
+    "win_rate": 0.33980582524271846,
     "moves": [
       {
         "id": 804,

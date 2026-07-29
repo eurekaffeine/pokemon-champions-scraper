@@ -3,9 +3,9 @@
   "name": "Beartic",
   "form": null,
   "competitive": {
-    "usage_rank": 181,
-    "usage_rate": 7.770684738610649e-05,
-    "win_rate": 0.45454545454545453,
+    "usage_rank": 190,
+    "usage_rate": 0.00010724646021287114,
+    "win_rate": 0.3902439024390244,
     "moves": [
       {
         "id": 157,

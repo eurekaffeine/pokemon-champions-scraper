@@ -3,9 +3,9 @@
   "name": "Ariados",
   "form": null,
   "competitive": {
-    "usage_rank": 178,
-    "usage_rate": 9.18353650926713e-05,
-    "win_rate": 0.46153846153846156,
+    "usage_rank": 137,
+    "usage_rate": 0.0004237543062069543,
+    "win_rate": 0.5370370370370371,
     "moves": [
       {
         "id": 182,

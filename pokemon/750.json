@@ -3,9 +3,9 @@
   "name": "Mudsdale",
   "form": null,
   "competitive": {
-    "usage_rank": 128,
-    "usage_rate": 0.00029905362478895524,
-    "win_rate": 0.4409448818897638,
+    "usage_rank": 127,
+    "usage_rate": 0.0005493111376756814,
+    "win_rate": 0.49523809523809526,
     "moves": [
       {
         "id": 182,

@@ -3,9 +3,9 @@
   "name": "Roserade",
   "form": null,
   "competitive": {
-    "usage_rank": 195,
-    "usage_rate": 3.532129426641204e-05,
-    "win_rate": 0.6666666666666666,
+    "usage_rank": 188,
+    "usage_rate": 0.00011247799485740144,
+    "win_rate": 0.46511627906976744,
     "moves": [
       {
         "id": 182,

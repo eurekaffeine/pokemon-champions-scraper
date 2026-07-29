@@ -3,9 +3,9 @@
   "name": "Meowscarada",
   "form": null,
   "competitive": {
-    "usage_rank": 65,
-    "usage_rate": 0.0019308974198971914,
-    "win_rate": 0.4140243902439024,
+    "usage_rank": 60,
+    "usage_rate": 0.002359422124683165,
+    "win_rate": 0.41019955654101997,
     "moves": [
       {
         "id": 870,

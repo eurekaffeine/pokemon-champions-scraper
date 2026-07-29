@@ -3,9 +3,9 @@
   "name": "Diggersby",
   "form": null,
   "competitive": {
-    "usage_rank": 202,
-    "usage_rate": 9.419011804376543e-06,
-    "win_rate": 0.0,
+    "usage_rank": 176,
+    "usage_rate": 0.00019095101452535593,
+    "win_rate": 0.4246575342465753,
     "moves": [
       {
         "id": 157,

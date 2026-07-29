@@ -3,9 +3,9 @@
   "name": "Tauros-Paldea-Blaze",
   "form": "paldea-blaze",
   "competitive": {
-    "usage_rank": 205,
-    "usage_rate": 0.0,
-    "win_rate": null,
+    "usage_rank": 202,
+    "usage_rate": 2.8773440544916648e-05,
+    "win_rate": 0.4090909090909091,
     "moves": [
       {
         "id": 370,

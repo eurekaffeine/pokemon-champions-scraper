@@ -3,9 +3,9 @@
   "name": "Torkoal",
   "form": null,
   "competitive": {
-    "usage_rank": 24,
-    "usage_rate": 0.01138052101263796,
-    "win_rate": 0.4849989654458928,
+    "usage_rank": 26,
+    "usage_rate": 0.010423832779226622,
+    "win_rate": 0.45671267252195735,
     "moves": [
       {
         "id": 284,

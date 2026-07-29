@@ -3,9 +3,9 @@
   "name": "Camerupt",
   "form": null,
   "competitive": {
-    "usage_rank": 68,
-    "usage_rate": 0.001627134289206048,
-    "win_rate": 0.4710564399421129,
+    "usage_rank": 59,
+    "usage_rate": 0.0023620378920054304,
+    "win_rate": 0.4418604651162791,
     "moves": [
       {
         "id": 414,

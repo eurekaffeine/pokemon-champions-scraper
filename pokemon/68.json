@@ -3,9 +3,9 @@
   "name": "Machamp",
   "form": null,
   "competitive": {
-    "usage_rank": 134,
-    "usage_rate": 0.0002543133187181667,
-    "win_rate": 0.23148148148148148,
+    "usage_rank": 145,
+    "usage_rate": 0.0003740547270839164,
+    "win_rate": 0.32167832167832167,
     "moves": [
       {
         "id": 444,

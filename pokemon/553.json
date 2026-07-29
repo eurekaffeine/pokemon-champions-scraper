@@ -3,9 +3,9 @@
   "name": "Krookodile",
   "form": null,
   "competitive": {
-    "usage_rank": 160,
-    "usage_rate": 0.00013422091821236576,
-    "win_rate": 0.47368421052631576,
+    "usage_rank": 104,
+    "usage_rate": 0.0007585725234568935,
+    "win_rate": 0.496551724137931,
     "moves": [
       {
         "id": 282,

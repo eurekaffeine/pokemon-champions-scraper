@@ -3,9 +3,9 @@
   "name": "Vanilluxe",
   "form": null,
   "competitive": {
-    "usage_rank": 106,
-    "usage_rate": 0.00048743386087648615,
-    "win_rate": 0.4492753623188406,
+    "usage_rank": 88,
+    "usage_rate": 0.001030612324972469,
+    "win_rate": 0.4733502538071066,
     "moves": [
       {
         "id": 59,

@@ -3,9 +3,9 @@
   "name": "Goodra",
   "form": null,
   "competitive": {
-    "usage_rank": 189,
-    "usage_rate": 5.415931787516513e-05,
-    "win_rate": 0.2608695652173913,
+    "usage_rank": 184,
+    "usage_rate": 0.0001517145046913787,
+    "win_rate": 0.27586206896551724,
     "moves": [
       {
         "id": 58,

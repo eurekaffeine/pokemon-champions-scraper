@@ -3,9 +3,9 @@
   "name": "Milotic",
   "form": null,
   "competitive": {
-    "usage_rank": 32,
-    "usage_rate": 0.00788606763321426,
-    "win_rate": 0.4795461331740818,
+    "usage_rank": 24,
+    "usage_rate": 0.01283557025035509,
+    "win_rate": 0.49582229468106787,
     "moves": [
       {
         "id": 503,

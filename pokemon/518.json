@@ -3,9 +3,9 @@
   "name": "Musharna",
   "form": null,
   "competitive": {
-    "usage_rank": 175,
-    "usage_rate": 9.654487099485957e-05,
-    "win_rate": 0.3902439024390244,
+    "usage_rank": 167,
+    "usage_rate": 0.0002197244550702726,
+    "win_rate": 0.42857142857142855,
     "moves": [
       {
         "id": 433,
