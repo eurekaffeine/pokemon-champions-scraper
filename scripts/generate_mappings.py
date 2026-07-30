@@ -117,13 +117,45 @@ def generate_mappings(assets_path: Path) -> dict:
     pokemon_data = load_translation_file(translations_path / 'pokemon-names-translation.json')
     mappings['pokemon'] = extract_english_to_id(pokemon_data)
     
-    # Add mega/gmax/form variants
-    for variant_file in ['mega-names-translation.json', 'gmax-names-translation.json', 
+    # Add mega/gmax/form variants from translations.
+    for variant_file in ['mega-names-translation.json', 'gmax-names-translation.json',
                           'form-changing-names-translation.json']:
         variant_data = load_translation_file(translations_path / variant_file)
         variant_mappings = extract_english_to_id(variant_data)
         mappings['pokemon'].update(variant_mappings)
-    
+
+    # The English Mega translations use display names such as "MegaGarchomp",
+    # while Pokémon Showdown uses battle identifiers such as "Garchomp-Mega".
+    # Add the canonical battle-form names from the asset manifest so both forms
+    # resolve to the same Pocket Gallery asset ID.
+    mega_manifest = load_translation_file(assets_path / 'pokedex' / 'pokedex-mega.json')
+    if isinstance(mega_manifest, list):
+        for entry in mega_manifest:
+            try:
+                variant_id = int(entry.get('id', 0))
+                variant_name = entry.get('name', '')
+            except (TypeError, ValueError):
+                continue
+            if variant_id > 0 and variant_name:
+                mappings['pokemon'][normalize_name(variant_name)] = variant_id
+
+    # Showdown aliases that do not have a one-to-one localized asset name.
+    # Gourgeist sizes intentionally share the base app asset; the scraper
+    # aggregates their usage before writing a single file. Showdown's male
+    # Mega Meowstic spelling maps to the one Mega Meowstic asset.
+    mappings['pokemon'].update({
+        'gourgeist-super': mappings['pokemon'].get('gourgeist', 0),
+        'gourgeist-small': mappings['pokemon'].get('gourgeist', 0),
+        'gourgeist-large': mappings['pokemon'].get('gourgeist', 0),
+        'meowstic-m-mega': mappings['pokemon'].get('meowstic-mega', 0)
+            or mappings['pokemon'].get('megameowstic', 0),
+    })
+    mappings['pokemon'] = {
+        name: pokemon_id
+        for name, pokemon_id in mappings['pokemon'].items()
+        if pokemon_id > 0
+    }
+
     print(f"Loaded {len(mappings['pokemon'])} pokemon mappings")
     
     return mappings

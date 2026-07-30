@@ -15,6 +15,7 @@ import yaml
 from src.models.schema import BattleMeta, Season, SourceInfo, TierList
 from src.scrapers.base import BaseScraper, ScrapeStats
 from src.scrapers.pikalytics import PikalyticsScraper
+from src.scrapers.smogon import SmogonSinglesScraper
 from src.scrapers.opgg import OPGGScraper
 from src.merge import merge_scraped_data
 from src.output import write_battle_meta, write_pokemon_files, validate_output
@@ -23,6 +24,7 @@ from src.output import write_battle_meta, write_pokemon_files, validate_output
 # Available scrapers registry
 SCRAPERS = {
     "pikalytics": PikalyticsScraper,
+    "smogon": SmogonSinglesScraper,
     "opgg": OPGGScraper,
 }
 
@@ -209,6 +211,14 @@ def cli(ctx, config: Path, log_level: str, json_logs: bool):
 
 @cli.command()
 @click.option("--limit", "-l", default=50, help="Number of Pokémon to scrape")
+@click.option(
+    "--format",
+    "format_name",
+    type=click.Choice(["doubles", "singles"]),
+    default="doubles",
+    show_default=True,
+    help="Competitive format to publish",
+)
 @click.option("--details/--no-details", default=True, help="Scrape per-Pokémon details")
 @click.option("--output", "-o", type=click.Path(path_type=Path), default=Path("output"), help="Output directory")
 @click.option("--per-pokemon/--no-per-pokemon", default=True, help="Write per-Pokémon JSON files")
@@ -224,6 +234,7 @@ def cli(ctx, config: Path, log_level: str, json_logs: bool):
 def scrape(
     ctx,
     limit: int,
+    format_name: str,
     details: bool,
     output: Path,
     per_pokemon: bool,
@@ -236,9 +247,17 @@ def scrape(
     logger = ctx.obj["logger"]
     scraper_config = config.get("scraper", {})
     
-    # Get enabled sources
-    sources = get_enabled_sources(config, source)
-    logger.info(f"Starting scrape with sources: {', '.join(sources)}")
+    # Singles is a distinct metagame, not another source to merge with doubles.
+    # Keep doubles' existing config/source behavior untouched for compatibility.
+    if format_name == "singles":
+        if source not in (None, "smogon"):
+            raise click.ClickException("Singles currently requires --source smogon")
+        sources = ["smogon"]
+    else:
+        if source == "smogon":
+            raise click.ClickException("Smogon source is currently singles-only")
+        sources = get_enabled_sources(config, source)
+    logger.info(f"Starting {format_name} scrape with sources: {', '.join(sources)}")
     logger.info(f"  Limit: {limit}, Details: {details}, Merge: {merge}")
     
     async def run_scrape():
@@ -325,14 +344,24 @@ def scrape(
                 "Season metadata unavailable; emitting fallback season so the "
                 "output stays decodable by clients that require a season."
             )
-            season_model = Season(
-                id="regmb-s3",
-                name="Regulation Set M-B S3",
-                format_code="battledataregmbs3",
-                data_date=f"{now.year}-{now.month:02d}",
-                start_date=now.date().replace(day=1),
-                end_date=None,
-            )
+            if format_name == "singles":
+                season_model = Season(
+                    id="champions-bss-regmb",
+                    name="Battle Stadium Singles Regulation Set M-B",
+                    format_code="gen9championsbssregmb",
+                    data_date=f"{now.year}-{now.month:02d}",
+                    start_date=now.date().replace(day=1),
+                    end_date=None,
+                )
+            else:
+                season_model = Season(
+                    id="regmb-s3",
+                    name="Regulation Set M-B S3",
+                    format_code="battledataregmbs3",
+                    data_date=f"{now.year}-{now.month:02d}",
+                    start_date=now.date().replace(day=1),
+                    end_date=None,
+                )
         battle_meta = BattleMeta(
             schema_version="1.0.0",
             updated_at=now,

@@ -47,6 +47,12 @@ jobs:
           else
             echo "No output/battle_meta.json found, skipping validation"
           fi
+          if [ -f output/singles/battle_meta.json ]; then
+            echo "Validating output/singles/battle_meta.json..."
+            python -m src.main validate output/singles/battle_meta.json
+          else
+            echo "No singles output committed, skipping existing-output validation"
+          fi
 
       - name: Type check with mypy (optional)
         continue-on-error: true
@@ -83,13 +89,13 @@ jobs:
 
       - name: Dry run scraper (limit 5)
         run: |
-          echo "Running scraper with limit=5 for validation..."
-          python -m src.main scrape --limit 5 --output output-test --no-per-pokemon
-          
-          if [ -f output-test/battle_meta.json ]; then
-            echo "✓ Dry run successful"
-            python -m src.main validate output-test/battle_meta.json
-          else
-            echo "✗ Dry run failed - no output generated"
-            exit 1
-          fi
+          echo "Running doubles scraper with limit=5 for validation..."
+          python -m src.main scrape --format doubles --limit 5 --output output-test --no-per-pokemon
+          echo "Running singles scraper with limit=5 for validation..."
+          python -m src.main scrape --format singles --limit 5 --output output-test/singles --no-per-pokemon
+
+          test -f output-test/battle_meta.json
+          test -f output-test/singles/battle_meta.json
+          python -m src.main validate output-test/battle_meta.json
+          python -m src.main validate output-test/singles/battle_meta.json
+          echo "✓ Doubles and singles dry runs successful"

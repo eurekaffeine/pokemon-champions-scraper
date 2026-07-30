@@ -1,14 +1,8 @@
-"""Tests for Mega/Gmax form fallback in NameResolver.
+"""Tests for battle-form resolution in NameResolver.
 
-Historically Pikalytics' `championstournaments` feed returned Mega forms
-(around 2026-05-16), which broke the ID audit (Mega forms were unresolved
-→ dex_id=0 → audit exit 1 → GH Pages deploy skipped).
-
-The scraper now reads the `battledataregmbs3` ranked-ladder feed, which does
-NOT emit Mega rows — so this fallback is defense-in-depth rather than load-
-bearing for the active feed. We keep these tests because the resolver still
-guarantees Mega/Gmax names degrade to their base form's National Pokédex
-number if such a name ever appears again.
+The doubles feed does not split Mega rows, but Smogon singles does. Canonical
+Mega forms must therefore resolve to their dedicated Pocket Gallery asset IDs.
+Unknown compound forms still degrade safely through the suffix fallback.
 """
 
 import pytest
@@ -24,33 +18,33 @@ def resolver():
 @pytest.mark.parametrize(
     "pikalytics_name,expected_dex_id",
     [
-        # Plain Mega → base
-        ("Charizard-Mega-X", 6),
-        ("Charizard-Mega-Y", 6),
-        ("Venusaur-Mega", 3),
-        ("Blastoise-Mega", 9),
-        ("Gyarados-Mega", 130),
-        ("Mewtwo-Mega-X", 150),
-        ("Mewtwo-Mega-Y", 150),
-        ("Gengar-Mega", 94),
-        ("Lucario-Mega", 448),
-        ("Garchomp-Mega", 445),
-        ("Tyranitar-Mega", 248),
-        ("Scizor-Mega", 212),
-        ("Gardevoir-Mega", 282),
-        ("Aggron-Mega", 306),
-        ("Rayquaza-Mega", 384),
+        # Canonical Mega names → dedicated app form IDs
+        ("Charizard-Mega-X", 10034),
+        ("Charizard-Mega-Y", 10035),
+        ("Venusaur-Mega", 10033),
+        ("Blastoise-Mega", 10036),
+        ("Gyarados-Mega", 10041),
+        ("Mewtwo-Mega-X", 10043),
+        ("Mewtwo-Mega-Y", 10044),
+        ("Gengar-Mega", 10038),
+        ("Lucario-Mega", 10059),
+        ("Garchomp-Mega", 10058),
+        ("Tyranitar-Mega", 10049),
+        ("Scizor-Mega", 10046),
+        ("Gardevoir-Mega", 10051),
+        ("Aggron-Mega", 10053),
+        ("Rayquaza-Mega", 10079),
         # Mega on a form that itself has an alias must still resolve.
         ("Floette-Eternal-Mega", 10061),
     ],
 )
-def test_mega_falls_back_to_base_dex_id(resolver, pikalytics_name, expected_dex_id):
+def test_mega_resolves_to_asset_id(resolver, pikalytics_name, expected_dex_id):
     assert resolver.get_pokemon_id(pikalytics_name) == expected_dex_id
 
 
 def test_module_level_helper(resolver):
     # Sanity check that the convenience function follows the same path.
-    assert resolve_pokemon_id("Charizard-Mega-Y") == 6
+    assert resolve_pokemon_id("Charizard-Mega-Y") == 10035
 
 
 def test_unknown_pokemon_still_returns_zero(resolver):

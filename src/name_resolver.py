@@ -46,21 +46,45 @@ class NameResolver:
     
     def __init__(self):
         self._mappings = _load_mappings()
+        self._compact_mappings: dict[str, dict[str, int]] = {}
+        for section in ("moves", "abilities", "items"):
+            compact: dict[str, int] = {}
+            ambiguous: set[str] = set()
+            for key, value in self._mappings.get(section, {}).items():
+                compact_key = re.sub(r'[^a-z0-9]', '', key)
+                if compact_key in compact and compact[compact_key] != value:
+                    ambiguous.add(compact_key)
+                else:
+                    compact[compact_key] = value
+            for key in ambiguous:
+                compact.pop(key, None)
+            self._compact_mappings[section] = compact
     
+    def _get_compact_id(self, section: str, english_name: str) -> int:
+        """Resolve compact Showdown IDs such as ``roughskin`` or ``uturn``."""
+        compact = re.sub(r'[^a-z0-9]', '', english_name.strip().lower())
+        return self._compact_mappings.get(section, {}).get(compact, 0)
+
     def get_move_id(self, english_name: str) -> int:
-        """Get move ID from English name. Returns 0 if not found."""
+        """Get move ID from an English name or Showdown ID."""
         normalized = normalize_name(english_name)
-        return self._mappings.get("moves", {}).get(normalized, 0)
+        return self._mappings.get("moves", {}).get(normalized, 0) or self._get_compact_id(
+            "moves", english_name
+        )
     
     def get_ability_id(self, english_name: str) -> int:
-        """Get ability ID from English name. Returns 0 if not found."""
+        """Get ability ID from an English name or Showdown ID."""
         normalized = normalize_name(english_name)
-        return self._mappings.get("abilities", {}).get(normalized, 0)
+        return self._mappings.get("abilities", {}).get(normalized, 0) or self._get_compact_id(
+            "abilities", english_name
+        )
     
     def get_item_id(self, english_name: str) -> int:
-        """Get item ID from English name. Returns 0 if not found."""
+        """Get item ID from an English name or Showdown ID."""
         normalized = normalize_name(english_name)
-        return self._mappings.get("items", {}).get(normalized, 0)
+        return self._mappings.get("items", {}).get(normalized, 0) or self._get_compact_id(
+            "items", english_name
+        )
     
     def get_nature_id(self, english_name: str) -> int:
         """Get nature ID from English name. Returns 0 if not found."""

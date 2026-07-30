@@ -59,6 +59,24 @@ done
 
 echo "  ✓ ${COUNT} pokemon files"
 
+# Upload additive singles files under a separate namespace. Existing doubles
+# blob destinations above are deliberately unchanged for app compatibility.
+SINGLES_COUNT=0
+if [ -f "${OUTPUT_DIR}/singles/battle_meta.json" ]; then
+  if upload_blob "${OUTPUT_DIR}/singles/battle_meta.json" "singles/battle_meta.json"; then
+    echo "  ✓ singles/battle_meta.json"
+  fi
+
+  for f in "${OUTPUT_DIR}"/singles/pokemon/*.json; do
+    [ -f "$f" ] || continue
+    filename=$(basename "$f")
+    upload_blob "$f" "singles/pokemon/${filename}" && SINGLES_COUNT=$((SINGLES_COUNT + 1))
+  done
+  echo "  ✓ ${SINGLES_COUNT} singles pokemon files"
+else
+  echo "  ⚠️ singles/battle_meta.json not found, skipping singles upload"
+fi
+
 if [ "$FAILED" -gt 0 ]; then
   echo "⚠️ ${FAILED} upload(s) failed"
   exit 1
