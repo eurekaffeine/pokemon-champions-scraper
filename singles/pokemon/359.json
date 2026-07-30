@@ -1,0 +1,16 @@
+{
+  "dex_id": 359,
+  "name": "Absol",
+  "form": null,
+  "competitive": {
+    "usage_rank": 301,
+    "usage_rate": 1.4999999999999998e-06,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 411,
+  "name": "Bastiodon",
+  "form": null,
+  "competitive": {
+    "usage_rank": 285,
+    "usage_rate": 4.0600000000000004e-05,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

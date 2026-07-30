@@ -1,0 +1,16 @@
+{
+  "dex_id": 24,
+  "name": "Arbok",
+  "form": null,
+  "competitive": {
+    "usage_rank": 275,
+    "usage_rate": 7.99e-05,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 18,
+  "name": "Pidgeot",
+  "form": null,
+  "competitive": {
+    "usage_rank": 306,
+    "usage_rate": 0.0,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 10054,
+  "name": "Medicham-Mega",
+  "form": "mega",
+  "competitive": {
+    "usage_rank": 287,
+    "usage_rate": 3.83e-05,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

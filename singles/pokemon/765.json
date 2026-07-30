@@ -1,0 +1,16 @@
+{
+  "dex_id": 765,
+  "name": "Oranguru",
+  "form": null,
+  "competitive": {
+    "usage_rank": 299,
+    "usage_rate": 7.2000000000000005e-06,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

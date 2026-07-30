@@ -1,0 +1,16 @@
+{
+  "dex_id": 766,
+  "name": "Passimian",
+  "form": null,
+  "competitive": {
+    "usage_rank": 302,
+    "usage_rate": 4.0000000000000003e-07,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dex_id": 10126,
+  "name": "Lycanroc-Midnight",
+  "form": "midnight",
+  "competitive": {
+    "usage_rank": 284,
+    "usage_rate": 4.96e-05,
+    "win_rate": null,
+    "moves": [],
+    "items": [],
+    "abilities": [],
+    "teammates": [],
+    "tera_types": [],
+    "spreads": []
+  }
+}
