@@ -19,7 +19,6 @@ import httpx
 
 from src.models.schema import (
     AbilityUsage,
-    EVSpread,
     ItemUsage,
     MoveUsage,
     PokemonUsage,
@@ -30,7 +29,6 @@ from src.name_resolver import (
     resolve_ability_id,
     resolve_item_id,
     resolve_move_id,
-    resolve_nature_id,
     resolve_pokemon_id,
 )
 from src.scrapers.base import BaseScraper, ParseError
@@ -40,6 +38,7 @@ logger = logging.getLogger(__name__)
 SINGLES_FORMAT_CODE = "gen9championsbssregmb"
 SINGLES_CUTOFF = 1760
 _MONTH_LOOKBACK = 12
+_PUBLIC_LIST_LIMIT = 10
 _RANKING_ROW = re.compile(
     r"^\|\s*(?P<rank>\d+)\s*\|\s*(?P<name>.*?)\s*\|\s*"
     r"(?P<usage>[\d.]+)%\s*\|\s*(?P<raw>\d+)\s*\|",
@@ -120,39 +119,13 @@ def _normalized_entries(values: dict, denominator: float, resolver, model_cls) -
         usage = min(1.0, max(0.0, weight / denominator))
         if usage > 0:
             result.append(model_cls(id=resolved_id, usage=usage))
-    return result
+    return result[:_PUBLIC_LIST_LIMIT]
 
 
 def _form_slug(name: str) -> Optional[str]:
     if "-" not in name:
         return None
     return name.partition("-")[2].strip().lower() or None
-
-
-def _normalized_spreads(values: dict, denominator: float) -> list[EVSpread]:
-    """Normalize Showdown ``Nature:HP/Atk/Def/SpA/SpD/Spe`` spreads."""
-    if denominator <= 0 or not isinstance(values, dict):
-        return []
-    result: list[EVSpread] = []
-    for raw_spread, weight in sorted(values.items(), key=lambda item: item[1], reverse=True):
-        nature, separator, evs = raw_spread.partition(":")
-        nature_id = resolve_nature_id(nature)
-        if not separator or nature_id <= 0 or not re.fullmatch(r"\d+(?:/\d+){5}", evs):
-            continue
-        try:
-            usage = min(1.0, max(0.0, float(weight) / denominator))
-        except (TypeError, ValueError):
-            continue
-        if usage > 0:
-            result.append(
-                EVSpread(
-                    nature_id=nature_id,
-                    nature=nature,
-                    evs=evs,
-                    usage=usage,
-                )
-            )
-    return result
 
 
 class SmogonSinglesScraper(BaseScraper):
@@ -317,10 +290,6 @@ class SmogonSinglesScraper(BaseScraper):
                 denominator,
                 resolve_pokemon_id,
                 TeammateUsage,
-            ),
-            top_spreads=_normalized_spreads(
-                self._sum_distributions(records, "Spreads"),
-                denominator,
             ),
         )
 

@@ -59,10 +59,8 @@ async def test_singles_scraper_emits_existing_schema_and_asset_safe_ids(monkeypa
     assert by_name["Garchomp-Mega"].dex_id == 10058
     assert by_name["Garchomp"].top_moves[0].usage == pytest.approx(0.99)
     assert sum(entry.usage for entry in by_name["Garchomp"].top_abilities) == pytest.approx(1.0)
-    assert by_name["Garchomp"].top_spreads[0].nature_id == 16
-    assert by_name["Garchomp"].top_spreads[0].nature == "Jolly"
-    assert by_name["Garchomp"].top_spreads[0].evs == "2/32/0/0/0/32"
-    assert by_name["Garchomp"].top_spreads[0].usage == pytest.approx(0.7)
+    # EV spreads are intentionally excluded from the public data contract.
+    assert not by_name["Garchomp"].top_spreads
 
     # Cosmetic Gourgeist sizes intentionally share one app asset and are
     # aggregated into one row/file instead of colliding.
@@ -95,6 +93,10 @@ async def test_singles_scraper_emits_existing_schema_and_asset_safe_ids(monkeypa
     detail_paths = write_pokemon_files(pokemon, tmp_path / "singles")
 
     payload = json.loads(meta_path.read_text())
+    assert all(len(entry["top_moves"]) <= 10 for entry in payload["pokemon_usage"])
+    assert all(len(entry["top_items"]) <= 10 for entry in payload["pokemon_usage"])
+    assert all(len(entry["top_teammates"]) <= 10 for entry in payload["pokemon_usage"])
+    assert all("top_spreads" not in entry for entry in payload["pokemon_usage"])
     assert set(payload["pokemon_usage"][0]) == {
         "rank",
         "dex_id",
@@ -107,11 +109,14 @@ async def test_singles_scraper_emits_existing_schema_and_asset_safe_ids(monkeypa
         "top_abilities",
         "top_teammates",
         "top_tera_types",
-        "top_spreads",
     }
     assert meta_path == tmp_path / "singles" / "battle_meta.json"
     assert all(path.parent == tmp_path / "singles" / "pokemon" for path in detail_paths)
     detail_payload = json.loads(detail_paths[0].read_text())
+    assert len(detail_payload["competitive"]["moves"]) <= 10
+    assert len(detail_payload["competitive"]["items"]) <= 10
+    assert len(detail_payload["competitive"]["teammates"]) <= 10
+    assert "spreads" not in detail_payload["competitive"]
     assert set(detail_payload) == {"dex_id", "name", "form", "competitive"}
     assert set(detail_payload["competitive"]) == {
         "usage_rank",
@@ -122,7 +127,6 @@ async def test_singles_scraper_emits_existing_schema_and_asset_safe_ids(monkeypa
         "abilities",
         "teammates",
         "tera_types",
-        "spreads",
     }
 
 
