@@ -1,16 +1,1 @@
-{
-  "dex_id": 745,
-  "name": "Lycanroc",
-  "form": null,
-  "competitive": {
-    "usage_rank": 290,
-    "usage_rate": 2.69e-05,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":745,"name":"Lycanroc","form":null,"competitive":{"usage_rank":290,"usage_rate":2.69e-05,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

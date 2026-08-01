@@ -1,16 +1,1 @@
-{
-  "dex_id": 10243,
-  "name": "Avalugg-Hisui",
-  "form": "hisui",
-  "competitive": {
-    "usage_rank": 288,
-    "usage_rate": 3.56e-05,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":10243,"name":"Avalugg-Hisui","form":"hisui","competitive":{"usage_rank":288,"usage_rate":3.56e-05,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

@@ -1,16 +1,1 @@
-{
-  "dex_id": 25,
-  "name": "Pikachu",
-  "form": null,
-  "competitive": {
-    "usage_rank": 291,
-    "usage_rate": 2.66e-05,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":25,"name":"Pikachu","form":null,"competitive":{"usage_rank":291,"usage_rate":2.66e-05,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

@@ -1,16 +1,1 @@
-{
-  "dex_id": 10100,
-  "name": "Raichu-Alola",
-  "form": "alola",
-  "competitive": {
-    "usage_rank": 300,
-    "usage_rate": 5.999999999999999e-06,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":10100,"name":"Raichu-Alola","form":"alola","competitive":{"usage_rank":300,"usage_rate":5.999999999999999e-06,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

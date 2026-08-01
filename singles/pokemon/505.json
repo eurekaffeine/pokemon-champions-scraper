@@ -1,16 +1,1 @@
-{
-  "dex_id": 505,
-  "name": "Watchog",
-  "form": null,
-  "competitive": {
-    "usage_rank": 307,
-    "usage_rate": 0.0,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":505,"name":"Watchog","form":null,"competitive":{"usage_rank":307,"usage_rate":0.0,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

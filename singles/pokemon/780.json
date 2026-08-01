@@ -1,16 +1,1 @@
-{
-  "dex_id": 780,
-  "name": "Drampa",
-  "form": null,
-  "competitive": {
-    "usage_rank": 292,
-    "usage_rate": 2.65e-05,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":780,"name":"Drampa","form":null,"competitive":{"usage_rank":292,"usage_rate":2.65e-05,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

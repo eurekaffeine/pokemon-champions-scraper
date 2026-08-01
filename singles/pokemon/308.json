@@ -1,16 +1,1 @@
-{
-  "dex_id": 308,
-  "name": "Medicham",
-  "form": null,
-  "competitive": {
-    "usage_rank": 297,
-    "usage_rate": 8.5e-06,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":308,"name":"Medicham","form":null,"competitive":{"usage_rank":297,"usage_rate":8.5e-06,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

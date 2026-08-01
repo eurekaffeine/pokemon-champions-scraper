@@ -1,16 +1,1 @@
-{
-  "dex_id": 841,
-  "name": "Flapple",
-  "form": null,
-  "competitive": {
-    "usage_rank": 289,
-    "usage_rate": 3.3e-05,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":841,"name":"Flapple","form":null,"competitive":{"usage_rank":289,"usage_rate":3.3e-05,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

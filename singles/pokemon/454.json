@@ -1,16 +1,1 @@
-{
-  "dex_id": 454,
-  "name": "Toxicroak",
-  "form": null,
-  "competitive": {
-    "usage_rank": 294,
-    "usage_rate": 1.3500000000000001e-05,
-    "win_rate": null,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":454,"name":"Toxicroak","form":null,"competitive":{"usage_rank":294,"usage_rate":1.3500000000000001e-05,"win_rate":null,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}

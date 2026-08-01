@@ -1,16 +1,1 @@
-{
-  "dex_id": 866,
-  "name": "Mr. Rime",
-  "form": null,
-  "competitive": {
-    "usage_rank": 120,
-    "usage_rate": 0.00060947378608778,
-    "win_rate": 0.3927038626609442,
-    "moves": [],
-    "items": [],
-    "abilities": [],
-    "teammates": [],
-    "tera_types": [],
-    "spreads": []
-  }
-}
+{"dex_id":866,"name":"Mr. Rime","form":null,"competitive":{"usage_rank":120,"usage_rate":0.00060947378608778,"win_rate":0.3927038626609442,"moves":[],"items":[],"abilities":[],"teammates":[],"tera_types":[]}}
