@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated_at": "2026-07-31T05:33:52.072598Z",
+  "updated_at": "2026-08-01T05:25:39.183416Z",
   "season": {
     "id": "champions-bss-regmb",
     "name": "Battle Stadium Singles Regulation Set M-B",
@@ -277075,7 +277075,7 @@
     {
       "name": "Pokémon Showdown / Smogon Stats",
       "url": "https://www.smogon.com/stats",
-      "scraped_at": "2026-07-31T05:33:52.072464Z"
+      "scraped_at": "2026-08-01T05:25:39.183248Z"
     }
   ]
 }
