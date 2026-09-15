@@ -12,7 +12,7 @@ on:
       limit:
         description: 'Number of Pokémon to scrape'
         required: false
-        default: '200'
+        default: '400'
       notify:
         description: 'Send Telegram notification on completion'
         required: false
@@ -60,7 +60,7 @@ jobs:
         id: run-scraper
         run: |
           set +e
-          LIMIT=${{ github.event.inputs.limit || '250' }}
+          LIMIT=${{ github.event.inputs.limit || '400' }}
           
           echo "Running doubles scraper with limit=${LIMIT}..."
           python -m src.main scrape --format doubles --limit ${LIMIT} --output output 2>&1 | tee scrape.log

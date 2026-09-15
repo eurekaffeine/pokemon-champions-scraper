@@ -355,9 +355,9 @@ def scrape(
                 )
             else:
                 season_model = Season(
-                    id="regmb-s3",
-                    name="Regulation Set M-B S3",
-                    format_code="battledataregmbs3",
+                    id="regmc",
+                    name="Regulation Set M-C",
+                    format_code="gen9championsvgc2026regmc",
                     data_date=f"{now.year}-{now.month:02d}",
                     start_date=now.date().replace(day=1),
                     end_date=None,

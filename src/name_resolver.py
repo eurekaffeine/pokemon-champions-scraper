@@ -27,7 +27,11 @@ def normalize_name(name: str) -> str:
         "Rotom-Wash" → "rotom-wash"
         "Ninetales-Alola" → "ninetales-alola"
     """
-    return re.sub(r'[\s]+', '-', name.strip().lower())
+    normalized = name.strip().lower().replace("’", "'").replace("‘", "'")
+    # One upstream Pikalytics row currently contains three replacement
+    # characters where Sirfetch'd's apostrophe should be.
+    normalized = normalized.replace("���", "'")
+    return re.sub(r'[\s]+', '-', normalized)
 
 
 @lru_cache(maxsize=1)
@@ -115,7 +119,7 @@ class NameResolver:
             "mr-mime-galar": "mr.-mime-galar",
             # Meowstic
             "meowstic-f": "meowstic-female",
-            "meowstic-m": "meowstic-male",
+            "meowstic-m": "meowstic",
             # Calyrex forms
             "calyrex-ice-rider": "calyrex-ice",
             "calyrex-shadow-rider": "calyrex-shadow",
@@ -158,6 +162,15 @@ class NameResolver:
             "vivillon-sun": "vivillon",
             "vivillon-ocean": "vivillon",
             "vivillon-jungle": "vivillon",
+            "vivillon-pokeball": "vivillon",
+            "vivillon-fancy": "vivillon",
+            # Cosmetic Alcremie/Polteageist variants use the base app asset.
+            "alcremie-rainbow-swirl": "alcremie",
+            "alcremie-ruby-swirl": "alcremie",
+            "alcremie-matcha-cream": "alcremie",
+            "alcremie-lemon-cream": "alcremie",
+            "alcremie-mint-cream": "alcremie",
+            "polteageist-antique": "polteageist",
         }
         
         alias = form_aliases.get(normalized)

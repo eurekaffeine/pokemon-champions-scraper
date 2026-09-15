@@ -55,3 +55,20 @@ def test_base_form_unaffected(resolver):
     # Existing direct lookups must not regress.
     assert resolver.get_pokemon_id("Charizard") == 6
     assert resolver.get_pokemon_id("Incineroar") == 727
+
+
+@pytest.mark.parametrize(
+    "source_name,expected",
+    [
+        ("Sirfetch’d", 865),
+        ("Farfetch’d", 83),
+        ("Sirfetch���d", 865),
+        ("Meowstic-M", 678),
+        ("Vivillon-Pokeball", 666),
+        ("Vivillon-Fancy", 666),
+        ("Alcremie-Rainbow-Swirl", 869),
+        ("Polteageist-Antique", 855),
+    ],
+)
+def test_mc_showdown_names_resolve_to_assets(resolver, source_name, expected):
+    assert resolver.get_pokemon_id(source_name) == expected

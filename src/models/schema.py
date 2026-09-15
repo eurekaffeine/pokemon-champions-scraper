@@ -63,13 +63,12 @@ class PokemonUsage(BaseModel):
 class Season(BaseModel):
     """Information about the competitive season / regulation.
 
-    For the Pokémon Champions ranked-ladder feed this corresponds to a
-    regulation set + ladder season (e.g. "Regulation Set M-B S3"), dated
-    by the source's monthly data snapshot.
+    For Pokémon Champions this corresponds to a regulation set, dated by the
+    source observation month.
     """
     id: str
     name: str
-    # Pikalytics format code for the underlying feed (e.g. "battledataregmbs3").
+    # Pikalytics format code for the underlying feed.
     format_code: Optional[str] = None
     # Monthly data snapshot the stats were aggregated from, e.g. "2026-05".
     data_date: Optional[str] = None

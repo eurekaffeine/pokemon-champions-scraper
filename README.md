@@ -12,7 +12,7 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 
 ## Features
 
-- 📊 **~208 Pokémon** from the Reg M-B S3 ranked-ladder feed (full meta coverage)
+- 📊 **~255 asset-safe Pokémon** from the Regulation M-C Showdown feed
 - 🔄 Weekly automated updates via GitHub Actions (Mondays 2 AM UTC)
 - 📱 JSON output optimized for mobile app consumption
 - 🏆 Complete competitive data: moves, items, abilities, teammates
@@ -23,7 +23,7 @@ Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pi
 
 | Data Type | Count | Source |
 |-----------|-------|--------|
-| Pokémon | 211 | List API |
+| Pokémon | ~255 | List API |
 | Moves per Pokémon | ~10 | AI Markdown |
 | Items per Pokémon | ~10 | AI Markdown |
 | Abilities per Pokémon | 3-5 | AI Markdown |
@@ -40,7 +40,7 @@ cd pokemon-champions-scraper
 pip install -r requirements.txt
 
 # Existing doubles output (URLs remain backward-compatible)
-python -m src.main scrape --format doubles --limit 200 --output output
+python -m src.main scrape --format doubles --limit 400 --output output
 
 # New Battle Stadium Singles output
 python -m src.main scrape --format singles --limit 400 --output output/singles
@@ -76,12 +76,12 @@ python -m src.main validate output/battle_meta.json
 
 ### Doubles (existing URLs)
 
-The doubles scraper reads the Pokémon Champions **ranked-ladder** feed that Pikalytics
-labels *"Regulation Set M-B S3 Ranked Battle Data"* (format code
-`battledataregmbs3`). We use the ranked-ladder feed rather than the
-`championstournaments` tournament feed because it:
+The doubles scraper reads Pikalytics' Pokémon Champions Regulation M-C
+**Showdown battle-usage** feed (format code `gen9championsvgc2026regmc`). We
+use the broad online-play feed rather than the `championstournaments` feed
+because it:
 
-- has **larger, cleaner sample sizes** (ladder-wide game counts),
+- represents the day-to-day battle meta rather than a smaller tournament pool,
 - exposes **richer detail** (EV spreads + natures are present in the feed for a
   future enhancement), and
 - does **not** split Mega forms into separate rows — which previously caused
@@ -90,33 +90,31 @@ labels *"Regulation Set M-B S3 Ranked Battle Data"* (format code
 
 Two Pikalytics endpoints are used:
 
-1. **List API** (`/api/l/{YYYY-MM}/battledataregmbs3-1760`)
-   - Returns all ranked Pokémon (~208) with win rates, sample sizes, and
+1. **List API** (`/api/l/{API_PARTITION}/gen9championsvgc2026regmc-1760`)
+   - Returns ~271 source rows (~255 after asset-equivalent cosmetic forms are
+     aggregated) with usage percentages, win rates, and
      (for the very top entry) embedded detail.
    - Single request, fast.
 
-2. **AI Markdown API** (`/ai/pokedex/battledataregmbs3/{pokemon}`)
+2. **AI Markdown API** (`/ai/pokedex/gen9championsvgc2026regmc/{pokemon}`)
    - Per-Pokémon details: moves, items, abilities, teammates.
    - One request per Pokémon (rate-limited).
 
 ### Usage rate & ranking
 
-The ranked-ladder feed reports usage as a **raw game count** (`games`), not a
-pick-rate percentage. `usage_rate` is therefore derived as each Pokémon's share
-of the total games in the snapshot, and `rank` is re-assigned by that derived
-usage so that `rank` is always the ordinal of `usage_rate` (strictly
-descending). Pikalytics' own ladder `rank` is intentionally **not** used, as it
-is not monotonic with the game count.
+The Showdown feed reports native Pokémon usage in its `percent` field.
+`usage_rate` is that percentage converted to a 0–1 fraction, and `rank` is
+assigned in descending `usage_rate` order. Raw game counts are not divided by
+the sum of all Pokémon games because that would measure team-slot share rather
+than the source's published Pokémon usage.
 
-> **Teammates:** this feed does not expose teammate usage percentages
-> (the list API gives teammate *rank* only, and the markdown reports
-> `undefined%`). Teammates are emitted in source order (most common first)
-> with `usage = 0.0` to signal "percentage unavailable".
+> **Teammates:** the M-C feed exposes native teammate usage percentages, which
+> are preserved as 0–1 fractions.
 
-**Update Frequency:** Pikalytics publishes monthly (see the `Data Date` /
-`data_date` field). The scraper runs daily to catch month rollovers. It refuses
-to fall back to the current wall-clock month, since that month is frequently
-empty and would otherwise overwrite good data.
+**Update Frequency:** the scraper runs daily. Pikalytics currently serves the
+live M-C feed from a legacy May API partition, so that internal lookup value is
+not exposed as freshness metadata. Public `data_date` is derived from the newest
+dated event embedded in the live response.
 
 ### Singles
 
@@ -138,19 +136,19 @@ doubles so existing app versions continue to receive the same format.
   "schema_version": "1.0.0",
   "updated_at": "2026-04-16T05:23:00Z",
   "season": {
-    "id": "regmb-s3",
-    "name": "Regulation Set M-B S3",
-    "format_code": "battledataregmbs3",
-    "data_date": "2026-05",
-    "start_date": "2026-05-01",
+    "id": "regmc",
+    "name": "Regulation Set M-C",
+    "format_code": "gen9championsvgc2026regmc",
+    "data_date": "2026-09",
+    "start_date": "2026-09-01",
     "end_date": null
   },
   "pokemon_usage": [
     {
       "rank": 1,
-      "dex_id": 727,
-      "name": "Incineroar",
-      "usage_rate": 0.5437
+      "dex_id": 812,
+      "name": "Rillaboom",
+      "usage_rate": 0.3761
     }
   ],
   "sources": [
@@ -212,7 +210,7 @@ curl https://eurekaffeine.github.io/pokemon-champions-scraper/pokemon/727.json
 
 ### Caching Strategy
 
-Data updates **weekly** (source is monthly). Use conditional requests:
+Data is checked **daily**. Use conditional requests:
 
 ```kotlin
 // Android (OkHttp)

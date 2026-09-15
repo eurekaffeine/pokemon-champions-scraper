@@ -1,26 +1,22 @@
 # src/scrapers/pikalytics.py
 """Pikalytics scraper for Pokemon Champions competitive data.
 
-Source of truth: the Pokemon Champions **ranked-ladder** feed that Pikalytics
-labels "Regulation Set M-B S3 Ranked Battle Data" (format code
-`battledataregmbs3`). We use this feed rather than `championstournaments`
-because it:
-  * has larger, cleaner sample sizes (ladder-wide game counts),
-  * does NOT split Mega forms into separate rows, which previously caused
-    dex_id collisions (e.g. Floette-Eternal-Mega and Floette-Eternal both
-    collapsing onto one id), and
-  * exposes richer detail (EV spreads + natures are available in the feed for a
-    future enhancement; not yet parsed here).
+Source of truth: Pikalytics' Pokemon Champions Regulation M-C **Showdown**
+feed (`gen9championsvgc2026regmc`). It represents broad online battle usage,
+rather than the smaller and more selective tournament-only population.
 
-The ranked-ladder feed exposes usage as a raw game count (`games`) rather than
-a pick-rate percentage, so `usage_rate` is derived as each Pokemon's share of
-the total games in the snapshot (see `scrape_rankings`).
+The feed exposes a native Pokemon usage percentage in each row's `percent`
+field. That value must be used directly: dividing a Pokemon's `games` by the
+sum of every Pokemon's games instead measures its share of all team slots and
+understates the source's published usage by roughly a factor of six.
 """
 
 import logging
 import re
 import json
+from collections import defaultdict
 from dataclasses import dataclass
+from datetime import date
 from typing import Optional
 
 from src.scrapers.base import BaseScraper, ParseError
@@ -41,8 +37,8 @@ from src.name_resolver import (
 
 logger = logging.getLogger(__name__)
 
-# Pikalytics feed for the Pokemon Champions ranked-ladder data we publish.
-FEED_FORMAT_CODE = "battledataregmbs3"
+# Pikalytics feed for the Pokemon Champions Showdown data we publish.
+FEED_FORMAT_CODE = "gen9championsvgc2026regmc"
 # Numeric list-API id suffix. Shared across Champions feeds; surfaced as a
 # constant so a Pikalytics-side change is a one-line edit.
 FEED_LIST_ID = "1760"
@@ -54,21 +50,20 @@ class SeasonInfo:
 
     name: str
     format_code: str
-    data_date: str  # "YYYY-MM"
+    data_date: str  # Public observation month, "YYYY-MM"
+    api_data_date: Optional[str] = None  # Pikalytics' internal API partition
 
     @property
     def data_key(self) -> str:
-        """List-API data key, e.g. '2026-05/battledataregmbs3-1760'."""
-        return f"{self.data_date}/{self.format_code}-{FEED_LIST_ID}"
+        """List-API key; Pikalytics currently keeps M-C in a legacy bucket."""
+        return f"{self.api_data_date or self.data_date}/{self.format_code}-{FEED_LIST_ID}"
 
 
 def _clean_format_name(raw: str) -> str:
     """Strip Pikalytics product branding from the format name.
 
-    Pikalytics labels this feed "Pokemon Champions VGC 2026 Reg M-B S3 Ranked
-    Battle Data". Per product decision we drop the "Pokemon Champions VGC 2026"
-    branding and keep the regulation/season identity, e.g. "Regulation Set M-B
-    S3".
+    Pikalytics labels this feed "Pokemon Champions VGC 2026 Reg M-C". Drop
+    the product/year branding and keep the regulation identity.
     """
     name = raw.strip()
     name = re.sub(r"^Pokemon Champions\s+", "", name, flags=re.I)
@@ -82,15 +77,22 @@ def _clean_format_name(raw: str) -> str:
         flags=re.I,
     )
     name = re.sub(r"\s{2,}", " ", name).strip()
-    return name or "Regulation Set M-B S3"
+    return name or "Regulation Set M-C"
 
 
 def _season_slug(format_code: str) -> str:
     """Derive a stable season id slug from a format code.
 
-    'battledataregmbs3' -> 'regmb-s3'. Falls back to the raw code.
+    Examples: `battledataregmbs3` -> `regmb-s3` and
+    `gen9championsvgc2026regmc` -> `regmc`.
     """
     m = re.match(r"battledatareg([a-z]+?)(s\d+)?$", format_code, re.I)
+    if not m:
+        m = re.match(
+            r"gen\d+championsvgc\d+reg([a-z]+?)(s\d+)?$",
+            format_code,
+            re.I,
+        )
     if not m:
         return format_code
     reg = m.group(1).lower()
@@ -109,7 +111,11 @@ def _pct(raw) -> float:
 
 
 class PikalyticsScraper(BaseScraper):
-    """Scraper for Pokemon Champions ranked-ladder data (list API + AI markdown)."""
+    """Scraper for Pokemon Champions Showdown data (list API + AI markdown)."""
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._observed_data_date: Optional[str] = None
 
     @property
     def name(self) -> str:
@@ -129,9 +135,14 @@ class PikalyticsScraper(BaseScraper):
         """Parse season/regulation + data date from the AI markdown endpoint.
 
         The endpoint exposes a "## Format Information" block:
-            - **Format**: Pokemon Champions VGC 2026 Reg M-B S3 Ranked Battle Data
-            - **Format Code**: `battledataregmbs3`
+            - **Format**: Pokemon Champions VGC 2026 Reg M-C
+            - **Format Code**: `gen9championsvgc2026regmc`
             - **Data Date**: 2026-05
+
+        Pikalytics currently stores this continuously updated feed in its old
+        2026-05 API partition. Keep that value for the request URL, but expose
+        the current observation month publicly instead of mislabelling live
+        September M-C data as a May snapshot.
         """
         url = f"{self.base_url}/ai/pokedex/{FEED_FORMAT_CODE}"
         markdown = await self._safe_fetch(url, "season info")
@@ -140,16 +151,23 @@ class PikalyticsScraper(BaseScraper):
 
         fmt = re.search(r"\*\*Format\*\*:\s*(.+)", markdown)
         code = re.search(r"\*\*Format Code\*\*:\s*`?([\w-]+)`?", markdown)
-        date = re.search(r"\*\*Data Date\*\*:\s*(\d{4}-\d{2})", markdown)
+        date_match = re.search(
+            r"\*\*Data Date\*\*:\s*(\d{4}-\d{2})", markdown
+        )
 
-        if not date:
+        if not date_match:
             logger.warning("Could not parse Data Date from AI endpoint")
             return None
 
+        api_data_date = date_match.group(1)
+        observation_month = max(
+            api_data_date, self._observed_data_date or api_data_date
+        )
         return SeasonInfo(
-            name=_clean_format_name(fmt.group(1)) if fmt else "Regulation Set M-B S3",
+            name=_clean_format_name(fmt.group(1)) if fmt else "Regulation Set M-C",
             format_code=code.group(1) if code else FEED_FORMAT_CODE,
-            data_date=date.group(1),
+            data_date=observation_month,
+            api_data_date=api_data_date,
         )
 
     def season_info_to_model(self, info: Optional[SeasonInfo]) -> Optional[Season]:
@@ -164,10 +182,8 @@ class PikalyticsScraper(BaseScraper):
 
         start = None
         try:
-            from datetime import date as _date
-
             year, month = (int(x) for x in info.data_date.split("-"))
-            start = _date(year, month, 1)
+            start = date(year, month, 1)
         except (ValueError, TypeError):
             start = None
 
@@ -181,7 +197,7 @@ class PikalyticsScraper(BaseScraper):
         )
 
     async def _get_current_data_key(self, season: Optional[SeasonInfo] = None) -> str:
-        """Get the current list-API data key, e.g. '2026-05/battledataregmbs3-1760'.
+        """Get the current list-API key for the M-C Showdown feed.
 
         Prefers already-parsed season info; otherwise re-parses the AI endpoint.
         Crucially, does NOT fall back to the current wall-clock month: Pikalytics
@@ -203,14 +219,7 @@ class PikalyticsScraper(BaseScraper):
     # ---------------------------------------------------------------- rankings
 
     async def scrape_rankings(self, limit: int = 200) -> list[PokemonUsage]:
-        """Scrape Pokemon rankings from the ranked-ladder list API.
-
-        The ranked-ladder feed reports usage as a raw game count, not a percent,
-        so we derive `usage_rate` as each Pokemon's share of total games in the
-        snapshot. The list response also embeds full detail (moves/items/etc.)
-        for top-ranked Pokemon; we parse that inline when present and let the
-        per-Pokemon detail pass fill in the long tail.
-        """
+        """Scrape rankings using Pikalytics' native usage percentage."""
         season = await self.scrape_season()
         data_key = await self._get_current_data_key(season)
         url = f"{self.base_url}/api/l/{data_key}"
@@ -229,50 +238,79 @@ class PikalyticsScraper(BaseScraper):
                 "Aborting rather than publishing an empty dataset."
             )
 
-        # Total games across the *full* feed (not just the limited slice) so the
-        # derived usage_rate is stable regardless of --limit.
-        total_games = sum(self._row_games(row) for row in data) or 1
+        # The upstream `Data Date` is a legacy storage partition, not the live
+        # M-C observation month. Tournament timestamps embedded in the same
+        # rows provide concrete freshness evidence without guessing from the
+        # wall clock. The next scrape_season() call exposes the newest month.
+        observed_months = [
+            str(team.get("tournamentDate", ""))[:7]
+            for row in data
+            for team in row.get("teams", [])
+            if re.match(r"^\d{4}-\d{2}", str(team.get("tournamentDate", "")))
+        ]
+        if observed_months:
+            self._observed_data_date = max(observed_months)
 
-        # Pikalytics' own `rank` on this feed is an opaque ladder-popularity
-        # metric that is NOT monotonic with the per-Pokemon game count we expose
-        # as usage_rate. Downstream consumers expect rank == ordinal(usage_rate)
-        # (strictly descending), so we sort by games and re-assign rank here to
-        # keep that invariant. Ties broken by win rate then name for determinism.
-        ranked_rows = sorted(
-            data,
-            key=lambda r: (
-                self._row_games(r),
-                self._to_winrate(r.get("winrate")) or 0.0,
-                r.get("name", ""),
-            ),
-            reverse=True,
-        )[:limit]
-
-        rankings: list[PokemonUsage] = []
-        for position, row in enumerate(ranked_rows, start=1):
-            name = row.get("name", "")
-            games = self._row_games(row)
-            usage_rate = min(1.0, games / total_games)
-            dex_id = self._get_dex_id(name)
-
-            teammates = self._parse_listapi_teammates(row.get("team", []))
-
-            rankings.append(
-                PokemonUsage(
-                    rank=position,
-                    dex_id=dex_id,
-                    name=name,
-                    form=self._form_slug(name),
-                    usage_rate=usage_rate,
-                    win_rate=self._to_winrate(row.get("winrate")),
-                    top_moves=self._parse_listapi_moves(row.get("moves", [])),
-                    top_items=self._parse_listapi_items(row.get("items", [])),
-                    top_abilities=self._parse_listapi_abilities(row.get("abilities", [])),
-                    top_teammates=teammates,
-                )
+        missing_usage = [
+            row.get("name", "<unknown>")
+            for row in data
+            if row.get("percent") is None
+        ]
+        if missing_usage:
+            raise ParseError(
+                "M-C Showdown feed omitted native usage percentage for: "
+                + ", ".join(missing_usage[:10])
             )
 
-        logger.info(f"Scraped {len(rankings)} Pokemon from rankings")
+        grouped: dict[int, list[tuple[dict, PokemonUsage]]] = defaultdict(list)
+        unresolved: list[str] = []
+        for row in data:
+            name = row.get("name", "")
+            dex_id = self._get_dex_id(name)
+            if dex_id <= 0:
+                unresolved.append(name)
+                continue
+            grouped[dex_id].append(
+                (
+                    row,
+                    PokemonUsage(
+                        rank=0,
+                        dex_id=dex_id,
+                        name=name,
+                        form=self._form_slug(name),
+                        usage_rate=_pct(row.get("percent")),
+                        win_rate=self._to_winrate(row.get("winrate")),
+                        top_moves=self._parse_listapi_moves(row.get("moves", [])),
+                        top_items=self._parse_listapi_items(row.get("items", [])),
+                        top_abilities=self._parse_listapi_abilities(row.get("abilities", [])),
+                        top_teammates=self._parse_listapi_teammates(
+                            row.get("team", [])
+                        ),
+                    ),
+                )
+            )
+        if unresolved:
+            raise ParseError(
+                "Unresolved Pikalytics Pokémon names: " + ", ".join(unresolved)
+            )
+
+        # Some cosmetic forms intentionally share one app asset. Aggregate
+        # those source rows so overview and per-Pokemon files stay consistent.
+        combined = [
+            self._aggregate_asset_rows(dex_id, rows)
+            for dex_id, rows in grouped.items()
+        ]
+        combined.sort(key=lambda pokemon: (-pokemon.usage_rate, pokemon.name))
+        rankings = [
+            pokemon.model_copy(update={"rank": position})
+            for position, pokemon in enumerate(combined[:limit], start=1)
+        ]
+
+        logger.info(
+            "Scraped %d asset-safe Pokemon from %d Pikalytics rows",
+            len(rankings),
+            len(data),
+        )
         return rankings
 
     async def scrape_pokemon_detail(self, name: str) -> Optional[PokemonUsage]:
@@ -349,6 +387,60 @@ class PikalyticsScraper(BaseScraper):
         return 0
 
     @staticmethod
+    def _canonical_name(names: list[str]) -> str:
+        """Prefer an unsuffixed name for asset-equivalent cosmetic forms."""
+        return min(names, key=lambda name: ("-" in name, len(name), name))
+
+    @staticmethod
+    def _weighted_entries(rows, field: str, total_weight: float):
+        weighted: dict[int, float] = defaultdict(float)
+        model_cls = None
+        for raw_row, pokemon in rows:
+            weight = PikalyticsScraper._row_games(raw_row) or 1
+            for entry in getattr(pokemon, field):
+                model_cls = type(entry)
+                weighted[entry.id] += entry.usage * weight
+        if model_cls is None or total_weight <= 0:
+            return []
+        return [
+            model_cls(id=entry_id, usage=min(1.0, value / total_weight))
+            for entry_id, value in sorted(
+                weighted.items(), key=lambda item: item[1], reverse=True
+            )
+        ]
+
+    def _aggregate_asset_rows(
+        self, dex_id: int, rows: list[tuple[dict, PokemonUsage]]
+    ) -> PokemonUsage:
+        names = [pokemon.name for _, pokemon in rows]
+        canonical_name = self._canonical_name(names)
+        total_weight = sum(self._row_games(row) or 1 for row, _ in rows)
+        weighted_winrate = sum(
+            (pokemon.win_rate or 0.0) * (self._row_games(row) or 1)
+            for row, pokemon in rows
+            if pokemon.win_rate is not None
+        )
+        winrate_weight = sum(
+            self._row_games(row) or 1
+            for row, pokemon in rows
+            if pokemon.win_rate is not None
+        )
+        return PokemonUsage(
+            rank=0,
+            dex_id=dex_id,
+            name=canonical_name,
+            form=self._form_slug(canonical_name),
+            usage_rate=min(1.0, sum(pokemon.usage_rate for _, pokemon in rows)),
+            win_rate=(weighted_winrate / winrate_weight if winrate_weight else None),
+            top_moves=self._weighted_entries(rows, "top_moves", total_weight),
+            top_items=self._weighted_entries(rows, "top_items", total_weight),
+            top_abilities=self._weighted_entries(rows, "top_abilities", total_weight),
+            top_teammates=self._weighted_entries(
+                rows, "top_teammates", total_weight
+            ),
+        )
+
+    @staticmethod
     def _form_slug(name: str) -> Optional[str]:
         """Extract a form slug from a Pikalytics name, or None for base forms.
 
@@ -409,11 +501,8 @@ class PikalyticsScraper(BaseScraper):
     def _parse_markdown_teammates(self, markdown: str) -> list[TeammateUsage]:
         """Parse the 'Common Teammates' section.
 
-        On the ranked-ladder feed the AI markdown often reports teammate usage
-        as 'undefined%' (the real percentages live in the list API). We still
-        want the teammate set + ordering, so we accept both numeric and
-        'undefined' percentages, defaulting the latter to usage=0.0 while
-        preserving the source order (most common first).
+        Accept both numeric and `undefined` percentages defensively. The M-C
+        Showdown feed normally provides real percentages in both APIs.
         """
         out: list[TeammateUsage] = []
         section = self._extract_section(markdown, "Common Teammates")
