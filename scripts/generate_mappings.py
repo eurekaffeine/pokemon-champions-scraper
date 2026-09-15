@@ -91,6 +91,7 @@ def generate_mappings(assets_path: Path) -> dict:
         'items': {},
         'natures': {},
         'pokemon': {},
+        'pokemon_abilities': {},
     }
     
     # Moves
@@ -156,7 +157,41 @@ def generate_mappings(assets_path: Path) -> dict:
         if pokemon_id > 0
     }
 
+    # Ability allow-list keyed by the same app Pokémon/form IDs used in output.
+    # Include linked varieties so a base row that represents an in-battle Mega
+    # form may legitimately expose either form's ability. This lets the scraper
+    # reject impossible upstream ability contamination without hardcoding names.
+    details_path = assets_path / 'pokedex' / 'details'
+    details: dict[int, dict] = {}
+    if details_path.exists():
+        for detail_path in details_path.glob('*.json'):
+            try:
+                details[int(detail_path.stem)] = load_translation_file(detail_path)
+            except ValueError:
+                continue
+
+    def linked_abilities(pokemon_id: int) -> list[int]:
+        seen: set[int] = set()
+        pending = [pokemon_id]
+        ability_ids: set[int] = set()
+        while pending:
+            current = pending.pop()
+            if current in seen:
+                continue
+            seen.add(current)
+            detail = details.get(current, {})
+            ability_ids.update(detail.get('abilities', []))
+            ability_ids.update(detail.get('hiddenAbilities', []))
+            pending.extend(detail.get('varieties', []))
+        return sorted(ability_ids)
+
+    mappings['pokemon_abilities'] = {
+        str(pokemon_id): linked_abilities(pokemon_id)
+        for pokemon_id in sorted(details)
+    }
+
     print(f"Loaded {len(mappings['pokemon'])} pokemon mappings")
+    print(f"Loaded {len(mappings['pokemon_abilities'])} Pokemon ability allow-lists")
     
     return mappings
 

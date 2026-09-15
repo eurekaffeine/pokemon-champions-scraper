@@ -198,6 +198,13 @@ class NameResolver:
 
         return 0
 
+    def get_pokemon_ability_ids(self, pokemon_id: int) -> set[int]:
+        """Return abilities valid for an app Pokémon/form asset ID."""
+        values = self._mappings.get("pokemon_abilities", {}).get(
+            str(pokemon_id), []
+        )
+        return {int(value) for value in values}
+
 
 # Singleton instance
 _resolver: Optional[NameResolver] = None
@@ -230,3 +237,7 @@ def resolve_nature_id(name: str) -> int:
 
 def resolve_pokemon_id(name: str) -> int:
     return get_resolver().get_pokemon_id(name)
+
+
+def resolve_pokemon_ability_ids(pokemon_id: int) -> set[int]:
+    return get_resolver().get_pokemon_ability_ids(pokemon_id)

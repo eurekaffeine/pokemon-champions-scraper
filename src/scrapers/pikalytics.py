@@ -33,6 +33,7 @@ from src.name_resolver import (
     resolve_ability_id,
     resolve_item_id,
     resolve_pokemon_id,
+    resolve_pokemon_ability_ids,
 )
 
 logger = logging.getLogger(__name__)
@@ -270,6 +271,11 @@ class PikalyticsScraper(BaseScraper):
             if dex_id <= 0:
                 unresolved.append(name)
                 continue
+            abilities = self._filter_valid_abilities(
+                name,
+                dex_id,
+                self._parse_listapi_abilities(row.get("abilities", [])),
+            )
             grouped[dex_id].append(
                 (
                     row,
@@ -282,7 +288,7 @@ class PikalyticsScraper(BaseScraper):
                         win_rate=self._to_winrate(row.get("winrate")),
                         top_moves=self._parse_listapi_moves(row.get("moves", [])),
                         top_items=self._parse_listapi_items(row.get("items", [])),
-                        top_abilities=self._parse_listapi_abilities(row.get("abilities", [])),
+                        top_abilities=abilities,
                         top_teammates=self._parse_listapi_teammates(
                             row.get("team", [])
                         ),
@@ -329,15 +335,20 @@ class PikalyticsScraper(BaseScraper):
         items = self._parse_markdown_usage(
             markdown, "Common Items", resolve_item_id, ItemUsage
         )
-        abilities = self._parse_markdown_usage(
-            markdown, "Common Abilities", resolve_ability_id, AbilityUsage
+        dex_id = self._get_dex_id(name)
+        abilities = self._filter_valid_abilities(
+            name,
+            dex_id,
+            self._parse_markdown_usage(
+                markdown, "Common Abilities", resolve_ability_id, AbilityUsage
+            ),
         )
 
         teammates = self._parse_markdown_teammates(markdown)
 
         return PokemonUsage(
             rank=0,
-            dex_id=self._get_dex_id(name),
+            dex_id=dex_id,
             name=name,
             form=self._form_slug(name),
             usage_rate=0.0,
@@ -374,6 +385,28 @@ class PikalyticsScraper(BaseScraper):
             return None
         # winrate field is already 0-1 on this feed; clamp defensively.
         return min(1.0, max(0.0, wr))
+
+    @staticmethod
+    def _filter_valid_abilities(
+        name: str, dex_id: int, abilities: list[AbilityUsage]
+    ) -> list[AbilityUsage]:
+        valid_ability_ids = resolve_pokemon_ability_ids(dex_id)
+        if not valid_ability_ids:
+            raise ParseError(
+                f"No ability allow-list for {name} (dex_id={dex_id})"
+            )
+        invalid_abilities = [
+            ability.id for ability in abilities if ability.id not in valid_ability_ids
+        ]
+        if invalid_abilities:
+            logger.warning(
+                "Discarding invalid abilities for %s: %s",
+                name,
+                invalid_abilities,
+            )
+        return [
+            ability for ability in abilities if ability.id in valid_ability_ids
+        ]
 
     @classmethod
     def _row_games(cls, row: dict) -> int:

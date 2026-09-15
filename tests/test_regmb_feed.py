@@ -247,6 +247,47 @@ async def test_rankings_aggregate_asset_equivalent_forms(monkeypatch):
     assert rankings[0].usage_rate == pytest.approx(0.1385)
 
 
+@pytest.mark.asyncio
+async def test_rankings_discard_impossible_species_abilities(monkeypatch):
+    scraper = PikalyticsScraper(request_delay_ms=0)
+    season = SeasonInfo(
+        "Regulation Set M-C",
+        "gen9championsvgc2026regmc",
+        "2026-09",
+        "2026-05",
+    )
+    payload = [
+        {
+            "name": "Rillaboom",
+            "percent": "37.61",
+            "games": 5937,
+            "winrate": 0.503,
+            "moves": [],
+            "items": [],
+            "abilities": [
+                {"ability": "Grassy Surge", "percent": "99.042"},
+                {"ability": "Trace", "percent": "0.733"},
+                {"ability": "Hospitality", "percent": "0.113"},
+            ],
+            "team": [],
+        }
+    ]
+
+    async def scrape_season():
+        return season
+
+    async def fetch(url: str, retry_count: int = 0):
+        return json.dumps(payload)
+
+    monkeypatch.setattr(scraper, "scrape_season", scrape_season)
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+
+    rankings = await scraper.scrape_rankings()
+    assert [(entry.id, entry.usage) for entry in rankings[0].top_abilities] == [
+        (229, pytest.approx(0.99042))
+    ]
+
+
 # ------------------------------------------------------- collision guard (#2)
 
 def _mk(dex_id, name, usage=0.1):
