@@ -117,6 +117,10 @@ def generate_mappings(assets_path: Path) -> dict:
     # Pokemon names (from multiple files)
     pokemon_data = load_translation_file(translations_path / 'pokemon-names-translation.json')
     mappings['pokemon'] = extract_english_to_id(pokemon_data)
+    # Preserve canonical species IDs when cosmetic translation files reuse the
+    # exact same English display name (for example all Furfrou trims are named
+    # "Furfrou"). Variant aliases are added below without replacing the base.
+    canonical_pokemon_mappings = dict(mappings['pokemon'])
     
     # Add mega/gmax/form variants from translations.
     for variant_file in ['mega-names-translation.json', 'gmax-names-translation.json',
@@ -124,6 +128,7 @@ def generate_mappings(assets_path: Path) -> dict:
         variant_data = load_translation_file(translations_path / variant_file)
         variant_mappings = extract_english_to_id(variant_data)
         mappings['pokemon'].update(variant_mappings)
+    mappings['pokemon'].update(canonical_pokemon_mappings)
 
     # The English Mega translations use display names such as "MegaGarchomp",
     # while Pokémon Showdown uses battle identifiers such as "Garchomp-Mega".

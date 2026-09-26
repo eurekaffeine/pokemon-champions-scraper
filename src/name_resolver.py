@@ -28,9 +28,9 @@ def normalize_name(name: str) -> str:
         "Ninetales-Alola" → "ninetales-alola"
     """
     normalized = name.strip().lower().replace("’", "'").replace("‘", "'")
-    # One upstream Pikalytics row currently contains three replacement
-    # characters where Sirfetch'd's apostrophe should be.
-    normalized = normalized.replace("���", "'")
+    # Pikalytics occasionally decodes Sirfetch'd's apostrophe as a variable
+    # length run of Unicode replacement characters.
+    normalized = re.sub(r"\ufffd+", "'", normalized)
     return re.sub(r'[\s]+', '-', normalized)
 
 
@@ -167,10 +167,22 @@ class NameResolver:
             # Cosmetic Alcremie/Polteageist variants use the base app asset.
             "alcremie-rainbow-swirl": "alcremie",
             "alcremie-ruby-swirl": "alcremie",
+            "alcremie-ruby-cream": "alcremie",
             "alcremie-matcha-cream": "alcremie",
             "alcremie-lemon-cream": "alcremie",
             "alcremie-mint-cream": "alcremie",
+            "alcremie-salted-cream": "alcremie",
+            "alcremie-caramel-swirl": "alcremie",
             "polteageist-antique": "polteageist",
+            # Furfrou trims are cosmetic and share the base app asset.
+            "furfrou-dandy": "furfrou",
+            "furfrou-heart": "furfrou",
+            "furfrou-debutante": "furfrou",
+            "furfrou-kabuki": "furfrou",
+            "furfrou-star": "furfrou",
+            # Pikalytics omits Showdown's `-mask` suffix.
+            "ogerpon-cornerstone": "ogerpon-cornerstone-mask",
+            "ogerpon-wellspring": "ogerpon-wellspring-mask",
         }
         
         alias = form_aliases.get(normalized)
