@@ -16,6 +16,7 @@ from src.models.schema import BattleMeta, Season, SourceInfo, TierList
 from src.scrapers.base import BaseScraper, ScrapeStats
 from src.scrapers.pikalytics import PikalyticsScraper
 from src.scrapers.smogon import SmogonSinglesScraper
+from src.scrapers.munchstats import MunchStatsSinglesScraper
 from src.scrapers.opgg import OPGGScraper
 from src.merge import merge_scraped_data
 from src.output import write_battle_meta, write_pokemon_files, validate_output
@@ -25,6 +26,7 @@ from src.output import write_battle_meta, write_pokemon_files, validate_output
 SCRAPERS = {
     "pikalytics": PikalyticsScraper,
     "smogon": SmogonSinglesScraper,
+    "munchstats": MunchStatsSinglesScraper,
     "opgg": OPGGScraper,
 }
 
@@ -250,9 +252,9 @@ def scrape(
     # Singles is a distinct metagame, not another source to merge with doubles.
     # Keep doubles' existing config/source behavior untouched for compatibility.
     if format_name == "singles":
-        if source not in (None, "smogon"):
-            raise click.ClickException("Singles currently requires --source smogon")
-        sources = ["smogon"]
+        if source not in (None, "munchstats"):
+            raise click.ClickException("Singles currently requires --source munchstats")
+        sources = ["munchstats"]
     else:
         if source == "smogon":
             raise click.ClickException("Smogon source is currently singles-only")
@@ -346,9 +348,9 @@ def scrape(
             )
             if format_name == "singles":
                 season_model = Season(
-                    id="champions-bss-regmb",
-                    name="Battle Stadium Singles Regulation Set M-B",
-                    format_code="gen9championsbssregmb",
+                    id="champions-singles-regmc",
+                    name="Battle Stadium Singles Regulation Set M-C",
+                    format_code="championssingles",
                     data_date=f"{now.year}-{now.month:02d}",
                     start_date=now.date().replace(day=1),
                     end_date=None,

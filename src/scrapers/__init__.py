@@ -17,3 +17,6 @@ __all__ = [
     "SmogonSinglesScraper",
     "OPGGScraper",
 ]
+from .munchstats import MunchStatsSinglesScraper
+
+__all__ = ["MunchStatsSinglesScraper"]

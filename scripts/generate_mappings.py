@@ -194,6 +194,18 @@ def generate_mappings(assets_path: Path) -> dict:
         str(pokemon_id): linked_abilities(pokemon_id)
         for pokemon_id in sorted(details)
     }
+    # Cosmetic Squawkabilly plumages collapse to asset 931. Yellow and white
+    # plumage can have Sheer Force, but those cosmetic forms have no standalone
+    # detail JSON in the asset bundle. Preserve the legal sibling-form ability.
+    squawkabilly_id = mappings['pokemon'].get('squawkabilly', 0)
+    sheer_force_id = mappings['abilities'].get('sheer-force', 0)
+    if squawkabilly_id > 0 and sheer_force_id > 0:
+        allowed = mappings['pokemon_abilities'].setdefault(
+            str(squawkabilly_id), []
+        )
+        mappings['pokemon_abilities'][str(squawkabilly_id)] = sorted(
+            set(allowed) | {sheer_force_id}
+        )
 
     print(f"Loaded {len(mappings['pokemon'])} pokemon mappings")
     print(f"Loaded {len(mappings['pokemon_abilities'])} Pokemon ability allow-lists")

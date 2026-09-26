@@ -1,6 +1,8 @@
 # Pokémon Champions Scraper
 
-Scrapes competitive battle metadata (usage stats, tier lists, rankings) from [Pikalytics](https://pikalytics.com) and outputs structured JSON for [Pocket-Gallery](https://github.com/eurekaffeine/Pocket-Gallery) mobile apps.
+Scrapes competitive battle metadata from [Pikalytics](https://pikalytics.com)
+and [MunchStats](https://munchstats.com) and outputs structured JSON for
+[Pocket-Gallery](https://github.com/eurekaffeine/Pocket-Gallery) mobile apps.
 
 ## 🎯 Live API
 
@@ -118,11 +120,19 @@ dated event embedded in the live response.
 
 ### Singles
 
-Singles uses the monthly Pokémon Showdown/Smogon statistics format
-`gen9championsbssregmb` at the 1760 rating cutoff. The ranking text supplies
-exact rank and weighted usage; the Chaos JSON supplies moves, items, abilities,
-spreads, and teammate percentages. The scraper selects the newest completed
-month for which both files are available.
+Singles uses MunchStats' nightly capture of Pokémon Champions' in-game Battle
+Data screens for Regulation M-C. It provides the official ladder order plus
+moves, items, abilities, teammates, natures, and stat-point spreads. Pokémon
+Champions exposes popularity as an ordinal rank rather than a percentage, so
+Singles publishes the real `rank` and keeps `usage_rate = 0.0` for compatibility
+with existing mobile decoders. Teammates likewise retain source ordering with
+`usage = 0.0`.
+
+MunchStats requests a 10-second crawl delay, which the scraper enforces. The
+doubles pipeline also performs one non-blocking MunchStats top-20 comparison as
+a supplementary sanity check; Pikalytics remains authoritative for doubles
+usage percentages. Canonical Pokédex data remains authoritative for ability
+legality in both formats.
 
 Singles is published additively under `/singles/`. The legacy root paths remain
 doubles so existing app versions continue to receive the same format.

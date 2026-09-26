@@ -311,6 +311,7 @@ class PikalyticsScraper(BaseScraper):
             pokemon.model_copy(update={"rank": position})
             for position, pokemon in enumerate(combined[:limit], start=1)
         ]
+        await self._audit_munchstats_rankings(rankings)
 
         logger.info(
             "Scraped %d asset-safe Pokemon from %d Pikalytics rows",
@@ -318,6 +319,58 @@ class PikalyticsScraper(BaseScraper):
             len(data),
         )
         return rankings
+
+    async def _audit_munchstats_rankings(
+        self, rankings: list[PokemonUsage]
+    ) -> None:
+        """Non-blocking in-game sanity check for the Pikalytics top meta.
+
+        MunchStats captures a different population, so disagreement never
+        rewrites Pikalytics percentages. A severe top-20 divergence is logged
+        for investigation while canonical Pokédex legality remains authoritative.
+        """
+        url = "https://munchstats.com/champions/doubles/"
+        try:
+            # One request per daily scrape; no repeated MunchStats crawl here.
+            markup = await self._safe_fetch(url, "MunchStats doubles audit")
+            if markup is None:
+                return
+            block = re.search(
+                r"window\.calcPokemonOptions\s*=\s*\[(.*?)\];",
+                markup,
+                re.DOTALL,
+            )
+            if not block:
+                raise ValueError("ranking list missing")
+            source_names = [
+                json.loads(f'"{raw_name}"')
+                for raw_name in re.findall(
+                    r'name:\s*"([^"]+)",\s*usage:\s*"#[0-9]+"',
+                    block.group(1),
+                )
+            ]
+            sample_size = min(20, len(rankings))
+            source_ids = {
+                resolve_pokemon_id(name) for name in source_names[:sample_size]
+            }
+            source_ids.discard(0)
+            published_ids = {pokemon.dex_id for pokemon in rankings[:sample_size]}
+            overlap = len(source_ids & published_ids)
+            minimum_overlap = max(1, int(sample_size * 0.75))
+            if overlap < minimum_overlap:
+                logger.warning(
+                    "MunchStats/Pikalytics top-%d divergence is high: %d shared",
+                    sample_size,
+                    overlap,
+                )
+            else:
+                logger.info(
+                    "MunchStats supplementary audit: %d/%d top Pokemon shared",
+                    overlap,
+                    sample_size,
+                )
+        except Exception as exc:
+            logger.warning("MunchStats supplementary audit unavailable: %s", exc)
 
     async def scrape_pokemon_detail(self, name: str) -> Optional[PokemonUsage]:
         """Scrape detailed stats for a single Pokemon using the AI markdown API."""
