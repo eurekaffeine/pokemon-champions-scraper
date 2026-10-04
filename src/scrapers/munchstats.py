@@ -277,13 +277,22 @@ class MunchStatsSinglesScraper(BaseScraper):
 
     async def scrape_pokemon_detail(self, name: str) -> Optional[PokemonUsage]:
         source_name = self._source_name_by_output_name.get(name, name)
-        markup = (
-            self._ranking_html
-            if source_name == "Salamence" and self._ranking_html is not None
-            else await self._fetch(self._pokemon_url(source_name))
-        )
+        # The landing page shows the current #1 Pokemon, not always Salamence.
+        # Fetch an explicit named URL so a rank change cannot substitute another
+        # Pokemon's build data or block the entire daily publication.
+        url = self._pokemon_url(source_name)
+        logger.info("Scraping details for %s from %s", name, url)
+        markup = await self._fetch(url)
         soup = self._parse_html(markup)
         dex_id = resolve_pokemon_id(name)
+        page_name = (
+            soup.title.get_text(" ", strip=True).partition(" | ")[0]
+            if soup.title else ""
+        )
+        if resolve_pokemon_id(page_name) != dex_id or dex_id <= 0:
+            raise ParseError(
+                f"MunchStats detail identity mismatch for {name}: page is {page_name!r}"
+            )
         abilities = self._parse_usage_section(
             soup, "Abilities", resolve_ability_id, AbilityUsage
         )
@@ -332,6 +341,7 @@ class MunchStatsSinglesScraper(BaseScraper):
                     else:
                         enriched.append(self._merge_pokemon_data(pokemon, detail))
                 except Exception as exc:
+                    logger.error("MunchStats detail failed for %s: %s", pokemon.name, exc)
                     failures.append(f"{pokemon.name}: {exc}")
 
             if failures:

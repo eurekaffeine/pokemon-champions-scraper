@@ -17,8 +17,8 @@ def ranking_markup(entries, captured="September 25, 2026 at 23:53 UTC"):
     )
 
 
-def detail_markup():
-    return """
+def detail_markup(name="Salamence"):
+    return f"<title>{name} | MunchStats | [Champions] In-Game Singles</title>" + """
     <h2>Moves</h2><div><ul>
       <li><span class="left-text">Double-Edge</span><span class="right-text">77.7%</span></li>
       <li><span class="left-text">Earthquake</span><span class="right-text">72.8%</span></li>
@@ -80,6 +80,73 @@ async def test_munchstats_detail_keeps_mobile_shapes(monkeypatch):
         (153, pytest.approx(0.009)),
     ]
     assert detail.top_teammates[0].usage == 0.0
+
+
+@pytest.mark.asyncio
+async def test_salamence_detail_does_not_reuse_new_number_one_page(monkeypatch):
+    scraper = MunchStatsSinglesScraper(request_delay_ms=0)
+    # Garchomp overtook Salamence on September 29. The landing page's Sand
+    # Veil/Rough Skin data must never be parsed as Salamence's build.
+    scraper._ranking_html = detail_markup("Garchomp").replace(
+        "Intimidate", "Sand Veil"
+    ).replace("Moxie", "Rough Skin")
+    fetched = []
+
+    async def fetch(url: str, retry_count: int = 0):
+        fetched.append(url)
+        return detail_markup()
+
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+    detail = await scraper.scrape_pokemon_detail("Salamence")
+    assert fetched == ["https://munchstats.com/champions/singles/Salamence"]
+    assert [entry.id for entry in detail.top_abilities] == [22, 153]
+
+
+@pytest.mark.asyncio
+@pytest.mark.parametrize("page_name", ["Staraptor", ""])
+async def test_detail_rejects_wrong_or_missing_page_identity(monkeypatch, page_name):
+    scraper = MunchStatsSinglesScraper(request_delay_ms=0)
+
+    async def fetch(url: str, retry_count: int = 0):
+        # Even a page containing legal Salamence abilities must match identity.
+        markup = detail_markup(page_name)
+        return markup if page_name else markup.replace(
+            "<title> | MunchStats | [Champions] In-Game Singles</title>", ""
+        )
+
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+    with pytest.raises(ParseError, match="detail identity mismatch"):
+        await scraper.scrape_pokemon_detail("Salamence")
+
+
+@pytest.mark.asyncio
+async def test_detail_still_rejects_illegal_abilities_on_correct_page(monkeypatch):
+    scraper = MunchStatsSinglesScraper(request_delay_ms=0)
+
+    async def fetch(url: str, retry_count: int = 0):
+        return detail_markup().replace("Moxie", "Rough Skin")
+
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+    with pytest.raises(ParseError, match="invalid abilities"):
+        await scraper.scrape_pokemon_detail("Salamence")
+
+
+@pytest.mark.asyncio
+async def test_detail_accepts_asset_equivalent_cosmetic_form(monkeypatch):
+    scraper = MunchStatsSinglesScraper(request_delay_ms=0)
+    scraper._source_name_by_output_name["Gourgeist"] = "Gourgeist-Super"
+    fetched = []
+
+    async def fetch(url: str, retry_count: int = 0):
+        fetched.append(url)
+        return detail_markup("Gourgeist-Super").replace(
+            "Intimidate", "Frisk"
+        ).replace("Moxie", "Insomnia")
+
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+    detail = await scraper.scrape_pokemon_detail("Gourgeist")
+    assert fetched == ["https://munchstats.com/champions/singles/Gourgeist-Super"]
+    assert detail.dex_id == 711
 
 
 @pytest.mark.asyncio

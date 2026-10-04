@@ -15,7 +15,7 @@ and [MunchStats](https://munchstats.com) and outputs structured JSON for
 ## Features
 
 - 📊 **~255 asset-safe Pokémon** from the Regulation M-C Showdown feed
-- 🔄 Weekly automated updates via GitHub Actions (Mondays 2 AM UTC)
+- 🔄 Daily automated updates via GitHub Actions (2 AM UTC)
 - 📱 JSON output optimized for mobile app consumption
 - 🏆 Complete competitive data: moves, items, abilities, teammates
 - 🔔 Optional Telegram notifications on scrape completion
