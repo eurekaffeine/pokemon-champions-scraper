@@ -29,7 +29,8 @@ permissions:
 
 concurrency:
   group: scrape-${{ github.ref }}
-  cancel-in-progress: true
+  # Finish publishing both hosts before a scheduled/manual run can replace it.
+  cancel-in-progress: false
 
 env:
   PYTHON_VERSION: '3.11'
