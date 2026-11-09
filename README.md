@@ -307,6 +307,10 @@ Some Pokémon have regional/mega forms with special IDs:
 
 Form variants without separate asset files (e.g., Vivillon-High Plains,
 Tatsugiri-Droopy, Sinistcha-Masterpiece, Maushold-Four) map to their base form ID.
+All nine Furfrou trims use `676`; Silvally's memory-dependent type forms use
+`773`. Source rows sharing an asset ID are aggregated before publication.
+Only recognized form names are aliased; unknown names still block publication
+so invalid IDs cannot reach the apps.
 
 ### Why form IDs, not National Dex numbers?
 

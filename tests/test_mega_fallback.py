@@ -80,3 +80,28 @@ def test_base_form_unaffected(resolver):
 )
 def test_mc_showdown_names_resolve_to_assets(resolver, source_name, expected):
     assert resolver.get_pokemon_id(source_name) == expected
+
+
+@pytest.mark.parametrize(
+    "trim",
+    ["Heart", "Star", "Diamond", "Debutante", "Matron", "Dandy", "La-Reine", "Kabuki", "Pharaoh"],
+)
+def test_furfrou_trims_share_the_base_asset(resolver, trim):
+    assert resolver.get_pokemon_id(f"Furfrou-{trim}") == 676
+
+
+@pytest.mark.parametrize(
+    "type_name",
+    [
+        "Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting",
+        "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost",
+        "Dragon", "Dark", "Steel", "Fairy",
+    ],
+)
+def test_silvally_types_share_the_base_asset(resolver, type_name):
+    assert resolver.get_pokemon_id(f"Silvally-{type_name}") == 773
+
+
+@pytest.mark.parametrize("name", ["Furfrou-Unknown", "Silvally-Unknown"])
+def test_unrecognized_forms_remain_unresolved(resolver, name):
+    assert resolver.get_pokemon_id(name) == 0

@@ -248,6 +248,58 @@ async def test_rankings_aggregate_asset_equivalent_forms(monkeypatch):
 
 
 @pytest.mark.asyncio
+async def test_november_forms_produce_asset_safe_output(monkeypatch, tmp_path):
+    scraper = PikalyticsScraper(request_delay_ms=0)
+    season = SeasonInfo(
+        "Regulation Set M-C", "gen9championsvgc2026regmc", "2026-11", "2026-05"
+    )
+    payload = [
+        {"name": "Furfrou", "percent": "0.10", "games": 318},
+        {"name": "Furfrou-Pharaoh", "percent": "0.00", "games": 6},
+        {"name": "Furfrou-Matron", "percent": "0.00", "games": 1},
+        {"name": "Silvally-Ghost", "percent": "0.00", "games": 2},
+    ]
+
+    async def fetch(url, retry_count=0):
+        return json.dumps(payload)
+
+    async def scrape_season():
+        return season
+
+    monkeypatch.setattr(scraper, "scrape_season", scrape_season)
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+    rankings = await scraper.scrape_rankings(limit=400)
+
+    assert [(p.name, p.dex_id, p.rank) for p in rankings] == [
+        ("Furfrou", 676, 1), ("Silvally-Ghost", 773, 2)
+    ]
+    assert rankings[0].usage_rate == pytest.approx(0.001)
+    assert rankings[1].usage_rate == 0.0
+    paths = write_pokemon_files(rankings, tmp_path)
+    assert {p.name for p in paths} == {"676.json", "773.json"}
+    assert json.loads((tmp_path / "pokemon" / "773.json").read_text())["dex_id"] == 773
+
+
+@pytest.mark.asyncio
+async def test_rankings_still_reject_unknown_forms(monkeypatch):
+    scraper = PikalyticsScraper(request_delay_ms=0)
+    season = SeasonInfo(
+        "Regulation Set M-C", "gen9championsvgc2026regmc", "2026-11", "2026-05"
+    )
+
+    async def fetch(url, retry_count=0):
+        return json.dumps([{"name": "Silvally-Unknown", "percent": "0.00"}])
+
+    async def scrape_season():
+        return season
+
+    monkeypatch.setattr(scraper, "scrape_season", scrape_season)
+    monkeypatch.setattr(scraper, "_fetch", fetch)
+    with pytest.raises(ParseError, match="Unresolved Pikalytics Pokémon names: Silvally-Unknown"):
+        await scraper.scrape_rankings()
+
+
+@pytest.mark.asyncio
 async def test_rankings_discard_impossible_species_abilities(monkeypatch):
     scraper = PikalyticsScraper(request_delay_ms=0)
     season = SeasonInfo(
